@@ -1,0 +1,6 @@
+{
+  "projection_samples_verified": 11,
+  "metric_samples_verified": 11,
+  "disaster_inventory_pairs": 2714,
+  "profile": "/root/DroneVisCrt/configs/skydiffusion_disaster_diagnostic.json"
+}

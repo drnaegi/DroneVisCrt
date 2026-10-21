@@ -1,0 +1,1788 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 34,
+    "items": [
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              12
+            ]
+          ]
+        },
+        "DOI": "10.1007/s41095-022-0301-9",
+        "title": [
+          "STATE: Learning structure and texture representations for novel view synthesis"
+        ],
+        "author": [
+          {
+            "given": "Xinyi",
+            "family": "Jing",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "College of Intelligence and Computing, Tianjin University, Tianjin 300350, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Qiao",
+            "family": "Feng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Intelligence and Computing, Tianjin University, Tianjin 300350, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yu-Kun",
+            "family": "Lai",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Informatics, Cardiff University, Cardiff CF24 4AG, UK"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Jinsong",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Intelligence and Computing, Tianjin University, Tianjin 300350, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yuanqiang",
+            "family": "Yu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Intelligence and Computing, Tianjin University, Tianjin 300350, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Kun",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Intelligence and Computing, Tianjin University, Tianjin 300350, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computational Visual Media"
+        ],
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s41095-022-0301-9.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s41095-022-0301-9/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s41095-022-0301-9.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          },
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/10750449/10897724/10897732.pdf?arnumber=10897732",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s41095-022-0301-9",
+        "ISSN": [
+          "2096-0662",
+          "2096-0433"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              12
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              10
+            ]
+          ]
+        },
+        "DOI": "10.26599/cvm.2025.9450405",
+        "title": [
+          "FRNeRF: Fusion and Regularization Fields for Dynamic View Synthesis"
+        ],
+        "author": [
+          {
+            "given": "Xinyi",
+            "family": "Jing",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "College of Intelligence and Computing, Tianjin University,Tianjin,China,300350"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Tao",
+            "family": "Yu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Intelligence and Computing, Tianjin University,Tianjin,China,300350"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Renyuan",
+            "family": "He",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Intelligence and Computing, Tianjin University,Tianjin,China,300350"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yu-Kun",
+            "family": "Lai",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Informatics, Cardiff University,Cardiff,UK,CF24 4AG"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Kun",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Intelligence and Computing, Tianjin University,Tianjin,China,300350"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computational Visual Media"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/10750449/11230308/11077902.pdf?arnumber=11077902",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.26599/cvm.2025.9450405",
+        "ISSN": [
+          "2096-0662",
+          "2096-0433"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              10
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              12
+            ]
+          ]
+        },
+        "DOI": "10.1007/s41095-019-0159-7",
+        "title": [
+          "Reconstructing piecewise planar scenes with multi-view regularization"
+        ],
+        "author": [
+          {
+            "given": "Weijie",
+            "family": "Xi",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "University of Science and Technology of China, Hefei, 230026, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Xuejin",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Science and Technology of China, Hefei, 230026, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computational Visual Media"
+        ],
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/s41095-019-0159-7.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://link.springer.com/article/10.1007/s41095-019-0159-7/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/s41095-019-0159-7.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          },
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/10750449/10897867/10897870.pdf?arnumber=10897870",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s41095-019-0159-7",
+        "ISSN": [
+          "2096-0662",
+          "2096-0433"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              12
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              2
+            ]
+          ]
+        },
+        "DOI": "10.1007/s41095-023-0334-8",
+        "title": [
+          "A unified multi-view multi-person tracking framework"
+        ],
+        "author": [
+          {
+            "given": "Fan",
+            "family": "Yang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Fujitsu Research, Japan"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Shigeyuki",
+            "family": "Odashima",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Fujitsu Research, Japan"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Sosuke",
+            "family": "Yamao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Fujitsu Research, Japan"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hiroaki",
+            "family": "Fujimoto",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Fujitsu Research, Japan"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Shoichi",
+            "family": "Masui",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Fujitsu Research, Japan"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Shan",
+            "family": "Jiang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Fujitsu Research, Japan"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computational Visual Media"
+        ],
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s41095-023-0334-8.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s41095-023-0334-8/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s41095-023-0334-8.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          },
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/10750449/10897668/10897678.pdf?arnumber=10897678",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s41095-023-0334-8",
+        "ISSN": [
+          "2096-0662",
+          "2096-0433"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              6
+            ]
+          ]
+        },
+        "DOI": "10.1007/s41095-017-0078-4",
+        "title": [
+          "View suggestion for interactive segmentation of indoor scenes"
+        ],
+        "author": [
+          {
+            "given": "Sheng",
+            "family": "Yang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Tsinghua University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Jie",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Massachusetts Institute of Technology, Cambridge, USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Kang",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Tsinghua University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Hongbo",
+            "family": "Fu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "City University of Hong Kong, Hong Kong, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computational Visual Media"
+        ],
+        "link": [
+          {
+            "URL": "http://link.springer.com/article/10.1007/s41095-017-0078-4/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/s41095-017-0078-4.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/s41095-017-0078-4.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          },
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/10750449/10897509/10897513.pdf?arnumber=10897513",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s41095-017-0078-4",
+        "ISSN": [
+          "2096-0662",
+          "2096-0433"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              6
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              12
+            ]
+          ]
+        },
+        "DOI": "10.1007/s41095-021-0215-y",
+        "title": [
+          "Real-time face view correction for front-facing cameras"
+        ],
+        "author": [
+          {
+            "given": "Yudong",
+            "family": "Guo",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "University of Science and Technology of China, Hefei 230026, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Juyong",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Science and Technology of China, Hefei 230026, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yihua",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Science and Technology of China, Hefei 230026, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hongrui",
+            "family": "Cai",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Science and Technology of China, Hefei 230026, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zhangjin",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Science and Technology of China, Hefei 230026, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Bailin",
+            "family": "Deng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Informatics, Cardiff University, Cardiff, Wales, UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computational Visual Media"
+        ],
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s41095-021-0215-y.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s41095-021-0215-y/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s41095-021-0215-y.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          },
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/10750449/10897518/10897521.pdf?arnumber=10897521",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s41095-021-0215-y",
+        "ISSN": [
+          "2096-0662",
+          "2096-0433"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              12
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              12
+            ]
+          ]
+        },
+        "DOI": "10.1007/s41095-022-0297-1",
+        "title": [
+          "Light field super-resolution using complementary-view feature attention"
+        ],
+        "author": [
+          {
+            "given": "Wei",
+            "family": "Zhang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Faculty of Applied Sciences, Macao Polytechnic University, Macao SAR 999078, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wei",
+            "family": "Ke",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Faculty of Applied Sciences, Macao Polytechnic University, Macao SAR 999078, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Da",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Software Development Environment, School of Computer Science and Engineering, Beihang University, Beijing 100191, China, and Beihang Hangzhou Innovation Institute Yuhang, Xixi Octagon City, Yuhang District, Hangzhou 310023, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hao",
+            "family": "Sheng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Faculty of Applied Sciences, Macao Polytechnic University, Macao SAR 999078, China; State Key Laboratory of Software Development Environment, School of Computer Science and Engineering, Beihang University, Beijing 100191, China, and Beihang Hangzhou Innovation Institute Yuhang, Xixi Octagon City, Yuhang District, Hangzhou 310023, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zhang",
+            "family": "Xiong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Faculty of Applied Sciences, Macao Polytechnic University, Macao SAR 999078, China; State Key Laboratory of Software Development Environment, School of Computer Science and Engineering, Beihang University, Beijing 100191, China, and Beihang Hangzhou Innovation Institute Yuhang, Xixi Octagon City, Yuhang District, Hangzhou 310023, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computational Visual Media"
+        ],
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s41095-022-0297-1.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s41095-022-0297-1/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s41095-022-0297-1.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          },
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/10750449/10897724/10897736.pdf?arnumber=10897736",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s41095-022-0297-1",
+        "ISSN": [
+          "2096-0662",
+          "2096-0433"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              12
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              10
+            ]
+          ]
+        },
+        "DOI": "10.26599/cvm.2025.9450472",
+        "title": [
+          "Uncertainty Aware Multiple View Stereo Network with Accurate Supervision"
+        ],
+        "author": [
+          {
+            "given": "Xincheng",
+            "family": "Tang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Intelligence Science and Technology, University of Science and Technology Beijing,Beijing,China,100083"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mengqi",
+            "family": "Rong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Automation, Chinese Academy of Sciences,Beijing,China,100190"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Bin",
+            "family": "Fan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Intelligence Science and Technology, University of Science and Technology Beijing,Beijing,China,100083"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hongmin",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Intelligence Science and Technology, University of Science and Technology Beijing,Beijing,China,100083"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Shuhan",
+            "family": "Shen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Automation, Chinese Academy of Sciences,Beijing,China,100190"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computational Visual Media"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/10750449/11230308/11184712.pdf?arnumber=11184712",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.26599/cvm.2025.9450472",
+        "ISSN": [
+          "2096-0662",
+          "2096-0433"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              10
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "DOI": "10.26599/cvm.2025.9450528",
+        "title": [
+          "CrossView-GS: Gaussian splatting for cross-view scene reconstruction"
+        ],
+        "author": [
+          {
+            "given": "Chenhao",
+            "family": "Zhang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yuanping",
+            "family": "Cao",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Lei",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computational Visual Media"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/10750449/10901938/11735345.pdf?arnumber=11735345",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.26599/cvm.2025.9450528",
+        "ISSN": [
+          "2096-0662",
+          "2096-0433"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              6
+            ]
+          ]
+        },
+        "DOI": "10.1007/s41095-016-0044-6",
+        "title": [
+          "Learning multi-kernel multi-view canonical correlations for image recognition"
+        ],
+        "author": [
+          {
+            "given": "Yun-Hao",
+            "family": "Yuan",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, College of Information Engineering, Yangzhou University, Yangzhou 225127, China; Department of Computer Science, Jiangnan University, Wuxi 214122, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yun",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, College of Information Engineering, Yangzhou University, Yangzhou 225127, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Jianjun",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, Jiangnan University, Wuxi 214122, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Chao-Feng",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, Jiangnan University, Wuxi 214122, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Xiao-Bo",
+            "family": "Shen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science, Nanjing University of Science and Technology, Nanjing 210094, China; School of Information Technology and Electrical Engineering, the University of Queensland, Brisbane QLD 4072, Australia"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Guoqing",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science, Nanjing University of Science and Technology, Nanjing 210094, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Quan-Sen",
+            "family": "Sun",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science, Nanjing University of Science and Technology, Nanjing 210094, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computational Visual Media"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/10750449/10897436/10897442.pdf?arnumber=10897442",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s41095-016-0044-6",
+        "ISSN": [
+          "2096-0662",
+          "2096-0433"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              6
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              12
+            ]
+          ]
+        },
+        "DOI": "10.1007/s41095-019-0150-3",
+        "title": [
+          "Practical BRDF reconstruction using reliable geometric regions from multi-view stereo"
+        ],
+        "author": [
+          {
+            "given": "Taishi",
+            "family": "Ono",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hiroyuki",
+            "family": "Kubo",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Kenichiro",
+            "family": "Tanaka",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Takuya",
+            "family": "Funatomi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yasuhiro",
+            "family": "Mukaigawa",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              8,
+              22
+            ]
+          ]
+        },
+        "container-title": [
+          "Computational Visual Media"
+        ],
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/s41095-019-0150-3.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://link.springer.com/article/10.1007/s41095-019-0150-3/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/s41095-019-0150-3.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s41095-019-0150-3",
+        "ISSN": [
+          "2096-0433",
+          "2096-0662"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              8,
+              22
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              6
+            ]
+          ]
+        },
+        "DOI": "10.26599/cvm.2025.9450455",
+        "title": [
+          "Multi-View Weakly-Supervised 3D Human Pose Estimation via Human Body Segmentation"
+        ],
+        "author": [
+          {
+            "given": "Siyuan",
+            "family": "Bei",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Electronic Science and Engineering, Nanjing University,Nanjing,China,210046"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yu",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronic Science and Engineering, Nanjing University,Nanjing,China,210046"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yao",
+            "family": "Yu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronic Science and Engineering, Nanjing University,Nanjing,China,210046"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Sidan",
+            "family": "Du",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronic Science and Engineering, Nanjing University,Nanjing,China,210046"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computational Visual Media"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/10750449/11534440/11456373.pdf?arnumber=11456373",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.26599/cvm.2025.9450455",
+        "ISSN": [
+          "2096-0662",
+          "2096-0433"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              6
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              6
+            ]
+          ]
+        },
+        "DOI": "10.1007/s41095-020-0171-y",
+        "title": [
+          "3D hypothesis clustering for cross-view matching in multi-person motion capture"
+        ],
+        "author": [
+          {
+            "given": "Miaopeng",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "State Key Lab of CAD&#x0026;CG, Zhejiang University, Hangzhou 310058, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Zimeng",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Lab of CAD&#x0026;CG, Zhejiang University, Hangzhou 310058, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Xinguo",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Lab of CAD&#x0026;CG, Zhejiang University, Hangzhou 310058, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computational Visual Media"
+        ],
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s41095-020-0171-y.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s41095-020-0171-y/fulltext.html",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s41095-020-0171-y.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          },
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/10750449/10897466/10897470.pdf?arnumber=10897470",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1007/s41095-020-0171-y",
+        "ISSN": [
+          "2096-0662",
+          "2096-0433"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              6
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              4
+            ]
+          ]
+        },
+        "DOI": "10.26599/cvm.2025.9450508",
+        "title": [
+          "EG-HumanNeRF: Efficient Generalizable Human NeRF Utilizing Human Prior for Sparse View"
+        ],
+        "author": [
+          {
+            "given": "Zhaorong",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Graduate School of Science and Technology, University of Tsukuba,Ibaraki,Japan,305-8577"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yoshihiro",
+            "family": "Kanamori",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Graduate School of Science and Technology, University of Tsukuba,Ibaraki,Japan,305-8577"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yuki",
+            "family": "Endo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Graduate School of Science and Technology, University of Tsukuba,Ibaraki,Japan,305-8577"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computational Visual Media"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/10750449/11435620/11373444.pdf?arnumber=11373444",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.26599/cvm.2025.9450508",
+        "ISSN": [
+          "2096-0662",
+          "2096-0433"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              4
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "DOI": "10.26599/cvm.2025.9450524",
+        "title": [
+          "Reference-guided Gaussian splatting for realistic and view-consistent 3D scene inpainting"
+        ],
+        "author": [
+          {
+            "given": "Ji Hyun",
+            "family": "Seo",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Byounhyun",
+            "family": "Yoo",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Gerard Jounghyun",
+            "family": "Kim",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computational Visual Media"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/10750449/10901938/11677372.pdf?arnumber=11677372",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.26599/cvm.2025.9450524",
+        "ISSN": [
+          "2096-0662",
+          "2096-0433"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 15,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

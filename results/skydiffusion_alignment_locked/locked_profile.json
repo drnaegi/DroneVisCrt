@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "task": "G2A-3/Disaster",
+  "dataset": "G2A-3",
+  "scope": "locked diagnostic profile, NOT the official Disaster benchmark",
+  "checkpoint": {
+    "path": "checkpoints/SkyDiffusion/CVACT_Skydiffusion.ckpt",
+    "bytes": 12811886329,
+    "sha256": "a9108a3394fe127ae7cde9a75019b34ea11da9d3375a51efb4236200bbedfc6a",
+    "source": "SkyDiff1109/SkyDiffusion_ckpt",
+    "revision": "31b574c1750cc6bb8e285d566b381a0946db9ee2",
+    "training_task": "CVACT",
+    "official_historical_link_confirmed": true,
+    "paper_benchmark_verified": false,
+    "provenance": "https://github.com/opendatalab/skydiffusion/blob/e3ef0b6da5f46875ba24bedf355937daf23518ba/README.md"
+  },
+  "inputs": {
+    "manifest": "datasets/G2A-3/disaster_smoke/pairs.tsv",
+    "manifest_sha256": "6943675069d2f936e4bf02c209d1556fe0e3d76784621497aef9ddf40520013e",
+    "purpose": "random 8-pair diagnostic subset, selection seed=42",
+    "split_status": "not_published_in_audited_sources",
+    "train_ids": null,
+    "test_ids": null
+  },
+  "projection": {
+    "meter_per_pixel": 0.06,
+    "camera_height": -1.5,
+    "curve_height": 3.0,
+    "north_offset_deg": 0.0,
+    "panorama_height": 512,
+    "panorama_width": 1024,
+    "paper_parameters_verified": false
+  },
+  "sampling": {
+    "steps": 50,
+    "guidance": 9.0,
+    "seed": 42,
+    "count": 8,
+    "prompt": "",
+    "negative_prompt": "",
+    "precision": "fp32",
+    "quantization": "round"
+  },
+  "evaluation": {
+    "profile": "upstream",
+    "reference": "target",
+    "lpips_net": "alex",
+    "fid": "not_computed",
+    "paper_protocol_verified": false
+  },
+  "official_code_commit": "461ccc2fff11882d48f5ab62cae65eef5c45c647",
+  "local_patch_sha256": "4c16e6a767c9a1b44c507e8f467dedb77097d0e07ce158dfdd868603d529c739",
+  "local_code_sha256": {
+    "code/skydiffusion/skydiffusion_test.py": "8bbc2ba309c9c53d078c3bd4e4548b1df9d92a5132823e64fb9667ec4899e4e1",
+    "code/skydiffusion/cruvedbev.py": "2cf444c2f0d145670c88376bfe1b1ad692a4956f34bdb62ef71bc505bdc576ad",
+    "code/skydiffusion/ldm/modules/encoders/modules.py": "142b4714e361404dbf1c2e640f10977cbb0200e1dde89c75aeae618b12da5b1d",
+    "code/skydiffusion/models/lacldm_v15.yaml": "73546811b02a2cb11e8ee1bbbf5bf297b24624979fb66a05075b651d4beba9a6",
+    "code/skydiffusion/cldm/cldm.py": "87cb99e9df5fb3b6b96853418b437c88979dad5adb5133cf61da4f5823dbcda7",
+    "code/skydiffusion/cldm/logger.py": "885d1432bd7352ac0103e2c82c87110b77498f6d0496be7818c32766cac9436a",
+    "code/skydiffusion/skydiffusion_dataset.py": "13b61ac91c40d25c91d9430184147d338bf9cb576951564c6f094bb5b5753e58",
+    "code/skydiffusion/ldm/models/diffusion/ddim.py": "dcca2fc906fe73986f8708acb20b96313e05057e2843621bdc90bef33a92ee05",
+    "tools/run_skydiffusion.py": "494f76fa50a96e69023d27c34526630b41816738129238de73c93799516a47a8",
+    "tools/evaluate_skydiffusion.py": "28963bc1a7039edf13b7991823df46aeaf890cc3aab529532d05c5c0f0b92193",
+    "tools/skydiffusion_preflight.py": "84b6ea4675e47aa5f3b659c7dbeea6290eb4d65dc1b78d244506e9c7fe86775e"
+  }
+}

@@ -1,0 +1,1165 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 641,
+    "items": [
+      {
+        "DOI": "10.1109/tvcg.2024.3456157",
+        "title": [
+          "Scene-aware Foveated Rendering"
+        ],
+        "container-title": [
+          "IEEE Transactions on Visualization and Computer Graphics"
+        ],
+        "ISSN": [
+          "1077-2626",
+          "1941-0506",
+          "2160-9306"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              11
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              11
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Runze",
+            "family": "Fan",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Virtual Reality Technology and Systems, Beihang University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xuehuai",
+            "family": "Shi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nanjing University of Posts and Telecommunications, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1105-8542",
+            "authenticated-orcid": false,
+            "given": "Kangyu",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Virtual Reality Technology and Systems, Beihang University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Qixiang",
+            "family": "Ma",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Virtual Reality Technology and Systems, Beihang University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Lili",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Virtual Reality Technology and Systems, Beihang University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tvcg.2009.142",
+        "title": [
+          "Exploring the Millennium Run - Scalable Rendering of Large-Scale Cosmological Datasets"
+        ],
+        "container-title": [
+          "IEEE Transactions on Visualization and Computer Graphics"
+        ],
+        "ISSN": [
+          "1077-2626"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2009,
+              11
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2009,
+              11
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "R.",
+            "family": "Fraedrich",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "J.",
+            "family": "Schneider",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "R.",
+            "family": "Westermann",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tvcg.2026.3691600",
+        "title": [
+          "Efficient Large-Scale Scene Reconstruction via Semantic-Aware Hybrid Representation"
+        ],
+        "container-title": [
+          "IEEE Transactions on Visualization and Computer Graphics"
+        ],
+        "ISSN": [
+          "1077-2626",
+          "1941-0506",
+          "2160-9306"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              7
+            ]
+          ]
+        },
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0004-4763-0787",
+            "authenticated-orcid": false,
+            "given": "Husen",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Mathematical Sciences, University of Science and Technology of China, Hefei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jingyu",
+            "family": "Lin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Mathematical Sciences, University of Science and Technology of China, Hefei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4788-9594",
+            "authenticated-orcid": false,
+            "given": "Yudong",
+            "family": "Guo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Mathematical Sciences, University of Science and Technology of China, Hefei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8395-4392",
+            "authenticated-orcid": false,
+            "given": "Renjie",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Mathematical Sciences, University of Science and Technology of China, Hefei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tvcg.2020.2973058",
+        "title": [
+          "Scene-Aware Audio Rendering via Deep Acoustic Analysis"
+        ],
+        "container-title": [
+          "IEEE Transactions on Visualization and Computer Graphics"
+        ],
+        "ISSN": [
+          "1077-2626",
+          "1941-0506",
+          "2160-9306"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              5
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              5
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Zhenyu",
+            "family": "Tang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Nicholas J.",
+            "family": "Bryan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Dingzeyu",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Timothy R.",
+            "family": "Langlois",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Dinesh",
+            "family": "Manocha",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tvcg.2017.2744238",
+        "title": [
+          "<i>SparseLeap</i>: Efficient Empty Space Skipping for Large-Scale Volume Rendering"
+        ],
+        "container-title": [
+          "IEEE Transactions on Visualization and Computer Graphics"
+        ],
+        "ISSN": [
+          "1077-2626",
+          "1941-0506",
+          "2160-9306"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              1
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Markus",
+            "family": "Hadwiger",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ali K.",
+            "family": "Al-Awami",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Johanna",
+            "family": "Beyer",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Marco",
+            "family": "Agus",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hanspeter",
+            "family": "Pfister",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tvcg.2023.3327194",
+        "title": [
+          "Adaptively Placed Multi-Grid Scene Representation Networks for Large-Scale Data Visualization"
+        ],
+        "container-title": [
+          "IEEE Transactions on Visualization and Computer Graphics"
+        ],
+        "ISSN": [
+          "1077-2626",
+          "1941-0506",
+          "2160-9306"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              1
+            ]
+          ]
+        },
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-6685-615X",
+            "authenticated-orcid": false,
+            "given": "Skylar W.",
+            "family": "Wurster",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "The Ohio State University, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Tianyu",
+            "family": "Xiong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "The Ohio State University, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Han-Wei",
+            "family": "Shen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "The Ohio State University, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7776-1834",
+            "authenticated-orcid": false,
+            "given": "Hanqi",
+            "family": "Guo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "The Ohio State University, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Tom",
+            "family": "Peterka",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "The Ohio State University, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tvcg.2021.3067768",
+        "title": [
+          "Instant Panoramic Texture Mapping with Semantic Object Matching for Large-Scale Urban Scene Reproduction"
+        ],
+        "container-title": [
+          "IEEE Transactions on Visualization and Computer Graphics"
+        ],
+        "ISSN": [
+          "1077-2626",
+          "1941-0506",
+          "2160-9306"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              5
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              5
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Jinwoo",
+            "family": "Park",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ik-Beom",
+            "family": "Jeon",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Sung-Eui",
+            "family": "Yoon",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Woontack",
+            "family": "Woo",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tvcg.2006.171",
+        "title": [
+          "Progressive Volume Rendering of Large Unstructured Grids"
+        ],
+        "container-title": [
+          "IEEE Transactions on Visualization and Computer Graphics"
+        ],
+        "ISSN": [
+          "1077-2626"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2006,
+              9
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2006,
+              9
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Steven P.",
+            "family": "Callahan",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Louis",
+            "family": "Bavoil",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Valerio",
+            "family": "Pascucci",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Claudio T.",
+            "family": "Silva",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tvcg.2005.82",
+        "title": [
+          "Interactive Transparency Rendering for Large CAD Models"
+        ],
+        "container-title": [
+          "IEEE Transactions on Visualization and Computer Graphics"
+        ],
+        "ISSN": [
+          "1077-2626"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2005,
+              9
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2005,
+              9
+            ]
+          ]
+        },
+        "author": [
+          {
+            "family": "Jianbing Huang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "M.B.",
+            "family": "Carter",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tvcg.2026.3672120",
+        "title": [
+          "Gaussian Mixture Model-Based Splatting for Rapid Rendering and Time Series Analysis of Large-Scale Particle Data"
+        ],
+        "container-title": [
+          "IEEE Transactions on Visualization and Computer Graphics"
+        ],
+        "ISSN": [
+          "1077-2626",
+          "1941-0506",
+          "2160-9306"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              7
+            ]
+          ]
+        },
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0005-1707-8941",
+            "authenticated-orcid": false,
+            "given": "Ruixiao",
+            "family": "Peng",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Computer Network Information Center, Chinese Academy of Sciences, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6436-3650",
+            "authenticated-orcid": false,
+            "given": "Guan",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Computer Network Information Center, Chinese Academy of Sciences, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zhe",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Computer Network Information Center, Chinese Academy of Sciences, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2353-6567",
+            "authenticated-orcid": false,
+            "given": "Yu",
+            "family": "Dong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Computer Network Information Center, Chinese Academy of Sciences, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8101-8293",
+            "authenticated-orcid": false,
+            "given": "Tianchi",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Beijing Planetarium, Beijing Academy of Science and Technology, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0004-0154-5704",
+            "authenticated-orcid": false,
+            "given": "Xuyi",
+            "family": "Lu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Computer Network Information Center, Chinese Academy of Sciences, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yifei",
+            "family": "Jia",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Computer Network Information Center, Chinese Academy of Sciences, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8283-2278",
+            "authenticated-orcid": false,
+            "given": "Guihua",
+            "family": "Shan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Computer Network Information Center, Chinese Academy of Sciences, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6898-8973",
+            "authenticated-orcid": false,
+            "given": "Dong",
+            "family": "Tian",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Computer Network Information Center, Chinese Academy of Sciences, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tvcg.2012.238",
+        "title": [
+          "Interactive Level-of-Detail Rendering of Large Graphs"
+        ],
+        "container-title": [
+          "IEEE Transactions on Visualization and Computer Graphics"
+        ],
+        "ISSN": [
+          "1077-2626"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2012,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2012,
+              12
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "M.",
+            "family": "Zinsmaier",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "U.",
+            "family": "Brandes",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "O.",
+            "family": "Deussen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "H.",
+            "family": "Strobelt",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tvcg.2018.2828422",
+        "title": [
+          "Fast Ray-Scene Intersection for Interactive Shadow Rendering with Thousands of Dynamic Lights"
+        ],
+        "container-title": [
+          "IEEE Transactions on Visualization and Computer Graphics"
+        ],
+        "ISSN": [
+          "1077-2626",
+          "1941-0506",
+          "2160-9306"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              6,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              6,
+              1
+            ]
+          ]
+        },
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-1105-8542",
+            "authenticated-orcid": false,
+            "given": "Lili",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5594-1519",
+            "authenticated-orcid": false,
+            "given": "Xinglun",
+            "family": "Liang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Chunlei",
+            "family": "Meng",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8767-8724",
+            "authenticated-orcid": false,
+            "given": "Voicu",
+            "family": "Popescu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "items-per-page": 12,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

@@ -1,0 +1,2086 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 516,
+    "items": [
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              11,
+              30
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Novel view synthesis aims to generate novel views from one or more given source views. Although existing methods have achieved promising performance, they usually require paired views with different poses to learn a pixel transformation. This article proposes an unsupervised network to learn such a pixel transformation from a single source image. In particular, the network consists of a token transformation module that facilities the transformation of the features extracted from a source image into an intrinsic representation with respect to a pre-defined reference pose and a view generation module that synthesizes an arbitrary view from the representation. The learned transformation allows us to synthesize a novel view from any single source image of an unknown pose. Experiments on the widely used view synthesis datasets have demonstrated that the proposed network is able to produce comparable results to the state-of-the-art methods despite the fact that learning is unsupervised and only a single source image is required for generating a novel view. The code will be available upon the acceptance of the article.</jats:p>",
+        "DOI": "10.1145/3587467",
+        "title": [
+          "Novel View Synthesis from a Single Unposed Image via Unsupervised Learning"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-6949-4147",
+            "authenticated-orcid": false,
+            "given": "Bingzheng",
+            "family": "Liu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Electrical and Information Engineering, Tianjin University, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3171-7680",
+            "authenticated-orcid": false,
+            "given": "Jianjun",
+            "family": "Lei",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electrical and Information Engineering, Tianjin University, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6932-0622",
+            "authenticated-orcid": false,
+            "given": "Bo",
+            "family": "Peng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electrical and Information Engineering, Tianjin University, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0929-9224",
+            "authenticated-orcid": false,
+            "given": "Chuanbo",
+            "family": "Yu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electrical and Information Engineering, Tianjin University, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4427-2687",
+            "authenticated-orcid": false,
+            "given": "Wanqing",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Advanced Multimedia Research Lab, University of Wollongong, Australia"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5741-7937",
+            "authenticated-orcid": false,
+            "given": "Nam",
+            "family": "Ling",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Engineering, Santa Clara University, USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              31
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3587467",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3587467",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3587467",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              31
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              11,
+              30
+            ]
+          ]
+        },
+        "abstract": "<jats:p>In three-dimensional (3D) medical image segmentation, it is still a great challenge to obtain the multidimensional feature information contained in voxel images using a single view for smaller segmentation targets, and the robustness of models obtained by relying solely on segmentation networks needs to be enhanced. In this article, we propose a three-view contextual cross-slice difference 3D segmentation adversarial network, in which three-view contextual cross-slice difference decoding blocks are introduced to improve the segmentation decoder’s ability to perceive edge feature information. Meanwhile, dense skip connections are used to alleviate the problem that a large amount of shallow feature information is lost in encoding and insufficient information provided by a single long skip connection during image reconstruction. The adversarial network improves the performance of the segmentation network by distinguishing true or false for each patch of the predicted image. Further, the robustness of the segmentation model is improved in the form of adversarial training. We evaluate our model on the publicly available brain tumor BraTS2019 dataset as well as the ADNI1 dataset and achieve optimal results compared to recent excellent models.</jats:p>",
+        "DOI": "10.1145/3592614",
+        "title": [
+          "3V3D: Three-View Contextual Cross-slice Difference Three-dimensional Medical Image Segmentation Adversarial Network"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-5892-2372",
+            "authenticated-orcid": false,
+            "given": "Xianhua",
+            "family": "Zeng",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "College of Computer Science and Technology, Chongqing University of Posts and Telecommunications, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1859-476X",
+            "authenticated-orcid": false,
+            "given": "Saiyuan",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Computer Science and Technology, Chongqing University of Posts and Telecommunications, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2877-867X",
+            "authenticated-orcid": false,
+            "given": "Yicai",
+            "family": "Xie",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Computer Science and Technology, Chongqing University of Posts and Telecommunications, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0000-4256-1840",
+            "authenticated-orcid": false,
+            "given": "Tianxing",
+            "family": "Liao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Computer Science and Technology, Chongqing University of Posts and Telecommunications, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              12
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3592614",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3592614",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3592614",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              12
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              8,
+              24
+            ]
+          ]
+        },
+        "abstract": "<jats:p>With the huge advance in Internet technology as well as the availability of low-cost 3D display devices, 3D image transmission has become popular in recent times. Since watermarking has become regarded as a potential Digital Rights Management (DRM) tools in the past decade, 3D image watermarking is an emerging research topic. With the introduction of the Depth Image-Based Rendering (DIBR) technique, 3D image watermarking is a more challenging task, especially for synthetic view generation. In this article, synthetic view generation is regarded as a potential attack, and a blind watermarking scheme is proposed that can resist it. In the proposed scheme, the watermark is embedded into the low-pass filtered dependent view region of 3D images. Block Discrete Cosine Transformation (DCT) is used for spatial-filtration of the dependent view region to find the DC coefficient with horizontally shifted coherent regions from the left and right view to make the scheme robust against synthesis view attack. A comprehensive set of experiments have been carried out to justify the robustness of the proposed scheme over related existing schemes with respect to Stereo JPEG compression and different noise addition attacks.</jats:p>",
+        "DOI": "10.1145/2957751",
+        "title": [
+          "Depth-Based View-Invariant Blind 3D Image Watermarking"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-8372-5669",
+            "authenticated-orcid": false,
+            "given": "Shuvendu",
+            "family": "Rana",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Indian Institute of Technology Guwahati, Assam, India"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Arijit",
+            "family": "Sur",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Indian Institute of Technology Guwahati, Assam, India"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2016,
+              8,
+              3
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/2957751",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/2957751",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/2957751",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              8,
+              3
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              31
+            ]
+          ]
+        },
+        "abstract": "<jats:p>The objective of multi-domain image-to-image translation is to learn the mapping from a source domain to a target domain in multiple image domains while preserving the content representation of the source domain. Despite the importance and recent efforts, most previous studies disregard the large style discrepancy between images and instances in various domains, or fail to capture instance details and boundaries properly, resulting in poor translation results for rich scenes. To address these problems, we present an effective architecture for multi-domain image-to-image translation that only requires one generator. Specifically, we provide detailed procedures for capturing the features of instances throughout the learning process, as well as learning the relationship between the style of the global image and that of a local instance in the image by enforcing the cross-granularity consistency. In order to capture local details within the content space, we employ a dual contrastive learning strategy that operates at both the instance and patch levels. Extensive studies on different multi-domain image-to-image translation datasets reveal that our proposed method outperforms state-of-the-art approaches.</jats:p>",
+        "DOI": "10.1145/3656048",
+        "title": [
+          "Multi-Domain Image-to-Image Translation with Cross-Granularity Contrastive Learning"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-5276-4366",
+            "authenticated-orcid": false,
+            "given": "Huiyuan",
+            "family": "Fu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Beijing University of Posts and Telecommunications, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0008-5078-3302",
+            "authenticated-orcid": false,
+            "given": "Jin",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Beijing University of Posts and Telecommunications, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0006-2434-9137",
+            "authenticated-orcid": false,
+            "given": "Ting",
+            "family": "Yu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Beijing University of Posts and Telecommunications, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8639-3818",
+            "authenticated-orcid": false,
+            "given": "Xin",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Stony Brook University, Stony Brook, United States"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7199-5047",
+            "authenticated-orcid": false,
+            "given": "Huadong",
+            "family": "Ma",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Beijing University of Posts and Telecommunications, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              16
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3656048",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3656048",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3656048",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              16
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              5,
+              31
+            ]
+          ]
+        },
+        "abstract": "<jats:p>In this article, we introduce a method to overcome one of the main challenges of person reidentification in multicamera networks, namely cross-view appearance changes. The proposed solution addresses the extreme variability of person appearance in different camera views by exploiting multiple feature representations. For each feature, kernel canonical correlation analysis with different kernels is employed to learn several projection spaces in which the appearance correlation between samples of the same person observed from different cameras is maximized. An iterative logistic regression is finally used to select and weight the contributions of each projection and perform the matching between the two views. Experimental evaluation shows that the proposed solution obtains comparable performance on the VIPeR and PRID 450s datasets and improves on the PRID and CUHK01 datasets with respect to the state of the art.</jats:p>",
+        "DOI": "10.1145/3038916",
+        "title": [
+          "Multichannel-Kernel Canonical Correlation Analysis for Cross-View Person Reidentification"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-0785-9972",
+            "authenticated-orcid": false,
+            "given": "Giuseppe",
+            "family": "Lisanti",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "University of Florence, Firenze, Italia"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2496-5822",
+            "authenticated-orcid": false,
+            "given": "Svebor",
+            "family": "Karaman",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Columbia University, New York, USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Iacopo",
+            "family": "Masi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Southern California, CA, USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2017,
+              3,
+              6
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3038916",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3038916",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3038916",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              3,
+              6
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              31
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Cross-view fine-grained localization estimates a ground camera’s pixel-level coordinates in aerial images by analyzing visual correspondences between views. Recent studies have made significant progress in this task, but when the models trained in a source area are directly applied to a new target area, their localization performance often suffers significant degradation due to the domain gap between the two areas. Moreover, obtaining accurate ground truth (GT) for the target area to retrain the models is prohibitively expensive. To adapt the localization model to the target area, this article proposes a weakly supervised learning approach based on multi-teacher knowledge distillation. This approach utilizes multiple pre-trained teacher models to make predictions for the target area and employs a learning-free cross-view instance matching and view alignment (CVMA) module to evaluate the quality of predicted coordinates from geometric, semantic, and visual perspectives. Based on the evaluation results, the best prediction is selected as pseudo-GT, and potential anomalous training samples are filtered out. The CVMA module also functions as a learning-free fine-grained localization method, achieving performance comparable to some learning-based methods. Our approach is validated on the VIGOR benchmark using three state-of-the-art models, and experimental results show that our method significantly improves the localization performance of models in the target area.</jats:p>",
+        "DOI": "10.1145/3820050",
+        "title": [
+          "Domain Adaptation for Cross-View Localization via Multi-Teacher Knowledge Distillation"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-9982-5667",
+            "authenticated-orcid": false,
+            "given": "Chenglizhao",
+            "family": "Chen",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Qingdao Institute of Software and School of Computer Science and Technology, China University of Petroleum (East China), Qingdao, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0009-5015-1804",
+            "authenticated-orcid": false,
+            "given": "Qianxi",
+            "family": "Yuan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Qingdao Institute of Software and School of Computer Science and Technology, China University of Petroleum (East China), Qingdao, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0005-8134-2188",
+            "authenticated-orcid": false,
+            "given": "Shaofeng",
+            "family": "Liang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Qingdao Institute of Software and School of Computer Science and Technology, China University of Petroleum (East China), Qingdao, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9618-0656",
+            "authenticated-orcid": false,
+            "given": "Mengke",
+            "family": "Song",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Qingdao Institute of Software and School of Computer Science and Technology, China University of Petroleum (East China), Qingdao, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0004-4882-7987",
+            "authenticated-orcid": false,
+            "given": "Xinyu",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Qingdao Institute of Software and School of Computer Science and Technology, China University of Petroleum (East China), Qingdao, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              10
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3820050",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3820050",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              10
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              6,
+              30
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Person Image Synthesis aims at transferring the appearance of the source person image into a target pose. Existing methods cannot handle large pose variations and therefore suffer from two critical problems: (1) synthesis distortion due to the entanglement of pose and appearance information among different body components and (2) failure in preserving original semantics (e.g., the same outfit). In this article, we explicitly address these two problems by proposing a Pose- and Attribute-consistent Person Image Synthesis Network (PAC-GAN). To reduce pose and appearance matching ambiguity, we propose a component-wise transferring model consisting of two stages. The former stage focuses only on synthesizing target poses, while the latter renders target appearances by explicitly transferring the appearance information from the source image to the target image in a component-wise manner. In this way, source-target matching ambiguity is eliminated due to the component-wise disentanglement of pose and appearance synthesis. Second, to maintain attribute consistency, we represent the input image as an attribute vector and impose a high-level semantic constraint using this vector to regularize the target synthesis. Extensive experimental results on the DeepFashion dataset demonstrate the superiority of our method over the state of the art, especially for maintaining pose and attribute consistencies under large pose variations.</jats:p>",
+        "DOI": "10.1145/3554739",
+        "title": [
+          "Pose- and Attribute-consistent Person Image Synthesis"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-4281-6214",
+            "authenticated-orcid": false,
+            "given": "Cheng",
+            "family": "Xu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "South China University of Technology, Guangzhou, Guangdong, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3987-7315",
+            "authenticated-orcid": false,
+            "given": "Zejun",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "South China University of Technology, Guangzhou, Guangdong, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0172-5981",
+            "authenticated-orcid": false,
+            "given": "Jiajie",
+            "family": "Mai",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "King’s College, London, UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8006-3663",
+            "authenticated-orcid": false,
+            "given": "Xuemiao",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "South China University of Technology, Guangzhou, Guangdong, China, State Key Laboratory of Subtropical Building Science, Guangzhou, Guangdong, China, Ministry of Education Key Laboratory of Big Data and Intelligent Robot, Guangzhou, Guangdong, China, and Guangdong Provincial Key Lab of Computational Intelligence and Cyberspace Information, Guangzhou, Guangdong, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3802-4644",
+            "authenticated-orcid": false,
+            "given": "Shengfeng",
+            "family": "He",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "South China University of Technology, Guangzhou, Guangdong, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              2,
+              17
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3554739",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3554739",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3554739",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              2,
+              17
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              11,
+              30
+            ]
+          ]
+        },
+        "abstract": "<jats:p>\n            Image-sentence matching is a challenging task in the field of language and vision, which aims at measuring the similarities between images and sentence descriptions. Most existing methods independently map the global features of images and sentences into a common space to calculate the image-sentence similarity. However, the image-sentence similarity obtained by these methods may be coarse as (1) an intermediate common space is introduced to implicitly match the heterogeneous features of images and sentences in a global level, and (2) only the inter-modality relations of images and sentences are captured while the intra-modality relations are ignored. To overcome the limitations, we propose a novel\n            <jats:italic>Cross-Modal Hybrid Feature Fusion</jats:italic>\n            (CMHF) framework for directly learning the image-sentence similarity by fusing multimodal features with inter- and intra-modality relations incorporated. It can robustly capture the high-level interactions between visual regions in images and words in sentences, where flexible attention mechanisms are utilized to generate effective attention flows within and across the modalities of images and sentences. A structured objective with ranking loss constraint is formed in CMHF to learn the image-sentence similarity based on the fused fine-grained features of different modalities bypassing the usage of intermediate common space. Extensive experiments and comprehensive analysis performed on two widely used datasets—Microsoft COCO and Flickr30K—show the effectiveness of the hybrid feature fusion framework in CMHF, in which the state-of-the-art matching performance is achieved by our proposed CMHF method.\n          </jats:p>",
+        "DOI": "10.1145/3458281",
+        "title": [
+          "Cross-Modal Hybrid Feature Fusion for Image-Sentence Matching"
+        ],
+        "author": [
+          {
+            "given": "Xing",
+            "family": "Xu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "University of Electronic Science and Technology of China, Chengdu, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yifan",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Electronic Science and Technology of China, Chengdu, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yixuan",
+            "family": "He",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Electronic Science and Technology of China, Chengdu, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yang",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Electronic Science and Technology of China, Chengdu, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Alan",
+            "family": "Hanjalic",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Delft University of Technology, Delft, The Netherlands"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Heng Tao",
+            "family": "Shen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Electronic Science and Technology of China, Chengdu, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              11,
+              12
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3458281",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3458281",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3458281",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              11,
+              12
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              30
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Image-text matching plays an important role in solving the problem of cross-modal information processing. Since there are nonnegligible semantic differences between heterogenous pairwise data, a crucial challenge is how to learn a unified representation. Existing methods mainly rely on the alignment between regional image features and corresponding entity words. However, the regional features in the image are often more concerned with the foreground entity information, and the attribute information of the entities and the relational information are ignored. How to effectively integrate entity-attribute alignment and relationship alignment has not been fully studied. Therefore, we propose a Cross-Modal Semantically Augmented Network for Image-Text Matching (CMSAN), which combines the relationships between entities in the image with the semantics of relational words in the text. CMSAN (1) proposes an adaptive word-type prediction model that classifies the words into four types, i.e., entity word, attribute word, relation word, and unnecessary word. It can align different image features at multiple levels. CMSAN (2) designs a sophisticated relationship alignment module and an entity-attribute alignment module that maximizes the exploitation of the semantic information, which enables the model to have more discriminative power and further improves the matching accuracy.</jats:p>",
+        "DOI": "10.1145/3631356",
+        "title": [
+          "Cross-modal Semantically Augmented Network for Image-text Matching"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-2660-1050",
+            "authenticated-orcid": false,
+            "given": "Tao",
+            "family": "Yao",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Information and Electrical Engineering, Ludong University; Yantai Research Institute of New Generation Information Technology at Southwest Jiaotong University, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0424-0357",
+            "authenticated-orcid": false,
+            "given": "Yiru",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Information and Electrical Engineering, Ludong University, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5695-4706",
+            "authenticated-orcid": false,
+            "given": "Ying",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer and Electronic Information and the School of Artificial Intelligence, Nanjing Normal University, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3475-6186",
+            "authenticated-orcid": false,
+            "given": "Yingying",
+            "family": "Zhu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer and Software, Shenzhen University, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6759-1616",
+            "authenticated-orcid": false,
+            "given": "Gang",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Information and Electrical Engineering, Ludong University, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0004-6458-2510",
+            "authenticated-orcid": false,
+            "given": "Jun",
+            "family": "Yue",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Information and Electrical Engineering, Ludong University, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              11
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3631356",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3631356",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3631356",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              11
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              30
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Adaptive transform coding is gaining more and more attention for better mining of image content over fixed transforms such as discrete cosine transform (DCT). As a special case, graph transform learning establishes a novel paradigm for the graph-based transforms. However, there still exists a challenge for graph transform learning-based image codecs design on natural image compression, and graph representation cannot describe regular image samples well over graph-structured data. Therefore, in this article, we propose a cross-channel graph-based transform (CCGBT) for natural color image compression. We observe that neighboring pixels having similar intensities should have similar values in the chroma channels, which means that the prominent structure of the luminance channel is related to the contours of the chrominance channels. A collaborative design of the learned graphs and their corresponding distinctive transforms lies in the assumption that a sufficiently small block can be considered smooth, meanwhile, guaranteeing the compression of the luma and chroma signals at the cost of a small overhead for coding the description of the designed luma graph. In addition, a color image compression framework based on the CCGBT is designed for comparing DCT on the classic JPEG codec. The proposed method benefits from its flexible transform block design on arbitrary sizes to exploit image content better than the fixed transform. The experimental results show that the unified graph-based transform outperforms conventional DCT, while close to discrete wavelet transform on JPEG2000 at high bit-rates.</jats:p>",
+        "DOI": "10.1145/3631710",
+        "title": [
+          "Graph Based Cross-Channel Transform for Color Image Compression"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0009-0139-2505",
+            "authenticated-orcid": false,
+            "given": "Lilong",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Faculty of Information Technology, Beijing University of Technology, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8480-0536",
+            "authenticated-orcid": false,
+            "given": "Yunhui",
+            "family": "Shi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Faculty of Information Technology, Beijing University of Technology, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5437-3150",
+            "authenticated-orcid": false,
+            "given": "Jin",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Faculty of Information Technology, Beijing University of Technology, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7521-0665",
+            "authenticated-orcid": false,
+            "given": "Shujun",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Faculty of Materials and Manufacturing, Beijing University of Technology, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3121-1823",
+            "authenticated-orcid": false,
+            "given": "Baocai",
+            "family": "Yin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Faculty of Information Technology, Beijing University of Technology, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5741-7937",
+            "authenticated-orcid": false,
+            "given": "Nam",
+            "family": "Ling",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Engineering, Santa Clara University, USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              11
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3631710",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3631710",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3631710",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              11
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              11,
+              30
+            ]
+          ]
+        },
+        "abstract": "<jats:p>\n                    Image-text retrieval is a fundamental cross-modal task whose main idea is to learn image-text matching. Generally, according to whether there exist interactions during the retrieval process, existing image-text retrieval methods can be classified into independent representation matching methods and cross-interaction matching methods. The independent representation matching methods generate the embeddings of images and sentences independently and thus are convenient for retrieval with hand-crafted matching measures (e.g., cosine or Euclidean distance). As to the cross-interaction matching methods, they achieve improvement by introducing the interaction-based networks for inter-relation reasoning, yet suffer the low retrieval efficiency. This article aims to develop a method that takes the advantages of cross-modal inter-relation reasoning of cross-interaction methods while being as efficient as the independent methods. To this end, we propose a graph-based\n                    <jats:bold>Cross-modal Graph Matching Network (CGMN)</jats:bold>\n                    , which explores both intra- and inter-relations without introducing network interaction. In CGMN, graphs are used for both visual and textual representation to achieve intra-relation reasoning across regions and words, respectively. Furthermore, we propose a novel graph node matching loss to learn fine-grained cross-modal correspondence and to achieve inter-relation reasoning. Experiments on benchmark datasets MS-COCO, Flickr8K, and Flickr30K show that CGMN outperforms state-of-the-art methods in image retrieval. Moreover, CGMM is much more efficient than state-of-the-art methods using interactive matching. The code is available at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"url\" xlink:href=\"https://github.com/cyh-sj/CGMN\">https://github.com/cyh-sj/CGMN</jats:ext-link>\n                    .\n                  </jats:p>",
+        "DOI": "10.1145/3499027",
+        "title": [
+          "Cross-modal Graph Matching Network for Image-text Retrieval"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-3174-8973",
+            "authenticated-orcid": false,
+            "given": "Yuhao",
+            "family": "Cheng",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Shanghai Jiao Tong University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xiaoguang",
+            "family": "Zhu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shanghai Jiao Tong University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jiuchao",
+            "family": "Qian",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shanghai Jiao Tong University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Fei",
+            "family": "Wen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shanghai Jiao Tong University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Peilin",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shanghai Jiao Tong University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              3,
+              4
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3499027",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3499027",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3499027",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              3,
+              4
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              11,
+              30
+            ]
+          ]
+        },
+        "abstract": "<jats:p>View synthesis (VS) for light field images is a very time-consuming task due to the great quantity of involved pixels and intensive computations, which may prevent it from the practical three-dimensional real-time systems. In this article, we propose an acceleration approach for deep learning-based light field view synthesis, which can significantly reduce calculations by using compact-resolution (CR) representation and super-resolution (SR) techniques, as well as light-weight neural networks. The proposed architecture has three cascaded neural networks, including a CR network to generate the compact representation for original input views, a VS network to synthesize new views from down-scaled compact views, and a SR network to reconstruct high-quality views with full resolution. All these networks are jointly trained with the integrated losses of CR, VS, and SR networks. Moreover, due to the redundancy of deep neural networks, we use the efficient light-weight strategy to prune filters for simplification and inference acceleration. Experimental results demonstrate that the proposed method can greatly reduce the processing time and become much more computationally efficient with competitive image quality.</jats:p>",
+        "DOI": "10.1145/3459098",
+        "title": [
+          "A Fast View Synthesis Implementation Method for Light Field Applications"
+        ],
+        "author": [
+          {
+            "given": "Wei",
+            "family": "Gao",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Electronic and Computer Engineering, Shenzhen Graduate School, Peking University, and Artificial Intelligence Research Center, Peng Cheng Laboratory, Nanshan, Shenzhen, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Linjie",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronic and Computer Engineering, Shenzhen Graduate School, Peking University, and Artificial Intelligence Research Center, Peng Cheng Laboratory, Nanshan, Shenzhen, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Lvfang",
+            "family": "Tao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronic and Computer Engineering, Shenzhen Graduate School, Peking University, and Artificial Intelligence Research Center, Peng Cheng Laboratory, Nanshan, Shenzhen, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              11,
+              12
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3459098",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3459098",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3459098",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              11,
+              12
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              31
+            ]
+          ]
+        },
+        "abstract": "<jats:p>\n            Style transfer for panoramic images is a challenging task, due to the problems associated with its unique structure, including edge discontinuities, pole distortion, fuzzy details, and memory limitation. In this article, we propose a novel Multi-view Transformation network for Panorama Style Transfer (MuTPST). First, this architecture has a multi-view panoramic transformation mechanism, which includes a multi-view cubic projection and a multi-view equirectangular re-projection of panoramic images. This can address pole distortion and edge discontinuity by skillfully applying multiple types of projections and transformations. To capture different levels of context and structure in the stylization stage, we carefully design a multi-scale attention content encoder, which can coordinate the distribution of visual attention across space and channels. Besides, by the sharing of global style features in thumbnails and patches, MuTPST can process ultra-high-resolution panoramic images (e.g., 10,000\n            <jats:inline-formula content-type=\"math/tex\">\n              <jats:tex-math notation=\"LaTeX\" version=\"MathJax\">\\(\\times\\)</jats:tex-math>\n            </jats:inline-formula>\n            5,000 pixels) with limited GPU memory. Extensive experiments illustrate that the proposed method outperforms the state-of-the-art with a discernible improvement in panoramic image style transfer. More results and interactive features can be found on\n            <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://weiyang001.github.io/MuTPST/\">https://weiyang001.github.io/MuTPST/</jats:ext-link>\n            .\n          </jats:p>",
+        "DOI": "10.1145/3735137",
+        "title": [
+          "Multi-view Panoramic Image Style Transfer with Multi-scale Attention and Global Sharing"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0003-6682-6008",
+            "authenticated-orcid": false,
+            "given": "Weiyu",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Electronic and Information Engineering, South China University of Technology, Guangzhou, China, Pazhou Lab, Guangzhou, China and Alibaba Group, Hangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4733-306X",
+            "authenticated-orcid": false,
+            "given": "Chunmei",
+            "family": "Qing",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronic and Information Engineering, South China University of Technology, Guangzhou, China and Pazhou Lab, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9546-4331",
+            "authenticated-orcid": false,
+            "given": "Junpeng",
+            "family": "Tan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronic and Information Engineering, South China University of Technology, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4573-5820",
+            "authenticated-orcid": false,
+            "given": "Xiangmin",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Future Technology, South China University of Technology, Guangzhou, China and Pazhou Lab, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              18
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3735137",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3735137",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              18
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              30
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Generating image captions in different languages is worth exploring and essential for non-native speakers. Nevertheless, collecting paired annotation for every language is time-consuming and impractical, particularly for minor languages. To this end, the cross-lingual image captioning task is proposed, which leverages existing image-source caption annotation data and wild unrelated target corpus to generate satisfactory caption in the target language. Current methods perform a two-step translation process of image-to-pivot (source) and pivot-to-target. The distinct two-step process comes with certain caption issues, such as the weak semantic alignment between the image and the generated caption and the generated caption’s non-target language style. To address these issues, we propose an end-to-end reinforce learning framework with Visual-linguistic-stylistic Triple Reward named TriR. In TriR, we jointly consider the visual, linguistic, and stylistic alignments to generate factual, fluent, and natural caption in the target language. To be specific, the image-source caption annotation provides factual semantic guidance, whereas the unrelated target corpus guides the language style of generated caption. To achieve this, we construct a visual reward module to measure the cross-modal semantic embedding of image and target caption, a linguistic reward module to measure the cross-linguistic embedding of source and target captions, and a stylistic reward module to imitate the presentation style of target corpus. The TriR can be implemented with either classical CNN-LSTM or prevalent Transformer architecture. Extensive experiments are conducted with four cross-lingual settings, i.e., Chinese-to-English, English-to-Chinese, English-to-German, and English-to-French. Experimental results demonstrate the remarkable superiority of our method, and sufficient ablation experiments validate the beneficial impact of every reward.</jats:p>",
+        "DOI": "10.1145/3634917",
+        "title": [
+          "Visual-linguistic-stylistic Triple Reward for Cross-lingual Image Captioning"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0005-1590-5886",
+            "authenticated-orcid": false,
+            "given": "Jing",
+            "family": "Zhang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Information Engineering, Hefei University of Technology, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2594-254X",
+            "authenticated-orcid": false,
+            "given": "Dan",
+            "family": "Guo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Information Engineering, School of Artificial Intelligence, Hefei University of Technology (HFUT), Intelligent Interconnected Systems Laboratory of Anhui Province(HFUT), Key Laboratory of Knowledge Engineering with Big Data (HFUT), Ministry of Education, Institute of Artificial Intelligence, Hefei Comprehensive National Science Center, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0201-1638",
+            "authenticated-orcid": false,
+            "given": "Xun",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Information Science and Technology, University of Science and Technology of China, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6764-3375",
+            "authenticated-orcid": false,
+            "given": "Peipei",
+            "family": "Song",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Information Science and Technology, University of Science and Technology of China, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3094-7735",
+            "authenticated-orcid": false,
+            "given": "Meng",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Information Engineering, Hefei University of Technology, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              11
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3634917",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3634917",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3634917",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              11
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              31
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Text-based person re-identification aims to find the target person from a large pedestrian gallery with the given natural language description. Previous works mainly focus on embedding salient textual and visual representations in a common latent space by utilizing the dual-path structure or parameter-shared network. However, they still lack the ability to effectively extract fine-grained unimodal features as well as fuse the cross-modal data, leading to the increase of misaligned cases. To settle these issues, we propose a text-and-image implicit learning Transformer (TILT) to eliminate textual anisotropy and enhance the cross-modal alignment from both domains based on the bi-direction multi-modal encoders. Specifically, we apply the pre-trained multi-modal embedding module to overcome the unimodal anisotropy problem with contrastive learning, and map fine-grained features with dual encoder in bi-directional masking. Then, we design the cross-modal interaction encoder to comprehensively mine implicit cross-modal relations by reconstructing masked tokens, and fuse rich multi-modal knowledge in a common space. In addition, the cross-modal similarity matching module is proposed to optimize the intra-domain classification and decrease the inter-domain divergence. Extensive experiments are conducted on three public benchmarks CUHK-PEDES, ICFG-PEDES, and RSTPReid to verify the effectiveness of our proposed framework. Results prove that our model outperforms state-of-the-art methods on all metrics.</jats:p>",
+        "DOI": "10.1145/3686160",
+        "title": [
+          "Text-and-Image Learning Transformer for Cross-Modal Person Re-Identification"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0007-0144-6169",
+            "authenticated-orcid": false,
+            "given": "Tinghui",
+            "family": "Wu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Electronics and Information Technology, Sun Yat-Sen University, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4502-0000",
+            "authenticated-orcid": false,
+            "given": "Shuhe",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronics and Information Technology, Sun Yat-Sen University, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5432-8149",
+            "authenticated-orcid": false,
+            "given": "Dihu",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Integrated Circuits, Sun Yat-Sen University, Shenzhen, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4884-323X",
+            "authenticated-orcid": false,
+            "given": "Haifeng",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronics and Information Technology, Sun Yat-Sen University, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              20
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3686160",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3686160",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3686160",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              20
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 15,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

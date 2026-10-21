@@ -1,0 +1,698 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        6,
+        2
+      ]
+    ],
+    "date-time": "2026-06-02T09:23:58Z",
+    "timestamp": 1780392238781,
+    "version": "3.54.1"
+  },
+  "reference-count": 66,
+  "publisher": "Association for Computing Machinery (ACM)",
+  "issue": "6",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            19
+          ]
+        ],
+        "date-time": "2024-11-19T00:00:00Z",
+        "timestamp": 1731974400000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100012166",
+      "name": "National Key R&D Program of China",
+      "doi-asserted-by": "crossref",
+      "award": [
+        "2022YFB3303400"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "2022YFB3303400"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100012166",
+          "id-type": "DOI",
+          "asserted-by": "crossref"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundationof China",
+      "doi-asserted-by": "crossref",
+      "award": [
+        "62025207"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "62025207"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "crossref"
+        }
+      ]
+    },
+    {
+      "name": "Laoshan Laboratory",
+      "award": [
+        "LSKJ202300305"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "LSKJ202300305"
+          ]
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "dl.acm.org"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "ACM Trans. Graph."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2024,
+        12,
+        19
+      ]
+    ]
+  },
+  "abstract": "<jats:p>Image translation has various applications in computer graphics and computer vision, aiming to transfer images from one domain to another. Thanks to the excellent generation capability of diffusion models, recent single-view image translation methods achieve realistic results. However, directly applying diffusion models for multi-view image translation remains challenging for two major obstacles: the need for paired training data and the limited view consistency. To overcome the obstacles, we present a first unified multi-view image to multi-view image translation framework based on diffusion models, called MV2MV. Firstly, we propose a novel self-supervised training strategy that exploits the success of off-the-shelf single-view image translators and the 3D Gaussian Splatting (3DGS) technique to generate pseudo ground truths as supervisory signals, leading to enhanced consistency and fine details. Additionally, we propose a latent multi-view consistency block, which utilizes the latent-3DGS as the underlying 3D representation to facilitate information exchange across multi-view images and inject 3D prior into the diffusion model to enforce consistency. Finally, our approach simultaneously optimizes the diffusion model and 3DGS to achieve a better trade-off between consistency and realism. Extensive experiments across various translation tasks demonstrate that MV2MV outperforms task-specific specialists in both quantitative and qualitative.</jats:p>",
+  "DOI": "10.1145/3687977",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2024,
+        11,
+        19
+      ]
+    ],
+    "date-time": "2024-11-19T15:46:04Z",
+    "timestamp": 1732031164000
+  },
+  "page": "1-12",
+  "update-policy": "https://doi.org/10.1145/crossmark-policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 5,
+  "title": [
+    "MV2MV: Multi-View Image Translation via View-Consistent Diffusion Models"
+  ],
+  "prefix": "10.1145",
+  "volume": "43",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-0599-8418",
+      "authenticated-orcid": false,
+      "given": "Youcheng",
+      "family": "Cai",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "University of Science and Technology of China, Hefei, China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0008-6586-4914",
+      "authenticated-orcid": false,
+      "given": "Runshi",
+      "family": "Li",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "University of Science and Technology of China, Hefei, China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-4352-1431",
+      "authenticated-orcid": false,
+      "given": "Ligang",
+      "family": "Liu",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "University of Science and Technology of China, Hefei, China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "320",
+  "published-online": {
+    "date-parts": [
+      [
+        2024,
+        11,
+        19
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_2_1_1_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPR52688.2022.00539"
+    },
+    {
+      "key": "e_1_2_1_2_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPR52729.2023.01764"
+    },
+    {
+      "key": "e_1_2_1_3_1",
+      "first-page": "1877",
+      "article-title": "Language models are few-shot learners",
+      "volume": "33",
+      "author": "Brown Tom",
+      "year": "2020",
+      "unstructured": "Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, and Amanda Askell. 2020. Language models are few-shot learners. Advances in Neural Information Processing Systems 33 (2020), 1877--1901.",
+      "journal-title": "Advances in Neural Information Processing Systems"
+    },
+    {
+      "key": "e_1_2_1_4_1",
+      "volume-title": "Dehazenerf: Multiple image haze removal and 3d shape reconstruction using neural radiance fields. arXiv preprint arXiv:.11364",
+      "author": "Chen Wei-Ting",
+      "year": "2023",
+      "unstructured": "Wei-Ting Chen, Wang Yifan, Sy-Yen Kuo, and Gordon Wetzstein. 2023b. Dehazenerf: Multiple image haze removal and 3d shape reconstruction using neural radiance fields. arXiv preprint arXiv:.11364 (2023)."
+    },
+    {
+      "key": "e_1_2_1_5_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPR52729.2023.00571"
+    },
+    {
+      "key": "e_1_2_1_6_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICCV51070.2023.01131"
+    },
+    {
+      "key": "e_1_2_1_7_1",
+      "volume-title": "Hierarchical integration diffusion model for realistic image deblurring. Advances in Neural Information Processing Systems 36",
+      "author": "Chen Zheng",
+      "year": "2024",
+      "unstructured": "Zheng Chen, Yulun Zhang, Ding Liu, Jinjin Gu, Linghe Kong, and Xin Yuan. 2024. Hierarchical integration diffusion model for realistic image deblurring. Advances in Neural Information Processing Systems 36 (2024)."
+    },
+    {
+      "key": "e_1_2_1_8_1",
+      "first-page": "2567",
+      "article-title": "Image quality assessment: Unifying structure and texture similarity",
+      "volume": "44",
+      "author": "Ding Keyan",
+      "year": "2020",
+      "unstructured": "Keyan Ding, Kede Ma, Shiqi Wang, and Eero P Simoncelli. 2020. Image quality assessment: Unifying structure and texture similarity. IEEE Transactions on Pattern Analysis Machine Intelligence 44, 5 (2020), 2567--2581.",
+      "journal-title": "IEEE Transactions on Pattern Analysis Machine Intelligence"
+    },
+    {
+      "key": "e_1_2_1_9_1",
+      "volume-title": "ViCA-NeRF: View-Consistency-Aware 3D Editing of Neural Radiance Fields. Advances in Neural Information Processing Systems 36",
+      "author": "Dong Jiahua",
+      "year": "2024",
+      "unstructured": "Jiahua Dong and Yu-Xiong Wang. 2024. ViCA-NeRF: View-Consistency-Aware 3D Editing of Neural Radiance Fields. Advances in Neural Information Processing Systems 36 (2024)."
+    },
+    {
+      "key": "e_1_2_1_10_1",
+      "volume-title": "Generative adversarial nets. Advances in Neural Information Processing Systems 27",
+      "author": "Goodfellow Ian",
+      "year": "2014",
+      "unstructured": "Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, and Yoshua Bengio. 2014. Generative adversarial nets. Advances in Neural Information Processing Systems 27 (2014)."
+    },
+    {
+      "key": "e_1_2_1_11_1",
+      "volume-title": "Networks are slacking off: Understanding generalization problem in image deraining. Advances in Neural Information Processing Systems 36",
+      "author": "Gu Jinjin",
+      "year": "2024",
+      "unstructured": "Jinjin Gu, Xianzheng Ma, Xiangtao Kong, Yu Qiao, and Chao Dong. 2024. Networks are slacking off: Understanding generalization problem in image deraining. Advances in Neural Information Processing Systems 36 (2024)."
+    },
+    {
+      "key": "e_1_2_1_12_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICCV51070.2023.01808"
+    },
+    {
+      "key": "e_1_2_1_13_1",
+      "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 1559--1568",
+      "author": "Huang Jingwei",
+      "year": "2020",
+      "unstructured": "Jingwei Huang, Justus Thies, Angela Dai, Abhijit Kundu, Chiyu Jiang, Leonidas J Guibas, Matthias Nießner, and Thomas Funkhouser. 2020. Adversarial texture optimization from rgb-d scans. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 1559--1568."
+    },
+    {
+      "key": "e_1_2_1_14_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2897824.2925974"
+    },
+    {
+      "key": "e_1_2_1_15_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPR.2017.632"
+    },
+    {
+      "key": "e_1_2_1_16_1",
+      "volume-title": "Autodir: Automatic all-in-one image restoration with latent diffusion. arXiv preprint arXiv:.10123",
+      "author": "Jiang Yitong",
+      "year": "2023",
+      "unstructured": "Yitong Jiang, Zhaoyang Zhang, Tianfan Xue, and Jinwei Gu. 2023. Autodir: Automatic all-in-one image restoration with latent diffusion. arXiv preprint arXiv:.10123 (2023)."
+    },
+    {
+      "key": "e_1_2_1_17_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPR52729.2023.00582"
+    },
+    {
+      "key": "e_1_2_1_18_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICCV48922.2021.00510"
+    },
+    {
+      "key": "e_1_2_1_19_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3592433"
+    },
+    {
+      "key": "e_1_2_1_20_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3550454.3555497"
+    },
+    {
+      "key": "e_1_2_1_21_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPR52688.2022.01753"
+    },
+    {
+      "key": "e_1_2_1_22_1",
+      "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 4681--4690",
+      "author": "Ledig Christian",
+      "year": "2017",
+      "unstructured": "Christian Ledig, Lucas Theis, Ferenc Huszár, Jose Caballero, Andrew Cunningham, Alejandro Acosta, Andrew Aitken, Alykhan Tejani, Johannes Totz, and Zehan Wang. 2017. Photo-realistic single image super-resolution using a generative adversarial network. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 4681--4690."
+    },
+    {
+      "key": "e_1_2_1_23_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPR52729.2023.01192"
+    },
+    {
+      "key": "e_1_2_1_24_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICCV51070.2023.01617"
+    },
+    {
+      "key": "e_1_2_1_25_1",
+      "volume-title": "Recent advances in image deblurring. SIGGRAPH Asia Courses",
+      "author": "Lee Seungyong",
+      "year": "2013",
+      "unstructured": "Seungyong Lee and Sunghyun Cho. 2013. Recent advances in image deblurring. SIGGRAPH Asia Courses (2013), 1--108."
+    },
+    {
+      "key": "e_1_2_1_26_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-319-46487-9_43"
+    },
+    {
+      "key": "e_1_2_1_27_1",
+      "volume-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "volume": "37",
+      "author": "Li Haoying",
+      "year": "2023",
+      "unstructured": "Haoying Li, Ziran Zhang, Tingting Jiang, Peng Luo, Huajun Feng, and Zhihai Xu. 2023a. Real-world deep local motion deblurring. In Proceedings of the AAAI Conference on Artificial Intelligence, Vol. 37. 1314--1322."
+    },
+    {
+      "key": "e_1_2_1_28_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPR52729.2023.00956"
+    },
+    {
+      "key": "e_1_2_1_29_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICCVW54120.2021.00210"
+    },
+    {
+      "key": "e_1_2_1_30_1",
+      "volume-title": "Diffbir: Towards blind image restoration with generative diffusion prior. arXiv preprint arXiv:.15070",
+      "author": "Lin Xinqi",
+      "year": "2023",
+      "unstructured": "Xinqi Lin, Jingwen He, Ziyan Chen, Zhaoyang Lyu, Ben Fei, Bo Dai, Wanli Ouyang, Yu Qiao, and Chao Dong. 2023. Diffbir: Towards blind image restoration with generative diffusion prior. arXiv preprint arXiv:.15070 (2023)."
+    },
+    {
+      "key": "e_1_2_1_31_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICCV48922.2021.00572"
+    },
+    {
+      "key": "e_1_2_1_32_1",
+      "volume-title": "GenN2N: Generative NeRF2NeRF Translation. arXiv preprint arXiv:.02788",
+      "author": "Liu Xiangyue",
+      "year": "2024",
+      "unstructured": "Xiangyue Liu, Han Xue, Kunming Luo, Ping Tan, and Li Yi. 2024. GenN2N: Generative NeRF2NeRF Translation. arXiv preprint arXiv:.02788 (2024)."
+    },
+    {
+      "key": "e_1_2_1_33_1",
+      "volume-title": "Syncdreamer: Generating multiview-consistent images from a single-view image. arXiv preprint arXiv:2309.03453",
+      "author": "Liu Yuan",
+      "year": "2023",
+      "unstructured": "Yuan Liu, Cheng Lin, Zijiao Zeng, Xiaoxiao Long, Lingjie Liu, Taku Komura, and Wenping Wang. 2023. Syncdreamer: Generating multiview-consistent images from a single-view image. arXiv preprint arXiv:2309.03453 (2023)."
+    },
+    {
+      "key": "e_1_2_1_34_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPR52688.2022.01252"
+    },
+    {
+      "key": "e_1_2_1_35_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPR52729.2023.01218"
+    },
+    {
+      "key": "e_1_2_1_36_1",
+      "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2502--2510",
+      "author": "Mildenhall Ben",
+      "year": "2018",
+      "unstructured": "Ben Mildenhall, Jonathan T Barron, Jiawen Chen, Dillon Sharlet, Ren Ng, and Robert Carroll. 2018. Burst denoising with kernel prediction networks. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2502--2510."
+    },
+    {
+      "key": "e_1_2_1_37_1",
+      "unstructured": "OpenAI. 2024. Creating video from text. https://openai.com/"
+    },
+    {
+      "key": "e_1_2_1_38_1",
+      "volume-title": "Image-to-image translation: Methods and applications. 24",
+      "author": "Pang Yingxue",
+      "year": "2021",
+      "unstructured": "Yingxue Pang, Jianxin Lin, Tao Qin, and Zhibo Transactions on Multimedia Chen. 2021. Image-to-image translation: Methods and applications. 24 (2021), 3859--3881."
+    },
+    {
+      "key": "e_1_2_1_39_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3588432.3591513"
+    },
+    {
+      "key": "e_1_2_1_40_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPR.2016.278"
+    },
+    {
+      "key": "e_1_2_1_41_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPR52688.2022.01234"
+    },
+    {
+      "key": "e_1_2_1_42_1",
+      "volume-title": "Aaron Van den Oord, and Oriol Vinyals",
+      "author": "Razavi Ali",
+      "year": "2019",
+      "unstructured": "Ali Razavi, Aaron Van den Oord, and Oriol Vinyals. 2019. Generating diverse high-fidelity images with vq-vae-2. Advances in Neural Information Processing Systems 32 (2019)."
+    },
+    {
+      "key": "e_1_2_1_43_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPR52688.2022.01042"
+    },
+    {
+      "key": "e_1_2_1_44_1",
+      "volume-title": "U-net: Convolutional networks for biomedical image segmentation. In Medical Image Computing and Computer-assisted Intervention",
+      "author": "Ronneberger Olaf",
+      "year": "2015",
+      "unstructured": "Olaf Ronneberger, Philipp Fischer, and Thomas Brox. 2015. U-net: Convolutional networks for biomedical image segmentation. In Medical Image Computing and Computer-assisted Intervention. Springer, 234--241."
+    },
+    {
+      "key": "e_1_2_1_45_1",
+      "volume-title": "ACM SIGGRAPH 2023 Conference Proceedings. 1--10",
+      "author": "Saharia Chitwan",
+      "year": "2022",
+      "unstructured": "Chitwan Saharia, William Chan, Huiwen Chang, Chris Lee, Jonathan Ho, Tim Salimans, David Fleet, and Mohammad Norouzi. 2022. Palette: Image-to-image diffusion models. In ACM SIGGRAPH 2023 Conference Proceedings. 1--10."
+    },
+    {
+      "key": "e_1_2_1_46_1",
+      "volume-title": "Adversarial diffusion distillation. arXiv preprint arXiv:2311.17042",
+      "author": "Sauer Axel",
+      "year": "2023",
+      "unstructured": "Axel Sauer, Dominik Lorenz, Andreas Blattmann, and Robin Rombach. 2023. Adversarial diffusion distillation. arXiv preprint arXiv:2311.17042 (2023)."
+    },
+    {
+      "key": "e_1_2_1_47_1",
+      "volume-title": "Denoising diffusion implicit models. arXiv preprint arXiv:2010.02502",
+      "author": "Song Jiaming",
+      "year": "2020",
+      "unstructured": "Jiaming Song, Chenlin Meng, and Stefano Ermon. 2020. Denoising diffusion implicit models. arXiv preprint arXiv:2010.02502 (2020)."
+    },
+    {
+      "key": "e_1_2_1_48_1",
+      "volume-title": "Improving the Stability of Diffusion Models for Content Consistent Super-Resolution. arXiv preprint arXiv:.00877",
+      "author": "Sun Lingchen",
+      "year": "2023",
+      "unstructured": "Lingchen Sun, Rongyuan Wu, Zhengqiang Zhang, Hongwei Yong, and Lei Zhang. 2023. Improving the Stability of Diffusion Models for Content Consistent Super-Resolution. arXiv preprint arXiv:.00877 (2023)."
+    },
+    {
+      "key": "e_1_2_1_49_1",
+      "unstructured": "Cyrus Vachha and Ayaan Haque. 2024. Instruct-GS2GS: Editing 3D Gaussian Splats with Instructions. https://instruct-gs2gs.github.io/"
+    },
+    {
+      "key": "e_1_2_1_50_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Vaibhav Vavilala and Mark Meyer. 2021. Towards Large-Scale Super Resolution Datasets via Learned Downsampling of Ray-Traced Renderings. 1--2.",
+      "DOI": "10.1145/3450623.3464631"
+    },
+    {
+      "key": "e_1_2_1_51_1",
+      "volume-title": "Nerf-art: Text-driven neural radiance fields stylization",
+      "author": "Wang Can",
+      "year": "2023",
+      "unstructured": "Can Wang, Ruixiang Jiang, Menglei Chai, Mingming He, Dongdong Chen, and Jing Liao. 2023a. Nerf-art: Text-driven neural radiance fields stylization. IEEE Transactions on Visualization Computer Graphics (2023)."
+    },
+    {
+      "key": "e_1_2_1_52_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3503161.3547808"
+    },
+    {
+      "key": "e_1_2_1_53_1",
+      "volume-title": "Kelvin CK Chan, and Chen Change Loy",
+      "author": "Wang Jianyi",
+      "year": "2023",
+      "unstructured": "Jianyi Wang, Zongsheng Yue, Shangchen Zhou, Kelvin CK Chan, and Chen Change Loy. 2023b. Exploiting diffusion prior for real-world image super-resolution. arXiv preprint arXiv:.07015 (2023)."
+    },
+    {
+      "key": "e_1_2_1_54_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPR52729.2023.00406"
+    },
+    {
+      "key": "e_1_2_1_55_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TPAMI.2020.2982166"
+    },
+    {
+      "key": "e_1_2_1_56_1",
+      "volume-title": "RaFE: Generative Radiance Fields Restoration. arXiv preprint arXiv:.03654",
+      "author": "Wu Zhongkai",
+      "year": "2024",
+      "unstructured": "Zhongkai Wu, Ziyu Wan, Jing Zhang, Jing Liao, and Dong Xu. 2024. RaFE: Generative Radiance Fields Restoration. arXiv preprint arXiv:.03654 (2024)."
+    },
+    {
+      "key": "e_1_2_1_57_1",
+      "volume-title": "Tackling the generative learning trilemma with denoising diffusion gans. arXiv preprint arXiv:2112.07804",
+      "author": "Xiao Zhisheng",
+      "year": "2021",
+      "unstructured": "Zhisheng Xiao, Karsten Kreis, and Arash Vahdat. 2021. Tackling the generative learning trilemma with denoising diffusion gans. arXiv preprint arXiv:2112.07804 (2021)."
+    },
+    {
+      "key": "e_1_2_1_58_1",
+      "volume-title": "AddSR: Accelerating Diffusion-based Blind Super-Resolution with Adversarial Diffusion Distillation. arXiv preprint arXiv:2404.01717",
+      "author": "Xie Rui",
+      "year": "2024",
+      "unstructured": "Rui Xie, Ying Tai, Kai Zhang, Zhenyu Zhang, Jun Zhou, and Jian Yang. 2024. AddSR: Accelerating Diffusion-based Blind Super-Resolution with Adversarial Diffusion Distillation. arXiv preprint arXiv:2404.01717 (2024)."
+    },
+    {
+      "key": "e_1_2_1_59_1",
+      "volume-title": "Consistnet: Enforcing 3d consistency for multi-view images diffusion. arXiv preprint arXiv:.10343",
+      "author": "Yang Jiayu",
+      "year": "2023",
+      "unstructured": "Jiayu Yang, Ziang Cheng, Yunfei Duan, Pan Ji, and Hongdong Li. 2023. Consistnet: Enforcing 3d consistency for multi-view images diffusion. arXiv preprint arXiv:.10343 (2023)."
+    },
+    {
+      "key": "e_1_2_1_60_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPRW56347.2022.00126"
+    },
+    {
+      "key": "e_1_2_1_61_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPR52688.2022.00564"
+    },
+    {
+      "key": "e_1_2_1_62_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICCV48922.2021.00475"
+    },
+    {
+      "key": "e_1_2_1_63_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s11263-022-01633-5"
+    },
+    {
+      "key": "e_1_2_1_64_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICCV51070.2023.00355"
+    },
+    {
+      "key": "e_1_2_1_65_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TIP.2015.2426416"
+    },
+    {
+      "key": "e_1_2_1_66_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPR.2018.00068"
+    }
+  ],
+  "container-title": [
+    "ACM Transactions on Graphics"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://dl.acm.org/doi/10.1145/3687977",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://dl.acm.org/doi/pdf/10.1145/3687977",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        6,
+        19
+      ]
+    ],
+    "date-time": "2025-06-19T01:09:58Z",
+    "timestamp": 1750295398000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://dl.acm.org/doi/10.1145/3687977"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2024,
+        11,
+        19
+      ]
+    ]
+  },
+  "references-count": 66,
+  "journal-issue": {
+    "issue": "6",
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          19
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1145/3687977"
+  ],
+  "URL": "https://doi.org/10.1145/3687977",
+  "relation": {},
+  "ISSN": [
+    "0730-0301",
+    "1557-7368"
+  ],
+  "issn-type": [
+    {
+      "value": "0730-0301",
+      "type": "print"
+    },
+    {
+      "value": "1557-7368",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2024,
+        11,
+        19
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2024-11-19",
+      "order": 3,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ]
+}

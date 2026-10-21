@@ -1,0 +1,476 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        1,
+        10
+      ]
+    ],
+    "date-time": "2026-01-10T00:27:40Z",
+    "timestamp": 1768004860393,
+    "version": "3.49.0"
+  },
+  "reference-count": 48,
+  "publisher": "Wiley",
+  "issue": "7",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            11,
+            27
+          ]
+        ],
+        "date-time": "2021-11-27T00:00:00Z",
+        "timestamp": 1637971200000
+      },
+      "content-version": "vor",
+      "delay-in-days": 57,
+      "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "onlinelibrary.wiley.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "Computer Graphics Forum"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2021,
+        10
+      ]
+    ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title><jats:p>We introduce Seamless Satellite‐image Synthesis (SSS), a novel neural architecture to create scale‐and‐space continuous satellite textures from cartographic data. While 2D map data is cheap and easily synthesized, accurate satellite imagery is expensive and often unavailable or out of date. Our approach generates seamless textures over arbitrarily large spatial extents which are consistent through scale‐space. To overcome tile size limitations in image‐to‐image translation approaches, SSS learns to remove seams between tiled images in a semantically meaningful manner. Scale‐space continuity is achieved by a hierarchy of networks conditioned on style and cartographic data. Our qualitative and quantitative evaluations show that our system improves over the state‐of‐the‐art in several key areas. We show applications to texturing procedurally generation maps and interactive satellite image manipulation.</jats:p>",
+  "DOI": "10.1111/cgf.14413",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2021,
+        11,
+        27
+      ]
+    ],
+    "date-time": "2021-11-27T12:02:41Z",
+    "timestamp": 1638014561000
+  },
+  "page": "193-204",
+  "update-policy": "https://doi.org/10.1002/crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 7,
+  "title": [
+    "Seamless Satellite‐image Synthesis"
+  ],
+  "prefix": "10.1111",
+  "volume": "40",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-1826-6566",
+      "authenticated-orcid": false,
+      "given": "Jialin",
+      "family": "Zhu",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "University of Leeds"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-6575-3682",
+      "authenticated-orcid": false,
+      "given": "Tom",
+      "family": "Kelly",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "University of Leeds"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "member": "311",
+  "published-online": {
+    "date-parts": [
+      [
+        2021,
+        11,
+        27
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_2_10_2_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "AgarwalaA. DontchevaM. AgrawalaM. DruckerS. ColburnA. CurlessB. SalesinD. CohenM.: Interactive digital photomontage. InACM SIGGRAPH.2004 pp.294–302. 2",
+      "DOI": "10.1145/1186562.1015718"
+    },
+    {
+      "key": "e_1_2_10_3_2",
+      "unstructured": "AlsallakhB. KokhlikyanN. MiglaniV. YuanJ. Reblitz‐RichardsonO.: Mind the pad – {cnn}s can develop blind spots. InICLR(2021). URL:https://openreview.net/forum?id=m1CD7tPubNy. 4"
+    },
+    {
+      "key": "e_1_2_10_4_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1275808.1276390"
+    },
+    {
+      "key": "e_1_2_10_5_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1531326.1531330"
+    },
+    {
+      "key": "e_1_2_10_6_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3306346.3323023"
+    },
+    {
+      "key": "e_1_2_10_7_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "ChenG. EschG. WonkaP. MüllerP. ZhangE.: Interactive procedural street modeling. InACM SIGGRAPH.2008 pp.1–10. 2",
+      "DOI": "10.1145/1399504.1360702"
+    },
+    {
+      "key": "e_1_2_10_8_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "CriminisiA. PerezP. ToyamaK.: Object removal by exemplar‐based inpainting. InIEEE CVPR(2003) vol. 2 IEEE pp.II–II. 2",
+      "DOI": "10.1109/CVPR.2003.1211538"
+    },
+    {
+      "key": "e_1_2_10_9_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "DengJ. ChengS. XueN. ZhouY. ZafeiriouS.: Uvgan: Adversarial facial uv map completion for pose‐invariant face recognition. InIEEE ICCV(2018) pp.7093–7102. 2",
+      "DOI": "10.1109/CVPR.2018.00741"
+    },
+    {
+      "key": "e_1_2_10_10_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2185520.2185578"
+    },
+    {
+      "key": "e_1_2_10_11_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "EfrosA. A. FreemanW. T.: Image quilting for texture synthesis and transfer. InProceedings of the 28th annual conference on Computer graphics and interactive techniques(2001) pp.341–346. 2",
+      "DOI": "10.1145/383259.383296"
+    },
+    {
+      "key": "e_1_2_10_12_2",
+      "unstructured": "EfrosA. A. LeungT. K.: Texture synthesis by nonparametric sampling. InIEEE ICCV(1999) vol. 2 IEEE pp.1033–1038. 2"
+    },
+    {
+      "key": "e_1_2_10_13_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3306346.3322993"
+    },
+    {
+      "key": "e_1_2_10_14_2",
+      "unstructured": "FoundationO.:OpenStreetMap 2021. URL:https://www.openstreetmap.org. 2"
+    },
+    {
+      "key": "e_1_2_10_15_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "GuehlP. AllegreR. DischlerJ.‐M. BenesB. GalinE.: Semi‐procedural textures using point process texture basis functions. InCGF(2020) vol. 39 Wiley Online Library pp.159–171. 2",
+      "DOI": "10.1111/cgf.14061"
+    },
+    {
+      "key": "e_1_2_10_16_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3130800.3130804"
+    },
+    {
+      "key": "e_1_2_10_17_2",
+      "unstructured": "GatysL. EckerA. S. BethgeM.: Texture synthesis using convolutional neural networks. InNIPS(2015) pp.262–270. 2"
+    },
+    {
+      "key": "e_1_2_10_18_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "GatysL. A. EckerA. S. BethgeM.: Image style transfer using convolutional neural networks. InProceedings of the IEEE conference on computer vision and pattern recognition(2016) pp.2414–2423. 2",
+      "DOI": "10.1109/CVPR.2016.265"
+    },
+    {
+      "key": "e_1_2_10_19_2",
+      "unstructured": "Geopackage.https://www.geopackage.org/. Accessed: 2010‐09‐30. 3"
+    },
+    {
+      "key": "e_1_2_10_20_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1276377.1276382"
+    },
+    {
+      "key": "e_1_2_10_21_2",
+      "unstructured": "IsolaP. ZhuJ.‐Y. ZhouT. EfrosA. A.: Image‐to‐image translation with conditional adversarial networks.IEEE CVPR(2017). 1 2 4 9 10"
+    },
+    {
+      "key": "e_1_2_10_22_2",
+      "unstructured": "KarrasT. AittalaM. HellstenJ. LaineS. LehtinenJ. AilaT.: Training generative adversarial networks with limited data.arXiv preprint arXiv:2006.06676(2020). 11"
+    },
+    {
+      "key": "e_1_2_10_23_2",
+      "unstructured": "KarrasT. AilaT. LaineS. LehtinenJ.: Progressive growing of gans for improved quality stability and variation.arXiv preprint arXiv:1710.10196(2017). 7"
+    },
+    {
+      "key": "e_1_2_10_24_2",
+      "unstructured": "KingmaD. P. BaJ.: Adam: A method for stochastic optimization. InICLR(2015) Bengio Y. LeCun Y. (Eds.). URL:http://arxiv.org/abs/1412.6980. 4"
+    },
+    {
+      "key": "e_1_2_10_25_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3272127.3275065"
+    },
+    {
+      "key": "e_1_2_10_26_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/882262.882264"
+    },
+    {
+      "key": "e_1_2_10_27_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/jmi.12236"
+    },
+    {
+      "key": "e_1_2_10_28_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/501786.501787"
+    },
+    {
+      "key": "e_1_2_10_29_2",
+      "unstructured": "MastermapO. S.:Ordnance 2021. URL:https://www.ordnancesurvey.co.uk/business-government/products/mastermap-topography. 11"
+    },
+    {
+      "key": "e_1_2_10_30_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1276377.1276484"
+    },
+    {
+      "key": "e_1_2_10_31_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "ParkT. AlexeiA.EfrosR. Z. ZhuJ.‐Y.: Contrastive learning for unpaired image‐to‐image translation.ECCV(2020). 4",
+      "DOI": "10.1007/978-3-030-58545-7_19"
+    },
+    {
+      "key": "e_1_2_10_32_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "PérezP. GangnetM. BlakeA.: Poisson image editing. InACM SIGGRAPH 2003 Papers.2003 pp.313–318. 2",
+      "DOI": "10.1145/1201775.882269"
+    },
+    {
+      "key": "e_1_2_10_33_2",
+      "unstructured": "ParkT. LiuM.‐Y. WangT.‐C. ZhuJ.‐Y.: Semantic image synthesis with spatially‐adaptive normalization. InIEEE CVPR(2019) pp.2337–2346. 1 2 3 5 6 10"
+    },
+    {
+      "key": "e_1_2_10_34_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "ParishY. I. H. MüllerP.: Procedural modeling of cities. InProceedings of SIGGRAPH 2001(2001) pp.301–308. doi:10.1145/383259.383292. 2",
+      "DOI": "10.1145/383259.383292"
+    },
+    {
+      "key": "e_1_2_10_35_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "RonnebergerO. FischerP. BroxT.: U‐net: Convolutional networks for biomedical image segmentation. InInternational Conference on Medical image computing and computer‐assisted intervention(2015) Springer pp.234–241. 2 4",
+      "DOI": "10.1007/978-3-319-24574-4_28"
+    },
+    {
+      "key": "e_1_2_10_36_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1015706.1015720"
+    },
+    {
+      "key": "e_1_2_10_37_2",
+      "unstructured": "ServiceD. O. S. W. M.:Digimap 2021. URL:https://digimap.edina.ac.uk/. 2 11"
+    },
+    {
+      "key": "e_1_2_10_38_2",
+      "unstructured": "TeterwakP. SarnaA. KrishnanD. MaschinotA. BelangerD. LiuC. FreemanW. T.: Boundless: Generative adversarial networks for image extension. InIEEE ICCV(2019) pp.10521–10530. 4"
+    },
+    {
+      "key": "e_1_2_10_39_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "VanegasC. A. AliagaD. G. WonkaP. MüllerP. WaddellP. WatsonB.: Modelling the appearance and behaviour of urban spaces. InCGF(2010) vol. 29 Wiley Online Library pp.25–42. 2",
+      "DOI": "10.1111/j.1467-8659.2009.01535.x"
+    },
+    {
+      "key": "e_1_2_10_40_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "VanegasC. A. KellyT. WeberB. HalatschJ. AliagaD. G. MüllerP.: Procedural generation of parcels in urban modeling. InCGF Eurographics(2012) vol. 31 Wiley Online Library pp.681–690. 2",
+      "DOI": "10.1111/j.1467-8659.2012.03047.x"
+    },
+    {
+      "key": "e_1_2_10_41_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "WeiL.‐Y. LevoyM.: Fast texture synthesis using tree‐structured vector quantization. InProceedings of the 27th Annual Conference on Computer Graphics and Interactive Techniques(USA 2000) SIGGRAPH '00 ACM Press/Addison‐Wesley Publishing Co. p.479–488. URL:https://doi.org/10.1145/344779.345009 doi:10.1145/344779.345009. 2",
+      "DOI": "10.1145/344779.345009"
+    },
+    {
+      "key": "e_1_2_10_42_2",
+      "unstructured": "WieL.‐Y. LefebvreS. KwatraV. TurkG.: State of the Art in Example‐based Texture Synthesis. InCGF Eurographics(2009) Pauly M. Greiner G. (Eds.) The Eurographics Association. doi:10.2312/egst.20091063. 2"
+    },
+    {
+      "key": "e_1_2_10_43_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "WangT.‐C. LiuM.‐Y. ZhuJ.‐Y. TaoA. KautzJ. CatanzaroB.: High‐resolution image synthesis and semantic manipulation with conditional gans. InIEEE CVPR(2018) pp.8798–8807. 2",
+      "DOI": "10.1109/CVPR.2018.00917"
+    },
+    {
+      "key": "e_1_2_10_44_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "WuH. ZhengS. ZhangJ. HuangK.: Gp‐gan: Towards realistic high‐resolution image blending. InProceedings of the 27th ACM International Conference on Multimedia(2019) pp.2487–2495. 2",
+      "DOI": "10.1145/3343031.3350944"
+    },
+    {
+      "key": "e_1_2_10_45_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "YuJ. LinZ. YangJ. ShenX. LuX. HuangT. S.: Free‐form image inpainting with gated convolution. InIEEE ICCV(2019) pp.4471–4480. 7",
+      "DOI": "10.1109/ICCV.2019.00457"
+    },
+    {
+      "key": "e_1_2_10_46_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "ZhangL. WenT. ShiJ.: Deep image blending. InThe IEEE Winter Conference on Applications of Computer Vision(2020) pp.231–240. 2",
+      "DOI": "10.1109/WACV45572.2020.9093632"
+    },
+    {
+      "key": "e_1_2_10_47_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3197517.3201285"
+    },
+    {
+      "key": "e_1_2_10_48_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "ZhanF. ZhuH. LuS.: Spatial fusion gan for image synthesis. InIEEE CVPR(2019) pp.3653–3662. 2",
+      "DOI": "10.1109/CVPR.2019.00377"
+    },
+    {
+      "key": "e_1_2_10_49_2",
+      "unstructured": "ZhuJ.‐Y. ZhangR. PathakD. DarrellT. EfrosA. A. WangO. ShechtmanE.: Toward multimodal image‐to‐image translation. InNIPS(2017). 4"
+    }
+  ],
+  "container-title": [
+    "Computer Graphics Forum"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14413",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/cgf.14413",
+      "content-type": "application/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14413",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2024,
+        9,
+        13
+      ]
+    ],
+    "date-time": "2024-09-13T04:13:09Z",
+    "timestamp": 1726200789000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://onlinelibrary.wiley.com/doi/10.1111/cgf.14413"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        10
+      ]
+    ]
+  },
+  "references-count": 48,
+  "journal-issue": {
+    "issue": "7",
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          10
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1111/cgf.14413"
+  ],
+  "URL": "https://doi.org/10.1111/cgf.14413",
+  "archive": [
+    "Portico"
+  ],
+  "relation": {},
+  "ISSN": [
+    "0167-7055",
+    "1467-8659"
+  ],
+  "issn-type": [
+    {
+      "value": "0167-7055",
+      "type": "print"
+    },
+    {
+      "value": "1467-8659",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2021,
+        10
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2021-11-27",
+      "order": 2,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ]
+}

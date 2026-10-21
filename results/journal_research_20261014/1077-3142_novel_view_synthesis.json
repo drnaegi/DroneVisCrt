@@ -1,0 +1,1291 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 130,
+    "items": [
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              9
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.cviu.2026.104892",
+        "title": [
+          "FSA-GS: Fine-Structure-Aware Gaussian Splatting for sparse-view novel view synthesis"
+        ],
+        "author": [
+          {
+            "given": "Jun",
+            "family": "Zhou",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0004-9239-0436",
+            "authenticated-orcid": false,
+            "given": "Yangeng",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Nannan",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mingjie",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hongchen",
+            "family": "Tan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zili",
+            "family": "Yi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jingchun",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computer Vision and Image Understanding"
+        ],
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1077314226002596?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1077314226002596?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "URL": "https://doi.org/10.1016/j.cviu.2026.104892",
+        "ISSN": [
+          "1077-3142"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              9
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2006,
+              7
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.cviu.2006.02.005",
+        "title": [
+          "Boundary matting for view synthesis"
+        ],
+        "author": [
+          {
+            "given": "Samuel W.",
+            "family": "Hasinoff",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Sing Bing",
+            "family": "Kang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Richard",
+            "family": "Szeliski",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computer Vision and Image Understanding"
+        ],
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S107731420600021X?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S107731420600021X?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "URL": "https://doi.org/10.1016/j.cviu.2006.02.005",
+        "ISSN": [
+          "1077-3142"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2006,
+              7
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              10
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.cviu.2019.07.008",
+        "title": [
+          "Cross-view image synthesis using geometry-guided conditional GANs"
+        ],
+        "author": [
+          {
+            "given": "Krishna",
+            "family": "Regmi",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ali",
+            "family": "Borji",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computer Vision and Image Understanding"
+        ],
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1077314219301043?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1077314219301043?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "URL": "https://doi.org/10.1016/j.cviu.2019.07.008",
+        "ISSN": [
+          "1077-3142"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              10
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2011,
+              2
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.cviu.2010.06.001",
+        "title": [
+          "Shape reconstruction and texture sampling by active rectification and virtual view synthesis"
+        ],
+        "author": [
+          {
+            "given": "Carlo",
+            "family": "Colombo",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Dario",
+            "family": "Comanducci",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Alberto",
+            "family": "Del Bimbo",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computer Vision and Image Understanding"
+        ],
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1077314210001359?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1077314210001359?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "URL": "https://doi.org/10.1016/j.cviu.2010.06.001",
+        "ISSN": [
+          "1077-3142"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.cviu.2025.104555",
+        "title": [
+          "eMotion-GAN: A motion-based GAN for photorealistic and facial expression preserving frontal view synthesis"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-6170-6854",
+            "authenticated-orcid": false,
+            "given": "Omar",
+            "family": "Ikne",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Benjamin",
+            "family": "Allaert",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ioan Marius",
+            "family": "Bilasco",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hazem",
+            "family": "Wannous",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computer Vision and Image Understanding"
+        ],
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1077314225002784?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1077314225002784?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "URL": "https://doi.org/10.1016/j.cviu.2025.104555",
+        "ISSN": [
+          "1077-3142"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2004,
+              12
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.cviu.2004.03.014",
+        "title": [
+          "Tri-view morphing"
+        ],
+        "author": [
+          {
+            "given": "Jiangjian",
+            "family": "Xiao",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Mubarak",
+            "family": "Shah",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computer Vision and Image Understanding"
+        ],
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1077314204000530?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1077314204000530?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "URL": "https://doi.org/10.1016/j.cviu.2004.03.014",
+        "ISSN": [
+          "1077-3142"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2004,
+              12
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              3
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.cviu.2025.104320",
+        "title": [
+          "View-to-label: Multi-view consistency for self-supervised monocular 3D object detection"
+        ],
+        "author": [
+          {
+            "given": "Issa",
+            "family": "Mouawad",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8906-8946",
+            "authenticated-orcid": false,
+            "given": "Nikolas",
+            "family": "Brasch",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Fabian",
+            "family": "Manhardt",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5598-5212",
+            "authenticated-orcid": false,
+            "given": "Federico",
+            "family": "Tombari",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3463-2263",
+            "authenticated-orcid": false,
+            "given": "Francesca",
+            "family": "Odone",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computer Vision and Image Understanding"
+        ],
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1077314225000438?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1077314225000438?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "URL": "https://doi.org/10.1016/j.cviu.2025.104320",
+        "ISSN": [
+          "1077-3142"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              3
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2003,
+              9
+            ]
+          ]
+        },
+        "DOI": "10.1016/s1077-3142(03)00098-5",
+        "title": [
+          "Obtaining complete 2D view representation of polyhedra using concept of seedling single-view area"
+        ],
+        "author": [
+          {
+            "given": "M.",
+            "family": "Kowalczyk",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "W.S.",
+            "family": "Mokrzycki",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computer Vision and Image Understanding"
+        ],
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1077314203000985?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1077314203000985?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "URL": "https://doi.org/10.1016/s1077-3142(03)00098-5",
+        "ISSN": [
+          "1077-3142"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2003,
+              9
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              7
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.cviu.2017.11.014",
+        "title": [
+          "Single-View Reconstruction using orthogonal line-pairs"
+        ],
+        "author": [
+          {
+            "given": "Aamer",
+            "family": "Zaheer",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Maheen",
+            "family": "Rashid",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2436-8347",
+            "authenticated-orcid": false,
+            "given": "Muhammad Ahmed",
+            "family": "Riaz",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Sohaib",
+            "family": "Khan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computer Vision and Image Understanding"
+        ],
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1077314217302059?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1077314217302059?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "URL": "https://doi.org/10.1016/j.cviu.2017.11.014",
+        "ISSN": [
+          "1077-3142"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              7
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2014,
+              6
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.cviu.2014.03.005",
+        "title": [
+          "View invariant action recognition using projective depth"
+        ],
+        "author": [
+          {
+            "given": "Nazim",
+            "family": "Ashraf",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Chuan",
+            "family": "Sun",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Hassan",
+            "family": "Foroosh",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computer Vision and Image Understanding"
+        ],
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1077314214000563?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1077314214000563?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "URL": "https://doi.org/10.1016/j.cviu.2014.03.005",
+        "ISSN": [
+          "1077-3142"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              6
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              1998,
+              5
+            ]
+          ]
+        },
+        "DOI": "10.1006/cviu.1997.0633",
+        "title": [
+          "3D Road Reconstruction from a Single View"
+        ],
+        "author": [
+          {
+            "given": "Antonio",
+            "family": "Guiducci",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computer Vision and Image Understanding"
+        ],
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1077314297906330?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1077314297906330?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "URL": "https://doi.org/10.1006/cviu.1997.0633",
+        "ISSN": [
+          "1077-3142"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1998,
+              5
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2014,
+              5
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.cviu.2014.01.006",
+        "title": [
+          "Recursive head reconstruction from multi-view video sequences"
+        ],
+        "author": [
+          {
+            "given": "Catherine",
+            "family": "Herold",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Vincent",
+            "family": "Despiegel",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Stéphane",
+            "family": "Gentric",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Séverine",
+            "family": "Dubuisson",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Isabelle",
+            "family": "Bloch",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computer Vision and Image Understanding"
+        ],
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1077314214000137?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1077314214000137?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "URL": "https://doi.org/10.1016/j.cviu.2014.01.006",
+        "ISSN": [
+          "1077-3142"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              5
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2013,
+              6
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.cviu.2013.01.006",
+        "title": [
+          "View invariant action recognition using weighted fundamental ratios"
+        ],
+        "author": [
+          {
+            "given": "Nazim",
+            "family": "Ashraf",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yuping",
+            "family": "Shen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Xiaochun",
+            "family": "Cao",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Hassan",
+            "family": "Foroosh",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computer Vision and Image Understanding"
+        ],
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1077314213000131?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1077314213000131?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "URL": "https://doi.org/10.1016/j.cviu.2013.01.006",
+        "ISSN": [
+          "1077-3142"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              6
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2012,
+              6
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.cviu.2012.01.005",
+        "title": [
+          "Translational photometric alignment of single-view image sequences"
+        ],
+        "author": [
+          {
+            "given": "Adam P.",
+            "family": "Harrison",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Dileepan",
+            "family": "Joseph",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computer Vision and Image Understanding"
+        ],
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1077314212000227?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1077314212000227?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "URL": "https://doi.org/10.1016/j.cviu.2012.01.005",
+        "ISSN": [
+          "1077-3142"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2012,
+              6
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2011,
+              2
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.cviu.2010.10.005",
+        "title": [
+          "Fast multiple-view L2 triangulation with occlusion handling"
+        ],
+        "author": [
+          {
+            "given": "G.",
+            "family": "Chesi",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Y.S.",
+            "family": "Hung",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Computer Vision and Image Understanding"
+        ],
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1077314210002225?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S1077314210002225?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "URL": "https://doi.org/10.1016/j.cviu.2010.10.005",
+        "ISSN": [
+          "1077-3142"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 15,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

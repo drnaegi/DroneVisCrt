@@ -1,0 +1,2047 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1931,
+    "items": [
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        },
+        "DOI": "10.1109/tmm.2022.3162474",
+        "title": [
+          "Cross-View Panorama Image Synthesis"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-9347-5395",
+            "authenticated-orcid": false,
+            "given": "Songsong",
+            "family": "Wu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Computer Science, Guangdong University of Petrochemical Technology, Maoming, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2077-1246",
+            "authenticated-orcid": false,
+            "given": "Hao",
+            "family": "Tang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Information Technology and Electrical Engineering, ETH Zurich, Zurich, Switzerland"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xiao-Yuan",
+            "family": "Jing",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science, Guangdong University of Petrochemical Technology, Maoming, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5196-4921",
+            "authenticated-orcid": false,
+            "given": "Haifeng",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Software Engineering, Jinling Institute of Technology, Nanjing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0968-8556",
+            "authenticated-orcid": false,
+            "given": "Jianjun",
+            "family": "Qian",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6597-7248",
+            "authenticated-orcid": false,
+            "given": "Nicu",
+            "family": "Sebe",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Information Engineering and Computer Science (DISI), University of Trento, Trento, Italy"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yan",
+            "family": "Yan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, Illinois Institute of Technology, Chicago, IL, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Multimedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/6046/10016790/09743312.pdf?arnumber=9743312",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tmm.2022.3162474",
+        "ISSN": [
+          "1520-9210",
+          "1941-0077"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "DOI": "10.1109/tmm.2025.3586124",
+        "title": [
+          "CCIGeo: Cross-View and Cross-Day-Night Image Geo-Localization Using Daytime Image Supervision"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0005-7211-3973",
+            "authenticated-orcid": false,
+            "given": "Nan",
+            "family": "Wu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Henan Key Laboratory of Cyberspace Situation Awareness, Zhengzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6487-379X",
+            "authenticated-orcid": false,
+            "given": "Chunfang",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Henan Key Laboratory of Cyberspace Situation Awareness, Zhengzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1737-2516",
+            "authenticated-orcid": false,
+            "given": "Baojun",
+            "family": "Qi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Henan Key Laboratory of Cyberspace Situation Awareness, Zhengzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9965-1465",
+            "authenticated-orcid": false,
+            "given": "Ma",
+            "family": "Zhu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Henan Key Laboratory of Cyberspace Situation Awareness, Zhengzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jiangshan",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Electronic Science and Technology, National University of Defense Technology, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6062-2950",
+            "authenticated-orcid": false,
+            "given": "Xiangyang",
+            "family": "Luo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Henan Key Laboratory of Cyberspace Situation Awareness, Zhengzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Multimedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/6046/10844992/11071854.pdf?arnumber=11071854",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tmm.2025.3586124",
+        "ISSN": [
+          "1520-9210",
+          "1941-0077"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "DOI": "10.1109/tmm.2021.3092571",
+        "title": [
+          "Cross View Capture for Stereo Image Super-Resolution"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-1349-3399",
+            "authenticated-orcid": false,
+            "given": "Xiangyuan",
+            "family": "Zhu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Engineering, Central South University, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4143-6399",
+            "authenticated-orcid": false,
+            "given": "Kehua",
+            "family": "Guo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Engineering, Central South University, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9365-7420",
+            "authenticated-orcid": false,
+            "given": "Hui",
+            "family": "Fang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Computer Science Department, Loughborough University, Loughborough, U.K."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5500-2471",
+            "authenticated-orcid": false,
+            "given": "Liang",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Engineering, Central South University, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3597-7124",
+            "authenticated-orcid": false,
+            "given": "Sheng",
+            "family": "Ren",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Engineering, Central South University, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2974-1166",
+            "authenticated-orcid": false,
+            "given": "Bin",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Engineering, Central South University, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Multimedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/6046/9687854/09465749.pdf?arnumber=9465749",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tmm.2021.3092571",
+        "ISSN": [
+          "1520-9210",
+          "1941-0077"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        },
+        "DOI": "10.1109/tmm.2022.3224319",
+        "title": [
+          "Blind Image Quality Assessment via Cross-View Consistency"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-3069-060X",
+            "authenticated-orcid": false,
+            "given": "Yucheng",
+            "family": "Zhu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Institute of Image Communication and Network Engineering, and MoE Key Laboratory of Artificial Intelligence, Shanghai Jiao Tong University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7337-1748",
+            "authenticated-orcid": false,
+            "given": "Yunhao",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Image Communication and Network Engineering, and MoE Key Laboratory of Artificial Intelligence, Shanghai Jiao Tong University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8162-1949",
+            "authenticated-orcid": false,
+            "given": "Wei",
+            "family": "Sun",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Image Communication and Network Engineering, and MoE Key Laboratory of Artificial Intelligence, Shanghai Jiao Tong University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5693-0416",
+            "authenticated-orcid": false,
+            "given": "Xiongkuo",
+            "family": "Min",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Image Communication and Network Engineering, and MoE Key Laboratory of Artificial Intelligence, Shanghai Jiao Tong University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8165-9322",
+            "authenticated-orcid": false,
+            "given": "Guangtao",
+            "family": "Zhai",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Image Communication and Network Engineering, and MoE Key Laboratory of Artificial Intelligence, Shanghai Jiao Tong University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4029-3322",
+            "authenticated-orcid": false,
+            "given": "Xiaokang",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Image Communication and Network Engineering, and MoE Key Laboratory of Artificial Intelligence, Shanghai Jiao Tong University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Multimedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/6046/10016790/09961939.pdf?arnumber=9961939",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tmm.2022.3224319",
+        "ISSN": [
+          "1520-9210",
+          "1941-0077"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        },
+        "DOI": "10.1109/tmm.2022.3144066",
+        "title": [
+          "Geo-Localization via Ground-to-Satellite Cross-View Image Retrieval"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-3740-2743",
+            "authenticated-orcid": false,
+            "given": "Zelong",
+            "family": "Zeng",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Information and Communication Engineering, Graduate School of Information Science and Technology, The University of Tokyo, Bunkyo-ku, Japan"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3846-9157",
+            "authenticated-orcid": false,
+            "given": "Zheng",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science, National Engineering Research Center for Multimedia Software, Wuhan University, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Fan",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Information and Communication Engineering, Graduate School of Information Science and Technology, The University of Tokyo, Bunkyo-ku, Japan"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6995-6447",
+            "authenticated-orcid": false,
+            "given": "Shin’ichi",
+            "family": "Satoh",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Information and Communication Engineering, Graduate School of Information Science and Technology, The University of Tokyo, Bunkyo-ku, Japan"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Multimedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/6046/10016790/09684950.pdf?arnumber=9684950",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tmm.2022.3144066",
+        "ISSN": [
+          "1520-9210",
+          "1941-0077"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "DOI": "10.1109/tmm.2024.3368918",
+        "title": [
+          "Progressive Stereo Image Dehazing Network via Cross-View Region Interaction"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-9505-425X",
+            "authenticated-orcid": false,
+            "given": "Junhu",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Information Engineering, Key Laboratory of Knowledge Engineering with Big Data (Ministry of Education), Hefei University of Technology, Hefei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8818-6740",
+            "authenticated-orcid": false,
+            "given": "Yanyan",
+            "family": "Wei",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Information Engineering, Key Laboratory of Knowledge Engineering with Big Data (Ministry of Education), Hefei University of Technology, Hefei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5703-7969",
+            "authenticated-orcid": false,
+            "given": "Zhao",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Information Engineering, Key Laboratory of Knowledge Engineering with Big Data (Ministry of Education), Hefei University of Technology, Hefei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9665-0355",
+            "authenticated-orcid": false,
+            "given": "Jicong",
+            "family": "Fan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Data Science, Chinese University of Hong Kong, Shenzhen, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4032-8049",
+            "authenticated-orcid": false,
+            "given": "Yang",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Information Engineering, Key Laboratory of Knowledge Engineering with Big Data (Ministry of Education), Hefei University of Technology, Hefei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0512-880X",
+            "authenticated-orcid": false,
+            "given": "Yi",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Centre for Artificial Intelligence, University of Technology Sydney, Sydney, NSW, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3094-7735",
+            "authenticated-orcid": false,
+            "given": "Meng",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Information Engineering, Key Laboratory of Knowledge Engineering with Big Data (Ministry of Education), Hefei University of Technology, Hefei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Multimedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/6046/10384483/10443871.pdf?arnumber=10443871",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tmm.2024.3368918",
+        "ISSN": [
+          "1520-9210",
+          "1941-0077"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              6
+            ]
+          ]
+        },
+        "DOI": "10.1109/tmm.2017.2654120",
+        "title": [
+          "Accelerating Image-Domain-Warping Virtual View Synthesis on GPGPU"
+        ],
+        "author": [
+          {
+            "given": "Ronggang",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Jiajia",
+            "family": "Luo",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Xiubao",
+            "family": "Jiang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Zhenyu",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Wenmin",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Ge",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Wen",
+            "family": "Gao",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Multimedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/6046/7927810/07819453.pdf?arnumber=7819453",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tmm.2017.2654120",
+        "ISSN": [
+          "1520-9210",
+          "1941-0077"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              6
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "DOI": "10.1109/tmm.2026.3654420",
+        "title": [
+          "COP: CrOss-View Attention Prompt for Zero-Shot Sketch-Based Image Retrieval"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-5169-3183",
+            "authenticated-orcid": false,
+            "given": "Jiahao",
+            "family": "Zheng",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, City University of Hong Kong, Hong Kong, SAR, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0001-4914-1440",
+            "authenticated-orcid": false,
+            "given": "Yu",
+            "family": "Tang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shanghai University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0002-8957-1020",
+            "authenticated-orcid": false,
+            "given": "Yongcan",
+            "family": "Luo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, City University of Hong Kong, Hong Kong, SAR, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6806-4287",
+            "authenticated-orcid": false,
+            "given": "Ning",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, City University of Hong Kong, Hong Kong, SAR, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1300-1769",
+            "authenticated-orcid": false,
+            "given": "Dan",
+            "family": "Zeng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shanghai University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1755-0183",
+            "authenticated-orcid": false,
+            "given": "Dapeng",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, City University of Hong Kong, Hong Kong, SAR, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Multimedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/6046/11342315/11353916.pdf?arnumber=11353916",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tmm.2026.3654420",
+        "ISSN": [
+          "1520-9210",
+          "1941-0077"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "DOI": "10.1109/tmm.2024.3364492",
+        "title": [
+          "Coarse-to-Fine Cross-View Interaction Based Accurate Stereo Image Super-Resolution Network"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-3562-6260",
+            "authenticated-orcid": false,
+            "given": "Anqi",
+            "family": "Liu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Electrical and Information Engineering, Tianjin University, Tianjin, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4793-3161",
+            "authenticated-orcid": false,
+            "given": "Sumei",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electrical and Information Engineering, Tianjin University, Tianjin, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2803-6983",
+            "authenticated-orcid": false,
+            "given": "Yongli",
+            "family": "Chang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electrical and Information Engineering, Tianjin University, Tianjin, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0008-0171-8897",
+            "authenticated-orcid": false,
+            "given": "Wenlin",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Tianjin International Engineering Institute, Tianjin University, Tianjin, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1676-5505",
+            "authenticated-orcid": false,
+            "given": "Yonghong",
+            "family": "Hou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electrical and Information Engineering, Tianjin University, Tianjin, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Multimedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/6046/10384483/10430460.pdf?arnumber=10430460",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tmm.2024.3364492",
+        "ISSN": [
+          "1520-9210",
+          "1941-0077"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              8
+            ]
+          ]
+        },
+        "DOI": "10.1109/tmm.2019.2951463",
+        "title": [
+          "CKD: Cross-Task Knowledge Distillation for Text-to-Image Synthesis"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-8097-2947",
+            "authenticated-orcid": false,
+            "given": "Mingkuan",
+            "family": "Yuan",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7658-3845",
+            "authenticated-orcid": false,
+            "given": "Yuxin",
+            "family": "Peng",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Multimedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/6046/9146956/08890866.pdf?arnumber=8890866",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tmm.2019.2951463",
+        "ISSN": [
+          "1520-9210",
+          "1941-0077"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              8
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "DOI": "10.1109/tmm.2026.3715326",
+        "title": [
+          "Blind Light Field Image Quality Assessment via Cross-View Encoding and Dynamic Expert Mixture"
+        ],
+        "author": [
+          {
+            "given": "Youzhi",
+            "family": "Zhang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Anqing Normal University",
+                "place": [
+                  "Anqing, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jianyu",
+            "family": "Qian",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Anqing Normal University",
+                "place": [
+                  "Anqing, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Deyang",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shandong University of Science and Technology",
+                "place": [
+                  "Qingdao, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zeyu",
+            "family": "Xiao",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xiaofei",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Hangzhou Dianzi University",
+                "place": [
+                  "Hangzhou, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Caifeng",
+            "family": "Shan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shandong University of Science and Technology",
+                "place": [
+                  "Qingdao, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Multimedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/6046/4456689/11614763.pdf?arnumber=11614763",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tmm.2026.3715326",
+        "ISSN": [
+          "1520-9210",
+          "1941-0077"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "DOI": "10.1109/tmm.2026.3714323",
+        "title": [
+          "TGA3D: Texture-Geometry Admixture with Explicit 3D for Single-Image Novel View Synthesis"
+        ],
+        "author": [
+          {
+            "given": "Hang",
+            "family": "Zhang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Information and Communication Engineering, University of Electronic Science and Technology of China (UESTC), Chengdu, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ruituo",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Information and Communication Engineering, University of Electronic Science and Technology of China (UESTC), Chengdu, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Chao",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Intelligent Policing Key Laboratory of Sichuan Province, Luzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xinyu",
+            "family": "Lin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Information and Communication Engineering, University of Electronic Science and Technology of China (UESTC), Chengdu, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Frederic",
+            "family": "Dufaux",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Laboratoire des Signaux et Systemes, Universite Paris-Saclay, CNRS, CentraleSupelec, Gif-sur-Yvette, France"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ce",
+            "family": "Zhu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Information and Communication Engineering, University of Electronic Science and Technology of China (UESTC), Chengdu, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yipeng",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Information and Communication Engineering, University of Electronic Science and Technology of China (UESTC), Chengdu, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Multimedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/6046/4456689/11611746.pdf?arnumber=11611746",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tmm.2026.3714323",
+        "ISSN": [
+          "1520-9210",
+          "1941-0077"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "DOI": "10.1109/tmm.2024.3387746",
+        "title": [
+          "NiteDR: Nighttime Image De-Raining With Cross-View Sensor Cooperative Learning for Dynamic Driving Scenes"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0008-2398-3827",
+            "authenticated-orcid": false,
+            "given": "Cidan",
+            "family": "Shi",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Information Engineering, Guangdong University of Technology, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0001-6666-9431",
+            "authenticated-orcid": false,
+            "given": "Lihuang",
+            "family": "Fang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Information Engineering, Guangdong University of Technology, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0005-8371-9997",
+            "authenticated-orcid": false,
+            "given": "Han",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Information Engineering, Guangdong University of Technology, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0009-1851-6551",
+            "authenticated-orcid": false,
+            "given": "Xiaoyu",
+            "family": "Xian",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Technical Department of CRRC Academy Company, Ltd., Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9413-6528",
+            "authenticated-orcid": false,
+            "given": "Yukai",
+            "family": "Shi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Information Engineering, Guangdong University of Technology, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2248-3755",
+            "authenticated-orcid": false,
+            "given": "Liang",
+            "family": "Lin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Data and Computer Science, Sun Yat-sen University, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Multimedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/6046/10384483/10499836.pdf?arnumber=10499836",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tmm.2024.3387746",
+        "ISSN": [
+          "1520-9210",
+          "1941-0077"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "DOI": "10.1109/tmm.2026.3654390",
+        "title": [
+          "Deep Multi-View Clustering With Intra-View Similarity and Cross-View Correlation Learning"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0007-7608-3112",
+            "authenticated-orcid": false,
+            "given": "Pengyuan",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Institute of Information Science, Beijing Jiaotong University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9718-4277",
+            "authenticated-orcid": false,
+            "given": "Dongxia",
+            "family": "Chang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Information Science, Beijing Jiaotong University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8765-7640",
+            "authenticated-orcid": false,
+            "given": "Yiming",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nanjing University of Posts and Telecommunications, Nanjing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8062-5566",
+            "authenticated-orcid": false,
+            "given": "Man",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Information Science, Beijing Jiaotong University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0954-3330",
+            "authenticated-orcid": false,
+            "given": "Zisen",
+            "family": "Kong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Information Science, Beijing Jiaotong University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0006-0453-0879",
+            "authenticated-orcid": false,
+            "given": "Linhua",
+            "family": "Kong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Information Science, Beijing Jiaotong University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8581-9554",
+            "authenticated-orcid": false,
+            "given": "Yao",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Information Science, Beijing Jiaotong University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Multimedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/6046/11342315/11353460.pdf?arnumber=11353460",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tmm.2026.3654390",
+        "ISSN": [
+          "1520-9210",
+          "1941-0077"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "DOI": "10.1109/tmm.2021.3060291",
+        "title": [
+          "Cross-Modal Semantic Matching Generative Adversarial Networks for Text-to-Image Synthesis"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-6915-8736",
+            "authenticated-orcid": false,
+            "given": "Hongchen",
+            "family": "Tan",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1712-6083",
+            "authenticated-orcid": false,
+            "given": "Xiuping",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Baocai",
+            "family": "Yin",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0144-9489",
+            "authenticated-orcid": false,
+            "given": "Xin",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Multimedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/6046/9687854/09359527.pdf?arnumber=9359527",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tmm.2021.3060291",
+        "ISSN": [
+          "1520-9210",
+          "1941-0077"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 15,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

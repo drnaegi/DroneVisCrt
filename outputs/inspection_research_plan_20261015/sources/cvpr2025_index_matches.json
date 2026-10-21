@@ -1,0 +1,94 @@
+[
+  {
+    "title": "CoMapGS: Covisibility Map-based Gaussian Splatting for Sparse Novel View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Jang_CoMapGS_Covisibility_Map-based_Gaussian_Splatting_for_Sparse_Novel_View_Synthesis_CVPR_2025_paper.html"
+  },
+  {
+    "title": "Training Data Provenance Verification: Did Your Model Use Synthetic Data from My Generative Model for Training?",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Xie_Training_Data_Provenance_Verification_Did_Your_Model_Use_Synthetic_Data_CVPR_2025_paper.html"
+  },
+  {
+    "title": "Free360: Layered Gaussian Splatting for Unbounded 360-Degree View Synthesis from Extremely Sparse and Unposed Views",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Bao_Free360_Layered_Gaussian_Splatting_for_Unbounded_360-Degree_View_Synthesis_from_CVPR_2025_paper.html"
+  },
+  {
+    "title": "FloVD: Optical Flow Meets Video Diffusion Model for Enhanced Camera-Controlled Video Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Jin_FloVD_Optical_Flow_Meets_Video_Diffusion_Model_for_Enhanced_Camera-Controlled_CVPR_2025_paper.html"
+  },
+  {
+    "title": "AeroGen: Enhancing Remote Sensing Object Detection with Diffusion-Driven Data Generation",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Tang_AeroGen_Enhancing_Remote_Sensing_Object_Detection_with_Diffusion-Driven_Data_Generation_CVPR_2025_paper.html"
+  },
+  {
+    "title": "StreetCrafter: Street View Synthesis with Controllable Video Diffusion Models",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yan_StreetCrafter_Street_View_Synthesis_with_Controllable_Video_Diffusion_Models_CVPR_2025_paper.html"
+  },
+  {
+    "title": "SPC-GS: Gaussian Splatting with Semantic-Prompt Consistency for Indoor Open-World Free-view Synthesis from Sparse Inputs",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liao_SPC-GS_Gaussian_Splatting_with_Semantic-Prompt_Consistency_for_Indoor_Open-World_Free-view_CVPR_2025_paper.html"
+  },
+  {
+    "title": "FrugalNeRF: Fast Convergence for Extreme Few-shot Novel View Synthesis without Learned Priors",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Lin_FrugalNeRF_Fast_Convergence_for_Extreme_Few-shot_Novel_View_Synthesis_without_CVPR_2025_paper.html"
+  },
+  {
+    "title": "AIM-Fair: Advancing Algorithmic Fairness via Selectively Fine-Tuning Biased Models with Contextual Synthetic Data",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_AIM-Fair_Advancing_Algorithmic_Fairness_via_Selectively_Fine-Tuning_Biased_Models_with_CVPR_2025_paper.html"
+  },
+  {
+    "title": "SimVS: Simulating World Inconsistencies for Robust View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Trevithick_SimVS_Simulating_World_Inconsistencies_for_Robust_View_Synthesis_CVPR_2025_paper.html"
+  },
+  {
+    "title": "Synthetic Data is an Elegant GIFT for Continual Vision-Language Models",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wu_Synthetic_Data_is_an_Elegant_GIFT_for_Continual_Vision-Language_Models_CVPR_2025_paper.html"
+  },
+  {
+    "title": "LITA-GS: Illumination-Agnostic Novel View Synthesis via Reference-Free 3D Gaussian Splatting and Physical Priors",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_LITA-GS_Illumination-Agnostic_Novel_View_Synthesis_via_Reference-Free_3D_Gaussian_Splatting_CVPR_2025_paper.html"
+  },
+  {
+    "title": "GoLF-NRT: Integrating Global Context and Local Geometry for Few-Shot View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_GoLF-NRT_Integrating_Global_Context_and_Local_Geometry_for_Few-Shot_View_CVPR_2025_paper.html"
+  },
+  {
+    "title": "EVPGS: Enhanced View Prior Guidance for Splatting-based Extrapolated View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_EVPGS_Enhanced_View_Prior_Guidance_for_Splatting-based_Extrapolated_View_Synthesis_CVPR_2025_paper.html"
+  },
+  {
+    "title": "EVolSplat: Efficient Volume-based Gaussian Splatting for Urban View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Miao_EVolSplat_Efficient_Volume-based_Gaussian_Splatting_for_Urban_View_Synthesis_CVPR_2025_paper.html"
+  },
+  {
+    "title": "Novel View Synthesis with Pixel-Space Diffusion Models",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Elata_Novel_View_Synthesis_with_Pixel-Space_Diffusion_Models_CVPR_2025_paper.html"
+  },
+  {
+    "title": "AerialMegaDepth: Learning Aerial-Ground Reconstruction and View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Vuong_AerialMegaDepth_Learning_Aerial-Ground_Reconstruction_and_View_Synthesis_CVPR_2025_paper.html"
+  },
+  {
+    "title": "DiffPortrait360: Consistent Portrait Diffusion for 360 View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Gu_DiffPortrait360_Consistent_Portrait_Diffusion_for_360_View_Synthesis_CVPR_2025_paper.html"
+  },
+  {
+    "title": "MobileH2R: Learning Generalizable Human to Mobile Robot Handover Exclusively from Scalable and Diverse Synthetic Data",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_MobileH2R_Learning_Generalizable_Human_to_Mobile_Robot_Handover_Exclusively_from_CVPR_2025_paper.html"
+  },
+  {
+    "title": "MOVIS: Enhancing Multi-Object Novel View Synthesis for Indoor Scenes",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Lu_MOVIS_Enhancing_Multi-Object_Novel_View_Synthesis_for_Indoor_Scenes_CVPR_2025_paper.html"
+  },
+  {
+    "title": "NVComposer: Boosting Generative Novel View Synthesis with Multiple Sparse and Unposed Images",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_NVComposer_Boosting_Generative_Novel_View_Synthesis_with_Multiple_Sparse_and_CVPR_2025_paper.html"
+  },
+  {
+    "title": "NexusGS: Sparse View Synthesis with Epipolar Depth Priors in 3D Gaussian Splatting",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zheng_NexusGS_Sparse_View_Synthesis_with_Epipolar_Depth_Priors_in_3D_CVPR_2025_paper.html"
+  },
+  {
+    "title": "Enhancing Vision-Language Compositional Understanding with Multimodal Synthetic Data",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_Enhancing_Vision-Language_Compositional_Understanding_with_Multimodal_Synthetic_Data_CVPR_2025_paper.html"
+  }
+]

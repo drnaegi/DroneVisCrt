@@ -1,0 +1,649 @@
+                            This ICCV paper is the Open Access version, provided by the Computer Vision Foundation.
+                                          Except for this watermark, it is identical to the accepted version;
+                                    the final published version of the proceedings is available on IEEE Xplore.
+
+
+
+
+            Leveraging BEV Paradigm for Ground-to-Aerial Image Synthesis
+
+                                         Junyan Ye1,2 *, Jun He1* , Weijia Li1†,
+                           Zhutao Lv1 , Yi Lin1 , Jinhua Yu1 , Haote Yang2 , Conghui He2,3
+                     1
+                       Sun Yat-Sen University, 2 Shanghai AI Laboratory, 3 Sensetime Research
+
+
+                             Abstract
+
+    Ground-to-aerial image synthesis focuses on generating
+realistic aerial images from corresponding ground street
+view images while maintaining consistent content layout,
+simulating a top-down view. The significant viewpoint dif-
+ference leads to domain gaps between views, and dense
+urban scenes limit the visible range of street views, mak-
+ing this cross-view generation task particularly challeng-
+ing. In this paper, we introduce SkyDiffusion, a novel
+cross-view generation method for synthesizing aerial im-
+ages from street view images, utilizing a diffusion model
+and the Bird’s-Eye View (BEV) paradigm. The Curved-
+BEV method in SkyDiffusion converts street-view images
+into a BEV perspective, effectively bridging the domain
+gap, and employs a "multi-to-one" mapping strategy to ad-
+dress occlusion issues in dense urban scenes. Next, Sky-
+Diffusion designed a BEV-guided diffusion model to gen-
+erate content-consistent and realistic aerial images. Ad-
+                                                                      Figure 1. Illustration of the cross-view image synthesis task. (a)
+ditionally, we introduce a novel dataset, Ground2Aerial-3,            Challenges of cross-view domain gaps; (b) Challenges of occlu-
+designed for diverse ground-to-aerial image synthesis ap-             sion in dense scenes; (c) Comparing our ground-to-aerial image
+plications, including disaster scene aerial synthesis, low-           synthesis method with existing cross-view synthesis methods.
+altitude UAV image synthesis, and historical high-resolution
+satellite image synthesis tasks. Experimental results demon-
+                                                                      be captured and uploaded by users on platforms such as
+strate that SkyDiffusion outperforms state-of-the-art meth-
+                                                                      Google Street View or Mapillary, offering high flexibility in
+ods on cross-view datasets across natural (CVUSA), subur-
+                                                                      data collection and frequent temporal coverage [1]. There-
+ban (CVACT), urban (VIGOR-Chicago), and various appli-
+                                                                      fore, Ground-to-Aerial Image Synthesis can support rapid
+cation scenarios (G2A-3), achieving realistic and content-
+                                                                      response during natural disasters [22] or fill historical gaps
+consistent aerial image generation. The code, datasets and
+                                                                      in high-resolution satellite imagery records [3], among other
+more information of this work can be found at https:
+                                                                      applications.
+//opendatalab.github.io/skydiffusion/.
+                                                                         Despite the potential of cross-view synthesis from ground-
+1. Introduction                                                       level to aerial imagery, significant challenges remain. The
+                                                                      drastic viewpoint differences between street and satellite
+In fields such as land cover classification [21, 38], urban           views lead to distinct object appearances, resulting in sub-
+planning [53, 54, 56], and disaster response [10, 40, 52],            stantial domain gaps across image types[13, 18]. As shown
+the analysis of aerial imagery plays a crucial role. The              in Figure 1 (a), in cross-view scenarios, street-view images
+cross-view Ground-to-Aerial Image Synthesis task lever-               primarily capture ground and building facade details, while
+ages ground street-view images to synthesize corresponding            satellite views present more rooftop and macroscopic sum-
+aerial images at the same location. Street-view images can            mary information. Even with state-of-the-art diffusion meth-
+  * Equal contribution.                                               ods, the domain gap between views often results in gen-
+  † Corresponding author.                                             erated images that are realistic yet not true to reality; the
+
+
+
+                                                                28451
+synthesized satellite imagery may differ significantly from           cross-view datasets across natural (CVUSA), suburban
+the actual content of corresponding street-views, as shown            (CVACT), urban (VIGOR-Chicago), and various applica-
+in Figure 1(c).                                                       tion scenarios (G2A-3), with an SSIM increase of 8.67%
+    Another challenge is object occlusion in dense urban              and a FID reduction of 21.50%.
+settings, where tall buildings or trees limit the visibility
+range in street-views, which is substantially smaller than the    2. Related Work
+coverage of satellite images [15], as shown in Figure 1(b).
+                                                                  Cross-view image synthesis involves generating realistic
+Aerial images synthesized from a single street-view image
+                                                                  scene images with significant viewpoint changes [14, 25, 43,
+struggle to maintain consistency with real satellite images in
+                                                                  48, 49, 51]. This task is common in computer vision and has
+unseen areas. An effective approach is to leverage multiple
+                                                                  broad applications in areas such as remote sensing image
+neighboring street-view images for satellite view synthesis.
+                                                                  processing, virtual reality, and autonomous driving. It is
+However, this poses a challenge for the model in effectively
+                                                                  mainly divided into aerial-to-ground and ground-to-aerial
+utilizing geographic location information from street-views
+                                                                  generation [26, 27]. In this field, synthesizing satellite im-
+and integrating features from multiple street-view images.
+                                                                  ages from street-views is a challenging yet important task.
+    To address these challenges, this paper introduces SkyD-
+                                                                  Regmi and Borji [26] attempted to synthesize aerial views
+iffusion, a ground-to-aerial image synthesis method based
+                                                                  from a single street image, but the significant domain differ-
+on diffusion models and the BEV paradigm, emulating a sky-
+                                                                  ences led to inconsistencies. Tang et al. [35] used street-view
+view perspective. We first propose a Curved-BEV method,
+                                                                  images and aerial semantic maps for image-to-image transla-
+which transforms street-view images into Bird’s-Eye view to
+                                                                  tion to synthesize target satellite images, but semantic maps
+achieve domain alignment across viewpoints. Additionally,
+                                                                  are often unavailable in real scenarios. Additionally, the
+the Curved-BEV method introduces a multi-to-one map-
+                                                                  performance of GANs has also limited the quality of ground-
+ping strategy, effectively integrating street-view images from
+                                                                  to-aerial image synthesis in previous studies. Concurrent
+different capture locations into a unified BEV space, thus
+                                                                  work [1] also synthesizes satellite images using text guid-
+overcoming the limited observation range in urban street-
+                                                                  ance and staged BEV semantic segmentation results, but
+view images. Subsequently, we designed a BEV-guided
+                                                                  these methods require additional text data and an extra se-
+diffusion model to generate realistic satellite images con-
+                                                                  mantic segmentation phase on street-view images. Unlike
+sistent with street-view content. Therefore, SkyDiffusion
+                                                                  our method, it uses existing BEV methods and only supports
+effectively overcomes the challenges of cross-view domain
+                                                                  one-to-one synthesis.
+gaps and the limited observation range in densely occluded
+                                                                  BEV transformation is a perspective domain conversion
+urban scenes, generating more realistic satellite images.
+                                                                  technique similar to polar transformation [31, 37] and geo-
+    Moreover, existing cross-view datasets, such as CVUSA         transformation [20], widely used in retrieval [46], navigation
+[42] and VIGOR [55], were originally designed for cross-          [17] and localization tasks [32, 34, 41]. Traditional BEV
+view retrieval tasks and thus offer limited diversity for         transformation techniques, which rely on camera parameters
+cross-view synthesis. To address this, we introduce the           [30] or depth estimation methods [36, 45], face challenges
+Ground2Aerial-3 (G2A-3) dataset, which includes three             such as the difficulty in obtaining camera parameters and the
+novel aerial image generation scenarios: disaster emergency       high computational cost of depth estimation. Recently, some
+response, low-altitude UAV imagery, and historical high-          methods have been proposed to map street-view images to
+resolution imagery generation tasks. The Ground2Aerial-3          the BEV perspective using geometric relations at the image
+dataset provides greater practical value and significance for     [41] or feature level [32]. However, such methods are based
+exploring cross-view synthesis tasks in more diverse scenar-      on the ground plane assumption, where all mapped points
+ios. Our main contributions are as follows:                       are located below the camera, limiting the mapping of upper
+• We introduce SkyDiffusion, a novel ground-to-aerial syn-        street scene features and causing information loss. Moreover,
+  thesis method leveraging diffusion models and BEV               most existing panoramic BEV transformation methods pri-
+  paradigm to generate realistic, consistent aerial images.       marily focus on one-to-one mappings, with relatively little
+• We design a Curved-BEV method to transform street-view          research on multi-to-one BEV joint mappings.
+  images into satellite views for domain alignment. It also       Novel view synthesis based on diffusion models. Diffusion
+  includes "Multi-to-One" mapping strategy to enhance BEV         models have shown significant potential in recent studies
+  perception range in densely occluded urban areas.               on novel view synthesis [4, 8, 39, 44, 47]. DreamBooth
+• We introduce Ground2Aerial-3, a new ground-to-aerial im-        [29] and AerialDiffusion [9] utilize text guidance to achieve
+  age synthesis dataset, featuring disaster scene aerial image,   top-down image generation by fine-tuning diffusion models.
+  low-altitude UAV image, and historical high-resolution          However, it is challenging to fully encapsulate the com-
+  satellite image synthesis tasks.                                plexity of real-world scenes using textual information alone.
+• SkyDiffusion outperforms state-of-the-art methods on            Besides, diffusion-based image-to-image translation meth-
+
+
+
+                                                              28452
+Figure 2. Overview of the proposed SkyDiffusion framework. It include the curved BEV transformation and BEV-controlled diffusion
+model. The lower parts present the results of One-to-One and Multi-to-One BEV transformations, respectively.
+
+ods can also generate realistic satellite images [2, 11, 50].     three-dimensional coordinate system with the camera on the
+However, the substantial domain gap between street-view           z-axis. We assume that the BEV plane is an upward curved
+images and satellite images presents a significant challenge      surface, with the height (z-axis) increasing rapidly as the 3D
+in generating content-consistent satellite images.                points move away from the center (the central part of Fig
+                                                                  3(a)). The following equation formulates the relationship
+3. Methods                                                        between P (x, y, z) and P (i, j), where dnorm represents the
+                                                                  normalized distance from the center, dmax is the maximum
+As illustrated in Fig. 2, this paper introduces SkyDiffusion,     distance from the center, and λ is a scaling factor.
+a novel method for synthesizing satellite images from cor-                 
+responding street-view images. It initially applies a curved                            l
+                                                                           x = j − 2 , y = 2 − i
+                                                                                                 l
+BEV transformation to the input street-view images, convert-                                      √           4
+                                                                                    4                  x2 +y 2                (1)
+ing the perspective to a top-down view using either one-to-                z = dnorm × λ =
+                                                                           
+                                                                                                      dmax        ×λ
+one or multi-to-one mappings (Section 3.1). Subsequently, a
+BEV-guided diffusion model controls the synthesis of satel-          Furthermore, we can convert P (x, y, z) to spherical co-
+lite images (Section 3.2). Following this, we detail our          ordinates P (θ, φ). Based on the equirectangular projection
+network training process (Section 3.3).                           properties of street-view images, P (θ, φ) corresponds to the
+                                                                  panorama image index P (u, v). This allows us to establish
+3.1. Curved BEV Transformation
+                                                                  the mapping relationship between P (x, y, z) and P (u, v)
+One-to-One BEV. Existing BEV methods based on ground              from the following equation, where H represents the camera
+plane assumptions (P (x, y, z = 0)) and geometric relation-       height, and w, h represent the width and height of the street
+ships achieve the mapping from street-view to the BEV             image. More details are in the supplementary material.
+plane[32, 41]. However, this assumption fails to map the                                            w
+content above the street-view image and results in notice-               u = [arctan2 (y, x) + π]
+                                                                         
+able distortion as points move away from the center area.                                            2π
+                                                                                                                            (2)
+                                                                          v = π + arctan2 z − H, x2 + y 2 h
+                                                                                h                      p          i
+Thus, we propose an enhanced curved BEV transformation                   
+to better capture cross-view information and address this                         2                                   π
+issue.                                                               Following Eq. 1 and Eq. 2, we achieve the projection
+   As shown in Fig. 3, we use P (i, j) to denote an index         from the street-view image to the bird’s eye view without
+on the BEV space, and P (x, y, z) to illustrate a point in a      requiring camera calibration parameters or depth estimation
+
+
+
+                                                             28453
+                                                                     ule β1 , β2 , . . . , βT :
+                                                                                                          p
+                                                                                 q(xt |xt−1 ) = N (xt ;       1 − βt xt−1 , βt I)   (4)
+
+                                                                    where xt is a noised sample with noise level t. The reverse
+                                                                    process involves a series of denoising steps, where noise is
+                                                                    progressively removed by employing a neural network ϵθ
+                                                                    with parameters θ. The reverse process involves a series
+                                                                    of denoising steps, where noise is progressively removed
+                                                                    by employing a neural network ϵθ with parameters θ. This
+                                                                    neural network predicts the noise ϵ present in a noisy image
+                                                                    xt at step t.
+                                                                       In the satellite image synthesis process, an effective fea-
+                                                                    ture embedding mechanism is required to ensure the gen-
+                                                                    erated satellite image aligns with the BEV image Ibev . We
+                                                                    use a conditional encoder to transform the BEV image into a
+                                                                    latent space feature embedding, and then, similar to Control-
+Figure 3. Schematic of the curved BEV transformation. It
+illustrates the mapping of two points on the BEV plane to the top
+                                                                    Net [50], inject the features into the diffusion model using
+and bottom of the street-view image during transformation.          zero convolution layers and replicated SD modules. Specifi-
+                                                                    cally, we first use a small encoder to capture the cross-view
+methods [36, 45]. This effectively maps upper street-view           associative information of the input BEV image Ibev such
+features like distant roads and buildings. Since the mapping        as road directions and building positions, to achieve BEV
+relationship for each transformation is fixed, the computa-         image feature embedding cbev . Notably, considering the
+tional overhead is minimal.                                         potential feature distortions in BEV images, we employ a
+Multi-to-One BEV. Due to the limitations imposed by dense           spatial attention mechanism to enhance feature capture while
+buildings on street-view observations, the BEV sensing              suppressing distorted features.
+range is very limited in urban datasets like VIGOR. To
+address this, we propose a "Multi-to-one" BEV mapping                                             cbev = E(Ibev ).                  (5)
+method that unifies multiple street-view BEV mappings                   Subsequently, by using zero convolution layers and repli-
+results BEVcamk into a single satellite coordinate system            cating the encoder and middle block structures and weights
+based on the relationships of camera position. We select the         from the SD module, the extracted BEV features are injected
+street-view mapping result closest to the capture point for          into another SD module. Guided by the BEV image, the
+overlapping areas following Eq. 3.                                   diffusion model incorporates cross-view associative informa-
+                                                                     tion, synthesizing aerial views with consistent content.
+       BEV (x, y) = BEVcamk (x − ∆xk , y − ∆yk )
+      (
+                   p                                         (3)     3.3. Network Training and Implementation Details
+       k = arg min (x − xcami )2 + (y − ycami )2
+                   i                                                 Given a set of cross-view image data, the image diffusion
+                                                                     algorithm gradually adds noise to the satellite image, gener-
+   where BEV (x, y) represents the unified BEV space cor-
+                                                                     ating a noisy satellite image. It then learns a network ϵθ to
+responding to the satellite image, x, y corresponds to the
+                                                                     predict the noise added to the noisy satellite image Zt based
+index position of the BEV plane, ∆xk and ∆yk represent
+                                                                     on the given BEV image as the conditional input. Since text
+the offset of the street-view image from the satellite center,
+                                                                     cannot fully describe the street-view scene, our cross-view
+and xcami and ycami represent the coordinates of camera
+                                                                     image synthesis is essentially an image-conditioned synthe-
+position in the satellite coordinate system. Additionally, dur-
+                                                                     sis task, with text not being our optimization target. This
+ing the implementation process, we also include boundary
+                                                                     helps the model focus on generating satellite images based
+cropping as part of the image post-processing.
+                                                                     on the BEV conditions.
+3.2. BEV-Controlled Diffusion Model                                                                 h
+                                                                                                                               2
+                                                                                                                                 i
+                                                                        L = Esat0 ,t,cbev ,ϵ∼N (0,1) ∥ϵ − ϵθ (satt , t, cbev )∥2   (6)
+Image diffusion models progressively denoise images and
+generate samples from the training domain. The denois-                 The loss L is the learning objective of the diffusion model,
+ing process can occur in pixel space or in a latent space           where t represents the time step. We implement SkyDiffu-
+encoded from training data [7, 33]. In the forward pro-             sion using the pre-trained Stable Diffusion v1.5 model [28],
+cess, diffusion models gradually add Gaussian noises to a           with an unlocked diffusion decoder and a classifier-free guid-
+ground truth image x0 according to a predetermined sched-           ance scale of 9.0 [6]. Final inference sampling uses 50 steps
+
+
+
+                                                                28454
+with the DDIM strategy [33]. Training is on eight NVIDIA
+A100 GPUs with a batch size of 128 for 100 epochs.
+
+4. Dataset
+We propose Ground2Aerial-3, a multi-task cross-view syn-
+thesis dataset designed to explore the performance of cross-
+view synthesis methods in several novel scenarios. As shown
+in Figure 4, G2A-3 contains around 20,000 street view and
+aerial images, covering disaster scene aerial image synthe-
+sis, low-altitude UAV image synthesis, and historical high-
+resolution satellite image synthesis. Due to the challenges
+in collecting data for specialized task scenarios, G2A-3 has
+gathered the available data to the greatest extent possible.
+The ground street-view images are 1024 × 512, with true
+north aligned at the center, and the aerial images are 512
+× 512, aligned with the center of the ground images. The
+dataset for each task is divided into training and testing sets            Figure 4. Illustration of the Ground2Aerial-3 dataset.
+by region, with a 4:1 ratio. The motivation and specific
+information for each task is as follows.                           imagery, creating a cross-view dataset for low-altitude UAV
+                                                                   image synthesis tasks.
+4.1. Disaster Response Image Synthesis
+Satellite and aerial imagery are often limited by their cap-       4.3. Historical HR Satellite Image Synthesis
+ture frequency, making it difficult to obtain timely data for
+disaster response scenarios. Furthermore, acquiring multiple      Obtaining high-resolution (HR) satellite imagery, particu-
+satellite images within a short time frame (e.g., 1 hour) to      larly ultra-high resolution images exceeding 0.3m, has been
+track disaster changes is typically infeasible. In such cases,    challenging. It wasn’t until the recent launch of WorldView-
+synthesizing aerial images from street view images captured       3 (2014) and WorldView-4 (2018) that high-resolution cov-
+by ground cameras offers a fast and cost-effective solution,      erage at near-global scales became available. Previously,
+which can be further used for disaster assessment via com-        ultra-high resolution images were often limited to small ar-
+parative analysis with pre-disaster aerial imagery and assist     eas captured by aerial photography, with both spatial and
+in disaster geo-localization. CVIAN [12] is a cross-view          temporal coverage constraints. Therefore, by utilizing histor-
+dataset containing street-view and high-resolution satellite      ical street view images, we can provide information about
+imagery in Florida, USA, following Hurricane Ian in 2022.         past scenes to synthesize satellite or aerial images of the
+From CVIAN’s street-view and satellite data, we filtered          same location, offering additional supplementary informa-
+2.7k image pairs of moderately or severely affected areas         tion. We collected historical street view images from 2007 to
+and adjusted the north direction of street-view images to         2014 for the Boston and Los Angeles areas on the Mapillary
+                                                                  1
+the central column, preparing the data for the disaster scene       and used corresponding aerial images from the massGIS
+aerial image generation task.                                     platform 2 as high-resolution satellite imagery for training
+                                                                  and validation of synthesis results. Due to significant vari-
+4.2. Low-Altitude UAV Image Synthesis                             ations in the number of street-view images across different
+Low-altitude UAV imagery, with ultra-high resolution below        years, we still organized the dataset by region.
+0.05 meters, has potential applications in tasks such as lane
+data collection for autonomous driving. However, the cover-
+age and cost of UAV imagery are limited, and safety regu-
+                                                                   5. Experiments
+lations further restrict coverage range and update frequency.      In this section, we introduce the datasets utilized and the ex-
+Synthesizing low-altitude UAV images from more accessible          perimental setup. We then conduct both qualitative and quan-
+street-view images presents a potential application scenario.      titative comparisons of SkyDiffusion with state-of-the-art
+Using virtual MatrixCity [16] data, we employed the UE             cross-view synthesis methods. Finally, we perform ablation
+engine to set up six single-view cameras at ground level, ren-     studies to evaluate the effectiveness of each module.
+dering and stitching them into panoramic street-view images.
+Specific details are provided in the supplementary materials.           1 https://www.mapillary.com/
+At the same locations, we positioned downward-facing cam-               2 https : / / www . mass . gov / info - details / massgis -
+
+eras at an altitude of 20 meters to render low-altitude UAV           data-layers
+
+
+
+
+                                                              28455
+                      Figure 5. Qualitative comparison of different methods synthesis results on three datasets.
+
+5.1. Experimental Setup                                               plane. In this case, the BEV mapping of a single street-view
+                                                                      image is similar to those in [32, 46], as it only needs to
+Dataset Details. CVUSA [42] and CVACT [19] are two
+                                                                      capture details near the capture point during the multi-to-one
+commonly used cross-view datasets, containing one-to-one,
+                                                                      mapping process.
+center-aligned aerial and ground street-view images. They
+mainly covers suburban scenes, with low-rise buildings and            Comparison Methods and Metric. We compare our
+open views. The CVACT dataset is regionally segmented.                method with several state-of-the-art cross-view synthesis
+Although CVUSA uses random partitioning, its data distri-             techniques, including GAN-based methods such as X-Seq
+bution is sparse, with no overlap among satellite images.             [26], SelectionGAN (without semantic masks) [35], CDTE
+   VIGOR-Chicago [55] is a subset of the VIGOR cross-                 [37], and CUT [23], as well as diffusion-based new view syn-
+view dataset, containing the Chicago area. In this dataset,           thesis and image transformation methods, including Aerial
+street-view panoramas and satellite images are not center-            Diff [9], GPG2A [1], Instruct Pix2Pix (Instr-p2p) [2], Con-
+aligned, with multiple street-view images covering the same           trolNet [50], and img2img-turbo [24]. Except for the fine-
+satellite image region, forming a multi-to-one mapping rela-          tuned diffusion model, which requires brief textual descrip-
+tionship. We modified the train-test split to a 4:1 ratio and         tions, all other models use the same street-view input. Fol-
+ensured that the same satellite images do not appear in both          lowing previous work [20, 26, 37], we employ commonly
+the training and testing sets to prevent information leakage.         used metrics such as SSIM, PSNR and LPIPS to evaluate
+The G2A-3 dataset has been described in Section 4.                    the content consistency of the synthesized images, and use
+Parameter setting details. All input street images are set            FID [5] to assess the realism of images.
+to 512 × 1024 pixels, with the center column aligned to
+                                                                      5.2. Comparison with State-of-the-Art Methods
+the north. Unlike previous methods that synthesize low-
+resolution satellite images (64 × 64), this experiment aims to        On the suburban CVUSA and CVACT datasets, SkyDiffu-
+meet practical needs by generating higher-resolution satellite        sion achieved the outstanding results, as shown in Table 1.
+images (512 × 512 pixels). For a multi-to-one mapping, to             Compared to state-of-the-art methods, it reduced FID by
+facilitate the merging of BEV mapping results from different          25.72% and increased SSIM by 7.68%, demonstrating its
+street views, we set the hyperparameter λ to 0, allowing for          superiority in synthesizing realistic and consistent satellite
+direct nearest-distance integration on the same horizontal            images. The visual results in Fig. 5 show that GAN-based
+
+
+
+                                                               28456
+                                CVUSA                                      CVACT                            VIGOR-Chicago
+Method
+                  FID (↓) SSIM (↑) PSNR (↑) LPIPS (↓) FID (↓) SSIM (↑) PSNR (↑) LPIPS (↓) FID (↓) SSIM (↑) PSNR (↑) LPIPS (↓)
+X-Seq [26]        161.16   0.084     11.97      0.706    190.12      0.042      12.41     0.661       -       -           -          -
+CDTE [37]         122.84   0.143     10.01      0.694    160.81      0.091      12.59     0.663       -       -           -          -
+SelGAN [35]       116.57   0.129     12.38      0.742    100.21      0.116      12.04     0.684    149.53   0.127       11.77      0.778
+Aerial Diff [9]   136.18   0.103     10.06      0.855    127.29      0.108      10.24     0.878    123.16   0.141       11.49      0.831
+CUT [23]          72.83    0.121     12.09      0.687     62.22      0.102      13.11     0.664     69.42   0.169       13.66      0.665
+I2I-Turbo [24]    77.95    0.127     12.64      0.685     73.24      0.103      12.19     0.679     80.10   0.135       11.28      0.690
+GPG2A [1]         58.80    0.135     12.13      0.691     63.50      0.116      11.98     0.690     70.19   0.159       11.81      0.695
+Instr-p2p [2]     38.01    0.138     12.29      0.697     49.62      0.116      12.51     0.682     50.30   0.163       10.62      0.689
+ControlNet [50]   32.45    0.149     12.63      0.650     62.21      0.115      11.95     0.682     53.27   0.170       10.38      0.666
+Ours              29.18    0.168     14.58      0.635     36.48      0.118      12.85     0.645     45.29   0.186       11.69      0.661
+
+                    Table 1. Quantitative comparison of different methods on CVUSA, CVACT and VIGOR-Chicago.
+
+
+
+
+                      Figure 6. Qualitative comparison of synthesis results for One-to-One and Multi-to-one BEV.
+
+
+cross-view methods generate excessive artifacts and blurri-               Method               FID (↓) SSIM (↑) PSNR (↑) LPIPS (↓)
+ness. While diffusion-based methods such as Aerial Diff                   CVACT
+and Instr-p2p produce highly realistic aerial views, they lack            Baseline             62.21    0.115       11.95       0.682
+content correlation with the street-view images. In contrast,             Ours (BEV)           42.84    0.117       13.62       0.673
+our method benefits from BEV perspective transformation,                  Ours (C-BEV)         36.48    0.118       12.85       0.645
+enabling effective capture of cross-view associative informa-             VIGOR-Chicago
+tion. SkyDiffusion generates realistic images with consistent             Baseline             53.27    0.170       10.38       0.666
+content layout, including road direction, tree placement, and             Ours (BEV)           48.63    0.175       11.01       0.687
+                                                                          Ours (C-BEV)         45.29    0.186       11.69       0.661
+building distribution. Additional visual results can be found             Ours (C-BEV Multi)   31.90    0.205       11.15       0.651
+in the supplementary materials.
+                                                                       Table 2. Ablation study of the Curved-BEV module. "Baseline"
+   In the urban VIGOR-Chicago dataset, our method re-                  represents directly using street-view image,"BEV" and "C-BEV"
+duced FID by 14.98% and improved SSIM by 9.41% com-                    denotes using standard BEV or Curved-BEV transformation, and
+pared to the state-of-the-art method, as shown in Table 1.             "Multi" stands for Multi-to-One.
+The VIGOR results for SkyDiffusion use only a single street-
+view image. The results using Multi-to-One BEV generation              5.3. Ablation Study
+with multiple street-view images can be found in the ablation
+study. The visual results in Fig. 5 show that our method               We conducted ablation experiments on CVACT and VIGOR,
+maintains consistent associative information such as cross-            with results shown in Table 2. Compared to directly using
+walks and lanes. While the non-associative information on              street-view images as input, the Curved-BEV method im-
+building rooftops cannot be consistently generated, it still           proves performance across multiple metrics by transforming
+produces reasonable and realistic results.                             street-view images into satellite views for domain alignment.
+
+
+
+                                                                  28457
+ Method        FID (↓)   SSIM (↑)    PSNR (↑)    LPIPS (↓)
+ Disaster Scene aerial image synthesis
+ ControlNet 138.11        0.183        12.95        0.690
+ Ours          96.16      0.195        13.07        0.685
+ Low-altitude UAV image synthesis
+ ControlNet    52.76     0.371         16.55        0.598
+ Ours          32.53     0.452         16.86        0.390
+ Historical HR satellite image synthesis
+ ControlNet    36.48       0.117        12.85       0.665
+ Ours          33.29       0.129        14.02       0.651
+
+Table 3. Quantitative comparison of methods on G2A-3 Dataset.
+
+This indicates that the Curved-BEV method aids in synthe-
+sizing more content-consistent satellite images. Furthermore,
+the Multi-to-one method further improves metrics compared
+to the one-to-one mapping, demonstrating its effectiveness
+in dense urban scenes.
+    As shown in the visual results in Figure 6, using multiple
+street-view images for multi-to-one BEV mapping effec-
+tively addresses occlusions from tall objects like trees and
+buildings. This method effectively enhances the BEV sens-
+ing range in urban environments, facilitating the generation
+of large-scale satellite scenes. Additional ablation study              Figure 7. Qualitative Visualization Results on the G2A-3 Dataset.
+results can be found in the supplementary materials. We
+will include additional experiments in the supplementary            Historical High-Resolution Satellite image. Figure 7(c)
+materials, such as comparisons between Curve-BEV and the            illustrates that between 2008 and 2014, the road underwent
+standard BEV, as well as experiments on the hyperparameter          renovations, including the addition of crosswalks. SkyDiffu-
+λ, among others.                                                    sion successfully synthesizes realistic historical images from
+                                                                    earlier periods, effectively addressing the absence of high-
+5.4. Evaluation results on G2A-3 dataset                            resolution Satellite imagery from those times. Additional
+                                                                    visualizations on G2A-3 are available in the supplementary
+As shown in Table 3, the tasks on the G2A-3 dataset present
+                                                                    materials.
+certain challenges; however, our method achieves signifi-
+cant performance improvements over the commonly used                 6. Conclusion
+image-conditioned synthesis method, ControlNet. SkyDiffu-
+sion reduces the FID by an average of 25.81% and increases          In this study, we introduce SkyDiffusion, a novel approach
+the SSIM by an average of 12.88%. ControlNet generates              specifically designed for street images to satellite images
+satellite images from street-view input, creating a signifi-        cross-view synthesis. SkyDiffusion operates solely with
+cant domain gap. In contrast, our method uses Curve-BEV             street images as input, utilizing a BEV Paradigm and
+transformation to bridge the viewpoint domain gap, enabling         diffusion models to generate satellite images. SkyDiffu-
+more consistent satellite image generation.                         sion achieves state-of-the-art performance in both content
+Disaster Scene Aerial image. In Figure 7(a), the key                consistency and image realism on across multiple cross-
+disaster-stricken regions, highlighted within the orange            view datasets, demonstrating its superior capabilities. Ad-
+boxes, are distinctly visible in the generated satellite im-        ditionally, we introduce a cross-view synthesis dataset,
+agery. This provides a clear and comprehensive view of              Ground2Aerial-3, featuring aerial image synthesis tasks for
+the disaster areas, with the potential to assist in subsequent      multiple new scenes, providing practical value and inspira-
+assessment and in-depth analysis of the affected regions.           tion for future cross-view synthesis research.
+Low-Altitude UAV Image. The example in Figure 7(b)                   7. Acknowledgement
+demonstrates SkyDiffusion’s remarkable ability to synthe-
+size low-altitude UAV images. Due to the lower altitude of          This work was supported in part by the Natural Science
+UAV captures, there is greater overlap and closer domain            Foundation of Guangdong Province, China (Grant No.
+similarity between scenes, resulting in superior synthesis          2025A1515010400), the National Natural Science Founda-
+quality. SkyDiffusion showcases outstanding aerial image            tion of China (Grant No. 42201358) and Shanghai Artificial
+synthesis capabilities, expanding its potential applications.       Intelligence Laboratory.
+
+
+
+                                                                28458
+References                                                                        on Computer Vision and Pattern Recognition, pages 17397–
+                                                                                  17407, 2023. 1
+ [1] Ahmad Arrabi, Xiaohan Zhang, Waqas Sultan, Chen Chen,             [14]       Weijia Li, Jun He, Junyan Ye, Huaping Zhong, Zhi-
+     and Safwan Wshah. Cross-view meets diffusion: Aerial                         meng Zheng, Zilong Huang, Dahua Lin, and Conghui He.
+     image synthesis with geometry and text guidance. arXiv                       Crossviewdiff: A cross-view diffusion model for satellite-to-
+     preprint arXiv:2408.04224, 2024. 1, 2, 6, 7                                  street view synthesis. arXiv preprint arXiv:2408.14765, 2024.
+ [2] Tim Brooks, Aleksander Holynski, and Alexei A Efros. In-                     2
+     structpix2pix: Learning to follow image editing instructions.         [15]   Weijia Li, Haote Yang, Zhenghao Hu, Juepeng Zheng, Gui-
+     In Proceedings of the IEEE/CVF Conference on Computer                        Song Xia, and Conghui He. 3d building reconstruction from
+     Vision and Pattern Recognition, pages 18392–18402, 2023.                     monocular remote sensing images with multi-level supervi-
+     3, 6, 7                                                                      sions. In Proceedings of the IEEE/CVF Conference on Com-
+ [3] Julien Cornebise, Ivan Oršolić, and Freddie Kalaitzis. Open                 puter Vision and Pattern Recognition, pages 27728–27737,
+     high-resolution satellite imagery: The worldstrat dataset–with               2024. 2
+     application to super-resolution. Advances in Neural Informa-          [16]   Yixuan Li, Lihan Jiang, Linning Xu, Yuanbo Xiangli, Zhenzhi
+     tion Processing Systems, 35:25979–25991, 2022. 1                             Wang, Dahua Lin, and Bo Dai. Matrixcity: A large-scale
+ [4] Ruiyuan Gao, Kai Chen, Enze Xie, HONG Lanqing, Zhenguo                       city dataset for city-scale neural rendering and beyond. In
+     Li, Dit-Yan Yeung, and Qiang Xu. Magicdrive: Street view                     Proceedings of the IEEE/CVF International Conference on
+     generation with diverse 3d geometry control. In International                Computer Vision, pages 3205–3215, 2023. 5
+     Conference on Learning Representations, 2024. 2                    [17]      Zhiqi Li, Wenhai Wang, Hongyang Li, Enze Xie, Chonghao
+ [5] Martin Heusel, Hubert Ramsauer, Thomas Unterthiner, Bern-                    Sima, Tong Lu, Yu Qiao, and Jifeng Dai. Bevformer: Learn-
+     hard Nessler, and Sepp Hochreiter. Gans trained by a two                     ing bird’s-eye-view representation from multi-camera images
+     time-scale update rule converge to a local nash equilibrium. In              via spatiotemporal transformers. In European conference on
+     Advances in Neural Information Processing Systems. Curran                    computer vision, pages 1–18. Springer, 2022. 2
+     Associates, Inc., 2017. 6                                          [18]      Tao Jun Lin, Wenqing Wang, Yujiao Shi, Akhil Perincherry,
+ [6] Jonathan Ho and Tim Salimans. Classifier-free diffusion                      Ankit Vora, and Hongdong Li. Geometry-guided cross-view
+     guidance. arXiv preprint arXiv:2207.12598, 2022. 4                           diffusion for one-to-many cross-view image synthesis. arXiv
+ [7] Jonathan Ho, Ajay Jain, and Pieter Abbeel. Denoising diffu-                  preprint arXiv:2412.03315, 2024. 1
+     sion probabilistic models. In Advances in Neural Information       [19]      Liu Liu and Hongdong Li. Lending orientation to neural
+     Processing Systems, pages 6840–6851. Curran Associates,                      networks for cross-view geo-localization. In Proceedings of
+     Inc., 2020. 4                                                                the IEEE/CVF conference on computer vision and pattern
+                                                                                  recognition, pages 5624–5633, 2019. 6
+ [8] Bahjat Kawar, Shiran Zada, Oran Lang, Omer Tov, Huiwen
+                                                                           [20]   Xiaohu Lu, Zuoyue Li, Zhaopeng Cui, Martin R Oswald,
+     Chang, Tali Dekel, Inbar Mosseri, and Michal Irani. Imagic:
+                                                                                  Marc Pollefeys, and Rongjun Qin. Geometry-aware satellite-
+     Text-based real image editing with diffusion models. In Pro-
+                                                                                  to-ground image synthesis for urban areas. In Proceedings of
+     ceedings of the IEEE/CVF Conference on Computer Vision
+                                                                                  the IEEE/CVF Conference on Computer Vision and Pattern
+     and Pattern Recognition, pages 6007–6017, 2023. 2
+                                                                                  Recognition, pages 859–867, 2020. 2, 6
+ [9] Divya Kothandaraman, Tianyi Zhou, Ming Lin, and Dinesh
+                                                                        [21]      Zhiyong Lv, Pengfei Zhang, Weiwei Sun, Jón Atli Benedik-
+     Manocha. Aerial diffusion: Text guided ground-to-aerial
+                                                                                  tsson, Junhuai Li, and Wei Wang. Novel adaptive region
+     view synthesis from a single image using diffusion models.
+                                                                                  spectral–spatial features for land cover classification with
+     In SIGGRAPH Asia 2023 Technical Communications, pages
+                                                                                  high spatial resolution remotely sensed imagery. IEEE Trans-
+     1–4. 2023. 2, 6, 7
+                                                                                  actions on Geoscience and Remote Sensing, 61:1–12, 2023.
+[10] Maja Kucharczyk and Chris H Hugenholtz. Remote sensing                       1
+     of natural hazard-related disasters with small drones: Global     [22]       Ruizhe Ou, Haotian Yan, Ming Wu, and Chuang Zhang. A
+     trends, biases, and research opportunities. Remote Sensing of                method of efficient synthesizing post-disaster remote sensing
+     Environment, 264:112577, 2021. 1                                             image with diffusion model and llm. In 2023 Asia Pacific
+[11] Bo Li, Kaitao Xue, Bin Liu, and Yu-Kun Lai. Bbdm: Image-                     Signal and Information Processing Association Annual Sum-
+     to-image translation with brownian bridge diffusion models.                  mit and Conference (APSIPA ASC), pages 1549–1555. IEEE,
+     In Proceedings of the IEEE/CVF conference on computer                        2023. 1
+     vision and pattern Recognition, pages 1952–1961, 2023. 3              [23]   Taesung Park, Alexei A Efros, Richard Zhang, and Jun-Yan
+[12] Hao Li, Fabian Deuser, Wenping Yin, Xuanshu Luo, Paul                        Zhu. Contrastive learning for unpaired image-to-image trans-
+     Walther, Gengchen Mai, Wei Huang, and Martin Werner.                         lation. In Computer Vision–ECCV 2020: 16th European
+     Cross-view geolocalization and disaster mapping with street-                 Conference, Glasgow, UK, August 23–28, 2020, Proceedings,
+     view and vhr satellite imagery: A case study of hurricane ian.               Part IX 16, pages 319–345. Springer, 2020. 6, 7
+     2024. 5                                                           [24]       Gaurav Parmar, Taesung Park, Srinivasa Narasimhan, and
+[13] Weijia Li, Yawen Lai, Linning Xu, Yuanbo Xiangli, Jinhua                     Jun-Yan Zhu. One-step image translation with text-to-image
+     Yu, Conghui He, Gui-Song Xia, and Dahua Lin. Omnicity:                       models. arXiv preprint arXiv:2403.12036, 2024. 6, 7
+     Omnipotent city understanding with multi-level and multi-          [25]      Ming Qian, Jincheng Xiong, Gui-Song Xia, and Nan Xue.
+     view images. In Proceedings of the IEEE/CVF Conference                       Sat2density: Faithful density learning from satellite-ground
+
+
+
+
+                                                                   28459
+       image pairs. In Proceedings of the IEEE/CVF International                   Conference on Computer Vision and Pattern Recognition,
+       Conference on Computer Vision (ICCV), pages 3683–3692,                      pages 6488–6497, 2021. 2, 6, 7
+       2023. 2                                                              [38]   Xin-Yi Tong, Gui-Song Xia, Qikai Lu, Huanfeng Shen,
+[26]   Krishna Regmi and Ali Borji. Cross-view image synthesis                     Shengyang Li, Shucheng You, and Liangpei Zhang. Land-
+       using conditional gans. In Proceedings of the IEEE confer-                  cover classification with high-resolution remote sensing im-
+       ence on Computer Vision and Pattern Recognition, pages                      ages using transferable deep models. Remote Sensing of
+       3501–3510, 2018. 2, 6, 7                                                    Environment, 237:111322, 2020. 1
+[27]   Krishna Regmi and Ali Borji. Cross-view image synthesis          [39]       Hung-Yu Tseng, Qinbo Li, Changil Kim, Suhib Alsisan, Jia-
+       using geometry-guided conditional gans. Computer Vision                     Bin Huang, and Johannes Kopf. Consistent view synthe-
+       and Image Understanding, 187:102788, 2019. 2                                sis with pose-guided diffusion models. In Proceedings of
+[28]   Robin Rombach, Andreas Blattmann, Dominik Lorenz,                           the IEEE/CVF Conference on Computer Vision and Pattern
+       Patrick Esser, and Björn Ommer. High-resolution image                       Recognition, pages 16773–16783, 2023. 2
+       synthesis with latent diffusion models. In Proceedings of         [40]      Chenxu Wang, Danpei Zhao, Xinhu Qi, Zhuoran Liu, and
+       the IEEE/CVF conference on computer vision and pattern                      Zhenwei Shi. A hierarchical decoder architecture for multi-
+       recognition, pages 10684–10695, 2022. 4                                     level fine-grained disaster detection. IEEE Transactions on
+[29]   Nataniel Ruiz, Yuanzhen Li, Varun Jampani, Yael Pritch,                     Geoscience and Remote Sensing, 61:1–14, 2023. 1
+       Michael Rubinstein, and Kfir Aberman. Dreambooth: Fine            [41]      Xiaolong Wang, Runsen Xu, Zhuofan Cui, Zeyu Wan, and
+       tuning text-to-image diffusion models for subject-driven gen-               Yu Zhang. Fine-grained cross-view geo-localization using a
+       eration. In Proceedings of the IEEE/CVF Conference on Com-                  correlation-aware homography estimator. Advances in Neural
+       puter Vision and Pattern Recognition, pages 22500–22510,                    Information Processing Systems, 36, 2023. 2, 3
+       2023. 2                                                           [42]      Scott Workman, Richard Souvenir, and Nathan Jacobs. Wide-
+[30]   Paul-Edouard Sarlin, Daniel DeTone, Tsun-Yi Yang, Armen                     area image geolocalization with aerial reference imagery. In
+       Avetisyan, Julian Straub, Tomasz Malisiewicz, Samuel Rota                   Proceedings of the IEEE International Conference on Com-
+       Bulò, Richard Newcombe, Peter Kontschieder, and Vasileios                   puter Vision, pages 3961–3969, 2015. 2, 6
+       Balntas. Orienternet: Visual localization in 2d public maps          [43]   Ningli Xu and Rongjun Qin. Geospecific view generation
+       with neural matching. In Proceedings of the IEEE/CVF Con-                   geometry-context aware high-resolution ground view infer-
+       ference on Computer Vision and Pattern Recognition, pages                   ence from satellite views. In European Conference on Com-
+       21632–21642, 2023. 2                                                        puter Vision, pages 349–366. Springer, 2024. 2
+[31]   Yujiao Shi, Liu Liu, Xin Yu, and Hongdong Li. Spatial-               [44]   Zhiyuan Yan, Junyan Ye, Weijia Li, Zilong Huang, Shenghai
+       aware feature aggregation for image based cross-view geo-                   Yuan, Xiangyang He, Kaiqing Lin, Jun He, Conghui He,
+       localization. Advances in Neural Information Processing                     and Li Yuan. Gpt-imgeval: A comprehensive benchmark
+       Systems, 32, 2019. 2                                                        for diagnosing gpt4o in image generation. arXiv preprint
+[32]   Yujiao Shi, Fei Wu, Akhil Perincherry, Ankit Vora, and Hong-                arXiv:2504.02782, 2025. 2
+       dong Li. Boosting 3-dof ground-to-satellite camera localiza-         [45]   Junyan Ye, Qiyan Luo, Jinhua Yu, Huaping Zhong, Zhimeng
+       tion accuracy via geometry-guided cross-view transformer. In                Zheng, Conghui He, and Weijia Li. Sg-bev: satellite-guided
+       Proceedings of the IEEE/CVF International Conference on                     bev fusion for cross-view semantic segmentation. In Proceed-
+       Computer Vision, pages 21516–21526, 2023. 2, 3, 6                           ings of the IEEE/CVF Conference on Computer Vision and
+[33]   Jiaming Song, Chenlin Meng, and Stefano Ermon. Denoising                    Pattern Recognition, pages 27748–27757, 2024. 2, 4
+       diffusion implicit models. In International Conference on        [46]       Junyan Ye, Zhutao Lv, Weijia Li, Jinhua Yu, Haote Yang,
+       Learning Representations, 2021. 4, 5                                        Huaping Zhong, and Conghui He. Cross-view image geo-
+[34]   Zhenbo Song, Jianfeng Lu, Yujiao Shi, et al. Learning dense                 localization with panorama-bev co-retrieval network. In Euro-
+       flow field for highly-accurate cross-view camera localization.              pean Conference on Computer Vision, pages 74–90. Springer,
+       Advances in Neural Information Processing Systems, 36, 2023.                2024. 2, 6
+       2                                                                    [47]   Junyan Ye, Baichuan Zhou, Zilong Huang, Junan Zhang,
+[35]   Hao Tang, Dan Xu, Nicu Sebe, Yanzhi Wang, et al. Multi-                     Tianyi Bai, Hengrui Kang, Jun He, Honglin Lin, Zihao Wang,
+       channel attention selection gan with cascaded semantic guid-                Tong Wu, et al. Loki: A comprehensive synthetic data de-
+       ance for cross-view image translation. In Proceedings of                    tection benchmark using large multimodal models. arXiv
+       the IEEE/CVF conference on computer vision and pattern                      preprint arXiv:2410.09732, 2024. 2
+       recognition, pages 2417–2426, 2019. 2, 6, 7                       [48]      Junyan Ye, Jun He, Xiang Zhang, Yi Lin, Honglin Lin, Con-
+[36]   Zhifeng Teng, Jiaming Zhang, Kailun Yang, Kunyu Peng, Hao                   ghui He, and Weijia Li. Satellite image synthesis from street
+       Shi, Simon Reiß, Ke Cao, and Rainer Stiefelhagen. 360bev:                   view with fine-grained spatial textual guidance: A novel
+       Panoramic semantic mapping for indoor bird’s-eye view. In                   framework. IEEE Geoscience and Remote Sensing Magazine,
+       Proceedings of the IEEE/CVF Winter Conference on Applica-                   2025. 2
+       tions of Computer Vision, pages 373–382, 2024. 2, 4                  [49]   Xianghui Ze, Zhenbo Song, Qiwei Wang, Jianfeng Lu, and
+[37]   Aysim Toker, Qunjie Zhou, Maxim Maximov, and Laura Leal-                    Yujiao Shi. Controllable satellite-to-street-view synthesis with
+       Taixé. Coming down to earth: Satellite-to-street view syn-                  precise pose alignment and zero-shot environmental control.
+       thesis for geo-localization. In Proceedings of the IEEE/CVF                 arXiv preprint arXiv:2502.03498, 2025. 2
+
+
+
+
+                                                                    28460
+[50] Lvmin Zhang, Anyi Rao, and Maneesh Agrawala. Adding
+     conditional control to text-to-image diffusion models. In
+     Proceedings of the IEEE/CVF International Conference on
+     Computer Vision (ICCV), pages 3836–3847, 2023. 3, 4, 6, 7
+[51] Xiaohan Zhang, Xingyu Li, Waqas Sultani, Yi Zhou, and
+     Safwan Wshah. Cross-view geo-localization via learning
+     disentangled geometric layout correspondence. In Proceed-
+     ings of the AAAI conference on artificial intelligence, pages
+     3480–3488, 2023. 2
+[52] Danpei Zhao, Jiankai Lu, and Bo Yuan. See, perceive and an-
+     swer: A unified benchmark for high-resolution post-disaster
+     evaluation in remote sensing images. IEEE Transactions on
+     Geoscience and Remote Sensing, 2024. 1
+[53] Wenzhi Zhao, Yanchen Bo, Jiage Chen, Dirk Tiede, Thomas
+     Blaschke, and William J Emery. Exploring semantic ele-
+     ments for urban scene recognition: Deep integration of high-
+     resolution imagery and openstreetmap. ISPRS Journal of
+     Photogrammetry and Remote Sensing, 151:237–250, 2019. 1
+[54] Baichuan Zhou, Haote Yang, Dairong Chen, Junyan Ye,
+     Tianyi Bai, Jinhua Yu, Songyang Zhang, Dahua Lin, Conghui
+     He, and Weijia Li. Urbench: A comprehensive benchmark for
+     evaluating large multimodal models in multi-view urban sce-
+     narios. In Proceedings of the AAAI Conference on Artificial
+     Intelligence, pages 10707–10715, 2025. 1
+[55] Sijie Zhu, Taojiannan Yang, and Chen Chen. Vigor: Cross-
+     view image geo-localization beyond one-to-one retrieval. In
+     Proceedings of the IEEE/CVF Conference on Computer Vi-
+     sion and Pattern Recognition, pages 3640–3649, 2021. 2,
+     6
+[56] Zhe Zhu, Yuyu Zhou, Karen C Seto, Eleanor C Stokes, Cheng-
+     bin Deng, Steward TA Pickett, and Hannes Taubenböck. Un-
+     derstanding an urbanizing planet: Strategic directions for re-
+     mote sensing. Remote Sensing of Environment, 228:164–182,
+     2019. 1
+
+
+
+
+                                                                  28461
+

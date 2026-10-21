@@ -1,0 +1,1901 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 438,
+    "items": [
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              10
+            ]
+          ]
+        },
+        "DOI": "10.1109/tvcg.2025.3570771",
+        "title": [
+          "CreativeSynth: Cross-Art-Attention for Artistic Image Synthesis With Multimodal Diffusion"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-1627-6584",
+            "authenticated-orcid": false,
+            "given": "Nisha",
+            "family": "Huang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Tsinghua Shenzhen International Graduate School, Tsinghua University, Shenzhen, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6502-145X",
+            "authenticated-orcid": false,
+            "given": "Weiming",
+            "family": "Dong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "MAIS, Institute of Automation, Chinese Academy of Sciences, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6433-2678",
+            "authenticated-orcid": false,
+            "given": "Yuxin",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "MAIS, Institute of Automation, Chinese Academy of Sciences, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3975-2483",
+            "authenticated-orcid": false,
+            "given": "Fan",
+            "family": "Tang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Chinese Academy of Sciences, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7703-9315",
+            "authenticated-orcid": false,
+            "given": "Ronghui",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Tsinghua Shenzhen International Graduate School, Tsinghua University, Shenzhen, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8243-9513",
+            "authenticated-orcid": false,
+            "given": "Chongyang",
+            "family": "Ma",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "ByteDance Inc., Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0403-1923",
+            "authenticated-orcid": false,
+            "given": "Xiu",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Tsinghua Shenzhen International Graduate School, Tsinghua University, Shenzhen, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6699-2944",
+            "authenticated-orcid": false,
+            "given": "Tong-Yee",
+            "family": "Lee",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "National Cheng Kung University, Tainan, Taiwan"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8343-9665",
+            "authenticated-orcid": false,
+            "given": "Changsheng",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "MAIS, Institute of Automation, Chinese Academy of Sciences, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Visualization and Computer Graphics"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/2945/11151252/11006017.pdf?arnumber=11006017",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tvcg.2025.3570771",
+        "ISSN": [
+          "1077-2626",
+          "1941-0506",
+          "2160-9306"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              10
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.1109/tvcg.2021.3114801",
+        "title": [
+          "SightBi: Exploring Cross-View Data Relationships with Biclusters"
+        ],
+        "author": [
+          {
+            "given": "Maoyuan",
+            "family": "Sun",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Abdul Rahman",
+            "family": "Shaikh",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Hamed",
+            "family": "Alhoori",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Jian",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Visualization and Computer Graphics"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/2945/9663056/09555226.pdf?arnumber=9555226",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tvcg.2021.3114801",
+        "ISSN": [
+          "1077-2626",
+          "1941-0506",
+          "2160-9306"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              1998
+            ]
+          ]
+        },
+        "DOI": "10.1109/2945.765324",
+        "title": [
+          "Novel view synthesis by cascading trilinear tensors"
+        ],
+        "author": [
+          {
+            "given": "S.",
+            "family": "Avidan",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "A.",
+            "family": "Shashua",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Visualization and Computer Graphics"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx5/2945/16566/00765324.pdf?arnumber=765324",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/2945.765324",
+        "ISSN": [
+          "1077-2626"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1998
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              2
+            ]
+          ]
+        },
+        "DOI": "10.1109/tvcg.2023.3312127",
+        "title": [
+          "V4D: Voxel for 4D Novel View Synthesis"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-6720-6500",
+            "authenticated-orcid": false,
+            "given": "Wanshui",
+            "family": "Gan",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Graduate School of Frontier Sciences, The University of Tokyo, Chiba, Japan"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3455-1527",
+            "authenticated-orcid": false,
+            "given": "Hongbin",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "South China University of Technology, Guangzhou, Guangdong, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8443-6877",
+            "authenticated-orcid": false,
+            "given": "Yi",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shenzhen Key Lab of Computer Vision and Pattern Recognition, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, Guangdong, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0677-7358",
+            "authenticated-orcid": false,
+            "given": "Shifeng",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shenzhen Key Lab of Computer Vision and Pattern Recognition, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, Guangdong, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7321-4590",
+            "authenticated-orcid": false,
+            "given": "Naoto",
+            "family": "Yokoya",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Graduate School of Frontier Sciences, The University of Tokyo, Chiba, Japan"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Visualization and Computer Graphics"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/2945/10379475/10239492.pdf?arnumber=10239492",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tvcg.2023.3312127",
+        "ISSN": [
+          "1077-2626",
+          "1941-0506",
+          "2160-9306"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              7
+            ]
+          ]
+        },
+        "DOI": "10.1109/tvcg.2026.3690462",
+        "title": [
+          "Geometry-Aware Scene Configurations for Novel View Synthesis"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-3543-4605",
+            "authenticated-orcid": false,
+            "given": "Minkwan",
+            "family": "Kim",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Electrical and Computer Engineering, Seoul National University, Seoul, South Korea"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5748-6003",
+            "authenticated-orcid": false,
+            "given": "Changwoon",
+            "family": "Choi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Electrical and Computer Engineering, Seoul National University, Seoul, South Korea"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6735-8539",
+            "authenticated-orcid": false,
+            "given": "Young Min",
+            "family": "Kim",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Electrical and Computer Engineering, Seoul National University, Seoul, South Korea"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Visualization and Computer Graphics"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/2945/11575570/11506399.pdf?arnumber=11506399",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tvcg.2026.3690462",
+        "ISSN": [
+          "1077-2626",
+          "1941-0506",
+          "2160-9306"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              9
+            ]
+          ]
+        },
+        "DOI": "10.1109/tvcg.2024.3434361",
+        "title": [
+          "Decoupling Dynamic Monocular Videos for Dynamic View Synthesis"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-0380-3760",
+            "authenticated-orcid": false,
+            "given": "Meng",
+            "family": "You",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, City University of Hong Kong, Hong Kong"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3431-2021",
+            "authenticated-orcid": false,
+            "given": "Junhui",
+            "family": "Hou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, City University of Hong Kong, Hong Kong"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Visualization and Computer Graphics"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/2945/11105772/10612248.pdf?arnumber=10612248",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tvcg.2024.3434361",
+        "ISSN": [
+          "1077-2626",
+          "1941-0506",
+          "2160-9306"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              9
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              10
+            ]
+          ]
+        },
+        "DOI": "10.1109/tvcg.2025.3565642",
+        "title": [
+          "Dynamic View Synthesis From Small Camera Motion Videos"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-3653-3613",
+            "authenticated-orcid": false,
+            "given": "Huiqiang",
+            "family": "Sun",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Image Processing and Intelligent Control, Ministry of Education, School of Artificial Intelligence and Automation, Huazhong University of Science and Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5765-3852",
+            "authenticated-orcid": false,
+            "given": "Xingyi",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Image Processing and Intelligent Control, Ministry of Education, School of Artificial Intelligence and Automation, Huazhong University of Science and Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5740-2682",
+            "authenticated-orcid": false,
+            "given": "Juewen",
+            "family": "Peng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "S-Lab, Nanyang Technological University (NTU), Singapore"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2423-4835",
+            "authenticated-orcid": false,
+            "given": "Liao",
+            "family": "Shen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Image Processing and Intelligent Control, Ministry of Education, School of Artificial Intelligence and Automation, Huazhong University of Science and Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9223-1863",
+            "authenticated-orcid": false,
+            "given": "Zhiguo",
+            "family": "Cao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Image Processing and Intelligent Control, Ministry of Education, School of Artificial Intelligence and Automation, Huazhong University of Science and Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0884-5126",
+            "authenticated-orcid": false,
+            "given": "Ke",
+            "family": "Xian",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronic Information and Communications, Huazhong University of Science and Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0329-7458",
+            "authenticated-orcid": false,
+            "given": "Guosheng",
+            "family": "Lin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "S-Lab, Nanyang Technological University (NTU), Singapore"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Visualization and Computer Graphics"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/2945/11151252/10980040.pdf?arnumber=10980040",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tvcg.2025.3565642",
+        "ISSN": [
+          "1077-2626",
+          "1941-0506",
+          "2160-9306"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              10
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              12,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.1109/tvcg.2021.3102966",
+        "title": [
+          "Towards Systematic Design Considerations for Visualizing Cross-View Data Relationships"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-0990-2620",
+            "authenticated-orcid": false,
+            "given": "Maoyuan",
+            "family": "Sun",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, Northern Illinois University, DeKalb, IL, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Akhil",
+            "family": "Namburi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, Northern Illinois University, DeKalb, IL, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "David",
+            "family": "Koop",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, Northern Illinois University, DeKalb, IL, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5008-4319",
+            "authenticated-orcid": false,
+            "given": "Jian",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science, University of Waterloo, Waterloo, ON, Canada"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Tianyi",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Information Technology, Purdue University, West Lafayette, IN, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Haeyong",
+            "family": "Chung",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, University of Alabama in Huntsville, Huntsville, AL, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Visualization and Computer Graphics"
+        ],
+        "link": [
+          {
+            "URL": "https://ieeexplore.ieee.org/ielam/2945/9930678/9508898-aam.pdf",
+            "content-type": "application/pdf",
+            "content-version": "am",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/2945/9930678/09508898.pdf?arnumber=9508898",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tvcg.2021.3102966",
+        "ISSN": [
+          "1077-2626",
+          "1941-0506",
+          "2160-9306"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              12,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              2,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.1109/tvcg.2015.2440255",
+        "title": [
+          "Image Retargeting by Texture-Aware Synthesis"
+        ],
+        "author": [
+          {
+            "given": "Weiming",
+            "family": "Dong",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Fuzhang",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yan",
+            "family": "Kong",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Xing",
+            "family": "Mei",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Tong-Yee",
+            "family": "Lee",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Xiaopeng",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Visualization and Computer Graphics"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/2945/7368227/07117450.pdf?arnumber=7117450",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tvcg.2015.2440255",
+        "ISSN": [
+          "1077-2626"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              2,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              9
+            ]
+          ]
+        },
+        "DOI": "10.1109/tvcg.2024.3429421",
+        "title": [
+          "SLS4D: Sparse Latent Space for 4D Novel View Synthesis"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0005-7545-3308",
+            "authenticated-orcid": false,
+            "given": "Qi-Yuan",
+            "family": "Feng",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Technology, BNRist, Tsinghua University, Bejing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4357-4226",
+            "authenticated-orcid": false,
+            "given": "Hao-Xiang",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Technology, BNRist, Tsinghua University, Bejing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0005-5954-4699",
+            "authenticated-orcid": false,
+            "given": "Qun-Ce",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Technology, BNRist, Tsinghua University, Bejing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9197-346X",
+            "authenticated-orcid": false,
+            "given": "Tai-Jiang",
+            "family": "Mu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Technology, BNRist, Tsinghua University, Bejing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Visualization and Computer Graphics"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/2945/11105772/10599827.pdf?arnumber=10599827",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tvcg.2024.3429421",
+        "ISSN": [
+          "1077-2626",
+          "1941-0506",
+          "2160-9306"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              9
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              7
+            ]
+          ]
+        },
+        "DOI": "10.1109/tvcg.2026.3670005",
+        "title": [
+          "FISN: FInding Spatial Neighborhoods for Generalizable Novel View Synthesis"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-5298-7087",
+            "authenticated-orcid": false,
+            "given": "Yanqi",
+            "family": "Bao",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory for Novel Software Technology, Nanjing University, Nanjing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8445-4330",
+            "authenticated-orcid": false,
+            "given": "Tianyu",
+            "family": "Ding",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Applied Sciences Group, Microsoft Corporation, Redmond, WA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8504-455X",
+            "authenticated-orcid": false,
+            "given": "Jing",
+            "family": "Huo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory for Novel Software Technology, Nanjing University, Nanjing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0935-7124",
+            "authenticated-orcid": false,
+            "given": "Wenbin",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory for Novel Software Technology, Nanjing University, Nanjing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2488-1813",
+            "authenticated-orcid": false,
+            "given": "Yang",
+            "family": "Gao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory for Novel Software Technology, Nanjing University, Nanjing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Visualization and Computer Graphics"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/2945/11575570/11419639.pdf?arnumber=11419639",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tvcg.2026.3670005",
+        "ISSN": [
+          "1077-2626",
+          "1941-0506",
+          "2160-9306"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "DOI": "10.1109/tvcg.2026.3738448",
+        "title": [
+          "SVD-NQA: Spatial-View Dual-Domain Quality Assessment for Novel View Synthesis via Multi-Branch Feature Fusion"
+        ],
+        "author": [
+          {
+            "given": "Haoxue",
+            "family": "Gong",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Ningbo University",
+                "place": [
+                  "Ningbo, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Haiyong",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Ningbo University",
+                "place": [
+                  "Ningbo, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Gangyi",
+            "family": "Jiang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Ningbo University",
+                "place": [
+                  "Ningbo, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yeyao",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Ningbo University",
+                "place": [
+                  "Ningbo, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ting",
+            "family": "Luo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Ningbo University",
+                "place": [
+                  "Ningbo, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zhongjie",
+            "family": "Zhu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Zhejiang Wanli University",
+                "place": [
+                  "Ningbo, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Visualization and Computer Graphics"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/2945/4359476/11714298.pdf?arnumber=11714298",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tvcg.2026.3738448",
+        "ISSN": [
+          "1077-2626",
+          "1941-0506",
+          "2160-9306"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "DOI": "10.1109/tvcg.2025.3615421",
+        "title": [
+          "SeG-Gaussian:Segmentation-Guided 3D Gaussian Optimization for Novel View Synthesis"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-8922-7639",
+            "authenticated-orcid": false,
+            "given": "Ling-Xiao",
+            "family": "Zhang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Beijing Key Laboratory of Mobile Computing and Pervasive Device, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Chenbo",
+            "family": "Jiang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "McGill University, Montr&#x00E9;al, QC, Canada"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2094-5680",
+            "authenticated-orcid": false,
+            "given": "Yu-Kun",
+            "family": "Lai",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Informatics, Cardiff University, Cardiff, U.K."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1021-8148",
+            "authenticated-orcid": false,
+            "given": "Lin",
+            "family": "Gao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Beijing Key Laboratory of Mobile Computing and Pervasive Device, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Visualization and Computer Graphics"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/2945/11231102/11184660.pdf?arnumber=11184660",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tvcg.2025.3615421",
+        "ISSN": [
+          "1077-2626",
+          "1941-0506",
+          "2160-9306"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              9
+            ]
+          ]
+        },
+        "DOI": "10.1109/tvcg.2024.3411626",
+        "title": [
+          "Learning View Synthesis for Desktop Telepresence With Few RGBD Cameras"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-0660-5014",
+            "authenticated-orcid": false,
+            "given": "Shengze",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "University of North Carolina at Chapel Hill, Chapel Hill, NC, USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0002-3818-8152",
+            "authenticated-orcid": false,
+            "given": "Ziheng",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of North Carolina at Chapel Hill, Chapel Hill, NC, USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0007-4051-7134",
+            "authenticated-orcid": false,
+            "given": "Ryan",
+            "family": "Schmelzle",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of North Carolina at Chapel Hill, Chapel Hill, NC, USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Liujie",
+            "family": "Zheng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of North Carolina at Chapel Hill, Chapel Hill, NC, USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "YoungJoong",
+            "family": "Kwon",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Carnegie Mellon University, Pittsburgh, PA, USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5914-3469",
+            "authenticated-orcid": false,
+            "given": "Roni",
+            "family": "Sengupta",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of North Carolina at Chapel Hill, Chapel Hill, NC, USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8834-4638",
+            "authenticated-orcid": false,
+            "given": "Henry",
+            "family": "Fuchs",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of North Carolina at Chapel Hill, Chapel Hill, NC, USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Visualization and Computer Graphics"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/2945/11105772/10557509.pdf?arnumber=10557509",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tvcg.2024.3411626",
+        "ISSN": [
+          "1077-2626",
+          "1941-0506",
+          "2160-9306"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              9
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              2
+            ]
+          ]
+        },
+        "DOI": "10.1109/tvcg.2025.3631702",
+        "title": [
+          "Hierarchical Bayesian Guided Spatial-, Angular- and Temporal-Consistent View Synthesis"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0004-0802-2340",
+            "authenticated-orcid": false,
+            "given": "Junyu",
+            "family": "Zhu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Hangzhou Yilan Tech., Hangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6756-9571",
+            "authenticated-orcid": false,
+            "given": "Hao",
+            "family": "Zhu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronic Science and Engineering, Nanjing University, Nanjing, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Sheng",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Hangzhou Yilan Tech., Hangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3686-4057",
+            "authenticated-orcid": false,
+            "given": "Zhan",
+            "family": "Ma",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronic Science and Engineering, Nanjing University, Nanjing, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3094-4371",
+            "authenticated-orcid": false,
+            "given": "Xun",
+            "family": "Cao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronic Science and Engineering, Nanjing University, Nanjing, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Visualization and Computer Graphics"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/2945/11373710/11241215.pdf?arnumber=11241215",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tvcg.2025.3631702",
+        "ISSN": [
+          "1077-2626",
+          "1941-0506",
+          "2160-9306"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 15,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

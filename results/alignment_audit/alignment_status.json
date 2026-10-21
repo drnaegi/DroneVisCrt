@@ -1,0 +1,10 @@
+{
+  "updated_utc": "2026-10-13T11:37:32.846112+00:00",
+  "weight": "official historical link, hash and architecture verified; CVACT only; Disaster benchmark match not verified",
+  "projection": "public defaults preserved and validated; Disaster calibration unconfirmed",
+  "split": "2714 pairs inventoried; no verified official train/test IDs",
+  "evaluation": "PSNR/Y-SSIM and AlexNet definition aligned to public functions; target reference and FID remain unconfirmed",
+  "disaster_dataset": "all 5428 name/size/CRC entries agree; 16 current input/target files agree by SHA256",
+  "history_dataset": "2128 aerial CRC/size entries agree; 2128 street CRC/size entries differ; 3 decoded street samples differ",
+  "paper_results_reproduced": false
+}

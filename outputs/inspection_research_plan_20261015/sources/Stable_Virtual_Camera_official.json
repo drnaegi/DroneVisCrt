@@ -1,0 +1,15 @@
+{
+  "title": "Stable Virtual Camera: Generative View Synthesis with Diffusion Models",
+  "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhou_Stable_Virtual_Camera_Generative_View_Synthesis_with_Diffusion_Models_ICCV_2025_paper.html",
+  "abstract": "We present \\underline \\text S  tabl\\underline \\text e   \\underline \\text V  irtual C\\underline \\text a  mera (Seva), a generalist diffusion model that creates novel views of a scene, given any number of input views and target cameras.Existing works struggle to generate either large viewpoint changes or temporally smooth samples, while relying on specific task configurations.Our approach overcomes these limitations through simple model design, optimized training recipe, and flexible sampling strategy that generalize across view synthesis tasks at test time.As a result, our samples maintain high consistency without requiring additional 3D representation-based distillation, thus streamlining view synthesis in the wild.Furthermore, we show that our method can generate high-quality videos lasting up to half a minute with seamless loop closure.Extensive benchmarking demonstrates that Seva outperforms existing methods across different datasets and settings.",
+  "links": [
+    {
+      "text": "pdf",
+      "href": "/content/ICCV2025/papers/Zhou_Stable_Virtual_Camera_Generative_View_Synthesis_with_Diffusion_Models_ICCV_2025_paper.pdf"
+    },
+    {
+      "text": "arXiv",
+      "href": "http://arxiv.org/abs/2503.14489"
+    }
+  ]
+}

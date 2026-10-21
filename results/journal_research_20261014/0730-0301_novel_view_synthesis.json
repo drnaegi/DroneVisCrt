@@ -1,0 +1,2571 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 183,
+    "items": [
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              12
+            ]
+          ]
+        },
+        "abstract": "<jats:p>View-dependent effects such as reflections pose a substantial challenge for image-based and neural rendering algorithms. Above all, curved reflectors are particularly hard, as they lead to highly non-linear reflection flows as the camera moves. We introduce a new point-based representation to compute Neural Point Catacaustics allowing novel-view synthesis of scenes with curved reflectors, from a set of casually-captured input photos. At the core of our method is a neural warp field that models catacaustic trajectories of reflections, so complex specular effects can be rendered using efficient point splatting in conjunction with a neural renderer. One of our key contributions is the explicit representation of reflections with a reflection point cloud which is displaced by the neural warp field, and a primary point cloud which is optimized to represent the rest of the scene. After a short manual annotation step, our approach allows interactive high-quality renderings of novel views with accurate reflection flow. Additionally, the explicit representation of reflection flow supports several forms of scene manipulation in captured scenes, such as reflection editing, cloning of specular objects, reflection tracking across views, and comfortable stereo viewing. We provide the source code and other supplemental material on https://repo-sam.inria.fr/fungraph/neural_catacaustics/</jats:p>",
+        "DOI": "10.1145/3550454.3555497",
+        "title": [
+          "Neural Point Catacaustics for Novel-View Synthesis of Reflections"
+        ],
+        "author": [
+          {
+            "given": "Georgios",
+            "family": "Kopanas",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Inria &amp; Université Côte d'Azur, France"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Thomas",
+            "family": "Leimkühler",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Max-Planck-Institut für Informatik, Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Gilles",
+            "family": "Rainer",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Inria &amp; Université Côte d'Azur, France"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Clément",
+            "family": "Jambon",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Inria &amp; Université Côte d'Azur and Ecole Polytechnique, France"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "George",
+            "family": "Drettakis",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Inria &amp; Université Côte d'Azur, France"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              11,
+              30
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Graphics"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3550454.3555497",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3550454.3555497",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3550454.3555497",
+        "ISSN": [
+          "0730-0301",
+          "1557-7368"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              11,
+              30
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              1
+            ]
+          ]
+        },
+        "abstract": "<jats:p>\n                    Radiance field methods such as 3D Gaussian Splatting (3DGS) allow easy reconstruction from photos, enabling free-viewpoint navigation. Nonetheless, pose estimation using Structure from Motion and 3DGS optimization can still each take between minutes and hours of computation after capture is complete. SLAM methods combined with 3DGS are fast but struggle with wide camera baselines and large scenes. We present an on-the-fly method to produce camera poses and a trained 3DGS\n                    <jats:italic toggle=\"yes\">immediately</jats:italic>\n                    after capture. Our method can handle dense and wide-baseline captures of ordered photo sequences and large-scale scenes. To do this, we first introduce fast initial pose estimation, exploiting learned features and a GPU-friendly mini bundle adjustment. We then introduce direct sampling of Gaussian primitive positions and shapes, incrementally spawning primitives where required, significantly accelerating training. These two efficient steps allow fast and robust joint optimization of poses and Gaussian primitives. Our incremental approach handles large-scale scenes by introducing scalable radiance field construction, progressively clustering 3DGS primitives, storing them in anchors, and offloading them from the GPU. Clustered primitives are progressively merged, keeping the required scale of 3DGS at any viewpoint. We evaluate our solution on a variety of datasets and show that it can provide on-the-fly processing of all the capture scenarios and scene sizes we target. At the same time our method remains competitive - in speed, image quality, or both - with other methods that only handle specific capture styles or scene sizes.\n                  </jats:p>",
+        "DOI": "10.1145/3730913",
+        "title": [
+          "On-the-fly Reconstruction for Large-Scale Novel View Synthesis from Unposed Images"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-9899-6365",
+            "authenticated-orcid": false,
+            "given": "Andreas",
+            "family": "Meuleman",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "INRIA, Université Côte d'Azur, Biot, France"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0000-7104-4578",
+            "authenticated-orcid": false,
+            "given": "Ishaan",
+            "family": "Shah",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "INRIA, Université Côte d'Azur, Biot, France"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0003-5343-2528",
+            "authenticated-orcid": false,
+            "given": "Alexandre",
+            "family": "Lanvin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "INRIA, Université Côte d'Azur, Biot, France"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5168-8648",
+            "authenticated-orcid": false,
+            "given": "Bernhard",
+            "family": "Kerbl",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "TU Wien, Wien, Austria"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9254-4819",
+            "authenticated-orcid": false,
+            "given": "George",
+            "family": "Drettakis",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "INRIA, Université Côte d'Azur, Biot, France"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              27
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Graphics"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3730913",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3730913",
+        "ISSN": [
+          "0730-0301",
+          "1557-7368"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              27
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              5
+            ]
+          ]
+        },
+        "abstract": "<jats:p>In recent years, novel view synthesis from a single image has seen significant progress thanks to the rapid advancements in 3D scene representation and image inpainting techniques. While the current approaches are able to synthesize geometrically consistent novel views, they often do not handle the view-dependent effects properly. Specifically, the highlights in their synthesized images usually appear to be glued to the surfaces, making the novel views unrealistic. To address this major problem, we make a key observation that the process of synthesizing novel views requires changing the shading of the pixels based on the novel camera, and moving them to appropriate locations. Therefore, we propose to split the view synthesis process into two independent tasks of pixel reshading and relocation. During the reshading process, we take the single image as the input and adjust its shading based on the novel camera. This reshaded image is then used as the input to an existing view synthesis method to relocate the pixels and produce the final novel view image. We propose to use a neural network to perform reshading and generate a large set of synthetic input-reshaded pairs to train our network. We demonstrate that our approach produces plausible novel view images with realistic moving highlights on a variety of real world scenes.</jats:p>",
+        "DOI": "10.1145/3618393",
+        "title": [
+          "ReShader: View-Dependent Highlights for Single Image View-Synthesis"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-9090-6142",
+            "authenticated-orcid": false,
+            "given": "Avinash",
+            "family": "Paliwal",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Texas A&amp;M University, USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Brandon G.",
+            "family": "Nguyen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Texas A&amp;M University, USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Andrii",
+            "family": "Tsarov",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Leia Inc., USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Nima Khademi",
+            "family": "Kalantari",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Texas A&amp;M University, USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              5
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Graphics"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3618393",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3618393",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3618393",
+        "ISSN": [
+          "0730-0301",
+          "1557-7368"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              5
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              12,
+              31
+            ]
+          ]
+        },
+        "abstract": "<jats:p>We present a novel algorithm for view synthesis that utilizes a soft 3D reconstruction to improve quality, continuity and robustness. Our main contribution is the formulation of a soft 3D representation that preserves depth uncertainty through each stage of 3D reconstruction and rendering. We show that this representation is beneficial throughout the view synthesis pipeline. During view synthesis, it provides a soft model of scene geometry that provides continuity across synthesized views and robustness to depth uncertainty. During 3D reconstruction, the same robust estimates of scene visibility can be applied iteratively to improve depth estimation around object edges. Our algorithm is based entirely on O(1) filters, making it conducive to acceleration and it works with structured or unstructured sets of input views. We compare with recent classical and learning-based algorithms on plenoptic lightfields, wide baseline captures, and lightfield videos produced from camera arrays.</jats:p>",
+        "DOI": "10.1145/3130800.3130855",
+        "title": [
+          "Soft 3D reconstruction for view synthesis"
+        ],
+        "author": [
+          {
+            "given": "Eric",
+            "family": "Penner",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Google Inc."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Li",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google Inc."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2017,
+              11,
+              20
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Graphics"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3130800.3130855",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3130800.3130855",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3130800.3130855",
+        "ISSN": [
+          "0730-0301",
+          "1557-7368"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              11,
+              20
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              8,
+              31
+            ]
+          ]
+        },
+        "abstract": "<jats:p>The goal of light transport acquisition is to take images from a sparse set of lighting and viewing directions, and combine them to enable arbitrary relighting with changing view. While relighting from sparse images has received significant attention, there has been relatively less progress on view synthesis from a sparse set of \"photometric\" images---images captured under controlled conditions, lit by a single directional source; we use a spherical gantry to position the camera on a sphere surrounding the object. In this paper, we synthesize novel viewpoints across a wide range of viewing directions (covering a 60° cone) from a sparse set of just six viewing directions. While our approach relates to previous view synthesis and image-based rendering techniques, those methods are usually restricted to much smaller baselines, and are captured under environment illumination. At our baselines, input images have few correspondences and large occlusions; however we benefit from structured photometric images. Our method is based on a deep convolutional network trained to directly synthesize new views from the six input views. This network combines 3D convolutions on a plane sweep volume with a novel per-view per-depth plane attention map prediction network to effectively aggregate multi-view appearance. We train our network with a large-scale synthetic dataset of 1000 scenes with complex geometry and material properties. In practice, it is able to synthesize novel viewpoints for captured real data and reproduces complex appearance effects like occlusions, view-dependent specularities and hard shadows. Moreover, the method can also be combined with previous relighting techniques to enable changing both lighting and view, and applied to computer vision problems like multiview stereo from sparse image sets.</jats:p>",
+        "DOI": "10.1145/3306346.3323007",
+        "title": [
+          "Deep view synthesis from sparse photometric images"
+        ],
+        "author": [
+          {
+            "given": "Zexiang",
+            "family": "Xu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "University of California"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Sai",
+            "family": "Bi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of California"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Kalyan",
+            "family": "Sunkavalli",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Adobe Research"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Sunil",
+            "family": "Hadap",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Amazon"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hao",
+            "family": "Su",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of California"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ravi",
+            "family": "Ramamoorthi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of California"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              7,
+              12
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Graphics"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3306346.3323007",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3306346.3323007",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3306346.3323007",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3306346.3323007",
+        "ISSN": [
+          "0730-0301",
+          "1557-7368"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              7,
+              12
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              11,
+              11
+            ]
+          ]
+        },
+        "abstract": "<jats:p>With the introduction of consumer light field cameras, light field imaging has recently become widespread. However, there is an inherent trade-off between the angular and spatial resolution, and thus, these cameras often sparsely sample in either spatial or angular domain. In this paper, we use machine learning to mitigate this trade-off. Specifically, we propose a novel learning-based approach to synthesize new views from a sparse set of input views. We build upon existing view synthesis techniques and break down the process into disparity and color estimation components. We use two sequential convolutional neural networks to model these two components and train both networks simultaneously by minimizing the error between the synthesized and ground truth images. We show the performance of our approach using only four corner sub-aperture views from the light fields captured by the Lytro Illum camera. Experimental results show that our approach synthesizes high-quality images that are superior to the state-of-the-art techniques on a variety of challenging real-world scenes. We believe our method could potentially decrease the required angular resolution of consumer light field cameras, which allows their spatial resolution to increase.</jats:p>",
+        "DOI": "10.1145/2980179.2980251",
+        "title": [
+          "Learning-based view synthesis for light field cameras"
+        ],
+        "author": [
+          {
+            "given": "Nima Khademi",
+            "family": "Kalantari",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "University of California"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ting-Chun",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of California"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ravi",
+            "family": "Ramamoorthi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of California"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2016,
+              12,
+              5
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Graphics"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/2980179.2980251",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/2980179.2980251",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/2980179.2980251",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/2980179.2980251",
+        "ISSN": [
+          "0730-0301",
+          "1557-7368"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              11,
+              11
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              28
+            ]
+          ]
+        },
+        "abstract": "<jats:p>The light transport (LT) of a scene describes how it appears under different lighting conditions from different viewing directions, and complete knowledge of a scene’s LT enables the synthesis of novel views under arbitrary lighting. In this article, we focus on image-based LT acquisition, primarily for human bodies within a light stage setup. We propose a semi-parametric approach for learning a neural representation of the LT that is embedded in a texture atlas of known but possibly rough geometry. We model all non-diffuse and global LT as residuals added to a physically based diffuse base rendering. In particular, we show how to fuse previously seen observations of illuminants and views to synthesize a new image of the same scene under a desired lighting condition from a chosen viewpoint. This strategy allows the network to learn complex material effects (such as subsurface scattering) and global illumination (such as diffuse interreflection), while guaranteeing the physical correctness of the diffuse LT (such as hard shadows). With this learned LT, one can relight the scene photorealistically with a directional light or an HDRI map, synthesize novel views with view-dependent effects, or do both simultaneously, all in a unified framework using a set of sparse observations. Qualitative and quantitative experiments demonstrate that our Neural Light Transport (NLT) outperforms state-of-the-art solutions for relighting and view synthesis, without requiring separate treatments for both problems that prior work requires. The code and data are available at http://nlt.csail.mit.edu.</jats:p>",
+        "DOI": "10.1145/3446328",
+        "title": [
+          "Neural Light Transport for Relighting and View Synthesis"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-4326-727X",
+            "authenticated-orcid": false,
+            "given": "Xiuming",
+            "family": "Zhang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Massachusetts Institute of Technology"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Sean",
+            "family": "Fanello",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yun-Ta",
+            "family": "Tsai",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Tiancheng",
+            "family": "Sun",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of California, San Diego"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Tianfan",
+            "family": "Xue",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Rohit",
+            "family": "Pandey",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Sergio",
+            "family": "Orts-Escolano",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Philip",
+            "family": "Davidson",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Christoph",
+            "family": "Rhemann",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Paul",
+            "family": "Debevec",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jonathan T.",
+            "family": "Barron",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ravi",
+            "family": "Ramamoorthi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of California, San Diego"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "William T.",
+            "family": "Freeman",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Massachusetts Institute of Technology 8 Google"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              18
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Graphics"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3446328",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3446328",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3446328",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3446328",
+        "ISSN": [
+          "0730-0301",
+          "1557-7368"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              18
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              19
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Learning from multi-view images using neural implicit signed distance functions shows impressive performance on 3D Reconstruction of opaque objects. However, existing methods struggle to reconstruct accurate geometry when applied to translucent objects due to the non-negligible bias in their rendering function. To address the inaccuracies in the existing model, we have reparameterized the density function of the neural radiance field by incorporating an estimated constant extinction coefficient. This modification forms the basis of our innovative framework, which is geared towards highfidelity surface reconstruction and the novel-view synthesis of translucent objects. Our framework contains two stages. In the reconstruction stage, we introduce a novel weight function to achieve accurate surface geometry reconstruction. Following the recovery of geometry, the second phase involves learning the distinct scattering properties of the participating media to enhance rendering. A comprehensive dataset, comprising both synthetic and real translucent objects, has been built for conducting extensive experiments. Experiments reveal that our method outperforms existing approaches in terms of reconstruction and novel-view synthesis.</jats:p>",
+        "DOI": "10.1145/3658186",
+        "title": [
+          "NeuralTO: Neural Reconstruction and View Synthesis of Translucent Objects"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0005-7211-3279",
+            "authenticated-orcid": false,
+            "given": "Yuxiang",
+            "family": "Cai",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "TMCC, College of Computer Science, Nankai University, Tianjin, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6065-7296",
+            "authenticated-orcid": false,
+            "given": "Jiaxiong",
+            "family": "Qiu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "TMCC, College of Computer Science, Nankai University, Tianjin, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7416-1216",
+            "authenticated-orcid": false,
+            "given": "Zhong",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "OPPO US Research, palo alto, CA, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8179-9122",
+            "authenticated-orcid": false,
+            "given": "Bo",
+            "family": "Ren",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "TMCC, College of Computer Science, Nankai University, Tianjin, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              19
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Graphics"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3658186",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3658186",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3658186",
+        "ISSN": [
+          "0730-0301",
+          "1557-7368"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              19
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              19
+            ]
+          ]
+        },
+        "abstract": "<jats:p>We present a novel neural algorithm for performing high-quality, highresolution, real-time novel view synthesis. From a sparse set of input RGB images or videos streams, our network both reconstructs the 3D scene and renders novel views at 1080p resolution at 30fps on an NVIDIA A100. Our feed-forward network generalizes across a wide variety of datasets and scenes and produces state-of-the-art quality for a real-time method. Our quality approaches, and in some cases surpasses, the quality of some of the top offline methods. In order to achieve these results we use a novel combination of several key concepts, and tie them together into a cohesive and effective algorithm. We build on previous works that represent the scene using semi-transparent layers and use an iterative learned render-and-refine approach to improve those layers. Instead of flat layers, our method reconstructs layered depth maps (LDMs) that efficiently represent scenes with complex depth and occlusions. The iterative update steps are embedded in a multi-scale, UNet-style architecture to perform as much compute as possible at reduced resolution. Within each update step, to better aggregate the information from multiple input views, we use a specialized Transformer-based network component. This allows the majority of the per-input image processing to be performed in the input image space, as opposed to layer space, further increasing efficiency. Finally, due to the real-time nature of our reconstruction and rendering, we dynamically create and discard the internal 3D geometry for each frame, generating the LDM for each view. Taken together, this produces a novel and effective algorithm for view synthesis. Through extensive evaluation, we demonstrate that we achieve state-of-the-art quality at real-time rates.</jats:p>",
+        "DOI": "10.1145/3687953",
+        "title": [
+          "Quark: Real-time, High-resolution, and General Neural View Synthesis"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0007-5858-6613",
+            "authenticated-orcid": false,
+            "given": "John",
+            "family": "Flynn",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Google, Mountain View, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0006-3701-2322",
+            "authenticated-orcid": false,
+            "given": "Michael",
+            "family": "Broxton",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google, Mountain View, CA, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5756-1819",
+            "authenticated-orcid": false,
+            "given": "Lukas",
+            "family": "Murmann",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google, Mountain View, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4667-3097",
+            "authenticated-orcid": false,
+            "given": "Lucy",
+            "family": "Chai",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google, Mountain View, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0001-0832-5606",
+            "authenticated-orcid": false,
+            "given": "Matthew",
+            "family": "DuVall",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google, Mountain View, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1365-9571",
+            "authenticated-orcid": false,
+            "given": "Clément",
+            "family": "Godard",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google, Mountain View, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1390-4589",
+            "authenticated-orcid": false,
+            "given": "Kathryn",
+            "family": "Heal",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google, Mountain View, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0000-9777-3496",
+            "authenticated-orcid": false,
+            "given": "Srinivas",
+            "family": "Kaza",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google, Mountain View, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3370-7216",
+            "authenticated-orcid": false,
+            "given": "Stephen",
+            "family": "Lombardi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google, Mountain View, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0004-4605-5223",
+            "authenticated-orcid": false,
+            "given": "Xuan",
+            "family": "Luo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google, Mountain View, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0000-8863-7599",
+            "authenticated-orcid": false,
+            "given": "Supreeth",
+            "family": "Achar",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google, Mountain View, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0007-8381-5481",
+            "authenticated-orcid": false,
+            "given": "Kira",
+            "family": "Prabhu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google, Mountain View, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0005-8116-0405",
+            "authenticated-orcid": false,
+            "given": "Tiancheng",
+            "family": "Sun",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google, Mountain View, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0007-3795-1386",
+            "authenticated-orcid": false,
+            "given": "Lynn",
+            "family": "Tsai",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google, Mountain View, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0004-8485-1837",
+            "authenticated-orcid": false,
+            "given": "Ryan",
+            "family": "Overbeck",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google, Mountain View, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              19
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Graphics"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3687953",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3687953",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3687953",
+        "ISSN": [
+          "0730-0301",
+          "1557-7368"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              19
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              8
+            ]
+          ]
+        },
+        "abstract": "<jats:p>We present a one-shot method to infer and render a photorealistic 3D representation from a single unposed image (e.g., face portrait) in real-time. Given a single RGB input, our image encoder directly predicts a canonical triplane representation of a neural radiance field for 3D-aware novel view synthesis via volume rendering. Our method is fast (24 fps) on consumer hardware, and produces higher quality results than strong GAN-inversion baselines that require test-time optimization. To train our triplane encoder pipeline, we use only synthetic data, showing how to distill the knowledge from a pretrained 3D GAN into a feedforward encoder. Technical contributions include a Vision Transformer-based triplane encoder, a camera data augmentation strategy, and a well-designed loss function for synthetic data training. We benchmark against the state-of-the-art methods, demonstrating significant improvements in robustness and image quality in challenging real-world settings. We showcase our results on portraits of faces (FFHQ) and cats (AFHQ), but our algorithm can also be applied in the future to other categories with a 3D-aware image generator.</jats:p>",
+        "DOI": "10.1145/3592460",
+        "title": [
+          "Real-Time Radiance Fields for Single-Image Portrait View Synthesis"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-9734-7232",
+            "authenticated-orcid": false,
+            "given": "Alex",
+            "family": "Trevithick",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "UC San Diego, La Jolla, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0009-1704-1013",
+            "authenticated-orcid": false,
+            "given": "Matthew",
+            "family": "Chan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "NVIDIA, Santa Clara, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0008-6234-936X",
+            "authenticated-orcid": false,
+            "given": "Michael",
+            "family": "Stengel",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "NVIDIA, Santa Clara, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0002-9691-8213",
+            "authenticated-orcid": false,
+            "given": "Eric",
+            "family": "Chan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Stanford University, Stanford, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0007-5751-8723",
+            "authenticated-orcid": false,
+            "given": "Chao",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "NVIDIA, Santa Clara, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1776-996X",
+            "authenticated-orcid": false,
+            "given": "Zhiding",
+            "family": "Yu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "NVIDIA, Santa Clara, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8068-7807",
+            "authenticated-orcid": false,
+            "given": "Sameh",
+            "family": "Khamis",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "NVIDIA, Santa Clara, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4683-2454",
+            "authenticated-orcid": false,
+            "given": "Manmohan",
+            "family": "Chandraker",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "UC San Diego, La Jolla, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3993-5789",
+            "authenticated-orcid": false,
+            "given": "Ravi",
+            "family": "Ramamoorthi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "UC San Diego, La Jolla, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6815-4864",
+            "authenticated-orcid": false,
+            "given": "Koki",
+            "family": "Nagano",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "NVIDIA, Santa Clara, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              26
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Graphics"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3592460",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3592460",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3592460",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3592460",
+        "ISSN": [
+          "0730-0301",
+          "1557-7368"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              26
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              19
+            ]
+          ]
+        },
+        "abstract": "<jats:p>While surface-based view synthesis algorithms are appealing due to their low computational requirements, they often struggle to reproduce thin structures. In contrast, more expensive methods that model the scene's geometry as a volumetric density field (e.g. NeRF) excel at reconstructing fine geometric detail. However, density fields often represent geometry in a \"fuzzy\" manner, which hinders exact localization of the surface. In this work, we modify density fields to encourage them to converge towards surfaces, without compromising their ability to reconstruct thin structures. First, we employ a discrete opacity grid representation instead of a continuous density field, which allows opacity values to discontinuously transition from zero to one at the surface. Second, we anti-alias by casting multiple rays per pixel, which allows occlusion boundaries and subpixel structures to be modelled without using semi-transparent voxels. Third, we minimize the binary entropy of the opacity values, which facilitates the extraction of surface geometry by encouraging opacity values to binarize towards the end of training. Lastly, we develop a fusion-based meshing strategy followed by mesh simplification and appearance model fitting. The compact meshes produced by our model can be rendered in real-time on mobile devices and achieve significantly higher view synthesis quality compared to existing mesh-based approaches. Our interactive webdemo is available at https://binary-opacity-grid.github.io.</jats:p>",
+        "DOI": "10.1145/3658130",
+        "title": [
+          "Binary Opacity Grids: Capturing Fine Geometric Detail for Mesh-Based View Synthesis"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0002-1050-3958",
+            "authenticated-orcid": false,
+            "given": "Christian",
+            "family": "Reiser",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Tübingen AI Center, University of Tübingen, Tübingen, Germany"
+              },
+              {
+                "name": "Google Research, Tübingen, Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0000-5005-8110",
+            "authenticated-orcid": false,
+            "given": "Stephan",
+            "family": "Garbin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google Research, London, United Kingdom"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0008-8268-3285",
+            "authenticated-orcid": false,
+            "given": "Pratul",
+            "family": "Srinivasan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google Research, San Francisco, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8798-3270",
+            "authenticated-orcid": false,
+            "given": "Dor",
+            "family": "Verbin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google Research, San Francisco, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0005-5300-5475",
+            "authenticated-orcid": false,
+            "given": "Richard",
+            "family": "Szeliski",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google Research, Seattle, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0001-9796-6121",
+            "authenticated-orcid": false,
+            "given": "Ben",
+            "family": "Mildenhall",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google Research, San Francisco, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0008-4016-9448",
+            "authenticated-orcid": false,
+            "given": "Jonathan",
+            "family": "Barron",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google Research, San Francisco, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2182-0185",
+            "authenticated-orcid": false,
+            "given": "Peter",
+            "family": "Hedman",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google Research, London, United Kingdom"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8151-3726",
+            "authenticated-orcid": false,
+            "given": "Andreas",
+            "family": "Geiger",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Tübingen AI Center, University of Tübingen, Tübingen, Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              19
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Graphics"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3658130",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3658130",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3658130",
+        "ISSN": [
+          "0730-0301",
+          "1557-7368"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              19
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              8
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Neural radiance fields enable state-of-the-art photorealistic view synthesis. However, existing radiance field representations are either too compute-intensive for real-time rendering or require too much memory to scale to large scenes. We present a Memory-Efficient Radiance Field (MERF) representation that achieves real-time rendering of large-scale scenes in a browser. MERF reduces the memory consumption of prior sparse volumetric radiance fields using a combination of a sparse feature grid and high-resolution 2D feature planes. To support large-scale unbounded scenes, we introduce a novel contraction function that maps scene coordinates into a bounded volume while still allowing for efficient ray-box intersection. We design a lossless procedure for baking the parameterization used during training into a model that achieves real-time rendering while still preserving the photorealistic view synthesis quality of a volumetric radiance field.</jats:p>",
+        "DOI": "10.1145/3592426",
+        "title": [
+          "MERF: Memory-Efficient Radiance Fields for Real-time View Synthesis in Unbounded Scenes"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0002-1050-3958",
+            "authenticated-orcid": false,
+            "given": "Christian",
+            "family": "Reiser",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Google Research, London, United Kingdom"
+              },
+              {
+                "name": "University of Tübingen, Tübingen, Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0005-5300-5475",
+            "authenticated-orcid": false,
+            "given": "Rick",
+            "family": "Szeliski",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google Research, Seattle, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8798-3270",
+            "authenticated-orcid": false,
+            "given": "Dor",
+            "family": "Verbin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google Research, Boston, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0008-8268-3285",
+            "authenticated-orcid": false,
+            "given": "Pratul",
+            "family": "Srinivasan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google Research, San Francisco, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0001-9796-6121",
+            "authenticated-orcid": false,
+            "given": "Ben",
+            "family": "Mildenhall",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google Research, San Francisco, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8151-3726",
+            "authenticated-orcid": false,
+            "given": "Andreas",
+            "family": "Geiger",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Tübingen, Tübingen, Germany"
+              },
+              {
+                "name": "Tübingen AI Center, Tübingen, Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0008-4016-9448",
+            "authenticated-orcid": false,
+            "given": "Jon",
+            "family": "Barron",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google Research, San Francisco, United States of America"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2182-0185",
+            "authenticated-orcid": false,
+            "given": "Peter",
+            "family": "Hedman",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Google Research, London, United Kingdom"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              26
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Graphics"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3592426",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3592426",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3592426",
+        "ISSN": [
+          "0730-0301",
+          "1557-7368"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              26
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              19
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Image translation has various applications in computer graphics and computer vision, aiming to transfer images from one domain to another. Thanks to the excellent generation capability of diffusion models, recent single-view image translation methods achieve realistic results. However, directly applying diffusion models for multi-view image translation remains challenging for two major obstacles: the need for paired training data and the limited view consistency. To overcome the obstacles, we present a first unified multi-view image to multi-view image translation framework based on diffusion models, called MV2MV. Firstly, we propose a novel self-supervised training strategy that exploits the success of off-the-shelf single-view image translators and the 3D Gaussian Splatting (3DGS) technique to generate pseudo ground truths as supervisory signals, leading to enhanced consistency and fine details. Additionally, we propose a latent multi-view consistency block, which utilizes the latent-3DGS as the underlying 3D representation to facilitate information exchange across multi-view images and inject 3D prior into the diffusion model to enforce consistency. Finally, our approach simultaneously optimizes the diffusion model and 3DGS to achieve a better trade-off between consistency and realism. Extensive experiments across various translation tasks demonstrate that MV2MV outperforms task-specific specialists in both quantitative and qualitative.</jats:p>",
+        "DOI": "10.1145/3687977",
+        "title": [
+          "MV2MV: Multi-View Image Translation via View-Consistent Diffusion Models"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-0599-8418",
+            "authenticated-orcid": false,
+            "given": "Youcheng",
+            "family": "Cai",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "University of Science and Technology of China, Hefei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0008-6586-4914",
+            "authenticated-orcid": false,
+            "given": "Runshi",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Science and Technology of China, Hefei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4352-1431",
+            "authenticated-orcid": false,
+            "given": "Ligang",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Science and Technology of China, Hefei, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              19
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Graphics"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3687977",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3687977",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3687977",
+        "ISSN": [
+          "0730-0301",
+          "1557-7368"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              19
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              12,
+              31
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Wire art is the creation of three-dimensional sculptural art using wire strands. As the 2D projection of a 3D wire sculpture forms line drawing patterns, it is possible to craft multi-view wire sculpture art --- a static sculpture with multiple (potentially very different) interpretations when perceived at different viewpoints. Artists can effectively leverage this characteristic and produce compelling artistic effects. However, the creation of such multi-view wire sculpture is extremely time-consuming even by highly skilled artists. In this paper, we present a computational framework for automatic creation of multi-view 3D wire sculpture. Our system takes two or three user-specified line drawings and the associated viewpoints as inputs. We start with producing a sparse set of voxels via greedy selection approach such that their projections on the virtual cameras cover all the contour pixels of the input line drawings. The sparse set of voxels, however, do not necessary form one single connected component. We introduce a constrained 3D pathfinding algorithm to link isolated groups of voxels into a connected component while maintaining the similarity between the projected voxels and the line drawings. Using the reconstructed visual hull, we extract a curve skeleton and produce a collection of smooth 3D curves by fitting cubic splines and optimizing the curve deformation to best approximate the provided line drawings. We demonstrate the effectiveness of our system for creating compelling multi-view wire sculptures in both simulation and 3D physical printouts.</jats:p>",
+        "DOI": "10.1145/3272127.3275070",
+        "title": [
+          "Multi-view wire art"
+        ],
+        "author": [
+          {
+            "given": "Kai-Wen",
+            "family": "Hsiao",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "National Tsing Hua University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jia-Bin",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Virginia Tech"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hung-Kuo",
+            "family": "Chu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "National Tsing Hua University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2018,
+              12,
+              4
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Graphics"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3272127.3275070",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3272127.3275070",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3272127.3275070",
+        "ISSN": [
+          "0730-0301",
+          "1557-7368"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              12,
+              4
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2003,
+              7
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Significant visual effects arise from surface mesostructure, such as fine-scale shadowing, occlusion and silhouettes. To efficiently render its detailed appearance, we introduce a technique called view-dependent displacement mapping (VDM) that models surface displacements along the viewing direction. Unlike traditional displacement mapping, VDM allows for efficient rendering of self-shadows, occlusions and silhouettes without increasing the complexity of the underlying surface mesh. VDM is based on per-pixel processing, and with hardware acceleration it can render mesostructure with rich visual appearance in real time.</jats:p>",
+        "DOI": "10.1145/882262.882272",
+        "title": [
+          "View-dependent displacement mapping"
+        ],
+        "author": [
+          {
+            "given": "Lifeng",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Microsoft Research Asia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xi",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Tsinghua University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xin",
+            "family": "Tong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Microsoft Research Asia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Stephen",
+            "family": "Lin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Microsoft Research Asia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Shimin",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Tsinghua University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Baining",
+            "family": "Guo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Microsoft Research Asia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Heung-Yeung",
+            "family": "Shum",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Microsoft Research Asia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2003,
+              7
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Graphics"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/882262.882272",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/882262.882272",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/882262.882272",
+        "ISSN": [
+          "0730-0301",
+          "1557-7368"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2003,
+              7
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 15,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

@@ -1,0 +1,291 @@
+[
+  {
+    "filename": "author_home.html",
+    "url": "https://yejy53.github.io/",
+    "retrieved_utc": "2026-10-13T12:38:43.611603+00:00",
+    "status_code": 200,
+    "resolved_url": "https://yejy53.github.io/",
+    "bytes": 19391,
+    "sha256": "20b3b566396bd1359253b589ade055d424857d70565954acc27e8d8ac28c19ff"
+  },
+  {
+    "filename": "corresponding_author_home.html",
+    "url": "https://liweijia.github.io/",
+    "retrieved_utc": "2026-10-13T12:38:43.612682+00:00",
+    "error": "HTTPSConnectionPool(host='liweijia.github.io', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f8c2c6abaf0>: Failed to establish a new connection: No IPv4 DNS answer for liweijia.github.io'))"
+  },
+  {
+    "filename": "author_repos.json",
+    "url": "https://api.github.com/users/Yejy53/repos?per_page=100",
+    "retrieved_utc": "2026-10-13T12:37:08.504681+00:00",
+    "status_code": 200,
+    "resolved_url": "https://api.github.com/users/Yejy53/repos?per_page=100",
+    "bytes": 80559,
+    "sha256": "980b8d0bed61d8f7603158b370f943b2dc8365fbd0abe3042289960a913e0738"
+  },
+  {
+    "filename": "repository_search.json",
+    "url": "https://api.github.com/search/repositories?q=skydiffusion&per_page=100",
+    "retrieved_utc": "2026-10-13T12:37:08.506315+00:00",
+    "status_code": 200,
+    "resolved_url": "https://api.github.com/search/repositories?q=skydiffusion&per_page=100",
+    "bytes": 17020,
+    "sha256": "14c245d45976ada35a99a115b945c8d2529d5fd13120f1b0e4ddfdf4fb4ec451"
+  },
+  {
+    "filename": "legacy_repository.json",
+    "url": "https://api.github.com/repos/SkyDiffusion/SkyDiffusion-code",
+    "retrieved_utc": "2026-10-13T12:38:43.613479+00:00",
+    "status_code": 404,
+    "resolved_url": "https://api.github.com/repos/SkyDiffusion/SkyDiffusion-code",
+    "bytes": 118,
+    "sha256": "4f50e254a719a6b1b06b529bdaa08980e4acf0878aad0090cba7771f6ebdf0b9",
+    "error": "404 Client Error: Not Found for url: https://api.github.com/repos/SkyDiffusion/SkyDiffusion-code"
+  },
+  {
+    "filename": "official_branches.json",
+    "url": "https://api.github.com/repos/opendatalab/skydiffusion/branches",
+    "retrieved_utc": "2026-10-13T12:37:08.808236+00:00",
+    "status_code": 200,
+    "resolved_url": "https://api.github.com/repos/opendatalab/skydiffusion/branches",
+    "bytes": 415,
+    "sha256": "7d34323a906838d37ef1c2fb0301752b13b95eff18fae209093f36c7685c4eab"
+  },
+  {
+    "filename": "project_tree.json",
+    "url": "https://api.github.com/repos/opendatalab/skydiffusion/git/trees/gh-pages?recursive=1",
+    "retrieved_utc": "2026-10-13T12:37:08.848230+00:00",
+    "status_code": 200,
+    "resolved_url": "https://api.github.com/repos/opendatalab/skydiffusion/git/trees/gh-pages?recursive=1",
+    "bytes": 23144,
+    "sha256": "d8e61d3dc82068e6964bb6def75b97682106ab674d5571bf960ffe0ca8c6abc0"
+  },
+  {
+    "filename": "author_site_tree.json",
+    "url": "https://api.github.com/repos/yejy53/yejy53.github.io/git/trees/main?recursive=1",
+    "retrieved_utc": "2026-10-13T12:37:09.483703+00:00",
+    "status_code": 200,
+    "resolved_url": "https://api.github.com/repos/yejy53/yejy53.github.io/git/trees/main?recursive=1",
+    "bytes": 54223,
+    "sha256": "2107ad61457ada275fbcc3f9badebfb1af821ddab13762d38a6b91a8c54bbf21"
+  },
+  {
+    "filename": "author_hf_models.json",
+    "url": "https://hf-mirror.com/api/models?author=Yejy53&full=true&limit=100",
+    "retrieved_utc": "2026-10-13T12:37:09.698336+00:00",
+    "status_code": 200,
+    "resolved_url": "https://hf-mirror.com/api/models?author=Yejy53&full=true&limit=100",
+    "bytes": 1792,
+    "sha256": "dc7dd8b89b249b3428291bd5659b6efb7dc3f309c2c08cd6cc4a747bc2585419"
+  },
+  {
+    "filename": "uploader_hf_models.json",
+    "url": "https://hf-mirror.com/api/models?author=SkyDiff1109&full=true&limit=100",
+    "retrieved_utc": "2026-10-13T12:37:09.792801+00:00",
+    "status_code": 200,
+    "resolved_url": "https://hf-mirror.com/api/models?author=SkyDiff1109&full=true&limit=100",
+    "bytes": 485,
+    "sha256": "e697276501626bef2d89d71af5b5f71a9b528d1f5762cf162821c598960472ec"
+  },
+  {
+    "filename": "skydiff_hf_models.json",
+    "url": "https://hf-mirror.com/api/models?author=SkyDiff&full=true&limit=100",
+    "retrieved_utc": "2026-10-13T12:37:09.987309+00:00",
+    "status_code": 200,
+    "resolved_url": "https://hf-mirror.com/api/models?author=SkyDiff&full=true&limit=100",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "filename": "g2a_hf_models.json",
+    "url": "https://hf-mirror.com/api/models?search=G2A&full=true&limit=100",
+    "retrieved_utc": "2026-10-13T12:37:10.201074+00:00",
+    "status_code": 200,
+    "resolved_url": "https://hf-mirror.com/api/models?search=G2A&full=true&limit=100",
+    "bytes": 29703,
+    "sha256": "bc7941ca172912152380385084ff081590a14d7b99b595f38db191f144717dda"
+  },
+  {
+    "filename": "official_dataset_tree.json",
+    "url": "https://hf-mirror.com/api/datasets/Yejy53/G2A-3/tree/main?recursive=true&expand=false",
+    "retrieved_utc": "2026-10-13T12:37:10.356694+00:00",
+    "status_code": 200,
+    "resolved_url": "https://hf-mirror.com/api/datasets/Yejy53/G2A-3/tree/main?recursive=true&expand=false",
+    "bytes": 1087,
+    "sha256": "03653a9869ed532636e202c043587f6fbb77d3b2fdf5fd50b2a526ada30bfee2"
+  },
+  {
+    "filename": "official_dataset_readme.md",
+    "url": "https://hf-mirror.com/datasets/Yejy53/G2A-3/raw/main/README.md",
+    "retrieved_utc": "2026-10-13T12:37:10.434764+00:00",
+    "status_code": 200,
+    "resolved_url": "https://hf-mirror.com/datasets/Yejy53/G2A-3/raw/main/README.md",
+    "bytes": 24,
+    "sha256": "d8d7a46d41a1a37fe4f0a5f637bf55c649310185329127d8a2204632e480be17"
+  },
+  {
+    "filename": "official_dataset_discussions.json",
+    "url": "https://huggingface.co/api/datasets/Yejy53/G2A-3/discussions",
+    "retrieved_utc": "2026-10-13T12:38:43.614637+00:00",
+    "error": "HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /api/datasets/Yejy53/G2A-3/discussions (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f8c2c6ba8b0>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"
+  },
+  {
+    "filename": "checkpoint_discussions.json",
+    "url": "https://huggingface.co/api/models/SkyDiff1109/SkyDiffusion_ckpt/discussions",
+    "retrieved_utc": "2026-10-13T12:38:43.616226+00:00",
+    "error": "HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /api/models/SkyDiff1109/SkyDiffusion_ckpt/discussions (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f8c2c6b2a00>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"
+  },
+  {
+    "filename": "author_skydiffusion_tree.json",
+    "url": "https://api.github.com/repos/yejy53/Skydiffusion/git/trees/main?recursive=1",
+    "retrieved_utc": "2026-10-13T12:38:43.879042+00:00",
+    "status_code": 200,
+    "resolved_url": "https://api.github.com/repos/yejy53/Skydiffusion/git/trees/main?recursive=1",
+    "bytes": 1298,
+    "sha256": "cbc1d09b62ff11c3c4d32dff3bdb7b6b46293fe91ec090c7c45ec92c675f1b7a"
+  },
+  {
+    "filename": "author_skydiffusion_readme.md",
+    "url": "https://api.github.com/repos/yejy53/Skydiffusion/contents/README.md",
+    "retrieved_utc": "2026-10-13T12:38:44.607024+00:00",
+    "status_code": 200,
+    "resolved_url": "https://api.github.com/repos/yejy53/Skydiffusion/contents/README.md",
+    "github_blob_sha": "d673b57069a3aaf93d45b220223dae5917ef7fa0",
+    "bytes": 4798,
+    "sha256": "6d9bc0d5dc055f053f27bc1a901be837a25dc4b773be3efa652ee13c469444ea"
+  },
+  {
+    "filename": "alternate_project_tree.json",
+    "url": "https://api.github.com/repos/SkyDiffusion0307/skydiffusion0307.github.io/git/trees/main?recursive=1",
+    "retrieved_utc": "2026-10-13T12:38:44.849389+00:00",
+    "status_code": 200,
+    "resolved_url": "https://api.github.com/repos/SkyDiffusion0307/skydiffusion0307.github.io/git/trees/main?recursive=1",
+    "bytes": 161771,
+    "sha256": "e5d1c982d797b1a2a7f77b71182044c6e6f4c5293d89706983146b8efc6d05b3"
+  },
+  {
+    "filename": "author_about.md",
+    "url": "https://api.github.com/repos/yejy53/yejy53.github.io/contents/_pages/about.md",
+    "retrieved_utc": "2026-10-13T12:38:44.932555+00:00",
+    "status_code": 200,
+    "resolved_url": "https://api.github.com/repos/yejy53/yejy53.github.io/contents/_pages/about.md",
+    "github_blob_sha": "ac5b2e842e94e54c8dbc4aba1f5ede269d241494",
+    "bytes": 4164,
+    "sha256": "8cbeb98a082a4a9970bb0ea3583516ffa3b7708e2d363b23fb0d1947b348f3b6"
+  },
+  {
+    "filename": "author_config.yml",
+    "url": "https://api.github.com/repos/yejy53/yejy53.github.io/contents/_config.yml",
+    "retrieved_utc": "2026-10-13T12:38:45.608992+00:00",
+    "status_code": 200,
+    "resolved_url": "https://api.github.com/repos/yejy53/yejy53.github.io/contents/_config.yml",
+    "github_blob_sha": "9e47fe8de36b54cc43bf0832dd05a6f9d4280f6d",
+    "bytes": 3924,
+    "sha256": "23e94d2c6473aaf935d400a71b0e17bac41ec1ce547f0847ca0fcb8c50d39938"
+  },
+  {
+    "filename": "corresponding_author_index.html",
+    "url": "https://api.github.com/repos/liweijia/liweijia.github.io/contents/index.html",
+    "retrieved_utc": "2026-10-13T12:38:45.936015+00:00",
+    "status_code": 404,
+    "resolved_url": "https://api.github.com/repos/liweijia/liweijia.github.io/contents/index.html",
+    "bytes": 127,
+    "sha256": "e45906ce02e79f16fb87a838d86bb4e497e37a9591f97608fa013bbcd8b9cbc2",
+    "error": "404 Client Error: Not Found for url: https://api.github.com/repos/liweijia/liweijia.github.io/contents/index.html"
+  },
+  {
+    "filename": "official_dataset_discussions_mirror.json",
+    "url": "https://hf-mirror.com/api/datasets/Yejy53/G2A-3/discussions",
+    "retrieved_utc": "2026-10-13T12:38:46.175261+00:00",
+    "status_code": 200,
+    "resolved_url": "https://hf-mirror.com/api/datasets/Yejy53/G2A-3/discussions",
+    "bytes": 724,
+    "sha256": "2dba455665bd9d87132a439706edad1c5cf434b52a2c7a665f3b7313235a1204"
+  },
+  {
+    "filename": "checkpoint_discussions_mirror.json",
+    "url": "https://hf-mirror.com/api/models/SkyDiff1109/SkyDiffusion_ckpt/discussions",
+    "retrieved_utc": "2026-10-13T12:38:46.627187+00:00",
+    "status_code": 200,
+    "resolved_url": "https://hf-mirror.com/api/models/SkyDiff1109/SkyDiffusion_ckpt/discussions",
+    "bytes": 63,
+    "sha256": "d0b07e7dcf5dc0134fd4ce14704403bba2c179fbcb81422f178b5e7620425379"
+  },
+  {
+    "filename": "old_project_repository.json",
+    "url": "https://api.github.com/repos/longhz140516/SkyDiffusion.github.io",
+    "retrieved_utc": "2026-10-13T12:40:00.369112+00:00",
+    "status_code": 404,
+    "resolved_url": "https://api.github.com/repos/longhz140516/SkyDiffusion.github.io",
+    "bytes": 118,
+    "sha256": "4f50e254a719a6b1b06b529bdaa08980e4acf0878aad0090cba7771f6ebdf0b9",
+    "error": "404 Client Error: Not Found for url: https://api.github.com/repos/longhz140516/SkyDiffusion.github.io"
+  },
+  {
+    "filename": "old_project_contents.json",
+    "url": "https://api.github.com/repos/longhz140516/SkyDiffusion.github.io/contents",
+    "retrieved_utc": "2026-10-13T12:40:00.370067+00:00",
+    "status_code": 404,
+    "resolved_url": "https://api.github.com/repos/longhz140516/SkyDiffusion.github.io/contents",
+    "bytes": 127,
+    "sha256": "e45906ce02e79f16fb87a838d86bb4e497e37a9591f97608fa013bbcd8b9cbc2",
+    "error": "404 Client Error: Not Found for url: https://api.github.com/repos/longhz140516/SkyDiffusion.github.io/contents"
+  },
+  {
+    "filename": "corresponding_author_repository.json",
+    "url": "https://api.github.com/repos/liweijia/liweijia.github.io",
+    "retrieved_utc": "2026-10-13T12:40:00.372264+00:00",
+    "status_code": 200,
+    "resolved_url": "https://api.github.com/repos/liweijia/liweijia.github.io",
+    "bytes": 5554,
+    "sha256": "d04fb9a38230b51bbf11a53fe7ff0884ca1dc34ec0f332fa6f30df86558a088c"
+  },
+  {
+    "filename": "corresponding_author_config.yml",
+    "url": "https://api.github.com/repos/liweijia/liweijia.github.io/contents/_config.yml",
+    "retrieved_utc": "2026-10-13T12:40:00.374749+00:00",
+    "status_code": 200,
+    "resolved_url": "https://api.github.com/repos/liweijia/liweijia.github.io/contents/_config.yml",
+    "github_blob_sha": "06dfa24e1a2c032464d5cb05d8d66f2210feafc6",
+    "bytes": 6575,
+    "sha256": "ee08cf848a79562492acea8f0191bb668efb47d03a81e28313782e8325677ab1"
+  },
+  {
+    "filename": "alternate_project_readme.md",
+    "url": "https://api.github.com/repos/SkyDiffusion0307/skydiffusion0307.github.io/contents/README.md",
+    "retrieved_utc": "2026-10-13T12:40:00.381384+00:00",
+    "status_code": 200,
+    "resolved_url": "https://api.github.com/repos/SkyDiffusion0307/skydiffusion0307.github.io/contents/README.md",
+    "github_blob_sha": "a5dfad43f73438403ec4ac44a9eeebf0c8613d5b",
+    "bytes": 2833,
+    "sha256": "6ed1b4d63828dee5da653acd347d51440ab8c692a4450db23284757e0091ea9a"
+  },
+  {
+    "filename": "alternate_projection.py",
+    "url": "https://api.github.com/repos/SkyDiffusion0307/skydiffusion0307.github.io/contents/Cruved-BEV.py",
+    "retrieved_utc": "2026-10-13T12:40:01.337702+00:00",
+    "status_code": 200,
+    "resolved_url": "https://api.github.com/repos/SkyDiffusion0307/skydiffusion0307.github.io/contents/Cruved-BEV.py",
+    "github_blob_sha": "bf3207b58102940185161193d3d0a432a547156a",
+    "bytes": 10223,
+    "sha256": "7956aebf48b054967ed6ab0cb8cf79c5e0c098a417048f8c2690b8cc6da8ebaa"
+  },
+  {
+    "filename": "legacy_dataset_metadata.json",
+    "url": "https://hf-mirror.com/api/datasets/SkyDiff1109/G2A-3?blobs=true",
+    "retrieved_utc": "2026-10-13T12:42:55.929815+00:00",
+    "status_code": 200,
+    "resolved_url": "https://hf-mirror.com/api/datasets/SkyDiff1109/G2A-3?blobs=true",
+    "bytes": 1238,
+    "sha256": "49b16e27b57928803949d11ecadc1fd80e72670d7840536cedb1ab0f414c8c26"
+  },
+  {
+    "filename": "g2a_datasets_search.json",
+    "url": "https://hf-mirror.com/api/datasets?search=G2A-3&full=true&limit=100",
+    "retrieved_utc": "2026-10-13T12:42:55.930722+00:00",
+    "status_code": 200,
+    "resolved_url": "https://hf-mirror.com/api/datasets?search=G2A-3&full=true&limit=100",
+    "bytes": 1807,
+    "sha256": "024647aafeda33bb09aeb4d7251b9a42eeec01186a192815d3a9bab4ffb3288d"
+  }
+]

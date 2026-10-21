@@ -1,0 +1,1208 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        6,
+        11
+      ]
+    ],
+    "date-time": "2026-06-11T16:20:52Z",
+    "timestamp": 1781194852047,
+    "version": "3.54.1"
+  },
+  "reference-count": 88,
+  "publisher": "Association for Computing Machinery (ACM)",
+  "issue": "1",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            14
+          ]
+        ],
+        "date-time": "2024-12-14T00:00:00Z",
+        "timestamp": 1734134400000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100001446",
+      "name": "Economic Development Board of Singapore",
+      "doi-asserted-by": "crossref",
+      "award": [
+        "S18-1198-IPP-II"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "S18-1198-IPP-II"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001446",
+          "id-type": "DOI",
+          "asserted-by": "crossref"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "dl.acm.org"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "ACM Trans. Multimedia Comput. Commun. Appl."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2025,
+        1,
+        31
+      ]
+    ]
+  },
+  "abstract": "<jats:p>Geo-information extraction from satellite imagery has become crucial to carry out large-scale ground surveys in a short amount of time. With the increasing number of commercial satellites launched into orbit in recent years, high-resolution RGB color remote sensing imagery has attracted a lot of attention. However, because of the high cost of image acquisition and even more complicated annotation procedures, there are limited high-resolution satellite datasets available. Compared to close-range imagery datasets, existing satellite datasets have a much lower number of images and cover only a few scenarios (cities, background environments, etc.). They may not be sufficient for training robust learning models that fit all environmental conditions or be representative enough for training regional models that optimize for local scenarios. Instead of collecting and annotating more data, using synthetic images could be another solution to boost the performance of a model. This article proposes a GAN-assisted training scheme for road segmentation from high-resolution RGB color satellite images, which includes three critical components: (a) synthetic training sample generation, (b) synthetic training sample selection, and (c) assisted training strategy. Apart from the GeoPalette and cSinGAN image generators introduced in our prior work, this article explains in detail how to generate new training pairs using OpenStreetMap (OSM) and introduces a new set of evaluation metrics for selecting synthetic training pairs from a pool of generated samples. We conduct extensive quantitative and qualitative experiments to compare different image generators and training strategies. Our experiments on the downstream road segmentation task show that (1) our proposed metrics are more aligned with the trained model performance compared to commonly used GAN evaluation metrics such as the Fréchet inception distance (FID); and (2) by using synthetic data with the best training strategy, the model performance, mean Intersection over Union (mean IoU), is improved from 60.92% to 64.44%, when 1,000 real training pairs are available for learning, which reaches a similar level of performance as a model that is standard-trained with 4,000 real images (64.59%), i.e., enabling a 4-fold reduction in real dataset size.</jats:p>",
+  "DOI": "10.1145/3635153",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2023,
+        11,
+        30
+      ]
+    ],
+    "date-time": "2023-11-30T11:51:37Z",
+    "timestamp": 1701345097000
+  },
+  "page": "1-29",
+  "update-policy": "https://doi.org/10.1145/crossmark-policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 10,
+  "title": [
+    "GAN-Assisted Road Segmentation from Satellite Imagery"
+  ],
+  "prefix": "10.1145",
+  "volume": "21",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-5902-2306",
+      "authenticated-orcid": false,
+      "given": "Wenmiao",
+      "family": "Hu",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Grab-NUS AI Lab, National University of Singapore, Singapore, Singapore"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-6525-6133",
+      "authenticated-orcid": false,
+      "given": "Yifang",
+      "family": "Yin",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Institute for Infocomm Research (I2R), A*STAR, Singapore, Singapore"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-7991-9367",
+      "authenticated-orcid": false,
+      "given": "Ying Kiat",
+      "family": "Tan",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "National University of Singapore, Singapore, Singapore"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-4355-812X",
+      "authenticated-orcid": false,
+      "given": "An",
+      "family": "Tran",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Mediacorp Pte Ltd, Singapore, Singapore"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0009-2616-3469",
+      "authenticated-orcid": false,
+      "given": "Hannes",
+      "family": "Kruppa",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Grabtaxi Holdings Pte Ltd, Singapore, Singapore"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-7410-2590",
+      "authenticated-orcid": false,
+      "given": "Roger",
+      "family": "Zimmermann",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Grab-NUS AI Lab, National University of Singapore, Singapore, Singapore"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "320",
+  "published-online": {
+    "date-parts": [
+      [
+        2024,
+        12,
+        14
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "issue": "9",
+      "key": "e_1_3_2_2_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "1363",
+      "DOI": "10.3390/rs10091363",
+      "article-title": "Analysis ready data: Enabling analysis of the landsat archive",
+      "volume": "10",
+      "author": "Dwyer John L.",
+      "year": "2018",
+      "unstructured": "John L. Dwyer, David P. Roy, Brian Sauer, Calli B. Jenkerson, Hankui K. Zhang, and Leo Lymburner. 2018. Analysis ready data: Enabling analysis of the landsat archive. Remote Sensing 10, 9 (2018), 1363.",
+      "journal-title": "Remote Sensing"
+    },
+    {
+      "issue": "1",
+      "key": "e_1_3_2_3_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "100",
+      "DOI": "10.1080/20964471.2017.1398903",
+      "article-title": "Building an earth observations data cube: Lessons learned from the swiss data cube (SDC) on generating analysis ready data (ARD)",
+      "volume": "1",
+      "author": "Giuliani Gregory",
+      "year": "2017",
+      "unstructured": "Gregory Giuliani, Bruno Chatenoux, Andrea De Bono, Denisa Rodila, Jean-Philippe Richard, Karin Allenbach, Hy Dao, and Pascal Peduzzi. 2017. Building an earth observations data cube: Lessons learned from the swiss data cube (SDC) on generating analysis ready data (ARD). Big Earth Data 1, 1–2 (2017), 100–117.",
+      "journal-title": "Big Earth Data"
+    },
+    {
+      "key": "e_1_3_2_4_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "172",
+      "DOI": "10.1109/CVPRW.2018.00031",
+      "volume-title": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+      "author": "Demir Ilke",
+      "year": "2018",
+      "unstructured": "Ilke Demir, Krzysztof Koperski, David Lindenbaum, Guan Pang, Jing Huang, Saikat Basu, Forest Hughes, Devis Tuia, and Ramesh Raskar. 2018. DeepGlobe 2018: A challenge to parse the earth through satellite images. In 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW). 172–17209."
+    },
+    {
+      "key": "e_1_3_2_5_2",
+      "article-title": "SpaceNet: A remote sensing dataset and challenge series",
+      "volume": "1807",
+      "author": "Etten Adam Van",
+      "year": "2018",
+      "unstructured": "Adam Van Etten, Dave Lindenbaum, and Todd M. Bacastow. 2018. SpaceNet: A remote sensing dataset and challenge series. CoRR abs/1807.01232 (2018). arXiv:1807.01232 http://arxiv.org/abs/1807.01232",
+      "journal-title": "CoRR"
+    },
+    {
+      "key": "e_1_3_2_6_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "7501",
+      "DOI": "10.1109/CVPR.2019.00769",
+      "volume-title": "2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Sun Tao",
+      "year": "2019",
+      "unstructured": "Tao Sun, Zonglin Di, Pengyu Che, Chun Liu, and Yin Wang. 2019. Leveraging crowdsourced GPS data for road extraction from aerial imagery. In 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 7501–7510. DOI:10.1109/CVPR.2019.00769"
+    },
+    {
+      "key": "e_1_3_2_7_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "192",
+      "DOI": "10.1109/CVPRW.2018.00034",
+      "volume-title": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+      "author": "Zhou Lichen",
+      "year": "2018",
+      "unstructured": "Lichen Zhou, Chuang Zhang, and Ming Wu. 2018. D-LinkNet: LinkNet with pretrained encoder and dilated convolution for high resolution satellite imagery road extraction. In 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW). 192–1924. DOI:10.1109/CVPRW.2018.00034"
+    },
+    {
+      "issue": "2",
+      "key": "e_1_3_2_8_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "269",
+      "DOI": "10.3390/rs14020269",
+      "article-title": "B-FGC-net: A building extraction network from high resolution remote sensing imagery",
+      "volume": "14",
+      "author": "Wang Yong",
+      "year": "2022",
+      "unstructured": "Yong Wang, Xiangqiang Zeng, Xiaohan Liao, and Dafang Zhuang. 2022. B-FGC-net: A building extraction network from high resolution remote sensing imagery. Remote Sensing 14, 2 (2022), 269.",
+      "journal-title": "Remote Sensing"
+    },
+    {
+      "key": "e_1_3_2_9_2",
+      "first-page": "1496",
+      "volume-title": "2022 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
+      "author": "He Songtao",
+      "year": "2022",
+      "unstructured": "Songtao He and Hari Balakrishnan. 2022. Lane-level street map extraction from aerial imagery. In 2022 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV). 1496–1505. DOI:10.1109/WACV51458.2022.00156"
+    },
+    {
+      "issue": "07",
+      "key": "e_1_3_2_10_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "10965",
+      "DOI": "10.1609/aaai.v34i07.6730",
+      "article-title": "RoadTagger: Robust road attribute inference with graph neural networks",
+      "volume": "34",
+      "author": "He Songtao",
+      "year": "2020",
+      "unstructured": "Songtao He, Favyen Bastani, Satvat Jagwani, Edward Park, Sofiane Abbar, Mohammad Alizadeh, Hari Balakrishnan, Sanjay Chawla, Samuel Madden, and Mohammad Amin Sadeghi. 2020. RoadTagger: Robust road attribute inference with graph neural networks. In AAAI Conference on Artificial Intelligence 34, 07 (Apr. 2020), 10965–10972.",
+      "journal-title": "AAAI Conference on Artificial Intelligence"
+    },
+    {
+      "key": "e_1_3_2_11_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3618108"
+    },
+    {
+      "key": "e_1_3_2_12_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "248",
+      "DOI": "10.1109/CVPR.2009.5206848",
+      "volume-title": "2009 IEEE Conference on Computer Vision and Pattern Recognition",
+      "author": "Deng Jia",
+      "year": "2009",
+      "unstructured": "Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. 2009. ImageNet: A large-scale hierarchical image database. In 2009 IEEE Conference on Computer Vision and Pattern Recognition. 248–255."
+    },
+    {
+      "key": "e_1_3_2_13_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "111716",
+      "DOI": "10.1016/j.rse.2020.111716",
+      "article-title": "Deep learning in environmental remote sensing: Achievements and challenges",
+      "volume": "241",
+      "author": "Yuan Qiangqiang",
+      "year": "2020",
+      "unstructured": "Qiangqiang Yuan, Huanfeng Shen, Tongwen Li, Zhiwei Li, Shuwen Li, Yun Jiang, Hongzhang Xu, Weiwei Tan, Qianqian Yang, Jiwen Wang, Jianhao Gao, and Liangpei Zhang. 2020. Deep learning in environmental remote sensing: Achievements and challenges. Remote Sensing of Environment 241 (2020), 111716.",
+      "journal-title": "Remote Sensing of Environment"
+    },
+    {
+      "key": "e_1_3_2_14_2",
+      "volume-title": "Neural Information Processing Systems Track on Datasets and Benchmarks",
+      "author": "Wang Junjue",
+      "year": "2021",
+      "unstructured": "Junjue Wang, Zhuo Zheng, Ailong Ma, Xiaoyan Lu, and Yanfei Zhong. 2021. LoveDA: A remote sensing land-cover dataset for domain adaptive semantic segmentation. In Neural Information Processing Systems Track on Datasets and Benchmarks, J. Vanschoren and S. Yeung (Eds.), Vol. 1. Curran."
+    },
+    {
+      "issue": "4",
+      "key": "e_1_3_2_15_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "e2020JB020077",
+      "DOI": "10.1029/2020JB020077",
+      "article-title": "SeismoGen: Seismic waveform synthesis using gan with application to seismic data augmentation",
+      "volume": "126",
+      "author": "Wang Tiantong",
+      "year": "2021",
+      "unstructured": "Tiantong Wang, Daniel Trugman, and Youzuo Lin. 2021. SeismoGen: Seismic waveform synthesis using gan with application to seismic data augmentation. Journal of Geophysical Research: Solid Earth 126, 4 (2021), e2020JB020077.",
+      "journal-title": "Journal of Geophysical Research: Solid Earth"
+    },
+    {
+      "key": "e_1_3_2_16_2",
+      "volume-title": "International Conference on Learning Representations",
+      "author": "Schmidt Victor",
+      "year": "2022",
+      "unstructured": "Victor Schmidt, Alexandra Luccioni, Mélisande Teng, Tianyu Zhang, Alexia Reynaud, Sunand Raghupathi, Gautier Cosne, Adrien Juraver, Vahe Vardanyan, Alex Hernández-García, and Yoshua Bengio. 2022. ClimateGAN: Raising climate change awareness by generating images of floods. In International Conference on Learning Representations. OpenReview.net."
+    },
+    {
+      "key": "e_1_3_2_17_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "1847",
+      "DOI": "10.1109/CVPRW53098.2021.00204",
+      "volume-title": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+      "author": "Bissoto Alceu",
+      "year": "2021",
+      "unstructured": "Alceu Bissoto, Eduardo Valle, and Sandra Avila. 2021. GAN-based data augmentation and anonymization for skin-lesion analysis: A critical review. In 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW). 1847–1856. DOI:10.1109/CVPRW53098.2021.00204"
+    },
+    {
+      "key": "e_1_3_2_18_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "105444",
+      "DOI": "10.1016/j.compbiomed.2022.105444",
+      "article-title": "Medical image augmentation for lesion detection using a texture-constrained multichannel progressive GAN",
+      "volume": "145",
+      "author": "Guan Qiu",
+      "year": "2022",
+      "unstructured": "Qiu Guan, Yizhou Chen, Zihan Wei, Ali Asghar Heidari, Haigen Hu, Xu-Hua Yang, Jianwei Zheng, Qianwei Zhou, Huiling Chen, and Feng Chen. 2022. Medical image augmentation for lesion detection using a texture-constrained multichannel progressive GAN. Computers in Biology and Medicine 145 (2022), 105444.",
+      "journal-title": "Computers in Biology and Medicine"
+    },
+    {
+      "issue": "3",
+      "key": "e_1_3_2_19_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "e12823",
+      "DOI": "10.1111/exsy.12823",
+      "article-title": "DC-GAN-based synthetic X-ray images augmentation for increasing the performance of EfficientNet for COVID-19 detection",
+      "volume": "39",
+      "author": "Shah Pir Masoom",
+      "year": "2022",
+      "unstructured": "Pir Masoom Shah, Hamid Ullah, Rahim Ullah, Dilawar Shah, Yulin Wang, Saif ul Islam, Abdullah Gani, and Joel J. P. C. Rodrigues. 2022. DC-GAN-based synthetic X-ray images augmentation for increasing the performance of EfficientNet for COVID-19 detection. Expert Systems 39, 3 (2022), e12823.",
+      "journal-title": "Expert Systems"
+    },
+    {
+      "key": "e_1_3_2_20_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "1803",
+      "DOI": "10.1109/WACV45572.2020.9093339",
+      "volume-title": "2020 IEEE Winter Conference on Applications of Computer Vision (WACV)",
+      "author": "Kong Fanjie",
+      "year": "2020",
+      "unstructured": "Fanjie Kong, Bohao Huang, Kyle Bradbury, and Jordan M. Malof. 2020. The Synthinel-1 dataset: A collection of high resolution synthetic overhead imagery for building segmentation. In 2020 IEEE Winter Conference on Applications of Computer Vision (WACV). 1803–1812. DOI:10.1109/WACV45572.2020.9093339"
+    },
+    {
+      "key": "e_1_3_2_21_2",
+      "first-page": "28",
+      "volume-title": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops",
+      "author": "Zamir Syed Waqas",
+      "year": "2019",
+      "unstructured": "Syed Waqas Zamir, Aditya Arora, Akshita Gupta, Salman Khan, Guolei Sun, Fahad Shahbaz Khan, Fan Zhu, Ling Shao, Gui-Song Xia, and Xiang Bai. 2019. iSAID: A large-scale dataset for instance segmentation in aerial images. In IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops. 28–37."
+    },
+    {
+      "key": "e_1_3_2_22_2",
+      "volume-title": "Advances in Neural Information Processing Systems",
+      "author": "Goodfellow Ian",
+      "year": "2014",
+      "unstructured": "Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, and Yoshua Bengio. 2014. Generative adversarial nets. In Advances in Neural Information Processing Systems, Z. Ghahramani, M. Welling, C. Cortes, N. Lawrence, and K.Q. Weinberger (Eds.), Vol. 27. Curran Associates, Inc."
+    },
+    {
+      "key": "e_1_3_2_23_2",
+      "article-title": "Data augmentation generative adversarial networks",
+      "volume": "1711",
+      "author": "Antoniou Antreas",
+      "year": "2017",
+      "unstructured": "Antreas Antoniou, Amos J. Storkey, and Harrison Edwards. 2017. Data augmentation generative adversarial networks. CoRR abs/1711.04340 (2017). arXiv:1711.04340 http://arxiv.org/abs/1711.04340",
+      "journal-title": "CoRR"
+    },
+    {
+      "key": "e_1_3_2_24_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "5967",
+      "DOI": "10.1109/CVPR.2017.632",
+      "volume-title": "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Isola Phillip",
+      "year": "2017",
+      "unstructured": "Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, and Alexei A. Efros. 2017. Image-to-image translation with conditional adversarial networks. In 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 5967–5976. DOI:10.1109/CVPR.2017.632"
+    },
+    {
+      "issue": "1",
+      "key": "e_1_3_2_25_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "16884",
+      "DOI": "10.1038/s41598-019-52737-x",
+      "article-title": "Data augmentation using generative adversarial networks (CycleGAN) to improve generalizability in CT segmentation tasks",
+      "volume": "9",
+      "author": "Sandfort Veit",
+      "year": "2019",
+      "unstructured": "Veit Sandfort, Ke Yan, Perry J. Pickhardt, and Ronald M. Summers. 2019. Data augmentation using generative adversarial networks (CycleGAN) to improve generalizability in CT segmentation tasks. Scientific Reports 9, 1 (2019), 16884.",
+      "journal-title": "Scientific Reports"
+    },
+    {
+      "key": "e_1_3_2_26_2",
+      "first-page": "95",
+      "volume-title": "29th International Conference on Advances in Geographic Information Systems (SIGSPATIAL’21)",
+      "author": "Hu Wenmiao",
+      "year": "2021",
+      "unstructured": "Wenmiao Hu, Yifang Yin, Ying Kiat Tan, An Tran, Hannes Kruppa, and Roger Zimmermann. 2021. GeoPalette: Road segmentation with limited satellite imagery. In 29th International Conference on Advances in Geographic Information Systems (SIGSPATIAL’21). ACM, New York, 95–98."
+    },
+    {
+      "key": "e_1_3_2_27_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JSEN.2023.3308172"
+    },
+    {
+      "issue": "29",
+      "key": "e_1_3_2_28_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "21841",
+      "DOI": "10.1007/s00521-023-08927-w",
+      "article-title": "A conditional input-based GAN for generating spatio-temporal motor imagery electroencephalograph data",
+      "volume": "35",
+      "author": "Raoof Ifrah",
+      "year": "2023",
+      "unstructured": "Ifrah Raoof and Manoj Kumar Gupta. 2023. A conditional input-based GAN for generating spatio-temporal motor imagery electroencephalograph data. Neural Computing and Applications 35, 29 (2023), 21841–21861.",
+      "journal-title": "Neural Computing and Applications"
+    },
+    {
+      "key": "e_1_3_2_29_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "101267",
+      "DOI": "10.1016/j.rineng.2023.101267",
+      "article-title": "Automatic pavement crack segmentation using a generative adversarial network (GAN)-based convolutional neural network",
+      "volume": "19",
+      "author": "Pan Zhihao",
+      "year": "2023",
+      "unstructured": "Zhihao Pan, Stephen L.H. Lau, Xu Yang, Ningqun Guo, and Xin Wang. 2023. Automatic pavement crack segmentation using a generative adversarial network (GAN)-based convolutional neural network. Results in Engineering 19 (2023), 101267.",
+      "journal-title": "Results in Engineering"
+    },
+    {
+      "key": "e_1_3_2_30_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "6428",
+      "DOI": "10.1109/JSTARS.2023.3281892",
+      "article-title": "ResBaGAN: A residual balancing GAN with data augmentation for forest mapping",
+      "volume": "16",
+      "author": "Dieste Álvaro G.",
+      "year": "2023",
+      "unstructured": "Álvaro G. Dieste, Francisco Argüello, and Dora B. Heras. 2023. ResBaGAN: A residual balancing GAN with data augmentation for forest mapping. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing 16 (2023), 6428–6447.",
+      "journal-title": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing"
+    },
+    {
+      "key": "e_1_3_2_31_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "473",
+      "DOI": "10.1007/978-3-031-18913-5_37",
+      "volume-title": "Pattern Recognition and Computer Vision",
+      "author": "Zhang Huan",
+      "year": "2022",
+      "unstructured": "Huan Zhang, Wei Leng, Xiaolin Han, and Weidong Sun. 2022. Category-oriented adversarial data augmentation via statistic similarity for satellite images. In Pattern Recognition and Computer Vision, Shiqi Yu, Zhaoxiang Zhang, Pong C. Yuen, Junwei Han, Tieniu Tan, Yike Guo, Jianhuang Lai, and Jianguo Zhang (Eds.). Springer Nature Switzerland, Cham, 473–483."
+    },
+    {
+      "key": "e_1_3_2_32_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "103095",
+      "DOI": "10.1016/j.jag.2022.103095",
+      "article-title": "A deep learning framework based on generative adversarial networks and vision transformer for complex wetland classification using limited training samples",
+      "volume": "115",
+      "author": "Jamali Ali",
+      "year": "2022",
+      "unstructured": "Ali Jamali, Masoud Mahdianpari, Fariba Mohammadimanesh, and Saeid Homayouni. 2022. A deep learning framework based on generative adversarial networks and vision transformer for complex wetland classification using limited training samples. International Journal of Applied Earth Observation and Geoinformation 115 (2022), 103095.",
+      "journal-title": "International Journal of Applied Earth Observation and Geoinformation"
+    },
+    {
+      "key": "e_1_3_2_33_2",
+      "first-page": "1",
+      "article-title": "Remote sensing image synthesis via semantic embedding generative adversarial networks",
+      "volume": "61",
+      "author": "Wang Chendan",
+      "year": "2023",
+      "unstructured": "Chendan Wang, Bowen Chen, Zhengxia Zou, and Zhenwei Shi. 2023. Remote sensing image synthesis via semantic embedding generative adversarial networks. IEEE Transactions on Geoscience and Remote Sensing 61 (2023), 1–11.",
+      "journal-title": "IEEE Transactions on Geoscience and Remote Sensing"
+    },
+    {
+      "issue": "7516",
+      "key": "e_1_3_2_34_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "30",
+      "DOI": "10.1038/513030a",
+      "article-title": "Satellites: Make Earth observations open access",
+      "volume": "513",
+      "author": "Wulder Michael A.",
+      "year": "2014",
+      "unstructured": "Michael A. Wulder and Nicholas C. Coops. 2014. Satellites: Make Earth observations open access. Nature 513, 7516 (2014), 30–31.",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "e_1_3_2_35_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "4720",
+      "DOI": "10.1109/CVPR.2018.00496",
+      "volume-title": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Bastani Favyen",
+      "year": "2018",
+      "unstructured": "Favyen Bastani, Songtao He, Sofiane Abbar, Mohammad Alizadeh, Hari Balakrishnan, Sanjay Chawla, Sam Madden, and David DeWitt. 2018. RoadTracer: Automatic extraction of road networks from aerial images. In 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition. 4720–4728. DOI:10.1109/CVPR.2018.00496"
+    },
+    {
+      "key": "e_1_3_2_36_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "108549",
+      "DOI": "10.1016/j.patcog.2022.108549",
+      "article-title": "SDUNet: Road extraction via spatial enhanced and densely connected UNet",
+      "volume": "126",
+      "author": "Yang Mengxing",
+      "year": "2022",
+      "unstructured": "Mengxing Yang, Yuan Yuan, and Ganchao Liu. 2022. SDUNet: Road extraction via spatial enhanced and densely connected UNet. Pattern Recognition 126 (2022), 108549.",
+      "journal-title": "Pattern Recognition"
+    },
+    {
+      "key": "e_1_3_2_37_2",
+      "first-page": "1",
+      "volume-title": "2019 Joint Urban Remote Sensing Event (JURSE)",
+      "author": "Stiller Dorothee",
+      "year": "2019",
+      "unstructured": "Dorothee Stiller, Thomas Stark, Michael Wurm, Stefan Dech, and Hannes Taubenböck. 2019. Large-scale building extraction in very high-resolution aerial imagery using Mask R-CNN. In 2019 Joint Urban Remote Sensing Event (JURSE). 1–4."
+    },
+    {
+      "issue": "8",
+      "key": "e_1_3_2_38_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "2600",
+      "DOI": "10.1109/JSTARS.2018.2835377",
+      "article-title": "Building extraction at scale using convolutional neural network: Mapping of the United States",
+      "volume": "11",
+      "author": "Yang Hsiuhan Lexie",
+      "year": "2018",
+      "unstructured": "Hsiuhan Lexie Yang, Jiangye Yuan, Dalton Lunga, Melanie Laverdiere, Amy Rose, and Budhendra Bhaduri. 2018. Building extraction at scale using convolutional neural network: Mapping of the United States. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing 11, 8 (2018), 2600–2614.",
+      "journal-title": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing"
+    },
+    {
+      "key": "e_1_3_2_39_2",
+      "first-page": "1391",
+      "volume-title": "2022 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
+      "author": "Yin Yifang",
+      "year": "2022",
+      "unstructured": "Yifang Yin, Wenmiao Hu, An Tran, Hannes Kruppa, Roger Zimmermann, and See-Kiong Ng. 2022. A context-enriched satellite imagery dataset and an approach for parking lot detection. In 2022 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV). 1391–1400. DOI:10.1109/WACV51458.2022.00146"
+    },
+    {
+      "issue": "2",
+      "key": "e_1_3_2_40_2",
+      "first-page": "76",
+      "article-title": "MILL: Channel attention–based deep multiple instance learning for landslide recognition",
+      "volume": "17",
+      "author": "Tang Xiaochuan",
+      "year": "2021",
+      "unstructured": "Xiaochuan Tang, Mingzhe Liu, Hao Zhong, Yuanzhen Ju, Weile Li, and Qiang Xu. 2021. MILL: Channel attention–based deep multiple instance learning for landslide recognition. ACM Trans. Multimedia Comput. Commun. Appl. 17, 2s, Article 76 (jun 2021), 11 pages.",
+      "journal-title": "ACM Trans. Multimedia Comput. Commun. Appl."
+    },
+    {
+      "issue": "1",
+      "key": "e_1_3_2_41_2",
+      "first-page": "4",
+      "article-title": "Scale-semantic joint decoupling network for image-text retrieval in remote sensing",
+      "volume": "20",
+      "author": "Zheng Chengyu",
+      "year": "2023",
+      "unstructured": "Chengyu Zheng, Ning Song, Ruoyu Zhang, Lei Huang, Zhiqiang Wei, and Jie Nie. 2023. Scale-semantic joint decoupling network for image-text retrieval in remote sensing. ACM Trans. Multimedia Comput. Commun. Appl. 20, 1, Article 4 (Aug. 2023), 20 pages.",
+      "journal-title": "ACM Trans. Multimedia Comput. Commun. Appl."
+    },
+    {
+      "issue": "1",
+      "key": "e_1_3_2_42_2",
+      "first-page": "6",
+      "article-title": "Towards accurate oriented object detection in aerial images with adaptive multi-level feature fusion",
+      "volume": "19",
+      "author": "Zhen Peining",
+      "year": "2023",
+      "unstructured": "Peining Zhen, Shuqi Wang, Suming Zhang, Xiaotao Yan, Wei Wang, Zhigang Ji, and Hai-Bao Chen. 2023. Towards accurate oriented object detection in aerial images with adaptive multi-level feature fusion. ACM Trans. Multimedia Comput. Commun. Appl. 19, 1, Article 6 (Jan. 2023), 22 pages.",
+      "journal-title": "ACM Trans. Multimedia Comput. Commun. Appl."
+    },
+    {
+      "key": "e_1_3_2_43_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "207",
+      "DOI": "10.1109/WACV48630.2021.00025",
+      "volume-title": "2021 IEEE Winter Conference on Applications of Computer Vision (WACV)",
+      "author": "Shermeyer Jacob",
+      "year": "2021",
+      "unstructured": "Jacob Shermeyer, Thomas Hossler, Adam Van Etten, Daniel Hogan, Ryan Lewis, and Daeil Kim. 2021. RarePlanes: Synthetic data takes flight. In 2021 IEEE Winter Conference on Applications of Computer Vision (WACV). 207–217. DOI:10.1109/WACV48630.2021.00025"
+    },
+    {
+      "key": "e_1_3_2_44_2",
+      "first-page": "10103",
+      "volume-title": "2019 IEEE International Geoscience and Remote Sensing Symposium (IGARSS 2019)",
+      "author": "Girard Nicolas",
+      "year": "2019",
+      "unstructured": "Nicolas Girard, Guillaume Charpiat, and Yuliya Tarabalka. 2019. Noisy supervision for correcting misaligned cadaster maps without perfect ground truth data. In 2019 IEEE International Geoscience and Remote Sensing Symposium (IGARSS 2019). 10103–10106."
+    },
+    {
+      "key": "e_1_3_2_45_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "4340",
+      "DOI": "10.1109/CVPR.2016.470",
+      "volume-title": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Gaidon Adrien",
+      "year": "2016",
+      "unstructured": "Adrien Gaidon, Qiao Wang, Yohann Cabon, and Eleonora Vig. 2016. VirtualWorlds as proxy for multi-object tracking analysis. In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 4340–4349. DOI:10.1109/CVPR.2016.470"
+    },
+    {
+      "key": "e_1_3_2_46_2",
+      "first-page": "3581",
+      "volume-title": "2019 IEEE International Conference on Image Processing (ICIP)",
+      "author": "Lee Kyu-Yul",
+      "year": "2019",
+      "unstructured": "Kyu-Yul Lee and Jae-Young Sim. 2019. Cloud removal of satellite images using convolutional neural network with reliable cloudy image synthesis model. In 2019 IEEE International Conference on Image Processing (ICIP). 3581–3585. DOI:10.1109/ICIP.2019.8803666"
+    },
+    {
+      "issue": "9",
+      "key": "e_1_3_2_47_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "961",
+      "DOI": "10.1007/s11263-018-1070-x",
+      "article-title": "Augmented reality meets computer vision: Efficient data generation for urban driving scenes",
+      "volume": "126",
+      "author": "Alhaija Hassan Abu",
+      "year": "2018",
+      "unstructured": "Hassan Abu Alhaija, Siva Karthik Mustikovela, Lars Mescheder, Andreas Geiger, and Carsten Rother. 2018. Augmented reality meets computer vision: Efficient data generation for urban driving scenes. International Journal of Computer Vision 126, 9 (Sep 2018), 961–972.",
+      "journal-title": "International Journal of Computer Vision"
+    },
+    {
+      "key": "e_1_3_2_48_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "460",
+      "DOI": "10.1109/3DV.2016.56",
+      "volume-title": "2016 Fourth International Conference on 3D Vision (3DV)",
+      "author": "Richardson Elad",
+      "year": "2016",
+      "unstructured": "Elad Richardson, Matan Sela, and Ron Kimmel. 2016. 3D face reconstruction by learning from synthetic data. In 2016 Fourth International Conference on 3D Vision (3DV). 460–469."
+    },
+    {
+      "key": "e_1_3_2_49_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "4569",
+      "DOI": "10.1109/ICCV.2019.00467",
+      "volume-title": "2019 IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "author": "Shaham Tamar Rott",
+      "year": "2019",
+      "unstructured": "Tamar Rott Shaham, Tali Dekel, and Tomer Michaeli. 2019. SinGAN: Learning a generative model from a single natural image. In 2019 IEEE/CVF International Conference on Computer Vision (ICCV). 4569–4579. DOI:10.1109/ICCV.2019.00467"
+    },
+    {
+      "key": "e_1_3_2_50_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "746",
+      "DOI": "10.1109/ICRA.2017.7989092",
+      "volume-title": "2017 IEEE International Conference on Robotics and Automation (ICRA)",
+      "author": "Johnson-Roberson Matthew",
+      "year": "2017",
+      "unstructured": "Matthew Johnson-Roberson, Charles Barto, Rounak Mehta, Sharath Nittur Sridhar, Karl Rosaen, and Ram Vasudevan. 2017. Driving in the matrix: Can virtual worlds replace human-generated annotations for real world tasks?. In 2017 IEEE International Conference on Robotics and Automation (ICRA). IEEE Press, 746–753."
+    },
+    {
+      "key": "e_1_3_2_51_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "4040",
+      "DOI": "10.1109/CVPR.2016.438",
+      "volume-title": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Mayer Nikolaus",
+      "year": "2016",
+      "unstructured": "Nikolaus Mayer, Eddy Ilg, Philip Häusser, Philipp Fischer, Daniel Cremers, Alexey Dosovitskiy, and Thomas Brox. 2016. A large dataset to train convolutional networks for disparity, optical flow, and scene flow estimation. In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 4040–4048. DOI:10.1109/CVPR.2016.438"
+    },
+    {
+      "key": "e_1_3_2_52_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "2232",
+      "DOI": "10.1109/ICCV.2017.243",
+      "volume-title": "2017 IEEE International Conference on Computer Vision (ICCV)",
+      "author": "Richter Stephan R.",
+      "year": "2017",
+      "unstructured": "Stephan R. Richter, Zeeshan Hayder, and Vladlen Koltun. 2017. Playing for benchmarks. In 2017 IEEE International Conference on Computer Vision (ICCV). 2232–2241. DOI:10.1109/ICCV.2017.243"
+    },
+    {
+      "key": "e_1_3_2_53_2",
+      "volume-title": "Proceedings of the British Machine Vision Conference (BMVC)",
+      "author": "Shafaei James Little Alireza",
+      "year": "2016",
+      "unstructured": "James Little Alireza Shafaei and Mark Schmidt. 2016. Play and learn: Using video games to train computer vision models. In Proceedings of the British Machine Vision Conference (BMVC), Edwin R. Hancock Richard C. Wilson and William A. P. Smith (Eds.). BMVA Press, Article 26, 13 pages."
+    },
+    {
+      "issue": "9",
+      "key": "e_1_3_2_54_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "902",
+      "DOI": "10.1007/s11263-018-1073-7",
+      "article-title": "Sim4CV: A photo-realistic simulator for computer vision applications",
+      "volume": "126",
+      "author": "Müller Matthias",
+      "year": "2018",
+      "unstructured": "Matthias Müller, Vincent Casser, Jean Lahoud, Neil Smith, and Bernard Ghanem. 2018. Sim4CV: A photo-realistic simulator for computer vision applications. International Journal of Computer Vision 126, 9 (2018), 902–919.",
+      "journal-title": "International Journal of Computer Vision"
+    },
+    {
+      "key": "e_1_3_2_55_2",
+      "first-page": "3234",
+      "volume-title": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Ros German",
+      "year": "2016",
+      "unstructured": "German Ros, Laura Sellart, Joanna Materzynska, David Vazquez, and Antonio M. Lopez. 2016. The SYNTHIA dataset: A large collection of synthetic images for semantic segmentation of urban scenes. In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 3234–3243. DOI:10.1109/CVPR.2016.352"
+    },
+    {
+      "key": "e_1_3_2_56_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "190",
+      "DOI": "10.1109/CVPR.2017.28",
+      "volume-title": "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Song Shuran",
+      "year": "2017",
+      "unstructured": "Shuran Song, Fisher Yu, Andy Zeng, Angel X. Chang, Manolis Savva, and Thomas Funkhouser. 2017. Semantic scene completion from a single depth image. In 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 190–198. DOI:10.1109/CVPR.2017.28"
+    },
+    {
+      "issue": "4",
+      "key": "e_1_3_2_57_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "797",
+      "DOI": "10.1109/TPAMI.2013.163",
+      "article-title": "Virtual and real world adaptation for pedestrian detection",
+      "volume": "36",
+      "author": "Vázquez David",
+      "year": "2014",
+      "unstructured": "David Vázquez, Antonio M. López, Javier Marín, Daniel Ponsa, and David Gerónimo. 2014. Virtual and real world adaptation for pedestrian detection. IEEE Transactions on Pattern Analysis and Machine Intelligence 36, 4 (2014), 797–809.",
+      "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+    },
+    {
+      "key": "e_1_3_2_58_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "1082",
+      "DOI": "10.1109/CVPRW.2018.00143",
+      "volume-title": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+      "author": "Tremblay Jonathan",
+      "year": "2018",
+      "unstructured": "Jonathan Tremblay, Aayush Prakash, David Acuna, Mark Brophy, Varun Jampani, Cem Anil, Thang To, Eric Cameracci, Shaad Boochoon, and Stan Birchfield. 2018. Training deep networks with synthetic data: Bridging the reality gap by domain randomization. In 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW). 1082–10828. DOI:10.1109/CVPRW.2018.00143"
+    },
+    {
+      "issue": "07",
+      "key": "e_1_3_2_59_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "13001",
+      "DOI": "10.1609/aaai.v34i07.7000",
+      "article-title": "Random erasing data augmentation",
+      "volume": "34",
+      "author": "Zhong Zhun",
+      "year": "2020",
+      "unstructured": "Zhun Zhong, Liang Zheng, Guoliang Kang, Shaozi Li, and Yi Yang. 2020. Random erasing data augmentation. In AAAI Conference on Artificial Intelligence 34, 07 (Apr. 2020), 13001–13008.",
+      "journal-title": "AAAI Conference on Artificial Intelligence"
+    },
+    {
+      "key": "e_1_3_2_60_2",
+      "article-title": "Data augmentation by pairing samples for images classification",
+      "volume": "1801",
+      "author": "Inoue Hiroshi",
+      "year": "2018",
+      "unstructured": "Hiroshi Inoue. 2018. Data augmentation by pairing samples for images classification. CoRR abs/1801.02929 (2018). arXiv:1801.02929 http://arxiv.org/abs/1801.02929",
+      "journal-title": "CoRR"
+    },
+    {
+      "issue": "2",
+      "key": "e_1_3_2_61_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "275",
+      "DOI": "10.3390/rs12020275",
+      "article-title": "Do game data generalize well for remote sensing image segmentation?",
+      "volume": "12",
+      "author": "Zou Zhengxia",
+      "year": "2020",
+      "unstructured": "Zhengxia Zou, Tianyang Shi, Wenyuan Li, Zhou Zhang, and Zhenwei Shi. 2020. Do game data generalize well for remote sensing image segmentation? Remote Sensing 12, 2 (2020), 275.",
+      "journal-title": "Remote Sensing"
+    },
+    {
+      "key": "e_1_3_2_62_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "110684",
+      "DOI": "10.1016/j.scienta.2021.110684",
+      "article-title": "Fruit quality and defect image classification with conditional GAN data augmentation",
+      "volume": "293",
+      "author": "Bird Jordan J.",
+      "year": "2022",
+      "unstructured": "Jordan J. Bird, Chloe M. Barnes, Luis J. Manso, Anikó Ekárt, and Diego R. Faria. 2022. Fruit quality and defect image classification with conditional GAN data augmentation. Scientia Horticulturae 293 (2022), 110684.",
+      "journal-title": "Scientia Horticulturae"
+    },
+    {
+      "key": "e_1_3_2_63_2",
+      "first-page": "2242",
+      "volume-title": "2017 IEEE International Conference on Computer Vision (ICCV)",
+      "author": "Zhu Jun-Yan",
+      "year": "2017",
+      "unstructured": "Jun-Yan Zhu, Taesung Park, Phillip Isola, and Alexei A. Efros. 2017. Unpaired image-to-image translation using cycle-consistent adversarial networks. In 2017 IEEE International Conference on Computer Vision (ICCV). 2242–2251. DOI:10.1109/ICCV.2017.244"
+    },
+    {
+      "issue": "9",
+      "key": "e_1_3_2_64_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "1432",
+      "DOI": "10.3390/rs12091432",
+      "article-title": "Small-object detection in remote sensing images with end-to-end edge-enhanced GAN and object detector network",
+      "volume": "12",
+      "author": "Rabbi Jakaria",
+      "year": "2020",
+      "unstructured": "Jakaria Rabbi, Nilanjan Ray, Matthias Schubert, Subir Chowdhury, and Dennis Chao. 2020. Small-object detection in remote sensing images with end-to-end edge-enhanced GAN and object detector network. Remote Sensing 12, 9 (2020), 1432.",
+      "journal-title": "Remote Sensing"
+    },
+    {
+      "key": "e_1_3_2_65_2",
+      "first-page": "214",
+      "volume-title": "34th International Conference on Machine Learning (Proceedings of Machine Learning Research)",
+      "volume": "70",
+      "author": "Arjovsky Martin",
+      "year": "2017",
+      "unstructured": "Martin Arjovsky, Soumith Chintala, and Léon Bottou. 2017. Wasserstein generative adversarial networks. In 34th International Conference on Machine Learning (Proceedings of Machine Learning Research), Doina Precup and Yee Whye Teh (Eds.), Vol. 70. PMLR, 214–223."
+    },
+    {
+      "key": "e_1_3_2_66_2",
+      "volume-title": "Advances in Neural Information Processing Systems",
+      "author": "Gulrajani Ishaan",
+      "year": "2017",
+      "unstructured": "Ishaan Gulrajani, Faruk Ahmed, Martin Arjovsky, Vincent Dumoulin, and Aaron C. Courville. 2017. Improved training of wasserstein GANs. In Advances in Neural Information Processing Systems, I. Guyon, U. Von Luxburg, S. Bengio, H. Wallach, R. Fergus, S. Vishwanathan, and R. Garnett (Eds.), Vol. 30. Curran Associates, Inc."
+    },
+    {
+      "key": "e_1_3_2_67_2",
+      "first-page": "7354",
+      "volume-title": "Proceedings of the 36th International Conference on Machine Learning (Proceedings of Machine Learning Research)",
+      "volume": "97",
+      "author": "Zhang Han",
+      "year": "2019",
+      "unstructured": "Han Zhang, Ian Goodfellow, Dimitris Metaxas, and Augustus Odena. 2019. Self-attention generative adversarial networks. In Proceedings of the 36th International Conference on Machine Learning (Proceedings of Machine Learning Research), Kamalika Chaudhuri and Ruslan Salakhutdinov (Eds.), Vol. 97. PMLR, 7354–7363."
+    },
+    {
+      "key": "e_1_3_2_68_2",
+      "volume-title": "International Conference on Learning Representations",
+      "author": "Karras Tero",
+      "year": "2018",
+      "unstructured": "Tero Karras, Timo Aila, Samuli Laine, and Jaakko Lehtinen. 2018. Progressive growing of GANs for improved quality, stability, and variation. In International Conference on Learning Representations. OpenReview.net."
+    },
+    {
+      "key": "e_1_3_2_69_2",
+      "article-title": "Conditional generative adversarial nets",
+      "volume": "1411",
+      "author": "Mirza Mehdi",
+      "year": "2014",
+      "unstructured": "Mehdi Mirza and Simon Osindero. 2014. Conditional generative adversarial nets. CoRR abs/1411.1784 (2014). arXiv:1411.1784 http://arxiv.org/abs/1411.1784",
+      "journal-title": "CoRR"
+    },
+    {
+      "issue": "4",
+      "key": "e_1_3_2_70_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "600",
+      "DOI": "10.1109/TIP.2003.819861",
+      "article-title": "Image quality assessment: From error visibility to structural similarity",
+      "volume": "13",
+      "author": "Wang Zhou",
+      "year": "2004",
+      "unstructured": "Zhou Wang, A. C. Bovik, H. R. Sheikh, and E. P. Simoncelli. 2004. Image quality assessment: From error visibility to structural similarity. IEEE Transactions on Image Processing 13, 4 (2004), 600–612.",
+      "journal-title": "IEEE Transactions on Image Processing"
+    },
+    {
+      "key": "e_1_3_2_71_2",
+      "first-page": "1398–1402 Vol.2",
+      "volume-title": "37th Asilomar Conference on Signals, Systems & Computers, 2003",
+      "volume": "2",
+      "author": "Wang Zhou",
+      "year": "2003",
+      "unstructured": "Zhou Wang, Eero P. Simoncelli, and Alan C. Bovik. 2003. Multiscale structural similarity for image quality assessment. In 37th Asilomar Conference on Signals, Systems & Computers, 2003, Vol. 2. 1398–1402 Vol.2."
+    },
+    {
+      "issue": "25",
+      "key": "e_1_3_2_72_2",
+      "first-page": "723",
+      "article-title": "A kernel two-sample test",
+      "volume": "13",
+      "author": "Gretton Arthur",
+      "year": "2012",
+      "unstructured": "Arthur Gretton, Karsten M. Borgwardt, Malte J. Rasch, Bernhard Schölkopf, and Alexander Smola. 2012. A kernel two-sample test. Journal of Machine Learning Research 13, 25 (2012), 723–773.",
+      "journal-title": "Journal of Machine Learning Research"
+    },
+    {
+      "key": "e_1_3_2_73_2",
+      "first-page": "2234",
+      "volume-title": "30th International Conference on Neural Information Processing Systems (NIPS’16)",
+      "author": "Salimans Tim",
+      "year": "2016",
+      "unstructured": "Tim Salimans, Ian Goodfellow, Wojciech Zaremba, Vicki Cheung, Alec Radford, and Xi Chen. 2016. Improved techniques for training GANs. In 30th International Conference on Neural Information Processing Systems (NIPS’16). Curran Associates Inc., Red Hook, NY, 2234–2242."
+    },
+    {
+      "key": "e_1_3_2_74_2",
+      "volume-title": "Advances in Neural Information Processing Systems",
+      "author": "Heusel Martin",
+      "year": "2017",
+      "unstructured": "Martin Heusel, Hubert Ramsauer, Thomas Unterthiner, Bernhard Nessler, and Sepp Hochreiter. 2017. GANs trained by a two time-scale update rule converge to a local Nash equilibrium. In Advances in Neural Information Processing Systems, I. Guyon, U. Von Luxburg, S. Bengio, H. Wallach, R. Fergus, S. Vishwanathan, and R. Garnett (Eds.), Vol. 30. Curran Associates, Inc."
+    },
+    {
+      "key": "e_1_3_2_75_2",
+      "volume-title": "International Conference on Learning Representations",
+      "author": "Bińkowski Mikołaj",
+      "year": "2018",
+      "unstructured": "Mikołaj Bińkowski, Dougal J. Sutherland, Michael Arbel, and Arthur Gretton. 2018. Demystifying MMD GANs. In International Conference on Learning Representations. https://openreview.net/forum?id=r1lUOzWCW"
+    },
+    {
+      "key": "e_1_3_2_76_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "586",
+      "DOI": "10.1109/CVPR.2018.00068",
+      "volume-title": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Zhang Richard",
+      "year": "2018",
+      "unstructured": "Richard Zhang, Phillip Isola, Alexei A. Efros, Eli Shechtman, and Oliver Wang. 2018. The unreasonable effectiveness of deep features as a perceptual metric. In 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition. 586–595. DOI:10.1109/CVPR.2018.00068"
+    },
+    {
+      "key": "e_1_3_2_77_2",
+      "article-title": "An empirical study on evaluation metrics of generative adversarial networks",
+      "volume": "1806",
+      "author": "Xu Qiantong",
+      "year": "2018",
+      "unstructured": "Qiantong Xu, Gao Huang, Yang Yuan, Chuan Guo, Yu Sun, Felix Wu, and Kilian Q. Weinberger. 2018. An empirical study on evaluation metrics of generative adversarial networks. CoRR abs/1806.07755 (2018). arXiv:1806.07755 http://arxiv.org/abs/1806.07755",
+      "journal-title": "CoRR"
+    },
+    {
+      "key": "e_1_3_2_78_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "41",
+      "DOI": "10.1016/j.cviu.2018.10.009",
+      "article-title": "Pros and cons of GAN evaluation measures",
+      "volume": "179",
+      "author": "Borji Ali",
+      "year": "2019",
+      "unstructured": "Ali Borji. 2019. Pros and cons of GAN evaluation measures. Computer Vision and Image Understanding 179 (2019), 41–65.",
+      "journal-title": "Computer Vision and Image Understanding"
+    },
+    {
+      "key": "e_1_3_2_79_2",
+      "article-title": "GeoGAN: A conditional GAN with reconstruction and style loss to generate standard layer of maps from satellite images",
+      "volume": "1902",
+      "author": "Ganguli Swetava",
+      "year": "2019",
+      "unstructured": "Swetava Ganguli, Pedro Garzon, and Noa Glaser. 2019. GeoGAN: A conditional GAN with reconstruction and style loss to generate standard layer of maps from satellite images. CoRR abs/1902.05611 (2019). arXiv:1902.05611 http://arxiv.org/abs/1902.05611",
+      "journal-title": "CoRR"
+    },
+    {
+      "key": "e_1_3_2_80_2",
+      "first-page": "67:1–67:6",
+      "volume-title": "10th International Conference on Geographic Information Science (GIScience 2018) (Leibniz International Proceedings in Informatics (LIPIcs))",
+      "volume": "114",
+      "author": "Xu Chunxue",
+      "year": "2018",
+      "unstructured": "Chunxue Xu and Bo Zhao. 2018. Satellite image spoofing: Creating remote sensing dataset with generative adversarial networks. In 10th International Conference on Geographic Information Science (GIScience 2018) (Leibniz International Proceedings in Informatics (LIPIcs)), Stephan Winter, Amy Griffin, and Monika Sester (Eds.), Vol. 114. Schloss Dagstuhl – Leibniz-Zentrum für Informatik, Dagstuhl, Germany, 67:1–67:6."
+    },
+    {
+      "key": "e_1_3_2_81_2",
+      "first-page": "1",
+      "volume-title": "2023 17th International Conference on Ubiquitous Information Management and Communication (IMCOM)",
+      "author": "Liao Wen-Hung",
+      "year": "2023",
+      "unstructured": "Wen-Hung Liao, Yi-Shan Chang, and Yi-Chieh Wu. 2023. Detection of synthesized satellite images using deep neural networks. In 2023 17th International Conference on Ubiquitous Information Management and Communication (IMCOM). 1–5."
+    },
+    {
+      "issue": "8",
+      "key": "e_1_3_2_82_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "930",
+      "DOI": "10.3390/rs11080930",
+      "article-title": "Aerial image road extraction based on an improved generative adversarial network",
+      "volume": "11",
+      "author": "Zhang Xiangrong",
+      "year": "2019",
+      "unstructured": "Xiangrong Zhang, Xiao Han, Chen Li, Xu Tang, Huiyu Zhou, and Licheng Jiao. 2019. Aerial image road extraction based on an improved generative adversarial network. Remote Sensing 11, 8 (2019), 930.",
+      "journal-title": "Remote Sensing"
+    },
+    {
+      "key": "e_1_3_2_83_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "2100",
+      "DOI": "10.1109/ICCVW.2017.246",
+      "volume-title": "2017 IEEE International Conference on Computer Vision Workshops (ICCVW)",
+      "author": "Costea Dragos",
+      "year": "2017",
+      "unstructured": "Dragos Costea, Alina Marcu, Marius Leordeanu, and Emil Slusanschi. 2017. Creating roadmaps in aerial images with generative adversarial networks and smoothing-based optimization. In 2017 IEEE International Conference on Computer Vision Workshops (ICCVW). 2100–2109. DOI:10.1109/ICCVW.2017.246"
+    },
+    {
+      "key": "e_1_3_2_84_2",
+      "unstructured": "Esri. CityEngine. https://www.esri.com/en-us/arcgis/products/arcgis-cityengine/overview. ([n. d.])."
+    },
+    {
+      "key": "e_1_3_2_85_2",
+      "unstructured": "Unreal Engine. Unreal Engine. https://www.unrealengine.com/en-US. ([n. d.])."
+    },
+    {
+      "key": "e_1_3_2_86_2",
+      "unstructured": "SideFX. Houdini. https://www.sidefx.com. ([n. d.])."
+    },
+    {
+      "key": "e_1_3_2_87_2",
+      "volume-title": "International Conference on Learning Representations",
+      "author": "Yang Dingdong",
+      "year": "2019",
+      "unstructured": "Dingdong Yang, Seunghoon Hong, Yunseok Jang, Tiangchen Zhao, and Honglak Lee. 2019. Diversity-sensitive conditional generative adversarial networks. In International Conference on Learning Representations."
+    },
+    {
+      "key": "e_1_3_2_88_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "10377",
+      "DOI": "10.1109/CVPR.2019.01063",
+      "volume-title": "2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Batra Anil",
+      "year": "2019",
+      "unstructured": "Anil Batra, Suriya Singh, Guan Pang, Saikat Basu, C.V. Jawahar, and Manohar Paluri. 2019. Improved road connectivity by joint learning of orientation and segmentation. In 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 10377–10385. DOI:10.1109/CVPR.2019.01063"
+    },
+    {
+      "key": "e_1_3_2_89_2",
+      "first-page": "102",
+      "volume-title": "British Machine Vision Conference 2018 (BMVC 2018), Newcastle, UK, September 3–6, 2018",
+      "author": "Singh Suriya",
+      "year": "2018",
+      "unstructured": "Suriya Singh, Anil Batra, Guan Pang, Lorenzo Torresani, Saikat Basu, Manohar Paluri, and C. V. Jawahar. 2018. Self-supervised feature learning for semantic segmentation of overhead imagery. In British Machine Vision Conference 2018 (BMVC 2018), Newcastle, UK, September 3–6, 2018. BMVA Press, 102."
+    }
+  ],
+  "container-title": [
+    "ACM Transactions on Multimedia Computing, Communications, and Applications"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://dl.acm.org/doi/10.1145/3635153",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://dl.acm.org/doi/pdf/10.1145/3635153",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2025-06-18T22:49:06Z",
+    "timestamp": 1750286946000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://dl.acm.org/doi/10.1145/3635153"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2024,
+        12,
+        14
+      ]
+    ]
+  },
+  "references-count": 88,
+  "journal-issue": {
+    "issue": "1",
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          31
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1145/3635153"
+  ],
+  "URL": "https://doi.org/10.1145/3635153",
+  "relation": {},
+  "ISSN": [
+    "1551-6857",
+    "1551-6865"
+  ],
+  "issn-type": [
+    {
+      "value": "1551-6857",
+      "type": "print"
+    },
+    {
+      "value": "1551-6865",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2024,
+        12,
+        14
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2023-03-29",
+      "order": 0,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2023-11-14",
+      "order": 2,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2024-12-14",
+      "order": 3,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ]
+}

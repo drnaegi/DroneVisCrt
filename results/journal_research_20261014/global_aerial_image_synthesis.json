@@ -1,0 +1,3063 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1954407,
+    "items": [
+      {
+        "DOI": "10.1016/j.cviu.2025.104561",
+        "title": [
+          "STARS: Semantics-Aware Text-guided Aerial Image Refinement and Synthesis"
+        ],
+        "container-title": [
+          "Computer Vision and Image Understanding"
+        ],
+        "ISSN": [
+          "1077-3142"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Douglas",
+            "family": "Townsell",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1550-6170",
+            "authenticated-orcid": false,
+            "given": "Lingwei",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1973-2909",
+            "authenticated-orcid": false,
+            "given": "Mimi",
+            "family": "Xie",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Chen",
+            "family": "Pan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6087-5202",
+            "authenticated-orcid": false,
+            "given": "Wen",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.36463/idw.2024.0841",
+        "title": [
+          "Comparison of Pseudo-3D Perception Between Aerial Image and Non-Aerial Image"
+        ],
+        "container-title": [
+          "Proceedings of the International Display Workshops"
+        ],
+        "ISSN": [
+          "1883-2490"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              4
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              4
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Kenta",
+            "family": "Saito",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Haruki",
+            "family": "Mizushina",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Munekazu",
+            "family": "Date",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Kenji",
+            "family": "Yamamoto",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1016/0003-6870(74)90148-3",
+        "title": [
+          "‘Dynascope’ aerial image projection system"
+        ],
+        "container-title": [
+          "Applied Ergonomics"
+        ],
+        "ISSN": [
+          "0003-6870"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1974,
+              6
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1974,
+              6
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1109/tgrs.2014.2356177",
+        "title": [
+          "Aerial Image Registration for Tracking"
+        ],
+        "container-title": [
+          "IEEE Transactions on Geoscience and Remote Sensing"
+        ],
+        "ISSN": [
+          "0196-2892",
+          "1558-0644"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              4
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2015,
+              4
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Michael E.",
+            "family": "Linger",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "A. Ardeshir",
+            "family": "Goshtasby",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.22214/ijraset.2024.60424",
+        "title": [
+          "Study of Aerial Image Classification"
+        ],
+        "container-title": [
+          "International Journal for Research in Applied Science and Engineering Technology"
+        ],
+        "ISSN": [
+          "2321-9653"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              30
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              30
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Vaishnavi",
+            "family": "Deulkar",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Shashwat",
+            "family": "Kale",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yashsingh",
+            "family": "Thakur",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Prof. Anirudh",
+            "family": "Bhagwat",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>Abstract: Classifying images captured through remote sensing is necessary for various reasons, including monitoring the environment and assessing agriculture. The progress in thisfield has been greatly enhanced by the integration of advancements in machine learning, especially deep learning, and also accessibility of high-definition images obtained through remote sensing. CNNs are now necessary instruments for precise recognition and classificationof objects in aerial imaging. These models use convolution and pooling operations to capture local patterns and relationships, enhancing image classification accuracy. This review paper presents a comprehensive look at the most recent techniques for categorising remote sensing images. It emphasises the significance of accurate classification in the constantly evolving contemporary society and investigates new progress made possible by deep learning methods.The article explores problems in pinpointing unique and important areas in remote sensing images and illustrates how deep learning models tackle these problems through comprehendingrelationships among objects and other elements in the scene. The article assesses the advantagesand disadvantages of various techniques in relation to accuracy, computational efficiency, andscalability through a comparison between traditional methods and deep learning-based methods.</jats:p>"
+      },
+      {
+        "DOI": "10.5120/ijais2017451702",
+        "title": [
+          "Aerial Image Segmentation: A Survey"
+        ],
+        "container-title": [
+          "International Journal of Applied Information Systems"
+        ],
+        "ISSN": [
+          "2249-0868"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              8,
+              8
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2017,
+              8,
+              8
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Gargi",
+            "family": "Bhattacharjee",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Saswat",
+            "family": "K. Pujari",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1088/1755-1315/17/1/012183",
+        "title": [
+          "Aerial Image Series Quality Assessment"
+        ],
+        "container-title": [
+          "IOP Conference Series: Earth and Environmental Science"
+        ],
+        "ISSN": [
+          "1755-1315"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              3,
+              18
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2014,
+              3,
+              18
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2014,
+              3,
+              18
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Hui",
+            "family": "Zhang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Bangyu",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Jinfang",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Fanjiang",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.61653/joast.v57i1.2005.713",
+        "title": [
+          "Advances in Aerial Image Exploitation"
+        ],
+        "container-title": [
+          "Journal of Aerospace Sciences and Technologies"
+        ],
+        "ISSN": [
+          "0972-950X"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              10
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              10
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Jharna",
+            "family": "Majumdar",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>The availability of low cost sensors, high bandwidth communication links and the growing popularity of Unmanned Aerial Reconnaissance Platforms like UAVs have resulted in dramatic new opportunities to conduct remote battlefield surveillance and reconnaissance missions from relatively safe Ground Control Stations. The sensors used in UAV explore the visible, infrared and microwave regions of the spectrum and the images are produced optically, electronically or by film. Aerial Image Exploitation is an innovative image utilization program that uses multi sensor, multi resolution and multi spectral imagery obtained from Aerial Reconnaissance Platform for the purpose of Extraction, Exploitation, Dissemination and Interpretation of Imagery Intelligence. Research in aerial image exploitation is focused to provide a total solution of the problem by combining both hardware and software at the system and subsystem level. Major operational goal of image exploitation technology is to extract the vital intelligence from a large storehouse of available imagery by filtering those which are most likely to produce valuable findings, to combine classical image/signal processing techniques with technologies available in other fields and to use specialized hardware wherever required. The first part of the paper describes the Ground Image Exploitation System and Imagery Intelligence Exploitation System being developed in ADE. The second part of the paper describes some of the basic and advanced research work being carried out in ADE, which is the backbone that lead to the development of these systems. Some of the areas discussed in this paper are adaptive preprocessing of imagery, image mosaicing, terrain classification and high-resolution reconstruction of target region.</jats:p>"
+      },
+      {
+        "DOI": "10.1116/1.586644",
+        "title": [
+          "Optimization of aerial image quality"
+        ],
+        "container-title": [
+          "Journal of Vacuum Science &amp; Technology B: Microelectronics and Nanometer Structures Processing, Measurement, and Phenomena"
+        ],
+        "ISSN": [
+          "1071-1023",
+          "1520-8567"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1993,
+              11,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1993,
+              11,
+              1
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "S.",
+            "family": "Turner",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Center for X-ray Lithography and Department of Electrical and Computer Engineering, University of Wisconsin, Madison, Wisconsin 53706"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "F.",
+            "family": "Cerrina",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Center for X-ray Lithography and Department of Electrical and Computer Engineering, University of Wisconsin, Madison, Wisconsin 53706"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>In this study, a metric of aerial image quality for two dimensional images is presented. Modeling is used to predict feature shape. The metric then imposes ‘bounds of acceptable deviation’ on the feature perimeter, and measures the exposure latitude which these bounds allow. The figure of merit is applied to the optimization of mask parameters for x-ray lithography of a 0.25 μm contact hole. The findings of this trial are presented.</jats:p>"
+      },
+      {
+        "DOI": "10.1162/grey_a_00318",
+        "title": [
+          "Editors' Introduction: The Aerial Image"
+        ],
+        "container-title": [
+          "Grey Room"
+        ],
+        "ISSN": [
+          "1526-3819",
+          "1536-0105"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              10
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              10
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Emily",
+            "family": "Doucet",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Emily Doucet received her Ph.D. in Art History from the University of Toronto in 2020. In 2021 she will be an International Fellow with the Institute of Advanced Study in the Humanities in Essen, Germany, and a Singer Family Fellow at the Ryerson Image Centre in Toronto. In 2022–2023 she will be a Social Sciences and Humanities Research Council of Canada Postdoctoral Fellow in the Department of A"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Matthew C.",
+            "family": "Hunter",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Matthew C. Hunter teaches at McGill University. His publications include Painting with Fire: Sir Joshua Reynolds, Photography, and the Temporally Evolving Chemical Object (University of Chicago Press, 2019) and Wicked Intelligence: Visual Art and the Science of Experiment in Restoration London (University of Chicago Press, 2013). He is an editor of Grey Room."
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Nicholas",
+            "family": "Robbins",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nicholas Robbins is Lecturer in the History of Art at University College London. He is currently working on a book that examines the emergence of climate as a central object of scientific observation and artistic experiment in the nineteenth-century Atlantic world."
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.17577/ijertv5is080434",
+        "title": [
+          "Vehicle Detection on Aerial Image"
+        ],
+        "container-title": [
+          "International Journal of Engineering Research and"
+        ],
+        "ISSN": [
+          "2278-0181"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              8,
+              30
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2016,
+              8,
+              30
+            ]
+          ]
+        },
+        "author": [
+          {
+            "family": "Vanniphogalu Shruti Parasayya",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "name": "SAKEC",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1111/j.0031-868x.2004.295_6.x",
+        "title": [
+          "Aerial photography and image interpretation"
+        ],
+        "container-title": [
+          "The Photogrammetric Record"
+        ],
+        "ISSN": [
+          "0031-868X",
+          "1477-9730"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2004,
+              12
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2004,
+              12,
+              6
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2004,
+              12
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "E. D.",
+            "family": "Wallington",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.56975/ijedr.v13i4.302053",
+        "title": [
+          "AERIAL INTELLIGENCE USING IMAGE PROCESSING"
+        ],
+        "container-title": [
+          "INTERNATIONAL JOURNAL OF ENGINEERING DEVELOPMENT AND RESEARCH"
+        ],
+        "ISSN": [
+          "2321-9939"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              10
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              10
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Mr.Shivaraj",
+            "family": "Jangamashetti",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Dr.Raju",
+            "family": "Hiremath",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1117/1.oe.55.12.123111",
+        "title": [
+          "Algorithm for unmanned aerial vehicle aerial different-source image matching"
+        ],
+        "container-title": [
+          "Optical Engineering"
+        ],
+        "ISSN": [
+          "0091-3286",
+          "1560-2303"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              12,
+              22
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              12,
+              22
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Yujia",
+            "family": "Zuo",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Changchun Institute of Optics, Fine Mechanics and Physics"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jinghong",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Changchun Institute of Optics, Fine Mechanics and Physics"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mingyu",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Changchun Institute of Optics, Fine Mechanics and Physics"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xuan",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Changchun Institute of Optics, Fine Mechanics and Physics"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mingchao",
+            "family": "Sun",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Changchun Institute of Optics, Fine Mechanics and Physics"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>The fusion between visible and infrared images captured by unmanned aerial vehicles (UAVs), both complementary to each other, can improve the reliability of target detection and recognition and other tasks. The images captured by UAV are featured by high dynamics and complex air-ground target background. Pixel-level matching should be conducted for the two different-source images, prior to their fusion. Therefore, an improved matching algorithm has been proposed that combines the improved Shi–Tomasi algorithm with the shape context (SC)-based algorithm. First, the Shi–Tomasi algorithm is employed to conduct feature-point detection in the scale space. The tangential direction of the edge contour where the feature-point lies is taken as its main direction, so as to guarantee the algorithm’s rotational invariance. Then, this paper conducts the block description for the extracted feature-point within the n×n neighborhood of its edge contour to obtain its descriptors. Finally, a fast library for approximate nearest neighbors matching algorithm is adopted to match all the feature-points. And the experimental results show that, in the scene where the shape of the main target is clear, the algorithm can achieve better matching and registration results for infrared and visible images that have been transformed through rotation, translation, or zooming.</jats:p>"
+      },
+      {
+        "DOI": "10.3724/sp.j.1249.2018.05487",
+        "title": [
+          "Optimization algorithm of aerial image dehazing"
+        ],
+        "container-title": [
+          "Journal of Shenzhen University Science and Engineering"
+        ],
+        "ISSN": [
+          "1000-2618"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Cuixiang",
+            "family": "LIU",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Sha",
+            "family": "ZHANG",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Baozhu",
+            "family": "WANG",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Xiangwei",
+            "family": "YUAN",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.2352/ei.2022.34.14.coimg-185",
+        "title": [
+          "Improvement of aerial image by simulations"
+        ],
+        "container-title": [
+          "Electronic Imaging"
+        ],
+        "ISSN": [
+          "2470-1173"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              16
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              16
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Katsunari",
+            "family": "Ashimine",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Munemitsu",
+            "family": "Abe",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Kazuhiro",
+            "family": "Wako",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              1975,
+              4
+            ]
+          ]
+        },
+        "abstract": "<jats:sec><jats:title>Abstract</jats:title><jats:p>With present day trends towards smaller scale photography for topographic mapping and photomapping, there is an increasing need for high quality photography and a corresponding need for diagnostic information on potential sources of degradation. Hence subjective judgements must be supplemented by quantitative analyses of image quality that go beyond mere determinations of resolution level. A methodology for evaluating three important parameters governing image quality (development, exposure and spatial frequency content) is presented. By sequentially comparing the values measured on production or test photographs with standard values, the faults most commonly responsible for image degradation (such as errors in development and exposure, excessive image motion, vacuum failure and poor camera focus) can be isolated and measured.</jats:p></jats:sec><jats:sec><jats:title>Résumé</jats:title><jats:p>La tendance actuelle en matière de plans topographiques et de photocartes est de diminuer l'échelle de la couverture photo; se fait done jour le besoin d'émulsions de haute qualité et simultanément la nécessité de pouvoir juger objectivement de cette qualité. II faut alors recourir á des analyses quantitatives qui aillent au‐delá de la simple mesure du pouvoir de résolution. On présente ici une méthodologie relative au problème de l'évaluation de trois des principaux paramètres effectuant la qualité de l'image (développement, durée d'exposition, résolution de fréquence spatiale). Avec des tests d'homogénéïté on peut alors déceler les variations de qualité, et en particulier déterminer et mesurer les causes d'altération les plus fréquentes (erreurs lors du développement ou lors de la phase d'exposition, filé, défauts internes, qualité médiocre de la chambre).</jats:p></jats:sec><jats:sec><jats:title>Zusammenfassung</jats:title><jats:p>Bei dem gegenwärtigen Trend, den Bildmassstab zur Herstellung von topographischen Karten und Photokarten zu verkleinern, ergibt sich zunehmend die Notwendigkeit, Hochleistungsphotos aufzunehmen und diagnostische Informationen über mögliche Quellen der Qualitätsverschlechterung zu erlangen. Insbesondere müssen subjektive Bewertungen durch quantitative Analysen der Bildqualität ergänzt werden, die über Bestimmungen des Auflösungsvermögens hinausgehen. Es wird eine Methodologie zur Bewertung von drei wichtigen Parametern (Entwicklung, Belichtung, Inhalt der Orts‐frequenz), die die Bildqualität beeinflussen, angegeben. Durch Vergleich der auf Produktionsbildern oder Testbildern gemessenen Werte mit deren Standards können die Fehler, die meistens eine Bildverschlechterung verursachen (wie zum Beispiel Fehler bei der Entwicklung und Belichtung, unzulässige Bildwanderung, ungenügende Planlage oder Kammerabstimmung) aufgedeckt und gemessen werden.</jats:p></jats:sec>",
+        "DOI": "10.1111/j.1477-9730.1975.tb00059.x",
+        "title": [
+          "IMAGE QUALITY CONTROLS FOR AERIAL PHOTOGRAPHY†"
+        ],
+        "author": [
+          {
+            "given": "R.",
+            "family": "Welch",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "J.",
+            "family": "Halliday",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2006,
+              8,
+              26
+            ]
+          ]
+        },
+        "container-title": [
+          "The Photogrammetric Record"
+        ],
+        "ISSN": [
+          "0031-868X",
+          "1477-9730"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1975,
+              4
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1109/5254.769882",
+        "title": [
+          "Adaptive image analysis for aerial surveillance"
+        ],
+        "container-title": [
+          "IEEE Intelligent Systems"
+        ],
+        "ISSN": [
+          "1094-7167"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1999,
+              5
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1999,
+              5
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "P.",
+            "family": "Robertson",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "J.M.",
+            "family": "Brady",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2014,
+              5
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    This paper presents a new image‐based servo control scheme that endows an unmanned aerial vehicle (\n                    <jats:styled-content style=\"fixed-case\">UAV</jats:styled-content>\n                    ) equipped with a robotic arm with the capability of automatically positioning elements on target objects. Through a new formalism, the proposed visual servo scheme controls both the\n                    <jats:styled-content style=\"fixed-case\">UAV</jats:styled-content>\n                    and the manipulator simultaneously. It takes into account the whole system redundancy as well as the peculiarity of under‐actuation related to rotary‐wing crafts. While it controls the system at the velocity level, it makes use of the mobility afforded by the\n                    <jats:styled-content style=\"fixed-case\">UAV</jats:styled-content>\n                    and the dexterity inherent to robot manipulators. The case of large initial errors is explicitly addressed. Results of simulations are reported to verify the effectiveness of the proposed approach.\n                  </jats:p>",
+        "DOI": "10.1002/asjc.887",
+        "title": [
+          "Image‐Based Control for Aerial Manipulation"
+        ],
+        "author": [
+          {
+            "given": "Rafik",
+            "family": "Mebarki",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Vincenzo",
+            "family": "Lippiello",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2014,
+              5,
+              12
+            ]
+          ]
+        },
+        "container-title": [
+          "Asian Journal of Control"
+        ],
+        "ISSN": [
+          "1561-8625",
+          "1934-6093"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              5
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1007/s00371-004-0275-x",
+        "title": [
+          "Aerial image processing and object recognition"
+        ],
+        "container-title": [
+          "The Visual Computer"
+        ],
+        "ISSN": [
+          "0178-2789",
+          "1432-2315"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2005,
+              2
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2005,
+              2,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2005,
+              2
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Mohammed",
+            "family": "Sadgal",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Aziz",
+            "family": "El Fazziki",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Abdellah",
+            "family": "Ait Ouahman",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.5194/isprs-archives-xlix-b1-2026-489-2026",
+        "title": [
+          "Aerial image quality control - spatial resolution"
+        ],
+        "container-title": [
+          "The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences"
+        ],
+        "ISSN": [
+          "2194-9034"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              22
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              22
+            ]
+          ]
+        },
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0008-8702-7770",
+            "authenticated-orcid": false,
+            "given": "Ivar",
+            "family": "Oveland",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Andreas",
+            "family": "Prebensen Korsnes",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Eija",
+            "family": "Honkavaara",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1570-4196",
+            "authenticated-orcid": false,
+            "given": "Lauri",
+            "family": "Markelin",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Andrew C.",
+            "family": "Flatman",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Henry",
+            "family": "Meißner",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>Abstract. Standardized methods for assessing the spatial resolution of airborne photogrammetric systems are essential for ensuring consistent quality in aerial imaging. This study evaluates the use of Siemens stars for empirical estimation of Ground Resolving Distance (GRD) in high-altitude aerial photo missions, based on field experiments conducted in Norway and Denmark during 2023–2025. The results confirm a consistent and expected deviation between Ground Sampling Distance (GSD) and GRD, reinforcing GRD as a critical parameter for planning, procurement, and quality assurance in airborne photo missions. The study also shows that using external reference plates to obtain reliable black and white reference values improves the reliability of GRD estimations while simultaneously enabling using smaller Siemens star. This supports the use of the GRD method as a robust and practical framework for spatial resolution assessment in aerial imagery. The fundamental objective of the project is to establish common recommendations and methodologies for aerial image quality assessment, ultimately contributing to a European-wide GRD based resolution standard. Overall, structured and transparent GRD verification is necessary to ensure consistent quality in airborne optical imagery.</jats:p>"
+      },
+      {
+        "DOI": "10.1109/lgrs.2013.2261453",
+        "title": [
+          "Systematic Benchmarking of Aerial Image Segmentation"
+        ],
+        "container-title": [
+          "IEEE Geoscience and Remote Sensing Letters"
+        ],
+        "ISSN": [
+          "1545-598X",
+          "1558-0571"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              11
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2013,
+              11
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Jiangye",
+            "family": "Yuan",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Shaun S.",
+            "family": "Gleason",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Anil M.",
+            "family": "Cheriyadat",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1016/j.jvcir.2017.02.003",
+        "title": [
+          "Contextual aerial image categorization using codebook"
+        ],
+        "container-title": [
+          "Journal of Visual Communication and Image Representation"
+        ],
+        "ISSN": [
+          "1047-3203"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              10
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              10
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Zhijun",
+            "family": "Meng",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yan",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Xinyu",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yating",
+            "family": "Yin",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Teng",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.3390/rs14235998",
+        "title": [
+          "Aerial Image Dehazing Using Reinforcement Learning"
+        ],
+        "container-title": [
+          "Remote Sensing"
+        ],
+        "ISSN": [
+          "2072-4292"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              11,
+              26
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              11,
+              26
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Jing",
+            "family": "Yu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Institute of Remote Sensing Satellite, China Academy of Space Technology, Beijing 100094, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Deying",
+            "family": "Liang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Remote Sensing Satellite, China Academy of Space Technology, Beijing 100094, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Bo",
+            "family": "Hang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Remote Sensing Satellite, China Academy of Space Technology, Beijing 100094, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hongtao",
+            "family": "Gao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Remote Sensing Satellite, China Academy of Space Technology, Beijing 100094, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>Aerial observation is usually affected by the Earth’s atmosphere, especially when haze exists. Deep reinforcement learning was used in this study for dehazing. We first developed a clear–hazy aerial image dataset addressing various types of ground; we then compared the dehazing results of some state-of-the-art methods, including the classic dark channel prior, color attenuation prior, non-local image dehazing, multi-scale convolutional neural networks, DehazeNet, and all-in-one dehazing network. We extended the most suitable method, DehazeNet, to a multi-scale form and added it into a multi-agent deep reinforcement learning network called DRL_Dehaze. DRL_Dehaze was tested on several ground types and in situations with multiple haze scales. The results show that each pixel agent can automatically select the most suitable method in multi-scale haze situations and can produce a good dehazing result. Different ground scenes may best be processed using different steps.</jats:p>"
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              20
+            ]
+          ]
+        },
+        "abstract": "<jats:p>In this paper, we introduce the three-dimensional aerial image interface, 3DAII. This interface reconstructs and aerially projects a three-dimensional object image, which can be simultaneously observed from various viewpoints or by multiple users with the naked eye. A pyramid reflector is used to reconstruct the object image, and a pair of parabolic mirrors is used to aerially project the image. A user can directly manipulate the three-dimensional object image by superimposing a user’s hand-finger or a rod on the image. A motion capture sensor detects the user’s hand-finger that manipulates the projected image, and the system immediately exhibits some reaction such as deformation, displacement, and discoloration of the object image, including sound effects. A performance test is executed to confirm the functions of 3DAII. The execution time of the end-tip positioning of a robotic arm has been compared among four operating devices: touchscreen, gamepad, joystick, and 3DAII. The results exhibit the advantages of 3DAII; we can directly instruct the movement direction and movement speed of the end-tip of the robotic arm, using the three-dimensional Euclidean vector outputs of 3DAII in which we can intuitively make the end-tip of the robotic arm move in three-dimensional space. Therefore, 3DAII would be one important alternative to an intuitive spatial user interface, e.g., an operation device of aerial robots, a center console of automobiles, and a 3D modelling system. A survey has been conducted to evaluate<jats:italic>comfort</jats:italic>and<jats:italic>fatigue</jats:italic>based on ISO/TS 9241-411 and<jats:italic>ease of learning</jats:italic>and<jats:italic>satisfaction</jats:italic>based on the USE questionnaire. We have identified several challenges related to visibility, workspace, and sensory feedback to users that we would like to address in the future.</jats:p>",
+        "DOI": "10.20965/jrm.2019.p0657",
+        "title": [
+          "Three-Dimensional Aerial Image Interface, 3DAII"
+        ],
+        "author": [
+          {
+            "given": "Takafumi",
+            "family": "Matsumaru",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "name": "Graduate School of Information, Production, and Systems, Waseda University 2-7 Hibikino, Wakamatsu-ku, Kitakyushu, Fukuoka 808-0135, Japan",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Asyifa Imanda",
+            "family": "Septiana",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Kazuki",
+            "family": "Horiuchi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              20
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of Robotics and Mechatronics"
+        ],
+        "ISSN": [
+          "1883-8049",
+          "0915-3942"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              20
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.3788/co.20140705.0779",
+        "title": [
+          "Aerial image segmentation with region information"
+        ],
+        "container-title": [
+          "Chinese Journal of Optics and Applied Optics"
+        ],
+        "ISSN": [
+          "1674-2915"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2014
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2014
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "杨名宇",
+            "family": "YANG Ming-yu",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "李刚",
+            "family": "LI Gang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1016/j.mee.2006.01.266",
+        "title": [
+          "Direct, in-scanner, aerial image sensing"
+        ],
+        "container-title": [
+          "Microelectronic Engineering"
+        ],
+        "ISSN": [
+          "0167-9317"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2006,
+              4
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2006,
+              4
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "R.",
+            "family": "Fabian Pease",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1016/0031-8663(73)90013-6",
+        "title": [
+          "Systematic image errors in aerial triangulation"
+        ],
+        "container-title": [
+          "Photogrammetria"
+        ],
+        "ISSN": [
+          "0031-8663"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1973,
+              9
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1973,
+              9
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "K.",
+            "family": "Kubik",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "E.R.",
+            "family": "Bosman",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "E.",
+            "family": "Clerici",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "D.",
+            "family": "Eckhart",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1117/12.7973830",
+        "title": [
+          "Stereo Verification In Aerial Image Analysis"
+        ],
+        "container-title": [
+          "Optical Engineering"
+        ],
+        "ISSN": [
+          "0091-3286",
+          "1560-2303"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1986,
+              3,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1986,
+              3,
+              1
+            ]
+          ]
+        },
+        "abstract": "<jats:p>This paper describes a flexible stereo verification system, STEREOSYS, and its application to the analysis of high resolution aerial photography. Stereo verification refers to the verification of hypotheses about a scene by stereo analysis of the scene. Unlike stereo interpretation, stereo verification requires only coarse indications of three-dimensional structure. In the case of aerial photography, this means coarse indications of the heights of objects above their surroundings. This requirement, together with requirements for robustness and for dense height measurements, shapes the decision about the stereo system to use. This paper discusses these design issues and describes an implementation.</jats:p>"
+      },
+      {
+        "DOI": "10.3788/lop54.111002",
+        "title": [
+          "Aerial Image Location of Unmanned Aerial Vehicle Based on YOLO v2"
+        ],
+        "container-title": [
+          "Laser &amp; Optoelectronics Progress"
+        ],
+        "ISSN": [
+          "1006-4125"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2017
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "魏湧明",
+            "family": "Wei Yongming",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "全吉成",
+            "family": "Quan Jicheng",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "侯宇青阳",
+            "family": "Hou Yuqingyang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/jsen.2025.3530076",
+        "title": [
+          "MINIAOD: Lightweight Aerial Image Object Detection"
+        ],
+        "container-title": [
+          "IEEE Sensors Journal"
+        ],
+        "ISSN": [
+          "1530-437X",
+          "1558-1748",
+          "2379-9153"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              1
+            ]
+          ]
+        },
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0004-0346-3585",
+            "authenticated-orcid": false,
+            "given": "Huiying",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Electronic and Optical Engineering, Army Engineering University of PLA, Shijiazhuang, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Chunping",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Electronic and Optical Engineering, Army Engineering University of PLA, Shijiazhuang, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3831-9856",
+            "authenticated-orcid": false,
+            "given": "Qiang",
+            "family": "Fu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Electronic and Optical Engineering, Army Engineering University of PLA, Shijiazhuang, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3206-1388",
+            "authenticated-orcid": false,
+            "given": "Binqiang",
+            "family": "Si",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Instrument Science and Opto-Electronics Engineering, Beijing Information Science and Technology University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3817-5706",
+            "authenticated-orcid": false,
+            "given": "Dongdong",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Electronic and Optical Engineering, Army Engineering University of PLA, Shijiazhuang, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5893-3127",
+            "authenticated-orcid": false,
+            "given": "Renke",
+            "family": "Kou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Electronic and Optical Engineering, Army Engineering University of PLA, Shijiazhuang, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7840-9891",
+            "authenticated-orcid": false,
+            "given": "Ying",
+            "family": "Yu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Electronic and Optical Engineering, Army Engineering University of PLA, Shijiazhuang, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4413-1611",
+            "authenticated-orcid": false,
+            "given": "Changfeng",
+            "family": "Feng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Electronic and Optical Engineering, Army Engineering University of PLA, Shijiazhuang, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.29235/1561-8358-2026-71-1-57-66",
+        "title": [
+          "Statistical synthesis of a Bayesian algorithm image segmentation an d measurementof aerial object coordinates"
+        ],
+        "container-title": [
+          "Proceedings of the National Academy of Sciences of Belarus. Physical-technical series"
+        ],
+        "ISSN": [
+          "2524-244X",
+          "1561-8358"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              31
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              31
+            ]
+          ]
+        },
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0006-0080-4713",
+            "authenticated-orcid": true,
+            "given": "S. V.",
+            "family": "Tsuprik",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Military Academy of the Republic of Belarus"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "A. S.",
+            "family": "Solonar",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "JSC “KB Radar” – Managing Company of “Radar Systems” Holding"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3404-3917",
+            "authenticated-orcid": true,
+            "given": "P. A.",
+            "family": "Khmarskiy",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Belarusian State University of Informatics and Radioelectronics"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title>\n          <jats:p>Addressing the issues of long processing time, high computational complexity, and poor stitching quality in existing methods for unmanned aerial vehicle (UAV) aerial image stitching, this paper proposes an aerial image stitching method based on similar region estimation. Firstly, the input set of UAV aerial images is subjected to superpixel segmentation to estimate similar regions among the images. Secondly, an improved SIFT algorithm is used to extract and match feature points within the similar regions across the image set. Finally, based on the obtained matching points, an improved optimal seam-line algorithm and a weighted average fusion algorithm are employed to fuse the images, resulting in the stitched aerial image. Experimental validation using the public dataset UAV-image-mosaicing dataset demonstrates that our method achieves nearly double the speed of feature extraction compared to traditional feature extraction algorithms and triples the feature matching rate. Furthermore, compared to mainstream UAV aerial image stitching methods, our approach reduces time consumption by half while improving the stitching image evaluation metrics of SSIM, MAE, and PSNR by approximately 5% on average.</jats:p>",
+        "DOI": "10.1186/s44147-025-00590-3",
+        "title": [
+          "Unmanned aerial vehicle aerial image stitching method based on superpixel segmentation"
+        ],
+        "author": [
+          {
+            "given": "Zhiyou",
+            "family": "Lian",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jianhua",
+            "family": "Ren",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              1
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of Engineering and Applied Science"
+        ],
+        "ISSN": [
+          "1110-1903",
+          "2536-9512"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.36463/idw.2021.0482",
+        "title": [
+          "Reduction of Perceived Depth Instability in Aerial Image by Using Hand or Tools to Aerial Image Position"
+        ],
+        "container-title": [
+          "Proceedings of the International Display Workshops"
+        ],
+        "ISSN": [
+          "1883-2490"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              12,
+              2
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              12,
+              2
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Naoki",
+            "family": "Kiyose",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Haruki",
+            "family": "Mizushina",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Kenji",
+            "family": "Yamamoto",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Shiro",
+            "family": "Suyama",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1117/1.jrs.14.046512",
+        "title": [
+          "Image registration and selection for unmanned aerial vehicle image stitching"
+        ],
+        "container-title": [
+          "Journal of Applied Remote Sensing"
+        ],
+        "ISSN": [
+          "1931-3195",
+          "1931-3195"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              12,
+              2
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              12,
+              2
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Junxing",
+            "family": "Yang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Wuhan Univ."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Lulu",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Wuhan Univ."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Lu",
+            "family": "Lu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Wuhan Univ."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0886-4324",
+            "authenticated-orcid": false,
+            "given": "Fei",
+            "family": "Deng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Wuhan Univ."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>In this study, a general transformation-based framework for unmanned aerial vehicle image stitching is proposed that can resist global distortion while improving the local registration accuracy. In the first step, with tie points as constraints, the global transformation function of each image is obtained in an optimization manner and no reference image is needed. In the second step, to reduce data redundancy, an image selection algorithm based on information entropy is proposed. The optimal image combination covering the entire scene is selected from the original image set. In the third step, a local optimization algorithm based on mesh deformation is proposed to further optimize the registration accuracy of the optimal image combination. Finally, all of the images are combined to obtain a high-resolution panorama. On challenging datasets, the proposed algorithm can not only reduce the global distortions caused by the accumulation of errors during image stitching, but can also reduce the redundant data, which will benefit the postprocessing. The local mesh optimization can greatly improve the registration accuracy and eliminate the obvious misalignment problems. Tested on a large number of challenging datasets, the proposed method substantially outperforms several state-of-the-art image-stitching methods and commercial software.</jats:p>"
+      },
+      {
+        "DOI": "10.3390/jimaging11050150",
+        "title": [
+          "Reduction of Aerial Image Misalignment in Face-to-Face 3D Aerial Display"
+        ],
+        "container-title": [
+          "Journal of Imaging"
+        ],
+        "ISSN": [
+          "2313-433X"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              9
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              9
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Atsutoshi",
+            "family": "Kurihara",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Graduate School of Integrative Science and Engineering, Tokyo City University, 1-28-1 Tamadutsumi, Setagaya Ward, Tokyo 158-8557, Japan"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yue",
+            "family": "Bao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Graduate School of Integrative Science and Engineering, Tokyo City University, 1-28-1 Tamadutsumi, Setagaya Ward, Tokyo 158-8557, Japan"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>A Micromirror Array Plate (MMAP) has been proposed as a type of aerial display that allows users to directly touch the floating image. However, the aerial images generated by this optical element have a limited viewing angle, making them difficult to use in face-to-face interactions. Conventional methods enable face-to-face usability by displaying multiple aerial images corresponding to different viewpoints. However, because these images are two-dimensional, they cannot be displayed at the same position due to the inherent characteristics of MMAP. An omnidirectional 3D autostereoscopic aerial display has been developed to address this issue, but it requires multiple expensive and specially shaped MMAPs to generate aerial images. To overcome this limitation, this study proposes a method that combines a single MMAP with integral photography (IP) to produce 3D aerial images with depth while reducing image misalignment. The experimental results demonstrate that the proposed method successfully displays a 3D aerial image using a single MMAP and reduces image misalignment to 1.1 mm.</jats:p>"
+      },
+      {
+        "DOI": "10.1109/tgrs.2019.2963364",
+        "title": [
+          "Relation Network for Multilabel Aerial Image Classification"
+        ],
+        "container-title": [
+          "IEEE Transactions on Geoscience and Remote Sensing"
+        ],
+        "ISSN": [
+          "0196-2892",
+          "1558-0644"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              7
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              7
+            ]
+          ]
+        },
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-9238-2920",
+            "authenticated-orcid": false,
+            "given": "Yuansheng",
+            "family": "Hua",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Lichao",
+            "family": "Mou",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5530-3613",
+            "authenticated-orcid": false,
+            "given": "Xiao Xiang",
+            "family": "Zhu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tgrs.2017.2719738",
+        "title": [
+          "Learning Aerial Image Segmentation From Online Maps"
+        ],
+        "container-title": [
+          "IEEE Transactions on Geoscience and Remote Sensing"
+        ],
+        "ISSN": [
+          "0196-2892",
+          "1558-0644"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              11
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              11
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Pascal",
+            "family": "Kaiser",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0290-6901",
+            "authenticated-orcid": false,
+            "given": "Jan Dirk",
+            "family": "Wegner",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Aurelien",
+            "family": "Lucchi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Martin",
+            "family": "Jaggi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Thomas",
+            "family": "Hofmann",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Konrad",
+            "family": "Schindler",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.3788/aos201737.0810004",
+        "title": [
+          "Pavement Crack Recognition Based on Aerial Image"
+        ],
+        "container-title": [
+          "Acta Optica Sinica"
+        ],
+        "ISSN": [
+          "0253-2239"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2017
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "王 博",
+            "family": "Wang Bo",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "王 霞",
+            "family": "Wang Xia",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "陈 飞",
+            "family": "Chen Fei",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "贺云涛",
+            "family": "He Yuntao",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "李文光",
+            "family": "Li Wenguang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "刘 莉",
+            "family": "Liu Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.30919/es2164",
+        "title": [
+          "Deep Image Stitching for Unmanned Aerial Vehicles"
+        ],
+        "container-title": [
+          "Engineered Science"
+        ],
+        "ISSN": [
+          "2576-988X",
+          "2576-9898"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "JiaGang",
+            "family": "Song",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Computer Science, Central South University, 932 South Lushan Road, Changsha, Hunan, 410083, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "YiZhen",
+            "family": "Lao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Design, Hunan University, Lushan Gate, Lushan South Road, Changsha, Hunan, 410082, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Lingfeng",
+            "family": "He",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science, Central South University, 932 South Lushan Road, Changsha, Hunan, 410083, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jian",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science, Central South University, 932 South Lushan Road, Changsha, Hunan, 410083, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Shichao",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Engineering, Guangxi Normal University, 15 Yucai Road, Guilin, Guangxi, 541004,  China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "items-per-page": 40,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

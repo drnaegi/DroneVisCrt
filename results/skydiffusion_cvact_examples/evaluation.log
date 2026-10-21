@@ -1,0 +1,17 @@
+Setting up [LPIPS] perceptual loss: trunk [alex], v[0.1], spatial [off]
+/root/miniconda3/lib/python3.8/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/root/miniconda3/lib/python3.8/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=AlexNet_Weights.IMAGENET1K_V1`. You can also use `weights=AlexNet_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Loading model from: /root/DroneVisCrt/envs/skydiffusion/lib/python3.8/site-packages/lpips/weights/v0.1/alex.pth
+{"name": "2-6Pro9zN1qOxbFSTigfAg_grdView", "psnr_db": 13.401837994279436, "ssim_rgb": 0.09296909719705582, "lpips_alex": 0.6003913283348083, "target_resized": true}
+{"name": "cSsY4Js1I4eYNdAgcmKxzg_grdView", "psnr_db": 11.883169668471425, "ssim_rgb": 0.10811040550470352, "lpips_alex": 0.615446925163269, "target_resized": true}
+{"name": "EFcX7D8xMiXIrWwznx225Q_grdView", "psnr_db": 11.821258179396597, "ssim_rgb": 0.08578554540872574, "lpips_alex": 0.7074673175811768, "target_resized": true}
+{
+  "sample_count": 3,
+  "mean": {
+    "psnr_db": 12.368755280715819,
+    "ssim_rgb": 0.09562168270349503,
+    "lpips_alex": 0.6411018570264181
+  }
+}

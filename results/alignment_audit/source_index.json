@@ -1,0 +1,122 @@
+[
+  {
+    "name": "github_issues.json",
+    "url": "https://api.github.com/repos/opendatalab/skydiffusion/issues?state=all&per_page=100",
+    "retrieved_utc": "2026-10-13T11:02:33.825566+00:00",
+    "status_code": 200,
+    "sha256": "f97d5a51c1aae7d31a492936fc17b28b1dc1797285bcce5cf4e64516586721bf",
+    "bytes": 24329
+  },
+  {
+    "name": "github_issue4_comments.json",
+    "url": "https://api.github.com/repos/opendatalab/skydiffusion/issues/4/comments",
+    "retrieved_utc": "2026-10-13T11:02:33.827151+00:00",
+    "status_code": 200,
+    "sha256": "11253358105a492ae068415d48de87effd8e308038922967a52565f9bd329d78",
+    "bytes": 6345
+  },
+  {
+    "name": "github_releases.json",
+    "url": "https://api.github.com/repos/opendatalab/skydiffusion/releases",
+    "retrieved_utc": "2026-10-13T11:02:33.830191+00:00",
+    "status_code": 200,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "bytes": 2
+  },
+  {
+    "name": "github_commits.json",
+    "url": "https://api.github.com/repos/opendatalab/skydiffusion/commits?per_page=100",
+    "retrieved_utc": "2026-10-13T11:02:33.837458+00:00",
+    "status_code": 200,
+    "sha256": "5c523624c394c624d85f4b12bd97e6ccdca1ed02213cab1e12bd1951fad807ba",
+    "bytes": 129700
+  },
+  {
+    "name": "github_branches.json",
+    "url": "https://api.github.com/repos/opendatalab/skydiffusion/branches",
+    "retrieved_utc": "2026-10-13T11:02:33.841928+00:00",
+    "status_code": 200,
+    "sha256": "7d34323a906838d37ef1c2fb0301752b13b95eff18fae209093f36c7685c4eab",
+    "bytes": 415
+  },
+  {
+    "name": "github_tree.json",
+    "url": "https://api.github.com/repos/opendatalab/skydiffusion/git/trees/main?recursive=1",
+    "retrieved_utc": "2026-10-13T11:02:34.853849+00:00",
+    "status_code": 200,
+    "sha256": "4bd75de3e2945df3ac3f2570c156bd5e05193fb98eb402ab7606cda1dd5a13ce",
+    "bytes": 150613
+  },
+  {
+    "name": "models_search.json",
+    "url": "https://hf-mirror.com/api/models?search=skydiffusion&limit=100&full=true",
+    "retrieved_utc": "2026-10-13T11:02:34.882078+00:00",
+    "status_code": 200,
+    "sha256": "e697276501626bef2d89d71af5b5f71a9b528d1f5762cf162821c598960472ec",
+    "bytes": 485
+  },
+  {
+    "name": "author_models.json",
+    "url": "https://hf-mirror.com/api/models?author=Yejy53&limit=100&full=true",
+    "retrieved_utc": "2026-10-13T11:02:34.897664+00:00",
+    "status_code": 200,
+    "sha256": "dc7dd8b89b249b3428291bd5659b6efb7dc3f309c2c08cd6cc4a747bc2585419",
+    "bytes": 1792
+  },
+  {
+    "name": "official_dataset.json",
+    "url": "https://hf-mirror.com/api/datasets/Yejy53/G2A-3?blobs=true",
+    "retrieved_utc": "2026-10-13T11:02:34.922453+00:00",
+    "status_code": 200,
+    "sha256": "df0b4a3885de27f32c00176c0eb372cebe840512a616fef6313a480a816ed458",
+    "bytes": 1228
+  },
+  {
+    "name": "downloaded_dataset.json",
+    "url": "https://hf-mirror.com/api/datasets/SkyDiff/G2A-3?blobs=true",
+    "retrieved_utc": "2026-10-13T11:02:35.196864+00:00",
+    "status_code": 200,
+    "sha256": "e5253475e15214201134eabfba6fd70bcc11429bb9ad2e14c4006301a814a4ba",
+    "bytes": 2434
+  },
+  {
+    "name": "model_metadata.json",
+    "url": "https://hf-mirror.com/api/models/SkyDiff1109/SkyDiffusion_ckpt?blobs=true",
+    "retrieved_utc": "2026-10-13T11:02:35.546336+00:00",
+    "status_code": 200,
+    "sha256": "290528e3daeb0acce5b425fe9098fc10e78a2fd24756d8898bae3af1c5f236fa",
+    "bytes": 898
+  },
+  {
+    "name": "model_card.md",
+    "url": "https://hf-mirror.com/SkyDiff1109/SkyDiffusion_ckpt/raw/main/README.md",
+    "retrieved_utc": "2026-10-13T11:02:35.596012+00:00",
+    "status_code": 200,
+    "sha256": "d8d7a46d41a1a37fe4f0a5f637bf55c649310185329127d8a2204632e480be17",
+    "bytes": 24
+  },
+  {
+    "name": "project.html",
+    "url": "https://opendatalab.github.io/skydiffusion/",
+    "retrieved_utc": "2026-10-13T11:02:35.764559+00:00",
+    "status_code": 200,
+    "sha256": "b22c3fa4d8d1f40703e1b2a5cae55beafce133fcc4c4f57cedfa5fa231410255",
+    "bytes": 37455
+  },
+  {
+    "name": "iccv_index.html",
+    "url": "https://openaccess.thecvf.com/ICCV2025?day=all",
+    "retrieved_utc": "2026-10-13T11:02:36.052955+00:00",
+    "status_code": 200,
+    "sha256": "e684fe760c417a35c2f1e9a5acb3015a192fce10e566086e2d4bf7f78cbb97fe",
+    "bytes": 7692642
+  },
+  {
+    "name": "arxiv_abs.html",
+    "url": "https://arxiv.org/abs/2408.01812",
+    "retrieved_utc": "2026-10-13T11:02:36.199639+00:00",
+    "status_code": 200,
+    "sha256": "6297ccfbca49f55fc77fa67f9fb1e050c7defaa23c8c97f1117eb387229ad3ad",
+    "bytes": 43736
+  }
+]

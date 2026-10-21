@@ -1,0 +1,3475 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1593148,
+    "items": [
+      {
+        "DOI": "10.1016/j.scs.2023.104673",
+        "title": [
+          "Generating citywide street cross-sections using aerial LiDAR and detailed street plan"
+        ],
+        "container-title": [
+          "Sustainable Cities and Society"
+        ],
+        "ISSN": [
+          "2210-6707"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              9
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              9
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Deepank",
+            "family": "Verma",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6628-7874",
+            "authenticated-orcid": false,
+            "given": "Olaf",
+            "family": "Mumm",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0513-9717",
+            "authenticated-orcid": false,
+            "given": "Vanessa Miriam",
+            "family": "Carlow",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              1
+            ]
+          ]
+        },
+        "abstract": "<jats:p>A reliable, punctual, and spatially accurate dataset of sidewalks is vital for identifying where improvements can be made upon urban environment to enhance multi-modal accessibility, social cohesion, and residents' physical activity. This paper develops a synthetically new spatial procedure to extract the sidewalk by integrating the detected results from aerial and street view imagery. We first train neural networks to extract sidewalks from aerial images, and then use pre-trained models to restore occluded and missing sidewalks from street view images. By combining the results from both data sources, a complete network of sidewalks can be produced. Our case study includes four counties in the U.S., and both precision and recall reach about 0.9. The street view imagery helps restore the occluded sidewalks and largely enhances the sidewalk network's connectivity by linking 20% of dangles.</jats:p>",
+        "DOI": "10.1177/2399808321995817",
+        "title": [
+          "Sidewalk extraction using aerial and street view images"
+        ],
+        "author": [
+          {
+            "given": "Huan",
+            "family": "Ning",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "New Jersey Institute of Technology, USA"
+              },
+              {
+                "name": "Rutgers University, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xinyue",
+            "family": "Ye",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Texas A&M University, USA"
+              },
+              {
+                "name": "Rutgers University, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zhihui",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Suzhou University of Science and Technology, China"
+              },
+              {
+                "name": "Rutgers University, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Tao",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Michigan Technological University, USA"
+              },
+              {
+                "name": "Rutgers University, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Tianzhi",
+            "family": "Cao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Rutgers University, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              19
+            ]
+          ]
+        },
+        "container-title": [
+          "Environment and Planning B: Urban Analytics and City Science"
+        ],
+        "ISSN": [
+          "2399-8083",
+          "2399-8091"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              19
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.12681/ps2023.9945",
+        "title": [
+          "Scenographic Void: Aerial Street Performances and the Urban Space"
+        ],
+        "container-title": [
+          "PROCEEDINGS OF THE PERFORMING SPACE 2023 CONFERENCE"
+        ],
+        "ISSN": [
+          "3057-434X"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              19
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              19
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Marcela",
+            "family": "Oteíza Silva",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>Street performance scenography engages the material and spatial conditions of urban life, often through built structures and site-based installations. This research expands that field by investigating how aerial scenography activates the negative space above the city. Referring to Pedaleando al Cielo (Cycling to Heaven) by Theater Tol (Antwerp, Belgium), performed at Festival Internacional Santiago a Mil (FITAM), this paper explores how the vertical void of the sky becomes a scenographic commons — a space of aesthetic rupture, political contestation, and collective imagination.\r\nThe central research question is as follows: how can aerial scenography create meaning in public space by reconfiguring the sky as a performative site? Drawing on the concepts of expanded scenography, ecoscenography, and spatial theory, this paper examines how suspended, kinetic objects can transform audience perspectives and generate ephemeral architectures that challenge the dominance of surveillance, militarisation, and environmental precarity in aerial space.\r\nFindings suggest that the upward gaze, mobilised through scenographic design, activates a counter-gesture of poetic resistance. By suspending bodies and imagery above eye level, the performance interrupts spatial hierarchies and reveals the sky as a charged, geopolitical terrain for temporary world-making.</jats:p>"
+      },
+      {
+        "DOI": "10.1016/j.apenergy.2021.117407",
+        "title": [
+          "Predicting residential electricity consumption using aerial and street view images"
+        ],
+        "container-title": [
+          "Applied Energy"
+        ],
+        "ISSN": [
+          "0306-2619"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              11
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              11
+            ]
+          ]
+        },
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-0766-7807",
+            "authenticated-orcid": false,
+            "given": "Markus",
+            "family": "Rosenfelder",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2104-0752",
+            "authenticated-orcid": false,
+            "given": "Moritz",
+            "family": "Wussow",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6671-1380",
+            "authenticated-orcid": false,
+            "given": "Gunther",
+            "family": "Gust",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4514-2462",
+            "authenticated-orcid": false,
+            "given": "Roger",
+            "family": "Cremades",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Dirk",
+            "family": "Neumann",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              4
+            ]
+          ]
+        },
+        "abstract": "<jats:p>This paper investigates the usefulness of 3D volumetric pixels (voxels) and the United States Geological Survey (USGS) Quality Level 2 (QL2) Light Detection and Ranging (LiDAR) data to measure features in streetscapes. As the USGS embarks on a national LiDAR database with the goal of covering the entire United States of America (U.S.) with QL2 data or better, this paper investigates uses of QL2 LiDAR for the 3D measuring of streetscapes. Tree mapping is a common use of QL2 LiDAR data, and street trees are among the most common features within urban streetscapes that transportation and urban designers assess. Traditional remote sensing techniques derive tree polygons from imagery, and traditional uses of LiDAR for tree canopy mapping is based on deriving a 2D canopy polygon with an attribute for elevation height. However, when breaking up streetscapes into 5 Ft elevation zones and calculating street–tree voxels at each elevation zone height, 3D characteristics of street trees become prevalent that completely differ from the common 2D LiDAR-derived street trees. Statistical tests in this paper display how different the 3D characteristics are from the 2D-derived LiDAR polygons, as this paper introduces a new methodology for measuring streetscape features in 3D, particularly street trees.</jats:p>",
+        "DOI": "10.1177/0361198119837194",
+        "title": [
+          "Use of Aerial LiDAR in Measuring Streetscape and Street Trees"
+        ],
+        "author": [
+          {
+            "given": "Yaneev",
+            "family": "Golombek",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Civil Engineering, University of Colorado Denver, Denver, CO"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Wesley E.",
+            "family": "Marshall",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Civil Engineering, University of Colorado Denver, Denver, CO"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              3,
+              25
+            ]
+          ]
+        },
+        "container-title": [
+          "Transportation Research Record: Journal of the Transportation Research Board"
+        ],
+        "ISSN": [
+          "0361-1981",
+          "2169-4052"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              3,
+              25
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1210/en.2015-1534",
+        "title": [
+          "AZ Street in Vasopressin Synthesis"
+        ],
+        "container-title": [
+          "Endocrinology"
+        ],
+        "ISSN": [
+          "0013-7227",
+          "1945-7170"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              8,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2015,
+              8,
+              1
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Yoichi",
+            "family": "Ueta",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.3390/rs10101553",
+        "title": [
+          "Integrating Aerial and Street View Images for Urban Land Use Classification"
+        ],
+        "container-title": [
+          "Remote Sensing"
+        ],
+        "ISSN": [
+          "2072-4292"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              9,
+              27
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2018,
+              9,
+              27
+            ]
+          ]
+        },
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-1440-4175",
+            "authenticated-orcid": false,
+            "given": "Rui",
+            "family": "Cao",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Shenzhen Key Laboratory of Spatial Smart Sensing and Services &amp; Key Laboratory for Geo-Environmental Monitoring of Coastal Zone of the National Administration of Surveying, Mapping and GeoInformation, Shenzhen University, Shenzhen 518060, China"
+              },
+              {
+                "name": "College of Information Engineering &amp; Guangdong Key Laboratory of Intelligent Information Processing, Shenzhen University, Shenzhen 518060, China"
+              },
+              {
+                "name": "International Doctoral Innovation Centre &amp; School of Computer Science, University of Nottingham Ningbo China, Ningbo 315100, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jiasong",
+            "family": "Zhu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shenzhen Key Laboratory of Spatial Smart Sensing and Services &amp; Key Laboratory for Geo-Environmental Monitoring of Coastal Zone of the National Administration of Surveying, Mapping and GeoInformation, Shenzhen University, Shenzhen 518060, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0255-4037",
+            "authenticated-orcid": false,
+            "given": "Wei",
+            "family": "Tu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shenzhen Key Laboratory of Spatial Smart Sensing and Services &amp; Key Laboratory for Geo-Environmental Monitoring of Coastal Zone of the National Administration of Surveying, Mapping and GeoInformation, Shenzhen University, Shenzhen 518060, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Qingquan",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shenzhen Key Laboratory of Spatial Smart Sensing and Services &amp; Key Laboratory for Geo-Environmental Monitoring of Coastal Zone of the National Administration of Surveying, Mapping and GeoInformation, Shenzhen University, Shenzhen 518060, China"
+              },
+              {
+                "name": "State Key Laboratory of Information Engineering in Surveying, Mapping, and Remote Sensing, Wuhan University, Wuhan 430079, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6201-3251",
+            "authenticated-orcid": false,
+            "given": "Jinzhou",
+            "family": "Cao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Information Engineering in Surveying, Mapping, and Remote Sensing, Wuhan University, Wuhan 430079, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Bozhi",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Information Engineering &amp; Guangdong Key Laboratory of Intelligent Information Processing, Shenzhen University, Shenzhen 518060, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Qian",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "International Doctoral Innovation Centre &amp; School of Computer Science, University of Nottingham Ningbo China, Ningbo 315100, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5877-5648",
+            "authenticated-orcid": false,
+            "given": "Guoping",
+            "family": "Qiu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Information Engineering &amp; Guangdong Key Laboratory of Intelligent Information Processing, Shenzhen University, Shenzhen 518060, China"
+              },
+              {
+                "name": "School of Computer Science, University of Nottingham, Nottingham NG8 1BB, UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>Urban land use is key to rational urban planning and management. Traditional land use classification methods rely heavily on domain experts, which is both expensive and inefficient. In this paper, deep neural network-based approaches are presented to label urban land use at pixel level using high-resolution aerial images and ground-level street view images. We use a deep neural network to extract semantic features from sparsely distributed street view images and interpolate them in the spatial domain to match the spatial resolution of the aerial images, which are then fused together through a deep neural network for classifying land use categories. Our methods are tested on a large publicly available aerial and street view images dataset of New York City, and the results show that using aerial images alone can achieve relatively high classification accuracy, the ground-level street view images contain useful information for urban land use classification, and fusing street image features with aerial images can improve classification accuracy. Moreover, we present experimental studies to show that street view images add more values when the resolutions of the aerial images are lower, and we also present case studies to illustrate how street view images provide useful auxiliary information to aerial images to boost performances.</jats:p>"
+      },
+      {
+        "DOI": "10.5194/isprs-archives-xlix-m-1-2026-65-2026",
+        "title": [
+          "Towards Roof Material Identification by Fusing Aerial and Street View Imagery"
+        ],
+        "container-title": [
+          "The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences"
+        ],
+        "ISSN": [
+          "2194-9034"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              2
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              2
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Faezeh",
+            "family": "Soleimani Vostikolaei",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "SeyedPooya",
+            "family": "Soofbaf",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Travis",
+            "family": "Moore",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Shabnam",
+            "family": "Jabari",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>Abstract. Accurate roof material detection is essential for 3D building modeling, urban planning, climate change mitigation, and infrastructure maintenance. Roof materials directly influence key building properties, including thermal behavior and solar reflectance, and enable urban planners to prioritize climate-resilient infrastructure in areas exposed to extreme weather conditions, thereby helping to mitigate the urban heat island effect. Remote sensing and aerial imagery offer great potential for identifying roof materials. Recent advances in deep learning, particularly convolutional neural networks (CNNs), have significantly improved the performance of roof material detection using images.Despite their success, approaches relying solely on aerial imagery remain inherently limited. From a top-down perspective, many roofing materials, such as asphalt and metal, exhibit similar spectral characteristics, making them difficult to distinguish. Furthermore, aerial imagery is often affected by shadows, occlusions, and limited texture visibility, particularly in dense urban environments or regions with complex illumination conditions.In this study, we propose a novel multimodal framework for roof material classification that leverages both aerial orthoimages and ground-level imagery derived from GoPro video recordings. The proposed method utilizes spectral and textural features extracted from both nadir and off-nadir images to improve roof material detection. The framework employs a dual-branch architecture in which aerial and ground-level image features are extracted independently using CNN-based feature extractors. A decision-level late fusion strategy with learnable weights is designed to combine the predictions from each branch. The proposed method classifies four roof material classes, including asphalt, metal, membrane, and gravel, and achieves an overall accuracy of 91%.</jats:p>"
+      },
+      {
+        "DOI": "10.5194/isprs-annals-x-4-w3-2022-49-2022",
+        "title": [
+          "COMPARING STREET VIEW IMAGERY AND AERIAL PERSPECTIVES IN THE BUILT ENVIRONMENT"
+        ],
+        "container-title": [
+          "ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences"
+        ],
+        "ISSN": [
+          "2194-9050"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              10,
+              14
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              10,
+              14
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "L. Y.",
+            "family": "Gaw",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "S.",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9194-627X",
+            "authenticated-orcid": false,
+            "given": "Y. S.",
+            "family": "Chow",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "K.",
+            "family": "Lee",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6229-7749",
+            "authenticated-orcid": false,
+            "given": "F.",
+            "family": "Biljecki",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>Abstract. Street view imagery (SVI) has gained prominence in the past decade, offering a new perspective to map and understand cities. It supports numerous studies in the built environment, by replacing or supplementing aerial and satellite imagery, where some studies have not yet been possible with traditional platforms and have now been enabled for the first time thanks to the increasing volume of SVI data. However, the two perspectives are often disconnected and there has not been an overarching paper to discuss the pros and cons of each. We provide an overview outlining and discussing the role of SVI in GIS and urban studies spanning six use cases. Our discourse is supported by a systematic literature review of more than 100 papers and our own experiments that reveal the added value and challenges of SVI in extracting information on buildings and other urban features, an increasingly important use case. We find that the key advantages of SVI over aerial imagery are that it represents more closely how streetscapes are perceived by people and that it enables extracting certain information that otherwise cannot be gathered from top-down perspectives. However, the spatial coverage of SVI tends to be limited to the vicinity of driveable roads, and its temporal coverage is comparatively sparse.\n                    </jats:p>"
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              3
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>The goal of street‐to‐aerial cross‐view image geo‐localization is to determine the location of the query street‐view image by retrieving the aerial‐view image from the same place. The drastic viewpoint and appearance gap between the aerial‐view and the street‐view images brings a huge challenge against this task. In this paper, we propose a novel multiscale attention encoder to capture the multiscale contextual information of the aerial/street‐view images. To bridge the domain gap between these two view images, we first use an inverse polar transform to make the street‐view images approximately aligned with the aerial‐view images. Then, the explored multiscale attention encoder is applied to convert the image into feature representation with the guidance of the learnt multiscale information. Finally, we propose a novel global mining strategy to enable the network to pay more attention to hard negative exemplars. Experiments on standard benchmark datasets show that our approach obtains 81.39% top‐1 recall rate on the CVUSA dataset and 71.52% on the CVACT dataset, achieving the state‐of‐the‐art performance and outperforming most of the existing methods significantly.</jats:p>",
+        "DOI": "10.1049/cit2.12077",
+        "title": [
+          "Multi‐scale attention encoder for street‐to‐aerial image geo‐localization"
+        ],
+        "author": [
+          {
+            "given": "Songlian",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing Wuhan University  Wuhan China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5003-2260",
+            "authenticated-orcid": false,
+            "given": "Zhigang",
+            "family": "Tu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing Wuhan University  Wuhan China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yujin",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Informatics Technical University of Munich  Garching Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Tan",
+            "family": "Yu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Baidu USA  Sunnyvale California USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              8
+            ]
+          ]
+        },
+        "container-title": [
+          "CAAI Transactions on Intelligence Technology"
+        ],
+        "ISSN": [
+          "2468-6557",
+          "2468-2322"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              8
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              3
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p><jats:list><jats:list-item><jats:p>Sodium street lights, dominated by long wavelengths of light, are being replaced by broad‐spectrum, white lights globally, in particular light‐emitting diodes (<jats:styled-content style=\"fixed-case\">LED</jats:styled-content>s). These white lights typically require less energy to operate and are therefore considered “eco‐friendly”. However, little attention has been paid to the impacts white lights may have upon local wildlife populations.</jats:p></jats:list-item><jats:list-item><jats:p>We compared insect attraction to orange (high‐pressure sodium,<jats:styled-content style=\"fixed-case\">HPS</jats:styled-content>) and white (metal halide,<jats:styled-content style=\"fixed-case\">MH</jats:styled-content>and<jats:styled-content style=\"fixed-case\">LED</jats:styled-content>) street lights experimentally using portable street lights and custom‐made flight intercept traps.</jats:p></jats:list-item><jats:list-item><jats:p>Significantly more (greater than five times as many) insects were attracted to white<jats:styled-content style=\"fixed-case\">MH</jats:styled-content>street lights than white (4,250 K)<jats:styled-content style=\"fixed-case\">LED</jats:styled-content>and<jats:styled-content style=\"fixed-case\">HPS</jats:styled-content>lights. There was no statistical difference in the numbers of insects attracted to<jats:styled-content style=\"fixed-case\">LED</jats:styled-content>and<jats:styled-content style=\"fixed-case\">HPS</jats:styled-content>lights for most taxa caught. However, rarefaction shows a greater diversity of insects caught at<jats:styled-content style=\"fixed-case\">LED</jats:styled-content>than<jats:styled-content style=\"fixed-case\">HPS</jats:styled-content>lights.</jats:p></jats:list-item><jats:list-item><jats:p><jats:italic>Policy implications</jats:italic>. With the current, large‐scale conversion to white light‐emitting diode (<jats:styled-content style=\"fixed-case\">LED</jats:styled-content>) lighting, our results give insight into how changes to street light technology may affect wildlife populations and communities. We recommend avoiding metal halide light installations as they attract many more insects than competing technologies. We highlight the need to tailor<jats:styled-content style=\"fixed-case\">LED</jats:styled-content>lighting to prevent disturbances across multiple insect taxa.</jats:p></jats:list-item></jats:list></jats:p>",
+        "DOI": "10.1111/1365-2664.13004",
+        "title": [
+          "Quantifying the attractiveness of broad‐spectrum street lights to aerial nocturnal insects"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-2708-2240",
+            "authenticated-orcid": false,
+            "given": "Andrew",
+            "family": "Wakefield",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Biological Sciences University of Bristol Bristol UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Moth",
+            "family": "Broyles",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Biological Sciences University of Bristol Bristol UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Emma L.",
+            "family": "Stone",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Biological Sciences University of Bristol Bristol UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Stephen",
+            "family": "Harris",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Biological Sciences University of Bristol Bristol UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1904-3735",
+            "authenticated-orcid": false,
+            "given": "Gareth",
+            "family": "Jones",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Biological Sciences University of Bristol Bristol UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2017,
+              10,
+              8
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of Applied Ecology"
+        ],
+        "ISSN": [
+          "0021-8901",
+          "1365-2664"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              10,
+              8
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.3390/rs11111259",
+        "title": [
+          "Model Fusion for Building Type Classification from Aerial and Street View Images"
+        ],
+        "container-title": [
+          "Remote Sensing"
+        ],
+        "ISSN": [
+          "2072-4292"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              5,
+              28
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              5,
+              28
+            ]
+          ]
+        },
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-7702-0403",
+            "authenticated-orcid": false,
+            "given": "Eike Jens",
+            "family": "Hoffmann",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Signal Processing in Earth Observation, Technical University of Munich, 80333 Munich, Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0586-9413",
+            "authenticated-orcid": false,
+            "given": "Yuanyuan",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Signal Processing in Earth Observation, Technical University of Munich, 80333 Munich, Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Martin",
+            "family": "Werner",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Remote Sensing Technology Institute, German Aerospace Center, 82234 Weßling, Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6284-3044",
+            "authenticated-orcid": false,
+            "given": "Jian",
+            "family": "Kang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Signal Processing in Earth Observation, Technical University of Munich, 80333 Munich, Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5530-3613",
+            "authenticated-orcid": false,
+            "given": "Xiao Xiang",
+            "family": "Zhu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Signal Processing in Earth Observation, Technical University of Munich, 80333 Munich, Germany"
+              },
+              {
+                "name": "Remote Sensing Technology Institute, German Aerospace Center, 82234 Weßling, Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>This article addresses the question of mapping building functions jointly using both aerial and street view images via deep learning techniques. One of the central challenges here is determining a data fusion strategy that can cope with heterogeneous image modalities. We demonstrate that geometric combinations of the features of such two types of images, especially in an early stage of the convolutional layers, often lead to a destructive effect due to the spatial misalignment of the features. Therefore, we address this problem through a decision-level fusion of a diverse ensemble of models trained from each image type independently. In this way, the significant differences in appearance of aerial and street view images are taken into account. Compared to the common multi-stream end-to-end fusion approaches proposed in the literature, we are able to increase the precision scores from 68% to 76%. Another challenge is that sophisticated classification schemes needed for real applications are highly overlapping and not very well defined without sharp boundaries. As a consequence, classification using machine learning becomes significantly harder. In this work, we choose a highly compact classification scheme with four classes, commercial, residential, public, and industrial because such a classification has a very high value to urban geography being correlated with socio-demographic parameters such as population density and income.</jats:p>"
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              7
+            ]
+          ]
+        },
+        "abstract": "<jats:p>\n                    Urban point cloud datasets are crucial for understanding the depth and physical structure of environmental features. These details hold significance in urban planning, providing precise measurements of the space upon which novel development plans and strategies can be formulated. However, such datasets, when uncategorized, lack information, rendering them much less helpful in utilizing them in urban planning and design projects. This documentation provides a methodical framework to create the\n                    <jats:italic toggle=\"yes\">CITYLID</jats:italic>\n                    dataset, which uses an openly available citywide aerial Lidar dataset, categorizes it with standard urban classes such as buildings, trees, and ground, and fuses with it detailed street features information such as driveways, medians, bikepaths, walkways, and on-street parking. Since the point cloud provides the required height information, shadow maps are also generated utilizing the entire point cloud dataset and further integrated with the point clouds. The resulting dataset includes 3 standard and 5 street feature classes, along with 5 classes representing shadows. Apart from the categorized point cloud dataset, we additionally provide the detailed methodology to generate Lidar categorization and starter codes to extract subsets of point clouds, which can be used to analyze and study urban environments such as street cross-sections, neighborhood comparisons, tree inventory, etc.\n                  </jats:p>",
+        "DOI": "10.1177/23998083241312273",
+        "title": [
+          "CITYLID: A large-scale categorized aerial lidar dataset for street-level research"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-6300-2861",
+            "authenticated-orcid": false,
+            "given": "Deepank",
+            "family": "Verma",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Technische Universität Braunschweig"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6628-7874",
+            "authenticated-orcid": false,
+            "given": "Olaf",
+            "family": "Mumm",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Technische Universität Braunschweig"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0513-9717",
+            "authenticated-orcid": false,
+            "given": "Vanessa Miriam",
+            "family": "Carlow",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Technische Universität Braunschweig"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              4
+            ]
+          ]
+        },
+        "container-title": [
+          "Environment and Planning B: Urban Analytics and City Science"
+        ],
+        "ISSN": [
+          "2399-8083",
+          "2399-8091"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              4
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.5194/isprs-archives-xlii-2-w13-575-2019",
+        "title": [
+          "TRANSLATING AERIAL IMAGES INTO STREET-MAP-LIKE REPRESENTATIONS FOR VISUAL SELF-LOCALIZATION OF UAVS"
+        ],
+        "container-title": [
+          "The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences"
+        ],
+        "ISSN": [
+          "2194-9034"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              6,
+              4
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              6,
+              4
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "M.",
+            "family": "Schleiss",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>Abstract. Unmanned aerial vehicles (UAVs) rely on global navigation satellite systems (GNSS) like the Global Positioning System (GPS) for navigation but GNSS signals can be easily jammed. Therefore, we propose a visual localization method that uses a camera and data from Open Street Maps in order to replace GNSS. First, the aerial imagery from the onboard camera is translated into a map-like representation. Then we match it with a reference map to infer the vehicle’s position. An experiment over a typical sized mission area shows localization accuracy close to commercial GPS. Compared to previous methods ours is applicable to a broader range of scenarios. It can incorporate multiple types of landmarks like roads and buildings and it outputs absolute positions with higher frequency and confidence and can be used at altitudes typical for commercial UAVs. Our results show that the proposed method can serve as a backup to GNSS systems where suitable landmarks are available.\n                    </jats:p>"
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              4
+            ]
+          ]
+        },
+        "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>Environmental soundscapes carry rich ecological and social information, yet remain underutilized in geographic analysis. This study introduces a unified cross‐modal evaluation framework to examine how urban sounds align with visual representations from street‐level and aerial perspectives, and how different visual representation strategies influence this alignment. We integrate geo‐referenced sound recordings from London, New York, and Tokyo with corresponding street‐view and remote‐sensing imagery, applying embedding‐based methods (AST for audio; CLIP and RemoteCLIP for imagery) and segmentation‐based methods (CLIPSeg and Seg‐Earth OV). Results show that embedding‐based models capture stronger semantic alignment between sound and imagery, particularly for street‐level views, while segmentation‐based models, especially from aerial imagery, more effectively reveal interpretable ecological patterns when mapped to Biophony, Geophony, and Anthrophony (BGA) categories. These findings highlight the complementary strengths of embeddings for fine‐grained semantic matching and segmentation for ecological interpretation, offering a reproducible evaluation framework for incorporating sound into multimodal urban sensing.</jats:p>",
+        "DOI": "10.1111/tgis.70246",
+        "title": [
+          "Cross‐Modal Urban Sensing: Evaluating Sound–Vision Alignment Across Street‐Level and Aerial Imagery"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0005-4035-6989",
+            "authenticated-orcid": false,
+            "given": "Pengyu",
+            "family": "Chen",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Geography University of South Carolina  Columbia South Carolina USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4323-382X",
+            "authenticated-orcid": false,
+            "given": "Xiao",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Environmental Sciences Emory University  Atlanta Georgia USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3415-1654",
+            "authenticated-orcid": false,
+            "given": "Teng",
+            "family": "Fei",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Canterbury  Christchurch New Zealand"
+              },
+              {
+                "name": "School of Resource and Environmental Sciences, Wuhan University  Wuhan China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6395-6235",
+            "authenticated-orcid": false,
+            "given": "Sicheng",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Geography University of South Carolina  Columbia South Carolina USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              26
+            ]
+          ]
+        },
+        "container-title": [
+          "Transactions in GIS"
+        ],
+        "ISSN": [
+          "1361-1682",
+          "1467-9671"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              26
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1080/02791072.1980.10471431",
+        "title": [
+          "Street PCP Scene: Issues on Synthesis and Contamination"
+        ],
+        "container-title": [
+          "Journal of Psychedelic Drugs"
+        ],
+        "ISSN": [
+          "0022-393X"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1980,
+              7
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2012,
+              1,
+              19
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1980,
+              7
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Sidney H.",
+            "family": "Schnoll",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1061/(asce)cf.1943-5509.0001185",
+        "title": [
+          "Synthesis of Unmanned Aerial Vehicle Applications for Infrastructures"
+        ],
+        "container-title": [
+          "Journal of Performance of Constructed Facilities"
+        ],
+        "ISSN": [
+          "0887-3828",
+          "1943-5509"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              8
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              8
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Luis",
+            "family": "Duque",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Graduate Student, Dept. of Civil and Environmental Engineering, South Dakota State Univ., Brookings, SD 57006."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Junwon",
+            "family": "Seo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Assistant Professor, Dept. of Civil and Environmental Engineering, South Dakota State Univ., Brookings, SD 57006 (corresponding author)."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "James",
+            "family": "Wacker",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Research Engineer, Forest Service, US Forest Products Lab, One Gifford Pinchot Dr., Madison, WI 53726."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1016/j.cag.2017.11.004",
+        "title": [
+          "Segmentation of aerial images for plausible detail synthesis"
+        ],
+        "container-title": [
+          "Computers &amp; Graphics"
+        ],
+        "ISSN": [
+          "0097-8493"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              4
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              4
+            ]
+          ]
+        },
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-3943-1839",
+            "authenticated-orcid": false,
+            "given": "Oscar",
+            "family": "Argudo",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Marc",
+            "family": "Comino",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Antonio",
+            "family": "Chica",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Carlos",
+            "family": "Andújar",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Felipe",
+            "family": "Lumbreras",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tgrs.2024.3352421",
+        "title": [
+          "ATLoc: Aerial Thermal Images Localization via View Synthesis"
+        ],
+        "container-title": [
+          "IEEE Transactions on Geoscience and Remote Sensing"
+        ],
+        "ISSN": [
+          "0196-2892",
+          "1558-0644"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-5565-8297",
+            "authenticated-orcid": false,
+            "given": "Yuxiang",
+            "family": "Liu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "College of Systems and Engineering, National University of Defense Technology, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Rouwan",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Systems and Engineering, National University of Defense Technology, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1415-5113",
+            "authenticated-orcid": false,
+            "given": "Shen",
+            "family": "Yan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Systems and Engineering, National University of Defense Technology, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xiaoya",
+            "family": "Cheng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Systems and Engineering, National University of Defense Technology, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Juelin",
+            "family": "Zhu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Systems and Engineering, National University of Defense Technology, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3914-1252",
+            "authenticated-orcid": false,
+            "given": "Yu",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Systems and Engineering, National University of Defense Technology, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6748-0545",
+            "authenticated-orcid": false,
+            "given": "Maojun",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Systems and Engineering, National University of Defense Technology, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.18372/2306-1472.52.2347",
+        "title": [
+          "UNMANNED AERIAL VEHICLE WITH SOLAR ENERGY SYSTEM SYNTHESIS"
+        ],
+        "container-title": [
+          "Proceedings of National Aviation University"
+        ],
+        "ISSN": [
+          "2306-1472",
+          "1813-1166"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2012,
+              10,
+              19
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2012,
+              10,
+              19
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "В.М.",
+            "family": "Казак",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "О.К.",
+            "family": "Горбач",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1016/j.apenergy.2022.120542",
+        "title": [
+          "Estimating building energy efficiency from street view imagery, aerial imagery, and land surface temperature data"
+        ],
+        "container-title": [
+          "Applied Energy"
+        ],
+        "ISSN": [
+          "0306-2619"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              3
+            ]
+          ]
+        },
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-5340-2711",
+            "authenticated-orcid": false,
+            "given": "Kevin",
+            "family": "Mayer",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0991-0583",
+            "authenticated-orcid": false,
+            "given": "Lukas",
+            "family": "Haas",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1401-1934",
+            "authenticated-orcid": false,
+            "given": "Tianyuan",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Juan",
+            "family": "Bernabé-Moreno",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ram",
+            "family": "Rajagopal",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Martin",
+            "family": "Fischer",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.3390/su10124365",
+        "title": [
+          "Experimental Study of the Levels of Street Lighting Using Aerial Imagery and Energy Efficiency Calculation"
+        ],
+        "container-title": [
+          "Sustainability"
+        ],
+        "ISSN": [
+          "2071-1050"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              11,
+              23
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2018,
+              11,
+              23
+            ]
+          ]
+        },
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-2766-2103",
+            "authenticated-orcid": false,
+            "given": "Ovidio",
+            "family": "Rabaza",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Civil Engineering, University of Granada, 18071 Granada, Spain"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Evaristo",
+            "family": "Molero-Mesa",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Civil Engineering, University of Granada, 18071 Granada, Spain"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7770-221X",
+            "authenticated-orcid": false,
+            "given": "Fernando",
+            "family": "Aznar-Dols",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Civil Engineering, University of Granada, 18071 Granada, Spain"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6728-0041",
+            "authenticated-orcid": false,
+            "given": "Daniel",
+            "family": "Gómez-Lorente",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Civil Engineering, University of Granada, 18071 Granada, Spain"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>This article describes an innovative method for measuring lighting levels and other lighting parameters through the use of aerial imagery of towns and cities. Combined with electricity consumption data from smart electricity meters, it was possible to measure the energy efficiency of public lighting installations. The results of this study also confirmed that lighting measurements, installation material, luminaire position, and electricity consumption data can be easily integrated into geographic information systems (GIS). The main advantage of this new methodology is that it provides information about lighting installations in large areas in less time than more conventional procedures. It is thus a more effective way of obtaining the data required to calculate the energy efficiency of lighting levels and electricity consumption. There is even the possibility of generating street lighting maps that provide local administrations with up-to-date information regarding the status of public lighting installations in their city. In this way, modifications or improvements can be made to achieve greater energy savings and, if necessary, to correct the distribution or configuration of public lighting systems to make them more efficient and sustainable. This research studied levels of street lighting and calculated the energy efficiency in various streets of Deifontes (Granada), through the use of aerial imagery.</jats:p>"
+      },
+      {
+        "DOI": "10.1109/lra.2022.3187491",
+        "title": [
+          "Danish Airs and Grounds: A Dataset for Aerial-to-Street-Level Place Recognition and Localization"
+        ],
+        "container-title": [
+          "IEEE Robotics and Automation Letters"
+        ],
+        "ISSN": [
+          "2377-3766",
+          "2377-3774"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              10
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              10
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Andrea",
+            "family": "Vallone",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Technical University of Denmark, Lyngby, Denmark"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7602-9334",
+            "authenticated-orcid": false,
+            "given": "Frederik",
+            "family": "Warburg",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Technical University of Denmark, Lyngby, Denmark"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hans",
+            "family": "Hansen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Dansk Drone Kompagni ApS, Roskilde, Denmark"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7223-877X",
+            "authenticated-orcid": false,
+            "given": "Soren",
+            "family": "Hauberg",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Technical University of Denmark, Lyngby, Denmark"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1368-1151",
+            "authenticated-orcid": false,
+            "given": "Javier",
+            "family": "Civera",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "I3A, Universidad de Zaragoza, Zaragoza, Spain"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1371/journal.pone.0282024",
+        "title": [
+          "Pedestrian street behavior mapping using unmanned aerial vehicles. A case study in Santiago de Chile"
+        ],
+        "container-title": [
+          "PLOS ONE"
+        ],
+        "ISSN": [
+          "1932-6203"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              3,
+              29
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              3,
+              29
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Daniel",
+            "family": "Parra-Ovalle",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Carme",
+            "family": "Miralles-Guasch",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7346-5664",
+            "authenticated-orcid": true,
+            "given": "Oriol",
+            "family": "Marquet",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>Objective observation of pedestrian behavior on the street has traditionally been difficult due to intensive commitment of time and resources with spatial analysis of pedestrian locations encountering additional problems. Recently, Unmanned Aerial Vehicles (UAVs) have gained popularity due to the significant improvements they offer over other conventional observation systems, such as their ability to cover larger surface areas in less time. This study tests the performance of UAV-based observation techniques in measuring pedestrian activity in two comparative settings in Santiago de Chile. The study develops an alternative technique adapting the behavioral mapping methodology that allows acquiring information about the people’s activities and the places where they are carried out. In this study a set of streets in the city of Santiago de Chile was selected as a case study, and the reliability of those observations was tested among raters in a population sample. Further, the use of a Geographic Information System (GIS) in the data coding process is detailed and exemplified using some of its spatial analysis tools. The results show high levels of inter-rater reliability in the different categories of recorded data. Finally, we discuss the advantages and limitations in observing pedestrian behavior using this technology and observation technique.</jats:p>"
+      },
+      {
+        "DOI": "10.1109/tpami.2022.3140750",
+        "title": [
+          "Geometry-Guided Street-View Panorama Synthesis From Satellite Imagery"
+        ],
+        "container-title": [
+          "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+        ],
+        "ISSN": [
+          "0162-8828",
+          "2160-9292",
+          "1939-3539"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              12,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              12,
+              1
+            ]
+          ]
+        },
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-6028-9051",
+            "authenticated-orcid": false,
+            "given": "Yujiao",
+            "family": "Shi",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Australian National University, Canberra, ACT, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4717-6850",
+            "authenticated-orcid": false,
+            "given": "Dylan",
+            "family": "Campbell",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Oxford, Oxford, U.K."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0269-5649",
+            "authenticated-orcid": false,
+            "given": "Xin",
+            "family": "Yu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Technology Sydney, Ultimo, NSW, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4125-1554",
+            "authenticated-orcid": false,
+            "given": "Hongdong",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Australian National University, Canberra, ACT, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1061/(asce)cp.1943-5487.0001013",
+        "title": [
+          "Development of a Car-Free Street Mapping Model Using an Integrated System with Unmanned Aerial Vehicles, Aerial Mapping Cameras, and a Deep Learning Algorithm"
+        ],
+        "container-title": [
+          "Journal of Computing in Civil Engineering"
+        ],
+        "ISSN": [
+          "0887-3801",
+          "1943-5487"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              5
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              5
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Seungho",
+            "family": "Lee",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Chief Executive Officer, 4S Mapper, 815 Daewangpangyo, Seongnam, 13449, Republic of Korea; DroMii Co., Ltd., 78 Mapo-daero, Mapo-gu, Seoul, 04168, Republic of Korea."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1819-8022",
+            "authenticated-orcid": true,
+            "given": "Seokhyeon",
+            "family": "Kim",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Assistant Professor, Dept. of Civil Engineering, Kyung Hee Univ., Deogyeong-daero, Yongin, 17104, Republic of Korea. ORCID: ."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Sungkon",
+            "family": "Moon",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Associate Professor, Dept. of Civil Systems Engineering, Ajou Univ., Suwon 16499, Republic of Korea (corresponding author)."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.5860/choice.34-2546",
+        "title": [
+          "The Cities below: the aerial &amp; street atlas of America, version 2.0. (Small blue planet series)"
+        ],
+        "container-title": [
+          "Choice Reviews Online"
+        ],
+        "ISSN": [
+          "0009-4978",
+          "1523-8253"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1997,
+              1,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1997,
+              1,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.21122/2227-1031-2021-20-4-338-344",
+        "title": [
+          "Analytical Synthesis of Control Acceleration of Unmanned Aerial Vehicle"
+        ],
+        "container-title": [
+          "Science &amp; Technique"
+        ],
+        "ISSN": [
+          "2414-0392",
+          "2227-1031"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              7,
+              19
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              7,
+              19
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "A. A.",
+            "family": "Lobaty",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Belarusian National Technical University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "A. Y.",
+            "family": "Bumai",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Belarusian National Technical University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "S. S.",
+            "family": "Prohorovith",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Belarusian National Technical University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>. The problem of analytical synthesis of the control acceleration for an unmanned aerial vehicle (UAV) during its flight along a complex trajectory, consisting of sequentially located horizontal flight sections, located at different heights relative to the earth's surface has been solved in the paper. The problem has been solved as an analytical definition of the  optimal control of a linear non-stationary system for a specified minimized quality functional. The mathematical model  of the system is presented in the form of differential equations of UAV motion in the vertical plane of a fixed coordinate  system related to the earth's surface. A feature of the proposed methodology for solving the problem is the substantiation  of the original form of the minimized functional and parameters included in the law of variation of the control acceleration obtained by known methods. As the components of the quality functional, the values of coordinates and velocity of the UAV are considered and they are specified at the corresponding points in space through which the UAV path must pass, in order  to obtain the optimal curvature of the trajectory. The derived mathematical dependences make it possible to implement them on board of an aircraft and, ultimately, solve the problem of ensuring the minimum energy consumption when controlling  an object (UAV). Computer simulation of the analytically obtained results in the form of the UAV flight trajectory and  the processes of changing its acceleration and speed have shown the efficiency of the proposed technique and the prospects  of its use at the initial stage of the synthesis of the UAV control system.</jats:p>"
+      },
+      {
+        "DOI": "10.1088/1755-1315/1276/1/012033",
+        "title": [
+          "Flood Affected Building Footprints 3D Model from LiDAR and Aerial Photogrammetry (Case Study: Pandugo Street, Surabaya)"
+        ],
+        "container-title": [
+          "IOP Conference Series: Earth and Environmental Science"
+        ],
+        "ISSN": [
+          "1755-1307",
+          "1755-1315"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              1
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Sultan Alifian",
+            "family": "Hapriansyah",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hepi Hapsari",
+            "family": "Handayani",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mahendra Andiek",
+            "family": "Maulana",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Frequent rainfall events in Surabaya occurred due to tall silt within the channel, which prevent water flow and at that point flooding onto the street. Information about the events, including the simulation and prediction are needing accurate visualization to be major consideration for infrastructure and public facilities decision-making. 3D modelling are accurate enough as flood disaster risk management for buildings, using LiDAR and aerial photogrammetry that can provide strong visual representations accurately. DSM and DTM derived from aerial photogrammetry survey are then used to get DSM LiDAR. DSM&amp;DTM from LiDAR was taken in 2016 and DSM&amp;DTM from aerial photogrammetry was taken in 2022. The only objects that are updated are buildings from DSM aerial photogrammetry then applied to DSM LiDAR. Buildings footprint, road network, nDSM, and flood inundation data are then processed to get the 3D Model of buildings and floods. The model are then evaluated by comparing the total of affected buildings with manual methods. Validation on buildings height also performed and results in 0.86233 RMSe that achieved the LOD2 standard. Potential further studies could focus on improving the LOD and considering other parameters such as rainfall data or gutter data.</jats:p>"
+      },
+      {
+        "DOI": "10.1007/s10958-019-04295-w",
+        "title": [
+          "Analytical Synthesis of Aggregated Regulators for Unmanned Aerial Vehicles"
+        ],
+        "container-title": [
+          "Journal of Mathematical Sciences"
+        ],
+        "ISSN": [
+          "1072-3374",
+          "1573-8795"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              4,
+              23
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              4,
+              23
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              5
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "S. L.",
+            "family": "Podvalny",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "E. M.",
+            "family": "Vasiljev",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1016/j.automatica.2007.11.015",
+        "title": [
+          "Antenna array synthesis with clusters of unmanned aerial vehicles"
+        ],
+        "container-title": [
+          "Automatica"
+        ],
+        "ISSN": [
+          "0005-1098"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2008,
+              8
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2008,
+              8
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Ramu S.",
+            "family": "Chandra",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Sean H.",
+            "family": "Breheny",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Raffaello",
+            "family": "D’Andrea",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.64571/ojp.v7i2.68",
+        "title": [
+          "From Downing Street to Wall Street",
+          "Dari Downing Street ke Wall Street"
+        ],
+        "container-title": [
+          "Jurnal Penerjemahan"
+        ],
+        "ISSN": [
+          "3090-8817",
+          "2356-2188"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              12,
+              1
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2020,
+              12,
+              1
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Muhammad",
+            "family": "Adam",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>A place name generally is translated from source text into the target text by preserving it, but when it is used as metonymy, it will need another strategy, as it carries additional contextual references and inferences. The translation of metonymy has been widely discussed from figurative translation method to cognitive approach, all agrees on the cultural context which is embedded in metonymy. This paper aims to propose strategies in translating place name metonymy which is most unlikely to be preserved during translation and to suggest taxonomy of possible result. The translation will adopt strategy from Baker (2011) description on translating non-equivalence at word level. The study is descriptive qualitative. The result shows that the place name metonymy will not be preserved as it is and shall be translated with possible strategies such translation by general words and loan words plus explanation. Thus, the place name metonymy is most likely lost during translation.\r\nKeywords:\r\nMetonymy Translation; Place Name Metonymy; Cultural Context.</jats:p>"
+      },
+      {
+        "DOI": "10.1080/02690055.2026.2578931",
+        "title": [
+          "East Street West Street"
+        ],
+        "container-title": [
+          "Wasafiri"
+        ],
+        "ISSN": [
+          "0269-0055",
+          "1747-1508"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              2
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              18
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              2
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Bharath",
+            "family": "Kumar",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1016/j.dib.2015.11.046",
+        "title": [
+          "Data analysis of “krokodil” samples obtained by street-like synthesis"
+        ],
+        "container-title": [
+          "Data in Brief"
+        ],
+        "ISSN": [
+          "2352-3409"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              3
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "João Filipe",
+            "family": "Neves",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Emanuele Amorim",
+            "family": "Alves",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "José Xavier",
+            "family": "Soares",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Sara Manuela",
+            "family": "Cravo",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Artur M.S.",
+            "family": "Silva",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Annibal Duarte",
+            "family": "Pereira Netto",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Félix",
+            "family": "Carvalho",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Ricardo Jorge",
+            "family": "Dinis-Oliveira",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Carlos Manuel",
+            "family": "Afonso",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1017/s1754201400075871",
+        "title": [
+          "No. 4. Aerial A.B.C. and Commercial Air-Line Gazetteer. February-April, 1929. (4 Duke Street, W.C . 2.)"
+        ],
+        "container-title": [
+          "Blackfriars"
+        ],
+        "ISSN": [
+          "1754-2014",
+          "2977-0580"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1929,
+              6
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              28
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1929,
+              6
+            ]
+          ]
+        },
+        "author": [
+          {
+            "family": "N.H.",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1016/j.patrec.2025.03.012",
+        "title": [
+          "GazeViT: A gaze-guided hybrid attention vision transformer for cross-view matching of street-to-aerial images"
+        ],
+        "container-title": [
+          "Pattern Recognition Letters"
+        ],
+        "ISSN": [
+          "0167-8655"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              5
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              5
+            ]
+          ]
+        },
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0005-6723-2951",
+            "authenticated-orcid": false,
+            "given": "Yidong",
+            "family": "Hu",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4197-7999",
+            "authenticated-orcid": false,
+            "given": "Li",
+            "family": "Tong",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yuanlong",
+            "family": "Gao",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ying",
+            "family": "Zeng",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Bin",
+            "family": "Yan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zhongrui",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.3917/sm.075.0019",
+        "title": [
+          "Optimal synthesis versus dynamic analysis for an acrobatic aerial movement"
+        ],
+        "container-title": [
+          "Movement &amp; Sport Sciences"
+        ],
+        "ISSN": [
+          "2118-5735",
+          "2118-5743"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2012
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2012
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Fabien",
+            "family": "Leboeuf",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Pascal",
+            "family": "Seguin",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Patrick",
+            "family": "Lacouture",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1016/j.ifacol.2018.05.016",
+        "title": [
+          "Synthesis of Optimal Trajectories in Aerial Engagements using Differential Evolution"
+        ],
+        "container-title": [
+          "IFAC-PapersOnLine"
+        ],
+        "ISSN": [
+          "2405-8963"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Pranay",
+            "family": "Thangeda",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Arya K.",
+            "family": "Bhattacharya",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Rajeswary",
+            "family": "Gopal",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "R.G. Ashok",
+            "family": "Kumar",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1016/j.cviu.2025.104561",
+        "title": [
+          "STARS: Semantics-Aware Text-guided Aerial Image Refinement and Synthesis"
+        ],
+        "container-title": [
+          "Computer Vision and Image Understanding"
+        ],
+        "ISSN": [
+          "1077-3142"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Douglas",
+            "family": "Townsell",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1550-6170",
+            "authenticated-orcid": false,
+            "given": "Lingwei",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1973-2909",
+            "authenticated-orcid": false,
+            "given": "Mimi",
+            "family": "Xie",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Chen",
+            "family": "Pan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6087-5202",
+            "authenticated-orcid": false,
+            "given": "Wen",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.18372/2310-5461.11.5264",
+        "title": [
+          "METHODS OF SYNTHESIS ENERGY SUPPLY ELECTIC ENGINE UNMANNED AERIAL VEHICLE"
+        ],
+        "container-title": [
+          "Science-based technologies"
+        ],
+        "ISSN": [
+          "2310-5461",
+          "2075-0781"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              11,
+              24
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2011,
+              11,
+              24
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "В.",
+            "family": "Казак",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "О.",
+            "family": "Горбач",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "items-per-page": 40,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

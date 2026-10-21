@@ -1,0 +1,106 @@
+[
+  {
+    "title": "EscherNet: A Generative Model for Scalable View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Kong_EscherNet_A_Generative_Model_for_Scalable_View_Synthesis_CVPR_2024_paper.html"
+  },
+  {
+    "title": "DiffPortrait3D: Controllable Diffusion for Zero-Shot Portrait View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Gu_DiffPortrait3D_Controllable_Diffusion_for_Zero-Shot_Portrait_View_Synthesis_CVPR_2024_paper.html"
+  },
+  {
+    "title": "DART: Implicit Doppler Tomography for Radar Novel View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Huang_DART_Implicit_Doppler_Tomography_for_Radar_Novel_View_Synthesis_CVPR_2024_paper.html"
+  },
+  {
+    "title": "MultiDiff: Consistent Novel View Synthesis from a Single Image",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Muller_MultiDiff_Consistent_Novel_View_Synthesis_from_a_Single_Image_CVPR_2024_paper.html"
+  },
+  {
+    "title": "ZeroNVS: Zero-Shot 360-Degree View Synthesis from a Single Image",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Sargent_ZeroNVS_Zero-Shot_360-Degree_View_Synthesis_from_a_Single_Image_CVPR_2024_paper.html"
+  },
+  {
+    "title": "NViST: In the Wild New View Synthesis from a Single Image with Transformers",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Jang_NViST_In_the_Wild_New_View_Synthesis_from_a_Single_CVPR_2024_paper.html"
+  },
+  {
+    "title": "3D Geometry-Aware Deformable Gaussian Splatting for Dynamic View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Lu_3D_Geometry-Aware_Deformable_Gaussian_Splatting_for_Dynamic_View_Synthesis_CVPR_2024_paper.html"
+  },
+  {
+    "title": "InstaGen: Enhancing Object Detection by Training on Synthetic Dataset",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Feng_InstaGen_Enhancing_Object_Detection_by_Training_on_Synthetic_Dataset_CVPR_2024_paper.html"
+  },
+  {
+    "title": "EgoGen: An Egocentric Synthetic Data Generator",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Li_EgoGen_An_Egocentric_Synthetic_Data_Generator_CVPR_2024_paper.html"
+  },
+  {
+    "title": "Portrait4D: Learning One-Shot 4D Head Avatar Synthesis using Synthetic Data",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Deng_Portrait4D_Learning_One-Shot_4D_Head_Avatar_Synthesis_using_Synthetic_Data_CVPR_2024_paper.html"
+  },
+  {
+    "title": "EpiDiff: Enhancing Multi-View Synthesis via Localized Epipolar-Constrained Diffusion",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Huang_EpiDiff_Enhancing_Multi-View_Synthesis_via_Localized_Epipolar-Constrained_Diffusion_CVPR_2024_paper.html"
+  },
+  {
+    "title": "Unifying Correspondence Pose and NeRF for Generalized Pose-Free Novel View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Hong_Unifying_Correspondence_Pose_and_NeRF_for_Generalized_Pose-Free_Novel_View_CVPR_2024_paper.html"
+  },
+  {
+    "title": "Generalizable Novel-View Synthesis using a Stereo Camera",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Lee_Generalizable_Novel-View_Synthesis_using_a_Stereo_Camera_CVPR_2024_paper.html"
+  },
+  {
+    "title": "ViVid-1-to-3: Novel View Synthesis with Video Diffusion Models",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Kwak_ViVid-1-to-3_Novel_View_Synthesis_with_Video_Diffusion_Models_CVPR_2024_paper.html"
+  },
+  {
+    "title": "Free3D: Consistent Novel View Synthesis without 3D Representation",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Zheng_Free3D_Consistent_Novel_View_Synthesis_without_3D_Representation_CVPR_2024_paper.html"
+  },
+  {
+    "title": "NeLF-Pro: Neural Light Field Probes for Multi-Scale Novel View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/You_NeLF-Pro_Neural_Light_Field_Probes_for_Multi-Scale_Novel_View_Synthesis_CVPR_2024_paper.html"
+  },
+  {
+    "title": "Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Niedermayr_Compressed_3D_Gaussian_Splatting_for_Accelerated_Novel_View_Synthesis_CVPR_2024_paper.html"
+  },
+  {
+    "title": "En3D: An Enhanced Generative Model for Sculpting 3D Humans from 2D Synthetic Data",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Men_En3D_An_Enhanced_Generative_Model_for_Sculpting_3D_Humans_from_CVPR_2024_paper.html"
+  },
+  {
+    "title": "GPS-Gaussian: Generalizable Pixel-wise 3D Gaussian Splatting for Real-time Human Novel View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Zheng_GPS-Gaussian_Generalizable_Pixel-wise_3D_Gaussian_Splatting_for_Real-time_Human_Novel_CVPR_2024_paper.html"
+  },
+  {
+    "title": "WinSyn: : A High Resolution Testbed for Synthetic Data",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Kelly_WinSyn__A_High_Resolution_Testbed_for_Synthetic_Data_CVPR_2024_paper.html"
+  },
+  {
+    "title": "Is Vanilla MLP in Neural Radiance Field Enough for Few-shot View Synthesis?",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Zhu_Is_Vanilla_MLP_in_Neural_Radiance_Field_Enough_for_Few-shot_CVPR_2024_paper.html"
+  },
+  {
+    "title": "G-NeRF: Geometry-enhanced Novel View Synthesis from Single-View Images",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Huang_G-NeRF_Geometry-enhanced_Novel_View_Synthesis_from_Single-View_Images_CVPR_2024_paper.html"
+  },
+  {
+    "title": "XScale-NVS: Cross-Scale Novel View Synthesis with Hash Featurized Manifold",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Wang_XScale-NVS_Cross-Scale_Novel_View_Synthesis_with_Hash_Featurized_Manifold_CVPR_2024_paper.html"
+  },
+  {
+    "title": "Novel View Synthesis with View-Dependent Effects from a Single Image",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Bello_Novel_View_Synthesis_with_View-Dependent_Effects_from_a_Single_Image_CVPR_2024_paper.html"
+  },
+  {
+    "title": "4K4D: Real-Time 4D View Synthesis at 4K Resolution",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Xu_4K4D_Real-Time_4D_View_Synthesis_at_4K_Resolution_CVPR_2024_paper.html"
+  },
+  {
+    "title": "Spacetime Gaussian Feature Splatting for Real-Time Dynamic View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Li_Spacetime_Gaussian_Feature_Splatting_for_Real-Time_Dynamic_View_Synthesis_CVPR_2024_paper.html"
+  }
+]

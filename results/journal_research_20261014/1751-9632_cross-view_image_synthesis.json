@@ -1,0 +1,2087 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 230,
+    "items": [
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              10
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    Despite the impressive progress in visual localisation, 6‐DoF cross‐view localisation is still a challenging task in the computer vision community due to the huge appearance changes. To address this issue, the authors propose the CLaSP, a coarse‐to‐fine framework, which leverages a synthetic panorama to facilitate cross‐view 6‐DoF localisation in a large‐scale scene. The authors first leverage a segmentation map to correct the prior pose, followed by a synthetic panorama on the ground to enable coarse pose estimation combined with a template matching method. The authors finally formulate the refine localisation process as feature matching and pose refinement to obtain the final result. The authors evaluate the performance of the CLaSP and several state‐of‐the‐art baselines on the\n                    <jats:italic>Airloc</jats:italic>\n                    dataset, which demonstrates the effectiveness of our proposed framework.\n                  </jats:p>",
+        "DOI": "10.1049/cvi2.12285",
+        "title": [
+          "CLaSP: Cross‐view 6‐DoF localisation assisted by synthetic panorama"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-6968-1244",
+            "authenticated-orcid": false,
+            "given": "Juelin",
+            "family": "Zhu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "College of System Engineering National University of Defense Technology  Changsha Hunan Province China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1415-5113",
+            "authenticated-orcid": false,
+            "given": "Shen",
+            "family": "Yan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of System Engineering National University of Defense Technology  Changsha Hunan Province China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Xiaoya",
+            "family": "Cheng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of System Engineering National University of Defense Technology  Changsha Hunan Province China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Rouwan",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of System Engineering National University of Defense Technology  Changsha Hunan Province China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yuxiang",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of System Engineering National University of Defense Technology  Changsha Hunan Province China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Maojun",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of System Engineering National University of Defense Technology  Changsha Hunan Province China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              13
+            ]
+          ]
+        },
+        "container-title": [
+          "IET Computer Vision"
+        ],
+        "link": [
+          {
+            "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/cvi2.12285",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1049/cvi2.12285",
+        "ISSN": [
+          "1751-9632",
+          "1751-9640"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              13
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2015,
+              8
+            ]
+          ]
+        },
+        "abstract": "<jats:p>View variation is a major challenge in face recognition. In this study, the authors propose a novel cross‐view face recognition method by seeking potential intermediate domains between the source and target views to model the connection of varying‐views faces. Specifically, each intermediate domain is associated with a dictionary subspace. Learning proceeds in two phases. First, the authors discriminatively train a sub‐dictionary for each subclass of data, which then compose a structured dictionary of powerful reconstructive and discriminative capability on the source data. Secondly, the authors gradually adapt the source domain dictionary to the target domain by incrementally reducing the reconstruction error on the target data, which forms a smooth transition path connecting the source and target domains. Instead of updating the structured dictionary integrally, the authors develop a refined sub‐dictionary‐based updating algorithm, which makes the intermediate dictionaries fit on the target data better and faster. Finally, the authors apply invariant sparse codes across the source, intermediate and target domains to render domain‐shared representations, where the sample differences caused by view changes are reduced. Experiments on the CMU‐PIE and Multi‐PIE dataset demonstrate the effectiveness of the proposed method.</jats:p>",
+        "DOI": "10.1049/iet-cvi.2014.0092",
+        "title": [
+          "Cross‐view face recognition via structured dictionary based domain shift"
+        ],
+        "author": [
+          {
+            "given": "Xue",
+            "family": "Chen",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Management and Control of Complex Systems CASIA Beijing People's Republic of China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Chunheng",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Management and Control of Complex Systems CASIA Beijing People's Republic of China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Baihua",
+            "family": "Xiao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Management and Control of Complex Systems CASIA Beijing People's Republic of China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Xinyuan",
+            "family": "Cai",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Management and Control of Complex Systems CASIA Beijing People's Republic of China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2015,
+              8
+            ]
+          ]
+        },
+        "container-title": [
+          "IET Computer Vision"
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1049/iet-cvi.2014.0092",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1049/iet-cvi.2014.0092",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/iet-cvi.2014.0092",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1049/iet-cvi.2014.0092",
+        "ISSN": [
+          "1751-9632",
+          "1751-9640"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              8
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              1
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Due to its fast computational speed and low storage cost, hashing has been effectively applied to large‐scale multimedia retrieval tasks, such as medical video and security video retrieval. Most existing cross‐view hashing methods require good matching information, however, this exact pairing relationship is difficult to fully realise in practice. The association between views is incomplete, as is the label information. This task of missing paired and labelled information is very challenging, but less explored in research. In this study, a semi‐supervised semi‐paired deep hashing for large‐scale data is proposed, named Semi‐Paired Semi‐Supervised Deep Hashing (SPSDH) to solve this challenging task. SPSDH is a novel end‐to‐end deep neural network model with high‐order affinity. A non‐local higher‐order affinity measure that better considers the multimodal neighbourhood structure is proposed. A common representation to associate different modalities is introduced, which combined with the labelled information greatly maintains the consistency within the modalities. SPSDH is evaluated on three benchmark datasets for large‐scale cross‐view approximate nearest neighbour search and compared with several state‐of‐the‐art hashing methods. Extensive experimental results demonstrate the superior performance of our proposed SPSDH in semi‐supervised semi‐paired retrieval tasks.</jats:p>",
+        "DOI": "10.1049/cvi2.12153",
+        "title": [
+          "Semi‐Paired Semi‐Supervised Deep Hashing for cross‐view retrieval"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-2578-7693",
+            "authenticated-orcid": false,
+            "given": "Yi",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Engineering Nanjing University of Science and Technology  Nanjing China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Xiaobo",
+            "family": "Shen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Engineering Nanjing University of Science and Technology  Nanjing China"
+              },
+              {
+                "name": "Key Laboratory of Computer Network and Information Integration (Southeast University) Ministry of Education  Nanjing China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Zhenmin",
+            "family": "Tang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Engineering Nanjing University of Science and Technology  Nanjing China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Ming",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Jiangsu Expressway Company Limited  Nanjing China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              10,
+              26
+            ]
+          ]
+        },
+        "container-title": [
+          "IET Computer Vision"
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1049/cvi2.12153",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1049/cvi2.12153",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/cvi2.12153",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1049/cvi2.12153",
+        "ISSN": [
+          "1751-9632",
+          "1751-9640"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              10,
+              26
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2014,
+              12
+            ]
+          ]
+        },
+        "abstract": "<jats:p>The authors present a new technique to generate highly detailed three‐dimensional facial models from the images of a human face. Unlike the traditional stereo matching‐based multi‐view geometry and statistical model‐based approaches, the key idea of the proposed approach is to deform a template model using photometric consistency metric defined by all input images. The image‐based facial deformation as a continuous optimisation problem is formulated. The objective function ensures the deformed surface model not only matches the image measurement among all the input images but also keeps the fine details of the template model. Also, an efficient gradient‐based optimisation technique is employed to find an optimal facial model that precisely matches an individual's face in input images. Template‐based deformation avoids the difficulty because of occlusion in images, and the robust estimation technique also improve the quality of facial reconstruction. The experimental results using synthetic and real images show that the proposed method provides a stable and quality facial reconstruction on wide‐baseline images.</jats:p>",
+        "DOI": "10.1049/iet-cvi.2013.0188",
+        "title": [
+          "Image‐based surface deformation for multi‐view three‐dimensional facial reconstruction"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-2088-829X",
+            "authenticated-orcid": false,
+            "given": "Hongwei",
+            "family": "Dong",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "The Computer Graphics &amp; Vision Laboratory Jiangnan University Wuxi Jiangsu 214122 People's Republic of China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Shuhui",
+            "family": "Dong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Economics and Management Huaiyin Normal University Huaian Jiangsu 223301 People's Republic of China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2014,
+              12
+            ]
+          ]
+        },
+        "container-title": [
+          "IET Computer Vision"
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1049/iet-cvi.2013.0188",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1049/iet-cvi.2013.0188",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/iet-cvi.2013.0188",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1049/iet-cvi.2013.0188",
+        "ISSN": [
+          "1751-9632",
+          "1751-9640"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              12
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              3
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Spatial–spectral representation plays an important role in hyperspectral images (HSIs) classification. However, many of the existing local feature algorithms for HSIs are based on the two‐dimensional image and do not take full advantage of the information hidden in HSI, such as spatial–spectral locality correlation information, thereby reducing the robustness of these algorithms. In response to these problems, this study presents a robust multi‐view spatial–spectral representation method with the characteristics of HSIs. There are two key techniques in this representation method, called spatial–spectral locality constrained linear coding (SSLLC) and spatial–spectral pyramid matching model (SSPM). Firstly, SSLLC applies the locality information of the feature points and visual words and uses the discriminant information provided by the nearest‐neighbouring spatial–spectral feature points in HSIs. Secondly, SSPM works by partitioning the image into increasingly fine sub‐cubes and uses the cubes to match the local features of the HSIs. The multi‐view representation is tolerant to illumination change, image rotation, affine distortion etc. To assess the validity of authors' algorithm, the authors compared their results with several existing approaches, including a deep learning method. The experimental results show that this representation method can effectively improve the accuracy of HSIs classification.</jats:p>",
+        "DOI": "10.1049/iet-cvi.2018.5112",
+        "title": [
+          "Robust multi‐view representation for spatial–spectral domain in application of hyperspectral image classification"
+        ],
+        "author": [
+          {
+            "given": "Yanshan",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "ATR National Key Laboratory of Defense Technology Shenzhen University Shenzhen People's Republic of China"
+              },
+              {
+                "name": "Guangdong Key Laboratory of Intelligent Information Processing College of Information Engineering, Shenzhen University Shenzhen People's Republic of China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8075-2370",
+            "authenticated-orcid": false,
+            "given": "Xianchen",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "ATR National Key Laboratory of Defense Technology Shenzhen University Shenzhen People's Republic of China"
+              },
+              {
+                "name": "School of Electronic and Communication Engineering Shenzhen Polytechnic Shenzhen People's Republic of China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1080-6940",
+            "authenticated-orcid": false,
+            "given": "Qinghua",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "The School of Mechanical Engineering, and Center for OPTical IMagery Analysis and Learning (OPTIMAL) Northwestern Polytechnical University People's Republic of China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Xiaohui",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Physics and Telecommunication Engineering South China Normal University Guangzhou People's Republic of China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Weixin",
+            "family": "Xie",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "ATR National Key Laboratory of Defense Technology Shenzhen University Shenzhen People's Republic of China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2018,
+              11,
+              23
+            ]
+          ]
+        },
+        "container-title": [
+          "IET Computer Vision"
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1049/iet-cvi.2018.5112",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1049/iet-cvi.2018.5112",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/iet-cvi.2018.5112",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1049/iet-cvi.2018.5112",
+        "ISSN": [
+          "1751-9632",
+          "1751-9640"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              11,
+              23
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              10
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>High‐performance convolutional neural networks (CNNs) stack many convolutional layers to obtain powerful feature extraction capability, which leads to huge storing and computational costs. The authors focus on lightweight models for hyperspectral image (HSI) classification, so a novel lightweight criss‐cross large kernel convolutional neural network (LiteCCLKNet) is proposed. Specifically, a lightweight module containing two 1D convolutions with self‐attention mechanisms in orthogonal directions is presented. By setting large kernels within the 1D convolutional layers, the proposed module can efficiently aggregate long‐range contextual features. In addition, the authors effectively obtain a global receptive field by stacking only two of the proposed modules. Compared with traditional lightweight CNNs, LiteCCLKNet reduces the number of parameters for easy deployment to resource‐limited platforms. Experimental results on three HSI datasets demonstrate that the proposed LiteCCLKNet outperforms the previous lightweight CNNs and has higher storage efficiency.</jats:p>",
+        "DOI": "10.1049/cvi2.12218",
+        "title": [
+          "LiteCCLKNet: A lightweight criss‐cross large kernel convolutional neural network for hyperspectral image classification"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-3149-3330",
+            "authenticated-orcid": false,
+            "given": "Chengcheng",
+            "family": "Zhong",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Science China University of Geosciences  Beijing China"
+              },
+              {
+                "name": "College of Information and Electrical Engineering China Agricultural University  Beijing China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Na",
+            "family": "Gong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Continuing Education Yantai Engineering &amp; Technology College  Yantai China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Zitong",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Earth Sciences and Resources China University of Geosciences  Beijing China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yanan",
+            "family": "Jiang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Mathematical Sciences Beijing Normal University  Beijing China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Kai",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Information and Electrical Engineering China Agricultural University  Beijing China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              24
+            ]
+          ]
+        },
+        "container-title": [
+          "IET Computer Vision"
+        ],
+        "link": [
+          {
+            "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/cvi2.12218",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1049/cvi2.12218",
+        "ISSN": [
+          "1751-9632",
+          "1751-9640"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              24
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              4
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Unsupervised cross‐domain pedestrian detection has attracted attention in recent years. Although some works adopted unsupervised image translation frameworks to generate an intermediate domain to narrow the gap between source and target domains, the images in the intermediate domain tend to be distorted due to the instability of the generation network. In this work, we propose a new framework to improve the image quality of the generated intermediate domain via an end‐to‐end translation framework. First, an image quality assessment index is adopted and adjusted appropriately. The part that controls the image quality is kept, and the part that adversely affects the domain style translation is discarded. Secondly, the adjusted image quality assessment index is integrated into the unsupervised image translation framework, where a new loss with the index's weight is proposed. An end‐to‐end high‐quality‐awareness image translation framework is constructed to generate a high‐quality intermediate domain directly through this process. Finally, the intermediate domain with high‐quality images is applied for cross‐domain pedestrian detection. Experimental results on benchmark datasets show that the proposed framework can effectively improve unsupervised cross‐domain pedestrian detection performance. Compared with some state‐of‐the‐art works, the proposed framework can also achieve superior performance under miss rate metrics.</jats:p>",
+        "DOI": "10.1049/cvi2.12081",
+        "title": [
+          "HQA‐Trans: An end‐to‐end high‐quality‐awareness image translation framework for unsupervised cross‐domain pedestrian detection"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-9293-7682",
+            "authenticated-orcid": false,
+            "given": "Gelin",
+            "family": "Shen",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "College of Intelligence Science and Technology National University of Defense Technology  Changsha Hunan China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yang",
+            "family": "Yu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Intelligence Science and Technology National University of Defense Technology  Changsha Hunan China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zhi‐Ri",
+            "family": "Tang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Physics and Technology Wuhan University  Wuhan Hubei China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Haoqiang",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Intelligence Science and Technology National University of Defense Technology  Changsha Hunan China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zongtan",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Intelligence Science and Technology National University of Defense Technology  Changsha Hunan China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              11,
+              14
+            ]
+          ]
+        },
+        "container-title": [
+          "IET Computer Vision"
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1049/cvi2.12081",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1049/cvi2.12081",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/cvi2.12081",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1049/cvi2.12081",
+        "ISSN": [
+          "1751-9632",
+          "1751-9640"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              11,
+              14
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              1
+            ]
+          ]
+        },
+        "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>\n                    Automated plant traits recognition from herbarium images is essential for plant sciences, yet it remains challenging because background elements (e.g., textual labels, mounting artefacts and colour charts) can introduce shortcut learning, leading models to rely on spurious nonplant cues rather than plant morphology. This bias degrades both generalisation and interpretability. In this paper, we introduce\n                    <jats:bold>AT‐ViT</jats:bold>\n                    , a dual‐branch vision transformer that jointly encodes raw herbarium scans and their segmented‐derived counterparts via a multi‐scale, multi‐view cross‐attention fusion scheme. AT‐ViT further incorporates a mask‐guided patch weighting mechanism that amplifies plant‐relevant regions and attenuates background‐driven features. By learning from the original scans while being guided by segmentation masks through the mask‐guided patch reweighting mechanism, the model is encouraged to focus on plant organs and learn plant‐centric representations more effectively. Across multiple trait classification tasks (e.g., leaf base shape, thorns), AT‐ViT delivers consistent accuracy gains, improves attention localisation on plant regions and exhibits increased robustness under synthetic background perturbations. Specifically, AT‐ViT substantially improves spatial attention grounding, boosting plant‐region alignment (Avg IoU_p: +15.66 to +18.03 pp) while reducing background overlap (Avg IoU_b: −27.92 to −31.02 pp) relative to CrossViT, and remains markedly more robust to background perturbations, outperforming ResNet101 by up to +32.32 accuracy points and CrossViT by up to +5.07 points under background‐noise conditions.\n                  </jats:p>",
+        "DOI": "10.1049/cvi2.70059",
+        "title": [
+          "AT‐ViT: Area‐Targeted Multi‐View Vision Transformer With Cross‐Attention and Multi‐Scale Patching for Plant Trait Recognition in Herbarium Images"
+        ],
+        "author": [
+          {
+            "given": "Amani",
+            "family": "Sedrat",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Laboratoire LITAN École Supérieure en Sciences et Technologies de l’Informatique et du Numérique RN 75  Béjaïa Algeria"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Takieddine",
+            "family": "Chehhat",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Laboratoire LITAN École Supérieure en Sciences et Technologies de l’Informatique et du Numérique RN 75  Béjaïa Algeria"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7045-9402",
+            "authenticated-orcid": false,
+            "given": "Youcef",
+            "family": "Sklab",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "UMMISCO IRD Sorbonne Université  Paris France"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Hanane",
+            "family": "Ariouat",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Arts et Metiers Institute of Technology, EPF Engineering School, Université Sorbonne Paris Nord IBHGC–Institut de Biomécanique Humaine Georges Charpak  Paris France"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Abderrazak",
+            "family": "Sebaa",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Laboratoire LITAN École Supérieure en Sciences et Technologies de l’Informatique et du Numérique RN 75  Béjaïa Algeria"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Eric",
+            "family": "Chenin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "UMMISCO IRD Sorbonne Université  Paris France"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Jean‐Daniel",
+            "family": "Zucker",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "UMMISCO IRD Sorbonne Université  Paris France"
+              },
+              {
+                "name": "Sorbonne Université, INSERM, Nutrition et Obesities Systemic Approaches, NutriOmique, AP‐HP Hôpital Pitié‐Salpêtrière  Paris France"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Edi",
+            "family": "Prifti",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "UMMISCO IRD Sorbonne Université  Paris France"
+              },
+              {
+                "name": "Sorbonne Université, INSERM, Nutrition et Obesities Systemic Approaches, NutriOmique, AP‐HP Hôpital Pitié‐Salpêtrière  Paris France"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              14
+            ]
+          ]
+        },
+        "container-title": [
+          "IET Computer Vision"
+        ],
+        "link": [
+          {
+            "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/cvi2.70059",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/full-xml/10.1049/cvi2.70059",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/cvi2.70059",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1049/cvi2.70059",
+        "ISSN": [
+          "1751-9632",
+          "1751-9640"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              1
+            ]
+          ]
+        },
+        "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>The Diffusion Probabilistic Model (DM) has emerged as a powerful generative model in the field of image synthesis, capable of producing high‐quality and realistic images. However, training DM requires a large and diverse dataset, which can be challenging to obtain. This limitation weakens the model's generalisation and robustness when training data is limited. To address this issue, EDG‐CDM, an innovative encoder‐guided conditional diffusion model was proposed for image synthesis with limited data. Firstly, the authors pre‐train the encoder by introducing noise to capture the distribution of image features and generate the condition vector through contrastive learning and KL divergence. Next, the encoder undergoes further training with classification to integrate image class information, providing more favourable and versatile conditions for the diffusion model. Subsequently, the encoder is connected to the diffusion model, which is trained using all available data with encoder‐provided conditions. Finally, the authors evaluate EDG‐CDM on various public datasets with limited data, conducting extensive experiments and comparing our results with state‐of‐the‐art methods using metrics such as Fréchet Inception Distance and Inception Score. Our experiments demonstrate that EDG‐CDM outperforms existing models by consistently achieving the lowest FID scores and the highest IS scores, highlighting its effectiveness in generating high‐quality and diverse images with limited training data. These results underscore the significance of EDG‐CDM in advancing image synthesis techniques under data‐constrained scenarios.</jats:p>",
+        "DOI": "10.1049/cvi2.70018",
+        "title": [
+          "EDG‐CDM: A New Encoder‐Guided Conditional Diffusion Model‐Based Image Synthesis Method for Limited Data"
+        ],
+        "author": [
+          {
+            "given": "Haopeng",
+            "family": "Lei",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Computer and Information Engineering Jiangxi Normal University  Nanchang China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0008-4514-8638",
+            "authenticated-orcid": false,
+            "given": "Hao",
+            "family": "Yin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer and Information Engineering Jiangxi Normal University  Nanchang China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Kaijun",
+            "family": "Liang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Yuquan School of Huangpu District  Guangzhou China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Mingwen",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer and Information Engineering Jiangxi Normal University  Nanchang China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Jinshan",
+            "family": "Zeng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer and Information Engineering Jiangxi Normal University  Nanchang China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Guoliang",
+            "family": "Luo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Virtual Reality and Interactive Techniques Institute East China Jiaotong University  Nanchang China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              8
+            ]
+          ]
+        },
+        "container-title": [
+          "IET Computer Vision"
+        ],
+        "link": [
+          {
+            "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/cvi2.70018",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1049/cvi2.70018",
+        "ISSN": [
+          "1751-9632",
+          "1751-9640"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              1
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>With the advantage of exploiting complementary and consensus information across multiple views, techniques for Multi‐view Clustering have attracted increasing attention in recent years. However, it is common that data on some views is not completed in real‐world applications, which brings the challenge of partial mapping between the views. To explore the information hidden in the local geometric structure and recover missing instances through mining the information hidden in existing instances, a self‐inferring incomplete multi‐view clustering algorithm is proposed. Firstly, the incomplete multi‐view data is replenished directly and exploited as variables for inferring the missing instances. And then, a feature graph constraint is united in consensus learning. Besides, a similarity graph learning method is imposed to preserve the local manifold structure. At last, the inferred instances are filled in the missing instances for learning better consensus representation in the iterative process. Extensive experiment results show that this method can improve the clustering performance compared with the state‐of‐the‐art methods.</jats:p>",
+        "DOI": "10.1049/cvi2.12152",
+        "title": [
+          "Self‐inferring incomplete multi‐view clustering"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-5306-7258",
+            "authenticated-orcid": false,
+            "given": "Junjun",
+            "family": "Fan",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Shenzhen University  Shenzhen Guangdong China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5449-7196",
+            "authenticated-orcid": false,
+            "given": "ZeQi",
+            "family": "Ma",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shenzhen University  Shenzhen Guangdong China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1688-2541",
+            "authenticated-orcid": false,
+            "given": "Jiajun",
+            "family": "Wen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shenzhen University  Shenzhen Guangdong China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Zhihui",
+            "family": "Lai",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shenzhen University  Shenzhen Guangdong China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Weicheng",
+            "family": "Xie",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shenzhen University  Shenzhen Guangdong China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Wai Keung",
+            "family": "Wong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "The Hong Kong Polytechnic University  Hong Kong Hong Kong"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              11,
+              8
+            ]
+          ]
+        },
+        "container-title": [
+          "IET Computer Vision"
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1049/cvi2.12152",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1049/cvi2.12152",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/cvi2.12152",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1049/cvi2.12152",
+        "ISSN": [
+          "1751-9632",
+          "1751-9640"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              11,
+              8
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              2
+            ]
+          ]
+        },
+        "abstract": "<jats:p>This study presents an adaptive segmentation method for pre‐processing input data to the patch‐based multi‐view stereo algorithm. A specially developed greyscale transformation is applied to the input image data, thus redefining the intensity histogram. The Nelder–Mead simplex method is used to adaptively locate an optimised segmentation threshold point in the modified histogram. The transformed input image is then segmented using the acquired threshold value, into foreground and background data. The segmentation information acquired is applied to the initial feature extraction and the cyclic patch‐expansion procedure to constrain the reconstruction to a three‐dimensional visibility space that excludes background artefacts. The method is targeted at segmenting out potentially disruptive data and is able to realise a reduction in cumulative error of the reconstruction process and thus improve the final reconstruction. With this method, the authors obtain results that are relatively similar to the original patch‐based method, but with reduced time and space complexity.</jats:p>",
+        "DOI": "10.1049/iet-cvi.2015.0446",
+        "title": [
+          "Adaptive segmentation for multi‐view stereo"
+        ],
+        "author": [
+          {
+            "given": "Ray",
+            "family": "Khuboni",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Engineering Howard College University of KwaZulu‐Natal Durban 4041 South Africa"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Bashan",
+            "family": "Naidoo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Engineering Howard College University of KwaZulu‐Natal Durban 4041 South Africa"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2016,
+              9,
+              7
+            ]
+          ]
+        },
+        "container-title": [
+          "IET Computer Vision"
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1049/iet-cvi.2015.0446",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1049/iet-cvi.2015.0446",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/iet-cvi.2015.0446",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1049/iet-cvi.2015.0446",
+        "ISSN": [
+          "1751-9632",
+          "1751-9640"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              9,
+              7
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              6
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Pulse coupled neural network (PCNN) is widely used in image processing because of its unique biological characteristics, which is suitable for image fusion. When combining PCNN with non‐subsampled contourlet (NSCT) model, it is applied in overcoming the difficulty of coefficients selection for subband of the NSCT model. However in the original model, only the grey values of image pixels are used as input, without considering that the subjective vision of human eyes lacks the sensitivity to the local factors of the image. In this study, the improved pulse‐coupled neural network model has replaced the grey‐scale value of the image and introduced the weighted product of the strength of the gradient of the image and the local phase coherence as the model input. Finally, compared with other multi‐scale decompositions‐based image fusion and other improved NSCT‐PCNN algorithms, the algorithm presented in this study outperforms them in terms of objective criteria and visual appearance.</jats:p>",
+        "DOI": "10.1049/iet-cvi.2017.0285",
+        "title": [
+          "NSCT‐PCNN image fusion based on image gradient motivation"
+        ],
+        "author": [
+          {
+            "given": "Shifei",
+            "family": "Ding",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology China University of Mining and Technology Xuzhou 221116 People's Republic of China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Xingyu",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology China University of Mining and Technology Xuzhou 221116 People's Republic of China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Hui",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology China University of Mining and Technology Xuzhou 221116 People's Republic of China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Qiangbo",
+            "family": "Zhu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology China University of Mining and Technology Xuzhou 221116 People's Republic of China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yu",
+            "family": "Xue",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer and Software Nanjing University of Information Science &amp; Technology Nanjing 210044 People's Republic of China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2018,
+              1,
+              3
+            ]
+          ]
+        },
+        "container-title": [
+          "IET Computer Vision"
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1049/iet-cvi.2017.0285",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1049/iet-cvi.2017.0285",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/iet-cvi.2017.0285",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1049/iet-cvi.2017.0285",
+        "ISSN": [
+          "1751-9632",
+          "1751-9640"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              1,
+              3
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              12
+            ]
+          ]
+        },
+        "abstract": "<jats:p>In recent years, automatic facial age estimation has gained popularity due to its numerous applications. Much work has been done on frontal images and lately, minimal estimation errors have been achieved on most of the benchmark databases. However, in reality, images obtained in unconstrained environments are not always frontal. For instance, when conducting a demographic study or crowd analysis, one may get profile images of the face. To the best of our knowledge, no attempt has been made to estimate ages from the side‐view of face images. Here the authors exploit this by using a pretrained deep residual neural network to extract features, and then utilise a sparse partial least‐squares regression approach to estimate ages. Despite having less information as compared with frontal images, the results show that the extracted deep features achieve a promising performance.</jats:p>",
+        "DOI": "10.1049/iet-cvi.2016.0486",
+        "title": [
+          "Automatic age estimation from facial profile view"
+        ],
+        "author": [
+          {
+            "given": "Ali Maina",
+            "family": "Bukar",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Center for Visual Computing University of Bradford Richmond Road Bradford UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hassan",
+            "family": "Ugail",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Center for Visual Computing University of Bradford Richmond Road Bradford UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2017,
+              8,
+              31
+            ]
+          ]
+        },
+        "container-title": [
+          "IET Computer Vision"
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1049/iet-cvi.2016.0486",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1049/iet-cvi.2016.0486",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/iet-cvi.2016.0486",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1049/iet-cvi.2016.0486",
+        "ISSN": [
+          "1751-9632",
+          "1751-9640"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              8,
+              31
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              1
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>The core of multi‐view clustering is how to exploit the shared and specific information of multi‐view data properly. The data missing and incompleteness bring great challenges to multi‐view clustering. In this paper, we propose an innovative multi‐view subspace clustering method with incomplete graph information, so‐called incomplete multiple graphs clustering. Specifically, we creatively separate one shared and multiple specific graphs from multiple raw graph data, and exploit the mask fusion strategy and block diagonal regulariser to obtain the inherent category information. To handle the incomplete multiple graph data, we utilise multiple indicator matrices to mark the missing elements existed in each raw graph. In addition, the weight of each raw graph is adaptively learnt according to the graph importance. The alternative direction optimization algorithm is employed to solve our proposed methods. Finally, we also analyse the algorithm convergence and the computation complexity in detail. The clustering results on six real‐world datasets show that our method obviously outperforms a serious of classic incomplete multi‐view clustering methods.</jats:p>",
+        "DOI": "10.1049/cvi2.12124",
+        "title": [
+          "Multi‐view subspace clustering with incomplete graph information"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-1517-6055",
+            "authenticated-orcid": false,
+            "given": "Xiaxia",
+            "family": "He",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Beijing University of Technology  Beijing China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2677-8342",
+            "authenticated-orcid": false,
+            "given": "Boyue",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Beijing University of Technology  Beijing China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Cuicui",
+            "family": "Luo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Beijing University of Technology  Beijing China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Junbin",
+            "family": "Gao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "The University of Sydney  Sydney New South Wales Australia"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yongli",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Beijing University of Technology  Beijing China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Baocai",
+            "family": "Yin",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Beijing University of Technology  Beijing China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              17
+            ]
+          ]
+        },
+        "container-title": [
+          "IET Computer Vision"
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1049/cvi2.12124",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1049/cvi2.12124",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/cvi2.12124",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1049/cvi2.12124",
+        "ISSN": [
+          "1751-9632",
+          "1751-9640"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              17
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              12
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Recently, there is a rising interest in perceiving image aesthetics. The existing works deal with image aesthetics as a classification or regression problem. To extend the cognition from rating to reasoning, a deeper understanding of aesthetics should be based on revealing why a high‐ or low‐aesthetic score should be assigned to an image. From such a point of view, the authors propose a model referred to as Neural Aesthetic Image Reviewer, which can not only give an aesthetic score for an image, but also generate a textual description explaining why the image leads to a plausible rating score. Specifically, they propose three models based on shared aesthetically semantic layers and task‐specific embedding layers at a high level for performance improvement on different tasks. To facilitate researches on this problem, they collect the AVA‐Reviews dataset, which contains 52,118 images and 312,708 comments in total. Through multi‐task learning, the proposed models can rate aesthetic images as well as produce comments in an end‐to‐end manner. It is confirmed that the proposed models outperform the baselines according to the performance evaluation on the AVA‐Reviews dataset. Moreover, they demonstrate experimentally that the authors’ model can generate textual reviews related to aesthetics, which are consistent with human perception.</jats:p>",
+        "DOI": "10.1049/iet-cvi.2019.0361",
+        "title": [
+          "Neural aesthetic image reviewer"
+        ],
+        "author": [
+          {
+            "given": "Wenshan",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Shanghai Key Laboratory of Intelligent Information Processing, School of Computer Science, Fudan University 825 Zhangheng Road Shanghai People's Republic of China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Su",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shanghai Key Laboratory of Intelligent Information Processing, School of Computer Science, Fudan University 825 Zhangheng Road Shanghai People's Republic of China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Weishan",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Computer Science and Technology China University of Petroleum Qingdao People's Republic of China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jiulong",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science &amp; Engineering Xi'an University of Technology Xi'an People's Republic of China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              11,
+              28
+            ]
+          ]
+        },
+        "container-title": [
+          "IET Computer Vision"
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1049/iet-cvi.2019.0361",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1049/iet-cvi.2019.0361",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/iet-cvi.2019.0361",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1049/iet-cvi.2019.0361",
+        "ISSN": [
+          "1751-9632",
+          "1751-9640"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              11,
+              28
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 15,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

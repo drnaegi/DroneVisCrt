@@ -1,0 +1,29 @@
+{
+  "args": {
+    "manifest": "/root/DroneVisCrt/datasets/cvact_examples.tsv",
+    "checkpoint": "/root/DroneVisCrt/checkpoints/SkyDiffusion/CVACT_Skydiffusion.ckpt",
+    "output": "/root/DroneVisCrt/results/skydiffusion_cvact_examples",
+    "dataset": "CVACT",
+    "steps": 50,
+    "guidance": 9.0,
+    "seed": 42,
+    "count": 3,
+    "prompt": "",
+    "negative_prompt": "",
+    "meter_per_pixel": 0.06,
+    "camera_height": -1.5,
+    "precision": "fp32"
+  },
+  "official_code_commit": "461ccc2fff11882d48f5ab62cae65eef5c45c647",
+  "checkpoint_source": "SkyDiff1109/SkyDiffusion_ckpt",
+  "checkpoint_sha256": "a9108a3394fe127ae7cde9a75019b34ea11da9d3375a51efb4236200bbedfc6a",
+  "checkpoint_training_dataset_label": "CVACT",
+  "evaluation_dataset": "CVACT",
+  "geometry_status": "upstream projection defaults",
+  "target_used_for_conditioning": false,
+  "sample_count": 3,
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "peak_allocated_gib": 7.618738174438477,
+  "torch_version": "2.0.0+cu118",
+  "total_seconds": 55.02092940360308
+}

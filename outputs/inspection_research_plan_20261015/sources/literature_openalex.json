@@ -1,0 +1,1313 @@
+[
+  {
+    "query": "camera controlled scene novel view synthesis diffusion 2026",
+    "status": 200,
+    "results": [
+      {
+        "id": "https://openalex.org/W7208794021",
+        "display_name": "Stabilizing Camera-Controlled Novel View Synthesis at Inference Time",
+        "publication_year": 2026,
+        "doi": "https://doi.org/10.48550/arxiv.2609.03639",
+        "primary_location": {
+          "id": "pmh:oai:arXiv.org:2609.03639",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://arxiv.org/abs/2609.03639",
+          "pdf_url": "https://arxiv.org/pdf/2609.03639",
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "text"
+        }
+      },
+      {
+        "id": "https://openalex.org/W7220368632",
+        "display_name": "Feedforward Novel View Synthesis for Heterogeneous Cameras",
+        "publication_year": 2026,
+        "doi": "https://doi.org/10.48550/arxiv.2610.03522",
+        "primary_location": {
+          "id": "pmh:oai:arXiv.org:2610.03522",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://arxiv.org/abs/2610.03522",
+          "pdf_url": "https://arxiv.org/pdf/2610.03522",
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "text"
+        }
+      },
+      {
+        "id": "https://openalex.org/W7131379633",
+        "display_name": "SemanticNVS: Improving Semantic Scene Understanding in Generative Novel View Synthesis",
+        "publication_year": 2026,
+        "doi": "https://doi.org/10.48550/arxiv.2602.20079",
+        "primary_location": {
+          "id": "pmh:oai:arXiv.org:2602.20079",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://arxiv.org/abs/2602.20079",
+          "pdf_url": "https://arxiv.org/pdf/2602.20079",
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "text"
+        }
+      },
+      {
+        "id": "https://openalex.org/W7197031082",
+        "display_name": "UniWorld-View: Large-Baseline View Synthesis via Video Diffusion Models",
+        "publication_year": 2026,
+        "doi": "https://doi.org/10.48550/arxiv.2608.04701",
+        "primary_location": {
+          "id": "pmh:oai:arXiv.org:2608.04701",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://arxiv.org/abs/2608.04701",
+          "pdf_url": "https://arxiv.org/pdf/2608.04701",
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "text"
+        }
+      },
+      {
+        "id": "https://openalex.org/W7153671712",
+        "display_name": "FrameCrafter: Novel View Synthesis as Video Completion",
+        "publication_year": 2026,
+        "doi": null,
+        "primary_location": {
+          "id": "pmh:oai:arXiv.org:2604.08500",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://arxiv.org/abs/2604.08500",
+          "pdf_url": "https://arxiv.org/pdf/2604.08500",
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "query": "task driven novel view synthesis data augmentation object detection aerial",
+    "status": 200,
+    "results": [
+      {
+        "id": "https://openalex.org/W4413158049",
+        "display_name": "AeroGen: Enhancing Remote Sensing Object Detection with Diffusion-Driven Data Generation",
+        "publication_year": 2025,
+        "doi": "https://doi.org/10.1109/cvpr52734.2025.00342",
+        "primary_location": {
+          "id": "doi:10.1109/cvpr52734.2025.00342",
+          "doi": "https://doi.org/10.1109/cvpr52734.2025.00342",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/cvpr52734.2025.00342",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4210176548",
+            "display_name": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+            "issn_l": "1063-6919",
+            "issn": [
+              "1063-6919",
+              "2332-564X",
+              "2575-7075"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+          "raw_type": "proceedings-article"
+        }
+      },
+      {
+        "id": "https://openalex.org/W3047386722",
+        "display_name": "A Survey of Computer Vision Methods for 2D Object Detection from Unmanned Aerial Vehicles",
+        "publication_year": 2020,
+        "doi": "https://doi.org/10.3390/jimaging6080078",
+        "primary_location": {
+          "id": "doi:10.3390/jimaging6080078",
+          "doi": "https://doi.org/10.3390/jimaging6080078",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.3390/jimaging6080078",
+          "pdf_url": "https://www.mdpi.com/2313-433X/6/8/78/pdf?version=1596699823",
+          "source": {
+            "id": "https://openalex.org/S2736465063",
+            "display_name": "Journal of Imaging",
+            "issn_l": "2313-433X",
+            "issn": [
+              "2313-433X"
+            ],
+            "is_oa": true,
+            "is_in_doaj": true,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "doaj",
+              "norway-1",
+              "poland-20",
+              "russia-white-list-1",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310310987",
+            "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310310987"
+            ],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of Imaging",
+          "raw_type": "journal-article"
+        }
+      },
+      {
+        "id": "https://openalex.org/W4309028162",
+        "display_name": "Data augmentation: A comprehensive survey of modern approaches",
+        "publication_year": 2022,
+        "doi": "https://doi.org/10.1016/j.array.2022.100258",
+        "primary_location": {
+          "id": "doi:10.1016/j.array.2022.100258",
+          "doi": "https://doi.org/10.1016/j.array.2022.100258",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1016/j.array.2022.100258",
+          "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2590005622000911/pdf",
+          "source": {
+            "id": "https://openalex.org/S4210194039",
+            "display_name": "Array",
+            "issn_l": "2590-0056",
+            "issn": [
+              "2590-0056"
+            ],
+            "is_oa": true,
+            "is_in_doaj": true,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "doaj",
+              "dongbi-d",
+              "jufo-1",
+              "norway-1",
+              "poland-40"
+            ],
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by-nc-nd",
+          "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Array",
+          "raw_type": "journal-article"
+        }
+      },
+      {
+        "id": "https://openalex.org/W4387801831",
+        "display_name": "Aerial Image Object Detection with Vision Transformer Detector (ViTDet)",
+        "publication_year": 2023,
+        "doi": "https://doi.org/10.1109/igarss52108.2023.10282836",
+        "primary_location": {
+          "id": "doi:10.1109/igarss52108.2023.10282836",
+          "doi": "https://doi.org/10.1109/igarss52108.2023.10282836",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/igarss52108.2023.10282836",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4363604196",
+            "display_name": "IEEE International Geoscience and Remote Sensing Symposium (IGARSS)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "IGARSS 2023 - 2023 IEEE International Geoscience and Remote Sensing Symposium",
+          "raw_type": "proceedings-article"
+        }
+      },
+      {
+        "id": "https://openalex.org/W4413278426",
+        "display_name": "Diversifying Human Pose In Synthetic Data For Aerial-View Human Detection",
+        "publication_year": 2025,
+        "doi": "https://doi.org/10.1109/icip55913.2025.11084750",
+        "primary_location": {
+          "id": "doi:10.1109/icip55913.2025.11084750",
+          "doi": "https://doi.org/10.1109/icip55913.2025.11084750",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/icip55913.2025.11084750",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4210223844",
+            "display_name": "Proceedings - International Conference on Image Processing",
+            "issn_l": "1522-4880",
+            "issn": [
+              "1522-4880",
+              "2381-8549"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-1",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "2025 IEEE International Conference on Image Processing (ICIP)",
+          "raw_type": "proceedings-article"
+        }
+      }
+    ]
+  },
+  {
+    "query": "ViewCrafter",
+    "status": 200,
+    "results": [
+      {
+        "id": "https://openalex.org/W4414432428",
+        "display_name": "ViewCrafter: Taming Video Diffusion Models for High-fidelity Novel View Synthesis",
+        "publication_year": 2025,
+        "doi": "https://doi.org/10.1109/tpami.2025.3613256",
+        "primary_location": {
+          "id": "doi:10.1109/tpami.2025.3613256",
+          "doi": "https://doi.org/10.1109/tpami.2025.3613256",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/tpami.2025.3613256",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S199944782",
+            "display_name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+            "issn_l": "0162-8828",
+            "issn": [
+              "0162-8828",
+              "1939-3539",
+              "2160-9292"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "ccf-a",
+              "cwts-core",
+              "dongbi-a",
+              "doyens",
+              "jufo-3",
+              "medline",
+              "norway-2",
+              "poland-200",
+              "russia-white-list-1"
+            ],
+            "host_organization": "https://openalex.org/P4310320439",
+            "host_organization_name": "IEEE Computer Society",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320439",
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "IEEE Computer Society",
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+          "raw_type": "journal-article"
+        }
+      },
+      {
+        "id": "https://openalex.org/W4413145933",
+        "display_name": "StarGen: A Spatiotemporal Autoregression Framework with Video Diffusion Model for Scalable and Controllable Scene Generation",
+        "publication_year": 2025,
+        "doi": "https://doi.org/10.1109/cvpr52734.2025.02498",
+        "primary_location": {
+          "id": "doi:10.1109/cvpr52734.2025.02498",
+          "doi": "https://doi.org/10.1109/cvpr52734.2025.02498",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/cvpr52734.2025.02498",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4210176548",
+            "display_name": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+            "issn_l": "1063-6919",
+            "issn": [
+              "1063-6919",
+              "2332-564X",
+              "2575-7075"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+          "raw_type": "proceedings-article"
+        }
+      },
+      {
+        "id": "https://openalex.org/W4413146758",
+        "display_name": "Wonderland: Navigating 3D Scenes From a Single Image",
+        "publication_year": 2025,
+        "doi": "https://doi.org/10.1109/cvpr52734.2025.00083",
+        "primary_location": {
+          "id": "doi:10.1109/cvpr52734.2025.00083",
+          "doi": "https://doi.org/10.1109/cvpr52734.2025.00083",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/cvpr52734.2025.00083",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4210176548",
+            "display_name": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+            "issn_l": "1063-6919",
+            "issn": [
+              "1063-6919",
+              "2332-564X",
+              "2575-7075"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+          "raw_type": "proceedings-article"
+        }
+      },
+      {
+        "id": "https://openalex.org/W7203708781",
+        "display_name": "SplatGuide: Geometric Priors from 3D Gaussians for Pose-Free Novel View Synthesis",
+        "publication_year": 2026,
+        "doi": "https://doi.org/10.48550/arxiv.2608.16863",
+        "primary_location": {
+          "id": "pmh:oai:arXiv.org:2608.16863",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://arxiv.org/abs/2608.16863",
+          "pdf_url": "https://arxiv.org/pdf/2608.16863",
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "text"
+        }
+      },
+      {
+        "id": "https://openalex.org/W7161279314",
+        "display_name": "Warp-as-History: Generalizable Camera-Controlled Video Generation from One Training Video",
+        "publication_year": 2026,
+        "doi": "https://doi.org/10.48550/arxiv.2605.15182",
+        "primary_location": {
+          "id": "pmh:oai:arXiv.org:2605.15182",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://arxiv.org/abs/2605.15182",
+          "pdf_url": "https://arxiv.org/pdf/2605.15182",
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "query": "Diffusion Enhances Synthetic Data for Object Detection",
+    "status": 200,
+    "results": [
+      {
+        "id": "https://openalex.org/W4413158049",
+        "display_name": "AeroGen: Enhancing Remote Sensing Object Detection with Diffusion-Driven Data Generation",
+        "publication_year": 2025,
+        "doi": "https://doi.org/10.1109/cvpr52734.2025.00342",
+        "primary_location": {
+          "id": "doi:10.1109/cvpr52734.2025.00342",
+          "doi": "https://doi.org/10.1109/cvpr52734.2025.00342",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/cvpr52734.2025.00342",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4210176548",
+            "display_name": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+            "issn_l": "1063-6919",
+            "issn": [
+              "1063-6919",
+              "2332-564X",
+              "2575-7075"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+          "raw_type": "proceedings-article"
+        }
+      },
+      {
+        "id": "https://openalex.org/W4402716206",
+        "display_name": "InstaGen: Enhancing Object Detection by Training on Synthetic Dataset",
+        "publication_year": 2024,
+        "doi": "https://doi.org/10.1109/cvpr52733.2024.01339",
+        "primary_location": {
+          "id": "doi:10.1109/cvpr52733.2024.01339",
+          "doi": "https://doi.org/10.1109/cvpr52733.2024.01339",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/cvpr52733.2024.01339",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4210176548",
+            "display_name": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+            "issn_l": "1063-6919",
+            "issn": [
+              "1063-6919",
+              "2332-564X",
+              "2575-7075"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+          "raw_type": "proceedings-article"
+        }
+      },
+      {
+        "id": "https://openalex.org/W4415367587",
+        "display_name": "Enhancing Marine Search and Rescue Object Detection with Synthetic Data",
+        "publication_year": 2025,
+        "doi": "https://doi.org/10.1109/ippr66507.2025.11198210",
+        "primary_location": {
+          "id": "doi:10.1109/ippr66507.2025.11198210",
+          "doi": "https://doi.org/10.1109/ippr66507.2025.11198210",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/ippr66507.2025.11198210",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "2025 2nd International Conference on Intelligent Perception and Pattern Recognition (IPPR)",
+          "raw_type": "proceedings-article"
+        }
+      },
+      {
+        "id": "https://openalex.org/W7134078735",
+        "display_name": "Diffusion model-based synthetic image augmentation for enhancing vehicle detection model performance",
+        "publication_year": 2025,
+        "doi": "https://doi.org/10.58837/chula.the.2025.175",
+        "primary_location": {
+          "id": "doi:10.58837/chula.the.2025.175",
+          "doi": "https://doi.org/10.58837/chula.the.2025.175",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.58837/chula.the.2025.175",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Chulalongkorn University",
+          "raw_type": "dissertation"
+        }
+      },
+      {
+        "id": "https://openalex.org/W4400928822",
+        "display_name": "From Sources to Solutions: Enhancing Object Detection Models through Synthetic Data",
+        "publication_year": 2024,
+        "doi": "https://doi.org/10.24132/csrn.3401.28",
+        "primary_location": {
+          "id": "doi:10.24132/csrn.3401.28",
+          "doi": "https://doi.org/10.24132/csrn.3401.28",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.24132/csrn.3401.28",
+          "pdf_url": "https://doi.org/10.24132/csrn.3401.28",
+          "source": {
+            "id": "https://openalex.org/S4210178439",
+            "display_name": "Computer Science Research Notes",
+            "issn_l": "2464-4617",
+            "issn": [
+              "2464-4617",
+              "2464-4625"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "poland-20",
+              "russia-white-list-4"
+            ],
+            "host_organization": "https://openalex.org/P4310319938",
+            "host_organization_name": "University of West Bohemia",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319938"
+            ],
+            "host_organization_lineage_names": [
+              "University of West Bohemia"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Computer Science Research Notes",
+          "raw_type": "proceedings-article"
+        }
+      }
+    ]
+  },
+  {
+    "query": "GenPercept novel view diffusion",
+    "status": 200,
+    "results": [
+      {
+        "id": "https://openalex.org/W7118456225",
+        "display_name": "DiffProxy: Multi-view Human Mesh Recovery via Diffusion-Generated Dense Proxies",
+        "publication_year": 2026,
+        "doi": "https://doi.org/10.1007/978-3-032-37098-3_17",
+        "primary_location": {
+          "id": "doi:10.1007/978-3-032-37098-3_17",
+          "doi": "https://doi.org/10.1007/978-3-032-37098-3_17",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1007/978-3-032-37098-3_17",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S106296714",
+            "display_name": "Lecture notes in computer science",
+            "issn_l": "0302-9743",
+            "issn": [
+              "0302-9743",
+              "1611-3349"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-1",
+              "ki-jl-1",
+              "norway-1",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310319900",
+            "host_organization_name": "Springer Science+Business Media",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319900",
+              "https://openalex.org/P4310319965"
+            ],
+            "host_organization_lineage_names": [
+              "Springer Science+Business Media",
+              "Springer Nature"
+            ],
+            "type": "book series"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Lecture Notes in Computer Science",
+          "raw_type": "book-chapter"
+        }
+      },
+      {
+        "id": "https://openalex.org/W4406121918",
+        "display_name": "DepthMaster: Taming Diffusion Models for Monocular Depth Estimation",
+        "publication_year": 2026,
+        "doi": "https://doi.org/10.1109/tcsvt.2026.3681436",
+        "primary_location": {
+          "id": "doi:10.1109/tcsvt.2026.3681436",
+          "doi": "https://doi.org/10.1109/tcsvt.2026.3681436",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/tcsvt.2026.3681436",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S115173108",
+            "display_name": "IEEE Transactions on Circuits and Systems for Video Technology",
+            "issn_l": "1051-8215",
+            "issn": [
+              "1051-8215",
+              "1558-2205"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "ccf-b",
+              "cwts-core",
+              "dongbi-b",
+              "jufo-2",
+              "norway-2",
+              "poland-140",
+              "russia-white-list-1",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "IEEE Transactions on Circuits and Systems for Video Technology",
+          "raw_type": "journal-article"
+        }
+      },
+      {
+        "id": "https://openalex.org/W4416052929",
+        "display_name": "NormalCrafter: Learning Temporally Consistent Normals from Video Diffusion Priors",
+        "publication_year": 2025,
+        "doi": "https://doi.org/10.1109/iccv51701.2025.00780",
+        "primary_location": {
+          "id": "doi:10.1109/iccv51701.2025.00780",
+          "doi": "https://doi.org/10.1109/iccv51701.2025.00780",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/iccv51701.2025.00780",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4363607764",
+            "display_name": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "conference"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "2025 IEEE/CVF International Conference on Computer Vision (ICCV)",
+          "raw_type": "proceedings-article"
+        }
+      },
+      {
+        "id": "https://openalex.org/W4403570394",
+        "display_name": "High-Precision Dichotomous Image Segmentation via Probing Diffusion Capacity",
+        "publication_year": 2024,
+        "doi": "https://doi.org/10.48550/arxiv.2410.10105",
+        "primary_location": {
+          "id": "pmh:oai:arXiv.org:2410.10105",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://arxiv.org/abs/2410.10105",
+          "pdf_url": "https://arxiv.org/pdf/2410.10105",
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "text"
+        }
+      },
+      {
+        "id": "https://openalex.org/W7204264286",
+        "display_name": "Representation learning in diffusion and flow-based model: an application aspect",
+        "publication_year": 2026,
+        "doi": "https://doi.org/10.1007/s44336-026-00042-3",
+        "primary_location": {
+          "id": "doi:10.1007/s44336-026-00042-3",
+          "doi": "https://doi.org/10.1007/s44336-026-00042-3",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1007/s44336-026-00042-3",
+          "pdf_url": "https://link.springer.com/content/pdf/10.1007/s44336-026-00042-3.pdf",
+          "source": {
+            "id": "https://openalex.org/S4404676885",
+            "display_name": "Vicinagearth.",
+            "issn_l": "3005-060X",
+            "issn": [
+              "3005-060X"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/P4310317082",
+            "host_organization_name": "Academy of Medicine, Singapore",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310317082"
+            ],
+            "host_organization_lineage_names": [
+              "Academy of Medicine, Singapore"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Vicinagearth",
+          "raw_type": "journal-article"
+        }
+      }
+    ]
+  },
+  {
+    "query": "synthetic data viewpoint selection object detection",
+    "status": 200,
+    "results": [
+      {
+        "id": "https://openalex.org/W4400928822",
+        "display_name": "From Sources to Solutions: Enhancing Object Detection Models through Synthetic Data",
+        "publication_year": 2024,
+        "doi": "https://doi.org/10.24132/csrn.3401.28",
+        "primary_location": {
+          "id": "doi:10.24132/csrn.3401.28",
+          "doi": "https://doi.org/10.24132/csrn.3401.28",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.24132/csrn.3401.28",
+          "pdf_url": "https://doi.org/10.24132/csrn.3401.28",
+          "source": {
+            "id": "https://openalex.org/S4210178439",
+            "display_name": "Computer Science Research Notes",
+            "issn_l": "2464-4617",
+            "issn": [
+              "2464-4617",
+              "2464-4625"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "poland-20",
+              "russia-white-list-4"
+            ],
+            "host_organization": "https://openalex.org/P4310319938",
+            "host_organization_name": "University of West Bohemia",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319938"
+            ],
+            "host_organization_lineage_names": [
+              "University of West Bohemia"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Computer Science Research Notes",
+          "raw_type": "proceedings-article"
+        }
+      },
+      {
+        "id": "https://openalex.org/W2628429636",
+        "display_name": "Object Detection Using Deep CNNs Trained on Synthetic Images",
+        "publication_year": 2017,
+        "doi": "https://doi.org/10.48550/arxiv.1706.06782",
+        "primary_location": {
+          "id": "pmh:oai:arXiv.org:1706.06782",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://arxiv.org/abs/1706.06782",
+          "pdf_url": "https://arxiv.org/pdf/1706.06782",
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "text"
+        }
+      },
+      {
+        "id": "https://openalex.org/W2972006294",
+        "display_name": "A Survey of Deep Learning-Based Object Detection",
+        "publication_year": 2019,
+        "doi": "https://doi.org/10.1109/access.2019.2939201",
+        "primary_location": {
+          "id": "doi:10.1109/access.2019.2939201",
+          "doi": "https://doi.org/10.1109/access.2019.2939201",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1109/access.2019.2939201",
+          "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/8600701/08825470.pdf",
+          "source": {
+            "id": "https://openalex.org/S2485537415",
+            "display_name": "IEEE Access",
+            "issn_l": "2169-3536",
+            "issn": [
+              "2169-3536"
+            ],
+            "is_oa": true,
+            "is_in_doaj": true,
+            "is_core": true,
+            "listed_in": [
+              "anvur-scientific",
+              "cwts-core",
+              "doaj",
+              "jufo-1",
+              "ki-jl-1",
+              "norway-1",
+              "poland-100",
+              "russia-white-list-1",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "IEEE Access",
+          "raw_type": "journal-article"
+        }
+      },
+      {
+        "id": "https://openalex.org/W4410368346",
+        "display_name": "High-Fidelity Synthetic Data Generation Framework for Unique Objects Detection",
+        "publication_year": 2025,
+        "doi": "https://doi.org/10.3390/computation13050120",
+        "primary_location": {
+          "id": "doi:10.3390/computation13050120",
+          "doi": "https://doi.org/10.3390/computation13050120",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.3390/computation13050120",
+          "pdf_url": "https://www.mdpi.com/2079-3197/13/5/120/pdf?version=1747218782",
+          "source": {
+            "id": "https://openalex.org/S2738402919",
+            "display_name": "Computation",
+            "issn_l": "2079-3197",
+            "issn": [
+              "2079-3197"
+            ],
+            "is_oa": true,
+            "is_in_doaj": true,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "doaj",
+              "jufo-1",
+              "norway-1",
+              "poland-20",
+              "russia-white-list-2"
+            ],
+            "host_organization": "https://openalex.org/P4310310987",
+            "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310310987"
+            ],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Computation",
+          "raw_type": "journal-article"
+        }
+      },
+      {
+        "id": "https://openalex.org/W4414487790",
+        "display_name": "Automatic viewpoint selection for polygonal objects through projected mesh analysis",
+        "publication_year": 2025,
+        "doi": "https://doi.org/10.1007/s12650-025-01079-0",
+        "primary_location": {
+          "id": "doi:10.1007/s12650-025-01079-0",
+          "doi": "https://doi.org/10.1007/s12650-025-01079-0",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1007/s12650-025-01079-0",
+          "pdf_url": "https://link.springer.com/content/pdf/10.1007/s12650-025-01079-0.pdf",
+          "source": {
+            "id": "https://openalex.org/S10355277",
+            "display_name": "Journal of Visualization",
+            "issn_l": "1343-8875",
+            "issn": [
+              "1343-8875",
+              "1875-8975"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "dongbi-c",
+              "jufo-1",
+              "norway-1",
+              "poland-70",
+              "russia-white-list-2",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310319900",
+            "host_organization_name": "Springer Science+Business Media",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319900",
+              "https://openalex.org/P4310319965"
+            ],
+            "host_organization_lineage_names": [
+              "Springer Science+Business Media",
+              "Springer Nature"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of Visualization",
+          "raw_type": "journal-article"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "2-6Pro9zN1qOxbFSTigfAg_grdView",
+    "street": "/root/DroneVisCrt/code/skydiffusion/examples/streetview/2-6Pro9zN1qOxbFSTigfAg_grdView.jpg",
+    "target": "/root/DroneVisCrt/code/skydiffusion/examples/gt/2-6Pro9zN1qOxbFSTigfAg_satView_polish.jpg",
+    "generated": "/root/DroneVisCrt/results/skydiffusion_cvact_examples/2-6Pro9zN1qOxbFSTigfAg_grdView_generated.png",
+    "seed": 42,
+    "seconds": 7.113454200327396
+  },
+  {
+    "name": "cSsY4Js1I4eYNdAgcmKxzg_grdView",
+    "street": "/root/DroneVisCrt/code/skydiffusion/examples/streetview/cSsY4Js1I4eYNdAgcmKxzg_grdView.jpg",
+    "target": "/root/DroneVisCrt/code/skydiffusion/examples/gt/cSsY4Js1I4eYNdAgcmKxzg_satView_polish.jpg",
+    "generated": "/root/DroneVisCrt/results/skydiffusion_cvact_examples/cSsY4Js1I4eYNdAgcmKxzg_grdView_generated.png",
+    "seed": 43,
+    "seconds": 6.76913795247674
+  },
+  {
+    "name": "EFcX7D8xMiXIrWwznx225Q_grdView",
+    "street": "/root/DroneVisCrt/code/skydiffusion/examples/streetview/EFcX7D8xMiXIrWwznx225Q_grdView.jpg",
+    "target": "/root/DroneVisCrt/code/skydiffusion/examples/gt/EFcX7D8xMiXIrWwznx225Q_satView_polish.jpg",
+    "generated": "/root/DroneVisCrt/results/skydiffusion_cvact_examples/EFcX7D8xMiXIrWwznx225Q_grdView_generated.png",
+    "seed": 44,
+    "seconds": 6.813830427825451
+  }
+]

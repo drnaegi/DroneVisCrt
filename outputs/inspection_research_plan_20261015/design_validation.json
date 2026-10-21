@@ -1,0 +1,12 @@
+{
+  "artifact_files_exist": true,
+  "yaml_status": "proposed_not_implemented",
+  "experiment_groups": 24,
+  "candidate_count": 26,
+  "formal_raw_frames": 4800,
+  "formal_retained_frames": 1200,
+  "gpu_trials_run_this_task": false,
+  "research_or_training_implementation_created": false,
+  "new_datasets_downloaded_this_task": false,
+  "official_abstracts_read": 6
+}

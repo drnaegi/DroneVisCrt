@@ -1,0 +1,13 @@
+{
+  "official_repository": "Yejy53/G2A-3",
+  "official_revision": "ec02e06844677f990fb62dc1e63a9a46051b0eaf",
+  "official_zip_sha256": "7ebf3ffe498d9c7b0f2656a948a68c39bd33b68593e364ecdac5cf916b518282",
+  "local_file_count": 4256,
+  "remote_file_count": 4256,
+  "same_name_crc_size_count": 2128,
+  "basename_comparison": {
+    "shared_count": 4256,
+    "same_crc_size_count": 2128
+  }
+}
+/root/DroneVisCrt/results/alignment_audit/History.zip.audit.json

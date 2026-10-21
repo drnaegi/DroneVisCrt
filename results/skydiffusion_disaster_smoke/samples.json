@@ -1,0 +1,66 @@
+[
+  {
+    "name": "26.425214_-82.080107_669380334681188_359",
+    "street": "/root/DroneVisCrt/datasets/G2A-3/disaster_smoke/street/26.425214_-82.080107_669380334681188_359.png",
+    "target": "/root/DroneVisCrt/datasets/G2A-3/disaster_smoke/aerial/26.425214_-82.080107_669380334681188_359.png",
+    "generated": "/root/DroneVisCrt/results/skydiffusion_disaster_smoke/26.425214_-82.080107_669380334681188_359_generated.png",
+    "seed": 42,
+    "seconds": 7.120473062619567
+  },
+  {
+    "name": "26.430945_-82.055195_6145651545503249_245",
+    "street": "/root/DroneVisCrt/datasets/G2A-3/disaster_smoke/street/26.430945_-82.055195_6145651545503249_245.png",
+    "target": "/root/DroneVisCrt/datasets/G2A-3/disaster_smoke/aerial/26.430945_-82.055195_6145651545503249_245.png",
+    "generated": "/root/DroneVisCrt/results/skydiffusion_disaster_smoke/26.430945_-82.055195_6145651545503249_245_generated.png",
+    "seed": 43,
+    "seconds": 6.770061185583472
+  },
+  {
+    "name": "26.431939_-82.053216_226737683172215_58",
+    "street": "/root/DroneVisCrt/datasets/G2A-3/disaster_smoke/street/26.431939_-82.053216_226737683172215_58.png",
+    "target": "/root/DroneVisCrt/datasets/G2A-3/disaster_smoke/aerial/26.431939_-82.053216_226737683172215_58.png",
+    "generated": "/root/DroneVisCrt/results/skydiffusion_disaster_smoke/26.431939_-82.053216_226737683172215_58_generated.png",
+    "seed": 44,
+    "seconds": 6.80225333571434
+  },
+  {
+    "name": "26.433957_-82.049616_868959127669968_58",
+    "street": "/root/DroneVisCrt/datasets/G2A-3/disaster_smoke/street/26.433957_-82.049616_868959127669968_58.png",
+    "target": "/root/DroneVisCrt/datasets/G2A-3/disaster_smoke/aerial/26.433957_-82.049616_868959127669968_58.png",
+    "generated": "/root/DroneVisCrt/results/skydiffusion_disaster_smoke/26.433957_-82.049616_868959127669968_58_generated.png",
+    "seed": 45,
+    "seconds": 6.809208752587438
+  },
+  {
+    "name": "26.439529_-82.128666_220399627575265_118",
+    "street": "/root/DroneVisCrt/datasets/G2A-3/disaster_smoke/street/26.439529_-82.128666_220399627575265_118.png",
+    "target": "/root/DroneVisCrt/datasets/G2A-3/disaster_smoke/aerial/26.439529_-82.128666_220399627575265_118.png",
+    "generated": "/root/DroneVisCrt/results/skydiffusion_disaster_smoke/26.439529_-82.128666_220399627575265_118_generated.png",
+    "seed": 46,
+    "seconds": 6.784308871254325
+  },
+  {
+    "name": "26.440220_-82.066364_171103722615196_96",
+    "street": "/root/DroneVisCrt/datasets/G2A-3/disaster_smoke/street/26.440220_-82.066364_171103722615196_96.png",
+    "target": "/root/DroneVisCrt/datasets/G2A-3/disaster_smoke/aerial/26.440220_-82.066364_171103722615196_96.png",
+    "generated": "/root/DroneVisCrt/results/skydiffusion_disaster_smoke/26.440220_-82.066364_171103722615196_96_generated.png",
+    "seed": 47,
+    "seconds": 6.7673233188688755
+  },
+  {
+    "name": "26.441873_-82.040947_1665723333826030_101",
+    "street": "/root/DroneVisCrt/datasets/G2A-3/disaster_smoke/street/26.441873_-82.040947_1665723333826030_101.png",
+    "target": "/root/DroneVisCrt/datasets/G2A-3/disaster_smoke/aerial/26.441873_-82.040947_1665723333826030_101.png",
+    "generated": "/root/DroneVisCrt/results/skydiffusion_disaster_smoke/26.441873_-82.040947_1665723333826030_101_generated.png",
+    "seed": 48,
+    "seconds": 6.812449874356389
+  },
+  {
+    "name": "26.581398_-81.938111_704766494218321_271",
+    "street": "/root/DroneVisCrt/datasets/G2A-3/disaster_smoke/street/26.581398_-81.938111_704766494218321_271.png",
+    "target": "/root/DroneVisCrt/datasets/G2A-3/disaster_smoke/aerial/26.581398_-81.938111_704766494218321_271.png",
+    "generated": "/root/DroneVisCrt/results/skydiffusion_disaster_smoke/26.581398_-81.938111_704766494218321_271_generated.png",
+    "seed": 49,
+    "seconds": 6.796629657968879
+  }
+]

@@ -1,0 +1,1679 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 512,
+    "items": [
+      {
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    Reconstructing detailed geometry and realistic appearance from a single RGB image is essential yet fundamentally challenging due to inherent ambiguities such as occlusion, lighting variations, and texture‐geometry entanglement. While recent diffusion‐based generative models have significantly improved novel view synthesis, existing approaches suffer from two critical limitations: lack of cross‐view geometric consistency and insufficient cross‐domain semantic alignment. To address these issues, we introduce\n                    <jats:italic>\n                      U\n                      <jats:sc>ni</jats:sc>\n                      C\n                      <jats:sc>ross</jats:sc>\n                      3D\n                    </jats:italic>\n                    , a unified cross‐view and cross‐domain diffusion framework designed explicitly for consistent and physically coherent 3D generation.\n                    <jats:italic>\n                      U\n                      <jats:sc>ni</jats:sc>\n                      C\n                      <jats:sc>ross</jats:sc>\n                      3D\n                    </jats:italic>\n                    features two novel contributions: (1) a cross‐view latent regularization that enforces cross‐view geometric consistency across synthesized viewpoints by penalizing latent variance, and (2) a cross‐domain mutual information objective grounded in the physics of image formation, explicitly aligning synthesized color and normal maps. Extensive experiments demonstrate that\n                    <jats:italic>\n                      U\n                      <jats:sc>ni</jats:sc>\n                      C\n                      <jats:sc>ross</jats:sc>\n                      3D\n                    </jats:italic>\n                    achieves significantly improved view consistency and semantic alignment over state‐of‐the‐art methods and yields higher‐fidelity reconstructions, particularly under challenging textures and ambiguous viewpoints.\n                  </jats:p>",
+        "DOI": "10.1111/cgf.70378",
+        "title": [
+          "UniCross3D: Unified Cross‐View and Cross‐Domain Diffusion for Consistent Single‐Image 3D Generation"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0003-8742-3398",
+            "authenticated-orcid": false,
+            "given": "U‐Chae",
+            "family": "Jun",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Sookmyung Women's University  South Korea"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0004-9914-481X",
+            "authenticated-orcid": false,
+            "given": "Jaeeun",
+            "family": "Ko",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Sookmyung Women's University  South Korea"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7622-0817",
+            "authenticated-orcid": false,
+            "given": "Jiwoo",
+            "family": "Kang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Sookmyung Women's University  South Korea"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              14
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.70378",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/cgf.70378",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.70378",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1111/cgf.70378",
+        "ISSN": [
+          "0167-7055",
+          "1467-8659"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              14
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              2
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>We propose a method for converting a single image of a transparent object into multi‐view photo that enables users observing the object from multiple new angles, without inputting any 3D shape. The complex light paths formed by refraction and reflection makes it challenging to compute the lighting effects of transparent objects from a new angle. We construct an encoder–decoder network for normal reconstruction and texture extraction, which enables synthesizing novel views of transparent object from a set of new views and new environment maps using only one RGB image. By simultaneously considering the optical transmission and perspective variation, our network learns the characteristics of optical transmission and the change of perspective as guidance to the conversion from RGB colours to surface normals. A texture extraction subnetwork is proposed to alleviate the contour loss phenomenon during normal map generation. We test our method using 3D objects within and without our training data, including real 3D objects that exists in our lab, and completely new environment maps that we take using our phones. The results show that our method performs better on view synthesis of transparent objects in complex scenes using only a single‐view image.</jats:p>",
+        "DOI": "10.1111/cgf.14714",
+        "title": [
+          "Novel View Synthesis Of Transparent Object From a Single Image"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-9641-5483",
+            "authenticated-orcid": false,
+            "given": "Shizhe",
+            "family": "Zhou",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "College of Computer Science and Electronic Engineering Hunan University Changsha China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Zezu",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Computer Science and Electronic Engineering Hunan University Changsha China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Dongwei",
+            "family": "Ye",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Computer Science and Electronic Engineering Hunan University Changsha China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              10,
+              26
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14714",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/cgf.14714",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14714",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1111/cgf.14714",
+        "ISSN": [
+          "0167-7055",
+          "1467-8659"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              10,
+              26
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              10
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Neural radiance fields (NeRF) have demonstrated a promising research direction for novel view synthesis. However, the existing approaches either require per‐scene optimization that takes significant computation time or condition on local features which overlook the global context of images. To tackle this shortcoming, we propose the Conditionally Parameterized Neural Radiance Fields (CP‐NeRF), a plug‐in module that enables NeRF to leverage contextual information from different scales. Instead of optimizing the model parameters of NeRFs directly, we train a Feature Pyramid hyperNetwork (FPN) that extracts view‐dependent global and local information from images within or across scenes to produce the model parameters. Our model can be trained end‐to‐end with standard photometric loss from NeRF. Extensive experiments demonstrate that our method can significantly boost the performance of NeRF, achieving state‐of‐the‐art results in various benchmark datasets.</jats:p>",
+        "DOI": "10.1111/cgf.14940",
+        "title": [
+          "CP‐NeRF: Conditionally Parameterized Neural Radiance Fields for Cross‐scene Novel View Synthesis"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-8074-746X",
+            "authenticated-orcid": false,
+            "given": "Hao",
+            "family": "He",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "The Hong Kong University of Science and Technology (Guangzhou)"
+              },
+              {
+                "name": "The Hong Kong University of Science and Technology"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4750-8875",
+            "authenticated-orcid": false,
+            "given": "Yixun",
+            "family": "Liang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "The Hong Kong University of Science and Technology (Guangzhou)"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0008-0262-5289",
+            "authenticated-orcid": false,
+            "given": "Shishi",
+            "family": "Xiao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "The Hong Kong University of Science and Technology (Guangzhou)"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8665-3365",
+            "authenticated-orcid": false,
+            "given": "Jierun",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "The Hong Kong University of Science and Technology"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9565-8205",
+            "authenticated-orcid": false,
+            "given": "Yingcong",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "The Hong Kong University of Science and Technology (Guangzhou)"
+              },
+              {
+                "name": "The Hong Kong University of Science and Technology"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              30
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14940",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1111/cgf.14940",
+        "ISSN": [
+          "0167-7055",
+          "1467-8659"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              10
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2008,
+              10
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>The ability to interpolate between images taken at different time and viewpoints directly in image space opens up new possiblities. The goal of our work is to create plausible in‐between images in real time without the need for an intermediate 3D reconstruction. This enables us to also interpolate between images recorded with uncalibrated and unsynchronized cameras. In our approach we use a novel discontiniuity preserving image deformation model to robustly estimate dense correspondences based on local homographies. Once correspondences have been computed we are able to render plausible in‐between images in real time while properly handling occlusions. We discuss the relation of our approach to human motion perception and other image interpolation techniques.</jats:p>",
+        "DOI": "10.1111/j.1467-8659.2008.01323.x",
+        "title": [
+          "View and Time Interpolation in Image Space"
+        ],
+        "author": [
+          {
+            "given": "Timo",
+            "family": "Stich",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Christian",
+            "family": "Linz",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Georgia",
+            "family": "Albuquerque",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Marcus",
+            "family": "Magnor",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2009,
+              1,
+              23
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "link": [
+          {
+            "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1467-8659.2008.01323.x",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1467-8659.2008.01323.x",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-8659.2008.01323.x",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/j.1467-8659.2008.01323.x",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-8659.2008.01323.x",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1111/j.1467-8659.2008.01323.x",
+        "ISSN": [
+          "0167-7055",
+          "1467-8659"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2008,
+              10
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2003,
+              9
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p> <jats:italic>In this paper we present a novel approach for interactive rendering of virtual views from real image sequences.Combining the concepts of light fields, depth‐compensated image warping and view dependent texture mapping,this plenoptic modeling approach can handle large and complex scenes. A portable, handheld multi‐camera systemhas been developed that allows to record multiple image streams by simply walking around the scene. Theseimage streams are automatically calibrated and depth maps for all views are generated as input to the renderingstage. For rendering a view dependent warping surface is constructed on the fly and depth‐compensated imageinterpolation is applied with view‐dependent texture mapping. Rendering quality is scalable to allow fast previewand to achieve high‐end quality with the same approach. The system can handle large and geometrically complexscenes with hundreds of real images at interactive rates.</jats:italic> </jats:p><jats:p>Categories and Subject Descriptors (according to ACM CCS): I.3.3 [Computer Graphics]: Viewing algorithms, I.4.1[Image Processing and Computer Vision]: Digitization and Image Capture, I.4.8 [Image Processing and ComputerVision]: Scene Analysis</jats:p>",
+        "DOI": "10.1111/1467-8659.t01-2-00705",
+        "title": [
+          "Image Based Interactive Rendering with View Dependent Geometry"
+        ],
+        "author": [
+          {
+            "given": "J.‐F.",
+            "family": "Evers‐Senne",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "R.",
+            "family": "Koch",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2003,
+              11,
+              4
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "link": [
+          {
+            "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2F1467-8659.t01-2-00705",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/1467-8659.t01-2-00705",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1111/1467-8659.t01-2-00705",
+        "ISSN": [
+          "0167-7055",
+          "1467-8659"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2003,
+              9
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              10
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>We introduce Seamless Satellite‐image Synthesis (SSS), a novel neural architecture to create scale‐and‐space continuous satellite textures from cartographic data. While 2D map data is cheap and easily synthesized, accurate satellite imagery is expensive and often unavailable or out of date. Our approach generates seamless textures over arbitrarily large spatial extents which are consistent through scale‐space. To overcome tile size limitations in image‐to‐image translation approaches, SSS learns to remove seams between tiled images in a semantically meaningful manner. Scale‐space continuity is achieved by a hierarchy of networks conditioned on style and cartographic data. Our qualitative and quantitative evaluations show that our system improves over the state‐of‐the‐art in several key areas. We show applications to texturing procedurally generation maps and interactive satellite image manipulation.</jats:p>",
+        "DOI": "10.1111/cgf.14413",
+        "title": [
+          "Seamless Satellite‐image Synthesis"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-1826-6566",
+            "authenticated-orcid": false,
+            "given": "Jialin",
+            "family": "Zhu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "University of Leeds"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6575-3682",
+            "authenticated-orcid": false,
+            "given": "Tom",
+            "family": "Kelly",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Leeds"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              11,
+              27
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14413",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/cgf.14413",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14413",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1111/cgf.14413",
+        "ISSN": [
+          "0167-7055",
+          "1467-8659"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              10
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              7
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>Observing that many visual effects (depth‐of‐field, motion blur, soft shadows, spectral effects) and several sampling modalities (time, stereo or light fields) can be expressed as a sum of many pinhole camera images, we suggest a novel efficient image synthesis framework that exploits coherency among those images. We introduce the notion of “distribution flow” that represents the 2D image deformation in response to changes in the high‐dimensional time‐, lens‐, area light‐, spectral‐, etc. coordinates. Our approach plans the optimal traversal of the distribution space of all required pinhole images, such that starting from one representative root image, which is incrementally changed (warped) in a minimal fashion, pixels move at most by one pixel, if at all. The incremental warping allows extremely simple warping code, typically requiring half a millisecond on an Nvidia Geforce GTX 980Ti GPU per pinhole image. We show, how the bounded sampling does introduce very little errors in comparison to re‐rendering or a common warping‐based solution. Our approach allows efficient previews for arbitrary combinations of distribution effects and imaging modalities with little noise and high visual fidelity.</jats:p>",
+        "DOI": "10.1111/cgf.13219",
+        "title": [
+          "Minimal Warping: Planning Incremental Novel‐view Synthesis"
+        ],
+        "author": [
+          {
+            "given": "Thomas",
+            "family": "Leimkühler",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "MPI Informatik"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hans‐Peter",
+            "family": "Seidel",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "MPI Informatik"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Tobias",
+            "family": "Ritschel",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University College London"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2017,
+              7,
+              5
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "link": [
+          {
+            "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fcgf.13219",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.13219",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1111/cgf.13219",
+        "ISSN": [
+          "0167-7055",
+          "1467-8659"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              7
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              10
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>Novel view synthesis from sparse and unstructured input views faces challenges like the difficulty with dense 3D reconstruction and large occlusion. This paper addresses these problems by estimating proper appearance flows from the target to input views to warp and blend the input views. Our method first estimates a sparse set 3D scene points using an off‐the‐shelf 3D reconstruction method and calculates sparse flows from the target to input views. Our method then performs appearance flow completion to estimate the dense flows from the corresponding sparse ones. Specifically, we design a deep fully convolutional neural network that takes sparse flows and input views as input and outputs the dense flows. Furthermore, we estimate the optical flows between input views as references to guide the estimation of dense flows between the target view and input views. Besides the dense flows, our network also estimates the masks to blend multiple warped inputs to render the target view. Experiments on the KITTI benchmark show that our method can generate high quality novel views from sparse and unstructured input views.</jats:p>",
+        "DOI": "10.1111/cgf.13860",
+        "title": [
+          "Appearance Flow Completion for Novel View Synthesis"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-9170-9581",
+            "authenticated-orcid": false,
+            "given": "Hoang",
+            "family": "Le",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Portland State University  Oregon USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5399-6214",
+            "authenticated-orcid": false,
+            "given": "Feng",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Portland State University  Oregon USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              11,
+              14
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "link": [
+          {
+            "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fcgf.13860",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.13860",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/cgf.13860",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.13860",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1111/cgf.13860",
+        "ISSN": [
+          "0167-7055",
+          "1467-8659"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              10
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2012,
+              5
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>We propose a novel fully automatic method for novel‐viewpoint synthesis. Our method robustly handles multi‐camera setups featuring wide‐baselines in an uncontrolled environment. In a first step, robust and sparse point correspondences are found based on an extension of the Daisy features [<jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#b36\">TLF10</jats:ext-link>]. These correspondences together with back‐projection errors are used to drive a novel adaptive coarse to fine reconstruction method, allowing to approximate detailed geometry while avoiding an extreme triangle count.</jats:p><jats:p>To render the scene from arbitrary viewpoints we use a view‐dependent blending of color information in combination with a view‐dependent geometry morph. The view‐dependent geometry compensates for misalignments caused by calibration errors. We demonstrate that our method works well under arbitrary lighting conditions with as little as two cameras featuring wide‐baselines. The footage taken from real sports broadcast events contains fine geometric structures, which result in nice novel‐viewpoint renderings despite of the low resolution in the images.</jats:p>",
+        "DOI": "10.1111/j.1467-8659.2012.03011.x",
+        "title": [
+          "Novel‐View Synthesis of Outdoor Sport Events Using an Adaptive View‐Dependent Geometry"
+        ],
+        "author": [
+          {
+            "given": "Marcel",
+            "family": "Germann",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Tiberiu",
+            "family": "Popa",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Richard",
+            "family": "Keiser",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Remo",
+            "family": "Ziegler",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Markus",
+            "family": "Gross",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2012,
+              6,
+              20
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "link": [
+          {
+            "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1467-8659.2012.03011.x",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-8659.2012.03011.x",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1111/j.1467-8659.2012.03011.x",
+        "ISSN": [
+          "0167-7055",
+          "1467-8659"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2012,
+              5
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              1990,
+              6
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>Deterministic Fractal geometry provides a framework for describing both the geometry of man‐made structures and the geometry of nature.</jats:p><jats:p>Certain deterministic Fractals which exist in the plane may be “partitioned” into a number of “tiles” equivalent to the whole under some geometric mapping. We term such Fractals <jats:italic>self‐tiling images</jats:italic>.</jats:p><jats:p>We describe a scheme called <jats:italic>Iterated Function Systems</jats:italic> (IFSs) which an represent self‐tiling images. IFSs make explicit the mappings which take a self‐tiling image into its tiles.</jats:p><jats:p>We show how a self‐tiling image exists as the limit of both random and deterministic processes based upon its associated IFS, and exploit massive SIMD parallelism in image generation on the AMT DAP.</jats:p><jats:p>We also attempt to answer the question: “Can one synthesise images by the interactive graphical manipulation of a representation of IFSs?”, and present our <jats:italic>interactive system for image synthesis (ISIS</jats:italic>).</jats:p>",
+        "DOI": "10.1111/j.1467-8659.1990.tb00385.x",
+        "title": [
+          "IFSs and Interactive Image Synthesis"
+        ],
+        "author": [
+          {
+            "given": "Alastair N.",
+            "family": "Horn",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2007,
+              10,
+              9
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "link": [
+          {
+            "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1467-8659.1990.tb00385.x",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-8659.1990.tb00385.x",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1111/j.1467-8659.1990.tb00385.x",
+        "ISSN": [
+          "0167-7055",
+          "1467-8659"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1990,
+              6
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2010,
+              9
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>We present a set of techniques for the synthesis of artificial images that depict branching structures like rivers, cracks, lightning, mountain ranges, or blood vessels. The central idea is to build a statistical model that captures the characteristic bending and branching structure from example images. Then a new skeleton structure is synthesized and the final output image is composed from image fragments of the original input images. The synthesis part of our algorithm runs mostly automatic but it optionally allows the user to control the process in order to achieve a specific result. The combination of the statistical bending and branching model with sophisticated fragment‐based image synthesis corresponds to a multi‐resolution decomposition of the underlying branching structure into the low frequency behavior (captured by the statistical model) and the high frequency detail (captured by the image detail in the fragments). This approach allows for the synthesis of realistic branching structures, while at the same time preserving important textural details from the original image.</jats:p>",
+        "DOI": "10.1111/j.1467-8659.2010.01801.x",
+        "title": [
+          "Image Synthesis for Branching Structures"
+        ],
+        "author": [
+          {
+            "given": "Dominik",
+            "family": "Sibbing",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Darko",
+            "family": "Pavić",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Leif",
+            "family": "Kobbelt",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2010,
+              10,
+              18
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "link": [
+          {
+            "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1467-8659.2010.01801.x",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-8659.2010.01801.x",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1111/j.1467-8659.2010.01801.x",
+        "ISSN": [
+          "0167-7055",
+          "1467-8659"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2010,
+              9
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2015,
+              12
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>We present an interactive system for composing realistic images of an object under arbitrary pose and appearance specified by sketching. Our system draws inspiration from a traditional illustration workflow: The user first sketches rough ‘masses’ of the object, as ellipses, to define an initial abstract pose that can then be refined with more detailed contours as desired. The system is made robust to partial or inaccurate sketches using a reduced‐dimensionality model of pose space learnt from a labelled collection of photos. Throughout the composition process, interactive visual feedback is provided to guide the user. Finally, the user's partial or complete sketch, complemented with appearance requirements, is used to constrain the automatic synthesis of a novel, high‐quality, realistic image.</jats:p>",
+        "DOI": "10.1111/cgf.12665",
+        "title": [
+          "Interactive Sketch‐Driven Image Synthesis"
+        ],
+        "author": [
+          {
+            "given": "Daniyar",
+            "family": "Turmukhambetov",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "University College London  London United Kingdom"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Neill D.F.",
+            "family": "Campbell",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University College London  London United Kingdom"
+              },
+              {
+                "name": "University of Bath  Bath United Kingdom"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Dan B",
+            "family": "Goldman",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Adobe Research  Seattle WA USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jan",
+            "family": "Kautz",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University College London  London United Kingdom"
+              },
+              {
+                "name": "NVIDIA  Boston MA USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2015,
+              8,
+              13
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "link": [
+          {
+            "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fcgf.12665",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.12665",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1111/cgf.12665",
+        "ISSN": [
+          "0167-7055",
+          "1467-8659"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              8,
+              13
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2008,
+              10
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>We present a new image completion method based on an additional large displacement view (LDV) of the same scene for faithfully repairing large missing regions on the target image in an automatic way. A coarse‐to‐fine distortion correction algorithm is proposed to minimize the perspective distortion in the corresponding parts for the common scene regions on the LDV image. First, under the assumption of a planar scene, the LDV image is warped according to a homography to generate the initial correction result. Second, the residual distortions in the common known scene regions are revealed by means of a mismatch detection mechanism and relaxed by energy optimization of overlap correspondences, with the expectations of color constancy and displacement field smoothness. The fundamental matrix for the two views is then computed based on the reliable correspondence set. Third, under the constraints of epipolar geometry, displacement field smoothness and color consistency of the neighboring pixels, the missing pixels are orderly restored according to a specially defined repairing priority function. We finally eliminate the ghost effect between the repaired region and its surroundings by Poisson image blending. Experimental results demonstrate that our method outperforms recent state‐of‐the‐art image completion methods for repairing large missing area with complex structure information.</jats:p>",
+        "DOI": "10.1111/j.1467-8659.2008.01320.x",
+        "title": [
+          "Distortion Optimization based Image Completion from a Large Displacement View"
+        ],
+        "author": [
+          {
+            "given": "Chunxiao",
+            "family": "Liu",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yingzhen",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Qunsheng",
+            "family": "Peng",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jin",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wei",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2009,
+              1,
+              23
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "link": [
+          {
+            "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1467-8659.2008.01320.x",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1467-8659.2008.01320.x",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-8659.2008.01320.x",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/j.1467-8659.2008.01320.x",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-8659.2008.01320.x",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1111/j.1467-8659.2008.01320.x",
+        "ISSN": [
+          "0167-7055",
+          "1467-8659"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2008,
+              10
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              10
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>The advancements of the Neural Radiance Field (NeRF) and its variants have demonstrated remarkable capabilities in generating photo‐realistic novel views from a small set of input images. While recent works suggest various techniques and model architectures that enhance speed or reconstruction quality, little attention is paid to exploring the RGB color space of input images. In this paper, we propose a universal color transform module that can maximally harness the captured evidence for the neural networks at hand. The color transform module utilizes an encoder‐decoder framework that maps the RGB color space into a new latent space, enhancing the expressiveness of the input domain. We attach the encoder and the decoder at the input and output of a NeRF model of choice, respectively, and jointly optimize them to maintain the cycle consistency of the proposed transform, in addition to minimizing the reconstruction errors in the feature domain. Our comprehensive experiments demonstrate that the learned color space can significantly improve the quality of reconstructions compared to the conventional RGB representation. Its benefits are particularly pronounced in challenging scenarios characterized by low‐light environments and scenes with low‐textured regions. The proposed color transform pushes the boundaries of limitations in the input domain and offers a promising avenue for advancing the reconstruction capabilities of various neural representations. Source code is available at <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://github.com/sangminkim-99/ColorTransformModule\">https://github.com/sangminkim-99/ColorTransformModule</jats:ext-link>.</jats:p>",
+        "DOI": "10.1111/cgf.14931",
+        "title": [
+          "Robust Novel View Synthesis with Color Transform Module"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0002-9718-1196",
+            "authenticated-orcid": false,
+            "given": "S. M.",
+            "family": "Kim",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Dept. of Electrical and Computer Engineering Seoul National University  Korea"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5748-6003",
+            "authenticated-orcid": false,
+            "given": "C.",
+            "family": "Choi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Dept. of Electrical and Computer Engineering Seoul National University  Korea"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0009-2934-1064",
+            "authenticated-orcid": false,
+            "given": "H.",
+            "family": "Heo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Dept. of Electrical and Computer Engineering Seoul National University  Korea"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6735-8539",
+            "authenticated-orcid": false,
+            "given": "Y. M.",
+            "family": "Kim",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Dept. of Electrical and Computer Engineering Seoul National University  Korea"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              30
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14931",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1111/cgf.14931",
+        "ISSN": [
+          "0167-7055",
+          "1467-8659"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              10
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2012,
+              5
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>Synthetically generating images and video frames of complex 3D scenes using some photo‐realistic rendering software is often prone to artifacts and requires expert knowledge to tune the parameters. The manual work required for detecting and preventing artifacts can be automated through objective quality evaluation of synthetic images. Most practical objective quality assessment methods of natural images rely on a ground‐truth reference, which is often not available in rendering applications. While general purpose no‐reference image quality assessment is a difficult problem, we show in a subjective study that the performance of a dedicated no‐reference metric as presented in this paper can match the state‐of‐the‐art metrics that do require a reference. This level of predictive power is achieved exploiting information about the underlying synthetic scene (e.g., 3D surfaces, textures) instead of merely considering color, and training our learning framework with typical rendering artifacts. We show that our method successfully detects various non‐trivial types of artifacts such as noise and clamping bias due to insufficient virtual point light sources, and shadow map discretization artifacts. We also briefly discuss an inpainting method for automatic correction of detected artifacts.</jats:p>",
+        "DOI": "10.1111/j.1467-8659.2012.03055.x",
+        "title": [
+          "NoRM: No‐Reference Image Quality Metric for Realistic Image Synthesis"
+        ],
+        "author": [
+          {
+            "given": "Robert",
+            "family": "Herzog",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Martin",
+            "family": "Čadík",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Tunç O.",
+            "family": "Aydčin",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Kwang In",
+            "family": "Kim",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Karol",
+            "family": "Myszkowski",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hans‐P.",
+            "family": "Seidel",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2012,
+              6,
+              20
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "link": [
+          {
+            "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1467-8659.2012.03055.x",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-8659.2012.03055.x",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1111/j.1467-8659.2012.03055.x",
+        "ISSN": [
+          "0167-7055",
+          "1467-8659"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2012,
+              5
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 15,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

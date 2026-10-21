@@ -1,0 +1,14 @@
+corresponding_author_home.html None HTTPSConnectionPool(host='liweijia.github.io', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f8c2c6abaf0>: Failed to establish a new connection: No IPv4 DNS answer for liweijia.github.io'))
+legacy_repository.json 404 118
+author_home.html 200 19391
+author_skydiffusion_tree.json 200 1298
+author_skydiffusion_readme.md 200 4798
+author_about.md 200 4164
+alternate_project_tree.json 200 161771
+author_config.yml 200 3924
+corresponding_author_index.html 404 127
+official_dataset_discussions_mirror.json 200 724
+checkpoint_discussions_mirror.json 200 63
+official_dataset_discussions.json None HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /api/datasets/Yejy53/G2A-3/discussions (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f8c2c6ba8b0>, 'Connection to huggingface.co timed out. (connect timeout=10)'))
+checkpoint_discussions.json None HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /api/models/SkyDiff1109/SkyDiffusion_ckpt/discussions (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f8c2c6b2a00>, 'Connection to huggingface.co timed out. (connect timeout=10)'))
+Saved source snapshots to /root/DroneVisCrt/results/author_materials_search

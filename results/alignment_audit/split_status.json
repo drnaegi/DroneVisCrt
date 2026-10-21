@@ -1,0 +1,18 @@
+{
+  "dataset": "G2A-3/Disaster",
+  "pair_count": 2714,
+  "inventory_sha256": "6c7dc8fe54e9fe26752c0f24e31c4d1bac1b7d8318ad7be3f8fa80310d11811b",
+  "coordinates_status": "parsed from filenames; not independently geolocated",
+  "paper_split_rule": "regional 4:1 train:test",
+  "official_train_ids": null,
+  "official_test_ids": null,
+  "official_region_boundaries": null,
+  "local_split_created": false,
+  "searched": [
+    "public main and historical repository trees",
+    "downloaded and official Disaster/History ZIP central directories",
+    "project page",
+    "ICCV main paper"
+  ],
+  "uav_scope": "outer ZIPs contain six nested ZIPs; nested official UAV contents have not been audited"
+}

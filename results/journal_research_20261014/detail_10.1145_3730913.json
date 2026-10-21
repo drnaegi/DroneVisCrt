@@ -1,0 +1,746 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        30
+      ]
+    ],
+    "date-time": "2026-09-30T17:39:06Z",
+    "timestamp": 1790789946700,
+    "version": "4.1.0"
+  },
+  "reference-count": 76,
+  "publisher": "Association for Computing Machinery (ACM)",
+  "issue": "4",
+  "funder": [
+    {
+      "DOI": "10.13039/501100000781",
+      "name": "European Research Council",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "NERPHYS (101141721)"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "NERPHYS (101141721)"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100000781",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "dl.acm.org"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "ACM Trans. Graph."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2025,
+        8,
+        1
+      ]
+    ]
+  },
+  "abstract": "<jats:p>\n                    Radiance field methods such as 3D Gaussian Splatting (3DGS) allow easy reconstruction from photos, enabling free-viewpoint navigation. Nonetheless, pose estimation using Structure from Motion and 3DGS optimization can still each take between minutes and hours of computation after capture is complete. SLAM methods combined with 3DGS are fast but struggle with wide camera baselines and large scenes. We present an on-the-fly method to produce camera poses and a trained 3DGS\n                    <jats:italic toggle=\"yes\">immediately</jats:italic>\n                    after capture. Our method can handle dense and wide-baseline captures of ordered photo sequences and large-scale scenes. To do this, we first introduce fast initial pose estimation, exploiting learned features and a GPU-friendly mini bundle adjustment. We then introduce direct sampling of Gaussian primitive positions and shapes, incrementally spawning primitives where required, significantly accelerating training. These two efficient steps allow fast and robust joint optimization of poses and Gaussian primitives. Our incremental approach handles large-scale scenes by introducing scalable radiance field construction, progressively clustering 3DGS primitives, storing them in anchors, and offloading them from the GPU. Clustered primitives are progressively merged, keeping the required scale of 3DGS at any viewpoint. We evaluate our solution on a variety of datasets and show that it can provide on-the-fly processing of all the capture scenarios and scene sizes we target. At the same time our method remains competitive - in speed, image quality, or both - with other methods that only handle specific capture styles or scene sizes.\n                  </jats:p>",
+  "DOI": "10.1145/3730913",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2025,
+        7,
+        27
+      ]
+    ],
+    "date-time": "2025-07-27T04:02:22Z",
+    "timestamp": 1753588942000
+  },
+  "page": "1-14",
+  "update-policy": "https://doi.org/10.1145/crossmark-policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 28,
+  "title": [
+    "On-the-fly Reconstruction for Large-Scale Novel View Synthesis from Unposed Images"
+  ],
+  "prefix": "10.1145",
+  "volume": "44",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-9899-6365",
+      "authenticated-orcid": false,
+      "given": "Andreas",
+      "family": "Meuleman",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "INRIA, Université Côte d'Azur, Biot, France"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0000-7104-4578",
+      "authenticated-orcid": false,
+      "given": "Ishaan",
+      "family": "Shah",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "INRIA, Université Côte d'Azur, Biot, France"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0003-5343-2528",
+      "authenticated-orcid": false,
+      "given": "Alexandre",
+      "family": "Lanvin",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "INRIA, Université Côte d'Azur, Biot, France"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-5168-8648",
+      "authenticated-orcid": false,
+      "given": "Bernhard",
+      "family": "Kerbl",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "TU Wien, Wien, Austria"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-9254-4819",
+      "authenticated-orcid": false,
+      "given": "George",
+      "family": "Drettakis",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "INRIA, Université Côte d'Azur, Biot, France"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "320",
+  "published-online": {
+    "date-parts": [
+      [
+        2025,
+        7,
+        27
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_2_2_1_1",
+      "unstructured": "Sameer Agarwal Keir Mierle and The Ceres Solver Team. 2023. Ceres Solver. https://github.com/ceres-solver/ceres-solver"
+    },
+    {
+      "key": "e_1_2_2_2_1",
+      "volume-title": "Srinivasan",
+      "author": "Barron Jonathan T.",
+      "year": "2021",
+      "unstructured": "Jonathan T. Barron, Ben Mildenhall, Matthew Tancik, Peter Hedman, Ricardo Martin-Brualla, and Pratul P. Srinivasan. 2021. Mip-NeRF: A Multiscale Representation for Anti-Aliasing Neural Radiance Fields. ICCV (2021)."
+    },
+    {
+      "key": "e_1_2_2_3_1",
+      "volume-title": "Mip-NeRF 360: Unbounded Anti-Aliased Neural Radiance Fields. CVPR",
+      "author": "Barron Jonathan T.",
+      "year": "2022",
+      "unstructured": "Jonathan T. Barron, Ben Mildenhall, Dor Verbin, Pratul P. Srinivasan, and Peter Hedman. 2022. Mip-NeRF 360: Unbounded Anti-Aliased Neural Radiance Fields. CVPR (2022)."
+    },
+    {
+      "key": "e_1_2_2_4_1",
+      "volume-title": "Zip-NeRF: Anti-Aliased Grid-Based Neural Radiance Fields. ICCV",
+      "author": "Barron Jonathan T.",
+      "year": "2023",
+      "unstructured": "Jonathan T. Barron, Ben Mildenhall, Dor Verbin, Pratul P. Srinivasan, and Peter Hedman. 2023. Zip-NeRF: Anti-Aliased Grid-Based Neural Radiance Fields. ICCV (2023)."
+    },
+    {
+      "key": "e_1_2_2_5_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Eric Brachmann Jamie Wynn Shuai Chen Tommaso Cavallari Áron Monszpart Daniyar Turmukhambetov and Victor Adrian Prisacariu. 2024. Scene Coordinate Reconstruction: Posing of Image Collections via Incremental Learning of a Relocalizer. In ECCV.",
+      "DOI": "10.1007/978-3-031-72992-8_24"
+    },
+    {
+      "key": "e_1_2_2_6_1",
+      "volume-title": "Tardós",
+      "author": "Campos Carlos",
+      "year": "2021",
+      "unstructured": "Carlos Campos, Richard Elvira, Juan J. Gòmez, José M. M. Montiel, and Juan D. Tardós. 2021. ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual-Inertial and Multi-Map SLAM. IEEE Transactions on Robotics (2021)."
+    },
+    {
+      "key": "e_1_2_2_7_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Anpei Chen Zexiang Xu Andreas Geiger Jingyi Yu and Hao Su. 2022. TensoRF: Tensorial Radiance Fields. In ECCV.",
+      "DOI": "10.1007/978-3-031-19824-3_20"
+    },
+    {
+      "key": "e_1_2_2_8_1",
+      "unstructured": "Guikun Chen and Wenguan Wang. 2024. A Survey on 3D Gaussian Splatting. arXiv:2401.03890 [cs.CV] https://arxiv.org/abs/2401.03890"
+    },
+    {
+      "key": "e_1_2_2_9_1",
+      "volume-title": "Evangelos Ververas, Jifei Song, Jiankang Deng, and Gim Hee Lee.",
+      "author": "Chen Yu",
+      "year": "2024",
+      "unstructured": "Yu Chen, Rolandos Alexandros Potamias, Evangelos Ververas, Jifei Song, Jiankang Deng, and Gim Hee Lee. 2024. ZeroGS: Training 3D Gaussian Splatting from Unposed Images. arXiv:2411.15779 [cs.CV] https://arxiv.org/abs/2411.15779"
+    },
+    {
+      "key": "e_1_2_2_10_1",
+      "volume-title": "Evans",
+      "author": "Clark Philip J.",
+      "year": "1954",
+      "unstructured": "Philip J. Clark and Francis C. Evans. 1954. Distance to nearest neighbor as a measure of spatial relationships in populations. Ecology 35 (1954)."
+    },
+    {
+      "key": "e_1_2_2_11_1",
+      "volume-title": "DeepFactors: Real-time probabilistic dense monocular SLAM",
+      "author": "Czarnowski J",
+      "year": "2020",
+      "unstructured": "J Czarnowski, T Laidlow, R Clark, and AJ Davison. 2020. DeepFactors: Real-time probabilistic dense monocular SLAM. IEEE Robotics and Automation Letters (2020)."
+    },
+    {
+      "key": "e_1_2_2_12_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Tianchen Deng Yaohui Chen Leyan Zhang Jianfei Yang Shenghai Yuan Jiuming Liu Danwei Wang Hesheng Wang and Weidong Chen. 2024. Compact 3D Gaussian Splatting For Dense Visual SLAM. arXiv:2403.11247 [cs.CV]",
+      "DOI": "10.1109/IROS60139.2025.11246845"
+    },
+    {
+      "key": "e_1_2_2_13_1",
+      "volume-title": "Barron",
+      "author": "Duckworth Daniel",
+      "year": "2023",
+      "unstructured": "Daniel Duckworth, Peter Hedman, Christian Reiser, Peter Zhizhin, Jean-François Thibert, Mario Lučić, Richard Szeliski, and Jonathan T. Barron. 2023. SMERF: Streamable Memory Efficient Radiance Fields for Real-Time Large-Scene Exploration. ACM Transactions on Graphics (2023)."
+    },
+    {
+      "key": "e_1_2_2_14_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Bardienus Duisterhof Lojze Zust Philippe Weinzaepfel Vincent Leroy Yohann Cabon and Jerome Revaud. 2024. MASt3R-SfM: a Fully-Integrated Solution for Unconstrained Structure-from-Motion. arXiv:2409.19152 [cs.CV] https://arxiv.org/abs/2409.19152",
+      "DOI": "10.1109/3DV66043.2025.00008"
+    },
+    {
+      "key": "e_1_2_2_15_1",
+      "unstructured": "Zhiwen Fan Wenyan Cong Kairun Wen Kevin Wang Jian Zhang Xinghao Ding Danfei Xu Boris Ivanovic Marco Pavone Georgios Pavlakos Zhangyang Wang and Yue Wang. 2024. InstantSplat: Unbounded Sparse-view Pose-free Gaussian Splatting in 40 Seconds. arXiv:2403.20309 [cs.CV]"
+    },
+    {
+      "key": "e_1_2_2_16_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-031-72980-5_10"
+    },
+    {
+      "key": "e_1_2_2_17_1",
+      "volume-title": "Mini-Splatting2: Building 360 Scenes within Minutes via Aggressive Gaussian Densification. arXiv preprint arXiv:2411.12788",
+      "author": "Fang Guangchi",
+      "year": "2024",
+      "unstructured": "Guangchi Fang and Bing Wang. 2024b. Mini-Splatting2: Building 360 Scenes within Minutes via Aggressive Gaussian Densification. arXiv preprint arXiv:2411.12788 (2024)."
+    },
+    {
+      "key": "e_1_2_2_18_1",
+      "volume-title": "3d gaussian splatting as new era: A survey",
+      "author": "Fei Ben",
+      "year": "2024",
+      "unstructured": "Ben Fei, Jingyi Xu, Rui Zhang, Qingyuan Zhou, Weidong Yang, and Ying He. 2024. 3d gaussian splatting as new era: A survey. IEEE Transactions on Visualization and Computer Graphics (2024)."
+    },
+    {
+      "key": "e_1_2_2_19_1",
+      "unstructured": "Dapeng Feng Zhiqiang Chen Yizhen Yin Shipeng Zhong Yuhua Qi and Hongbo Chen. 2024. CaRtGS: Computational Alignment for Real-Time Gaussian Splatting SLAM. arXiv:2410.00486 [cs.CV] https://arxiv.org/abs/2410.00486"
+    },
+    {
+      "key": "e_1_2_2_20_1",
+      "unstructured": "Yang Fu Sifei Liu Amey Kulkarni Jan Kautz Alexei A. Efros and Xiaolong Wang. 2024. COLMAP-Free 3D Gaussian Splatting. In CVPR."
+    },
+    {
+      "key": "e_1_2_2_21_1",
+      "unstructured": "Michael Grupp. 2017. evo: Python package for the evaluation of odometry and SLAM. https://github.com/MichaelGrupp/evo."
+    },
+    {
+      "key": "e_1_2_2_22_1",
+      "volume-title": "Computer and robot vision",
+      "author": "Haralock Robert M",
+      "unstructured": "Robert M Haralock and Linda G Shapiro. 1991. Computer and robot vision. Addison-Wesley Longman Publishing Co., Inc."
+    },
+    {
+      "key": "e_1_2_2_23_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICIP46576.2022.9897219"
+    },
+    {
+      "key": "e_1_2_2_24_1",
+      "volume-title": "DROID-Splat: Combining end-to-end SLAM with 3D Gaussian Splatting. arXiv e-prints",
+      "author": "Homeyer Christian",
+      "year": "2024",
+      "unstructured": "Christian Homeyer, Leon Begiristain, and Christoph Schnörr. 2024. DROID-Splat: Combining end-to-end SLAM with 3D Gaussian Splatting. arXiv e-prints (2024), arXiv-2411."
+    },
+    {
+      "key": "e_1_2_2_25_1",
+      "unstructured": "Wenbo Hu Yuling Wang Lin Ma Bangbang Yang Lin Gao Xiao Liu and Yuewen Ma. 2023. Tri-MipRF: Tri-Mip Representation for Efficient Anti-Aliasing Neural Radiance Fields. In ICCV."
+    },
+    {
+      "key": "e_1_2_2_26_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Huajian Huang Longwei Li Cheng Hui and Sai-Kit Yeung. 2024. Photo-SLAM: Realtime Simultaneous Localization and Photorealistic Mapping for Monocular Stereo and RGB-D Cameras. In CVPR.",
+      "DOI": "10.1109/CVPR52733.2024.02039"
+    },
+    {
+      "key": "e_1_2_2_27_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Yoonwoo Jeong Seokjun Ahn Christopher Choy Animashree Anandkumar Minsu Cho and Jaesik Park. 2021. Self-Calibrating Neural Radiance Fields. In ICCV.",
+      "DOI": "10.1109/ICCV48922.2021.00579"
+    },
+    {
+      "key": "e_1_2_2_28_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3641519.3657427"
+    },
+    {
+      "key": "e_1_2_2_29_1",
+      "volume-title": "Gengshan Yang, Sebastian Scherer, Deva Ramanan, and Jonathon Luiten.",
+      "author": "Keetha Nikhil",
+      "year": "2024",
+      "unstructured": "Nikhil Keetha, Jay Karhade, Krishna Murthy Jatavallabhula, Gengshan Yang, Sebastian Scherer, Deva Ramanan, and Jonathon Luiten. 2024. SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM. In CVPR."
+    },
+    {
+      "key": "e_1_2_2_30_1",
+      "volume-title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering. ACM Transactions on Graphics",
+      "author": "Kerbl Bernhard",
+      "year": "2023",
+      "unstructured": "Bernhard Kerbl, Georgios Kopanas, Thomas Leimkühler, and George Drettakis. 2023. 3D Gaussian Splatting for Real-Time Radiance Field Rendering. ACM Transactions on Graphics (2023)."
+    },
+    {
+      "key": "e_1_2_2_31_1",
+      "volume-title": "A Hierarchical 3D Gaussian Representation for Real-Time Rendering of Very Large Datasets. ACM Transactions on Graphics",
+      "author": "Kerbl Bernhard",
+      "year": "2024",
+      "unstructured": "Bernhard Kerbl, Andreas Meuleman, Georgios Kopanas, Michael Wimmer, Alexandre Lanvin, and George Drettakis. 2024. A Hierarchical 3D Gaussian Representation for Real-Time Rendering of Very Large Datasets. ACM Transactions on Graphics (2024)."
+    },
+    {
+      "key": "e_1_2_2_32_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Johannes Kopf Xuejian Rong and Jia-Bin Huang. 2021. Robust consistent video depth estimation.",
+      "DOI": "10.1109/CVPR46437.2021.00166"
+    },
+    {
+      "key": "e_1_2_2_33_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Kenneth Levenberg. 1944. A Method for the Solution of Certain Non-Linear Problems in Least Squares. Quart. Appl. Math. (1944).",
+      "DOI": "10.1090/qam/10666"
+    },
+    {
+      "key": "e_1_2_2_34_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Hao Li Yuanyuan Gao Chenming Wu Dingwen Zhang Yalun Dai Chen Zhao Haocheng Feng Errui Ding Jingdong Wang and Junwei Han. 2024. GGRt: Towards Generalizable 3D Gaussians without Pose Priors in Real-Time. In ECCV.",
+      "DOI": "10.1007/978-3-031-73209-6_19"
+    },
+    {
+      "key": "e_1_2_2_35_1",
+      "volume-title": "BARF: Bundle-Adjusting Neural Radiance Fields. In ICCV.",
+      "author": "Lin Chen-Hsuan",
+      "year": "2021",
+      "unstructured": "Chen-Hsuan Lin, Wei-Chiu Ma, Antonio Torralba, and Simon Lucey. 2021. BARF: Bundle-Adjusting Neural Radiance Fields. In ICCV."
+    },
+    {
+      "key": "e_1_2_2_36_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Jiaqi Lin Zhihao Li Xiao Tang Jianzhuang Liu Shiyong Liu Jiayue Liu Yangdi Lu Xiaofei Wu Songcen Xu Youliang Yan and Wenming Yang. 2024. VastGaussian: Vast 3D Gaussians for Large Scene Reconstruction. In CVPR.",
+      "DOI": "10.1109/CVPR52733.2024.00494"
+    },
+    {
+      "key": "e_1_2_2_37_1",
+      "volume-title": "Rip-NeRF: Anti-aliasing Radiance Fields with Ripmap-Encoded Platonic Solids. In SIGGRAPH Conference Proceedings. Yang Liu, He Guan, Chuanchen Luo, Lue Fan, Junran Peng, and Zhaoxiang Zhang.",
+      "author": "Liu Junchen",
+      "year": "2024",
+      "unstructured": "Junchen Liu, Wenbo Hu, Zhuo Yang, Jianteng Chen, Guoliang Wang, Xiaoxue Chen, Yantong Cai, Huan-ang Gao, and Hao Zhao. 2024b. Rip-NeRF: Anti-aliasing Radiance Fields with Ripmap-Encoded Platonic Solids. In SIGGRAPH Conference Proceedings. Yang Liu, He Guan, Chuanchen Luo, Lue Fan, Junran Peng, and Zhaoxiang Zhang. 2024a. CityGaussian: Real-time High-quality Large-Scale Scene Rendering with Gaussians. In ECCV."
+    },
+    {
+      "key": "e_1_2_2_38_1",
+      "unstructured": "Yu-Lun Liu Chen Gao Andreas Meuleman Hung-Yu Tseng Ayush Saraf Changil Kim Yung-Yu Chuang Johannes Kopf and Jia-Bin Huang. 2023. Robust Dynamic Radiance Fields. In CVPR."
+    },
+    {
+      "key": "e_1_2_2_39_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3306346.3323020"
+    },
+    {
+      "key": "e_1_2_2_40_1",
+      "unstructured": "Zeyu Ma Zachary Teed and Jia Deng. 2022. Multiview Stereo with Cascaded Epipolar RAFT. In ECCV."
+    },
+    {
+      "key": "e_1_2_2_41_1",
+      "volume-title": "Methods for Non-Linear Least Squares Problems",
+      "author": "Madsen Kaj",
+      "year": "2004",
+      "unstructured": "Kaj Madsen, Hans Nielsen, and O Tingleff. 2004. Methods for Non-Linear Least Squares Problems (2nd ed.). (2004).",
+      "edition": "2"
+    },
+    {
+      "key": "e_1_2_2_42_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3680528.3687694"
+    },
+    {
+      "key": "e_1_2_2_43_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Donald W. Marquardt. 1963. An Algorithm for Least-Squares Estimation of Nonlinear Parameters. J. Soc. Indust. Appl. Math. (1963).",
+      "DOI": "10.1137/0111030"
+    },
+    {
+      "key": "e_1_2_2_44_1",
+      "volume": "202",
+      "author": "Matsuki Hidenobu",
+      "unstructured": "Hidenobu Matsuki, Riku Murai, Paul H. J. Kelly, and Andrew J. Davison. 2024. Gaussian Splatting SLAM. (2024).",
+      "journal-title": "Andrew J. Davison."
+    },
+    {
+      "key": "e_1_2_2_45_1",
+      "volume-title": "Kim",
+      "author": "Meuleman Andreas",
+      "year": "2021",
+      "unstructured": "Andreas Meuleman, Hyeonjoong Jang, Daniel S. Jeon, and Min H. Kim. 2021. Real-Time Sphere Sweeping Stereo from Multiview Fisheye Images. In CVPR."
+    },
+    {
+      "key": "e_1_2_2_46_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Andreas Meuleman Yu-Lun Liu Chen Gao Jia-Bin Huang Changil Kim Min H. Kim and Johannes Kopf. 2023. Progressively Optimized Local Radiance Fields for Robust View Synthesis. In CVPR.",
+      "DOI": "10.1109/CVPR52729.2023.01587"
+    },
+    {
+      "key": "e_1_2_2_47_1",
+      "unstructured": "Zhenxing Mi and Dan Xu. 2023. Switch-NeRF: Learning Scene Decomposition with Mixture of Experts for Large-scale Neural Radiance Fields. In ICLR."
+    },
+    {
+      "key": "e_1_2_2_48_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Ben Mildenhall Pratul P. Srinivasan Matthew Tancik Jonathan T. Barron Ravi Ramamoorthi and Ren Ng. 2020. NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis. In ECCV.",
+      "DOI": "10.1007/978-3-030-58452-8_24"
+    },
+    {
+      "key": "e_1_2_2_49_1",
+      "volume-title": "Instant Neural Graphics Primitives with a Multiresolution Hash Encoding. ACM Transactions on Graphics",
+      "author": "Müller Thomas",
+      "year": "2022",
+      "unstructured": "Thomas Müller, Alex Evans, Christoph Schied, and Alexander Keller. 2022. Instant Neural Graphics Primitives with a Multiresolution Hash Encoding. ACM Transactions on Graphics (2022)."
+    },
+    {
+      "key": "e_1_2_2_50_1",
+      "volume-title": "Tardós",
+      "author": "Mur-Artal Raúl",
+      "year": "2015",
+      "unstructured": "Raúl Mur-Artal, J. M. M. Montiel, and Juan D. Tardós. 2015. ORB-SLAM: a Versatile and Accurate Monocular SLAM System. IEEE Transactions on Robotics (2015)."
+    },
+    {
+      "key": "e_1_2_2_51_1",
+      "unstructured": "Linfei Pan Dåniel Baråth Marc Pollefeys and Johannes Lutz Schönberger. 2024. Global Structure-from-Motion Revisited. In ECCV."
+    },
+    {
+      "key": "e_1_2_2_52_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3651282"
+    },
+    {
+      "key": "e_1_2_2_53_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Zhexi Peng Tianjia Shao Liu Yong Jingke Zhou Yin Yang Jingdong Wang and Kun Zhou. 2024. RTG-SLAM: Real-time 3D Reconstruction at Scale using Gaussian Splatting. (2024).",
+      "DOI": "10.1145/3641519.3657455"
+    },
+    {
+      "key": "e_1_2_2_54_1",
+      "volume-title": "Nascimento",
+      "author": "Potje Guilherme",
+      "year": "2024",
+      "unstructured": "Guilherme Potje, Felipe Cadar, Andre Araujo, Renato Martins, and Erickson R. Nascimento. 2024. XFeat: Accelerated Features for Lightweight Image Matching. In CVPR."
+    },
+    {
+      "key": "e_1_2_2_55_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Kerui Ren Lihan Jiang Tao Lu Mulin Yu Linning Xu Zhangkai Ni and Bo Dai. 2024. Octree-GS: Towards Consistent Real-time Rendering with LOD-Structured 3D Gaussians. arXiv:2403.17898 [cs.CV] https://arxiv.org/abs/2403.17898",
+      "DOI": "10.1109/TPAMI.2025.3568201"
+    },
+    {
+      "key": "e_1_2_2_56_1",
+      "volume-title": "SpotLessSplats: Ignoring Distractors in 3D Gaussian Splatting. arXiv:2406.20055",
+      "author": "Sabour Sara",
+      "year": "2024",
+      "unstructured": "Sara Sabour, Lily Goli, George Kopanas, Mark Matthews, Dmitry Lagun, Leonidas Guibas, Alec Jacobson, David J. Fleet, and Andrea Tagliasacchi. 2024. SpotLessSplats: Ignoring Distractors in 3D Gaussian Splatting. arXiv:2406.20055 (2024)."
+    },
+    {
+      "key": "e_1_2_2_57_1",
+      "volume-title": "Plenoxels: Radiance Fields without Neural Networks. In CVPR.",
+      "author": "Fridovich-Keil Sara",
+      "year": "2022",
+      "unstructured": "Sara Fridovich-Keil and Alex Yu, Matthew Tancik, Qinhong Chen, Benjamin Recht, and Angjoo Kanazawa. 2022. Plenoxels: Radiance Fields without Neural Networks. In CVPR."
+    },
+    {
+      "key": "e_1_2_2_58_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Johannes Lutz Schönberger and Jan-Michael Frahm. 2016. Structure-from-Motion Revisited. In CVPR.",
+      "DOI": "10.1109/CVPR.2016.445"
+    },
+    {
+      "key": "e_1_2_2_59_1",
+      "volume-title": "BAD SLAM: Bundle Adjusted Direct RGB-D SLAM. In CVPR.",
+      "author": "Schops Thomas",
+      "year": "2019",
+      "unstructured": "Thomas Schops, Torsten Sattler, and Marc Pollefeys. 2019. BAD SLAM: Bundle Adjusted Direct RGB-D SLAM. In CVPR."
+    },
+    {
+      "key": "e_1_2_2_60_1",
+      "volume-title": "IEEE/RSJ International Conference on Intelligent Robots and Systems.",
+      "author": "Sturm Jürgen",
+      "year": "2012",
+      "unstructured": "Jürgen Sturm, Nikolas Engelhard, Felix Endres, Wolfram Burgard, and Daniel Cremers. 2012. A benchmark for the evaluation of RGB-D SLAM systems. In IEEE/RSJ International Conference on Intelligent Robots and Systems."
+    },
+    {
+      "key": "e_1_2_2_61_1",
+      "unstructured": "Shuo Sun Malcolm Mielle Achim J. Lilienthal and Martin Magnusson. 2024a. GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting. In CVPR."
+    },
+    {
+      "key": "e_1_2_2_62_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Shuo Sun Malcolm Mielle Achim J. Lilienthal and Martin Magnusson. 2024b. High-Fidelity SLAM Using Gaussian Splatting with Rendering-Guided Densification and Regularized Optimization. In IROS.",
+      "DOI": "10.1109/IROS58592.2024.10802373"
+    },
+    {
+      "key": "e_1_2_2_63_1",
+      "volume-title": "Block-NeRF: Scalable Large Scene Neural View Synthesis. arXiv",
+      "author": "Tancik Matthew",
+      "year": "2022",
+      "unstructured": "Matthew Tancik, Vincent Casser, Xinchen Yan, Sabeek Pradhan, Ben Mildenhall, Pratul P. Srinivasan, Jonathan T. Barron, and Henrik Kretzschmar. 2022. Block-NeRF: Scalable Large Scene Neural View Synthesis. arXiv (2022)."
+    },
+    {
+      "key": "e_1_2_2_64_1",
+      "unstructured": "Zachary Teed and Jia Deng. 2020. DeepV2D: Video to Depth with Differentiable Structure from Motion. In ICLR."
+    },
+    {
+      "key": "e_1_2_2_65_1",
+      "volume-title": "How nerfs and 3d gaussian splatting are reshaping slam: a survey. arXiv preprint arXiv:2402.13255 4",
+      "author": "Tosi Fabio",
+      "year": "2024",
+      "unstructured": "Fabio Tosi, Youmin Zhang, Ziren Gong, Erik Sandström, Stefano Mattoccia, Martin R Oswald, and Matteo Poggi. 2024. How nerfs and 3d gaussian splatting are reshaping slam: a survey. arXiv preprint arXiv:2402.13255 4 (2024)."
+    },
+    {
+      "key": "e_1_2_2_66_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Haithem Turki Deva Ramanan and Mahadev Satyanarayanan. 2022. Mega-NERF: Scalable Construction of Large-Scale NeRFs for Virtual Fly-Throughs. In CVPR.",
+      "DOI": "10.1109/CVPR52688.2022.01258"
+    },
+    {
+      "key": "e_1_2_2_67_1",
+      "volume-title": "3D Reconstruction with Spatial Memory. arXiv preprint arXiv:2408.16061",
+      "author": "Wang Hengyi",
+      "year": "2024",
+      "unstructured": "Hengyi Wang and Lourdes Agapito. 2024. 3D Reconstruction with Spatial Memory. arXiv preprint arXiv:2408.16061 (2024)."
+    },
+    {
+      "key": "e_1_2_2_68_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Shuzhe Wang Vincent Leroy Yohann Cabon Boris Chidlovskii and Jerome Revaud. 2024. DUSt3R: Geometric 3D Vision Made Easy. In CVPR.",
+      "DOI": "10.1109/CVPR52733.2024.01956"
+    },
+    {
+      "key": "e_1_2_2_69_1",
+      "volume-title": "Proc. ACM Comput. Graph. Interact. Tech. (Proceedings of I3D 2024)",
+      "author": "Wenbo Chen",
+      "year": "2024",
+      "unstructured": "Chen Wenbo and Liu Ligang. 2024. Deblur-GS: 3D Gaussian Splatting from Camera Motion Blurred Images. Proc. ACM Comput. Graph. Interact. Tech. (Proceedings of I3D 2024) (2024)."
+    },
+    {
+      "key": "e_1_2_2_70_1",
+      "unstructured": "Linning Xu Yuanbo Xiangli Sida Peng Xingang Pan Nanxuan Zhao Christian Theobalt Bo Dai and Dahua Lin. 2023. Grid-guided Neural Radiance Fields for Large Urban Scenes. In CVPR."
+    },
+    {
+      "key": "e_1_2_2_71_1",
+      "unstructured": "Lihe Yang Bingyi Kang Zilong Huang Zhen Zhao Xiaogang Xu Jiashi Feng and Hengshuang Zhao. 2024. Depth Anything V2. In Advances in Neural Information Processing Systems."
+    },
+    {
+      "key": "e_1_2_2_72_1",
+      "unstructured": "Zehao Yu Anpei Chen Binbin Huang Torsten Sattler and Andreas Geiger. 2024. Mip-Splatting: Alias-free 3D Gaussian Splatting. In CVPR."
+    },
+    {
+      "key": "e_1_2_2_73_1",
+      "unstructured": "Kai Zhang Gernot Riegler Noah Snavely and Vladlen Koltun. 2020. NeRF++: Analyzing and Improving Neural Radiance Fields. arXiv:2010.07492 [cs.CV]"
+    },
+    {
+      "key": "e_1_2_2_74_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Wei Zhang Qing Cheng David Skuddis Niclas Zeller Daniel Cremers and Norbert Haala. 2024. HI-SLAM2: Geometry-Aware Gaussian SLAM for Fast Monocular Scene Reconstruction. arXiv:2411.17982 [cs.RO] https://arxiv.org/abs/2411.17982",
+      "DOI": "10.1109/TRO.2025.3626627"
+    },
+    {
+      "key": "e_1_2_2_75_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Wang Zhao Shaohui Liu Hengkai Guo Wenping Wang and Yong-Jin Liu. 2022. ParticleSfM: Exploiting Dense Point Trajectories for Localizing Moving Cameras in the Wild.",
+      "DOI": "10.1007/978-3-031-19824-3_31"
+    },
+    {
+      "key": "e_1_2_2_76_1",
+      "unstructured": "Liyuan Zhu Yue Li Erik Sandström Shengyu Huang Konrad Schindler and Iro Armeni. 2025. LoopSplat: Loop Closure by Registering 3D Gaussian Splats."
+    }
+  ],
+  "container-title": [
+    "ACM Transactions on Graphics"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://dl.acm.org/doi/pdf/10.1145/3730913",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        3,
+        27
+      ]
+    ],
+    "date-time": "2026-03-27T17:54:59Z",
+    "timestamp": 1774634099000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://dl.acm.org/doi/10.1145/3730913"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2025,
+        7,
+        27
+      ]
+    ]
+  },
+  "references-count": 76,
+  "journal-issue": {
+    "issue": "4",
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          1
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1145/3730913"
+  ],
+  "URL": "https://doi.org/10.1145/3730913",
+  "relation": {},
+  "ISSN": [
+    "0730-0301",
+    "1557-7368"
+  ],
+  "issn-type": [
+    {
+      "value": "0730-0301",
+      "type": "print"
+    },
+    {
+      "value": "1557-7368",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2025,
+        7,
+        27
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2025-01-23",
+      "order": 0,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2025-03-29",
+      "order": 2,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2025-07-27",
+      "order": 3,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ]
+}

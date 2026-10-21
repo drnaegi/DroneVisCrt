@@ -1,0 +1,166 @@
+[
+  {
+    "title": "PR-IQA: Partial-Reference Image Quality Assessment for Diffusion-Based Novel View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Choi_PR-IQA_Partial-Reference_Image_Quality_Assessment_for_Diffusion-Based_Novel_View_Synthesis_CVPR_2026_paper.html"
+  },
+  {
+    "title": "OrienPose: Orientation-Guided Novel View Synthesis for Single-Image Unseen Object Pose Estimation",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_OrienPose_Orientation-Guided_Novel_View_Synthesis_for_Single-Image_Unseen_Object_Pose_CVPR_2026_paper.html"
+  },
+  {
+    "title": "From None to All: Self-Supervised 3D Reconstruction via Novel View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Huang_From_None_to_All_Self-Supervised_3D_Reconstruction_via_Novel_View_CVPR_2026_paper.html"
+  },
+  {
+    "title": "RAVEN: Erasing Invisible Watermarks via Novel View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Shamshad_RAVEN_Erasing_Invisible_Watermarks_via_Novel_View_Synthesis_CVPR_2026_paper.html"
+  },
+  {
+    "title": "RF4D:Neural Radar Fields for Novel View Synthesis in Outdoor Dynamic Scenes",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_RF4DNeural_Radar_Fields_for_Novel_View_Synthesis_in_Outdoor_Dynamic_CVPR_2026_paper.html"
+  },
+  {
+    "title": "From Rays to Projections: Better Inputs for Feed-Forward View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wu_From_Rays_to_Projections_Better_Inputs_for_Feed-Forward_View_Synthesis_CVPR_2026_paper.html"
+  },
+  {
+    "title": "Scaling View Synthesis Transformers",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Kim_Scaling_View_Synthesis_Transformers_CVPR_2026_paper.html"
+  },
+  {
+    "title": "Socratic-Geo: Synthetic Data Generation and Cross-Modal Geometric Reasoning via Multi-Agent Interaction",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Jiao_Socratic-Geo_Synthetic_Data_Generation_and_Cross-Modal_Geometric_Reasoning_via_Multi-Agent_CVPR_2026_paper.html"
+  },
+  {
+    "title": "Reinforcement-Guided Synthetic Data Generation for Privacy-Sensitive Identity Recognition",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Jia_Reinforcement-Guided_Synthetic_Data_Generation_for_Privacy-Sensitive_Identity_Recognition_CVPR_2026_paper.html"
+  },
+  {
+    "title": "Video2Robo: 3DGS-based Synthetic Data from One Video Enables Scalable Robot Learning",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Deng_Video2Robo_3DGS-based_Synthetic_Data_from_One_Video_Enables_Scalable_Robot_CVPR_2026_paper.html"
+  },
+  {
+    "title": "No Calibration, No Depth, No Problem: Cross-Sensor View Synthesis with 3D Consistency",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wu_No_Calibration_No_Depth_No_Problem_Cross-Sensor_View_Synthesis_with_CVPR_2026_paper.html"
+  },
+  {
+    "title": "Splatent: Splatting Diffusion Latents for Novel View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Hirschorn_Splatent_Splatting_Diffusion_Latents_for_Novel_View_Synthesis_CVPR_2026_paper.html"
+  },
+  {
+    "title": "Learning from Synthetic Data via Provenance-Based Input Gradient Guidance",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Nagano_Learning_from_Synthetic_Data_via_Provenance-Based_Input_Gradient_Guidance_CVPR_2026_paper.html"
+  },
+  {
+    "title": "LagerNVS: Latent Geometry for Fully Neural Real-time Novel View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Szymanowicz_LagerNVS_Latent_Geometry_for_Fully_Neural_Real-time_Novel_View_Synthesis_CVPR_2026_paper.html"
+  },
+  {
+    "title": "Physically Inspired Gaussian Splatting for HDR Novel View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zeng_Physically_Inspired_Gaussian_Splatting_for_HDR_Novel_View_Synthesis_CVPR_2026_paper.html"
+  },
+  {
+    "title": "PrivSynth: Alternating and Control-Based Optimization for Privacy and Utility in Synthetic Data",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhao_PrivSynth_Alternating_and_Control-Based_Optimization_for_Privacy_and_Utility_in_CVPR_2026_paper.html"
+  },
+  {
+    "title": "SmokeSVD: Smoke Reconstruction from A Single View via Progressive Novel View Synthesis and Refinement with Diffusion Models",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_SmokeSVD_Smoke_Reconstruction_from_A_Single_View_via_Progressive_Novel_CVPR_2026_paper.html"
+  },
+  {
+    "title": "WildRayZer: Self-supervised Large View Synthesis in Dynamic Environments",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_WildRayZer_Self-supervised_Large_View_Synthesis_in_Dynamic_Environments_CVPR_2026_paper.html"
+  },
+  {
+    "title": "AHS: Adaptive Head Synthesis via Synthetic Data Augmentations",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Kang_AHS_Adaptive_Head_Synthesis_via_Synthetic_Data_Augmentations_CVPR_2026_paper.html"
+  },
+  {
+    "title": "Scaling Instruction-Based Video Editing with a High-Quality Synthetic Dataset",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Bai_Scaling_Instruction-Based_Video_Editing_with_a_High-Quality_Synthetic_Dataset_CVPR_2026_paper.html"
+  },
+  {
+    "title": "InternData-A1: Pioneering High-Fidelity Synthetic Data for Pre-training Generalist Policy",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Tian_InternData-A1_Pioneering_High-Fidelity_Synthetic_Data_for_Pre-training_Generalist_Policy_CVPR_2026_paper.html"
+  },
+  {
+    "title": "ChimeraLoRA: Multi-Head LoRA-Guided Synthetic Datasets",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Kim_ChimeraLoRA_Multi-Head_LoRA-Guided_Synthetic_Datasets_CVPR_2026_paper.html"
+  },
+  {
+    "title": "What's Wrong with Synthetic Data for Scene Text Recognition? A Strong Synthetic Engine with Diverse Simulations and Self-Evolution",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Ye_Whats_Wrong_with_Synthetic_Data_for_Scene_Text_Recognition_A_CVPR_2026_paper.html"
+  },
+  {
+    "title": "Learning Compact 3D Representations from Feed-Forward Novel View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/An_Learning_Compact_3D_Representations_from_Feed-Forward_Novel_View_Synthesis_CVPR_2026_paper.html"
+  },
+  {
+    "title": "How Far Can We Go With Synthetic Data for Audio-Visual Sound Source Localization?",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Senocak_How_Far_Can_We_Go_With_Synthetic_Data_for_Audio-Visual_CVPR_2026_paper.html"
+  },
+  {
+    "title": "ClimaOoD: Improving Anomaly Segmentation via Physically Realistic Synthetic Data",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_ClimaOoD_Improving_Anomaly_Segmentation_via_Physically_Realistic_Synthetic_Data_CVPR_2026_paper.html"
+  },
+  {
+    "title": "Role-SynthCLIP: A Role-Play Driven Diverse Synthetic Data Approach",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Huangfu_Role-SynthCLIP_A_Role-Play_Driven_Diverse_Synthetic_Data_Approach_CVPR_2026_paper.html"
+  },
+  {
+    "title": "GeodesicNVS: Probability Density Geodesic Flow Matching for Novel View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_GeodesicNVS_Probability_Density_Geodesic_Flow_Matching_for_Novel_View_Synthesis_CVPR_2026_paper.html"
+  },
+  {
+    "title": "MoVieS: Motion-Aware 4D Dynamic View Synthesis in One Second",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Lin_MoVieS_Motion-Aware_4D_Dynamic_View_Synthesis_in_One_Second_CVPR_2026_paper.html"
+  },
+  {
+    "title": "CoRoGS: Contextual Gaussian Splatting for Robust Large-Deviation View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Ma_CoRoGS_Contextual_Gaussian_Splatting_for_Robust_Large-Deviation_View_Synthesis_CVPR_2026_paper.html"
+  },
+  {
+    "title": "Beyond Objects: Contextual Synthetic Data Generation for Fine-Grained Classification",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_Beyond_Objects_Contextual_Synthetic_Data_Generation_for_Fine-Grained_Classification_CVPR_2026_paper.html"
+  },
+  {
+    "title": "Scaling4D: Pushing the Frontier of Video Novel View Synthesis through Large-Scale Monocular Videos",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Cai_Scaling4D_Pushing_the_Frontier_of_Video_Novel_View_Synthesis_through_CVPR_2026_paper.html"
+  },
+  {
+    "title": "Spectral-Geometric Neural Fields for Pose-Free LiDAR View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Jiang_Spectral-Geometric_Neural_Fields_for_Pose-Free_LiDAR_View_Synthesis_CVPR_2026_paper.html"
+  },
+  {
+    "title": "Charge: A Comprehensive Novel View Synthesis Benchmark and Dataset to Bind Them All",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Nazarczuk_Charge_A_Comprehensive_Novel_View_Synthesis_Benchmark_and_Dataset_to_CVPR_2026_paper.html"
+  },
+  {
+    "title": "DMAligner: Enhancing Image Alignment via Diffusion Model Based View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Luo_DMAligner_Enhancing_Image_Alignment_via_Diffusion_Model_Based_View_Synthesis_CVPR_2026_paper.html"
+  },
+  {
+    "title": "Cross-View Splatter: Feed-Forward View Synthesis with Georeferenced Images",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Turkulainen_Cross-View_Splatter_Feed-Forward_View_Synthesis_with_Georeferenced_Images_CVPR_2026_paper.html"
+  },
+  {
+    "title": "Thermal is Always Wild: Characterizing and Addressing Challenges in Thermal-Only Novel View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Aydin_Thermal_is_Always_Wild_Characterizing_and_Addressing_Challenges_in_Thermal-Only_CVPR_2026_paper.html"
+  },
+  {
+    "title": "Dynamic-Static Decomposition for Novel View Synthesis of Dynamic Scenes with Spiking Neurons",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Dai_Dynamic-Static_Decomposition_for_Novel_View_Synthesis_of_Dynamic_Scenes_with_CVPR_2026_paper.html"
+  },
+  {
+    "title": "Hierarchical Visual Relocalization with Nearest View Synthesis from Feature Gaussian Splatting",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Tao_Hierarchical_Visual_Relocalization_with_Nearest_View_Synthesis_from_Feature_Gaussian_CVPR_2026_paper.html"
+  },
+  {
+    "title": "StableMTL: Repurposing Latent Diffusion Models for Multi-Task Learning from Partially Annotated Synthetic Datasets",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Cao_StableMTL_Repurposing_Latent_Diffusion_Models_for_Multi-Task_Learning_from_Partially_CVPR_2026_paper.html"
+  },
+  {
+    "title": "PhysGaia: A Physics-aware Benchmark with Multi-Body Interactions for Dynamic Novel View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Kim_PhysGaia_A_Physics-aware_Benchmark_with_Multi-Body_Interactions_for_Dynamic_Novel_CVPR_2026_paper.html"
+  }
+]

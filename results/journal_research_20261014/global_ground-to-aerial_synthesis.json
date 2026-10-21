@@ -1,0 +1,3014 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1706944,
+    "items": [
+      {
+        "DOI": "10.2307/1380072",
+        "title": [
+          "Aerial Predation on Wyoming Ground Squirrels"
+        ],
+        "container-title": [
+          "Journal of Mammalogy"
+        ],
+        "ISSN": [
+          "1545-1542",
+          "0022-2372"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1980,
+              5,
+              20
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1980,
+              5,
+              20
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "S.",
+            "family": "Pfeifer",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1609/aaai.v40i34.40140",
+        "title": [
+          "Text-based Aerial-Ground Person Retrieval"
+        ],
+        "container-title": [
+          "Proceedings of the AAAI Conference on Artificial Intelligence"
+        ],
+        "ISSN": [
+          "2374-3468",
+          "2159-5399"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              14
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              14
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Xinyu",
+            "family": "Zhou",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yu",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jiayao",
+            "family": "Ma",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wenhao",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Min",
+            "family": "Cao",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mang",
+            "family": "Ye",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>This work introduces Text-based Aerial-Ground Person Retrieval (TAG-PR), which aims to retrieve person images from heterogeneous aerial and ground views with textual descriptions. \nUnlike traditional Text-based Person Retrieval (T-PR), which focuses solely on ground-view images, TAG-PR introduces greater practical significance and presents unique challenges due to the large viewpoint discrepancy across images.  \nTo support this task, we contribute: (1) TAG-PEDES dataset, constructed from public benchmarks with automatically generated textual descriptions, enhanced by a diversified text generation paradigm to ensure robustness under view heterogeneity; and (2) TAG-CLIP, a novel retrieval framework that addresses view heterogeneity through a hierarchically-routed mixture of experts module to learn view-specific and view-agnostic features and a viewpoint decoupling strategy to decouple view-specific features for better cross-modal alignment.\nWe evaluate the effectiveness of TAG-CLIP on both the proposed TAG-PEDES and existing T-PR benchmarks.</jats:p>"
+      },
+      {
+        "DOI": "10.4028/www.scientific.net/amr.734-737.2964",
+        "title": [
+          "Ground Target Tracking Using Aerial Images"
+        ],
+        "container-title": [
+          "Advanced Materials Research"
+        ],
+        "ISSN": [
+          "1662-8985"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              8,
+              16
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2013,
+              8,
+              16
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Xian Jun",
+            "family": "Hu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Naval University of Engineering"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Hang Yu",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Naval University of Engineering"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Zhang Song",
+            "family": "Shi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Naval University of Engineering"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>The tracking of ground targets using aerial images was studied. A improved Kalman filter was derived for the tracking of ground targets. The novel feature of this improved filter were that the grey prediction equations and the road information have been incorporated to improve the accuracy of state estimates.The GM(1,1) (Grey Model) was introduced into Kalman prediction equations.The next value was forecasted by using few forward estimated values with a grey differential equation,which was baesd on the correction of mesurement covariance matrix. The tracking of the targets shows a satisfactory result.</jats:p>"
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              1972,
+              2
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Although the aeroplane itself is the king pin of aerial spraying, without the staff to sell the proposition and the ground personnel to organise and service it, the aeroplane could not operate efficiently and economically.</jats:p><jats:p>Aerial spraying is undoubtedly the most dramatic operation which contractors undertake on farms in the United Kingdom. It is the one about which the general public are most aware because in the first place they are affected more by this operation in areas near farms than by other contract operations; and second if there is any untoward incident with an aeroplane they hear about it on television and read about it in the newspapers. If a contractor has an accident with a sugar beet harvester or a combine it is hardly newsworthy.</jats:p>",
+        "DOI": "10.1017/s0001924000042640",
+        "title": [
+          "Ground organisation of aerial crop spraying"
+        ],
+        "author": [
+          {
+            "given": "Peter M. G.",
+            "family": "Perrow",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2016,
+              7,
+              4
+            ]
+          ]
+        },
+        "container-title": [
+          "The Aeronautical Journal"
+        ],
+        "ISSN": [
+          "0001-9240",
+          "2059-6464"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1972,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1016/j.cja.2022.09.009",
+        "title": [
+          "Aerial-ground collaborative routing with time constraints"
+        ],
+        "container-title": [
+          "Chinese Journal of Aeronautics"
+        ],
+        "ISSN": [
+          "1000-9361"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              2
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              2
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Jiahao",
+            "family": "XING",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Lichen",
+            "family": "SU",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Wenjing",
+            "family": "HONG",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Lu",
+            "family": "TONG",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Renli",
+            "family": "LYU",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Wenbo",
+            "family": "DU",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2014,
+              7
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Remote sensing is an effective method for estimating ground cover (GC) of crops. In this study, we compared two methods for estimating the GC of peanut (<jats:italic>Arachis hypogea</jats:italic> L.). The methods are based on two different vegetation indices, perpendicular vegetation index (PVI) and normalized difference vegetation index (NDVI). We also investigated the use of generalized expressions for the bare soil line and 100% GC point for use in evaluating GC using the PVI method. The field was planted to four varieties of peanuts in two different planting patterns (single and twin rows). High resolution red and near infrared (NIR) images of the study field were collected using the Texas Tech Airborne Multispectral Remote Sensing System (TTAMRSS) on three cloud‐free days during the 2009 growing season. Field measurements of GC were used to compare the two approaches (PVI vs. NDVI). Results showed that GC estimated using the PVI method was in good agreement with corresponding observed values over the range of GC values observed in this study (around 35–95% GC). The NDVI‐based method did not perform as well as the PVI‐based method. An additional finding was that general information involving soil and plant canopy reflectance characteristics obtained from previous studies could be used in the PVI‐based method without significant loss of accuracy. These results support the use of the PVI‐based method for estimating GC of field crops, and show that previously obtained information regarding soil and plant reflectance characteristics can be effectively incorporated into this methodology.</jats:p>",
+        "DOI": "10.2134/agronj13.0532",
+        "title": [
+          "Aerial Remote Sensing of Peanut Ground Cover"
+        ],
+        "author": [
+          {
+            "given": "Nithya",
+            "family": "Rajan",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Texas A&amp;M AgriLife Research and Extension Center  Vernon TX 76384"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Naveen",
+            "family": "Puppala",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "New Mexico State Univ. Agricultural Science Center  Clovis NM 88101"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Stephan",
+            "family": "Maas",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Dep. of Plant and Soil Science Texas Tech Univ.  Lubbock TX 79409"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Paxton",
+            "family": "Payton",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "USDA-ARS Plant Stress and Germplasm Lab.  Lubbock TX 79415"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Russell",
+            "family": "Nuti",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Dow AgroSciences LLC  Shellman P.O. Box 120 GA 39886"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2014,
+              7
+            ]
+          ]
+        },
+        "container-title": [
+          "Agronomy Journal"
+        ],
+        "ISSN": [
+          "0002-1962",
+          "1435-0645"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              7
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.4028/www.scientific.net/amm.719-720.1244",
+        "title": [
+          "Large Unmanned Aerial Vehicle Ground Testing System"
+        ],
+        "container-title": [
+          "Applied Mechanics and Materials"
+        ],
+        "ISSN": [
+          "1662-7482"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              1
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2015,
+              1
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Da Wei",
+            "family": "Deng",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Beihang University"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Bao An",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Beihang University"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>The traditional high altitude long endurance UAV ground testing system (referred to as: testing system) not only lacks of universality and scalability, also incapable of handling faculties during flying procedure. In the paper, by using the new generation of automatic test system (New ATS), the flight simulation method, embedded technology and fault diagnosis technology, we are able to expand the testing system from ground to the sky, improving the generality of the system and UAV’s testing ability, also ensure the safety and reliability of the UAV flight at the same time.Keywords: <jats:italic>U</jats:italic><jats:italic>nmanned aerial </jats:italic><jats:italic>vehicle;</jats:italic><jats:italic> Automatic test system</jats:italic><jats:italic>;</jats:italic><jats:italic>F</jats:italic><jats:italic>ault </jats:italic><jats:italic>diagnosi</jats:italic><jats:italic>s</jats:italic><jats:italic>;</jats:italic><jats:italic> E</jats:italic><jats:italic>mbedded bus</jats:italic></jats:p>"
+      },
+      {
+        "DOI": "10.13031/2013.28708",
+        "title": [
+          "Spray Drift From Ground and Aerial Applications"
+        ],
+        "container-title": [
+          "Transactions of the ASAE"
+        ],
+        "ISSN": [
+          "2151-0059"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1992
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              1992
+            ]
+          ]
+        },
+        "author": [
+          {
+            "family": "M. Salyani",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "family": "R. P. Cromwell",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1016/j.trpro.2020.02.044",
+        "title": [
+          "Comparison of Aerial Application vs. Ground Application"
+        ],
+        "container-title": [
+          "Transportation Research Procedia"
+        ],
+        "ISSN": [
+          "2352-1465"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Lubomír",
+            "family": "Kováčik",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Andrej",
+            "family": "Novák",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1139/tcs-1954-0030",
+        "title": [
+          "AERIAL PHOTO ANALYSIS OF PERMANENTLY FROZEN GROUND"
+        ],
+        "container-title": [
+          "The Canadian Surveyor"
+        ],
+        "ISSN": [
+          "0008-5103"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1954,
+              10
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1954,
+              10
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "R. C.",
+            "family": "Sager",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "American Society of Photogrammetry"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.3390/aerospace12090756",
+        "title": [
+          "Aerial Vehicle Detection Using Ground-Based LiDAR"
+        ],
+        "container-title": [
+          "Aerospace"
+        ],
+        "ISSN": [
+          "2226-4310"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              22
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              22
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "John",
+            "family": "Kirschler",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Mechanical Engineering Department, Russ College of Engineering, Ohio University, Athens, OH 45701, USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Jay",
+            "family": "Wilhelm",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Mechanical Engineering Department, Russ College of Engineering, Ohio University, Athens, OH 45701, USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>Ground-based LiDAR sensing offers a promising approach for delivering short-range landing feedback to aerial vehicles operating near vertiports and in GNSS-degraded environments. This work introduces a detection system capable of classifying aerial vehicles and estimating their 3D positions with sub-meter accuracy. Using a simulated Gazebo environment, multiple LiDAR sensors and five vehicle classes, ranging from hobbyist drones to air taxis, were modeled to evaluate detection performance. RGB-encoded point clouds were processed using a modified YOLOv6 neural network with Slicing-Aided Hyper Inference (SAHI) to preserve high-resolution object features. Classification accuracy and position error were analyzed using mean Average Precision (mAP) and Mean Absolute Error (MAE) across varied sensor parameters, vehicle sizes, and distances. Within 40 m, the system consistently achieved over 95% classification accuracy and average position errors below 0.5 m. Results support the viability of high-density LiDAR as a complementary method for precision landing guidance in advanced air mobility applications.</jats:p>"
+      },
+      {
+        "DOI": "10.3795/ksme-a.2019.43.11.829",
+        "title": [
+          "Development of Electric Unmanned Ground Vehicle for Aerial-Ground Cooperative Missions"
+        ],
+        "container-title": [
+          "Transactions of the Korean Society of Mechanical Engineers - A"
+        ],
+        "ISSN": [
+          "1226-4873",
+          "2288-5226"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              11,
+              30
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              11,
+              30
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Mingeuk",
+            "family": "Kim",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Seungjin",
+            "family": "Yoo",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Ji-chul",
+            "family": "Kim",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Geun-Ho",
+            "family": "Lee",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1007/s00267-008-9110-x",
+        "title": [
+          "Ground-Cover Measurements: Assessing Correlation Among Aerial and Ground-Based Methods"
+        ],
+        "container-title": [
+          "Environmental Management"
+        ],
+        "ISSN": [
+          "0364-152X",
+          "1432-1009"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2008,
+              4,
+              30
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2008,
+              4,
+              30
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2008,
+              12
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "D. Terrance",
+            "family": "Booth",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Samuel E.",
+            "family": "Cox",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Tim",
+            "family": "Meikle",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hans R.",
+            "family": "Zuuring",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1016/0022-1694(70)90080-6",
+        "title": [
+          "Aerial photographic method for studying ground water"
+        ],
+        "container-title": [
+          "Journal of Hydrology"
+        ],
+        "ISSN": [
+          "0022-1694"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1970,
+              9
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1970,
+              9
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1109/taes.2026.3716238",
+        "title": [
+          "Self-Adjusting Funnel Synthesis for Robust Bearing-Based Formation Maneuver of Heterogeneous Aerial–Ground Swarms"
+        ],
+        "container-title": [
+          "IEEE Transactions on Aerospace and Electronic Systems"
+        ],
+        "ISSN": [
+          "0018-9251",
+          "1557-9603",
+          "2371-9877"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0003-4814-4898",
+            "authenticated-orcid": false,
+            "given": "Yancheng",
+            "family": "Yan",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "University of Electronic Science and Technology of China",
+                "place": [
+                  "Chengdu, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1480-1872",
+            "authenticated-orcid": false,
+            "given": "Hongjing",
+            "family": "Liang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Electronic Science and Technology of China",
+                "place": [
+                  "Chengdu, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0474-953X",
+            "authenticated-orcid": false,
+            "given": "Tieshan",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Electronic Science and Technology of China",
+                "place": [
+                  "Chengdu, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9610-846X",
+            "authenticated-orcid": false,
+            "given": "Tingwen",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shenzhen University of Advanced Technology",
+                "place": [
+                  "Shenzhen, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.70190/jq.i81.p37",
+        "title": [
+          "Ground Truth: Reading Aerial Images of the Naqab from the Ground Up"
+        ],
+        "container-title": [
+          "Jerusalem Quarterly"
+        ],
+        "ISSN": [
+          "2521-9731",
+          "2521-974X"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              3,
+              20
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              3,
+              20
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Eyal",
+            "family": "Weizman",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tvt.2023.3345940",
+        "title": [
+          "Pareto-Optimal Aerial-Ground Energy Minimization for Aerial 3D Mobile Edge Computing Networks"
+        ],
+        "container-title": [
+          "IEEE Transactions on Vehicular Technology"
+        ],
+        "ISSN": [
+          "0018-9545",
+          "1939-9359"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              5
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              5
+            ]
+          ]
+        },
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0002-5432-4070",
+            "authenticated-orcid": false,
+            "given": "Changyuan",
+            "family": "Xu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Information and Communication Engineering, School of Informatics, Xiamen University, Xiamen, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0971-6748",
+            "authenticated-orcid": false,
+            "given": "Cheng",
+            "family": "Zhan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer and Information Science, Southwest University, Chongqing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9697-7470",
+            "authenticated-orcid": false,
+            "given": "Helin",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Information and Communication Engineering, School of Informatics, Xiamen University, Xiamen, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2402-611X",
+            "authenticated-orcid": false,
+            "given": "Liang",
+            "family": "Xiao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Information and Communication Engineering, School of Informatics, Xiamen University, Xiamen, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/jsac.2025.3639463",
+        "title": [
+          "Satellite–Ground Covert Communications Against an Aerial Warden"
+        ],
+        "container-title": [
+          "IEEE Journal on Selected Areas in Communications"
+        ],
+        "ISSN": [
+          "1558-0008",
+          "0733-8716"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0004-2346-9773",
+            "authenticated-orcid": false,
+            "given": "Hao",
+            "family": "Shi",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Information and Communication Engineering, Dalian University of Technology, Dalian, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9565-559X",
+            "authenticated-orcid": false,
+            "given": "Na",
+            "family": "Deng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Information and Communication Engineering, Dalian University of Technology, Dalian, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0488-6940",
+            "authenticated-orcid": false,
+            "given": "Jifa",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Information and Communication Engineering, Dalian University of Technology, Dalian, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2241-8806",
+            "authenticated-orcid": false,
+            "given": "Haichao",
+            "family": "Wei",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Information Science and Technology, Dalian Maritime University, Dalian, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4890-0748",
+            "authenticated-orcid": false,
+            "given": "Xianbin",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Electrical and Computer Engineering, Western University, London, ON, Canada"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              10
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title>\n          <jats:p>This study develops a novel framework for aerial-ground collaborative routing that addresses uncertainty in exploration value. The framework enables an unmanned aerial vehicle (UAV) to conduct rapid reconnaissance while a ground vehicle (GV) gathers profit, dynamically optimizing the GV’s route based on updated information. Two complementary approaches are presented: a mixed integer linear programming (MILP) formulation for optimal path selection and an adaptive two-phase method for robust, uncertain environment exploration. A case study validates these approaches, demonstrating how aerial-ground collaboration improves mission efficiency and information acquisition in uncertain environments.</jats:p>",
+        "DOI": "10.1007/s42405-025-00892-z",
+        "title": [
+          "Aerial-Ground Collaborative Routing with Uncertain Exploration Value"
+        ],
+        "author": [
+          {
+            "given": "Chaehwan",
+            "family": "Moon",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Euihyeon",
+            "family": "Choi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4971-5130",
+            "authenticated-orcid": false,
+            "given": "Jaemyung",
+            "family": "Ahn",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              12
+            ]
+          ]
+        },
+        "container-title": [
+          "International Journal of Aeronautical and Space Sciences"
+        ],
+        "ISSN": [
+          "2093-274X",
+          "2093-2480"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              12
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.2307/3896085",
+        "title": [
+          "An Aerial Method of Dispensing Ground Squirrel Bait"
+        ],
+        "container-title": [
+          "Journal of Range Management"
+        ],
+        "ISSN": [
+          "0022-409X"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1968,
+              11
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1968,
+              11
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Rex E.",
+            "family": "Marsh",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.3390/rs8110918",
+        "title": [
+          "Trying to Break New Ground in Aerial Archaeology"
+        ],
+        "container-title": [
+          "Remote Sensing"
+        ],
+        "ISSN": [
+          "2072-4292"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              11,
+              4
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2016,
+              11,
+              4
+            ]
+          ]
+        },
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-4825-9604",
+            "authenticated-orcid": false,
+            "given": "Geert",
+            "family": "Verhoeven",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Ludwig Boltzmann Institute for Archaeological Prospection &amp; Virtual Archaeology (LBI ArchPro), Franz-Klein-Gasse 1/III, Wien A-1190, Austria"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8061-4322",
+            "authenticated-orcid": false,
+            "given": "Christopher",
+            "family": "Sevara",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Prehistoric and Historical Archaeology, University of Vienna, Franz-Klein-Gasse 1/III, Wien A-1190, Austria"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>Aerial reconnaissance continues to be a vital tool for landscape-oriented archaeological research. Although a variety of remote sensing platforms operate within the earth’s atmosphere, the majority of aerial archaeological information is still derived from oblique photographs collected during observer-directed reconnaissance flights, a prospection approach which has dominated archaeological aerial survey for the past century. The resulting highly biased imagery is generally catalogued in sub-optimal (spatial) databases, if at all, after which a small selection of images is orthorectified and interpreted. For decades, this has been the standard approach. Although many innovations, including digital cameras, inertial units, photogrammetry and computer vision algorithms, geographic(al) information systems and computing power have emerged, their potential has not yet been fully exploited in order to re-invent and highly optimise this crucial branch of landscape archaeology. The authors argue that a fundamental change is needed to transform the way aerial archaeologists approach data acquisition and image processing. By addressing the very core concepts of geographically biased aerial archaeological photographs and proposing new imaging technologies, data handling methods and processing procedures, this paper gives a personal opinion on how the methodological components of aerial archaeology, and specifically aerial archaeological photography, should evolve during the next decade if developing a more reliable record of our past is to be our central aim. In this paper, a possible practical solution is illustrated by outlining a turnkey aerial prospection system for total coverage survey together with a semi-automated back-end pipeline that takes care of photograph correction and image enhancement as well as the management and interpretative mapping of the resulting data products. In this way, the proposed system addresses one of many bias issues in archaeological research: the bias we impart to the visual record as a result of selective coverage. While the total coverage approach outlined here may not altogether eliminate survey bias, it can vastly increase the amount of useful information captured during a single reconnaissance flight while mitigating the discriminating effects of observer-based, on-the-fly target selection. Furthermore, the information contained in this paper should make it clear that with current technology it is feasible to do so. This can radically alter the basis for aerial prospection and move landscape archaeology forward, beyond the inherently biased patterns that are currently created by airborne archaeological prospection.</jats:p>"
+      },
+      {
+        "DOI": "10.1007/bf02919943",
+        "title": [
+          "Investigation of the properties of a ground aerial"
+        ],
+        "container-title": [
+          "Applied Scientific Research, Section B"
+        ],
+        "ISSN": [
+          "0365-7140"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1950,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1950,
+              12
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "A. E.",
+            "family": "Pannenborg",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.3390/s18020630",
+        "title": [
+          "Online Aerial Terrain Mapping for Ground Robot Navigation"
+        ],
+        "container-title": [
+          "Sensors"
+        ],
+        "ISSN": [
+          "1424-8220"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              2,
+              20
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2018,
+              2,
+              20
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "John",
+            "family": "Peterson",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Virginia Tech Unmanned Systems Laboratory, Blacksburg, VA 24060, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Haseeb",
+            "family": "Chaudhry",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Virginia Tech Unmanned Systems Laboratory, Blacksburg, VA 24060, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Karim",
+            "family": "Abdelatty",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Virginia Tech Unmanned Systems Laboratory, Blacksburg, VA 24060, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "John",
+            "family": "Bird",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Virginia Tech Unmanned Systems Laboratory, Blacksburg, VA 24060, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Kevin",
+            "family": "Kochersberger",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Virginia Tech Unmanned Systems Laboratory, Blacksburg, VA 24060, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>This work presents a collaborative unmanned aerial and ground vehicle system which utilizes the aerial vehicle’s overhead view to inform the ground vehicle’s path planning in real time. The aerial vehicle acquires imagery which is assembled into a orthomosaic and then classified. These terrain classes are used to estimate relative navigation costs for the ground vehicle so energy-efficient paths may be generated and then executed. The two vehicles are registered in a common coordinate frame using a real-time kinematic global positioning system (RTK GPS) and all image processing is performed onboard the unmanned aerial vehicle, which minimizes the data exchanged between the vehicles. This paper describes the architecture of the system and quantifies the registration errors between the vehicles.</jats:p>"
+      },
+      {
+        "DOI": "10.1109/lcsys.2026.3701864",
+        "title": [
+          "Collaborative Pace Regulation for Aerial–Ground Robot Teams"
+        ],
+        "container-title": [
+          "IEEE Control Systems Letters"
+        ],
+        "ISSN": [
+          "2475-1456"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-9798-033X",
+            "authenticated-orcid": false,
+            "given": "Alexander A.",
+            "family": "Nguyen",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Mechanical and Aerospace Engineering, University of California, Irvine, Irvine, CA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8873-6551",
+            "authenticated-orcid": false,
+            "given": "Faryar",
+            "family": "Jabbari",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Mechanical and Aerospace Engineering, University of California, Irvine, Irvine, CA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4213-5299",
+            "authenticated-orcid": false,
+            "given": "Magnus",
+            "family": "Egerstedt",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, University of North Carolina at Chapel Hill, Chapel Hill, NC, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1093/jee/79.2.459",
+        "title": [
+          "Drift Comparisons Between Aerial and Ground Orchard Application"
+        ],
+        "container-title": [
+          "Journal of Economic Entomology"
+        ],
+        "ISSN": [
+          "1938-291X",
+          "0022-0493"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1986,
+              4,
+              1
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              1986,
+              4,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1986,
+              4,
+              1
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "G. B.",
+            "family": "Maccollom",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "W. W.",
+            "family": "Currier",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "G. L.",
+            "family": "Baumann",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/lra.2020.3032054",
+        "title": [
+          "Ground and Aerial Collaborative Mapping in Urban Environments"
+        ],
+        "container-title": [
+          "IEEE Robotics and Automation Letters"
+        ],
+        "ISSN": [
+          "2377-3766",
+          "2377-3774"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              1
+            ]
+          ]
+        },
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-8325-6073",
+            "authenticated-orcid": false,
+            "given": "Jinhao",
+            "family": "He",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yuming",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Lixiang",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yang",
+            "family": "Kong",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2579-7004",
+            "authenticated-orcid": false,
+            "given": "Hui",
+            "family": "Cheng",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/mra.2018.2871344",
+        "title": [
+          "The Tele-MAGMaS: An Aerial-Ground Comanipulator System"
+        ],
+        "container-title": [
+          "IEEE Robotics &amp; Automation Magazine"
+        ],
+        "ISSN": [
+          "1070-9932",
+          "1558-223X"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              12
+            ]
+          ]
+        },
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-3889-2396",
+            "authenticated-orcid": false,
+            "given": "Nicolas",
+            "family": "Staub",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6056-3655",
+            "authenticated-orcid": false,
+            "given": "Mostafa",
+            "family": "Mohammadi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3423-0969",
+            "authenticated-orcid": false,
+            "given": "Davide",
+            "family": "Bicego",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6969-2944",
+            "authenticated-orcid": false,
+            "given": "Quentin",
+            "family": "Delamare",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hyunsoo",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Domenico",
+            "family": "Prattichizzo",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6919-7751",
+            "authenticated-orcid": false,
+            "given": "Paolo",
+            "family": "Robuffo Giordano",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2108-3960",
+            "authenticated-orcid": false,
+            "given": "Dongjun",
+            "family": "Lee",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5670-1282",
+            "authenticated-orcid": false,
+            "given": "Antonio",
+            "family": "Franchi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1016/0148-9062(74)90768-2",
+        "title": [
+          "Aerial infra-red locates solid ground over mine"
+        ],
+        "container-title": [
+          "International Journal of Rock Mechanics and Mining Sciences &amp; Geomechanics Abstracts"
+        ],
+        "ISSN": [
+          "0148-9062"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1974,
+              6
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1974,
+              6
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1109/mnet.011.2000101",
+        "title": [
+          "Securing Aerial-Ground Transmission for NOMA-UAV Networks"
+        ],
+        "container-title": [
+          "IEEE Network"
+        ],
+        "ISSN": [
+          "0890-8044",
+          "1558-156X"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              11
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              11
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Xinying",
+            "family": "Chen",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Dongdong",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zhutian",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yunfei",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Nan",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zhiguo",
+            "family": "Ding",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "F. Richard",
+            "family": "Yu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/mwc.001.2000173",
+        "title": [
+          "Aerial-Ground Interference Mitigation for Cellular-Connected UAV"
+        ],
+        "container-title": [
+          "IEEE Wireless Communications"
+        ],
+        "ISSN": [
+          "1536-1284",
+          "1558-0687"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              2
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              2
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Weidong",
+            "family": "Mei",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Rui",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/taes.2017.2767958",
+        "title": [
+          "Optimal Rendezvous Trajectory for Unmanned Aerial-Ground Vehicles"
+        ],
+        "container-title": [
+          "IEEE Transactions on Aerospace and Electronic Systems"
+        ],
+        "ISSN": [
+          "0018-9251"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              4
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              4
+            ]
+          ]
+        },
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-5467-1465",
+            "authenticated-orcid": false,
+            "given": "Alessandro",
+            "family": "Rucco",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7297-1493",
+            "authenticated-orcid": false,
+            "given": "P. B.",
+            "family": "Sujit",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7105-0505",
+            "authenticated-orcid": false,
+            "given": "A. Pedro",
+            "family": "Aguiar",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2528-4666",
+            "authenticated-orcid": false,
+            "given": "Joao Borges",
+            "family": "de Sousa",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "F. Lobo",
+            "family": "Pereira",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1007/s10846-019-01105-y",
+        "title": [
+          "Aerial Wilderness Search and Rescue with Ground Support"
+        ],
+        "container-title": [
+          "Journal of Intelligent &amp; Robotic Systems"
+        ],
+        "ISSN": [
+          "0921-0296",
+          "1573-0409"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              11,
+              22
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              11,
+              22
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              7
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Zendai",
+            "family": "Kashino",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Goldie",
+            "family": "Nejat",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5097-3965",
+            "authenticated-orcid": false,
+            "given": "Beno",
+            "family": "Benhabib",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tcomm.2021.3086517",
+        "title": [
+          "Reconfigurable Intelligent Surface Enhanced Secure Aerial-Ground Communication"
+        ],
+        "container-title": [
+          "IEEE Transactions on Communications"
+        ],
+        "ISSN": [
+          "0090-6778",
+          "1558-0857"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              9
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              9
+            ]
+          ]
+        },
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-2859-7422",
+            "authenticated-orcid": false,
+            "given": "Jingyi",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5581-9564",
+            "authenticated-orcid": false,
+            "given": "Sai",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4273-8866",
+            "authenticated-orcid": false,
+            "given": "Jiajia",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3896-4433",
+            "authenticated-orcid": false,
+            "given": "Yurui",
+            "family": "Cao",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wei",
+            "family": "Gao",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.4287/jsprs1962.5.10",
+        "title": [
+          "Aerial Photographic Interpretation of Soft Ground (Part 1)"
+        ],
+        "container-title": [
+          "Journal of the Japan society of photogrammetry"
+        ],
+        "ISSN": [
+          "1884-3980",
+          "0549-4451"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1966
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1966
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Hiroshi",
+            "family": "Kadomura",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.4287/jsprs1962.4.182",
+        "title": [
+          "Aerial Photographic Interpretation of Soft Ground (Part 1)"
+        ],
+        "container-title": [
+          "Journal of the Japan society of photogrammetry"
+        ],
+        "ISSN": [
+          "1884-3980",
+          "0549-4451"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1965
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1965
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Hiroshi",
+            "family": "Kadomura",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1007/s10846-011-9590-4",
+        "title": [
+          "Ground Target Detection Using Cooperative Unmanned Aerial Systems"
+        ],
+        "container-title": [
+          "Journal of Intelligent &amp; Robotic Systems"
+        ],
+        "ISSN": [
+          "0921-0296",
+          "1573-0409"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              8,
+              18
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2011,
+              8,
+              18
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2012,
+              1
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "George",
+            "family": "York",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Daniel J.",
+            "family": "Pack",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2006,
+              1
+            ]
+          ]
+        },
+        "abstract": "<jats:p>In this paper, we investigate the use of overhead high-resolution three-dimensional (3D) data for enhancing the performances of an unmanned ground vehicle (UGV) in vegetated terrains. Data were collected using an airborne laser and provided prior to the robot mission. Through extensive and exhaustive field testing, we demonstrate the significance of such data in two areas: robot localization and global path planning. Absolute localization is achieved by registering 3D local ground ladar data with the global 3D aerial data. The same data are used to compute traversability maps that are used by the path planner. Vegetation is filtered both in the ground data and in the aerial data in order to recover the load bearing surface.</jats:p>",
+        "DOI": "10.1177/0278364906061161",
+        "title": [
+          "Unmanned Ground Vehicle Navigation Using Aerial Ladar Data"
+        ],
+        "author": [
+          {
+            "given": "Nicolas",
+            "family": "Vandapel",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Carnegie Mellon University, 5000 Forbes avenue, Pittsburgh, PA 15213,                         USA,"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Raghavendra Rao",
+            "family": "Donamukkala",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Carnegie Mellon University, 5000 Forbes avenue, Pittsburgh, PA 15213, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Martial",
+            "family": "Hebert",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Carnegie Mellon University, 5000 Forbes avenue, Pittsburgh, PA 15213, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2006,
+              1,
+              1
+            ]
+          ]
+        },
+        "container-title": [
+          "The International Journal of Robotics Research"
+        ],
+        "ISSN": [
+          "0278-3649",
+          "1741-3176"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2006,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.4287/jsprs1962.5.57",
+        "title": [
+          "Aerial Photographic Interpretation of Soft Ground (Part I)"
+        ],
+        "container-title": [
+          "Journal of the Japan society of photogrammetry"
+        ],
+        "ISSN": [
+          "1884-3980",
+          "0549-4451"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1966
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1966
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Hiroshi",
+            "family": "Kadomura",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.4157/grj.41.19",
+        "title": [
+          "SYSTEMATIC AERIAL PHOTO ANALYSIS OF SOFT GROUND CONDITIONS"
+        ],
+        "container-title": [
+          "Geographical Review of Japan"
+        ],
+        "ISSN": [
+          "2185-1719",
+          "0016-7444"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1968
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1968
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Hiroshi",
+            "family": "KADOMURA",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1016/j.patcog.2017.11.003",
+        "title": [
+          "Accurate and efficient ground-to-aerial model alignment"
+        ],
+        "container-title": [
+          "Pattern Recognition"
+        ],
+        "ISSN": [
+          "0031-3203"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              4
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              4
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Xiang",
+            "family": "Gao",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Lihua",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hainan",
+            "family": "Cui",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Shuhan",
+            "family": "Shen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zhanyi",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "items-per-page": 40,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

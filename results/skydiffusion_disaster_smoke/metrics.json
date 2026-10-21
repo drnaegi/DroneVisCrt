@@ -1,0 +1,74 @@
+{
+  "sample_count": 8,
+  "mean": {
+    "psnr_db": 12.135974125658885,
+    "ssim_rgb": 0.10601883474737406,
+    "lpips_alex": 0.7120206952095032
+  },
+  "per_sample": [
+    {
+      "name": "26.425214_-82.080107_669380334681188_359",
+      "psnr_db": 12.678864909142668,
+      "ssim_rgb": 0.08467022329568863,
+      "lpips_alex": 0.7534740567207336,
+      "target_resized": false
+    },
+    {
+      "name": "26.430945_-82.055195_6145651545503249_245",
+      "psnr_db": 12.952693378884842,
+      "ssim_rgb": 0.13164371252059937,
+      "lpips_alex": 0.6864263415336609,
+      "target_resized": false
+    },
+    {
+      "name": "26.431939_-82.053216_226737683172215_58",
+      "psnr_db": 12.306885951525688,
+      "ssim_rgb": 0.10813287645578384,
+      "lpips_alex": 0.6752669811248779,
+      "target_resized": false
+    },
+    {
+      "name": "26.433957_-82.049616_868959127669968_58",
+      "psnr_db": 12.971750600517733,
+      "ssim_rgb": 0.1296786516904831,
+      "lpips_alex": 0.6608174443244934,
+      "target_resized": false
+    },
+    {
+      "name": "26.439529_-82.128666_220399627575265_118",
+      "psnr_db": 12.346399528642458,
+      "ssim_rgb": 0.13586534559726715,
+      "lpips_alex": 0.786433756351471,
+      "target_resized": false
+    },
+    {
+      "name": "26.440220_-82.066364_171103722615196_96",
+      "psnr_db": 12.576861041197063,
+      "ssim_rgb": 0.08683177828788757,
+      "lpips_alex": 0.665585994720459,
+      "target_resized": false
+    },
+    {
+      "name": "26.441873_-82.040947_1665723333826030_101",
+      "psnr_db": 10.219515851532954,
+      "ssim_rgb": 0.08921262621879578,
+      "lpips_alex": 0.7590692043304443,
+      "target_resized": false
+    },
+    {
+      "name": "26.581398_-81.938111_704766494218321_271",
+      "psnr_db": 11.034821743827674,
+      "ssim_rgb": 0.08211546391248703,
+      "lpips_alex": 0.7090917825698853,
+      "target_resized": false
+    }
+  ],
+  "definitions": {
+    "psnr_db": "skimage PSNR, RGB [0,1], data_range=1, no 40 dB cap",
+    "ssim_rgb": "skimage SSIM, RGB [0,1], channel_axis=-1, default uniform 7x7 window",
+    "lpips_alex": "lpips 0.1.4, pretrained AlexNet, RGB [-1,1]",
+    "target_resize": "only if needed: OpenCV INTER_LINEAR to generated image size; G2A-3 targets are already 512x512"
+  },
+  "scope": "small-sample cross-dataset smoke test; not paper benchmark scores",
+  "fid": "not computed: sample count is too small for a useful FID comparison"
+}

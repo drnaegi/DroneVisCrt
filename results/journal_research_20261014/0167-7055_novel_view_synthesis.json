@@ -1,0 +1,2185 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 211,
+    "items": [
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              7
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>Observing that many visual effects (depth‐of‐field, motion blur, soft shadows, spectral effects) and several sampling modalities (time, stereo or light fields) can be expressed as a sum of many pinhole camera images, we suggest a novel efficient image synthesis framework that exploits coherency among those images. We introduce the notion of “distribution flow” that represents the 2D image deformation in response to changes in the high‐dimensional time‐, lens‐, area light‐, spectral‐, etc. coordinates. Our approach plans the optimal traversal of the distribution space of all required pinhole images, such that starting from one representative root image, which is incrementally changed (warped) in a minimal fashion, pixels move at most by one pixel, if at all. The incremental warping allows extremely simple warping code, typically requiring half a millisecond on an Nvidia Geforce GTX 980Ti GPU per pinhole image. We show, how the bounded sampling does introduce very little errors in comparison to re‐rendering or a common warping‐based solution. Our approach allows efficient previews for arbitrary combinations of distribution effects and imaging modalities with little noise and high visual fidelity.</jats:p>",
+        "DOI": "10.1111/cgf.13219",
+        "title": [
+          "Minimal Warping: Planning Incremental Novel‐view Synthesis"
+        ],
+        "author": [
+          {
+            "given": "Thomas",
+            "family": "Leimkühler",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "MPI Informatik"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hans‐Peter",
+            "family": "Seidel",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "MPI Informatik"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Tobias",
+            "family": "Ritschel",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University College London"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2017,
+              7,
+              5
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "link": [
+          {
+            "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fcgf.13219",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.13219",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1111/cgf.13219",
+        "ISSN": [
+          "0167-7055",
+          "1467-8659"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              7
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              10
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>Novel view synthesis from sparse and unstructured input views faces challenges like the difficulty with dense 3D reconstruction and large occlusion. This paper addresses these problems by estimating proper appearance flows from the target to input views to warp and blend the input views. Our method first estimates a sparse set 3D scene points using an off‐the‐shelf 3D reconstruction method and calculates sparse flows from the target to input views. Our method then performs appearance flow completion to estimate the dense flows from the corresponding sparse ones. Specifically, we design a deep fully convolutional neural network that takes sparse flows and input views as input and outputs the dense flows. Furthermore, we estimate the optical flows between input views as references to guide the estimation of dense flows between the target view and input views. Besides the dense flows, our network also estimates the masks to blend multiple warped inputs to render the target view. Experiments on the KITTI benchmark show that our method can generate high quality novel views from sparse and unstructured input views.</jats:p>",
+        "DOI": "10.1111/cgf.13860",
+        "title": [
+          "Appearance Flow Completion for Novel View Synthesis"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-9170-9581",
+            "authenticated-orcid": false,
+            "given": "Hoang",
+            "family": "Le",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Portland State University  Oregon USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5399-6214",
+            "authenticated-orcid": false,
+            "given": "Feng",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Portland State University  Oregon USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              11,
+              14
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "link": [
+          {
+            "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fcgf.13860",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.13860",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/cgf.13860",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.13860",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1111/cgf.13860",
+        "ISSN": [
+          "0167-7055",
+          "1467-8659"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              10
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              10
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>The advancements of the Neural Radiance Field (NeRF) and its variants have demonstrated remarkable capabilities in generating photo‐realistic novel views from a small set of input images. While recent works suggest various techniques and model architectures that enhance speed or reconstruction quality, little attention is paid to exploring the RGB color space of input images. In this paper, we propose a universal color transform module that can maximally harness the captured evidence for the neural networks at hand. The color transform module utilizes an encoder‐decoder framework that maps the RGB color space into a new latent space, enhancing the expressiveness of the input domain. We attach the encoder and the decoder at the input and output of a NeRF model of choice, respectively, and jointly optimize them to maintain the cycle consistency of the proposed transform, in addition to minimizing the reconstruction errors in the feature domain. Our comprehensive experiments demonstrate that the learned color space can significantly improve the quality of reconstructions compared to the conventional RGB representation. Its benefits are particularly pronounced in challenging scenarios characterized by low‐light environments and scenes with low‐textured regions. The proposed color transform pushes the boundaries of limitations in the input domain and offers a promising avenue for advancing the reconstruction capabilities of various neural representations. Source code is available at <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://github.com/sangminkim-99/ColorTransformModule\">https://github.com/sangminkim-99/ColorTransformModule</jats:ext-link>.</jats:p>",
+        "DOI": "10.1111/cgf.14931",
+        "title": [
+          "Robust Novel View Synthesis with Color Transform Module"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0002-9718-1196",
+            "authenticated-orcid": false,
+            "given": "S. M.",
+            "family": "Kim",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Dept. of Electrical and Computer Engineering Seoul National University  Korea"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5748-6003",
+            "authenticated-orcid": false,
+            "given": "C.",
+            "family": "Choi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Dept. of Electrical and Computer Engineering Seoul National University  Korea"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0009-2934-1064",
+            "authenticated-orcid": false,
+            "given": "H.",
+            "family": "Heo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Dept. of Electrical and Computer Engineering Seoul National University  Korea"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6735-8539",
+            "authenticated-orcid": false,
+            "given": "Y. M.",
+            "family": "Kim",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Dept. of Electrical and Computer Engineering Seoul National University  Korea"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              30
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14931",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1111/cgf.14931",
+        "ISSN": [
+          "0167-7055",
+          "1467-8659"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              10
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2012,
+              5
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>We propose a novel fully automatic method for novel‐viewpoint synthesis. Our method robustly handles multi‐camera setups featuring wide‐baselines in an uncontrolled environment. In a first step, robust and sparse point correspondences are found based on an extension of the Daisy features [<jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#b36\">TLF10</jats:ext-link>]. These correspondences together with back‐projection errors are used to drive a novel adaptive coarse to fine reconstruction method, allowing to approximate detailed geometry while avoiding an extreme triangle count.</jats:p><jats:p>To render the scene from arbitrary viewpoints we use a view‐dependent blending of color information in combination with a view‐dependent geometry morph. The view‐dependent geometry compensates for misalignments caused by calibration errors. We demonstrate that our method works well under arbitrary lighting conditions with as little as two cameras featuring wide‐baselines. The footage taken from real sports broadcast events contains fine geometric structures, which result in nice novel‐viewpoint renderings despite of the low resolution in the images.</jats:p>",
+        "DOI": "10.1111/j.1467-8659.2012.03011.x",
+        "title": [
+          "Novel‐View Synthesis of Outdoor Sport Events Using an Adaptive View‐Dependent Geometry"
+        ],
+        "author": [
+          {
+            "given": "Marcel",
+            "family": "Germann",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Tiberiu",
+            "family": "Popa",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Richard",
+            "family": "Keiser",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Remo",
+            "family": "Ziegler",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Markus",
+            "family": "Gross",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2012,
+              6,
+              20
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "link": [
+          {
+            "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1467-8659.2012.03011.x",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-8659.2012.03011.x",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1111/j.1467-8659.2012.03011.x",
+        "ISSN": [
+          "0167-7055",
+          "1467-8659"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2012,
+              5
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              9
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>Neural rendering techniques, such as Neural Radiance Fields (NeRF) and 3D Gaussian Splatting (3D‐GS), have led to significant advancements in scene reconstruction and novel view synthesis (NVS). These methods assume the use of an ideal pinhole model, which is free from lens distortion and optical aberrations. However, fisheye lenses introduce unavoidable aberrations due to their wide‐angle design and complex manufacturing, leading to multi‐view inconsistencies that compromise scene reconstruction quality. In this paper, we propose an end‐to‐end framework that integrates a standard 3D reconstruction pipeline with our lens aberration model to simultaneously calibrate lens aberrations and reconstruct 3D scenes. By modelling the real imaging process and jointly optimising both tasks, our framework eliminates the impact of aberration‐induced inconsistencies on reconstruction. Additionally, we propose a curriculum learning approach that ensures stable optimisation and high‐quality reconstruction results, even in the presence of multiple aberrations. To address the limitations of existing benchmarks, we introduce AbeRec, a dataset composed of scenes captured with lenses exhibiting severe aberrations. Extensive experiments on both existing public datasets and our proposed dataset demonstrate that our method not only significantly outperforms previous state‐of‐the‐art methods on fisheye lenses with severe aberrations but also generalises well to scenes captured by non‐fisheye lenses. Code and datasets are available at <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://github.com/CPREgroup/Calibrating-Fisheye-Lens-Aberration-for-NVS\">https://github.com/CPREgroup/Calibrating‐Fisheye‐Lens‐Aberration‐for‐NVS</jats:ext-link>.</jats:p>",
+        "DOI": "10.1111/cgf.70148",
+        "title": [
+          "Self‐Calibrating Fisheye Lens Aberrations for Novel View Synthesis"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0006-6290-8323",
+            "authenticated-orcid": false,
+            "given": "Jinhui",
+            "family": "Xiang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Ningbo University Ningbo China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0228-242X",
+            "authenticated-orcid": false,
+            "given": "Yuqi",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Ningbo University Ningbo China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0679-1101",
+            "authenticated-orcid": false,
+            "given": "Jiabao",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of California Irvine USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0007-7324-6123",
+            "authenticated-orcid": false,
+            "given": "Wenxing",
+            "family": "Zheng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Ningbo University Ningbo China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6395-8521",
+            "authenticated-orcid": false,
+            "given": "Qiang",
+            "family": "Fu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "King Abdullah University of Science and Technology Thuwal Saudi Arabia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              8
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.70148",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1111/cgf.70148",
+        "ISSN": [
+          "0167-7055",
+          "1467-8659"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              8
+            ]
+          ]
+        }
+      },
+      {
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Point‐based radiance field rendering produces impressive results for novel‐view synthesis tasks. Established methods work with object‐centric datasets or room‐sized scenes, as computational resources and model capabilities are limited. To overcome this limitation, we introduce neural point octrees (NePOs) to radiance field rendering, which enables optimisation and rendering of large‐scale datasets at varying detail levels, including different acquisition modalities, such as camera drones and LiDAR vehicles.</jats:p>\n                  <jats:p>Our method organises input point clouds into an octree from the bottom up, enabling level of detail (LOD) selection during rendering. Appearance descriptors for each point are optimised using the RGB captures, enabling our system to self‐refine and address real‐world challenges such as capture coverage discrepancies and SLAM pose drift. The refinement is achieved by adaptively densifying octree nodes during training and optimising camera poses via gradient descent. Overall, our approach efficiently optimises scenes with thousands of images and renders scenes containing hundreds of millions of points in real time.</jats:p>",
+        "DOI": "10.1111/cgf.70287",
+        "title": [
+          "NePO: Neural Point Octrees for Large‐Scale Novel View Synthesis"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0000-4446-6994",
+            "authenticated-orcid": false,
+            "given": "Noah",
+            "family": "Lewis",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Visual Computing Erlangen Friedrich‐Alexander‐Universität Erlangen‐Nürnberg Erlangen Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Darius",
+            "family": "Rückert",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Visual Computing Erlangen Friedrich‐Alexander‐Universität Erlangen‐Nürnberg Erlangen Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Marc",
+            "family": "Stamminger",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Visual Computing Erlangen Friedrich‐Alexander‐Universität Erlangen‐Nürnberg Erlangen Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Linus",
+            "family": "Franke",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Visual Computing Erlangen Friedrich‐Alexander‐Universität Erlangen‐Nürnberg Erlangen Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              24
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.70287",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/cgf.70287",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.70287",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1111/cgf.70287",
+        "ISSN": [
+          "0167-7055",
+          "1467-8659"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              24
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              2
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>We propose a method for converting a single image of a transparent object into multi‐view photo that enables users observing the object from multiple new angles, without inputting any 3D shape. The complex light paths formed by refraction and reflection makes it challenging to compute the lighting effects of transparent objects from a new angle. We construct an encoder–decoder network for normal reconstruction and texture extraction, which enables synthesizing novel views of transparent object from a set of new views and new environment maps using only one RGB image. By simultaneously considering the optical transmission and perspective variation, our network learns the characteristics of optical transmission and the change of perspective as guidance to the conversion from RGB colours to surface normals. A texture extraction subnetwork is proposed to alleviate the contour loss phenomenon during normal map generation. We test our method using 3D objects within and without our training data, including real 3D objects that exists in our lab, and completely new environment maps that we take using our phones. The results show that our method performs better on view synthesis of transparent objects in complex scenes using only a single‐view image.</jats:p>",
+        "DOI": "10.1111/cgf.14714",
+        "title": [
+          "Novel View Synthesis Of Transparent Object From a Single Image"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-9641-5483",
+            "authenticated-orcid": false,
+            "given": "Shizhe",
+            "family": "Zhou",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "College of Computer Science and Electronic Engineering Hunan University Changsha China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Zezu",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Computer Science and Electronic Engineering Hunan University Changsha China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Dongwei",
+            "family": "Ye",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Computer Science and Electronic Engineering Hunan University Changsha China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              10,
+              26
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14714",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/cgf.14714",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14714",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1111/cgf.14714",
+        "ISSN": [
+          "0167-7055",
+          "1467-8659"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              10,
+              26
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              10
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Neural radiance fields (NeRF) have demonstrated a promising research direction for novel view synthesis. However, the existing approaches either require per‐scene optimization that takes significant computation time or condition on local features which overlook the global context of images. To tackle this shortcoming, we propose the Conditionally Parameterized Neural Radiance Fields (CP‐NeRF), a plug‐in module that enables NeRF to leverage contextual information from different scales. Instead of optimizing the model parameters of NeRFs directly, we train a Feature Pyramid hyperNetwork (FPN) that extracts view‐dependent global and local information from images within or across scenes to produce the model parameters. Our model can be trained end‐to‐end with standard photometric loss from NeRF. Extensive experiments demonstrate that our method can significantly boost the performance of NeRF, achieving state‐of‐the‐art results in various benchmark datasets.</jats:p>",
+        "DOI": "10.1111/cgf.14940",
+        "title": [
+          "CP‐NeRF: Conditionally Parameterized Neural Radiance Fields for Cross‐scene Novel View Synthesis"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-8074-746X",
+            "authenticated-orcid": false,
+            "given": "Hao",
+            "family": "He",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "The Hong Kong University of Science and Technology (Guangzhou)"
+              },
+              {
+                "name": "The Hong Kong University of Science and Technology"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4750-8875",
+            "authenticated-orcid": false,
+            "given": "Yixun",
+            "family": "Liang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "The Hong Kong University of Science and Technology (Guangzhou)"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0008-0262-5289",
+            "authenticated-orcid": false,
+            "given": "Shishi",
+            "family": "Xiao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "The Hong Kong University of Science and Technology (Guangzhou)"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8665-3365",
+            "authenticated-orcid": false,
+            "given": "Jierun",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "The Hong Kong University of Science and Technology"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9565-8205",
+            "authenticated-orcid": false,
+            "given": "Yingcong",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "The Hong Kong University of Science and Technology (Guangzhou)"
+              },
+              {
+                "name": "The Hong Kong University of Science and Technology"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              30
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14940",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1111/cgf.14940",
+        "ISSN": [
+          "0167-7055",
+          "1467-8659"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              10
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              10
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>We present a deep learning based technique that enables novel‐view videos of human performances to be synthesized from sparse multi‐view captures. While performance capturing from a sparse set of videos has received significant attention, there has been relatively less progress which is about non‐rigid objects (e.g., human bodies). The rich articulation modes of human body make it rather challenging to synthesize and interpolate the model well. To address this problem, we propose a novel deep learning based framework that directly predicts novel‐view videos of human performances without explicit 3D reconstruction. Our method is a composition of two steps: novel‐view prediction and detail enhancement. We first learn a novel deep generative query network for view prediction. We synthesize novel‐view performances from a sparse set of just five or less camera videos. Then, we use a new generative adversarial network to enhance fine‐scale details of the first step results. This opens up the possibility of high‐quality low‐cost video‐based performance synthesis, which is gaining popularity for VA and AR applications. We demonstrate a variety of promising results, where our method is able to synthesis more robust and accurate performances than existing state‐of‐the‐art approaches when only sparse views are available.</jats:p>",
+        "DOI": "10.1111/cgf.13859",
+        "title": [
+          "Deep Video‐Based Performance Synthesis from Sparse Multi‐View Capture"
+        ],
+        "author": [
+          {
+            "given": "Mingjia",
+            "family": "Chen",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "East China Normal University"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Changbo",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "East China Normal University"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Ligang",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Science and Technology of China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              11,
+              14
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.13859",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/cgf.13859",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.13859",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1111/cgf.13859",
+        "ISSN": [
+          "0167-7055",
+          "1467-8659"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              10
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              7
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>Novel view synthesis (NVS) generates images from unseen viewpoints based on a set of input images. It is a challenge because of inaccurate lighting optimization and geometry inference. Although current neural rendering methods have made significant progress, they still struggle to reconstruct global illumination effects like reflections and exhibit ambiguous blurs in highly view‐dependent areas. This work addresses high‐quality view synthesis to emphasize reflection on non‐concave surfaces. We propose Deep Flow Rendering that optimizes direct and indirect lighting separately, leveraging texture mapping, appearance flow, and neural rendering. A learnable texture is used to predict view‐independent features, meanwhile enabling efficient reflection extraction. To accurately fit view‐dependent effects, we adopt a constrained neural flow to transfer image‐space features from nearby views to the target view in an edge‐preserving manner. Then we further implement a fusing renderer that utilizes the predictions of both layers to form the output image. The experiments demonstrate that our method outperforms the state‐of‐the‐art methods at synthesizing various scenes with challenging reflection effects.</jats:p>",
+        "DOI": "10.1111/cgf.14593",
+        "title": [
+          "Deep Flow Rendering: View Synthesis via Layer‐aware Reflection Flow"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-6983-3463",
+            "authenticated-orcid": false,
+            "given": "Pinxuan",
+            "family": "Dai",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Center for Future Media, School of Computer Science and Engineering University of Electronic Science and Technology of China  611731 China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1509-464X",
+            "authenticated-orcid": false,
+            "given": "Ning",
+            "family": "Xie",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Center for Future Media, School of Computer Science and Engineering University of Electronic Science and Technology of China  611731 China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              30
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14593",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/cgf.14593",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14593",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1111/cgf.14593",
+        "ISSN": [
+          "0167-7055",
+          "1467-8659"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              7
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2015,
+              10
+            ]
+          ]
+        },
+        "DOI": "10.1111/cgf.12757",
+        "title": [
+          "Efficient Variational Light Field View Synthesis For Making Stereoscopic 3D Images"
+        ],
+        "author": [
+          {
+            "given": "Lei",
+            "family": "Zhang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Beijing Key Lab of Intelligent Information Technology, School of Computer Science; Beijing Institute of Technology; China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yu-Hang",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Beijing Key Lab of Intelligent Information Technology, School of Computer Science; Beijing Institute of Technology; China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Hua",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Beijing Key Lab of Intelligent Information Technology, School of Computer Science; Beijing Institute of Technology; China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2015,
+              10,
+              15
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "link": [
+          {
+            "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fcgf.12757",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "URL": "https://doi.org/10.1111/cgf.12757",
+        "ISSN": [
+          "0167-7055"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              10
+            ]
+          ]
+        }
+      },
+      {
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    3D reconstruction and view synthesis are foundational problems in computer vision, graphics, and immersive technologies such as augmented reality (AR), virtual reality (VR), and digital twins. Traditional methods rely on computationally intensive iterative optimization in a complex chain, limiting their applicability in real‐world scenarios. Recent advances in feed‐forward approaches, driven by deep learning, have revolutionized this field by enabling fast and generalizable 3D reconstruction and view synthesis. This survey offers a comprehensive review of feed‐forward techniques for 3D reconstruction and view synthesis, with a taxonomy according to the underlying representation architectures including point cloud, 3D Gaussian Splatting (3DGS), Neural Radiance Fields (NeRF), etc. We examine key tasks such as pose‐free reconstruction, dynamic 3D reconstruction, and 3D‐aware image and video synthesis, highlighting their applications in digital humans, SLAM, robotics, and beyond. In addition, we review commonly used datasets with detailed statistics, along with evaluation protocols for various downstream tasks. We conclude by discussing open research challenges and promising directions for future work, emphasizing the potential of feed‐forward approaches to advance the state of the art in 3D vision. The project page is available at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://fnzhan.com/projects/Feed-Forward-3D\">https://fnzhan.com/projects/Feed‐Forward‐3D</jats:ext-link>\n                    Feed‐Forward‐3D.\n                  </jats:p>",
+        "DOI": "10.1111/cgf.70494",
+        "title": [
+          "Advances in Feed‐Forward 3D Reconstruction and View Synthesis: A Survey"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-9059-7546",
+            "authenticated-orcid": false,
+            "given": "Jiahui",
+            "family": "Zhang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Nanyang Technological University Singapore Singapore"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0000-1478-8503",
+            "authenticated-orcid": false,
+            "given": "Yuelei",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "California Institute of Technology Pasadena California USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2150-2176",
+            "authenticated-orcid": false,
+            "given": "Anpei",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of California San Diego USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0001-1547-2065",
+            "authenticated-orcid": false,
+            "given": "Muyu",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nanyang Technological University Singapore Singapore"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1757-0547",
+            "authenticated-orcid": false,
+            "given": "Kunhao",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nanyang Technological University Singapore Singapore"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6467-4018",
+            "authenticated-orcid": false,
+            "given": "Jianyuan",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Oxford Oxford UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3386-8805",
+            "authenticated-orcid": false,
+            "given": "Xiao‐Xiao",
+            "family": "Long",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nanjing University Nanjing Jiangsu China"
+              },
+              {
+                "name": "The University of Hong Kong  Hong Kong"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0005-9078-8042",
+            "authenticated-orcid": false,
+            "given": "Hanxue",
+            "family": "Liang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Cambridge Cambridge UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8487-8018",
+            "authenticated-orcid": false,
+            "given": "Zexiang",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Hillbot La Jolla USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1796-2682",
+            "authenticated-orcid": false,
+            "given": "Hao",
+            "family": "Su",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of California San Diego USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6104-6625",
+            "authenticated-orcid": false,
+            "given": "Christian",
+            "family": "Theobalt",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Max Planck Institute for Informatics Saarbrücken Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3994-8045",
+            "authenticated-orcid": false,
+            "given": "Christian",
+            "family": "Rupprecht",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Oxford Oxford UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1374-2858",
+            "authenticated-orcid": false,
+            "given": "Andrea",
+            "family": "Vedaldi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Oxford Oxford UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Kaichen",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Harvard University Cambridge Massachusetts USA"
+              },
+              {
+                "name": "Massachusetts Institute of Technology Cambridge Massachusetts USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3620-2582",
+            "authenticated-orcid": false,
+            "given": "Hanspeter",
+            "family": "Pfister",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Harvard University Cambridge Massachusetts USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7768-3610",
+            "authenticated-orcid": false,
+            "given": "Paul Pu",
+            "family": "Liang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Massachusetts Institute of Technology Cambridge Massachusetts USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6766-2506",
+            "authenticated-orcid": false,
+            "given": "Shijian",
+            "family": "Lu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nanyang Technological University Singapore Singapore"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1502-6847",
+            "authenticated-orcid": false,
+            "given": "Fangneng",
+            "family": "Zhan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Harvard University Cambridge Massachusetts USA"
+              },
+              {
+                "name": "Massachusetts Institute of Technology Cambridge Massachusetts USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              6
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.70494",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/cgf.70494",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.70494",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1111/cgf.70494",
+        "ISSN": [
+          "0167-7055",
+          "1467-8659"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              6
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              5
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>Dynamic reconstruction and spatiotemporal novel‐view synthesis of non‐rigidly deforming scenes recently gained increased attention. While existing work achieves impressive quality and performance on multi‐view or teleporting camera setups, most methods fail to efficiently and faithfully recover motion and appearance from casual monocular captures. This paper contributes to the field by introducing a new method for dynamic novel view synthesis from monocular video, such as casual smartphone captures. Our approach represents the scene as a dynamic neural point cloud, an implicit time‐conditioned point distribution that encodes local geometry and appearance in separate hash‐encoded neural feature grids for static and dynamic regions. By sampling a discrete point cloud from our model, we can efficiently render high‐quality novel views using a fast differentiable rasterizer and neural rendering network. Similar to recent work, we leverage advances in neural scene analysis by incorporating data‐driven priors like monocular depth estimation and object segmentation to resolve motion and depth ambiguities originating from the monocular captures. In addition to guiding the optimization process, we show that these priors can be exploited to explicitly initialize our scene representation to drastically improve optimization speed and final image quality. As evidenced by our experimental evaluation, our dynamic point cloud model not only enables fast optimization and real‐time frame rates for interactive applications, but also achieves competitive image quality on monocular benchmark sequences. Our code and data are available online <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://moritzkappel.github.io/projects/dnpc/\">https://moritzkappel.github.io/projects/dnpc/</jats:ext-link>.</jats:p>",
+        "DOI": "10.1111/cgf.70038",
+        "title": [
+          "D‐NPC: Dynamic Neural Point Clouds for Non‐Rigid View Synthesis from Monocular Video"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-9507-5141",
+            "authenticated-orcid": false,
+            "given": "Moritz",
+            "family": "Kappel",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Computer Graphics Lab, TU Braunschweig  Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0004-8710-1433",
+            "authenticated-orcid": false,
+            "given": "Florian",
+            "family": "Hahlbohm",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Computer Graphics Lab, TU Braunschweig  Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0004-3635-190X",
+            "authenticated-orcid": false,
+            "given": "Timon",
+            "family": "Scholz",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Computer Graphics Lab, TU Braunschweig  Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1245-4758",
+            "authenticated-orcid": false,
+            "given": "Susana",
+            "family": "Castillo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Computer Graphics Lab, TU Braunschweig  Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6104-6625",
+            "authenticated-orcid": false,
+            "given": "Christian",
+            "family": "Theobalt",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Max Planck Institute for Informatics, Saarland Informatics Campus  Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8673-4405",
+            "authenticated-orcid": false,
+            "given": "Martin",
+            "family": "Eisemann",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Computer Graphics Lab, TU Braunschweig  Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1630-2006",
+            "authenticated-orcid": false,
+            "given": "Vladislav",
+            "family": "Golyanik",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Max Planck Institute for Informatics, Saarland Informatics Campus  Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0579-480X",
+            "authenticated-orcid": false,
+            "given": "Marcus",
+            "family": "Magnor",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Computer Graphics Lab, TU Braunschweig  Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              14
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.70038",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1111/cgf.70038",
+        "ISSN": [
+          "0167-7055",
+          "1467-8659"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              14
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              5
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Neural view synthesis (NVS) is one of the most successful techniques for synthesizing free viewpoint videos, capable of achieving high fidelity from only a sparse set of captured images. This success has led to many variants of the techniques, each evaluated on a set of test views typically using image quality metrics such as PSNR, SSIM, or LPIPS. There has been a lack of research on how NVS methods perform with respect to perceived video quality. We present the first study on perceptual evaluation of NVS and NeRF variants. For this study, we collected two datasets of scenes captured in a controlled lab environment as well as in‐the‐wild. In contrast to existing datasets, these scenes come with reference video sequences, allowing us to test for temporal artifacts and subtle distortions that are easily overlooked when viewing only static images. We measured the quality of videos synthesized by several NVS methods in a well‐controlled perceptual quality assessment experiment as well as with many existing state‐of‐the‐art image/video quality metrics. We present a detailed analysis of the results and recommendations for dataset and metric selection for NVS evaluation.</jats:p>",
+        "DOI": "10.1111/cgf.15036",
+        "title": [
+          "Perceptual Quality Assessment of NeRF and Neural View Synthesis Methods for Front‐Facing Views"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0005-9078-8042",
+            "authenticated-orcid": false,
+            "given": "H.",
+            "family": "Liang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "University of Cambridge  UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3807-5839",
+            "authenticated-orcid": false,
+            "given": "T.",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Cambridge  UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7985-4177",
+            "authenticated-orcid": false,
+            "given": "P.",
+            "family": "Hanji",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Cambridge  UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6374-6657",
+            "authenticated-orcid": false,
+            "given": "F.",
+            "family": "Banterle",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "ISTI‐CNR  Italy"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5546-6906",
+            "authenticated-orcid": false,
+            "given": "H.",
+            "family": "Gao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Cambridge  UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2353-0349",
+            "authenticated-orcid": false,
+            "given": "R.",
+            "family": "Mantiuk",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Cambridge  UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4700-2236",
+            "authenticated-orcid": false,
+            "given": "C.",
+            "family": "Öztireli",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Cambridge  UK"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              27
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.15036",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1111/cgf.15036",
+        "ISSN": [
+          "0167-7055",
+          "1467-8659"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              27
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              10
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>3D Gaussian Splatting has recently emerged as a powerful representation that can synthesize remarkable novel views using consistent multi‐view images as input. However, we notice that images captured in dark environments where the scenes are not fully illuminated can exhibit considerable brightness variations and multi‐view inconsistency, which poses great challenges to 3D Gaussian Splatting and severely degrades its performance. To tackle this problem, we propose Gaussian‐DK. Observing that inconsistencies are mainly caused by camera imaging, we represent a consistent radiance field of the physical world using a set of anisotropic 3D Gaussians, and design a camera response module to compensate for multi‐view inconsistencies. We also introduce a step‐based gradient scaling strategy to constrain Gaussians near the camera, which turn out to be floaters, from splitting and cloning. Experiments on our proposed benchmark dataset demonstrate that Gaussian‐DK produces high‐quality renderings without ghosting and floater artifacts and significantly outperforms existing methods. Furthermore, we can also synthesize light‐up images by controlling exposure levels that clearly show details in shadow areas.</jats:p>",
+        "DOI": "10.1111/cgf.15213",
+        "title": [
+          "Gaussian in the Dark: Real‐Time View Synthesis From Inconsistent Dark Images Using Gaussian Splatting"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-9280-6279",
+            "authenticated-orcid": false,
+            "given": "Sheng",
+            "family": "Ye",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "MOE‐Key Laboratory of Pervasive Computing, the Department of Computer Science and Technology Tsinghua University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0007-7879-8111",
+            "authenticated-orcid": false,
+            "given": "Zhen‐Hui",
+            "family": "Dong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "MOE‐Key Laboratory of Pervasive Computing, the Department of Computer Science and Technology Tsinghua University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6107-2858",
+            "authenticated-orcid": false,
+            "given": "Yubin",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "MOE‐Key Laboratory of Pervasive Computing, the Department of Computer Science and Technology Tsinghua University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6195-9782",
+            "authenticated-orcid": false,
+            "given": "Yu‐Hui",
+            "family": "Wen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Beijing Key Laboratory of Traffic Data Analysis and Mining, School of Computer and Information Technology Beijing Jiaotong University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5774-1916",
+            "authenticated-orcid": false,
+            "given": "Yong‐Jin",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "MOE‐Key Laboratory of Pervasive Computing, the Department of Computer Science and Technology Tsinghua University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              24
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.15213",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1111/cgf.15213",
+        "ISSN": [
+          "0167-7055",
+          "1467-8659"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              10
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 15,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

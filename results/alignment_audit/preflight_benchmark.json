@@ -1,0 +1,18 @@
+{
+  "mode": "benchmark",
+  "task": "G2A-3/Disaster",
+  "checkpoint_sha256": "a9108a3394fe127ae7cde9a75019b34ea11da9d3375a51efb4236200bbedfc6a",
+  "manifest_count": 8,
+  "errors": [
+    "Benchmark requires official train IDs",
+    "Benchmark requires official test IDs"
+  ],
+  "benchmark_blockers": [
+    "Task-matched, paper-verified checkpoint is unavailable",
+    "Official regional test IDs/boundaries are unavailable; diagnostic samples are not a formal split",
+    "Disaster projection scale/height/curvature and training preprocessing are unconfirmed",
+    "Paper evaluation reference and FID protocol are unconfirmed"
+  ],
+  "can_run": false,
+  "paper_reproduction_claim_allowed": false
+}

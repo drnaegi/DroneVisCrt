@@ -1,0 +1,1711 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 221,
+    "items": [
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              6
+            ]
+          ]
+        },
+        "DOI": "10.1109/tnnls.2022.3220486",
+        "title": [
+          "Fast Incomplete Multi-View Clustering With View-Independent Anchors"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-1481-5393",
+            "authenticated-orcid": false,
+            "given": "Suyuan",
+            "family": "Liu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Computer, National University of Defense Technology, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9066-1475",
+            "authenticated-orcid": false,
+            "given": "Xinwang",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer, National University of Defense Technology, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9517-262X",
+            "authenticated-orcid": false,
+            "given": "Siwei",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer, National University of Defense Technology, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9396-7688",
+            "authenticated-orcid": false,
+            "given": "Xin",
+            "family": "Niu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer, National University of Defense Technology, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2305-7555",
+            "authenticated-orcid": false,
+            "given": "En",
+            "family": "Zhu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer, National University of Defense Technology, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Neural Networks and Learning Systems"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/5962385/10547160/09982492.pdf?arnumber=9982492",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tnnls.2022.3220486",
+        "ISSN": [
+          "2162-237X",
+          "2162-2388"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              6
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              11
+            ]
+          ]
+        },
+        "DOI": "10.1109/tnnls.2023.3291696",
+        "title": [
+          "Unpaired Multi-View Graph Clustering With Cross-View Structure Matching"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-5924-1429",
+            "authenticated-orcid": false,
+            "given": "Yi",
+            "family": "Wen",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Computer, National University of Defense Technology, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9517-262X",
+            "authenticated-orcid": false,
+            "given": "Siwei",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer, National University of Defense Technology, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1012-5301",
+            "authenticated-orcid": false,
+            "given": "Qing",
+            "family": "Liao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Technology, Harbin Institute of Technology, Shenzhen, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-1868-5445",
+            "authenticated-orcid": false,
+            "given": "Weixuan",
+            "family": "Liang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer, National University of Defense Technology, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4837-455X",
+            "authenticated-orcid": false,
+            "given": "Ke",
+            "family": "Liang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer, National University of Defense Technology, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8749-2869",
+            "authenticated-orcid": false,
+            "given": "Xinhang",
+            "family": "Wan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer, National University of Defense Technology, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9066-1475",
+            "authenticated-orcid": false,
+            "given": "Xinwang",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer, National University of Defense Technology, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Neural Networks and Learning Systems"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/5962385/10737991/10205509.pdf?arnumber=10205509",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tnnls.2023.3291696",
+        "ISSN": [
+          "2162-237X",
+          "2162-2388"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              11
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              8
+            ]
+          ]
+        },
+        "DOI": "10.1109/tnnls.2025.3527928",
+        "title": [
+          "Deep Graph Multi-View Representation Learning With Self-Augmented View Fusion"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-8342-7311",
+            "authenticated-orcid": false,
+            "given": "Ziheng",
+            "family": "Jiao",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and the School of Artificial Intelligence, Optics and Electronics (iOPEN), Northwestern Polytechnical University, Xi&#x2019;an, Shaanxi, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4274-7332",
+            "authenticated-orcid": false,
+            "given": "Hongyuan",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Artificial Intelligence (TeleAI), China Telecom, Shanghai, P. R. China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2924-946X",
+            "authenticated-orcid": false,
+            "given": "Xuelong",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of Artificial Intelligence (TeleAI), China Telecom, Shanghai, P. R. China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Neural Networks and Learning Systems"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/5962385/11114436/10870403.pdf?arnumber=10870403",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tnnls.2025.3527928",
+        "ISSN": [
+          "2162-237X",
+          "2162-2388"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              8
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              10
+            ]
+          ]
+        },
+        "DOI": "10.1109/tnnls.2021.3070179",
+        "title": [
+          "Discriminative Multi-View Dynamic Image Fusion for Cross-View 3-D Action Recognition"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-3786-7746",
+            "authenticated-orcid": false,
+            "given": "Yancheng",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "National Key Laboratory of Science and Technology on Multispectral Information Processing, School of Artificial Intelligence and Automation, Huazhong University of Science and Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7739-4146",
+            "authenticated-orcid": false,
+            "given": "Yang",
+            "family": "Xiao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "National Key Laboratory of Science and Technology on Multispectral Information Processing, School of Artificial Intelligence and Automation, Huazhong University of Science and Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Junyi",
+            "family": "Lu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "National Key Laboratory of Science and Technology on Multispectral Information Processing, School of Artificial Intelligence and Automation, Huazhong University of Science and Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Bo",
+            "family": "Tan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "National Key Laboratory of Science and Technology on Multispectral Information Processing, School of Artificial Intelligence and Automation, Huazhong University of Science and Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9223-1863",
+            "authenticated-orcid": false,
+            "given": "Zhiguo",
+            "family": "Cao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "National Key Laboratory of Science and Technology on Multispectral Information Processing, School of Artificial Intelligence and Automation, Huazhong University of Science and Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3087-8239",
+            "authenticated-orcid": false,
+            "given": "Zhenjun",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "National Engineering Laboratory for Robot Visual Perception and Control Technology, College of Electrical and Information Engineering, Hunan University, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4675-7055",
+            "authenticated-orcid": false,
+            "given": "Joey Tianyi",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Institute of High Performance Computing, Agency for Science, Technology and Research (A&#x002A;STAR), Singapore"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Neural Networks and Learning Systems"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/5962385/9911935/09404315.pdf?arnumber=9404315",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tnnls.2021.3070179",
+        "ISSN": [
+          "2162-237X",
+          "2162-2388"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              10
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              8
+            ]
+          ]
+        },
+        "DOI": "10.1109/tnnls.2023.3242473",
+        "title": [
+          "Projective Incomplete Multi-View Clustering"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-9573-7352",
+            "authenticated-orcid": false,
+            "given": "Shijie",
+            "family": "Deng",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Shenzhen Key Laboratory of Visual Object Detection and Recognition, Harbin Institute of Technology, Shenzhen, Shenzhen, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9554-2379",
+            "authenticated-orcid": false,
+            "given": "Jie",
+            "family": "Wen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shenzhen Key Laboratory of Visual Object Detection and Recognition, Harbin Institute of Technology, Shenzhen, Shenzhen, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5983-8981",
+            "authenticated-orcid": false,
+            "given": "Chengliang",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shenzhen Key Laboratory of Visual Object Detection and Recognition, Harbin Institute of Technology, Shenzhen, Shenzhen, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5326-4267",
+            "authenticated-orcid": false,
+            "given": "Ke",
+            "family": "Yan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology, Beijing Institute of Technology, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Gehui",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shenzhen Key Laboratory of Visual Object Detection and Recognition, Harbin Institute of Technology, Shenzhen, Shenzhen, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0530-2123",
+            "authenticated-orcid": false,
+            "given": "Yong",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Shenzhen Key Laboratory of Visual Object Detection and Recognition, Harbin Institute of Technology, Shenzhen, Shenzhen, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Neural Networks and Learning Systems"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/5962385/10623582/10042189.pdf?arnumber=10042189",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tnnls.2023.3242473",
+        "ISSN": [
+          "2162-237X",
+          "2162-2388"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              8
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              9
+            ]
+          ]
+        },
+        "DOI": "10.1109/tnnls.2017.2763967",
+        "title": [
+          "Multilabel Prediction via Cross-View Search"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-8494-4532",
+            "authenticated-orcid": false,
+            "given": "Xiaobo",
+            "family": "Shen",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2450-3369",
+            "authenticated-orcid": false,
+            "given": "Weiwei",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ivor W.",
+            "family": "Tsang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Quan-Sen",
+            "family": "Sun",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4480-169X",
+            "authenticated-orcid": false,
+            "given": "Yew-Soon",
+            "family": "Ong",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Neural Networks and Learning Systems"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/5962385/8440865/08098582.pdf?arnumber=8098582",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tnnls.2017.2763967",
+        "ISSN": [
+          "2162-237X",
+          "2162-2388"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              9
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2017
+            ]
+          ]
+        },
+        "DOI": "10.1109/tnnls.2017.2703832",
+        "title": [
+          "Multiple Structure-View Learning for Graph Classification"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-1371-5801",
+            "authenticated-orcid": false,
+            "given": "Jia",
+            "family": "Wu",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Shirui",
+            "family": "Pan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Xingquan",
+            "family": "Zhu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Chengqi",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Philip S.",
+            "family": "Yu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Neural Networks and Learning Systems"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/5962385/6104215/08047481.pdf?arnumber=8047481",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tnnls.2017.2703832",
+        "ISSN": [
+          "2162-237X",
+          "2162-2388"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              8
+            ]
+          ]
+        },
+        "DOI": "10.1109/tnnls.2021.3121246",
+        "title": [
+          "Implicit Weight Learning for Multi-View Clustering"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-0871-6519",
+            "authenticated-orcid": false,
+            "given": "Feiping",
+            "family": "Nie",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Computer Science, School of Artificial Intelligence, Optics and Electronics (iOPEN), and the Key Laboratory of Intelligent Interaction and Applications (Ministry of Industry and Information Technology), Northwestern Polytechnical University, Xi&#x2019;an, Shaanxi, P. R. China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2243-1015",
+            "authenticated-orcid": false,
+            "given": "Shaojun",
+            "family": "Shi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science, School of Artificial Intelligence, Optics and Electronics (iOPEN), and the Key Laboratory of Intelligent Interaction and Applications (Ministry of Industry and Information Technology), Northwestern Polytechnical University, Xi&#x2019;an, Shaanxi, P. R. China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7584-1240",
+            "authenticated-orcid": false,
+            "given": "Jing",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Center for Artificial Intelligence, University of Technology Sydney, Ultimo, NSW, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2924-946X",
+            "authenticated-orcid": false,
+            "given": "Xuelong",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Artificial Intelligence, Optics and Electronics (iOPEN), and the Key Laboratory of Intelligent Interaction and Applications (Ministry of Industry and Information Technology), Northwestern Polytechnical University, Xi&#x2019;an, Shaanxi, P. R. China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Neural Networks and Learning Systems"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/5962385/10208115/09597486.pdf?arnumber=9597486",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tnnls.2021.3121246",
+        "ISSN": [
+          "2162-237X",
+          "2162-2388"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              8
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              6
+            ]
+          ]
+        },
+        "DOI": "10.1109/tnnls.2024.3479777",
+        "title": [
+          "Unpaired Multiview Clustering via Reliable View Guidance"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-7516-4355",
+            "authenticated-orcid": false,
+            "given": "Like",
+            "family": "Xin",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Mathematical Sciences, Nanjing Normal University, Nanjing, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6727-6077",
+            "authenticated-orcid": false,
+            "given": "Wanqi",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer and Electronic Information, Nanjing Normal University, Nanjing, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0961-0441",
+            "authenticated-orcid": false,
+            "given": "Lei",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computing and Information Technology, University of Wollongong, Wollongong, NSW, Australia"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Ming",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer and Electronic Information, Nanjing Normal University, Nanjing, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Neural Networks and Learning Systems"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/5962385/11022714/10745770.pdf?arnumber=10745770",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tnnls.2024.3479777",
+        "ISSN": [
+          "2162-237X",
+          "2162-2388"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              6
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              9
+            ]
+          ]
+        },
+        "DOI": "10.1109/tnnls.2023.3256390",
+        "title": [
+          "Online Multi-View Learning With Knowledge Registration Units"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-1696-0009",
+            "authenticated-orcid": false,
+            "given": "Sheng",
+            "family": "Wu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Computer and Communication Engineering, Changsha University of Science and Technology, Changsha, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7969-3190",
+            "authenticated-orcid": false,
+            "given": "Ancong",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Engineering, Sun Yat-sen University, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8327-0003",
+            "authenticated-orcid": false,
+            "given": "Wei-Shi",
+            "family": "Zheng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Engineering, Sun Yat-sen University, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Neural Networks and Learning Systems"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/5962385/10663876/10081064.pdf?arnumber=10081064",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tnnls.2023.3256390",
+        "ISSN": [
+          "2162-237X",
+          "2162-2388"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              9
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        },
+        "DOI": "10.1109/tnnls.2026.3696938",
+        "title": [
+          "Multi-View Clustering With Hybrid-Order Similarity Learning"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-3923-8828",
+            "authenticated-orcid": false,
+            "given": "Dong",
+            "family": "Huang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "South China Agricultural University",
+                "place": [
+                  "Guangzhou, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0007-6412-7165",
+            "authenticated-orcid": false,
+            "given": "Sheng-Yu",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "South China Agricultural University",
+                "place": [
+                  "Guangzhou, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0003-2376-2008",
+            "authenticated-orcid": false,
+            "given": "Haiyan",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "South China Agricultural University",
+                "place": [
+                  "Guangzhou, China"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Neural Networks and Learning Systems"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/5962385/6104215/11638219.pdf?arnumber=11638219",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tnnls.2026.3696938",
+        "ISSN": [
+          "2162-237X",
+          "2162-2388"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.1109/tnnls.2023.3329658",
+        "title": [
+          "Selective Contrastive Learning for Unpaired Multi-View Clustering"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-7516-4355",
+            "authenticated-orcid": false,
+            "given": "Like",
+            "family": "Xin",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Mathematical Sciences, Nanjing Normal University, Nanjing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6727-6077",
+            "authenticated-orcid": false,
+            "given": "Wanqi",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer and Electronic Information, Nanjing Normal University, Nanjing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0961-0441",
+            "authenticated-orcid": false,
+            "given": "Lei",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computing and Information Technology, University of Wollongong, Wollongong, NSW, Australia"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ming",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer and Electronic Information, Nanjing Normal University, Nanjing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Neural Networks and Learning Systems"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/5962385/10832116/10327758.pdf?arnumber=10327758",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tnnls.2023.3329658",
+        "ISSN": [
+          "2162-237X",
+          "2162-2388"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              7
+            ]
+          ]
+        },
+        "DOI": "10.1109/tnnls.2024.3488197",
+        "title": [
+          "Two-View Correspondence Learning With Local Consensus Transformer"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-5002-7303",
+            "authenticated-orcid": false,
+            "given": "Gang",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Statistics and Management, Shanghai University of Finance and Economics, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3645-9046",
+            "authenticated-orcid": false,
+            "given": "Yufei",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology, Tongji University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Neural Networks and Learning Systems"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/5962385/11073756/10750907.pdf?arnumber=10750907",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tnnls.2024.3488197",
+        "ISSN": [
+          "2162-237X",
+          "2162-2388"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              7
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              8
+            ]
+          ]
+        },
+        "DOI": "10.1109/tnnls.2021.3054789",
+        "title": [
+          "Multi-Manifold Optimization for Multi-View Subspace Clustering"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-0415-9070",
+            "authenticated-orcid": false,
+            "given": "Aparajita",
+            "family": "Khan",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Biomedical Imaging and Bioinformatics Laboratory, Machine Intelligence Unit, Indian Statistical Institute, Kolkata, India"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8288-8917",
+            "authenticated-orcid": false,
+            "given": "Pradipta",
+            "family": "Maji",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Biomedical Imaging and Bioinformatics Laboratory, Machine Intelligence Unit, Indian Statistical Institute, Kolkata, India"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Neural Networks and Learning Systems"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/5962385/9849214/09358980.pdf?arnumber=9358980",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tnnls.2021.3054789",
+        "ISSN": [
+          "2162-237X",
+          "2162-2388"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              8
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              2
+            ]
+          ]
+        },
+        "DOI": "10.1109/tnnls.2022.3189763",
+        "title": [
+          "Refining Graph Structure for Incomplete Multi-View Clustering"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-7081-4371",
+            "authenticated-orcid": false,
+            "given": "Xiang-Long",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Engineering, Guangdong Province Key Laboratory of Computational Science, Key Laboratory of Machine Intelligence and Advanced Computing, Ministry of Education, Sun Yat-sen University, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6578-0616",
+            "authenticated-orcid": false,
+            "given": "Man-Sheng",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Engineering, Guangdong Province Key Laboratory of Computational Science, Key Laboratory of Machine Intelligence and Advanced Computing, Ministry of Education, Sun Yat-sen University, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5972-559X",
+            "authenticated-orcid": false,
+            "given": "Chang-Dong",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Engineering, Guangdong Province Key Laboratory of Computational Science, Key Laboratory of Machine Intelligence and Advanced Computing, Ministry of Education, Sun Yat-sen University, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3883-2024",
+            "authenticated-orcid": false,
+            "given": "Jian-Huang",
+            "family": "Lai",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Engineering, Guangdong Key Laboratory of Information Security Technology, Key Laboratory of Machine Intelligence and Advanced Computing, Ministry of Education, Sun Yat-sen University, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Neural Networks and Learning Systems"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/5962385/10422842/09831170.pdf?arnumber=9831170",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/tnnls.2022.3189763",
+        "ISSN": [
+          "2162-237X",
+          "2162-2388"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              2
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 15,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

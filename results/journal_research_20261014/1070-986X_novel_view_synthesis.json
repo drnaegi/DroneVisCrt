@@ -1,0 +1,1340 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 27,
+    "items": [
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              10
+            ]
+          ]
+        },
+        "DOI": "10.1109/mmul.2025.3620542",
+        "title": [
+          "High-Quality Dynamic Human Novel View Synthesis Based on Multiview Video"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-9645-5031",
+            "authenticated-orcid": false,
+            "given": "Wenkai",
+            "family": "Liu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Huazhong University of Science and Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5748-4355",
+            "authenticated-orcid": false,
+            "given": "Tao",
+            "family": "Guan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Huazhong University of Science and Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6114-0387",
+            "authenticated-orcid": false,
+            "given": "Luoyuan",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Huazhong University of Science and Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8832-4530",
+            "authenticated-orcid": false,
+            "given": "Yuesong",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Huazhong University of Science and Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE MultiMedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/93/11370732/11202321.pdf?arnumber=11202321",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/mmul.2025.3620542",
+        "ISSN": [
+          "1070-986X",
+          "1941-0166"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              10
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2006,
+              4
+            ]
+          ]
+        },
+        "DOI": "10.1109/mmul.2006.46",
+        "title": [
+          "Visions and View in Multimedia"
+        ],
+        "author": [
+          {
+            "given": "S.",
+            "family": "Boll",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Multimedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx5/93/33952/01621029.pdf?arnumber=1621029",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/mmul.2006.46",
+        "ISSN": [
+          "1070-986X"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2006,
+              4
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              1997
+            ]
+          ]
+        },
+        "DOI": "10.1109/93.580392",
+        "title": [
+          "Virtual view generation for 3D digital video"
+        ],
+        "author": [
+          {
+            "given": "S.",
+            "family": "Moezzi",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "family": "Li-Cheng Tai",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "P.",
+            "family": "Gerard",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Multimedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx4/93/12582/00580392.pdf?arnumber=580392",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/93.580392",
+        "ISSN": [
+          "1070-986X"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1997
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2014,
+              7
+            ]
+          ]
+        },
+        "DOI": "10.1109/mmul.2014.20",
+        "title": [
+          "View-Based 3D Object Retrieval: Challenges and Approaches"
+        ],
+        "author": [
+          {
+            "given": "Yue",
+            "family": "Gao",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Tsinghua University, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Qionghai",
+            "family": "Dai",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Tsinghua University, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE MultiMedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/93/6861871/06756714.pdf?arnumber=6756714",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/mmul.2014.20",
+        "ISSN": [
+          "1070-986X",
+          "1941-0166"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              7
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2000
+            ]
+          ]
+        },
+        "DOI": "10.1109/93.895154",
+        "title": [
+          "Room with a rear view. Meeting capture in a multimedia conference room"
+        ],
+        "author": [
+          {
+            "given": "L.",
+            "family": "Wilcox",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "S.",
+            "family": "Reitmeier",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "A.",
+            "family": "Kapuskar",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "P.",
+            "family": "Chiu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Multimedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx5/93/19368/00895154.pdf?arnumber=895154",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/93.895154",
+        "ISSN": [
+          "1070-986X"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2000
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              10,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.1109/mmul.2020.3022702",
+        "title": [
+          "MVIIDroid: A Multiple View Information Integration Approach for Android Malware Detection and Family Identification"
+        ],
+        "author": [
+          {
+            "given": "Qing",
+            "family": "Wu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "College of ComputerNational University of Defense Technology"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Miaomiao",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Changsha College"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xueling",
+            "family": "Zhu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of ComputerNational University of Defense Technology"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Bo",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of ComputerNational University of Defense Technology"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE MultiMedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/93/9266288/09188022.pdf?arnumber=9188022",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/mmul.2020.3022702",
+        "ISSN": [
+          "1070-986X",
+          "1941-0166"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              10,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              4
+            ]
+          ]
+        },
+        "DOI": "10.1109/mmul.2016.27",
+        "title": [
+          "A Novel Semi-Supervised Dimensionality Reduction Framework"
+        ],
+        "author": [
+          {
+            "given": "Xin",
+            "family": "Guo",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yun",
+            "family": "Tie",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Lin",
+            "family": "Qi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Ling",
+            "family": "Guan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE MultiMedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/93/7464793/07464800.pdf?arnumber=7464800",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/mmul.2016.27",
+        "ISSN": [
+          "1070-986X"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              4
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2005,
+              4
+            ]
+          ]
+        },
+        "DOI": "10.1109/mmul.2005.35",
+        "title": [
+          "Novel infrastructures for supporting mixed-reality experiences"
+        ],
+        "author": [
+          {
+            "given": "M.",
+            "family": "Radenkovic",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE MultiMedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx5/93/30741/01423928.pdf?arnumber=1423928",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/mmul.2005.35",
+        "ISSN": [
+          "1070-986X",
+          "1941-0166"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2005,
+              4
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2005,
+              4
+            ]
+          ]
+        },
+        "DOI": "10.1109/mmul.2005.37",
+        "title": [
+          "Sonification of Probabilistic Feedback through Granular Synthesis"
+        ],
+        "author": [
+          {
+            "given": "J.",
+            "family": "Williamson",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "R.",
+            "family": "Murray-Smith",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Multimedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx5/93/30741/01423933.pdf?arnumber=1423933",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/mmul.2005.37",
+        "ISSN": [
+          "1070-986X"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2005,
+              4
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2008,
+              10
+            ]
+          ]
+        },
+        "DOI": "10.1109/mmul.2008.97",
+        "title": [
+          "Two Novel Technologies for Accessible Math and Science Education"
+        ],
+        "author": [
+          {
+            "given": "Nicoletta",
+            "family": "Adamo-Villani",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ronnie",
+            "family": "Wilbur",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Multimedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx5/93/4740373/04740384.pdf?arnumber=4740384",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/mmul.2008.97",
+        "ISSN": [
+          "1070-986X"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2008,
+              10
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              4,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.1109/mmul.2022.3157770",
+        "title": [
+          "A Novel Security Framework for Medical Data in IoT Ecosystems"
+        ],
+        "author": [
+          {
+            "given": "Parkala Vishnu Bharadwaj",
+            "family": "Bayari",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Indian Institute of Technology Jodhpur, Jodhpur, India"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9358-5313",
+            "authenticated-orcid": false,
+            "given": "Apoorva",
+            "family": "Lakshman",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Indian Institute of Technology Jodhpur, Jodhpur, India"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0282-3372",
+            "authenticated-orcid": false,
+            "given": "Gaurav",
+            "family": "Bhatnagar",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Indian Institute of Technology Jodhpur, Jodhpur, India"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3431-0483",
+            "authenticated-orcid": false,
+            "given": "Chiranjoy",
+            "family": "Chattopadhyay",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Indian Institute of Technology Jodhpur, Jodhpur, India"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE MultiMedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/93/9830637/09729983.pdf?arnumber=9729983",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/mmul.2022.3157770",
+        "ISSN": [
+          "1070-986X",
+          "1941-0166"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              4,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2009,
+              7
+            ]
+          ]
+        },
+        "DOI": "10.1109/mmul.2009.43",
+        "title": [
+          "A Novel Approach to Steganography in High- Dynamic-Range Images"
+        ],
+        "author": [
+          {
+            "given": "Yu-Ming",
+            "family": "Cheng",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Chung-Ming",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Multimedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx5/93/5228682/05228694.pdf?arnumber=5228694",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/mmul.2009.43",
+        "ISSN": [
+          "1070-986X"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2009,
+              7
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              10
+            ]
+          ]
+        },
+        "DOI": "10.1109/mmul.2024.3421243",
+        "title": [
+          "Specific Diverse Text-to-Image Synthesis via Exemplar Guidance"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0006-2741-7406",
+            "authenticated-orcid": false,
+            "given": "Ailin",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Chongqing University of Posts and Communications, Chongqing, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4791-454X",
+            "authenticated-orcid": false,
+            "given": "Lei",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Zhejiang University, Hangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0062-6308",
+            "authenticated-orcid": false,
+            "given": "Zhiwen",
+            "family": "Zuo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Zhejiang Gongshang University, Hangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7994-6725",
+            "authenticated-orcid": false,
+            "given": "Wei",
+            "family": "Xing",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Zhejiang University, Hangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Dongming",
+            "family": "Lu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Zhejiang University, Hangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE MultiMedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/93/10807513/10585279.pdf?arnumber=10585279",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/mmul.2024.3421243",
+        "ISSN": [
+          "1070-986X",
+          "1941-0166"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              10
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              4
+            ]
+          ]
+        },
+        "DOI": "10.1109/mmul.2025.3546908",
+        "title": [
+          "Enhanced Aortic CT Synthesis Based on Multiscale Information Fusion"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0006-5772-9021",
+            "authenticated-orcid": false,
+            "given": "Juanjuan",
+            "family": "Yin",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology, Weinan Normal University, Weinan, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Jinye",
+            "family": "Peng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Information Science and Technology, Northwest University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7925-5625",
+            "authenticated-orcid": false,
+            "given": "Xiaohui",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Chemistry and Chemical Engineering, Xi&#x2019;an Shiyou University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5717-1914",
+            "authenticated-orcid": false,
+            "given": "Jun",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Information Science and Technology, Northwest University, Xi&#x2019;an, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE MultiMedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/93/11162635/10910088.pdf?arnumber=10910088",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/mmul.2025.3546908",
+        "ISSN": [
+          "1070-986X",
+          "1941-0166"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              4
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              7
+            ]
+          ]
+        },
+        "DOI": "10.1109/mmul.2025.3578972",
+        "title": [
+          "CAMUL: Context-Aware Multiconditional Instance Synthesis for Image Segmentation"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-6577-2122",
+            "authenticated-orcid": false,
+            "given": "Thanh-Danh",
+            "family": "Nguyen",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "University of Information Technology, Ho Chi Minh City, Vietnam"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0005-1549-989X",
+            "authenticated-orcid": false,
+            "given": "Trong-Tai",
+            "family": "Dam Vu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Information Technology, Ho Chi Minh City, Vietnam"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0008-3031-1711",
+            "authenticated-orcid": false,
+            "given": "Bich-Nga",
+            "family": "Pham",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Information Technology, Ho Chi Minh City, Vietnam"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6882-0070",
+            "authenticated-orcid": false,
+            "given": "Thanh Duc",
+            "family": "Ngo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Information Technology, Ho Chi Minh City, Vietnam"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0236-7992",
+            "authenticated-orcid": false,
+            "given": "Tam V.",
+            "family": "Nguyen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Dayton, Dayton, OH, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4260-7874",
+            "authenticated-orcid": false,
+            "given": "Vinh-Tiep",
+            "family": "Nguyen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Information Technology, Ho Chi Minh City, Vietnam"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE MultiMedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/93/11197059/11036554.pdf?arnumber=11036554",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/mmul.2025.3578972",
+        "ISSN": [
+          "1070-986X",
+          "1941-0166"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              7
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 15,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

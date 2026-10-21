@@ -1,0 +1,721 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        5,
+        14
+      ]
+    ],
+    "date-time": "2026-05-14T03:08:43Z",
+    "timestamp": 1778728123394,
+    "version": "3.51.4"
+  },
+  "reference-count": 45,
+  "publisher": "Elsevier BV",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2026-02-01T00:00:00Z",
+        "timestamp": 1769904000000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2026-02-01T00:00:00Z",
+        "timestamp": 1769904000000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/legal/tdmrep-license"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2026-02-01T00:00:00Z",
+        "timestamp": 1769904000000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-017"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2026-02-01T00:00:00Z",
+        "timestamp": 1769904000000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-037"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2026-02-01T00:00:00Z",
+        "timestamp": 1769904000000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-012"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2026-02-01T00:00:00Z",
+        "timestamp": 1769904000000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-029"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2026-02-01T00:00:00Z",
+        "timestamp": 1769904000000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-004"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundation of China",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "3502Z202373036"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "3502Z202373036"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100003392",
+      "name": "Natural Science Foundation of Fujian Province",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "2025J01345"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "2025J01345"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100003392",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "elsevier.com",
+      "sciencedirect.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "Computers &amp; Graphics"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2026,
+        2
+      ]
+    ]
+  },
+  "DOI": "10.1016/j.cag.2025.104493",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2025,
+        11,
+        25
+      ]
+    ],
+    "date-time": "2025-11-25T00:28:07Z",
+    "timestamp": 1764030487000
+  },
+  "page": "104493",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 3,
+  "special_numbering": "C",
+  "title": [
+    "Consistency-preserving Gaussian splatting for block-based large-scale scene reconstruction"
+  ],
+  "prefix": "10.1016",
+  "volume": "134",
+  "author": [
+    {
+      "given": "Mengyi",
+      "family": "Wang",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Beiqi",
+      "family": "Chen",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Shengfang",
+      "family": "Pan",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Niansheng",
+      "family": "Liu",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Jinhe",
+      "family": "Su",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "member": "78",
+  "reference": [
+    {
+      "key": "10.1016/j.cag.2025.104493_b1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1231",
+      "DOI": "10.1177/0278364913491297",
+      "article-title": "Vision meets robotics: The kitti dataset",
+      "volume": "32",
+      "author": "Geiger",
+      "year": "2013",
+      "journal-title": "Int J Robot Res"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Rematas K, Liu A, Srinivasan PP, et al. Urban radiance fields. In: Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2022, p. 12932–42.",
+      "DOI": "10.1109/CVPR52688.2022.01259"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b3",
+      "doi-asserted-by": "crossref",
+      "first-page": "99",
+      "DOI": "10.1145/3503250",
+      "article-title": "Nerf: Representing scenes as neural radiance fields for view synthesis",
+      "volume": "65",
+      "author": "Mildenhall",
+      "year": "2021",
+      "journal-title": "Commun ACM"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b4",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Barron JT, Mildenhall B, Tancik M, et al. Mip-nerf: A multiscale representation for anti-aliasing neural radiance fields. In: Proceedings of the IEEE/CVF international conference on computer vision. 2021, p. 5855–64.",
+      "DOI": "10.1109/ICCV48922.2021.00580"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b5",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1145/3528223.3530127",
+      "article-title": "Instant neural graphics primitives with a multiresolution hash encoding",
+      "volume": "41",
+      "author": "Müller",
+      "year": "2022",
+      "journal-title": "ACM Trans Graph"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b6",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1145/3592433",
+      "article-title": "3D gaussian splatting for real-time radiance field rendering",
+      "volume": "42",
+      "author": "Kerbl",
+      "year": "2023",
+      "journal-title": "ACM Trans Graph"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b7",
+      "series-title": "4D gaussian splatting: Modeling dynamic scenes with native 4d primitives",
+      "author": "Yang",
+      "year": "2024"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b8",
+      "first-page": "1",
+      "article-title": "Gaussian opacity fields: Efficient adaptive surface reconstruction in unbounded scenes",
+      "volume": "43",
+      "author": "Yu",
+      "year": "2024",
+      "journal-title": "ACM Trans Graph (ToG)"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b9",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Yu Z, Chen A, Huang B, et al. Mip-splatting: Alias-free 3d gaussian splatting. In: Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2024, p. 19447–56.",
+      "DOI": "10.1109/CVPR52733.2024.01839"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b10",
+      "series-title": "Octree-gs: Towards consistent real-time rendering with lod-structured 3d gaussians",
+      "author": "Ren",
+      "year": "2024"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b11",
+      "first-page": "51532",
+      "article-title": "Contextgs: Compact 3d gaussian splatting with anchor level context model",
+      "volume": "37",
+      "author": "Wang",
+      "year": "2024",
+      "journal-title": "Adv Neural Inf Process Syst"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b12",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Lu T, Yu M, Xu L, et al. Scaffold-gs: Structured 3d gaussians for view-adaptive rendering. In: Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2024, p. 20654–64.",
+      "DOI": "10.1109/CVPR52733.2024.01952"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b13",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.cag.2025.104309",
+      "article-title": "Lfgs: A lightweight framework for efficient 3d gaussian splatting with minimal memory footprint",
+      "author": "Wu",
+      "year": "2025",
+      "journal-title": "Comput Graph"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b14",
+      "doi-asserted-by": "crossref",
+      "first-page": "34487",
+      "DOI": "10.52202/079017-1087",
+      "article-title": "Dogs: Distributed-oriented gaussian splatting for large-scale 3d reconstruction via gaussian consensus",
+      "volume": "37",
+      "author": "Chen",
+      "year": "2024",
+      "journal-title": "Adv Neural Inf Process Syst"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b15",
+      "series-title": "Momentum-gs: Momentum gaussian self-distillation for high-quality large scene reconstruction",
+      "author": "Fan",
+      "year": "2024"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b16",
+      "series-title": "Garfield++: Reinforced gaussian radiance fields for large-scale 3d scene reconstruction",
+      "author": "Zhang",
+      "year": "2024"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b17",
+      "series-title": "European conference on computer vision",
+      "first-page": "265",
+      "article-title": "Citygaussian: Real-time high-quality large-scale scene rendering with gaussians",
+      "author": "Liu",
+      "year": "2024"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b18",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Lin J, Li Z, Tang X, et al. Vastgaussian: Vast 3d gaussians for large scene reconstruction. In: Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2024, p. 5166–75.",
+      "DOI": "10.1109/CVPR52733.2024.00494"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b19",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1145/3658160",
+      "article-title": "A hierarchical 3d gaussian representation for real-time rendering of very large datasets",
+      "volume": "43",
+      "author": "Kerbl",
+      "year": "2024",
+      "journal-title": "ACM Trans Graph"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b20",
+      "series-title": "Blockgaussian: Efficient large-scale scene novel view synthesis via adaptive block-based gaussian splatting",
+      "author": "Wu",
+      "year": "2025"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b21",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Schonberger J L, Frahm J M. Structure-from-motion revisited. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2016, p. 4104–13.",
+      "DOI": "10.1109/CVPR.2016.445"
+    },
+    {
+      "issue": "1–2",
+      "key": "10.1016/j.cag.2025.104493_b22",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1561/0600000052",
+      "article-title": "Multi-view stereo: a tutorial",
+      "volume": "9",
+      "author": "Furukawa",
+      "year": "2015",
+      "journal-title": "Foundations and Trends® in Computer Graphics and Vision"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b23",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Tancik M, Casser V, Yan X, et al. Block-nerf: Scalable large scene neural view synthesis. In: Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2022, p. 8248–58.",
+      "DOI": "10.1109/CVPR52688.2022.00807"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b24",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Turki H, Ramanan D, Satyanarayanan M. Mega-nerf: Scalable construction of large-scale nerfs for virtual fly-throughs. In: Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2022, p. 12922–31.",
+      "DOI": "10.1109/CVPR52688.2022.01258"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b25",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Xu L, Xiangli Y, Peng S, et al. Grid-guided neural radiance fields for large urban scenes. In: Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2023, p. 8296–306.",
+      "DOI": "10.1109/CVPR52729.2023.00802"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b26",
+      "unstructured": "Mi Z, Xu D. Switch-nerf: Learning scene decomposition with mixture of experts for large-scale neural radiance fields. In: Proceedings of the eleventh international conference on learning representations. 2022."
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b27",
+      "series-title": "2011 IEEE international conference on computational photography",
+      "first-page": "1",
+      "article-title": "Fast Poisson blending using multi-splines",
+      "author": "Szeliski",
+      "year": "2011"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b28",
+      "series-title": "2008 19th international conference on pattern recognition",
+      "first-page": "1",
+      "article-title": "Seamless image-based texture atlases using multi-band blending",
+      "author": "Allene",
+      "year": "2008"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b29",
+      "series-title": "2002 international conference on pattern recognition",
+      "first-page": "545",
+      "article-title": "The trimmed iterative closest point algorithm",
+      "volume": "vol. 3",
+      "author": "Chetverikov",
+      "year": "2002"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b30",
+      "series-title": "European conference on computer vision",
+      "first-page": "106",
+      "article-title": "Bungeenerf: Progressive neural radiance field for extreme multi-scale scene rendering",
+      "author": "Xiangli",
+      "year": "2022"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b31",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Li C, Feng BY, Fan Z, et al. Steganerf: Embedding invisible information within neural radiance fields. In: Proceedings of the IEEE/CVF international conference on computer vision. 2023, p. 441–53.",
+      "DOI": "10.1109/ICCV51070.2023.00047"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b32",
+      "unstructured": "Li C, Liu H, Fan Z, et al. Instantsplamp: Fast and generalizable stenography framework for generative gaussian splatting. In: Proceedings of the thirteenth international conference on learning representations. 2025."
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b33",
+      "series-title": "ICASSP 2025-2025 IEEE international conference on acoustics, speech and signal processing",
+      "first-page": "1",
+      "article-title": "Concealgs: Concealing invisible copyright information in 3d gaussian splatting",
+      "author": "Yang",
+      "year": "2025"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b34",
+      "series-title": "2025 IEEE international conference on robotics and automation",
+      "first-page": "2694",
+      "article-title": "Hide-in-motion: Embedding steganographic copyright information into 4d gaussian splatting assets",
+      "author": "Liu",
+      "year": "2025"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b35",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Liu Y, Fan K, Yu W, et al. Monosplat: Generalizable 3d gaussian splatting from monocular depth foundation models. In: Proceedings of the computer vision and pattern recognition conference. 2025, p. 21570–9.",
+      "DOI": "10.1109/CVPR52734.2025.02009"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b36",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Liu H, Wang Y, Li C, et al. Flexgs: Train once, deploy everywhere with many-in-one flexible 3d gaussian splatting. In: Proceedings of the computer vision and pattern recognition conference. 2025, p. 16336–45.",
+      "DOI": "10.1109/CVPR52734.2025.01523"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b37",
+      "series-title": "Endogaussian: Real-time gaussian splatting for dynamic endoscopic scene reconstruction",
+      "author": "Liu",
+      "year": "2024"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b38",
+      "series-title": "International conference on medical image computing and computer-assisted intervention",
+      "first-page": "230",
+      "article-title": "Endora: Video generation models as endoscopy simulators",
+      "author": "Li",
+      "year": "2024"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b39",
+      "series-title": "International conference on medical image computing and computer-assisted intervention",
+      "first-page": "660",
+      "article-title": "Lgs: A light-weight 4d gaussian splatting for efficient surgical scene reconstruction",
+      "author": "Liu",
+      "year": "2024"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b40",
+      "series-title": "International conference on medical image computing and computer-assisted intervention",
+      "first-page": "252",
+      "article-title": "Endosparse: Real-time sparse view synthesis of endoscopic scenes using gaussian splatting",
+      "author": "Li",
+      "year": "2024"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b41",
+      "series-title": "X2-gaussian: 4d radiative gaussian splatting for continuous-time tomographic reconstruction",
+      "author": "Yu",
+      "year": "2025"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b42",
+      "series-title": "Sixth international conference on 3-d digital imaging and modeling (3DIM 2007)",
+      "first-page": "419",
+      "article-title": "Cached kd tree search for icp algorithms",
+      "author": "Nuchter",
+      "year": "2007"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b43",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Meyer G P. An alternative probabilistic interpretation of the huber loss. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2021, p. 5261–9.",
+      "DOI": "10.1109/CVPR46437.2021.00522"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b44",
+      "series-title": "European conference on computer vision",
+      "first-page": "93",
+      "article-title": "Capturing, reconstructing, and simulating: the urbanscene3d dataset",
+      "author": "Lin",
+      "year": "2022"
+    },
+    {
+      "key": "10.1016/j.cag.2025.104493_b45",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Li Y, Jiang L, Xu L, et al. Matrixcity: A large-scale city dataset for city-scale neural rendering and beyond. In: Proceedings of the IEEE/CVF international conference on computer vision. 2023, p. 3205–15.",
+      "DOI": "10.1109/ICCV51070.2023.00297"
+    }
+  ],
+  "container-title": [
+    "Computers &amp; Graphics"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0097849325003346?httpAccept=text/xml",
+      "content-type": "text/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0097849325003346?httpAccept=text/plain",
+      "content-type": "text/plain",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        5,
+        14
+      ]
+    ],
+    "date-time": "2026-05-14T02:23:35Z",
+    "timestamp": 1778725415000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0097849325003346"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        2
+      ]
+    ]
+  },
+  "references-count": 45,
+  "alternative-id": [
+    "S0097849325003346"
+  ],
+  "URL": "https://doi.org/10.1016/j.cag.2025.104493",
+  "relation": {},
+  "ISSN": [
+    "0097-8493"
+  ],
+  "issn-type": [
+    {
+      "value": "0097-8493",
+      "type": "print"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2026,
+        2
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "Elsevier",
+      "name": "publisher",
+      "label": "This article is maintained by"
+    },
+    {
+      "value": "Consistency-preserving Gaussian splatting for block-based large-scale scene reconstruction",
+      "name": "articletitle",
+      "label": "Article Title"
+    },
+    {
+      "value": "Computers & Graphics",
+      "name": "journaltitle",
+      "label": "Journal Title"
+    },
+    {
+      "value": "https://doi.org/10.1016/j.cag.2025.104493",
+      "name": "articlelink",
+      "label": "CrossRef DOI link to publisher maintained version"
+    },
+    {
+      "value": "article",
+      "name": "content_type",
+      "label": "Content Type"
+    },
+    {
+      "value": "© 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+      "name": "copyright",
+      "label": "Copyright"
+    }
+  ],
+  "article-number": "104493"
+}

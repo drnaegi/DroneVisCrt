@@ -1,0 +1,884 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        2,
+        5
+      ]
+    ],
+    "date-time": "2026-02-05T06:38:05Z",
+    "timestamp": 1770273485811,
+    "version": "3.49.0"
+  },
+  "reference-count": 66,
+  "publisher": "Association for Computing Machinery (ACM)",
+  "issue": "6",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            31
+          ]
+        ],
+        "date-time": "2023-05-31T00:00:00Z",
+        "timestamp": 1685491200000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100012166",
+      "name": "National Key R&D Program of China",
+      "doi-asserted-by": "crossref",
+      "award": [
+        "2021YFB2802300"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "2021YFB2802300"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100012166",
+          "id-type": "DOI",
+          "asserted-by": "crossref"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundation of China",
+      "doi-asserted-by": "crossref",
+      "award": [
+        "62125110, 62101379, 61931014"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "62125110, 62101379, 61931014"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "crossref"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100006606",
+      "name": "Natural Science Foundation of Tianjin",
+      "doi-asserted-by": "crossref",
+      "award": [
+        "21JCQNJC01520"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "21JCQNJC01520"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100006606",
+          "id-type": "DOI",
+          "asserted-by": "crossref"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100002858",
+      "name": "China Postdoctoral Science Foundation",
+      "doi-asserted-by": "crossref",
+      "award": [
+        "2022M712371, 2021TQ0244"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "2022M712371, 2021TQ0244"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100002858",
+          "id-type": "DOI",
+          "asserted-by": "crossref"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "dl.acm.org"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "ACM Trans. Multimedia Comput. Commun. Appl."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2023,
+        11,
+        30
+      ]
+    ]
+  },
+  "abstract": "<jats:p>Novel view synthesis aims to generate novel views from one or more given source views. Although existing methods have achieved promising performance, they usually require paired views with different poses to learn a pixel transformation. This article proposes an unsupervised network to learn such a pixel transformation from a single source image. In particular, the network consists of a token transformation module that facilities the transformation of the features extracted from a source image into an intrinsic representation with respect to a pre-defined reference pose and a view generation module that synthesizes an arbitrary view from the representation. The learned transformation allows us to synthesize a novel view from any single source image of an unknown pose. Experiments on the widely used view synthesis datasets have demonstrated that the proposed network is able to produce comparable results to the state-of-the-art methods despite the fact that learning is unsupervised and only a single source image is required for generating a novel view. The code will be available upon the acceptance of the article.</jats:p>",
+  "DOI": "10.1145/3587467",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2023,
+        3,
+        11
+      ]
+    ],
+    "date-time": "2023-03-11T11:49:45Z",
+    "timestamp": 1678535385000
+  },
+  "page": "1-23",
+  "update-policy": "https://doi.org/10.1145/crossmark-policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 4,
+  "title": [
+    "Novel View Synthesis from a Single Unposed Image via Unsupervised Learning"
+  ],
+  "prefix": "10.1145",
+  "volume": "19",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-6949-4147",
+      "authenticated-orcid": false,
+      "given": "Bingzheng",
+      "family": "Liu",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "School of Electrical and Information Engineering, Tianjin University, China"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-3171-7680",
+      "authenticated-orcid": false,
+      "given": "Jianjun",
+      "family": "Lei",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of Electrical and Information Engineering, Tianjin University, China"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-6932-0622",
+      "authenticated-orcid": false,
+      "given": "Bo",
+      "family": "Peng",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of Electrical and Information Engineering, Tianjin University, China"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-0929-9224",
+      "authenticated-orcid": false,
+      "given": "Chuanbo",
+      "family": "Yu",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of Electrical and Information Engineering, Tianjin University, China"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-4427-2687",
+      "authenticated-orcid": false,
+      "given": "Wanqing",
+      "family": "Li",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Advanced Multimedia Research Lab, University of Wollongong, Australia"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-5741-7937",
+      "authenticated-orcid": false,
+      "given": "Nam",
+      "family": "Ling",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Computer Science and Engineering, Santa Clara University, USA"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "member": "320",
+  "published-online": {
+    "date-parts": [
+      [
+        2023,
+        5,
+        31
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_3_1_2_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3312574"
+    },
+    {
+      "key": "e_1_3_1_3_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3190784"
+    },
+    {
+      "key": "e_1_3_1_4_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TMM.2021.3079711"
+    },
+    {
+      "key": "e_1_3_1_5_2",
+      "article-title": "Shapenet: An information-rich 3d model repository",
+      "author": "Chang Angel X.",
+      "year": "2015",
+      "unstructured": "Angel X. Chang, Thomas Funkhouser, Leonidas Guibas, Pat Hanrahan, Qixing Huang, Zimo Li, Silvio Savarese, Manolis Savva, Shuran Song, Hao Su, Li Yi Jianxiong Xiao, and Fisher Yu. 2015. Shapenet: An information-rich 3d model repository. arXiv:1512.03012. Retrieved from https://arxiv.org/abs/1512.03012.",
+      "journal-title": "arXiv:1512.03012."
+    },
+    {
+      "key": "e_1_3_1_6_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3366371"
+    },
+    {
+      "key": "e_1_3_1_7_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1364/OE.419069"
+    },
+    {
+      "issue": "3",
+      "key": "e_1_3_1_8_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "1328",
+      "DOI": "10.1109/TCSVT.2021.3068834",
+      "article-title": "Fixing defect of photometric loss for self-supervised monocular depth estimation",
+      "volume": "32",
+      "author": "Chen Shu",
+      "year": "2022",
+      "unstructured": "Shu Chen, Zhengdong Pu, Xiang Fan, and Beiji Zou. 2022. Fixing defect of photometric loss for self-supervised monocular depth estimation. IEEE Trans. Circ. Syst. Vid. Technol. 32, 3 (2022), 1328–1338.",
+      "journal-title": "IEEE Trans. Circ. Syst. Vid. Technol."
+    },
+    {
+      "key": "e_1_3_1_9_2",
+      "first-page": "4090",
+      "volume-title": "Proceedings of the IEEE International Conference on Computer Vision.",
+      "author": "Chen Xu",
+      "year": "2019",
+      "unstructured": "Xu Chen, Jie Song, and Otmar Hilliges. 2019. Monocular neural image based rendering with continuous view control. In Proceedings of the IEEE International Conference on Computer Vision.4090–4100."
+    },
+    {
+      "key": "e_1_3_1_10_2",
+      "first-page": "628",
+      "volume-title": "Proceedings of the European Conference on Computer Vision.",
+      "author": "Choy Christopher B.",
+      "year": "2016",
+      "unstructured": "Christopher B. Choy, Danfei Xu, JunYoung Gwak, Kevin Chen, and Silvio Savarese. 2016. 3d-r2n2: A unified approach for single and multi-view 3d object reconstruction. In Proceedings of the European Conference on Computer Vision.628–644."
+    },
+    {
+      "key": "e_1_3_1_11_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3362101"
+    },
+    {
+      "key": "e_1_3_1_12_2",
+      "volume-title": "Proceedings of the 34th International Conference on Machine Learning.",
+      "author": "Diederik Kingma",
+      "year": "2015",
+      "unstructured": "Kingma Diederik and Ba Jimmy. 2015. Adam: A method for stochastic optimization. In Proceedings of the 34th International Conference on Machine Learning."
+    },
+    {
+      "key": "e_1_3_1_13_2",
+      "first-page": "1538",
+      "volume-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition.",
+      "author": "Dosovitskiy Alexey",
+      "year": "2015",
+      "unstructured": "Alexey Dosovitskiy, Jost Tobias Springenberg, and Thomas Brox. 2015. Learning to generate chairs with convolutional neural networks. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition.1538–1546."
+    },
+    {
+      "key": "e_1_3_1_14_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1126/science.aar6170"
+    },
+    {
+      "key": "e_1_3_1_15_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TIP.2014.2305100"
+    },
+    {
+      "key": "e_1_3_1_16_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3459098"
+    },
+    {
+      "key": "e_1_3_1_17_2",
+      "first-page": "484",
+      "volume-title": "Proceedings of the European Conference on Computer Vision.",
+      "author": "Girdhar Rohit",
+      "year": "2016",
+      "unstructured": "Rohit Girdhar, David F. Fouhey, Mikel Rodriguez, and Abhinav Gupta. 2016. Learning a predictable and generative vector representation for objects. In Proceedings of the European Conference on Computer Vision.484–499."
+    },
+    {
+      "key": "e_1_3_1_18_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.imavis.2009.08.002"
+    },
+    {
+      "key": "e_1_3_1_19_2",
+      "first-page": "18228",
+      "article-title": "Alleviating semantics distortion in unsupervised low-level image-to-image translation via structure consistency constraint",
+      "author": "Guo Jiaxian",
+      "year": "2022",
+      "unstructured": "Jiaxian Guo, Jiachen Li, Huan Fu, Mingming Gong, Kun Zhang, and Dacheng Tao. 2022. Alleviating semantics distortion in unsupervised low-level image-to-image translation via structure consistency constraint. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 18228–18238.",
+      "journal-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition"
+    },
+    {
+      "key": "e_1_3_1_20_2",
+      "first-page": "3791",
+      "volume-title": "Proceedings of the IEEE Winter Conference on Applications of Computer Vision.",
+      "author": "Guo Pengsheng",
+      "year": "2022",
+      "unstructured": "Pengsheng Guo, Miguel Angel Bautista, Alex Colburn, Liang Yang, Daniel Ulbricht, Joshua M. Susskind, and Qi Shan. 2022. Fast and explicit neural view synthesis. In Proceedings of the IEEE Winter Conference on Applications of Computer Vision.3791–3800."
+    },
+    {
+      "key": "e_1_3_1_21_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "792",
+      "DOI": "10.5220/0007360100002108",
+      "volume-title": "Proceedings of the 14th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications",
+      "author": "Habtegebrial Tewodros",
+      "year": "2019",
+      "unstructured": "Tewodros Habtegebrial, Kiran Varanasi, Christian Bailer, and Didier Stricker. 2019. Fast view synthesis with deep stereo vision. In Proceedings of the 14th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications. 792–799."
+    },
+    {
+      "key": "e_1_3_1_22_2",
+      "first-page": "6086",
+      "volume-title": "Advances in Neural Information Processing Systems.",
+      "author": "Hani Nicolai",
+      "year": "2020",
+      "unstructured": "Nicolai Hani, Selim Engin, Jun-Jee Chao, and Volkan Isler. 2020. Continuous object representation networks: Novel view synthesis without target view supervision. In Advances in Neural Information Processing Systems.6086–6099."
+    },
+    {
+      "key": "e_1_3_1_23_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s11263-019-01219-8"
+    },
+    {
+      "key": "e_1_3_1_24_2",
+      "first-page": "3118",
+      "volume-title": "Proceedings of the Winter Conference on Applications of Computer Vision.",
+      "author": "Hou Yuxin",
+      "year": "2021",
+      "unstructured": "Yuxin Hou, Arno Solin, and Juho Kannala. 2021. Novel view synthesis via depth-guided skip connections. In Proceedings of the Winter Conference on Applications of Computer Vision.3118–3127."
+    },
+    {
+      "key": "e_1_3_1_25_2",
+      "first-page": "12528",
+      "volume-title": "Proceedings of the IEEE International Conference on Computer Vision.",
+      "author": "Hu Ronghang",
+      "year": "2021",
+      "unstructured": "Ronghang Hu, Nikhila Ravi, Alexander C. Berg, and Deepak Pathak. 2021. Worldsheet: Wrapping the world in a 3D sheet for view synthesis from a single image. In Proceedings of the IEEE International Conference on Computer Vision.12528–12537."
+    },
+    {
+      "key": "e_1_3_1_26_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TMM.2021.3065230"
+    },
+    {
+      "key": "e_1_3_1_27_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.neucom.2022.04.123"
+    },
+    {
+      "key": "e_1_3_1_28_2",
+      "first-page": "364",
+      "volume-title": "Advances in Neural Information Processing Systems.",
+      "author": "Kar Abhishek",
+      "year": "2017",
+      "unstructured": "Abhishek Kar, Christian Hne, and Jitendra Malik. 2017. Learning a multi-view stereo machine. In Advances in Neural Information Processing Systems.364–375."
+    },
+    {
+      "key": "e_1_3_1_29_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2897824.2925949"
+    },
+    {
+      "key": "e_1_3_1_30_2",
+      "first-page": "387",
+      "volume-title": "Proceedings of the European Conference on Computer Vision.",
+      "author": "Kwon Youngjoong",
+      "year": "2020",
+      "unstructured": "Youngjoong Kwon, Stefano Petrangeli, Dahun Kim, Haoliang Wang, Eunbyung Park, Viswanathan Swaminathan, and Henry Fuchs. 2020. Rotationally-temporally consistent novel view synthesis of human performance video. In Proceedings of the European Conference on Computer Vision.387–402."
+    },
+    {
+      "key": "e_1_3_1_31_2",
+      "first-page": "186",
+      "volume-title": "Proceedings of the International Conference on Electronics, Communication and Aerospace Technology.",
+      "author": "Lata Kusam",
+      "year": "2019",
+      "unstructured": "Kusam Lata, Mayank Dave, and K. N. Nishanth. 2019. Image-to-image translation using generative adversarial network. In Proceedings of the International Conference on Electronics, Communication and Aerospace Technology.186–189."
+    },
+    {
+      "key": "e_1_3_1_32_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TIP.2022.3203213"
+    },
+    {
+      "key": "e_1_3_1_33_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1609/aaai.v32i1.12278"
+    },
+    {
+      "key": "e_1_3_1_34_2",
+      "first-page": "11453",
+      "volume-title": "Advances in Neural Information Processing Systems.",
+      "author": "Lin Chen-Hsuan",
+      "year": "2020",
+      "unstructured": "Chen-Hsuan Lin, Chaoyang Wang, and Simon Lucey. 2020. SDF-SRN: Learning signed distance 3D object reconstruction from static images. In Advances in Neural Information Processing Systems.11453–11464."
+    },
+    {
+      "issue": "4",
+      "key": "e_1_3_1_35_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1145/3506733",
+      "article-title": "A spatial relationship preserving adversarial network for 3D reconstruction from a single depth view",
+      "volume": "18",
+      "author": "Liu Caixia",
+      "year": "2022",
+      "unstructured": "Caixia Liu, Dehui Kong, Shaofan Wang, Jinghua Li, and Baocai Yin. 2022. A spatial relationship preserving adversarial network for 3D reconstruction from a single depth view. ACM Trans. Multimedia Comput. Commun. Appl. 18, 4 (2022), 1–22.",
+      "journal-title": "ACM Trans. Multimedia Comput. Commun. Appl."
+    },
+    {
+      "key": "e_1_3_1_36_2",
+      "first-page": "4616",
+      "volume-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition.",
+      "author": "Liu Miaomiao",
+      "year": "2018",
+      "unstructured": "Miaomiao Liu, Xuming He, and Mathieu Salzmann. 2018. Geometry-aware deep network for single-image novel view synthesis. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition.4616–4624."
+    },
+    {
+      "key": "e_1_3_1_37_2",
+      "first-page": "52",
+      "volume-title": "Proceedings of the European Conference on Computer Vision.",
+      "author": "Liu Xiaofeng",
+      "year": "2020",
+      "unstructured": "Xiaofeng Liu, Tong Che, Yiqun Lu, Chao Yang, Site Li, and Jane You. 2020. AUTO3D: Novel view synthesis through unsupervisely learned variational view and global 3D representation. In Proceedings of the European Conference on Computer Vision.52–71."
+    },
+    {
+      "issue": "1",
+      "key": "e_1_3_1_38_2",
+      "first-page": "231",
+      "article-title": "Single-view to multi-view: Reconstructing unseen views with a convolutional network",
+      "volume": "38",
+      "author": "Maxim Tatarchenko",
+      "year": "2015",
+      "unstructured": "Tatarchenko Maxim, Alexey Dosovitskiy, and Thomas Brox. 2015. Single-view to multi-view: Reconstructing unseen views with a convolutional network. Knowl. Inf. Syst. 38, 1 (2015), 231–257.",
+      "journal-title": "Knowl. Inf. Syst."
+    },
+    {
+      "key": "e_1_3_1_39_2",
+      "first-page": "7891",
+      "volume-title": "Advances in Neural Information Processing Systems.",
+      "author": "Nguyen-Phuoc Thu H.",
+      "year": "2018",
+      "unstructured": "Thu H. Nguyen-Phuoc, Chuan Li, Stephen Balaban, and Yongliang Yang. 2018. A deep convolutional network for differentiable rendering from 3d shapes. In Advances in Neural Information Processing Systems.7891–7901."
+    },
+    {
+      "key": "e_1_3_1_40_2",
+      "first-page": "7647",
+      "volume-title": "Proceedings of the IEEE International Conference on Computer Vision.",
+      "author": "Olszewski Kyle",
+      "year": "2019",
+      "unstructured": "Kyle Olszewski, Sergey Tulyakov, Oliver Woodford, Hao Li, and Linjie Luo. 2019. Transformable bottleneck networks. In Proceedings of the IEEE International Conference on Computer Vision.7647–7656."
+    },
+    {
+      "key": "e_1_3_1_41_2",
+      "first-page": "702",
+      "volume-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition.",
+      "author": "Park Eunbyung",
+      "year": "2017",
+      "unstructured": "Eunbyung Park, Jimei Yang, Ersin Yumer, Duygu Ceylan, and Alexander C. Berg. 2017. Transformation-grounded image generation network for novel 3D view synthesis. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition.702–711."
+    },
+    {
+      "key": "e_1_3_1_42_2",
+      "volume-title": "Advances in Neural Information Processing Systems Workshop.",
+      "author": "Paszke Adam",
+      "year": "2015",
+      "unstructured": "Adam Paszke, Sam Gross, Soumith Chintala, Gregory Chanan, Edward Yang, Zachary DeVito, Zeming Lin, Alban Desmaison, Luca Antiga, and Adam Lerer. 2015. Automatic differentiation in pytorch. In Advances in Neural Information Processing Systems Workshop."
+    },
+    {
+      "key": "e_1_3_1_43_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TCSVT.2023.3238580"
+    },
+    {
+      "key": "e_1_3_1_44_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TCSVT.2022.3190916"
+    },
+    {
+      "key": "e_1_3_1_45_2",
+      "first-page": "365",
+      "volume-title": "Proceedings of the Asian Conference on Computer Vision.",
+      "author": "Pontes Jhony K.",
+      "year": "2019",
+      "unstructured": "Jhony K. Pontes, Chen Kong, Sridha Sridharan, Simon Lucey, Anders Eriksson, and Clinton Fookes. 2019. Image2mesh: A learning framework for single image 3d reconstruction. In Proceedings of the Asian Conference on Computer Vision.365–381."
+    },
+    {
+      "key": "e_1_3_1_46_2",
+      "article-title": "Unsupervised novel view synthesis from a single image",
+      "author": "Ramirez Pierluigi Zama",
+      "year": "2021",
+      "unstructured": "Pierluigi Zama Ramirez, Diego Martin Arroyo, Alessio Tonioni, and Federico Tombari. 2021. Unsupervised novel view synthesis from a single image. arXiv:2102.03285. Retrieved from https://arxiv.org/abs/2102.03285.",
+      "journal-title": "arXiv:2102.03285."
+    },
+    {
+      "key": "e_1_3_1_47_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TPAMI.2016.2601093"
+    },
+    {
+      "key": "e_1_3_1_48_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1126/science.171.3972.701"
+    },
+    {
+      "key": "e_1_3_1_49_2",
+      "first-page": "155",
+      "volume-title": "Proceedings of the European Conference on Computer Vision.",
+      "author": "Sun Shaohua",
+      "year": "2018",
+      "unstructured": "Shaohua Sun, Minyoung Huh, Yuanhong Liao, Ning Zhang, and Joseph J. Lim. 2018. Multi-view to novel view: Synthesizing novel views with self-learned confidence. In Proceedings of the European Conference on Computer Vision.155–171."
+    },
+    {
+      "issue": "4",
+      "key": "e_1_3_1_50_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "1751",
+      "DOI": "10.1109/TCSVT.2021.3080928",
+      "article-title": "Depth estimation using a self-supervised network based on cross-layer feature fusion and the quadtree constraint",
+      "volume": "32",
+      "author": "Tian Fangzheng",
+      "year": "2022",
+      "unstructured": "Fangzheng Tian, Yongbin Gao, Zhijun Fang, Yuming Fang, Jia Gu, Hamido Fujita, and Jenq-Neng Hwang. 2022. Depth estimation using a self-supervised network based on cross-layer feature fusion and the quadtree constraint. IEEE Trans. Circ. Syst. Vid. Technol. 32, 4 (2022), 1751–1766.",
+      "journal-title": "IEEE Trans. Circ. Syst. Vid. Technol."
+    },
+    {
+      "key": "e_1_3_1_51_2",
+      "first-page": "1283",
+      "volume-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition.",
+      "author": "Tran Luan",
+      "year": "2017",
+      "unstructured": "Luan Tran, Xi Yin, and Xiaoming Liu. 2017. Disentangled representation learning GAN for pose-invariant face recognition. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition.1283–1292."
+    },
+    {
+      "key": "e_1_3_1_52_2",
+      "first-page": "302",
+      "volume-title": "Proceedings of the European Conference on Computer Vision.",
+      "author": "Tulsiani Shubham",
+      "year": "2018",
+      "unstructured": "Shubham Tulsiani, Richard Tucker, and Noah Snavely. 2018. Layer-structured 3d scene inference via view synthesis. In Proceedings of the European Conference on Computer Vision.302–317."
+    },
+    {
+      "key": "e_1_3_1_53_2",
+      "first-page": "1526",
+      "volume-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition.",
+      "author": "Tulyakov Sergey",
+      "year": "2018",
+      "unstructured": "Sergey Tulyakov, Ming-Yu Liu, Xiaodong Yang, and Jan Kautz. 2018. Mocogan: Decomposing motion and content for video generation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition.1526–1535."
+    },
+    {
+      "key": "e_1_3_1_54_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TIP.2003.819861"
+    },
+    {
+      "key": "e_1_3_1_55_2",
+      "first-page": "7467",
+      "volume-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition.",
+      "author": "Wiles Olivia",
+      "year": "2020",
+      "unstructured": "Olivia Wiles, Georgia Gkioxari, Richard Szeliski, and Justin Johnson. 2020. SynSin: End-to-end view synthesis from a single image. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition.7467–7477."
+    },
+    {
+      "key": "e_1_3_1_56_2",
+      "first-page": "842",
+      "volume-title": "Proceedings of the European Conference on Computer Vision.",
+      "author": "Xie Junyuan",
+      "year": "2016",
+      "unstructured": "Junyuan Xie, Ross Girshick, and Ali Farhadi. 2016. Deep3D: Fully automatic 2D-to-3D video conversion with deep convolutional neural networks. In Proceedings of the European Conference on Computer Vision.842–857."
+    },
+    {
+      "key": "e_1_3_1_57_2",
+      "first-page": "7790",
+      "volume-title": "Proceedings of the IEEE International Conference on Computer Vision.",
+      "author": "Xu Xiaogang",
+      "year": "2019",
+      "unstructured": "Xiaogang Xu, Ying-Cong Chen, and Jiaya Jia. 2019. View independent generative adversarial network for novel view synthesis. In Proceedings of the IEEE International Conference on Computer Vision.7790–7799."
+    },
+    {
+      "issue": "4",
+      "key": "e_1_3_1_58_2",
+      "first-page": "1",
+      "article-title": "Deep view synthesis from sparse photometric images",
+      "volume": "38",
+      "author": "Xu Zexiang",
+      "year": "2019",
+      "unstructured": "Zexiang Xu, Sai Bi, Kalyan Sunkavalli, Sunil Hadap, Hao Su, and Ravi Ramamoorthi. 2019. Deep view synthesis from sparse photometric images. ACM Trans. Graph. 38, 4 (2019), 1–13.",
+      "journal-title": "ACM Trans. Graph."
+    },
+    {
+      "key": "e_1_3_1_59_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TIP.2022.3177127"
+    },
+    {
+      "key": "e_1_3_1_60_2",
+      "first-page": "1696",
+      "volume-title": "Advances in Neural Information Processing Systems.",
+      "author": "Yan Xinchen",
+      "year": "2016",
+      "unstructured": "Xinchen Yan, Jimei Yang, Ersin Yumer, Yijie Guo, and Honglak Lee. 2016. Perspective transformer nets: Learning single-view 3d object reconstruction without 3d supervision. In Advances in Neural Information Processing Systems.1696–1704."
+    },
+    {
+      "key": "e_1_3_1_61_2",
+      "first-page": "87",
+      "volume-title": "Proceedings of the European Conference on Computer Vision.",
+      "author": "Yin Mingyu",
+      "year": "2020",
+      "unstructured": "Mingyu Yin, Li Sun, and Qingli Li. 2020. Novel view synthesis on unpaired data by conditional deformable variational auto-encoder. In Proceedings of the European Conference on Computer Vision.87–103."
+    },
+    {
+      "key": "e_1_3_1_62_2",
+      "first-page": "4578",
+      "volume-title": "Proceedings of the Computer Vision and Pattern Recognition.",
+      "author": "Yu Alex",
+      "year": "2021",
+      "unstructured": "Alex Yu, Vickie Ye, Matthew Tancik, and Angjoo Kanazawa. 2021. Pixelnerf: Neural radiance fields from one or few images. In Proceedings of the Computer Vision and Pattern Recognition.4578–4587."
+    },
+    {
+      "key": "e_1_3_1_63_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TMM.2022.3147425"
+    },
+    {
+      "key": "e_1_3_1_64_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3197517.3201292"
+    },
+    {
+      "key": "e_1_3_1_65_2",
+      "first-page": "286",
+      "volume-title": "Proceedings of the European Conference on Computer Vision.",
+      "author": "Zhou Tinghui",
+      "year": "2016",
+      "unstructured": "Tinghui Zhou, Shubham Tulsiani, Weilun Sun, Jitendra Malik, and Alexei A. Efros. 2016. View synthesis by appearance flow. In Proceedings of the European Conference on Computer Vision.286–301."
+    },
+    {
+      "key": "e_1_3_1_66_2",
+      "first-page": "4450",
+      "volume-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition.",
+      "author": "Zhu Hao",
+      "year": "2018",
+      "unstructured": "Hao Zhu, Hao Su, Peng Wang, Xun Cao, and Ruigang Yang. 2018. View extrapolation of human body from a single image. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition.4450–4459."
+    },
+    {
+      "key": "e_1_3_1_67_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1015706.1015766"
+    }
+  ],
+  "container-title": [
+    "ACM Transactions on Multimedia Computing, Communications, and Applications"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://dl.acm.org/doi/10.1145/3587467",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://dl.acm.org/doi/pdf/10.1145/3587467",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        6,
+        17
+      ]
+    ],
+    "date-time": "2025-06-17T17:49:16Z",
+    "timestamp": 1750182556000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://dl.acm.org/doi/10.1145/3587467"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2023,
+        5,
+        31
+      ]
+    ]
+  },
+  "references-count": 66,
+  "journal-issue": {
+    "issue": "6",
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          30
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1145/3587467"
+  ],
+  "URL": "https://doi.org/10.1145/3587467",
+  "relation": {},
+  "ISSN": [
+    "1551-6857",
+    "1551-6865"
+  ],
+  "issn-type": [
+    {
+      "value": "1551-6857",
+      "type": "print"
+    },
+    {
+      "value": "1551-6865",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2023,
+        5,
+        31
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2022-06-03",
+      "order": 0,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2023-02-26",
+      "order": 1,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2023-05-31",
+      "order": 2,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ]
+}

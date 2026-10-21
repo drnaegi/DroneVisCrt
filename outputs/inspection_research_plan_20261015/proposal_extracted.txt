@@ -1,0 +1,2339 @@
+
+
+--- PDF PAGE 1 ---
+选题报告及论文工作计划
+低空巡检多模态智能体
+自进化关键技术研究
+姓
+名：
+学
+号：
+专
+业：
+导
+师：
+培养单位：
+开题日期：
+研究对象：道路与园区无人机巡检
+主任务：特定目标检测与基于视觉证据的风险分级
+
+
+--- PDF PAGE 2 ---
+摘要
+道路与园区无人机巡检需要在拍摄高度、观测角度和环境条件变化时完成特
+定目标检测及风险分级。现有系统面临无人机视角样本覆盖不足、部署后持续适应
+困难以及数据、模型与运行记录相互割裂等问题。本课题围绕多视角图文数据生成
+与样本扩增、多模态智能体自适应与自进化、智能体系统与闭环管理平台三个研究
+内容展开，研究如何在有限观测与计算预算下形成可持续改进的巡检系统。
+研究拟以同一场景的单张或稀疏参考图像为输入，通过场景级新视角合成、目
+标相关视角选择和标注重建扩展训练样本；构建检测工具、视觉语言模型、规则引
+擎和经验记忆组成的单智能体，分别研究轻量参数更新与经验更新对任务执行和
+旧能力保持的影响；建立覆盖数据导入、任务编排、证据记录、候选更新及版本回
+放的管理平台。主要任务限定为人员、车辆和障碍物检测，以及基于指定区域和场
+景规则的风险分级。预期形成方法原型、实验配置和平台验证方案，为低空巡检智
+能体在动态观测条件下的持续运行提供可复现的研究基础。
+关键词：低空巡检；多模态智能体；新视角生成；持续适应；自主进化；闭环管理
+1
+
+
+--- PDF PAGE 3 ---
+目录
+1
+研究背景与意义
+4
+2
+国内外研究现状
+7
+2.1
+多样巡检场景下的多视角图文数据生成与样本扩增. . . . . . . . . . . .
+7
+2.2
+巡检环境变化下的多模态智能体自适应与自进化
+. . . . . . . . . . . . .
+10
+2.3
+面向无人机巡检的多模态智能体系统与闭环管理平台. . . . . . . . . . .
+13
+参考文献
+16
+3
+课题的研究目标、研究内容，以及拟解决的关键科学问题
+21
+3.1
+研究目标. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+3.2
+研究内容. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+3.2.1
+多样巡检场景下的多视角图文数据生成与样本扩增方法. . . . .
+21
+3.2.2
+巡检环境变化下的多模态智能体自适应与自进化方法
+. . . . . .
+22
+3.2.3
+面向无人机巡检的多模态智能体系统与闭环管理平台
+. . . . . .
+22
+3.3
+拟解决的关键科学问题. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+3.3.1
+无人机巡检视角下多视角图文数据生成与多样场景扩展. . . . .
+22
+3.3.2
+动态巡检环境下多模态智能体的持续适应与稳定进化
+. . . . . .
+23
+3.3.3
+多模态巡检任务驱动的智能体编排与系统闭环管理. . . . . . . .
+23
+4
+拟采取的研究方案及可行性分析
+23
+4.1
+拟采取的研究方法与技术路线. . . . . . . . . . . . . . . . . . . . . . . .
+23
+4.1.1
+总体技术路线与任务形式化. . . . . . . . . . . . . . . . . . . . .
+23
+4.1.2
+研究点一：多样巡检场景下的多视角图文数据生成与样本扩增.
+24
+4.1.3
+研究点二：巡检环境变化下的多模态智能体自适应与自进化
+. .
+28
+4.1.4
+研究点三：面向无人机巡检的多模态智能体系统与闭环管理平台
+33
+4.1.5
+统一实验协议与评价指标
+. . . . . . . . . . . . . . . . . . . . . .
+36
+4.2
+可行性分析. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+4.2.1
+任务边界明确与方法基础可复用
+. . . . . . . . . . . . . . . . . .
+39
+4.2.2
+前期资料与预研的作用边界. . . . . . . . . . . . . . . . . . . . .
+39
+4.2.3
+数据与标注可行性
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+4.2.4
+计算资源、工程条件与风险应对
+. . . . . . . . . . . . . . . . . .
+39
+5
+本课题的特色与创新之处
+40
+2
+
+
+--- PDF PAGE 4 ---
+5.1
+面向巡检目标的同场景视角选择与训练扩增. . . . . . . . . . . . . . . .
+40
+5.2
+证据约束的参数适应与经验更新协同机制
+. . . . . . . . . . . . . . . . .
+40
+5.3
+支持收益归因与恢复验证的巡检实验闭环
+. . . . . . . . . . . . . . . . .
+41
+6
+研究进度安排
+41
+7
+预期成果
+42
+A 复现配置与实施边界
+43
+A.1
+公开实现与拟开发模块. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+43
+A.2
+环境与主超参数. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+43
+A.3
+配置文件模板
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+44
+A.4
+命令模板与公开入口
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+45
+B
+数据、工具及日志字段
+46
+B.1
+样本与区域清单. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+46
+B.2
+检测、规则和报告接口. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+47
+B.3
+日志、状态快照和数据权限
+. . . . . . . . . . . . . . . . . . . . . . . . .
+48
+C 风险标注细则与实验登记
+48
+C.1
+区域、目标及无法判断的操作规则
+. . . . . . . . . . . . . . . . . . . . .
+48
+C.2
+冻结实验登记清单. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+49
+3
+
+
+--- PDF PAGE 5 ---
+1
+研究背景与意义
+人工智能与低空经济的发展为无人机巡检提供了新的技术基础和应用需求。《新一
+代人工智能发展规划》提出推动人工智能与经济社会深度融合，发展智能感知、知识计
+算和自主决策等关键能力[1]。《数字中国建设整体布局规划》强调数字技术与实体经
+济融合，推进数字基础设施和行业应用建设[2]。2024 年《政府工作报告》将低空经济
+列为积极打造的新增长引擎，进一步明确了低空装备及其应用的发展方向[3]。在这一
+背景下，无人机逐步成为道路、园区和基础设施巡检的重要观测平台，能够利用灵活的
+航拍视角补充固定摄像机的空间覆盖。视觉语言预训练使图像内容与自然语言任务之
+间建立了更直接的联系，为巡检指令解析和结果解释提供了技术支撑[4]。以大模型为
+核心的智能体进一步将感知、记忆、规划和工具调用组织为任务执行流程，使巡检系统
+具备从图像采集走向任务理解和持续改进的可能[5]。因此，研究低空巡检多模态智能
+体的自进化关键技术，既服务于智能巡检和低空应用的实际需求，也有助于探索人工
+智能在开放环境中持续学习与稳定运行的方法。
+本课题关注道路与园区无人机巡检中的人员、车辆和障碍物检测，以及依据视觉
+证据和预设场景规则开展的风险评估。具体任务包括判断人员是否进入指定禁入区域、
+车辆是否占用指定通道，以及障碍物是否阻塞通道。无人机的高度、俯仰角和观测方向
+变化会改变目标尺度、遮挡和背景关系，已有航拍基准也将小目标、密集分布与视角变
+化列为重要挑战[6][7]。实际应用通常只能取得有限航线和有限观测条件下的样本，单
+纯增加相邻视频帧难以补足新的视角信息；直接使用其他场景的图像，又可能引入目
+标外观和任务定义上的差异。在部署阶段，环境变化要求系统利用新经验改善后续任
+务，但持续更新可能积累错误预测，并削弱已掌握的能力[8][9]。风险评估还依赖对象
+位置、区域边界与规则版本之间的对应关系，仅给出一段自然语言描述不足以支持复
+核。由此，有必要将训练样本扩展、智能体持续适应和全过程记录结合起来，研究能够
+定位问题来源、保留有效经验并复现更新结果的巡检技术。本课题中的风险等级表示
+当前观测是否满足规定的事件条件，不将其解释为未来事故概率。
+围绕上述问题，本课题面临三项相互关联的挑战。挑战一：无人机巡检视角样本稀
+缺，多样场景与观测条件覆盖不足。同一目标在不同航拍角度下呈现的形态、尺度和可
+见区域存在明显差异，真实采集与标注成本限制了这些变化的覆盖；航拍检测数据也
+通常不包含完整的相机位姿、区域规则与图文问答标注。因此，需要研究如何利用有限
+参考图像生成同一场景的新视角，并把新增观测转化为能够服务目标检测和场景理解
+的训练样本。挑战二：巡检环境动态变化，智能体持续适应与自主进化面临瓶颈。智能
+体的失败可能来自检测遗漏、工具调用错误、证据不完整或经验适用条件变化，不能统
+一归结为模型参数不足；仅依赖模型置信度或自我反思，又难以区分真实改进与错误
+4
+
+
+--- PDF PAGE 6 ---
+强化。现有持续适应和能力保持方法说明，更新信号、更新范围与历史知识约束需要
+共同设计[10][11]。挑战三：多模态巡检任务复杂，智能体运行管理与闭环验证支撑不
+足。图像、检测器、提示模板、区域规则和经验库共同影响输出，任何一项变化都可能
+改变风险结果。缺少一致的任务编排、版本关联和轨迹记录，将使失败归因、方法比较
+和恢复验证缺乏依据。研究因此需要同时解决数据输入、能力更新和系统运行三个层
+面的问题，使各部分能够在统一任务协议下协同工作。
+针对三项挑战，本课题以“低空巡检多模态智能体自进化关键技术研究”为主题，
+以构建具备持续适应与自主进化能力的多模态无人机巡检系统为总体研究目标，依次
+研究三个相互衔接的方向。首先，针对“无人机巡检视角下多视角图文数据生成与多
+样场景扩展”问题，研究多样巡检场景下的多视角图文数据生成与样本扩增方法。拟
+以道路与园区的单张或稀疏参考图像为基础，通过相机条件建模、目标相关视角选择
+和场景级新视角生成，扩充目标尺度、遮挡关系与观测方向的训练覆盖，并重新建立目
+标标注、图文描述和任务问答。这里的多样场景扩展是指在不同道路及园区场景中分
+别开展同场景视角扩增，不将生成的新内容直接当作真实观测。其次，针对“动态巡检
+环境下多模态智能体的持续适应与稳定进化”问题，研究巡检环境变化下的多模态智
+能体自适应与自进化方法。拟把检测工具、规则推理与语言策略组成单智能体，从运行
+轨迹中区分可验证的执行反馈与未确认的视觉判断，通过轻量参数更新、经验检索和
+能力保持约束，研究新环境适应与旧能力保持之间的协调关系。最后，针对“多模态巡
+检任务驱动的智能体编排与系统闭环管理”问题，研究面向无人机巡检的多模态智能
+体系统与闭环管理平台。拟建立数据、模型、规则、经验和任务结果的版本联系，支持
+任务执行、证据查看、更新比较与运行回放。三部分分别提供训练输入、持续学习机制
+和系统验证载体：生成样本用于离线训练，运行经验用于后续适应，开发阶段的评测反
+馈用于调整视角选择与更新策略，最终效果由隔离的真实测试数据评价。课题总体框
+架如图1所示，按“关键挑战—关键科学问题—研究内容—总体研究目标”组织，形成
+三个研究内容共同支撑总体目标的逻辑关系。
+5
+
+
+--- PDF PAGE 7 ---
+低
+空
+巡
+检
+多
+模
+态
+智
+能
+体
+自
+进
+化
+关
+键
+技
+术
+研
+究
+关
+键
+挑
+战
+关
+键
+科
+学
+问
+题
+研
+究
+内
+容
+挑
+战
+一
+无人机巡检视角
+样本稀缺，多样场景
+与观测条件覆盖不足
+科
+学
+问
+题
+一
+无人机巡检视角下
+多视角图文数据生成
+与多样场景扩展
+挑
+战
+二
+巡检环境动态变化，
+智能体持续适应与
+自主进化面临瓶颈
+科
+学
+问
+题
+二
+动态巡检环境下
+多模态智能体的
+持续适应与稳定进化
+挑
+战
+三
+多模态巡检任务复杂
+智能体运行管理与
+闭环验证支撑不足
+科
+学
+问
+题
+三
+多模态巡检任务
+驱动的智能体编排
+与系统闭环管理
+总体研究目标
+构建具备持续适应与自主进化能力的多模态无人机巡检系统
+研
+究
+内
+容
+一
+多样巡检场景下的
+多视角图文数据生成
+与样本扩增方法
+研
+究
+内
+容
+二
+巡检环境变化下的
+多模态智能体
+自适应与自进化方法
+研
+究
+内
+容
+三
+面向无人机巡检的
+多模态智能体系统
+与闭环管理平台
+图1: 研究总体框架图（依据更新后的四板块串联版一图流）
+6
+
+
+--- PDF PAGE 8 ---
+2
+国内外研究现状
+无人机巡检智能体涉及视觉数据构建、部署后的持续学习以及任务系统三个研究
+层次。为避免把通用模型能力直接等同于巡检能力，本章按三个研究点分别梳理方法
+演进，并从监督来源、数据条件与验证对象比较代表工作。国内外成果按技术脉络展
+开：航拍数据与遥感视觉语言研究为场景适配提供基础，三维表示和扩散生成拓展观
+测覆盖，持续学习与智能体研究提供更新机制，系统研究提供可重复实验的组织方式。
+2.1
+多样巡检场景下的多视角图文数据生成与样本扩增
+航拍目标检测首先需要区分数据来源与任务定义。由国内研究团队推动的Vis-
+Drone 基准涵盖无人机视角下的检测与跟踪，强调密集小目标、遮挡和场景变化等条
+件[6]；UAVDT 从检测与跟踪出发组织交通视频，对拍摄视角、遮挡和环境因素进行分
+析[7]。两者为真实航拍识别提供了重要基础，但检测标注不能自动转换为相机位姿和
+风险事件标注。本课题使用VisDrone 验证真实检测，补充区域与障碍物标注时明确其
+来源和用途，不把公共数据原有类别解释为完整巡检语义。
+更广义的遥感检测研究提供了对象尺度与方向变化的参照。DOTA 针对大幅航空
+图像中的任意方向目标建立旋转框基准[12]；DIOR 讨论遥感目标的类内差异、尺度变
+化及复杂背景[13]。国际团队发布的xView 以高分辨率俯视影像中的多类对象为对象，
+关注复杂场景中的检测[14]。这些数据集有助于解释航拍检测的困难，但其成像平台、
+类别、分辨率和采样方式不同，不能将卫星或高空遥感结果无条件外推至低空道路巡
+检。本研究拟将其作为方法和数据组织参照，不在主实验中混合测试口径。
+检测方法从候选区域到端到端建模形成了多种路线。Faster R-CNN 通过区域建议
+网络将候选框生成与检测关联起来[15]，适合分析候选区域与小目标召回之间的关系；
+YOLO 将检测组织为统一预测流程[16]，体现了单阶段方法的执行效率优势。DETR 使
+用集合预测及匹配损失减少人工后处理结构[17]。本课题选择公开实现明确、便于固定
+版本和运行预算的YOLOv8 作为主检测工具，而不是将原始YOLO 论文当作YOLOv8
+的算法文献。上述学术工作用于说明路线差异，YOLOv8 具体参数以软件版本及配置
+为准，本文使用其官方实现说明确定可复现入口[18]。
+新视角合成需要在“已有观测足以重建”和“未观测内容必须依赖先验”之间作
+出区分。NeRF 利用连续辐射场与体渲染描述场景，需要通过已有视图约束密度与颜色
+[19]；3D Gaussian Splatting 以可优化高斯基元及可微渲染表示场景，为渲染效率提供了
+另一条路线[20]。这类方法的优势是明确关联相机和场景表示，局限是充分观测与可靠
+相机估计往往是重要条件。对无人机仅有单张或少量参考图像的情况，不能假定可以
+从无观测区域恢复真实细节。
+7
+
+
+--- PDF PAGE 9 ---
+为降低逐场景密集采集要求，pixelNeRF 通过图像特征条件化辐射场，使跨场景学
+习的先验参与少视图推断[21]；IBRNet 结合输入视图的局部图像特征和多视角信息进
+行可泛化渲染[22]。DUSt3R 将几何估计表述为点图回归与对齐，为未标定图像之间建
+立几何关系提供了可用工具[23]；MASt3R 在三维先验基础上进一步研究图像匹配[24]。
+这些方法说明，稀疏观测可以形成有用的相对几何条件，但预测几何仍受纹理、遮挡和
+动态对象影响。相对深度可用于视角控制，不能自然解释为无人机真实飞行高度或目
+标距离。
+生成建模为不可见内容的补全提供了另一类先验。DDPM 以逐步去噪学习数据分
+布[25]；DDIM 研究具有相同训练目标的非马尔可夫采样过程，为减少采样步骤提供方
+法基础[26]。潜空间扩散模型在压缩表征中执行扩散，缓解高分辨率图像生成的计算开
+销[27]。这些工作构成扩散生成的基础，但通用图像分布并不自动包含正确的相机变换
+约束。SDEdit 通过对输入加噪再去噪实现引导编辑，揭示输入保持与生成变化之间的
+权衡[28]；InstructPix2Pix 把文本指令用于图像编辑[29]。ControlNet 为预训练扩散网
+络加入空间条件控制路径[30]。它们可以解释条件生成和编辑的机制，但边缘或深度控
+制并不等价于严格的三维场景一致性。
+相机条件生成将上述研究进一步引向新视角。Zero-1-to-3 学习单图条件下的相机
+变换与对象视图生成[31]，SyncDreamer 通过跨视角联系促进多视图图像一致性[32]；
+二者主要围绕对象级场景展开，其对象中心假设与道路、园区的长纵深场景存在差异。
+ViewCrafter 将粗点云渲染条件与视频扩散先验结合，面向单张或稀疏观测的场景级新
+视角合成[33]，与本课题的输入条件更加接近。图2展示了该方法如何用粗点云渲染结
+果约束视频扩散，并通过迭代合成扩展场景观测。点云渲染为目标相机提供可见结构，
+扩散先验补全缺失区域；这一组合仍不能保证不可见小目标的身份与位置，因此需要
+在生成后重建标注并检验下游效用。本课题拟复用其已训练模型和公开推理代码，将
+目标相关视角选择作为主要研究切入点[34]。
+图2: ViewCrafter 场景级新视角生成框架（截自原论文图1[33]）
+8
+
+
+--- PDF PAGE 10 ---
+新视角评价还需要具备可核对的相机与目标视图。MatrixCity 提供合成城市中的多
+视角图像、相机和几何相关信息[35]，适合研究已知位姿下的相机控制与保留目标视图
+验证。其公开数据说明进一步给出了相机约定和深度相关字段，为验证相机变换提供
+实现依据[36]。合成数据的视觉规律、材质和对象分布与真实航拍并不完全一致。域随
+机化通过改变仿真外观等因素扩大训练分布[37]，说明合成变化可能改善迁移，但不能
+保证任意生成数据都有效。LPIPS 以深层特征距离刻画感知差异[38]，可以补充像素误
+差，但低感知距离也不意味着小目标身份或标注正确。本课题据此分开报告合成数据
+上的新视角指标与真实数据上的检测指标。
+图文数据的价值在于把视觉内容与任务语义联系起来。CLIP 通过图像和文本的对
+比学习建立共享表征[4]，为跨模态检索和语义相似性提供了基础；BLIP 联合考虑视觉
+语言理解与生成，并研究由图像描述构建训练信息的方式[39]。BLIP-2 使用查询变换
+器衔接冻结视觉编码器和语言模型，说明可以通过较小连接模块建立跨模态接口[40]。
+这些工作给出了图像—语言对齐路径，但语义相似或描述流畅不保证目标框正确，更
+不能直接保证区域风险判断正确。
+国内外遥感视觉语言研究进一步说明领域语义的必要性。RSVQA 将遥感图像内容
+转化为可回答的问题，围绕对象数量和空间属性构建视觉问答[41]；RemoteCLIP 探索
+遥感图文表征，使领域数据参与视觉语言学习[42]。GeoChat 将遥感图像中的对象与区
+域理解扩展到对话交互[43]。这些工作为本课题的描述和问答构建提供了参照，但本研
+究不会让语言模型自由生成巡检真值。拟由重新标注的对象、区域及规则先形成结构
+化事实，再据此生成描述、问题和答案，从而保持样本之间可核对的对应关系。
+从方法假设看，多视图重建、对象级生成和场景级生成对参考图像、相机信息与
+场景结构的要求并不相同。表1比较了各类路线的输入条件、主要能力及在巡检中的限
+制，用于明确本课题采用场景级生成基线的依据。
+表1: 新视角与数据扩增路线比较
+路线与代表
+主要条件
+可提供的能力
+巡检应用的限制
+NeRF、3DGS
+多视图与相机估计
+几何关联渲染
+少视图与动态对象约
+束不足
+pixelNeRF、IBR-
+Net
+跨场景训练先验与少
+视图
+可泛化视图预测
+不可见部分仍具不确
+定性
+Zero-1-to-3、
+SyncDreamer
+单对象参考与相机条
+件
+对象级新视图
+道路场景不满足对象
+中心假设
+ViewCrafter
+参考图像、粗几何与
+轨迹
+场景级新视角图像
+小目标信息保持需单
+独验证
+本课题拟研究
+固定生成与标注预算
+目标相关视角选择与
+图文扩增
+通过真实检测而非外
+观单独判断价值
+9
+
+
+--- PDF PAGE 11 ---
+研究现状小结：现有研究已形成航拍检测、三维场景表示、条件生成与图文理解等
+技术基础，但从有限无人机视角样本到可用于巡检学习的数据仍存在衔接问题。一方
+面，真实航拍数据对相机条件和任务语义的覆盖有限，单纯增加相近图像难以补足新
+的观测信息；另一方面，场景生成侧重图像合成能力，小目标可见性、标注变化和下游
+检测收益需要单独验证。因此，本课题拟在道路与园区的不同场景中分别开展同场景
+新视角扩增，研究目标相关的视角选择、独立标注重建和图文样本构建，并以隔离的真
+实航拍数据检验训练效用。
+2.2
+巡检环境变化下的多模态智能体自适应与自进化
+视觉语言模型的发展使图像理解可以通过自然语言任务接口实现。LLaVA 以视觉
+指令微调建立图像与对话任务之间的联系[44]，InstructBLIP 将指令信息引入视觉特征
+抽取及任务适配[45]。这些方法提供了通用任务接口，也说明指令组织与视觉连接模块
+会影响模型行为。对本课题而言，其意义在于构建工具调用和结构化说明能力，而不是
+以语言回答取代定位工具。
+国内团队发展的Qwen2.5-VL 和InternVL 系列进一步探索高分辨率视觉、定位、视
+频及多任务视觉语言能力[46][47]。本课题选择Qwen2.5-VL-7B-Instruct 作为可固定检
+查点的基线，其模型卡明确了公开权重与输入处理接口[48]。运行时显式提供图像、任
+务和检测证据，模型负责受约束的工具策略与说明，最终风险等级由规则引擎计算。由
+于通用基准不能覆盖特定园区规则，需要建立专门的巡检任务集合，检验模型是否引
+用真实存在的目标与区域。
+参数高效适配是有限资源下的重要路径。CoOp 将文本提示中的上下文优化为可学
+习向量[49]，CoCoOp 引入与输入相关的条件上下文，研究提示学习在类别变化下的泛
+化[50]；这些研究主要基于视觉语言分类框架，不能直接当作生成式智能体的完整更新
+方案。LoRA 以低秩参数增量替代全量权重更新[51]，QLoRA 结合低比特基座与低秩
+适配以降低微调内存要求[52]。本课题以BF16 基座加LoRA 为主配置，显存不足时另
+设量化实验，不混合报告两种数值精度的开销。WiSE-FT 通过融合零样本与微调权重
+研究分布外鲁棒性[53]，提示新任务收益与原有泛化需要共同度量。
+测试时适应研究试图利用部署时的输入改善预测。TTT 把测试样本转化为自监督
+任务，在预测前或数据流中更新部分模型[54]；Tent 以预测熵为优化信号更新归一化相
+关参数[55]。这些方法说明无需目标域人工标签也可能获得适应信号，但熵降低只表明
+预测更集中，并不证明类别正确。无人机画面中的小目标漏检甚至可能形成高置信错
+误，因此本课题不把模型置信度或低熵作为正确标签的替代物。
+针对连续变化和遗忘，CoTTA 采用教师预测与恢复机制缓解长期适应误差[8]；
+EATA 研究可靠且非冗余样本选择，并通过正则项限制遗忘[10]。SAR 通过可靠样本
+10
+
+
+--- PDF PAGE 12 ---
+与平坦性相关优化改善不稳定条件下的适应[56]。国内外这些工作共同表明，样本选
+择、更新范围和恢复策略决定了适应能否持续。TPT 将测试时优化扩展至视觉语言提
+示，在单个测试输入的多种增强上构建学习信号[57]，但其分类设定与需要工具执行、
+结构化证据及规则判断的巡检智能体不同。图3给出了CoTTA 中学生网络、移动平均
+教师与随机恢复的关系：教师预测提供学习信号，源模型参数参与恢复，以缓解连续更
+新对已有知识的破坏。该结构为设计候选更新和恢复提供了参照，但迁移到巡检智能
+体时仍需明确工具反馈、参数变化与真实任务指标之间的联系。
+图3: CoTTA 持续测试时适应框架（截自原论文图2[8]）
+持续学习关注跨阶段知识保持。EWC 根据参数重要性对偏离旧解的更新施加约束
+[11]，Learning without Forgetting 通过旧模型输出来保留既有任务信息[58]；二者从参
+数或函数空间限制更新，但仍需要适用的旧知识表示。iCaRL 借助样本记忆与表示学习
+应对类别增量[59]；GEM 用记忆样本约束梯度对过去任务的影响[60]。Dark Experience
+Replay 保留历史输出并结合回放学习[61]。持续学习综述进一步梳理了正则化、回放
+和架构等方法类别及评价条件[9]。本课题将借鉴冻结源域回放和独立旧域评测，而不
+直接宣称上述类别增量方法在多模态巡检中已经有效。
+智能体研究把记忆从训练样本扩展为运行经验。ReAct 交替组织推理与行动，使工
+具反馈进入后续决策[62]；Toolformer 通过构造与筛选工具调用样本研究语言模型的工
+具使用学习[63]，说明“何时调用工具”可作为学习对象。对巡检而言，这类机制可以
+支持重试、裁剪复检和证据汇总，但工具调用必须有输入输出协议和预算，否则语言模
+型可能以重复调用掩盖感知不足。
+11
+
+
+--- PDF PAGE 13 ---
+Reflexion 把任务反馈转化为语言反思并存入记忆[64]，Self-Refine 通过反馈和修改
+循环改进输出[65]；两者展示了无需每次修改模型权重也能改变后续生成的路径。Tree
+of Thoughts 通过分支探索与评价组织推理搜索[66]，引入了额外计算与评价函数依赖。
+上述研究在不同任务中的反馈来源并不相同，不能据此认定语言模型在无人机图像中
+自我反思即可纠正视觉事实。图4展示了Reflexion 中执行者、评价者、自我反思与长期
+记忆的关系。反思文本可以改变下一轮行动，但有效性依赖反馈来源及任务环境；巡检
+系统因此需要为经验记录附带证据、适用条件与失效规则。
+图4: Reflexion 反思与经验记忆结构（截自原论文图2(a)[64]）
+Voyager 在交互环境中积累可复用技能并利用执行反馈迭代程序[67]，Generative
+Agents 将观察、记忆检索和反思用于长期行为生成[68]。前者的执行结果提供了相对
+明确的任务反馈，后者强调记忆对行为连贯性的作用；二者均不能直接提供航拍风险
+真值。自主智能体综述从规划、记忆、行动等角度总结系统结构[5]，为本课题采用可
+分离模块的单智能体提供依据。本研究拟把“自进化”具体化为经记录、受预算约束、
+可恢复的参数或策略变化，而非没有评价条件的自主变强。
+上述研究可以按更新对象分为参数适应与经验更新两类，其监督来源和验证条件
+存在差别。表2整理了两类方法在巡检任务中需要补足的约束，后续通过分离消融评价
+各自作用。
+12
+
+
+--- PDF PAGE 14 ---
+表2: 适应与进化路线的监督和验证条件
+路线
+更新对象
+信号来源
+本课题需要补足的约
+束
+TTT、Tent、TPT
+部分参数或提示
+自监督或预测分布
+不能将低熵当作正确
+性
+EWC、LwF、DER
+模型与旧知识约束
+旧参数、旧输出或回放
+保证回放来自训练源
+域
+LoRA、QLoRA
+低秩适配器
+任务训练样本
+记录适配器与基座组
+合
+Reflexion、Voy-
+ager
+语言记忆或技能
+环境及执行反馈
+区分执行成功与视觉
+正确
+本课题拟研究
+参数与经验的选择性
+联合更新
+工具事实、冻结规则
+及源域回放
+无测试真值准入、独
+立能力保持评价
+研究现状小结：测试时适应、持续学习和智能体反思分别提供了参数更新、知识
+保持与经验利用的方法，但三者在巡检任务中的学习信号尚需明确。无标签预测可能
+形成高置信错误，语言反思可能重复错误事实，参数更新与记忆检索的作用也容易被
+额外工具调用或规则变化混淆。因此，本课题拟围绕可核验的执行反馈建立更新边界，
+分别评价轻量参数适应、经验更新及二者联合的贡献，并通过源域回放、候选检查和版
+本恢复分析新条件适应与旧能力保持的关系。
+2.3
+面向无人机巡检的多模态智能体系统与闭环管理平台
+智能体系统研究逐步从单轮提示转向显式角色、工具及流程。AutoGen 将可对话单
+元与程序化交互结合，支持可组合的任务工作流[69]；MetaGPT 将标准化工作流程和
+中间产物用于多角色协作[70]。CAMEL 通过角色化对话研究智能体间交互[71]。这些
+研究表明，任务组织方式影响执行行为和可观察过程，但多角色数量本身不保证可靠
+性。图5展示了AutoGen 中可配置单元与多种对话组织方式，也说明工具执行和人工交
+互可以纳入同一任务流程。对巡检任务而言，可借鉴的是有类型的执行单元、明确的消
+息交互和可记录的调用链；本课题采用一个规划与报告主体，将检测器和规则引擎作
+为工具，便于分析不同模块的贡献。
+语言规划还必须落到环境可执行动作上。SayCan 将语言层面的任务适合度与技能
+可执行性结合[72]，强调高层语义需要实际能力约束。巡检系统同样需要区分“模型认
+为应该检查通道”和“当前图像及工具能够判断通道”：没有有效区域配置时，系统应
+输出无法判断；低分辨率目标不能通过语言解释获得更高空间精度。这一认识支持把
+感知结果、区域关系和风险规则分别定义接口，而不是合并成不可审计的自由文本。
+具身和交通研究中的仿真平台为场景组织提供了经验。AirSim 提供面向无人机等
+载体的仿真接口[73]，CARLA 围绕城市驾驶环境组织传感器、交通参与者与任务[74]。
+13
+
+
+--- PDF PAGE 15 ---
+图5: AutoGen 可配置执行单元与会话编排（截自原论文图1[69]）
+Habitat 面向具身任务提供可重复环境和基准[75]。这些平台说明可控制场景有利于隔
+离变量；同时，仿真环境不等于真实航拍分布。本课题以公开图像与视频回放为主，只
+将MatrixCity 用于生成验证，避免将飞行控制和高保真动力学仿真扩展为必须完成的
+研究目标。
+智能体评价需要从最终回答扩展到任务过程。AgentBench 通过不同交互环境评估
+语言模型的智能体能力，并采用服务化和环境隔离方式组织任务[76]，提示本课题应同
+时记录执行成功、工具异常、步骤预算及最终证据。对于风险输出，Guo 等关于神经网
+络校准的研究指出置信度与正确率可能不一致，并研究后处理校准[77]；因此检测分数
+不能直接解释为事故概率，本课题也不会将模型语气或一致性分数当作风险真实性证
+据。
+底层运行框架可以提高实验组织效率，但应与研究结论分开。Ray 以任务和参与者
+抽象组织分布式执行[78]，vLLM 通过PagedAttention 等机制研究语言模型服务中的内
+存管理与吞吐[79]；它们提供系统性能优化思路，本课题48GB 级单卡顺序实验并不需
+要直接引入完整分布式集群。MLOps 研究从概念、实践与架构层面整理模型生命周期
+的训练、部署和监控[80]，说明数据、代码、模型和运行之间的联系是持续迭代的必要
+条件。拟采用轻量工作进程与数据库队列实现原型，后续扩展吞吐时再评价额外框架。
+数据说明和模型说明也与复现直接相关。Datasheets for Datasets 提出对数据动机、
+构成、采集及使用条件进行系统记录[81]；Model Cards for Model Reporting 强调模型用
+途、评价条件和限制的透明描述[82]。对本课题而言，生成图必须标注其衍生来源，障
+碍物定义与区域规则必须给出版本，模型卡必须记录训练域及禁止用于验证更新的测
+试集。仅保存权重文件而缺少这些条件，无法解释一次风险结果是由模型能力还是规
+则变化产生。
+从国内外研究可以看出，通用智能体框架解决的是工作流表达，检测与视觉语言
+模型解决的是局部感知或解释，MLOps 解决的是生命周期组织；针对无人机巡检的可
+复现闭环，需要将三者连接到同一个证据协议中。本课题拟把图像版本、检测输出、区
+14
+
+
+--- PDF PAGE 16 ---
+域多边形、规则编号、模型适配器和经验快照固化为运行清单，并通过任务状态机与事
+件日志处理失败、重试和恢复。表3总结了这些路线与巡检闭环管理之间的对应关系。
+系统评价将同时关注结果与过程：检测采用真实标注指标；风险采用规则事件正
+确性、分级一致性及无法判断覆盖；平台采用任务成功率、可追溯证据覆盖、延迟与回
+放一致性。各类指标不汇总为来源不清的单一“智能水平”分数。这样的评价方式既允
+许生成或适应方法取得局部进展，也能揭示检测瓶颈、规则边界或额外计算开销，使论
+文结论保持可解释性。
+表3: 系统研究路线及本课题对应关系
+代表路线
+解决的问题
+尚需明确的任务条件
+拟采用的系统约束
+AutoGen、
+MetaGPT
+角色与工作流组织
+视觉证据及区域规则
+单智能体与有类型工
+具接口
+AgentBench
+交互任务评价
+巡检事件和版本变化
+分层指标与冻结任务
+清单
+MLOps
+训练部署生命周期
+记忆和规则的协同版
+本
+运行清单与内容校验
+值
+Datasheets、
+Model Cards
+数据和模型说明
+衍生视图与在线更新
+来源
+样本父子关系、状态快
+照
+本课题拟研究
+任务执行到更新回放
+闭环
+公开数据与明确风险
+边界
+可追溯输出、故障注
+入、恢复验证
+研究现状小结：通用智能体框架、任务评测平台与MLOps 工具为编排和运行管理
+提供了基础，但巡检系统还需要贯通目标检测、区域关系、风险规则和持续更新的版本
+依赖。现有单次任务记录难以完整解释模型、数据或经验变化造成的输出差异，失败后
+的恢复过程也需要可重复验证。因此，本课题拟以任务状态机和不可变运行清单组织
+数据、模型、规则及经验版本，形成可追溯的风险证据和可回放的更新过程，并以任务
+成功率、处理延迟、证据覆盖及回放一致性评价系统。
+15
+
+
+--- PDF PAGE 17 ---
+参考文献
+[1] 国务院. 国务院关于印发新一代人工智能发展规划的通知[EB/OL]. （2017）[2026-10-10]. https:
+//www.gov.cn/zhengce/content/2017-07/20/content_5211996.htm.
+[2] 中共中央、国务院. 数字中国建设整体布局规划[EB/OL]. （2023）[2026-10-10]. https://www.gov.cn
+/zhengce/2023-02/27/content_5743484.htm.
+[3] 国务院. 政府工作报告：2024 年3 月5 日在第十四届全国人民代表大会第二次会议上[EB/OL].
+（2024）[2026-10-10]. https://www.gov.cn/yaowen/liebiao/202403/content_6939153.htm.
+[4] Radford A，Kim J W，Hallacy C，et al. Learning Transferable Visual Models From Natural Language
+Supervision[C/OL]//International conference on machine learning. 2021：8748-8763. https://arxiv.org/ab
+s/2103.00020.
+[5] Wang Lei，Ma Chen，Feng Xueyang，et al. A Survey on Large Language Model based Autonomous
+Agents[J/OL].
+Frontiers of Computer Science，2024，18（6）.
+https://arxiv.org/abs/2308.11432.
+DOI:10.1007/s11704-024-40231-1.
+[6] Zhu Pengfei，Wen Longyin，Bian Xiao，et al. Vision Meets Drones：A Challenge[EB/OL]. （2018）
+[2026-10-10]. https://arxiv.org/abs/1804.07437.
+[7] Du Dawei，Qi Yuankai，Yu Hongyang，et al. The Unmanned Aerial Vehicle Benchmark：Object Detection
+and Tracking[EB/OL]. （2018）[2026-10-10]. https://arxiv.org/abs/1804.00518.
+[8] Wang Qin，Fink O，Van Gool L，et al. Continual Test-Time Domain Adaptation[C/OL]//Proceedings of
+the IEEE/CVF conference on computer vision and pattern recognition. 2022：7201-7211. https://arxiv.or
+g/abs/2203.13591.
+[9] Wang Liyuan，Zhang Xingxing，Su Hang，et al. A Comprehensive Survey of Continual Learning：Theory，
+Method and Application[EB/OL]. （2023）[2026-10-10]. https://arxiv.org/abs/2302.00487.
+[10] Niu Shuaicheng，Wu Jiaxiang，Zhang Yifan，et al. Eﬀicient Test-Time Model Adaptation without Forgetting
+[C/OL]//International conference on machine learning. 2022：16888-16905. https://arxiv.org/abs/2204.0
+2610.
+[11] Kirkpatrick J，Pascanu R，Rabinowitz N，et al. Overcoming catastrophic forgetting in neural networks
+[J/OL]. Proceedings of the National Academy of Sciences，2017，114（13）：3521-3526. https://arxiv.or
+g/abs/1612.00796. DOI:10.1073/pnas.1611835114.
+[12] Xia G-S，Bai Xiang，Ding Jian，et al. DOTA：A Large-scale Dataset for Object Detection in Aerial Images
+[C/OL]//IEEE conference on computer vision and pattern recognition. 2018. https://arxiv.org/abs/1711.1
+0398.
+[13] Li Ke，Wan Gang，Cheng Gong，et al. Object Detection in Optical Remote Sensing Images：A Survey and
+A New Benchmark[J/OL]. ISPRS Journal of Photogrammetry and Remote Sensing，2020，159：296-307.
+https://arxiv.org/abs/1909.00133. DOI:10.1016/j.isprsjprs.2019.11.023.
+[14] Lam D，Kuzma R，McGee K，et al. xView：Objects in Context in Overhead Imagery[EB/OL]. （2018）
+[2026-10-10]. https://arxiv.org/abs/1802.07856.
+[15] Ren Shaoqing，He Kaiming，Girshick R，et al. Faster R-CNN：Towards Real-Time Object Detection with
+Region Proposal Networks[EB/OL]. （2015）[2026-10-10]. https://arxiv.org/abs/1506.01497.
+[16] Redmon J，Divvala S，Girshick R，et al. You Only Look Once：Unified，Real-Time Object Detection
+[C/OL]//Proceedings of the IEEE conference on computer vision and pattern recognition. 2016：779-788.
+https://arxiv.org/abs/1506.02640.
+[17] Carion N，Massa F，Synnaeve G，et al. End-to-End Object Detection with Transformers[EB/OL].（2020）
+[2026-10-10]. https://arxiv.org/abs/2005.12872.
+[18] Ultralytics. Ultralytics YOLOv8 documentation[EB/OL]. （2023）[2026-10-10]. https://docs.ultralytics.c
+om/models/yolov8/.
+[19] Mildenhall B，Srinivasan P P，Tancik M，et al. NeRF：Representing Scenes as Neural Radiance Fields for
+View Synthesis[C/OL]//European conference on computer vision. 2020. https://arxiv.org/abs/2003.08934.
+16
+
+
+--- PDF PAGE 18 ---
+[20] Kerbl B，Kopanas G，Leimkühler T，et al. 3D Gaussian Splatting for Real-Time Radiance Field Rendering
+[J/OL]. ACM Transactions on Graphics，2023. https://arxiv.org/abs/2308.04079.
+[21] Yu A，Ye V，Tancik M，et al. pixelNeRF：Neural Radiance Fields from One or Few Images[C/OL]//
+Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2021：4578-4587.
+https://arxiv.org/abs/2012.02190.
+[22] Wang Qianqian，Wang Zhicheng，Genova K，et al. IBRNet：Learning Multi-View Image-Based Rendering
+[C/OL]//Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2021：4690-
+4699. https://arxiv.org/abs/2102.13090.
+[23] Wang Shuzhe，Leroy V，Cabon Y，et al. DUSt3R：Geometric 3D Vision Made Easy[C/OL]//Proceedings
+of the IEEE/CVF conference on computer vision and pattern recognition. 2024：20697-20709. https:
+//arxiv.org/abs/2312.14132.
+[24] Leroy V，Cabon Y，RevaudJérôme. Grounding Image Matching in 3D with MASt3R[EB/OL]. （2024）
+[2026-10-10]. https://arxiv.org/abs/2406.09756.
+[25] Ho J，Jain A，Abbeel P. Denoising Diffusion Probabilistic Models[C/OL]//Advances in neural information
+processing systems. 2020. https://arxiv.org/abs/2006.11239.
+[26] Song Jiaming，Meng Chenlin，Ermon S. Denoising Diffusion Implicit Models[C/OL]//International con-
+ference on learning representations. 2021. https://arxiv.org/abs/2010.02502.
+[27] Rombach R，Blattmann A，Lorenz D，et al. High-Resolution Image Synthesis with Latent Diffusion Models
+[C/OL]//Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2022：10684-
+10695. https://arxiv.org/abs/2112.10752.
+[28] Meng Chenlin，He Yutong，Song Yang，et al. SDEdit：Guided Image Synthesis and Editing with Stochastic
+Differential Equations[EB/OL]. （2021）[2026-10-10]. https://arxiv.org/abs/2108.01073.
+[29] Brooks T，Holynski A，Efros A A. InstructPix2Pix：Learning to Follow Image Editing Instructions[C/OL]//
+Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2023：18392-18402.
+https://arxiv.org/abs/2211.09800.
+[30] Zhang L，Rao Anyi，Agrawala M. Adding Conditional Control to Text-to-Image Diffusion Models[C/OL]//
+Proceedings of the IEEE/CVF international conference on computer vision. 2023：3836-3847. https:
+//arxiv.org/abs/2302.05543.
+[31] Liu Ruoshi，Wu Rundi，Van Hoorick B，et al. Zero-1-to-3：Zero-shot One Image to 3D Object[C/OL]//
+Proceedings of the IEEE/CVF international conference on computer vision. 2023：9298-9309. https:
+//arxiv.org/abs/2303.11328.
+[32] Liu Yuan，Lin Cheng，Zeng Zijiao，et al. SyncDreamer：Generating Multiview-consistent Images from
+a Single-view Image[C/OL]//International conference on learning representations. 2024. https://arxiv.org/
+abs/2309.03453.
+[33] Yu Wangbo，Xing Jinbo，Yuan Li，et al. ViewCrafter：Taming Video Diffusion Models for High-fidelity
+Novel View Synthesis[J/OL]. IEEE Transactions on Pattern Analysis and Machine Intelligence，2025.
+https://arxiv.org/abs/2409.02048.
+[34] ViewCrafter Authors. ViewCrafter：oﬀicial code and configuration documentation[EB/OL]. （2025）
+[2026-10-10]. https://github.com/Drexubery/ViewCrafter.
+[35] Li Yixuan，Jiang Lihan，Xu Linning，et al. MatrixCity：A Large-scale City Dataset for City-scale Neural
+Rendering and Beyond[C/OL]//Proceedings of the IEEE/CVF international conference on computer vision.
+2023：3205-3215. https://arxiv.org/abs/2309.16553.
+[36] MatrixCity Authors. MatrixCity：dataset，camera convention and depth documentation[EB/OL]. （2024）
+[2026-10-10]. https://github.com/city-super/MatrixCity.
+[37] Tobin J，Fong R，Ray A，et al. Domain Randomization for Transferring Deep Neural Networks from
+Simulation to the Real World[EB/OL]. （2017）[2026-10-10]. https://arxiv.org/abs/1703.06907.
+[38] Zhang R，Isola P，Efros A A，et al. The Unreasonable Effectiveness of Deep Features as a Perceptual
+Metric[C/OL]//IEEE/CVF conference on computer vision and pattern recognition. 2018. https://arxiv.org/
+abs/1801.03924.
+17
+
+
+--- PDF PAGE 19 ---
+[39] Li Junnan，Li Dongxu，Xiong Caiming，et al. BLIP：Bootstrapping Language-Image Pre-training for Uni-
+fied Vision-Language Understanding and Generation[C/OL]//International conference on machine learning.
+2022：12888-12900. https://arxiv.org/abs/2201.12086.
+[40] Li Junnan，Li Dongxu，Savarese S，et al. BLIP-2：Bootstrapping Language-Image Pre-training with Frozen
+Image Encoders and Large Language Models[C/OL]//International conference on machine learning. 2023：
+19730-19742. https://arxiv.org/abs/2301.12597.
+[41] Lobry S，Marcos D，Murray J，et al. RSVQA：Visual Question Answering for Remote Sensing Data
+[J/OL]. IEEE Transactions on Geoscience and Remote Sensing，2020，58（12）：8555-8566. https:
+//arxiv.org/abs/2003.07333. DOI:10.1109/TGRS.2020.2988782.
+[42] Liu Fan，Chen Delong，Guan Z，et al. RemoteCLIP：A Vision Language Foundation Model for Remote
+Sensing[J/OL]. IEEE Transactions on Geoscience and Remote Sensing，2024. https://arxiv.org/abs/2306
+.11029.
+[43] Kuckreja K，Danish M S，Naseer M，et al. GeoChat：Grounded Large Vision-Language Model for Re-
+mote Sensing[C/OL]//Proceedings of the IEEE/CVF conference on computer vision and pattern recognition.
+2024：27831-27840. https://arxiv.org/abs/2311.15826.
+[44] Liu Haotian，Li Chunyuan，Wu Qingyang，et al. Visual Instruction Tuning[C/OL]//Advances in neural
+information processing systems. 2023. https://arxiv.org/abs/2304.08485.
+[45] Dai Wenliang，Li Junnan，Li Dongxu，et al. InstructBLIP：Towards General-purpose Vision-Language
+Models with Instruction Tuning[EB/OL]. （2023）[2026-10-10]. https://arxiv.org/abs/2305.06500.
+[46] Bai Shuai，Chen Keqin，Liu Xuejing，et al. Qwen2.5-VL Technical Report[EB/OL].（2025）[2026-10-10].
+https://arxiv.org/abs/2502.13923.
+[47] Chen Zhe，Wang Weiyun，Tian Hao，et al. How Far Are We to GPT-4V？Closing the Gap to Commercial
+Multimodal Models with Open-Source Suites[EB/OL]. （2024）[2026-10-10]. https://arxiv.org/abs/2404
+.16821.
+[48] Qwen Team. Qwen2.5-VL-7B-instruct model card[EB/OL]. （2025）[2026-10-10]. https://huggingface.
+co/Qwen/Qwen2.5-VL-7B-Instruct.
+[49] Zhou Kaiyang，Yang Jingkang，Loy C C，et al. Learning to Prompt for Vision-Language Models[J/OL].
+International Journal of Computer Vision，2022，130（9）：2337-2348. https://arxiv.org/abs/2109.01134.
+DOI:10.1007/s11263-022-01653-1.
+[50] Zhou Kaiyang，Yang Jingkang，Loy C C，et al. Conditional Prompt Learning for Vision-Language Models
+[C/OL]//Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2022：16816-
+16825. https://arxiv.org/abs/2203.05557.
+[51] Hu E J，Shen Yelong，Wallis P，et al. LoRA：Low-Rank Adaptation of Large Language Models[EB/OL].
+（2021）[2026-10-10]. https://arxiv.org/abs/2106.09685.
+[52] Dettmers T，Pagnoni A，Holtzman A，et al. QLoRA：Eﬀicient Finetuning of Quantized LLMs[EB/OL].
+（2023）[2026-10-10]. https://arxiv.org/abs/2305.14314.
+[53] Wortsman M，Ilharco G，Kim J W，et al. Robust fine-tuning of zero-shot models[C/OL]//Proceedings of
+the IEEE/CVF conference on computer vision and pattern recognition. 2022：7959-7971. https://arxiv.or
+g/abs/2109.01903.
+[54] Sun Yu，Wang Xiaolong，Liu Zhuang，et al. Test-Time Training with Self-Supervision for Generalization
+under Distribution Shifts[C/OL]//International conference on machine learning. 2020：9229-9248. https:
+//arxiv.org/abs/1909.13231.
+[55] Wang Dequan，Shelhamer E，Liu Shaoteng，et al. Tent：Fully Test-time Adaptation by Entropy Minimization
+[C/OL]//International conference on learning representations. 2021. https://arxiv.org/abs/2006.10726.
+[56] Niu Shuaicheng，Wu Jiaxiang，Zhang Yifan，et al. Towards Stable Test-Time Adaptation in Dynamic Wild
+World[C/OL]//International conference on learning representations. 2023. https://arxiv.org/abs/2302.12400.
+[57] Shu Manli，Nie Weili，Huang D-A，et al. Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-
+Language Models[C/OL]//Advances in neural information processing systems. 2022. https://arxiv.org/abs/
+2209.07511.
+18
+
+
+--- PDF PAGE 20 ---
+[58] Li Zhizhong，Hoiem D. Learning without Forgetting[EB/OL]. （2016）[2026-10-10]. https://arxiv.org/
+abs/1606.09282.
+[59] Rebuﬀi S-A，Kolesnikov A，Sperl G，et al. iCaRL：Incremental Classifier and Representation Learning
+[C/OL]//Proceedings of the IEEE conference on computer vision and pattern recognition. 2017：2001-2010.
+https://arxiv.org/abs/1611.07725.
+[60] Lopez-Paz D，Ranzato M. Gradient Episodic Memory for Continual Learning[C/OL]//Advances in neural
+information processing systems. 2017. https://arxiv.org/abs/1706.08840.
+[61] Buzzega P，Boschini M，Porrello A，et al. Dark Experience for General Continual Learning：a Strong，
+Simple Baseline[C/OL]//Advances in neural information processing systems. 2020. https://arxiv.org/abs/
+2004.07211.
+[62] Yao Shunyu，Zhao J，Yu Dian，et al. ReAct：Synergizing Reasoning and Acting in Language Models
+[C/OL]//International conference on learning representations. 2023. https://arxiv.org/abs/2210.03629.
+[63] Schick T，Dwivedi-Yu J，Dessì R，et al. Toolformer：Language Models Can Teach Themselves to Use
+Tools[EB/OL]. （2023）[2026-10-10]. https://arxiv.org/abs/2302.04761.
+[64] Shinn N，Cassano F，Berman E，et al. Reflexion：Language Agents with Verbal Reinforcement Learning
+[EB/OL]. （2023）[2026-10-10]. https://arxiv.org/abs/2303.11366.
+[65] Madaan A，Tandon N，Gupta P，et al. Self-Refine：Iterative Refinement with Self-Feedback[EB/OL].
+（2023）[2026-10-10]. https://arxiv.org/abs/2303.17651.
+[66] Yao Shunyu，Yu Dian，Zhao J，et al. Tree of Thoughts：Deliberate Problem Solving with Large Language
+Models[C/OL]//Advances in neural information processing systems. 2023. https://arxiv.org/abs/2305.106
+01.
+[67] Wang Guanzhi，Xie Yuqi，Jiang Yunfan，et al. Voyager：An Open-Ended Embodied Agent with Large
+Language Models[EB/OL]. （2023）[2026-10-10]. https://arxiv.org/abs/2305.16291.
+[68] Park J S，O’Brien J C，Cai C J，et al. Generative Agents：Interactive Simulacra of Human Behavior
+[C/OL]//Proceedings of the 36th annual ACM symposium on user interface software and technology. 2023：
+1-22. https://arxiv.org/abs/2304.03442. DOI:10.1145/3586183.3606763.
+[69] Wu Qingyun，Bansal G，Zhang Jieyu，et al. AutoGen：Enabling Next-Gen LLM Applications via Multi-
+Agent Conversation[EB/OL]. （2023）[2026-10-10]. https://arxiv.org/abs/2308.08155.
+[70] Hong Sirui，Zhuge M，Chen Jiaqi，et al. MetaGPT：Meta Programming for A Multi-Agent Collaborative
+Framework[C/OL]//International conference on learning representations. 2024. https://arxiv.org/abs/2308
+.00352.
+[71] Li Guohao，Hammoud H A A K，Itani H，et al. CAMEL：Communicative Agents for ”Mind” Exploration
+of Large Language Model Society[C/OL]//Advances in neural information processing systems. 2023. https:
+//arxiv.org/abs/2303.17760.
+[72] Ahn M，Brohan A，Brown N，et al. Do As I Can，Not As I Say：Grounding Language in Robotic Affordances
+[EB/OL]. （2022）[2026-10-10]. https://arxiv.org/abs/2204.01691.
+[73] Shah S，Dey D，Lovett C，et al. AirSim：High-Fidelity Visual and Physical Simulation for Autonomous
+Vehicles[EB/OL]. （2017）[2026-10-10]. https://arxiv.org/abs/1705.05065.
+[74] Dosovitskiy A，Ros G，Codevilla F，et al. CARLA：An Open Urban Driving Simulator[C/OL]//Conference
+on robot learning. 2017：1-16. https://arxiv.org/abs/1711.03938.
+[75] Savva M，Kadian A，Maksymets O，et al. Habitat：A Platform for Embodied AI Research[C/OL]//IEEE/CVF
+international conference on computer vision. 2019. https://arxiv.org/abs/1904.01201.
+[76] Liu Xiao，Yu Hao，Zhang Hanchen，et al. AgentBench：Evaluating LLMs as Agents[C/OL]//International
+conference on learning representations. 2024. https://arxiv.org/abs/2308.03688.
+[77] Guo Chuan，Pleiss G，Sun Yu，et al. On Calibration of Modern Neural Networks[C/OL]//International
+conference on machine learning. 2017：1321-1330. https://arxiv.org/abs/1706.04599.
+[78] Moritz P，Nishihara R，Wang S，et al. Ray：A Distributed Framework for Emerging AI Applications
+[C/OL]//USENIX symposium on operating systems design and implementation. 2018. https://arxiv.org/ab
+19
+
+
+--- PDF PAGE 21 ---
+s/1712.05889.
+[79] Kwon W，Li Zhuohan，Zhuang Siyuan，et al. Eﬀicient Memory Management for Large Language Model
+Serving with PagedAttention[C/OL]//ACM symposium on operating systems principles. 2023. https://arxi
+v.org/abs/2309.06180.
+[80] Kreuzberger D，Kühl N，Hirschl S. Machine Learning Operations（MLOps）：Overview，Definition，and
+Architecture[EB/OL]. （2022）[2026-10-10]. https://arxiv.org/abs/2205.02302.
+[81] Gebru T，Morgenstern J，Vecchione B，et al. Datasheets for Datasets[J/OL]. Communications of the ACM，
+2021. https://arxiv.org/abs/1803.09010.
+[82] Mitchell M，Wu S，Zaldivar A，et al.
+Model Cards for Model Reporting[C/OL]//Proceedings of the
+conference on fairness，accountability，and transparency. 2019：220-229. https://arxiv.org/abs/1810.03993.
+DOI:10.1145/3287560.3287596.
+20
+
+
+--- PDF PAGE 22 ---
+3
+课题的研究目标、研究内容，以及拟解决的关键科学问题
+3.1
+研究目标
+本课题围绕“低空巡检多模态智能体自进化关键技术研究”，以构建具备持续适应
+与自主进化能力的多模态无人机巡检系统为总体研究目标。面向道路与园区中人员、车
+辆和障碍物的检测及规则化风险分级，研究有限航拍数据如何支持任务学习、在线经
+验如何转化为受约束的能力更新、更新过程如何在系统中复现和验证。拟以场景级新
+视角生成扩充训练输入，以检测工具和规则引擎建立输出的证据基础，以轻量参数和
+经验记忆的协同更新改善智能体的任务执行，以版本化平台连接研究和实验。
+目标包含三个可检验层面。在数据层，比较等量标注、等量生成和等训练预算下，
+不同视角选择策略对真实航拍检测的影响，而不以生成图视觉效果替代任务收益。在
+方法层，分别测量参数更新、记忆检索和二者联合对结构化任务完成、证据完整性和旧
+条件能力保持的贡献，并保留无增益或退化的结果。在系统层，验证任务状态、证据链
+和版本恢复机制能否支持确定输入下的结果回放。所有数值指标均为后续实验的测量
+对象，本报告不预设尚未执行实验的性能提升幅度。
+3.2
+研究内容
+三个研究内容按照“训练数据补充—运行能力更新—闭环实验管理”的逻辑组织。
+研究内容一提供带明确来源和新建标注的训练样本；研究内容二将训练模型投入可记
+录的巡检任务链，并对可验证的运行经验进行选择性吸收；研究内容三统一管理前两
+部分的输入、过程与产物，使收益归因和失败回放具有相同的数据基础。平台提供实验
+机制和证据管理，不以界面功能数量代替算法贡献。
+3.2.1
+多样巡检场景下的多视角图文数据生成与样本扩增方法
+研究对象为固定场景在不同相机条件下的视觉观测。拟以ViewCrafter 为场景级生
+成基线，利用单张或稀疏参考图像构建粗几何条件，在受限相机轨迹上生成新的可见
+视图；重点研究巡检目标的投影尺度、可见性和视角覆盖如何影响采样选择。针对已有
+图像中检测困难的人员与车辆以及补充标注的障碍物，构造任务驱动的视角排序与固
+定预算样本选择策略，比较其与随机、均匀采样的差异。
+生成后的图像必须独立建立目标框、可见性属性和图文对应关系，再形成训练集
+版本。相机已知的合成场景用于几何与新视角验证，真实航拍图像用于检测训练和独
+立测试；对于未知位姿，仅建立相对相机条件并记录尺度不确定性。本研究拟产出视角
+选择算法、生成与标注转换工具、带来源关系的图文样本清单及下游检测实验。生成一
+致性检查是必要的实验环节，不另设生成质量控制研究模块。
+21
+
+
+--- PDF PAGE 23 ---
+3.2.2
+巡检环境变化下的多模态智能体自适应与自进化方法
+研究对象为由YOLOv8 检测工具、Qwen2.5-VL-7B-Instruct、确定性规则引擎与经
+验库组成的单智能体。拟首先建立可固定回放的任务策略：接收图像与区域配置，调用
+检测工具，关联目标与区域，执行风险规则，并输出含对象编号、区域编号、规则编号
+和证据位置的结构化报告。在此基础上，将失败分解为工具调用错误、证据缺失、输出
+格式错误、区域关系不确定及检测不足等类型，使可更新对象与失败来源相匹配。
+拟分别研究语言模型低秩适配器更新和经验记忆更新。在线更新以当前工具反馈、
+已有规则和开发前冻结的源域回放数据为依据，对无法确认的视觉判断不赋予正确标
+签；经验检索只提供已记录的任务策略及其适用条件。通过更新预算、源域能力保持约
+束、影子候选验证和版本恢复，限制错误累积。拟产出参数与记忆的独立更新实现、联
+合调度策略、连续域变化实验以及包含失败案例的分析报告。
+3.2.3
+面向无人机巡检的多模态智能体系统与闭环管理平台
+研究对象为实验任务从输入到更新再到回放的完整生命周期。拟建立任务、样本、
+标注、模型、适配器、规则和经验版本之间的显式关联，采用Vue 3、FastAPI、PostgreSQL、
+MinIO 与Docker 搭建原型，将生成、检测推理和适应训练放入独立工作进程。平台支
+持公开数据回放、任务配置、检测与风险证据查看、候选版本比较、运行轨迹存档及恢
+复。
+本部分重点研究任务编排的完整性、工具接口的可校验性与实验回放的一致性。通
+过幂等任务标识、状态机、追加式运行事件和不可变产物清单，约束重复执行、部分失
+败和版本变化对结论的影响。拟产出原型系统、接口与数据库定义、容器配置及系统
+测试报告，评价任务成功率、风险证据可追溯性、处理延迟、资源开销和版本回放一致
+性。
+3.3
+拟解决的关键科学问题
+3.3.1
+无人机巡检视角下多视角图文数据生成与多样场景扩展
+在仅有单张或稀疏图像时，新视角中的不可见内容具有不确定性；扩大相机位移
+可能增加观测差异，也可能破坏目标身份或尺度。需要回答：如何在固定生成和标注预
+算下，将目标尺度、可见性与视角覆盖统一为可操作的选择准则，使新视角样本能够改
+善真实航拍检测，而非仅增加外观差异？本问题通过相机条件控制实验、生成目标保留
+统计和独立真实测试收益联合检验。
+22
+
+
+--- PDF PAGE 24 ---
+3.3.2
+动态巡检环境下多模态智能体的持续适应与稳定进化
+工具一致性、格式合法性和自我反思均不等同于任务正确性，在线系统又不能访
+问测试真值。需要回答：如何界定可被参数学习与经验记忆可靠吸收的信息，如何在
+有限更新预算下约束代理学习信号的偏差，使新条件收益不以旧条件能力退化为代价？
+本问题通过无更新、仅参数、仅记忆和联合更新的对照，以及错误经验注入和连续域变
+化实验，分析两类更新的作用边界。
+3.3.3
+多模态巡检任务驱动的智能体编排与系统闭环管理
+当图像、模型、提示词、区域规则和经验库同时变化时，任务输出与版本依赖之间
+容易出现断裂。需要回答：如何设计能够完整表达任务证据和更新因果关系的状态及
+版本模型，使失败定位、候选比较和恢复执行可验证？本问题具有系统方法属性，拟以
+任务状态转移、证据覆盖与回放协议建立可检验约束，并通过故障注入和版本回放验
+证；平台页面开发仅为交互载体。
+4
+拟采取的研究方案及可行性分析
+4.1
+拟采取的研究方法与技术路线
+4.1.1
+总体技术路线与任务形式化
+本课题拟采用“公开基线复现—受控方法改进—真实数据评价—系统闭环验证”的
+研究路线。首先建立数据及标注协议，复现ViewCrafter、YOLOv8 和Qwen2.5-VL 的固
+定检查点；随后研究目标相关视角选择，并将生成图仅加入训练域；在检测工具与规
+则固定的条件下比较智能体参数和记忆更新；最后将各方法接入同一平台，检验结果、
+资源与回放一致性。全部方法在开题阶段均为拟开展工作，本文所列超参数是预先拟
+定的实验起点，不表示已经得到最优结果。
+对时刻t 的任务，定义输入xt = (It, qt, Zt, rt)，其中It 为当前RGB 图像，qt 为任务指
+令，Zt 为已提供的区域多边形集合，rt 为规则版本。单智能体状态为st = (θ0, ϕt, Mt, vD)，
+分别代表冻结语言基座、可训练适配器、经验库及检测器版本。输出为
+yt =
+(
+Ot, Et, Rt, ut, Pt
+)
+,
+(4.1)
+其中Ot 是带唯一编号的检测对象，Et 是对象与区域关系，Rt 是规则事件和风险等级，
+ut 是无法判断原因，Pt 是包含工具和版本标识的证据链。仅在输出提交之后，系统才
+可用当时已经获得的非标签反馈更新未来状态st+1；测试标签由独立评分器保管。
+23
+
+
+--- PDF PAGE 25 ---
+三个研究内容使用相同任务协议，但分别控制不同变量。生成实验固定后续训练
+与推理策略，研究样本来源；适应实验固定生成数据集与检测器，研究适配器和记忆；
+平台实验固定方法及输入，研究编排和版本恢复。由此避免把更多数据、更多调用次数
+或更换模型产生的收益混入方法结论。总体实施流程见图6。前两项研究产生数据和模
+型候选，第三项研究提供版本、运行和恢复机制，各项效果分别通过独立实验确认。
+道路与园区巡检任务
+人员、车辆和障碍物检测；指定区域内的规则化风险分级
+研究内容一
+同场景新视角生成
+目标相关视角选择
+研究内容二
+参数适应与
+经验更新
+能力保持与
+候选检查
+研究内容三
+任务编排与
+证据管理
+版本回放与
+故障恢复
+数据与标注版本
+生成来源、相机条件
+训练样本清单
+模型与经验版本
+冻结检测器与规则
+参数和记忆
+独立消融
+运行清单与
+状态快照
+工具证据、
+异常与重试
+可恢复任务记录
+分层评价与结果分析
+真实检测收益；风险分级与旧能力保持；任务成功率、资源开销和回放一致性
+图6: 研究方案总体实施流程（本课题绘制）
+4.1.2
+研究点一：多样巡检场景下的多视角图文数据生成与样本扩增
+（1）数据来源、划分与增量标注。生成验证以MatrixCity 航空视图为主，读取官方
+RGB、浮点深度、内参及相机变换；将其明确标为合成数据。真实检测使用VisDrone2019-
+DET 公开数据，风险与连续适应以VisDrone 公开视频序列中具有道路、停车区域或园
+区道路形态的片段构成补充子集。场景筛选只依据可见道路结构和数据说明，不推断
+场所身份；若公开数据不能覆盖真实校园，论文仅声称道路与园区类场景验证，将真实
+校园外部验证列为限制。数据集职责见表4。
+对MatrixCity，不以相邻视图随机划分训练和测试。先按相机水平位置构建100 m×
+100 m 地块，并以相机视锥交叠和共享道路结构将高度重叠地块合并为场景组；地块距
+离小于一个网格边长的边界视图不进入跨划分比较。以种子2027 按组分为60% 开发
+训练、20% 开发验证、20% 最终生成测试，保留原官方划分字段供对照。主实验最多
+选择60 个训练组、20 个开发组和20 个测试组，每组最多3 个参考配置；不足时使用
+全部合格组并公开实际数量，不复制样本补足配额。每个测试配置仅输入指定的1 张
+24
+
+
+--- PDF PAGE 26 ---
+表4: 数据集、已有字段及拟补充标注
+来源
+已有信息
+拟补充或转换
+用途与限制
+MatrixCity
+合成RGB、相机变换、
+部分深度等
+相机约定转换；静态/动
+态掩码；目标区域
+已知位姿新视角验证；
+不能证明真实巡检效果
+VisDrone
+DET
+真实航拍图像、10 类对
+象框、忽略信息
+人员/车辆映射；必要的
+障碍物增量标注
+检测主验证；不假设具
+有位姿与风险真值
+VisDrone 视
+频子集
+按序列组织的帧及公开
+任务标注
+区域多边形、障碍物、
+事件、风险与可判定性
+真实风险和在线回放；
+按序列及场景隔离
+本课题生成
+图
+父图编号、相机条件、
+生成配置
+新图独立对象框、可见
+性、描述、问答
+仅训练；继承父场景划
+分与来源属性
+或3 张参考图，其余目标视图只用于评分；允许测试场景参考图作为条件输入，但不用
+于训练或调参。
+真实检测保留VisDrone DET 官方训练/验证/测试开发划分信息。主报告以官方训
+练集构建训练与内部开发集，官方验证集作为冻结检测测试，公开测试开发集仅作额
+外一次性检查。内部开发集按可确认的序列、采集位置及视觉近重复连通组留出20%，
+其余80% 用于训练。对跨官方划分的疑似同场景，利用文件来源、感知哈希汉明距离
+不超过6 的候选以及人工场景核对形成冲突清单，移除训练侧冲突组；无法确认时保
+守合并或排除，并报告移除数量。官方全量基准可作为单独对照，但不把其分数与严格
+隔离子集直接混为同一实验。
+风险子集拟标注最多3000 帧，分配为训练1600、开发400、源域保护200、最终
+测试800 帧。先按序列及可识别相同地点组成场景组，再以种子2027 作60/15/10/15 的
+组划分，最后在各组内按时间等距抽帧直到相应预算；比例为组层面目标，帧数上限独
+立记录，不跨组补齐。训练、开发、保护与测试之间不得共享同源视频或检测训练中已
+经出现的地点；不足时缩小实际规模并给出清单。帧级风险主评价不需要连续帧；另从
+测试组保留完整短片段作在线有序回放，片段内部按原帧率抽取每秒1 帧，不将帧间
+变化解释成纯相机运动。
+人员类别将VisDrone 的pedestrian 和people 映射为person；车辆主集合为car、van、
+truck、bus，bicycle、motor、tricycle 及awning-tricycle 保留为other_vehicle 并单独报告，
+不随意删除其标注形成负样本。障碍物定义为可见的、非通行参与者的实体阻挡物，子
+类限定为临时路障/围挡、散落物与堆置物；常驻建筑和道路边缘不标为障碍物。障碍
+物不是VisDrone 自带类别，需对入选帧完整补标，未完成增量标注的图像不进入障碍
+物训练负例。忽略区域和类别不确定区域用ignore mask 处理。
+离线由两轮标注完成对象框、区域、可见性与规则事件：首轮逐帧标注，复核轮
+检查全部风险正例、全部无法判断例和20% 随机负例，冲突回看原图裁定并保留原因。
+区域多边形是任务输入，可依据场景几何离线配置，必须在查看模型输出前冻结；事件
+25
+
+
+--- PDF PAGE 27 ---
+和风险真值由另一份评分标注保存，运行进程不能读取。园区“禁入”和“通道”属于
+本课题设定的管理任务规则，示例区域并不表示公共图像真实地点的法律或管理属性。
+（2）相机条件及未知位姿处理。内部统一采用右手OpenCV 相机坐标：x 向右、y
+向下、z 向前，Twc 将相机坐标变换为世界坐标。对于源像素齐次坐标˜u 和其z 深度
+D(u)，新视角投影为
+Xc = D(u)K−1 ˜u,
+(4.2)
+Xc′ = Rc′cXc + tc′c,
+Tc′c = T −1
+wc′Twc,
+(4.3)
+˜u′ ∼K′Xc′,
+Xc′,z > 0.
+(4.4)
+K, K′ 分别为两相机内参，R, t 为相对旋转和平移。像素坐标除以第三分量获得投影位
+置；遮挡采用深度缓冲处理。MatrixCity 的NeRF 相机约定先经S = diag(1, −1, −1, 1)
+作基变换，即T cv
+wc = T nerf
+wc S。深度若为官方厘米单位的z 深度，除以100 转为米；若相
+机文件含归一化尺度，按该版本导出脚本逆变换，禁止对已经归一化的平移直接再次
+除以100。每批数据先用不少于20 个静态点验证重投影方向和尺度，记录中位像素误
+差。
+对没有位姿的真实航拍图，使用DUSt3R 估计相对点图；多参考图只从训练组同一
+场景中选取，先掩蔽人车等动态对象再估计背景相机。单图条件沿基线的粗点云流程
+构造相对坐标系，以参考中心深度为归一化半径，∆r 只表示相对比例。几何估计失败、
+天空占比过高或静态重叠不足的输入不强行赋予真实位姿，而登记为失败并进入适用
+范围分析。小目标的深度可由邻域地面估计作为采样提示，其误差不被当作物理真值。
+（3）场景生成与目标相关视角选择。ViewCrafter 基线利用粗点云的相机渲染序列
+作为视频生成条件。概念上，将生成表示为
+ˆI1:L ∼pΘ(I1:L | Iref, C1:L, R(P, C1:L), ξ) ,
+(4.5)
+其中Θ 为冻结生成权重，C 为相机序列，P 为粗点云，R 为点渲染，ξ 为随机种子对应
+噪声，L = 25。本课题不把该式解释为准确恢复真实世界的概率模型；其输出是在图
+像和几何先验下的生成观测。主配置采用25 帧、576 × 1024 分辨率、50 步DDIM、引
+导系数7.5、逐帧自编码解码，与公开配置保持一致；采样η = 0 用于降低回放随机性，
+仍保存全部种子与软件版本。
+在每个训练参考场景中，设置相对角度∆θ ∈{−10◦, 0, 10◦}、∆φ ∈{−15◦, 0, 15◦} 及
+相对半径∆r ∈{−0.1, 0, 0.1}，去掉无变化条件，共26 个候选终点。角度遵循ViewCrafter
+球面轨迹定义；启动实验前用官方render 说明核对方向，并保存实际相机矩阵作为最
+26
+
+
+--- PDF PAGE 28 ---
+终依据。候选先进行低成本点云渲染，不运行扩散。对候选c 与已选视角集合S 定义
+J(c | S) = 0.4 V (c) + 0.35 Q(c) + 0.25 D(c, S),
+(4.6)
+其中V (c) 为参考目标点投影后通过深度遮挡检验的比例，Q(c) 为目标投影短边落入
+[12, 96] 像素区间的加权比例，D(c, S) 为相机方向到已有方向的最小夹角除以30◦并截
+断到[0, 1]。目标权重按训练域类别频率倒平方根归一化，避免只优化常见车辆。若无
+法估计对象点，则该对象不参与V, Q 并记录缺失，不能给未知对象虚构可见性。
+候选需满足静态背景投影覆盖不低于参考有效像素的60%、相对半径变化不超过
+10%，再贪心选择3 条轨迹；可用候选不足时按实际条数执行。三个权重和覆盖阈值只
+允许在开发组一次网格比较后冻结：权重备选为均等、上述默认和(0.5, 0.25, 0.25)，不
+针对最终测试改动。随机采样与均匀角度采样使用相同候选集合、轨迹数、扩散步数及
+种子。最大100 个真实训练参考场景，每个3 条轨迹、每条25 帧，至多7500 张原始
+生成帧；从每条轨迹零基索引{6, 12, 18, 24} 固定选4 帧，至多1200 张进入人工补标预
+算。其余帧仅用于轨迹验证，不隐式加入训练。
+（4）动态对象、遮挡与标注重建。同一场景新视角定义为固定参考时刻的场景内容
+随相机改变而产生的观测。真实视频中的人员或车辆移动是时间变化，不能作为已知
+新视角真值。MatrixCity 验证优先使用静态渲染配置；无法确认动态一致性的目标在成
+对像素指标中单独掩蔽并报告掩蔽面积。真实单图生成中的移动对象视为该参考时刻
+的实例条件，不声称模型恢复了真实未来位置；若生成中对象位置、数量或身份变化，
+记录为生成失败模式，仍按生成图实际可见内容重标。
+生成图不能继承源图二维框。几何投影框只用于标注初始提示，最终由生成图中
+的可见轮廓重新画框，完全遮挡对象不计为可见检测目标，部分遮挡对象附遮挡标志，
+无法辨别类别的区域设为ignore。主扩增实验中不生成风险等级监督，避免将合成的通
+道关系当作真实风险证据；生成图用于对象检测及对象描述、计数问答。区域与风险学
+习主要来自离线真实标注和规则执行。图文样本采用模板：给出对象集合、位置和可
+见性形成描述，并生成“可见车辆有哪些”“指定区域裁剪中有哪些对象”等有限问答。
+答案必须由重建标注计算，存在歧义时使用无法判断标签。
+（5）下游训练与验证。检测主基线固定Ultralytics 8.3.0 的YOLOv8s 预训练权重，训
+练分辨率960，batch=8，SGD 初始学习率0.01、momentum=0.937、weight decay=5×10−4，
+训练100 个epoch，最后10 个epoch 关闭mosaic。统一设置hsv_h=0.015、hsv_s=0.7、
+hsv_v=0.4、translate=0.1、scale=0.5、fliplr=0.5，不使用mixup；各组训练步数相同，生
+成样本按真实样本数比例0、0.25、0.5 进行有放回采样，防止新增图像直接增加优化步
+27
+
+
+--- PDF PAGE 29 ---
+数。主比较固定比例0.5，其余作为敏感性分析。检测损失按所锁定实现记录为
+Ldet = 7.5 Lbox + 0.5 Lcls + 1.5 LDFL,
+(4.7)
+三项分别为框回归、分类及分布焦点损失；实现中的归一化方式以版本代码为准，不替
+换为本课题自行定义的不同目标。
+训练不以测试分数早停。每个种子训练至100 个epoch，开发集mAP 最高的
+epoch 为所选权重；若发生数值异常则终止并登记失败，不无记录重启。种子使用
+{2027, 2028, 2029}，生成主缓存固定123、124、125 并按种子对照匹配，保证不同采
+样策略在共同候选上的噪声可比。所有扩增衍生样本继承训练父组标签，生成模型不
+对最终真实测试进行扩增训练。方法路线见图7。
+输入与来源冻结
+单图/ 稀疏参考图
+相机条件、场景编号
+粗几何与目标条件
+DUSt3R 相对点图
+静态背景与动
+态对象掩码
+候选视角评分
+投影尺度、可见性
+覆盖与位移约束
+生成与训练样本
+ViewCrafter 冻结推理
+固定帧数与生成种子
+新视图独立标注
+重建目标框与可见属性
+模板描述与问答
+固定预算检测训练
+真实图+ 生成图
+与二维增强、随
+机采样比较
+两条独立验证线：MatrixCity 保留视图检验相机
+与图像一致性；真实航拍测试检验检测收益
+所有生成衍生样本继承父场景划分，测试图像不参与生成训练扩增
+图7: 研究点一技术路线：目标相关视角生成与样本扩增（拟开展）
+4.1.3
+研究点二：巡检环境变化下的多模态智能体自适应与自进化
+（1）单智能体构成与固定任务链。拟采用YOLOv8s 提供定位证据，Qwen2.5-VL-
+7B-Instruct 提供任务解析、受限工具选择和说明生成，规则引擎计算等级，经验库提
+供适用策略。语言基座及视觉编码器在主实验中冻结，只更新语言解码器注意力层的
+LoRA；检测器在适应实验中使用研究点一确定并冻结的版本。检测器继续训练属于独
+立扩展实验，不与智能体适应混称。所有模型检查点、分词器、图像处理器和提示模板
+记录校验值，禁止实验中自动升级。
+一次任务最多包含一次全图检测和一次复检工具调用。复检操作限定为
+inspect_roi，输入最多四个图像裁剪框，工具内部批量运行同一检测器，裁剪结
+果通过比例和平移还原到原图坐标，并执行类别内IoU=0.6 的非极大值抑制。裁剪只
+能来自已知区域外接框或检测框上下文，不能由文本任意构造越界坐标；裁剪边长最
+低128 像素，不对已不存在的图像细节作超分辨率推断。语言模型可选择直接报告、区
+28
+
+
+--- PDF PAGE 30 ---
+域复检或输出无法判断，最多4 个决策步骤，超过预算则停止并记录budget_exceeded。
+固定链基线使用同样的最大调用预算，按固定区域面积排序复检，以免把更多工具调
+用造成的收益归因于学习。
+图像输入保留原始长宽信息；Qwen 图像处理像素下限设为256 × 28 × 28，上
+限设为1024 × 28 × 28。文本上下文上限4096 token，输出上限512 token，推理采用
+do_sample=false、单候选贪心解码。提示模板要求先返回工具JSON 或终止动作，再
+由报告模板引用证据；模型自由文本不得直接修改风险等级。初始源域适配使用训练
+图像构造的目标、工具和规则问答，最多2 个epoch，学习率10−4，有效batch=16，开
+发集结构化任务分数选取检查点，之后冻结为适应起点ϕ0。
+（2）区域定义、关联与风险映射。输入区域Zj 为原图坐标中的有序非自交多边形，
+字段包含区域类型、允许对象类别、有效帧范围和版本。人员的地面代理点取检测框底
+边中点pi；车辆及障碍物使用二维框Bi 与区域的相交比例
+aij = |Bi ∩Zj|
+|Bi|
+,
+oij = |Bi ∩Zj|
+|Zj|
+.
+(4.8)
+| · | 表示像素面积。aij 衡量对象框位于区域内的比例，oij 仅为图像覆盖代理，不能解
+释为真实通行宽度或物理占道比例。对多个障碍物，区域覆盖以交集框的并集面积计
+算，避免重叠重复计数。人员足点到边界在3 像素以内，或类别最高分低于0.5 但高于
+检测保留阈值0.25 时，相关事件进入无法判断或复检流程；这些阈值先在开发集固定，
+最终测试不再调整。
+风险输出集合为{L0, L1, L2, L3, U}。L0 表示在满足可观察条件下未触发已配置规
+则，L1 为关注，L2 为需处理，L3 为优先处理，U 为无法判断。区域规则如下：
+R(I, Z) =
+
+
+
+
+
+U,
+区域或证据不满足判定条件,
+max
+i,j g(ci, aij, oij, pi, Zj),
+其余情况.
+(4.9)
+g 为表5的冻结规则，风险最大值仅在已定义等级间计算，U 单独输出为不确定状态。若
+部分区域可判定、部分不可判定，逐区域保留等级与U，总报告标记partial，不能用
+某一区域的L0 覆盖其他区域未知状态。
+对占用阈值的±0.02 范围设置不确定带，复检后仍处于带内则为U，减少框轻微
+抖动引发等级跳变。规则阈值是研究任务中的操作性定义，不宣称为行业安全标准。标
+注人员依据同一规则及真实对象标注产生评分标签，因此评价目标是正确执行预定义
+风险任务，不是学习未知事故机制。单帧任务不判断停留时长；视频附加实验可用类别
+29
+
+
+--- PDF PAGE 31 ---
+表5: 风险规则初始版本R1：用于研究任务的预定义映射
+事件
+视觉条件与等级
+无法判断及适用限制
+人员进入禁入
+区
+可见人员足点在区域内：普通
+禁入区L2，预设关键禁入区
+L3；仅框相交而足点在外：L1
+足点遮挡、边界3 像素内或区域失配则
+U；等级来自区域配置
+车辆占用通道
+a ≥0.5 且o < 0.15：L2；a ≥0.5
+且o ≥0.15：L3；0.1 ≤a < 0.5：
+L1
+称为当前图像占用，不推断违法停车、
+停留时间或未来碰撞
+障碍物阻塞通
+道
+对象a ≥0.5 且联合o < 0.10：
+L2；联合o ≥0.10：L3；仅边
+缘相交：L1
+为视觉阻塞代理；透视强、遮挡严重或
+类别不明则U
+未触发规则
+区域完整可见且未出现上述条
+件：L0
+缺区域、关键区域大面积不可见、低分
+辨率不足以观察目标时不输出L0
+一致、IoU 不低于0.3 的贪心关联跟踪对象，匹配按IoU 降序、对象编号打破并列，并
+在丢失2 个采样帧后终止轨迹。跟踪只用于证据聚合，不纳入主风险等级。
+默认区域由离线配置清单逐帧提供，属于运行时已知任务信息。若部署实验仅给
+出首帧区域，则另外报告区域传播实验：用静态背景匹配拟合单应矩阵，RANSAC 至
+少20 个内点且中位重投影误差不超过3 像素时传播，否则置区域无效。该假设只适用
+于局部近似平面地面，显著相机转动、非平面场景或区域超出画面时输出U。没有标定
+不进行米制距离或速度计算。风险流程如图8所示。
+巡检图像与区域配置
+区域多边形、许可类别
+坐标系与有效时间
+目标检测与证据
+对象框、类别、置信度
+图像尺寸、裁剪来源
+可判定性检查
+区域有效、目标可见
+相机变化、边界不确定
+区域关系计算
+人员足点、目标重叠率
+像素关系不转换为米
+冻结规则映射
+禁入/ 通道占用/ 阻塞
+L0、L1、L2、L3
+无法判断U
+缺少区域、严重遮挡
+视角失配或证据不足
+统一证据报告：对象编号+ 图像定位+ 区域
+编号+ 规则编号+ 风险等级/无法判断原因
+视觉语言模型组织说明，规则引擎决定等级；不推断未来事故概率
+图8: 视觉证据、区域关系与规则风险评估流程（拟采用）
+（3）在线学习信号与失败归因。将一次运行轨迹记为τt = (xt, at,1:H, zt,1:H, yt)，其
+中a 为工具动作，z 为实际工具结果。反馈分为三层：接口层反馈包括JSON 解析、必
+填字段、坐标合法性及工具退出状态；证据层反馈包括引用对象是否存在、区域和规则
+是否有效、报告等级是否等于规则引擎输出；感知层反馈包括检测遗漏、类别是否真
+实及图像中对象是否确实存在。前两层可由运行数据检查，第三层通常需要人工真值，
+在线阶段不将其自动当作正确反馈。
+30
+
+
+--- PDF PAGE 32 ---
+拟建立五类失败标签：F1 格式/接口错误，F2 证据引用错误，F3 区域或规则缺失，
+F4 感知不确定，F5 资源或超时失败。F1/F2 可以通过确定性修正器形成工具调用和报
+告格式训练对；F3 只能补充缺失状态处理策略；F4 只积累待分析记录，不生成正向视
+觉标签；F5 用于重试与预算策略，不写成目标识别知识。参数更新主要吸收可校验的
+结构化行为，经验库优先保存“在何种条件下采用何种工具及是否正常完成”的策略
+事实。自我反思可作为候选解释，但没有工具证据不能准入为已验证经验。
+（4）轻量参数更新与能力保持。LoRA 在语言解码器的q_proj、v_proj上引入低秩
+增量：
+W ′ = W0 + α
+r BA,
+A ∈Rr×din,
+B ∈Rdout×r.
+(4.10)
+W0 冻结，r = 8、α = 16、dropout=0.05。视觉塔和跨模态连接层不更新，以控制显存
+及对视觉基座的扰动。在线候选目标为
+Lupd = 0.5Lproxy + 0.5Lreplay + 0.1Lkeep + 10−4∥ϕ −ϕactive∥2
+2/|ϕ|.
+(4.11)
+Lproxy 是当前缓冲区中可校验工具行为或证据格式的token 交叉熵，训练掩码排除未经
+确认的对象类别和自由视觉断言；Lreplay 使用训练源域已标注的任务样本；Lkeep 是冻结
+初始模型与候选在源域回放输入上的输出分布KL 散度。KL 使用初始模型每位置概率
+最高32 个token 及“其余token”汇总桶构成33 维分布，两个模型在同一划分上归一
+化，温度为1。正则项对参数量归一化，避免不同秩的规模差异。代理损失的降低不是
+任务收益证明，收益必须由独立评分确定。
+主配置AdamW 学习率2 × 10−5，betas=(0.9,0.999)，weight decay=0.01，梯度裁剪
+1.0，micro-batch=1、梯度累积16，BF16、梯度检查点开启。每次候选最多50 个优化步
+骤，无预热；源域回放与当前代理样本按1:1 交替。有效代理样本少于32 条则跳过参
+数更新，仍登记跳过原因。出现非有限损失、显存不足或20 分钟训练预算耗尽时终止
+候选并保留活动版本。保护集不参与梯度训练，候选只在最终步骤执行一次保护检查，
+避免按保护分数选择多个中间步骤。
+（5）经验库、更新周期与候选准入。在线流按原始时间顺序运行，每128 个已提交
+任务形成一个更新窗口。FIFO 原始缓冲区最多512 条，最多保留最近4 个窗口；冻结
+源域回放池最多512 条，按任务类型和类别分层从训练集选取，所有组使用相同清单。
+经验库上限1000 条，字段包括适用任务、可观测条件、动作摘要、执行结果、证据指
+针、规则版本、检测版本、创建窗口及有效期。近重复经验用规范化动作和错误类型的
+SHA-256 去重；检索先按任务、错误类型和规则兼容性过滤，再以BM25 评分排序，取
+前3 条，分数并列按创建编号排列。固定分词采用Unicode 字符级中文二元组与英文小
+写词，BM25 参数k1 = 1.2, b = 0.75，避免引入不受控检索模型更新。
+31
+
+
+--- PDF PAGE 33 ---
+经验准入要求至少有一个可追溯的成功工具结果和完整证据字段；涉及适用性推
+广的策略须在后续不同输入上至少2 次通过接口和证据检查，尚未满足时保存为候选。
+这里的“成功”仅表示执行及引用合法，不能声明视觉真值正确。对象类别、区域身份
+和风险等级均作为本次运行事实引用，不能抽取为跨场景永久事实。规则或检测主版
+本改变后，相关经验标记待复核；超过10 个窗口未使用或达到容量时，按最近使用时
+间、使用次数及创建编号确定淘汰顺序，完整历史仍保存在平台日志。
+参数候选和经验候选独立保存，可组合成四组实验。更新窗口中以哈希末位选择
+20% 轨迹作为无标签代理检查子集，剩余作为参数代理训练；同一轨迹不同时进入两
+者。候选必须同时满足：源域保护集结构化任务分数下降不超过1 个百分点、严重规
+则执行错误不增加、代理检查子集非法输出比例不高于活动版本、额外资源未超预算。
+保护集标签来自部署前源域，其检查服务仅返回预注册聚合结果；最终测试标签绝不
+参与审批。重复利用保护集可能带来选择偏差，因此最终能力保持仍以未用于候选检
+查的独立旧域测试计分。
+通过准入的候选仅在下一窗口边界成为活动版本，不重写已经提交的预测；当前
+无标签检查失败则丢弃候选。活动版本上线后，若一个128 任务窗口内的接口/证据失
+败率相对最近一个完整基线窗口增加超过5 个百分点，且失败任务不少于8 条，回退
+至上一个快照；连续2 次候选失败后暂停参数更新2 个窗口，保留推理与日志。此触发
+器仅监测代理异常，可能漏掉视觉性能退化，需在论文中据实讨论。恢复保存适配器、
+优化器、记忆快照、缓冲区顺序、数据游标、随机数状态与基座校验值。
+（6）执行算法与研究假设。为防止回放时看到未来信息，采用以下预顺序协议：
+1. 锁定活动版本，读取当前图像、任务与已配置区域；检索兼容经验并执行最多两次
+检测工具。
+2. 用规则引擎计算逐区域风险，将预测、证据及版本写入不可改写的运行记录，再推
+进数据游标。
+3. 用已获得工具结果执行接口与证据检查，形成失败类型；不查询任务真值。
+4. 每128 条任务在隔离工作进程构造参数及记忆候选，按冻结保护协议决定保留或
+拒绝。
+5. 新版本只处理未来输入；评分器在运行记录封存后关联测试标签，独立计算任务
+结果。
+研究假设是：对执行错误的受限学习有可能改善工具选择和证据组织，源域回放和版
+本恢复有可能降低持续更新的退化；这些假设不意味着能够在无新标签的情况下保证
+32
+
+
+--- PDF PAGE 34 ---
+提高检测器本身的识别能力。若固定检测器的漏检成为主要瓶颈，应通过独立感知指
+标说明，而不是把语言解释改进写成检测算法突破。研究路线见图9。
+当前观测与任务
+图像、区域、规则
+已冻结的活动版本
+执行并提交预测
+检测、区域关系、风险
+结构化证据与报告
+事后执行反馈
+格式与调用结果
+证据引用和规则检查
+参数候选
+语言层LoRA
+源域回放与保持约束
+经验候选
+适用条件、策略与来源
+去重、准入与失效
+缓冲区与失败归因
+仅使用当时可获得信息
+排除测试真值
+候选影子检查：源域保护集、执行代理指标、资源预算
+通过后仅影响未来窗口；不通过则丢弃候选，保存适配器、记忆与随机状态
+图9: 研究点二技术路线：先预测、后反馈、再更新的受约束自进化（拟开展）
+4.1.4
+研究点三：面向无人机巡检的多模态智能体系统与闭环管理平台
+（1）总体架构与运行流程。平台拟采用Vue 3 呈现数据、任务及风险证据，FastAPI 提
+供有类型接口，PostgreSQL 保存结构化记录与任务队列，MinIO 保存大文件，Docker 固
+定依赖。生成、推理及适应训练分别在独立工作进程运行，GPU 任务由数据库中的设备
+租约串行调度。ViewCrafter 的旧版PyTorch/PyTorch3D 环境与Qwen 的现代Transformers
+环境分离，防止依赖兼容问题影响复现。架构如图10所示。
+Vue 3：数据清单、任务配置、证据查看、版本比较与运行回放
+FastAPI：输入校验、任务状态机、版本解析、签名下载与报告服务
+生成工作进程
+ViewCrafter 独立环境
+生成图、相机
+与父样本清单
+检测与智能体工作进程
+YOLOv8 +
+Qwen2.5-VL
+区域规则与证据报告
+适应工作进程
+LoRA 训练与记忆更新
+候选检查及版本注册
+PostgreSQL
+任务、事件、版本依赖、经验索引
+MinIO
+图像、权重、标注、报告与运行快照
+Docker 固定依赖；GPU 互斥租约保证生成与适应顺序运行；产物以校验值寻址
+图10: 管理平台架构：界面、控制服务、独立工作进程和版本存储（拟建设）
+端到端流程包括八个步骤：导入图像及标注并登记校验值；选择数据划分、任务模
+板和区域规则；固定基座、检测器、适配器及记忆快照创建运行清单；工作进程读取图
+33
+
+
+--- PDF PAGE 35 ---
+像并执行目标检测；规则引擎计算区域风险；报告服务保存结构化结果及可视化证据；
+经验服务依据已完成运行形成候选经验或适应任务；检查通过的版本登记后用于新运
+行，并支持历史版本回放。报告中每项风险必须链接到实际输入图像、对象框、区域和
+触发规则，文本说明不是唯一证据存储。
+（2）数据与模型的版本关系。拟以不可变版本和追加事件构建有向依赖图。数据版
+本包含原始文件清单和分组划分；标注版本引用数据版本；生成版本引用父样本、相机
+轨迹、生成模型及随机种子；检测器版本引用训练数据、标签映射及训练配置；适配器
+版本引用语言基座、训练清单、父适配器和保护检查；经验快照引用运行事件；规则版
+本引用阈值表与区域类型。一个运行以
+Vrun = (vdata, vann, vD, vVLM, vϕ, vM, vrule, vprompt, vcode)
+(4.12)
+固定全部依赖。vann 仅指运行可读取的区域与任务配置；评测真值版本由独立评分清单
+绑定，不挂入推理输入。模型版本改变时不覆盖原对象存储路径，而创建新记录。活动
+版本只是指向已登记快照的可变指针，其切换在数据库事务中完成并记录操作前后编
+号。
+核心关系表拟包括dataset_version、sample、annotation_version、model_version
+、rule_version、memory_snapshot、run、task、event及artifact。
+样
+本
+保
+留
+parent_sample_id与scene_group_id，数据库约束不允许生成子样本跨父组划分；候选
+模型必须有父版本和完整训练清单才能进入检查状态。文件以SHA-256 寻址，数据库
+记录大小、媒体类型和存储键，下载时重新计算摘要。
+（3）任务状态机、幂等执行与错误恢复。任务状态依次为CREATED、QUEUED、RUNNING、
+VALIDATING和SUCCEEDED，也可进入RETRY_WAIT、FAILED或CANCELLED。候选版本使用另一
+条状态链：DRAFT、TRAINING、CHECKING、ACCEPTED/REJECTED，活动指针仅可指向ACCEPTED
+版本。每次合法转移写入事件序号、前后状态、尝试次数、时间和错误码。
+任务幂等键由输入清单摘要、完整配置摘要和任务类型组成。API 重复提交同一键
+时返回原任务编号；数据库采用唯一约束防止重复创建。工作进程通过行锁领取任务，
+租约120 秒、心跳30 秒，过期后由调度器恢复待执行状态。外部依赖超时或临时连接
+失败最多重试3 次，退避2、4、8 秒；缺失标注、校验值不符、非法坐标和模型不兼容
+属于确定性错误，立即失败而不盲目重试。OOM 不自动降低分辨率，因为这会改变实
+验条件；需要新配置和新任务编号才能重跑。
+产物先写入临时存储键，完成摘要与结构检查后，事务提交正式产物引用和任务
+成功事件；只有已提交引用对外可见。若进程在文件写入后、数据库提交前中断，重试
+按相同内容键识别已有文件，最终只产生一个成功提交记录。取消任务在安全检查点
+34
+
+
+--- PDF PAGE 36 ---
+中止，保留已完成步骤和部分产物标记，不将其计入成功率分子。GPU 租约与工作进
+程退出绑定，生成与适应不能同时占用实验单卡。
+（4）工具接口、日志与报告。工具输入必须包含schema_version、run_id、
+image_sha256、尺寸、模型版本与原图坐标定义；输出必须包含状态、对象编号、
+类别、分数、坐标、耗时和错误信息。规则接口只接受经过结构检查的检测对象与区
+域多边形，返回规则事件及等级。报告接口核对引用对象和区域存在后，才写入说明
+文本。完整字段示例见附录B。
+每次调用保存工具名、参数摘要、开始/结束时间、设备、峰值显存、输入输出摘
+要、异常堆栈位置和重试编号。语言模型保存实际输入消息、可观察的工具选择及输出
+文本；不依赖不可获得的模型内部推理状态。运行日志中的绝对时间用于审计，时延采
+用单调时钟计算，GPU 耗时在测量前后同步设备。日志按运行编号检索，不通过文件
+名猜测版本。
+（5）回放协议与系统评价。回放分为证据回放和计算回放。证据回放读取已封存的
+检测结果，在相同规则版本下重新计算风险，预期结构化等级、触发规则和证据引用完
+全相同；计算回放重新加载原图、权重、容器和种子运行工具，比较检测集合和输出。
+由于不同硬件算子可能存在数值差异，主计算回放固定同一设备和镜像，设置确定性
+选项、关闭TF32，报告框坐标误差、分数误差和最终风险一致率，不承诺任意硬件字
+节级相同。无法固定的非确定性算子必须在运行清单说明。
+平台以200 个固定短任务进行功能回放，分别注入重复提交、工作进程强制终止、
+对象存储超时和非法配置，每种20 次，其余为正常对照。检验是否出现重复成功提交、
+遗失已提交产物、错误版本执行和恢复后数据游标倒退。压力测试采用并发请求数1、
+2、4，推理GPU 仍按租约排队，分别统计等待和执行时间。平台方法路线如图11所示。
+数据与配置导入
+校验文件、划分和许可
+登记不可变版本
+创建任务清单
+固定模型、规则与记忆
+绑定输入校验值
+队列与工作进程
+状态机、租约、幂等执行
+追加运行事件
+检测与风险产物
+对象、区域关系、证据
+结构化报告与可视化
+经验与候选版本
+来源登记、训练清单
+检查记录、准入或拒绝
+运行与版本回放
+原输入、原配置、原镜像
+差异报告与恢复
+评价：任务完成率、风险证据追溯、端到端延迟、资源开销、回放一致性
+故障注入：重复消息、进程中断、对象存储超时、部分产物提交
+图11: 研究点三技术路线：版本化任务编排、证据归档与恢复回放（拟开展）
+35
+
+
+--- PDF PAGE 37 ---
+4.1.5
+统一实验协议与评价指标
+（1）实验分组及变量控制。实验按生成、适应和系统三个阶段开展，各阶段先冻结
+配置再运行最终测试。生成阶段比较真实图训练、常规二维增强、均匀视角、随机视角
+与目标相关视角；适应阶段至少比较固定链、无更新智能体、仅记忆、仅LoRA、联合
+更新及去除保持约束；系统阶段只改变故障与调度条件。具体分组见表6。
+表6: 主要实验分组及归因目标
+编号
+分组
+固定项
+待检验问题
+G0
+真实训练图，基础尺寸处
+理
+检测初始权重、训练步数、种
+子
+真实数据基线
+G1
+真实图加常规二维增强
+与G2–G4 相同检测增强配置
+常规增强的收益
+G2
+均匀视角生成加真实图
+生成帧数、标注预算、训练步
+数
+生成扩增是否有效
+G3
+随机候选视角生成
+与G2 相同候选及预算
+采样策略对结果的影响
+G4
+目标相关视角生成
+与G2/G3 相同生成、训练预算
+目标相关选择是否更有效
+A0
+固定检测—规则—模板链
+相同检测器和最多两次检测
+调用
+无需学习的强基线
+A1
+冻结多模态智能体
+相同模型、规则、工具预算
+智能体编排本身的作用
+A2
+仅经验记忆更新
+语言参数固定
+检索和经验积累贡献
+A3
+仅LoRA 更新
+记忆为空且固定
+参数适应贡献
+A4
+LoRA 与记忆联合
+与A2/A3 相同数据流及各自
+预算
+联合是否互补及额外成本
+A5
+联合但去除保持约束
+源域回放量及其他参数不变
+KL 与参数约束的作用
+A6
+联合但不作代理样本选择
+更新总步数不变
+错误反馈筛选的作用
+S0–S4
+正常与四类故障注入
+固定模型、输入及容器
+状态、幂等、恢复是否可靠
+附加消融分别删除式(4.6)的可见性、尺度或覆盖项；参数适应比较r ∈{4, 8, 16}；
+记忆比较top-k ∈{0, 1, 3, 5}；缓冲区比较128 与512；每次只改变一个变量。附加实验
+在开发域完成，最终只对冻结的主配置进行完整测试。若需要比较更多基线，必须给出
+额外预算，不从测试中挑选有利设置。所有核心组使用3 个随机种子，公开运行失败和
+预算中止的比例。
+持续适应将测试场景按可观察条件分为A（较清晰、目标较大）、B（小目标或斜
+视）、C（遮挡或较低照度），由标注与预先规则在实验前冻结。按A1 →B→C→A2 组织
+主流，其中A1 和A2 来自不同序列；最低每段128 个任务，无法达到则缩短为可满足
+样本数的两阶段并报告偏离原因。另设置B→A→C 的顺序敏感性对照，使用同样组划
+分和预算。每段结束保存快照，在独立进程上测试旧域探针，但探针评分在全部运行结
+束后才向研究者汇总，不用于运行中的候选选择。不同方法在相同顺序上比较，避免任
+务顺序成为隐藏变量。
+36
+
+
+--- PDF PAGE 38 ---
+（2）生成验证指标。已知相机的MatrixCity 保留目标视图用于测量像素误差与结构
+相似性。只对静态有效区域Ω计算
+MSEΩ=
+1
+3|Ω|
+∑
+u∈Ω
+∥ˆI(u) −I∗(u)∥2
+2,
+PSNRΩ= 10 log10
+1
+MSEΩ
+,
+(4.13)
+其中RGB 缩放至[0, 1]，I∗为未参与生成条件的目标图。SSIM 按11 像素高斯窗口、标
+准差1.5 计算，常数C1 = 0.012, C2 = 0.032，只汇总完整落在有效区域的窗口。LPIPS
+固定AlexNet 网络与0.1 版本权重，在静态有效的完整图像对上报告，不把动态掩码边
+缘的伪差异计入主比较。相机评价记录静态点重投影误差、候选生成成功率与拒绝原
+因；任务相关评价记录目标数量保持、人工重标后可见目标比例及不同尺寸区间分布。
+真实未知位姿图像没有配对真值，不报告伪造的PSNR；生成图好看或目标数量相似不
+能替代真实检测测试。
+（3）目标检测与风险分级指标。检测按COCO 风格IoU 阈值0.50 : 0.05 : 0.95 报告
+mAP、AP50 及小目标AP，并在原始图像像素尺度上按面积分组。人员、主车辆、其他
+车辆和新增障碍物分开报告；新增类别只在完整补标子集评分。另记录召回率与每图
+误检数，以说明风险漏报与误报来源。对固定检测器的适应实验，单次全图AP 应保持
+相同；若工具选择改变复检结果，单独称为“任务链检测AP”，同时报告调用次数和
+像素处理量。
+风险评价以逐区域事件为单位，预测事件须与同类型真值对象以IoU≥0.5 匹配，
+并引用正确区域及规则。风险Macro-F1 对L0–L3 计算，U 在有确定真值时作为未命中
+计入端到端结果；对真实标签为U 的样本另报拒答正确率。总体分级准确率、L3 召回、
+每百帧误报警数及逐类混淆矩阵同时给出。对非拒答集合A，定义
+Coverage = |A|
+N ,
+SelectiveError =
+∑
+i∈A I[ˆri ̸= ri]
+|A|
+.
+(4.14)
+覆盖率为零时选择性错误标为不适用，不能记为零错误。必须同时报告覆盖率和端到
+端指标，防止通过全部拒答取得表面可靠性。
+证据完整率为具有有效图像、对象、区域、规则与版本五类引用的风险项比例；证
+据正确率则需要标签检查对象与区域是否真实对应。两者分别报告，避免将“可以追
+溯到一个错误检测”写成正确性。为分离瓶颈，增加真实对象框输入规则引擎的上限
+实验，以及预测框输入的端到端实验；前者使用标签只作离线诊断，不作为在线方法或
+候选准入机制。
+（4）持续适应与效率指标。设Ai,j 为经过第i 阶段更新后在独立第j 条件探针上
+的任务分数，指标取端到端风险Macro-F1 和结构化任务成功率分别计算，不合并两者。
+37
+
+
+--- PDF PAGE 39 ---
+最终平均能力与遗忘为
+¯AT = 1
+T
+T
+∑
+j=1
+AT,j,
+FT =
+1
+T −1
+T−1
+∑
+j=1
+(
+max
+i=j,...,T Ai,j −AT,j
+)
+.
+(4.15)
+分数越高越好，T > 1；另外报告最终旧域相对初始模型的变化及新域相对无更新A1
+的差值。每千任务记录更新次数、拒绝候选数、回退次数、GPU 训练分钟、峰值显存、
+检索与推理延迟。若只改善代理指标而真实风险指标不变或降低，应明确判定为未证
+实任务收益。
+生成数据效率以同等人工标注张数下的检测分数比较，并绘制使用25%、50%、
+100% 训练标注预算时的真实结果曲线；该曲线在实验完成后绘制，本报告不提供虚
+构性能示意。参数和记忆联合组通常计算更多，因此同时给出等最大更新次数及等总
+GPU 时间两种比较。资源统计包括生成、标注、训练、适应和推理各阶段，人工标注
+时间单独列出。
+（5）系统指标、统计与复现记录。任务成功率定义为在给定预算内达到SUCCEEDED
+且输出满足协议的任务占比，语义正确性另按风险标签评价。处理延迟报告冷启动与
+热运行的中位数、P95 及排队时间，GPU 资源记录峰值allocated 和reserved 显存；CPU
+内存、对象存储量及日志增长量独立记录。证据回放比较字段规范化后的JSON 摘要；
+计算回放以类别一致、框IoU≥0.999 及分数误差≤10−4 为数值一致条件，并另报风险
+等级完全一致率。
+统计以场景组为基本单位进行配对bootstrap，重复1000 次、种子2030，给出95%
+区间。先在每种子内按场景计算指标，再对种子均值作场景配对重采样，并同时报告3
+个种子原始结果和标准差；不把相邻帧当作独立样本扩大显著性。小样本风险子类只
+给出描述性统计和实际支持数，不以零事件类别声称高准确率。最终运行清单封存后
+再解封测试评分；任何后续修改必须登记为新的探索性实验。实验闭环见图12。
+训练与开发域
+真实训练、生成扩增
+冻结源域回放与开发集
+配置冻结
+数据清单、种子、预算
+规则阈值与检查点
+独立运行域
+按时间先预测后更新
+只读取图像与合法反馈
+开发侧诊断
+调整视角或更新策略
+仅在冻结测试前进行
+运行归档
+提交预测、版本与证据
+标签服务独立隔离
+测试评分
+真实标签只用于评价
+不审批候选、不调阈值
+分别报告：新视角指标/ 真实检测指标/ 规则风险指标/ 适应收益与遗忘/ 系统开销
+按场景配对重采样计算区间；保留失败、无法判断与无增益结果
+图12: 统一实验闭环与标签隔离：开发反馈和最终测试分离（拟执行）
+38
+
+
+--- PDF PAGE 40 ---
+4.2
+可行性分析
+4.2.1
+任务边界明确与方法基础可复用
+课题限定于道路与园区类航拍场景中的可见人员、车辆和障碍物，以及预定义区
+域规则下的风险分级。将新视角生成限定为已训练场景模型的推理与采样策略，将参
+数更新限定为语言层低秩适配，将系统验证限定为公开数据回放，有助于在12 个月内
+形成相互衔接的实验。公开模型、数据和几何工具为基线复现提供了基础，拟实现的创
+新模块集中在目标相关视角选择、更新信号组织及闭环一致性约束。
+可复用不等于直接可用。ViewCrafter 在复杂航拍场景中的小目标表现、VisDrone
+补充风险标注的充分性以及LoRA 代理信号的有效性均需实际验证。研究设计保留均
+匀生成、固定规则链、仅记忆和无更新等可运行基线，使任何一项方法不成立时仍可给
+出可解释的比较结论。
+4.2.2
+前期资料与预研的作用边界
+前期资料梳理已经围绕持续学习、部署后适应及能力保持形成了问题分析，为本
+课题确定反馈来源、更新对象和评价条件提供了依据。无人机视角数据生成与规则化
+风险分级仍需要建立专门的数据和实验基线，既有通用视觉语言模型的适应记录不能
+直接替代这些验证。研究初期拟完成模型环境配置、少量样本试运行和评分脚本核对，
+并保存原始输入输出，使后续方法比较具有可重复的起点。
+4.2.3
+数据与标注可行性
+MatrixCity 和VisDrone 提供公开研究入口，分别支持已知位姿的合成验证与真实
+航拍检测。风险任务需要补充区域和障碍物，这部分工作量通过3000 帧真实标注和最
+多1200 帧生成标注的起始预算控制。主要风险在于公开数据的园区覆盖与障碍物支持
+数不足，因此在前两个月完成可用性核查。若某类样本不足，公开实际规模和评价限
+制，不通过复制样本或将道路设施任意改名扩大类别。
+数据划分、重复检查、区域输入和评分标签隔离均能够通过清单与独立进程实现。
+标注规范与冲突记录可以降低任务定义差异，但无法消除主观性；因此对不明确对象
+和区域边界设置无法判断标签，并报告标注复核分歧比例。
+4.2.4
+计算资源、工程条件与风险应对
+实验按单张48GB 级及以上显存GPU 设计，主机建议64GB 及以上内存、2TB 可
+用存储；这些是计划需求，不表示已确认设备归属。生成与适应顺序运行，模型权重缓
+存到本地。生成采用公开25 帧配置和逐帧解码，适应采用BF16、LoRA、梯度检查点
+39
+
+
+--- PDF PAGE 41 ---
+及小micro-batch，先进行10 条样本的峰值显存与吞吐试运行。每项主配置固定后不自
+动降分辨率，若超过显存预算，另建低分辨率实验组并明确其与主设置的差异。
+运行预算预先登记：每个生成策略最多48 GPU 小时或100 个参考场景，先到者停
+止；检测训练每种子最多24 GPU 小时；在线候选每次最多20 分钟及50 步。不同方法
+在相同实际完成的参考清单和训练步数上作主比较，预算提前终止的结果另列。预算
+为实验上限而非已测耗时。工程上先实现本地单机回放和事务状态，再扩展界面；不依
+赖实时飞控通信或外部商业模型API，降低外部服务变化造成的复现风险。
+若生成造成标签歧义，保留常规人工重标与失败统计并缩小视角幅度，不新增独
+立质量控制研究方向；若更新反馈无法带来收益，优先分析代理信号与实际错误的关
+系并报告负结果；若平台计算回放受算子非确定性影响，先保证证据回放和版本正确，
+再报告数值误差范围。上述预案保持课题的研究问题不变，同时使失败和局限能够转
+化为可验证的论文内容。
+5
+本课题的特色与创新之处
+5.1
+面向巡检目标的同场景视角选择与训练扩增
+已有场景生成方法主要验证新视角图像合成能力，本课题拟将研究重点放在有限
+预算下哪些新视角对巡检目标学习更有价值。与随机轨迹生成和常规二维增强相比，拟
+利用目标可见性、投影尺度和视角覆盖联合选择相机条件，并在生成图中重新建立标
+注与图文关系。创新性须由等预算随机、均匀及任务驱动采样的比较来验证；只有当真
+实测试中的检测效果或标注效率得到可重复改善，才能支持其应用价值。若收益主要
+来自样本数量，应据实缩小创新表述。
+5.2
+证据约束的参数适应与经验更新协同机制
+已有反思与自改进工作表明语言反馈可以改变后续行为，但其正确性往往依赖任
+务环境。针对巡检中无在线人工真值的条件，本课题拟明确区分可校验的工具执行事
+实与未确认视觉判断，研究失败类型驱动的更新分配、带来源的经验准入及源域回放
+约束。与直接自训练或只增加提示词案例相比，拟考察参数与记忆协同是否能以可接
+受代价降低格式、证据和策略错误，同时保持旧条件能力。通过独立消融、代理信号与
+真实指标相关性分析，以及污染经验压力测试判断机制是否成立。
+40
+
+
+--- PDF PAGE 42 ---
+5.3
+支持收益归因与恢复验证的巡检实验闭环
+已有智能体框架侧重任务编排，通用实验工具侧重运行记录；本课题拟围绕巡检
+风险证据，将样本衍生关系、工具版本、区域规则、适配器和记忆快照联合固化为运行
+清单，使每项风险输出和每次候选更新均可追溯至实际输入。与仅保存最终报告的原
+型相比，研究价值在于可重复比较、故障定位和恢复验证。拟通过跨版本回放、重复消
+息、工作进程中断和部分产物写入等实验，证明闭环机制满足预先定义的一致性约束，
+而不把技术栈组合本身作为创新。
+6
+研究进度安排
+研究计划以通过开题后的第1 个月为起点，共12 个月。数据可用性核查和最小闭
+环优先于扩展实验；各阶段保留可运行基线和失败记录，避免在生成、适应与平台三个
+方向同时扩大范围。具体安排见表7。若第2 个月结束时道路与园区风险子集的有效样
+表7: 开题后12 个月研究进度与阶段检查
+时间
+主要工作
+阶段产物与检查
+第1–2 月
+核对文献、许可和数据；完成场景划
+分、标注规范与检测基线
+冻结数据清单；确认三类对象和区域
+标注可行；保留基线输出
+第3–4 月
+复现ViewCrafter 与相机转换；实施均
+匀及目标驱动视角采样
+生成预算、失败记录、新建标注与真
+实检测对照
+第5–6 月
+建立单智能体、规则与证据输出；完成
+源域训练和记忆基线
+冻结输出协议；完成参数、记忆各自的
+最小实验
+第7–8 月
+开展连续适应、回放约束和候选恢复；
+进行污染经验消融
+新旧条件指标、更新开销、失败来源
+与边界分析
+第9 月
+集成数据、任务、版本和回放平台；实
+施故障注入
+端到端流程、追溯报告和系统测试记
+录
+第10 月
+完成预注册实验分组和多随机种子重
+复；整理统计分析
+冻结测试结果；核对泄漏、预算和置信
+区间
+第11 月
+撰写论文，补充有明确问题指向的实
+验与消融
+论文初稿、方法局限、可复现包
+第12 月
+修订论文和图表，整理材料并准备答辩
+学位论文定稿、原型演示与实验归档
+本不足，优先减少风险子类型而保留三种对象及明确的无法判断规则，并在冻结测试
+前修订实验登记。若生成扩增未显示真实检测收益，将保留负结果，分析目标尺度、相
+机幅度和生成标注误差；不通过反复查看测试集选择有利子集。若在线参数更新不稳
+定，保持仅记忆和无更新系统作为可交付基线，继续报告参数更新的适用边界。
+41
+
+
+--- PDF PAGE 43 ---
+7
+预期成果
+本课题预期形成一篇完整的硕士学位论文，系统讨论同场景新视角扩增、证据约
+束自适应与平台闭环三部分的关联及实验结果。方法产物包括目标相关视角采样程序、
+生成样本与标注转换工具、轻量适配器和经验更新原型，以及检测—规则—报告任务
+链。数据产物包括经许可可分发的增量标注、场景与序列划分清单、图文模板、风险规
+则与版本描述；对不允许再分发的图像，仅发布下载说明、原始标识和校验值。
+拟交付公开数据回放平台、容器与接口说明、版本恢复及回放工具，汇总固定预算
+对比、消融、统计区间、资源开销和失败案例，分别报告生成、检测、风险与系统指标。
+代码、标注和配置按许可整理为可复现材料。论文发表或专利申请根据实际研究质量
+决定，不预设录用或授权数量。
+42
+
+
+--- PDF PAGE 44 ---
+A
+复现配置与实施边界
+A.1
+公开实现与拟开发模块
+本报告交付的是开题研究方案及文档工程，不是已经完成的算法软件包。公开实
+现部分已有代码入口，可在安装其依赖和下载权重后复现；本课题模块的命令为拟定
+接口，必须在研究实施阶段开发后才能执行，不能将模板输出视作已有实验结果。二者
+区分见表8。
+表8: 实现来源与待开发内容
+模块
+公开基础
+本课题需要完成
+场景新视角
+ViewCrafter 公开推理与权
+重
+相机格式适配、目标相关候选评分、衍
+生清单
+几何与数据
+DUSt3R；MatrixCity 读取脚
+本
+单位核查、动态掩码、场景隔离、配对
+评价
+检测
+Ultralytics YOLOv8
+类别映射、完整障碍物标注、固定步数
+采样器
+视觉语言推理
+Qwen2.5-VL 官方检查点
+工具协议、源域训练数据、约束报告
+轻量更新
+PEFT 低秩适配基础
+代理信号掩码、回放保持、候选检查与
+恢复
+经验记忆
+BM25 基本算法
+任务过滤、准入、去重、失效与快照
+风险规则
+多边形几何运算
+区域协议、判定与拒答、证据报告及评
+分
+管理平台
+Vue、FastAPI、PostgreSQL、
+MinIO、Docker
+状态机、版本依赖、任务队列、故障回
+放
+A.2
+环境与主超参数
+生成环境采用公开README 的Python 3.9.16、PyTorch 1.13.1/CUDA 11.7 及Py-
+Torch3D 0.7.5 组合，独立容器安装官方依赖。检测与智能体环境拟采用Python 3.10、
+PyTorch 2.5.1/CUDA 12.4、Transformers 4.51.3、PEFT 0.15.2、Accelerate 1.6.0 及Ultralyt-
+ics 8.3.0；首次运行先检查模型加载与前后向兼容性，再导出完整锁文件。开发计划中的
+版本组合不表示已经完成GPU 端验证。平台采用Vue 3、FastAPI 0.115 系列、PostgreSQL
+16、MinIO 和Docker Compose，正式实验固定实际小版本及镜像digest。
+43
+
+
+--- PDF PAGE 45 ---
+表9: 核心配置、预算及停止条件
+项目
+主配置
+停止或选择规则
+生成检查点
+ViewCrafter_25；DUSt3R 512；稀疏
+组用对应sparse 权重
+保存下载revision 与SHA-256
+生成采样
+25 帧，576×1024，DDIM 50，CFG 7.5，
+eta=0
+每策略100 参考或48 GPU 小
+时
+视角选择
+26 候选，3 轨迹；每轨迹保留4 帧
+缺候选时不补造成功样本
+检测训练
+YOLOv8s，960，batch 8，SGD，100
+epoch
+按开发mAP 选权重，不看测
+试
+检测推理
+conf=0.25，NMS
+IoU=0.6，
+max_det=1000
+全图一次、复检至多一次
+视觉语言
+Qwen2.5-VL-7B-Instruct，BF16，4096
+上下文
+输出512 token，最多4 决策步
+骤
+源域LoRA
+r=8，alpha=16，dropout=.05，学习率
+10−4
+最多2 epoch，开发选择
+在线LoRA
+学习率2 × 10−5，有效batch 16，最
+多50 步
+不足32 代理样本跳过；20 分
+钟上限
+更新与记忆
+128 任务/窗口；512 缓冲；512 源回
+放；1000 经验
+top-3 检索，活动版本下一窗口
+生效
+随机种子
+划分2027；训练2027/2028/2029；生
+成123/124/125
+同组对比保持种子映射
+统计
+场景组配对bootstrap 1000 次，种子
+2030
+报告95% 区间及3 种子原始
+值
+公开模型仓库可能继续更新。初次实施需将Git commit、模型revision、每个权重
+文件摘要、Python 依赖锁和Docker digest 填入experiment.lock.json，校验完成后才可
+登记正式运行。本文不给未下载权重编造哈希值。单卡48GB 指显存设计目标，实际
+GPU 型号、驱动、CUDA 运行时和功率限制在测量时登记。使用其他显存或量化策略
+应作为不同配置组。
+A.3
+配置文件模板
+项目附带configs/proposal.yaml为拟实施配置。其字段完整表达方法约束；实验
+代码需按该schema 开发，不能直接把它传给原始ViewCrafter 或Ultralytics 程序。
+44
+
+
+--- PDF PAGE 46 ---
+experiment:
+title: uav_inspection_self_evolution
+split_seed: 2027
+run_seeds: [2027, 2028, 2029]
+label_access: scoring_process_only
+generation:
+baseline: ViewCrafter_25
+size: [576, 1024]
+frames: 25
+ddim_steps: 50
+ddim_eta: 0.0
+candidates: 26
+paths_per_scene: 3
+keep_frame_indices: [6, 12, 18, 24]
+adaptation:
+update_after_committed_tasks: 128
+buffer_capacity: 512
+source_replay_capacity: 512
+proxy_min_samples: 32
+max_steps: 50
+test_labels_visible: false
+memory:
+capacity: 1000
+retrieval_top_k: 3
+provenance_required: true
+A.4
+命令模板与公开入口
+以下第一段为ViewCrafter 公开参数形式，需在其仓库及对应环境中运行。真实相
+机角度应从已冻结轨迹配置读取，示例数值是一个候选，不代表通用飞行参数。
+python inference.py \
+--image_dir data/reference.png \
+--out_dir runs/viewcrafter \
+--mode single_view_target \
+--d_theta 10 --d_phi 15 --d_r -0.1 \
+--center_scale 1.0 --elevation 5 \
+--seed 123 --ddim_steps 50 --ddim_eta 0.0 \
+--video_length 25 --height 576 --width 1024 \
+--unconditional_guidance_scale 7.5 \
+--ckpt_path checkpoints/model.ckpt \
+--model_path checkpoints/DUSt3R_ViTLarge_BaseDecoder_512_dpt.pth \
+--config configs/inference_pvd_1024.yaml \
+--device cuda:0
+稀疏参考基线使用官方run_sparse.sh的sparse_view_interp模式和对应权重；任意
+MatrixCity 目标相机适配器属于本课题开发内容，不能假定该脚本直接接受所有数据集
+相机JSON。YOLO 基础复现命令如下，其数据YAML 须先完成类别转换：
+45
+
+
+--- PDF PAGE 47 ---
+yolo detect train model=yolov8s.pt data=data/uav.yaml \
+imgsz=960 batch=8 epochs=100 optimizer=SGD \
+lr0=0.01 momentum=0.937 weight_decay=0.0005 \
+seed=2027 deterministic=True patience=0 \
+close_mosaic=10 box=7.5 cls=0.5 dfl=1.5
+该命令用于公开基础训练；跨扩增组保持优化步数的采样器需在本课题训练封装
+中实现，并记录实际迭代数。以下命令为待实现接口模板，不属于现有可执行工具：
+python -m uav_research.prepare --config configs/proposal.yaml
+python -m uav_research.select_views --manifest train.jsonl
+python -m uav_research.build_samples --annotations generated.jsonl
+python -m uav_research.train_detector --group G4 --seed 2027
+python -m uav_research.replay --group A4 --stream stream.jsonl
+python -m uav_research.score --sealed-run runs/A4 --labels private/test.jsonl
+python -m uav_research.platform_test --suite fault_injection
+运行顺序是先数据与锁文件、再生成及离线重标、再检测和源域适配、再冻结规则
+与配置、最后运行在线回放和隔离评分。本文LaTeX 编译命令另见工程README，与
+上述研究算法命令相互独立。
+B
+数据、工具及日志字段
+B.1
+样本与区域清单
+每行JSON 对应一张图像，记录原始数据集标识、场景/序列组、时间索引、划分、
+父样本和文件摘要。以下为字段示意，示例中的摘要为明确占位值，不能进入正式运
+行。
+46
+
+
+--- PDF PAGE 48 ---
+{
+"schema_version": "1.0",
+"sample_id": "scene07_frame0042",
+"dataset": "VisDrone-derived",
+"scene_group_id": "scene07",
+"sequence_id": "sequence07",
+"frame_index": 42,
+"split": "test_stream",
+"image_sha256": "<fill_after_download>",
+"width": 1920,
+"height": 1080,
+"parent_sample_id": null,
+"camera_status": "unknown",
+"region_version": "region-r1",
+"regions": [{
+"region_id": "corridor-01",
+"type": "passage",
+"polygon_xy": [[240,180],[700,180],[760,800],[200,800]],
+"valid_frame_range": [42,42],
+"source": "offline_task_configuration"
+}]
+}
+生成图额外记录generator_revision、reference_ids、camera_matrix、
+camera_convention、scale_status、seed及generated=true。对象标注保存bbox_xyxy、
+类别、遮挡、忽略状态和复核版本。风险真值存入权限隔离的评分文件，不放进上述
+运行清单。
+B.2
+检测、规则和报告接口
+{
+"tool": "detect",
+"schema_version": "1.0",
+"run_id": "run-0001",
+"input": {
+"image_sha256": "<verified>",
+"detector_version": "detector-G4-seed2027",
+"coordinate_space": "original_image_xyxy"
+},
+"output": {
+"status": "ok",
+"objects": [{
+"object_id": "obj-001",
+"class": "vehicle",
+"score": 0.83,
+"bbox_xyxy": [300,250,380,330],
+"source_crop": null
+}],
+"elapsed_ms": "<measured>",
+"artifact_sha256": "<computed>"
+}
+}
+47
+
+
+--- PDF PAGE 49 ---
+上述分数和坐标仅说明字段类型，不代表实验结果。规则输出必须包含event_id
+、object_ids、region_id、rule_id、rule_version、level、relation_values、
+uncertainty_reason和evidence_image_sha256。报告只能引用这些结构化结果，且
+附report_schema_version与完整运行版本元组。
+B.3
+日志、状态快照和数据权限
+表10: 运行记录与恢复必需字段
+记录
+字段
+用途
+任务
+任务ID、幂等键、状态、尝试编
+号、租约期限
+去重、调度和失败恢复
+事件
+运行ID、序号、时间、事件类
+型、前后状态、错误码
+追加式追溯，不覆盖历史
+模型
+基座/检测/适配器ID、摘要、父
+版本、训练清单
+确定实际执行版本
+工具调用
+工具名、输入输出摘要、坐标空
+间、耗时、资源
+证据完整性与开销归因
+经验
+来源运行、适用条件、检查结果、
+失效版本
+限制错误泛化和过期使用
+更新快照
+游标、缓冲顺序、优化器、随机
+状态、记忆摘要
+恢复后只消费后续观测
+评分任务
+冻结预测清单、独立真值版本、
+评分代码摘要
+隔离测试标签，独立复算指标
+数据导入者、运行工作进程和评分工作进程采用不同数据库角色。推理工作进程
+只能读取运行图像、区域配置及已批准版本；评分真值放在独立存储桶，其访问凭据不
+挂载至推理和适应容器。保护检查服务可读取部署前源域保护标注，但只能返回预定
+义聚合检查结果，不返回最终测试标签。开发环境中同一研究者也应通过只读挂载和
+任务清单维持该边界。
+C
+风险标注细则与实验登记
+C.1
+区域、目标及无法判断的操作规则
+区域顶点按顺时针记录，禁止自交，越界顶点在导入时拒绝；不得在看到待评模型
+结果后移动区域边界。对象框以可见范围为标注依据，跨遮挡部分不补画未经确认的
+完整轮廓。人员足部不可见时记录footpoint_uncertain，规则引擎不把框底边当作可
+48
+
+
+--- PDF PAGE 50 ---
+靠足点。标注者同时记录区域可见比例和遮挡原因；区域有效面积可见比例低于80%
+或对象辨识不足时，该区域进入U。
+对图像占用比例阈值，人工真值也采用式(4.8)及相同不确定带，而非凭主观印象给
+等级。多个风险并存时分别标注事件，帧级摘要取最高确定等级并附是否存在未知区
+域。没有区域输入的图像只参与检测，不强行产生风险负例。对严重遮挡或类别模糊对
+象，不允许通过语言模型补全其隐藏身份。
+离线复核统计包括类别分歧率、框IoU 分布、区域边界差异与风险分级一致率。两
+轮标注若存在不同判断，保存初始值、修订值、理由和复核者匿名编号。发生规则版本
+更新时重新生成相应风险标签并另立实验，不混用R1 与新规则结果。
+C.2
+冻结实验登记清单
+正式测试前至少登记：数据来源与许可；文件及场景清单；标注规则与复核摘要；
+模型和软件版本；主组与消融组；训练步数及预算；开发选择规则；种子及顺序；全部
+指标的计算方式；失败与缺失处理；统计区间方法。登记文件计算SHA-256 并随运行
+归档。任何偏离，包括数据规模不足、GPU 预算提前耗尽或基线复现失败，都在实验
+报告中列明原因和影响。
+论文结论按证据强度表述。生成验证只能说明已知场景中的图像与几何表现；真
+实检测实验可以说明固定数据和预算下的目标识别变化；规则风险实验说明既定任务
+定义下的判定与证据能力；在线更新实验说明无测试标签条件下的经验利用效果；系
+统实验说明所测部署配置中的可追溯与恢复特性。五类结论不能相互替代，也不能直
+接推广为真实事故预防能力。
+49

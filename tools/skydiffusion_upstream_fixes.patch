@@ -1,0 +1,126 @@
+--- a/skydiffusion_test.py
++++ b/skydiffusion_test.py
+@@ -26,9 +26,9 @@
+         logger_freq = 1,
+         sample_num = 10000,
+         unconditional_guidance_scale = 9.0,
+-        num_gpus = 8,
++        num_gpus = 1,
+         is_cvusa = False,
+-        negative_prompt = ""
++        negative_prompt = "",
+         dataset_name = "CVACT"
+     )
+     parser = argparse.ArgumentParser()
+@@ -43,7 +43,7 @@
+     pl.seed_everything(args.seed, workers=True)
+ 
+     model = create_model(args.config_path).cpu()
+-    model.load_state_dict(load_state_dict(args.model_path, location='cpu'), strict=False)
++    model.load_state_dict(load_state_dict(args.model_path, location='cpu'), strict=True)
+     model = model.cuda()
+     model.eval()
+ 
+@@ -61,8 +61,9 @@
+     }
+     logger = ValidImageLogger(args.result_dir, args.logger_freq, log_images_kwargs=log_images_kwargs)
+     trainer = pl.Trainer(
+-        gpus=args.num_gpus,
+-        strategy="ddp",
++        accelerator="gpu",
++        devices=args.num_gpus,
++        strategy="ddp" if args.num_gpus > 1 else "auto",
+         precision=32,
+         max_epochs=1,
+         callbacks=[logger]
+--- a/cruvedbev.py
++++ b/cruvedbev.py
+@@ -84,7 +84,7 @@
+         return out_val, None  # Return only the interpolated values if no jacobian is provided
+ 
+ 
+-def BEV_transform(rot, S, H, W, meter_per_pixel, Camera_height):
++def BEV_transform(rot, S, H, W, meter_per_pixel, Camera_height, curve_height=3.0):
+ 
+     # This function performs BEV conversion and establishes the mapping relationships between different coordinates.
+     # Create a meshgrid for coordinates
+@@ -98,7 +98,7 @@
+     max_dist = torch.sqrt(torch.tensor(2*(S/2)**2, dtype=torch.float32, device=rot.device))
+     dist_to_center = torch.sqrt((ii - S/2)**2 + (jj - S/2)**2)
+     normalized_dist = dist_to_center / max_dist
+-    h = 3 * (normalized_dist**4)
++    h = curve_height * (normalized_dist**4)
+ 
+ 
+     # Calculate the radius from the center of the grid
+@@ -171,7 +171,7 @@
+     return np.transpose(transformed_image.detach().cpu().numpy()[0], (1, 2, 0))
+ 
+ 
+-def CruvedBEV(input_path, dataset="CVACT"):
++def CruvedBEV(input_path, dataset="CVACT", meter_per_pixel=0.06, camera_height=-1.5, curve_height=3.0, north_offset_deg=0.0, panorama_height=None, panorama_width=None):
+ 
+     # Set parameters for image processing（CVACT）
+     if dataset == "CVACT":
+@@ -186,17 +186,28 @@
+         W = 1232          # Width of the input street image
+         Camera_height = -1.5 # Camera height parameter for BEV transformation (Assume the difference between the ground height and the camera height)
+     
++    elif dataset == "G2A-3":
++        S = 512
++        H = 512
++        W = 1024
++        Camera_height = camera_height
+     else:
+-        raise ValueError("The dataset must be one of [CVACT, CVUSA, VIGOR, G2A-3]")
++        raise ValueError("The dataset must be one of [CVACT, CVUSA, G2A-3]")
++
++    if panorama_height is not None or panorama_width is not None:
++        if panorama_height is None or panorama_width is None or min(panorama_height, panorama_width) <= 0:
++            raise ValueError("Both panorama dimensions must be positive")
++        H, W = panorama_height, panorama_width
+ 
+     # Create a rotation tensor with all values set to 90 degrees (If North is in the center of Street View)
+-    rot = torch.tensor([90], dtype=torch.float32)
++    rot = torch.tensor([90.0 + north_offset_deg / 180.0], dtype=torch.float32)
+ 
+     # Define the scale of meters per pixel （CVACT & CVUSA）
+-    meter_per_pixel = 0.06 
++    Camera_height = camera_height
+ 
+     # Compute UV coordinates for the satellite to ground transformation
+-    uv = BEV_transform(rot, S, H, W, meter_per_pixel, Camera_height)
++    uv = BEV_transform(rot, S, H, W, meter_per_pixel, Camera_height, curve_height=curve_height)
+ 
+     # Process images using the computed UV coordinates
+-    Transformation_SVI(input_path, uv, H, W)
++    transformed = Transformation_SVI(input_path, uv, H, W)
++    return np.clip(transformed * 255.0, 0, 255).round().astype(np.uint8)
+--- a/ldm/modules/encoders/modules.py
++++ b/ldm/modules/encoders/modules.py
+@@ -2,7 +2,7 @@
+ import torch.nn as nn
+ from torch.utils.checkpoint import checkpoint
+ 
+-from transformers import T5Tokenizer, T5EncoderModel, CLIPTokenizer, CLIPTextModel
++from transformers import T5Tokenizer, T5EncoderModel, CLIPTokenizer, CLIPTextModel, CLIPTextConfig
+ 
+ import open_clip
+ from ldm.util import default, count_params
+@@ -93,11 +93,14 @@
+         "hidden"
+     ]
+     def __init__(self, version="openai/clip-vit-large-patch14", device="cuda", max_length=77,
+-                 freeze=True, layer="last", layer_idx=None):  # clip-vit-base-patch32
++                 freeze=True, layer="last", layer_idx=None, load_pretrained=True):
+         super().__init__()
+         assert layer in self.LAYERS
+         self.tokenizer = CLIPTokenizer.from_pretrained(version)
+-        self.transformer = CLIPTextModel.from_pretrained(version)
++        if load_pretrained:
++            self.transformer = CLIPTextModel.from_pretrained(version)
++        else:
++            self.transformer = CLIPTextModel(CLIPTextConfig.from_pretrained(version))
+         self.device = device
+         self.max_length = max_length
+         if freeze:

@@ -1,0 +1,19 @@
+{
+  "title": "WAVE: Warp-Based View Guidance for Consistent Novel View Synthesis Using a Single Image",
+  "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Park_WAVE_Warp-Based_View_Guidance_for_Consistent_Novel_View_Synthesis_Using_ICCV_2025_paper.html",
+  "abstract": "Generating high-quality novel views of a scene from a single image requires maintaining structural coherence across different views, referred to as view consistency.While diffusion models have driven advancements in novel view synthesis, they still struggle to preserve spatial continuity across views. Diffusion models have been combined with 3D models to address the issue, but such approaches lack efficiency due to their complex multi-step pipelines.This paper proposes a novel view-consistent image generation method which utilizes diffusion models without additional modules. Our key idea is to enhance diffusion models with a training-free method that enables adaptive attention manipulation and noise reinitialization by leveraging view-guided warping to ensure view consistency. Through our comprehensive metric framework suitable for novel-view datasets, we show that our method improves view consistency across various diffusion models, demonstrating its broader applicability.",
+  "links": [
+    {
+      "text": "pdf",
+      "href": "/content/ICCV2025/papers/Park_WAVE_Warp-Based_View_Guidance_for_Consistent_Novel_View_Synthesis_Using_ICCV_2025_paper.pdf"
+    },
+    {
+      "text": "supp",
+      "href": "/content/ICCV2025/supplemental/Park_WAVE_Warp-Based_View_ICCV_2025_supplemental.pdf"
+    },
+    {
+      "text": "arXiv",
+      "href": "http://arxiv.org/abs/2506.23518"
+    }
+  ]
+}

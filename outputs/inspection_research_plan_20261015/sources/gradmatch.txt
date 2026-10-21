@@ -1,0 +1,32 @@
+GRAD-MATCH: Gradient Matching based Data Subset Selection for Efficient Deep Model Training Proceedings of Machine Learning Research Volume 139 JMLR DMLR TMLR MLOSS FAQ Submission Format [ edit ] GRAD-MATCH: Gradient Matching based Data Subset Selection for Efficient Deep Model Training Krishnateja Killamsetty, Durga S, Ganesh Ramakrishnan, Abir De, Rishabh Iyer Proceedings of the 38th International Conference on Machine Learning , PMLR 139:5464-5474, 2021. Abstract The great success of modern machine learning models on large datasets is contingent on extensive computational resources with high financial and environmental costs. One way to address this is by extracting subsets that generalize on par with the full data. In this work, we propose a general framework, GRAD-MATCH, which finds subsets that closely match the gradient of the \emph{training or validation} set. We find such subsets effectively using an orthogonal matching pursuit algorithm. We show rigorous theoretical and convergence guarantees of the proposed algorithm and, through our extensive experiments on real-world datasets, show the effectiveness of our proposed framework. We show that GRAD-MATCH significantly and consistently outperforms several recent data-selection algorithms and achieves the best accuracy-efficiency trade-off. GRAD-MATCH is available as a part of the CORDS toolkit: \url{https://github.com/decile-team/cords}. Cite this Paper BibTeX @InProceedings{pmlr-v139-killamsetty21a,
+  title = 	 {GRAD-MATCH: Gradient Matching based Data Subset Selection for Efficient Deep Model Training},
+  author =       {Killamsetty, Krishnateja and S, Durga and Ramakrishnan, Ganesh and De, Abir and Iyer, Rishabh},
+  booktitle = 	 {Proceedings of the 38th International Conference on Machine Learning},
+  pages = 	 {5464--5474},
+  year = 	 {2021},
+  editor = 	 {Meila, Marina and Zhang, Tong},
+  volume = 	 {139},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {18--24 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v139/killamsetty21a/killamsetty21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v139/killamsetty21a.html},
+  abstract = 	 {The great success of modern machine learning models on large datasets is contingent on extensive computational resources with high financial and environmental costs. One way to address this is by extracting subsets that generalize on par with the full data. In this work, we propose a general framework, GRAD-MATCH, which finds subsets that closely match the gradient of the \emph{training or validation} set. We find such subsets effectively using an orthogonal matching pursuit algorithm. We show rigorous theoretical and convergence guarantees of the proposed algorithm and, through our extensive experiments on real-world datasets, show the effectiveness of our proposed framework. We show that GRAD-MATCH significantly and consistently outperforms several recent data-selection algorithms and achieves the best accuracy-efficiency trade-off. GRAD-MATCH is available as a part of the CORDS toolkit: \url{https://github.com/decile-team/cords}.}
+} Copy to Clipboard Download Endnote %0 Conference Paper
+%T GRAD-MATCH: Gradient Matching based Data Subset Selection for Efficient Deep Model Training
+%A Krishnateja Killamsetty
+%A Durga S
+%A Ganesh Ramakrishnan
+%A Abir De
+%A Rishabh Iyer
+%B Proceedings of the 38th International Conference on Machine Learning
+%C Proceedings of Machine Learning Research
+%D 2021
+%E Marina Meila
+%E Tong Zhang	
+%F pmlr-v139-killamsetty21a
+%I PMLR
+%P 5464--5474
+%U https://proceedings.mlr.press/v139/killamsetty21a.html
+%V 139
+%X The great success of modern machine learning models on large datasets is contingent on extensive computational resources with high financial and environmental costs. One way to address this is by extracting subsets that generalize on par with the full data. In this work, we propose a general framework, GRAD-MATCH, which finds subsets that closely match the gradient of the \emph{training or validation} set. We find such subsets effectively using an orthogonal matching pursuit algorithm. We show rigorous theoretical and convergence guarantees of the proposed algorithm and, through our extensive experiments on real-world datasets, show the effectiveness of our proposed framework. We show that GRAD-MATCH significantly and consistently outperforms several recent data-selection algorithms and achieves the best accuracy-efficiency trade-off. GRAD-MATCH is available as a part of the CORDS toolkit: \url{https://github.com/decile-team/cords}. Copy to Clipboard Download APA Killamsetty, K., S, D., Ramakrishnan, G., De, A. & Iyer, R.. (2021). GRAD-MATCH: Gradient Matching based Data Subset Selection for Efficient Deep Model Training. Proceedings of the 38th International Conference on Machine Learning , in Proceedings of Machine Learning Research 139:5464-5474 Available from https://proceedings.mlr.press/v139/killamsetty21a.html. Copy to Clipboard Download Related Material Download PDF Supplementary PDF This site last compiled Sun, 04 Oct 2026 21:05:17 +0000 Github Account Copyright © The authors and PMLR 2026. MLResearchPress

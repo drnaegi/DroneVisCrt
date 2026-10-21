@@ -1,0 +1,62 @@
+{
+  "sample_count": 3,
+  "mean": {
+    "psnr_db": 12.368755280715819,
+    "ssim_rgb": 0.09562168270349503,
+    "lpips_alex": 0.6411018570264181,
+    "psnr_rgb_capped40_db": 12.368754889853536,
+    "ssim_y": 0.09729278339742782
+  },
+  "per_sample": [
+    {
+      "name": "2-6Pro9zN1qOxbFSTigfAg_grdView",
+      "psnr_db": 13.401837994279436,
+      "ssim_rgb": 0.09296909719705582,
+      "lpips_alex": 0.6003913283348083,
+      "target_resized": true,
+      "reference": "/root/DroneVisCrt/code/skydiffusion/examples/gt/2-6Pro9zN1qOxbFSTigfAg_satView_polish.jpg",
+      "psnr_rgb_capped40_db": 13.40183798798415,
+      "ssim_y": 0.09374361272771078
+    },
+    {
+      "name": "cSsY4Js1I4eYNdAgcmKxzg_grdView",
+      "psnr_db": 11.883169668471425,
+      "ssim_rgb": 0.10811040550470352,
+      "lpips_alex": 0.615446925163269,
+      "target_resized": true,
+      "reference": "/root/DroneVisCrt/code/skydiffusion/examples/gt/cSsY4Js1I4eYNdAgcmKxzg_satView_polish.jpg",
+      "psnr_rgb_capped40_db": 11.883168884472003,
+      "ssim_y": 0.11048923769358363
+    },
+    {
+      "name": "EFcX7D8xMiXIrWwznx225Q_grdView",
+      "psnr_db": 11.821258179396597,
+      "ssim_rgb": 0.08578554540872574,
+      "lpips_alex": 0.7074673175811768,
+      "target_resized": true,
+      "reference": "/root/DroneVisCrt/code/skydiffusion/examples/gt/EFcX7D8xMiXIrWwznx225Q_satView_polish.jpg",
+      "psnr_rgb_capped40_db": 11.821257797104456,
+      "ssim_y": 0.08764549977098908
+    }
+  ],
+  "definitions": {
+    "psnr_db": "skimage PSNR, RGB [0,1], data_range=1, no 40 dB cap",
+    "ssim_rgb": "skimage SSIM, RGB [0,1], channel_axis=-1, default uniform 7x7 window",
+    "lpips_alex": "lpips 0.1.4, pretrained AlexNet, RGB [-1,1]",
+    "target_resize": "only if needed: OpenCV INTER_LINEAR to generated image size; G2A-3 targets are already 512x512",
+    "psnr_rgb_capped40_db": "matches upstream eval/eval.py: RGB float32 MSE, eps=0.0001, max 40 dB",
+    "ssim_y": "matches upstream eval/eval.py: skimage rgb2yuv Y, data_range=1, default uniform 7x7 window"
+  },
+  "evaluation_profile": "upstream",
+  "reference": "target",
+  "primary_metrics": {
+    "psnr_db": 12.368754889853536,
+    "ssim": 0.09729278339742782,
+    "lpips_alex": 0.6411018570264181
+  },
+  "paper_protocol_verified": false,
+  "lpips_status": "AlexNet matches active eval/evaluation.py; eval/eval.py comments out LPIPS; paper table protocol is unconfirmed",
+  "reference_status": "eval/evaluation.py uses *_reconstruction.png (VAE decoded target), not original target PNG; paper reference is unconfirmed",
+  "scope": "diagnostic sample evaluation; not paper benchmark scores",
+  "fid": "not computed: sample count is too small for a useful FID comparison"
+}

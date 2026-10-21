@@ -1,0 +1,35 @@
+[
+  {
+    "key": "viewcrafter",
+    "error": "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=35)"
+  },
+  {
+    "key": "viewcrafter_arxiv",
+    "url": "https://arxiv.org/abs/2409.02048",
+    "status": 200,
+    "bytes": 42661,
+    "excerpt": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head><script>document.documentElement.classList.add('js');</script>  <title>[2409.02048] ViewCrafter: Taming Video Diffusion Models for High-fidelity Novel View Synthesis</title>\n  <meta name=\"viewport\" content=\"wid"
+  },
+  {
+    "key": "ccf_ai",
+    "url": "https://www.ccf.org.cn/Academic_Evaluation/AI/",
+    "status": 200,
+    "bytes": 16124,
+    "excerpt": "<!doctype html>\n<meta charset=\"UTF-8\">\n<meta name=\"aliyun_waf_aa\" content=\"ff926c7f07e45e2e487a29a6197d3460\">\n<meta name=\"aliyun_waf_bb\" content=\"eade71455e2ad9c6d08b82bc7d98df8c\">\n<title></title>\n<meta name=\"viewport\" content=\"width=device-width,ini"
+  },
+  {
+    "key": "ccf_cg",
+    "url": "https://www.ccf.org.cn/Academic_Evaluation/CGAndMT/",
+    "status": 200,
+    "bytes": 16124,
+    "excerpt": "<!doctype html>\n<meta charset=\"UTF-8\">\n<meta name=\"aliyun_waf_aa\" content=\"ff926c7f07e45e2e487a29a6197d3460\">\n<meta name=\"aliyun_waf_bb\" content=\"eade71455e2ad9c6d08b82bc7d98df8c\">\n<title></title>\n<meta name=\"viewport\" content=\"width=device-width,ini"
+  },
+  {
+    "key": "matrixcity",
+    "error": "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=35)"
+  },
+  {
+    "key": "visdrone",
+    "error": "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=35)"
+  }
+]

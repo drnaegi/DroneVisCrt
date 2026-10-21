@@ -1,0 +1,2020 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 86,
+    "items": [
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              11,
+              30
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Novel view synthesis aims to generate novel views from one or more given source views. Although existing methods have achieved promising performance, they usually require paired views with different poses to learn a pixel transformation. This article proposes an unsupervised network to learn such a pixel transformation from a single source image. In particular, the network consists of a token transformation module that facilities the transformation of the features extracted from a source image into an intrinsic representation with respect to a pre-defined reference pose and a view generation module that synthesizes an arbitrary view from the representation. The learned transformation allows us to synthesize a novel view from any single source image of an unknown pose. Experiments on the widely used view synthesis datasets have demonstrated that the proposed network is able to produce comparable results to the state-of-the-art methods despite the fact that learning is unsupervised and only a single source image is required for generating a novel view. The code will be available upon the acceptance of the article.</jats:p>",
+        "DOI": "10.1145/3587467",
+        "title": [
+          "Novel View Synthesis from a Single Unposed Image via Unsupervised Learning"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-6949-4147",
+            "authenticated-orcid": false,
+            "given": "Bingzheng",
+            "family": "Liu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Electrical and Information Engineering, Tianjin University, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3171-7680",
+            "authenticated-orcid": false,
+            "given": "Jianjun",
+            "family": "Lei",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electrical and Information Engineering, Tianjin University, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6932-0622",
+            "authenticated-orcid": false,
+            "given": "Bo",
+            "family": "Peng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electrical and Information Engineering, Tianjin University, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0929-9224",
+            "authenticated-orcid": false,
+            "given": "Chuanbo",
+            "family": "Yu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electrical and Information Engineering, Tianjin University, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4427-2687",
+            "authenticated-orcid": false,
+            "given": "Wanqing",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Advanced Multimedia Research Lab, University of Wollongong, Australia"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5741-7937",
+            "authenticated-orcid": false,
+            "given": "Nam",
+            "family": "Ling",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science and Engineering, Santa Clara University, USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              31
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3587467",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3587467",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3587467",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              31
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              11,
+              30
+            ]
+          ]
+        },
+        "abstract": "<jats:p>View synthesis (VS) for light field images is a very time-consuming task due to the great quantity of involved pixels and intensive computations, which may prevent it from the practical three-dimensional real-time systems. In this article, we propose an acceleration approach for deep learning-based light field view synthesis, which can significantly reduce calculations by using compact-resolution (CR) representation and super-resolution (SR) techniques, as well as light-weight neural networks. The proposed architecture has three cascaded neural networks, including a CR network to generate the compact representation for original input views, a VS network to synthesize new views from down-scaled compact views, and a SR network to reconstruct high-quality views with full resolution. All these networks are jointly trained with the integrated losses of CR, VS, and SR networks. Moreover, due to the redundancy of deep neural networks, we use the efficient light-weight strategy to prune filters for simplification and inference acceleration. Experimental results demonstrate that the proposed method can greatly reduce the processing time and become much more computationally efficient with competitive image quality.</jats:p>",
+        "DOI": "10.1145/3459098",
+        "title": [
+          "A Fast View Synthesis Implementation Method for Light Field Applications"
+        ],
+        "author": [
+          {
+            "given": "Wei",
+            "family": "Gao",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Electronic and Computer Engineering, Shenzhen Graduate School, Peking University, and Artificial Intelligence Research Center, Peng Cheng Laboratory, Nanshan, Shenzhen, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Linjie",
+            "family": "Zhou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronic and Computer Engineering, Shenzhen Graduate School, Peking University, and Artificial Intelligence Research Center, Peng Cheng Laboratory, Nanshan, Shenzhen, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Lvfang",
+            "family": "Tao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronic and Computer Engineering, Shenzhen Graduate School, Peking University, and Artificial Intelligence Research Center, Peng Cheng Laboratory, Nanshan, Shenzhen, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              11,
+              12
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3459098",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3459098",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3459098",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              11,
+              12
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              30
+            ]
+          ]
+        },
+        "abstract": "<jats:p>\n                    The increasing deployment of multi-sensor systems in smart homes, surveillance, and assistive robotics has intensified research on multi-view action recognition. While existing research is effective under fully overlapping sensor configurations, real-world systems typically exhibit partially overlapping views, where actions are visible only in a subset of sensors. This non-uniform visibility, coupled with severe occlusions and inconsistent view coverage across sensors, poses a major challenge for reliable action recognition. Moreover, most current methods focus on implicit feature fusion and overlook explicit reasoning about contextual cues and prediction-level consistency across views, leading to degraded performance under occlusion and misalignment. To address these challenges, we propose\n                    <jats:bold>Context-aware and View-consistent learning (CoVi)</jats:bold>\n                    , a unified method that enhances multi-view action recognition by jointly modeling contextual dependencies and cross-view coherence. CoVi introduces two plug-and-play modules: Context-aware and View-aware modules. The former adaptively integrates local human-centric and global scene-level information through gated fusion, enabling the model to emphasize informative regions and suppress background noise for fine-grained contextual reasoning. The latter enforces prediction alignment across co-visible views using confidence-weighted Jensen–Shannon divergence, ensuring consistent learning under view disparity and partial visibility. Extensive experiments conducted on two real-world home environments from the MultiSensor-Home dataset and the MM-Office dataset demonstrate that CoVi consistently outperforms state-of-the-art baselines in both uni-modal and multi-modal settings, validating its effectiveness and generalizability across diverse sensor configurations and scene types.\n                  </jats:p>",
+        "DOI": "10.1145/3837863",
+        "title": [
+          "Context-aware and View-consistent Learning for Multi-view Action Recognition"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-8976-2922",
+            "authenticated-orcid": false,
+            "given": "Trung Thanh",
+            "family": "Nguyen",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Nagoya University, Nagoya, Japan and RIKEN, Kyoto, Japan"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3799-4550",
+            "authenticated-orcid": false,
+            "given": "Yasutomo",
+            "family": "Kawanishi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Ritsumeikan University, Osaka, Japan, RIKEN, Kyoto, Japan and Nagoya University, Nagoya, Japan"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3041-4330",
+            "authenticated-orcid": false,
+            "given": "Takahiro",
+            "family": "Komamizu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nagoya University, Nagoya, Japan"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3942-9296",
+            "authenticated-orcid": false,
+            "given": "Ichiro",
+            "family": "Ide",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nagoya University, Nagoya, Japan"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              7
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3837863",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3837863",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              9,
+              7
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              8,
+              31
+            ]
+          ]
+        },
+        "abstract": "<jats:p>3D model retrieval has been widely utilized in numerous domains, such as computer-aided design, digital entertainment, and virtual reality. Recently, many graph-based methods have been proposed to address this task by using multi-view information of 3D models. However, these methods are always constrained by many-to-many graph matching for the similarity measure between pairwise models. In this article, we propose a multi-view graph matching method (MVGM) for 3D model retrieval. The proposed method can decompose the complicated multi-view graph-based similarity measure into multiple single-view graph-based similarity measures and fusion. First, we present the method for single-view graph generation, and we further propose the novel method for the similarity measure in a single-view graph by leveraging both node-wise context and model-wise context. Then, we propose multi-view fusion with diffusion, which can collaboratively integrate multiple single-view similarities w.r.t. different viewpoints and adaptively learn their weights, to compute the multi-view similarity between pairwise models. In this way, the proposed method can avoid the difficulty in the definition and computation of the traditional high-order graph. Moreover, this method is unsupervised and does not require a large-scale 3D dataset for model learning. We conduct evaluations on four popular and challenging datasets. The extensive experiments demonstrate the superiority and effectiveness of the proposed method compared against the state of the art. In particular, this unsupervised method can achieve competitive performances against the most recent supervised and deep learning method.</jats:p>",
+        "DOI": "10.1145/3387920",
+        "title": [
+          "Multi-View Graph Matching for 3D Model Retrieval"
+        ],
+        "author": [
+          {
+            "given": "Yu-Ting",
+            "family": "Su",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Tianjin University, Tianjin, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Wen-Hui",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Tianjin University, Tianjin, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Wei-Zhi",
+            "family": "Nie",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Tianjin University, Tianjin, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "An-An",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Tianjin University, Tianjin, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2020,
+              7,
+              5
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3387920",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3387920",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3387920",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              7,
+              5
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              8,
+              24
+            ]
+          ]
+        },
+        "abstract": "<jats:p>With the huge advance in Internet technology as well as the availability of low-cost 3D display devices, 3D image transmission has become popular in recent times. Since watermarking has become regarded as a potential Digital Rights Management (DRM) tools in the past decade, 3D image watermarking is an emerging research topic. With the introduction of the Depth Image-Based Rendering (DIBR) technique, 3D image watermarking is a more challenging task, especially for synthetic view generation. In this article, synthetic view generation is regarded as a potential attack, and a blind watermarking scheme is proposed that can resist it. In the proposed scheme, the watermark is embedded into the low-pass filtered dependent view region of 3D images. Block Discrete Cosine Transformation (DCT) is used for spatial-filtration of the dependent view region to find the DC coefficient with horizontally shifted coherent regions from the left and right view to make the scheme robust against synthesis view attack. A comprehensive set of experiments have been carried out to justify the robustness of the proposed scheme over related existing schemes with respect to Stereo JPEG compression and different noise addition attacks.</jats:p>",
+        "DOI": "10.1145/2957751",
+        "title": [
+          "Depth-Based View-Invariant Blind 3D Image Watermarking"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-8372-5669",
+            "authenticated-orcid": false,
+            "given": "Shuvendu",
+            "family": "Rana",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Indian Institute of Technology Guwahati, Assam, India"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Arijit",
+            "family": "Sur",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Indian Institute of Technology Guwahati, Assam, India"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2016,
+              8,
+              3
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/2957751",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/2957751",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/2957751",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              8,
+              3
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              8,
+              31
+            ]
+          ]
+        },
+        "abstract": "<jats:p>This article considers the problem of few-shot learning for food recognition. Automatic food recognition can support various applications, e.g., dietary assessment and food journaling. Most existing works focus on food recognition with large numbers of labelled samples, and fail to recognize food categories with few samples. To address this problem, we propose a Multi-View Few-Shot Learning (MVFSL) framework to explore additional ingredient information for few-shot food recognition. Besides category-oriented deep visual features, we introduce ingredient-supervised deep network to extract ingredient-oriented features. As general and intermediate attributes of food, ingredient-oriented features are informative and complementary to category-oriented features, and thus they play an important role in improving food recognition. Particularly in few-shot food recognition, ingredient information can bridge the gap between disjoint training categories and test categories. To take advantage of ingredient information, we fuse these two kinds of features by first combining their feature maps from their respective deep networks and then convolving combined feature maps. Such convolution is further incorporated into a multi-view relation network, which is capable of comparing pairwise images to enable fine-grained feature learning. MVFSL is trained in an end-to-end fashion for joint optimization on two types of feature learning subnetworks and relation subnetworks. Extensive experiments on different food datasets have consistently demonstrated the advantage of MVFSL in multi-view feature fusion. Furthermore, we extend another two types of networks, namely, Siamese Network and Matching Network, by introducing ingredient information for few-shot food recognition. Experimental results have also shown that introducing ingredient information into these two networks can improve the performance of few-shot food recognition.</jats:p>",
+        "DOI": "10.1145/3391624",
+        "title": [
+          "Few-shot Food Recognition via Multi-view Representation Learning"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-1596-4326",
+            "authenticated-orcid": false,
+            "given": "Shuqiang",
+            "family": "Jiang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Intelligent Information Processing, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Weiqing",
+            "family": "Min",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Intelligent Information Processing, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yongqiang",
+            "family": "Lyu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Qingdao KingAgroot Precision Agriculture Technology Co., Ltd, Qingdao, Shandong, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Linhu",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Key Laboratory of Intelligent Information Processing, Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2020,
+              7,
+              14
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3391624",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3391624",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3391624",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              7,
+              14
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              2,
+              29
+            ]
+          ]
+        },
+        "abstract": "<jats:p>In recent years, view-based 3D model retrieval has become one of the research focuses in the field of computer vision and machine learning. In fact, the 3D model retrieval algorithm consists of feature extraction and similarity measurement, and the robust features play a decisive role in the similarity measurement. Although deep learning has achieved comprehensive success in the field of computer vision, deep learning features are used for 3D model retrieval only in a small number of works. To the best of our knowledge, there is no benchmark to evaluate these deep learning features. To tackle this problem, in this work we systematically evaluate the performance of deep learning features in view-based 3D model retrieval on four popular datasets (ETH, NTU60, PSB, and MVRED) by different kinds of similarity measure methods. In detail, the performance of hand-crafted features and deep learning features are compared, and then the robustness of deep learning features is assessed. Finally, the difference between single-view deep learning features and multi-view deep learning features is also evaluated. By quantitatively analyzing the performances on different datasets, it is clear that these deep learning features can consistently outperform all of the hand-crafted features, and they are also more robust than the hand-crafted features when different degrees of noise are added into the image. The exploration of latent relationships among different views in multi-view deep learning network architectures shows that the performance of multi-view deep learning outperforms that of single-view deep learning features with low computational complexity.</jats:p>",
+        "DOI": "10.1145/3377876",
+        "title": [
+          "Exploring Deep Learning for View-Based 3D Model Retrieval"
+        ],
+        "author": [
+          {
+            "given": "Zan",
+            "family": "Gao",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Tianjin University of Technology and Qilu University of Technology, Jinan, P.R China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yinming",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Tianjin University of Technology and Qilu University of Technology, Jinan, P.R China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7013-9081",
+            "authenticated-orcid": false,
+            "given": "Shaohua",
+            "family": "Wan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Zhongnan University of Economics and Law, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2020,
+              2,
+              17
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3377876",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3377876",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3377876",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              2,
+              17
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              8,
+              31
+            ]
+          ]
+        },
+        "abstract": "<jats:p>\n                    Text-driven 3D scene editing has attracted considerable interest due to its convenience and user-friendliness. However, methods that rely on implicit 3D representations, such as Neural Radiance Fields (NeRF), while effective in rendering complex scenes, are hindered by slow processing speeds and limited control over specific regions of the scene. Moreover, existing approaches, including Instruct-NeRF2NeRF and GaussianEditor, which utilize multi-view editing strategies, frequently produce inconsistent results across different views when executing text instructions. This inconsistency can adversely affect the overall performance of the model, complicating the task of balancing the consistency of editing results with editing efficiency. To address these challenges, we propose a novel method termed Single-View to 3D Object Editing via Gaussian Splatting (SVGS), which is a single-view text-driven editing technique based on 3D Gaussian Splatting (3DGS). Specifically, in response to text instructions, we introduce a single-view editing strategy grounded in multi-view diffusion models, which reconstructs 3D scenes by leveraging only those views that yield consistent editing results. Additionally, we employ sparse 3D Gaussian Splatting as the 3D representation, which significantly enhances editing efficiency. We conducted a comparative analysis of SVGS against existing baseline methods across various scene settings, and the results indicate that SVGS outperforms its counterparts in both editing capability and processing speed, representing a significant advancement in 3D editing technology. For further details, please visit our project page at:\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://amateurc.github.io/svgs.github.io/\">https://amateurc.github.io/svgs.github.io/</jats:ext-link>\n                    .\n                  </jats:p>",
+        "DOI": "10.1145/3803793",
+        "title": [
+          "SVGS: Single-View to 3D Object Editing via Gaussian Splatting"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0002-5681-644X",
+            "authenticated-orcid": false,
+            "given": "Pengcheng",
+            "family": "Xue",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology, Zhejiang Gongshang University, Hangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0596-1209",
+            "authenticated-orcid": false,
+            "given": "Yan",
+            "family": "Tian",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology, Zhejiang Gongshang University, Hangzhou, China and Zhejiang Key Laboratory of Big Data and Future E-Commerce Technology, Hangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0005-0473-1032",
+            "authenticated-orcid": false,
+            "given": "Qiutao",
+            "family": "Song",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology, Zhejiang Gongshang University, Hangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0000-6980-4101",
+            "authenticated-orcid": false,
+            "given": "Ziyi",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology, Zhejiang Gongshang University, Hangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5181-8337",
+            "authenticated-orcid": false,
+            "given": "Linyang",
+            "family": "He",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Jianpei Technology Co., Ltd, Hangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3180-7347",
+            "authenticated-orcid": false,
+            "given": "Weiping",
+            "family": "Ding",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Artificial Intelligence and Computer Science, Nantong University, Nantong, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5655-8511",
+            "authenticated-orcid": false,
+            "given": "Mahmoud",
+            "family": "Hassaballah",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, College of Computer Engineering and Sciences, Prince Sattam Bin Abdulaziz University, Al Kharj, Saudi Arabia and Department of Computer Science, Faculty of Computers and Information, Qena University, Qena, Egypt"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8135-1085",
+            "authenticated-orcid": false,
+            "given": "Karen",
+            "family": "Egiazarian",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computing Sciences, Faculty of Information Technology and Communication Sciences, Tampere University, Tampere, Finland"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6047-3705",
+            "authenticated-orcid": false,
+            "given": "Wei-fa",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Division of Oral and Maxillofacial Surgery, Faculty of Dentistry, The University of Hong Kong, Hong Kong, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6960-9525",
+            "authenticated-orcid": false,
+            "given": "Leszek",
+            "family": "Rutkowski",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Systems Research Institute of the Polish Academy of Sciences, Warsaw, Poland, and AGH University of Krakow, Kraków, Poland and SAN University, Łódź, Poland"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              21
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3803793",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3803793",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              21
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              5,
+              31
+            ]
+          ]
+        },
+        "abstract": "<jats:p>In this article, we introduce a method to overcome one of the main challenges of person reidentification in multicamera networks, namely cross-view appearance changes. The proposed solution addresses the extreme variability of person appearance in different camera views by exploiting multiple feature representations. For each feature, kernel canonical correlation analysis with different kernels is employed to learn several projection spaces in which the appearance correlation between samples of the same person observed from different cameras is maximized. An iterative logistic regression is finally used to select and weight the contributions of each projection and perform the matching between the two views. Experimental evaluation shows that the proposed solution obtains comparable performance on the VIPeR and PRID 450s datasets and improves on the PRID and CUHK01 datasets with respect to the state of the art.</jats:p>",
+        "DOI": "10.1145/3038916",
+        "title": [
+          "Multichannel-Kernel Canonical Correlation Analysis for Cross-View Person Reidentification"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-0785-9972",
+            "authenticated-orcid": false,
+            "given": "Giuseppe",
+            "family": "Lisanti",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "University of Florence, Firenze, Italia"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2496-5822",
+            "authenticated-orcid": false,
+            "given": "Svebor",
+            "family": "Karaman",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Columbia University, New York, USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Iacopo",
+            "family": "Masi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Southern California, CA, USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2017,
+              3,
+              6
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3038916",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3038916",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3038916",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              3,
+              6
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              31
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Three-dimensional (3D) human-like body reconstruction via a single RGB image has attracted significant research attention recently. Most of the existing methods rely on the Skinned Multi-Person Linear model and thus can only predict unified human bodies. Moreover, meshes reconstructed by current methods sometimes perform well from a canonical view but not from other views, as the reconstruction process is commonly supervised by only a single view. To address these limitations, this article proposes a multi-view shape generation network for a 3D human-like body. Particularly, we propose a coarse-to-fine learning model that gradually deforms a template body toward the ground truth body. Our model utilizes the information of multi-view renderings and corresponding 3D vertex transformation as supervision. Such supervision will help to generate 3D bodies well aligned to all views. To accurately operate mesh deformation, a graph convolutional network structure is introduced to support the shape generation from 3D vertex representation. Additionally, a graph up-pooling operation is designed over the intermediate representations of the graph convolutional network, and thus our model can generate 3D shapes with higher resolution. Novel loss functions are employed to help optimize the whole multi-view generation model, resulting in smoother surfaces. In addition, two multi-view human body datasets are produced and contributed to the community. Extensive experiments conducted on the benchmark datasets demonstrate the efficacy of our model over the competitors.</jats:p>",
+        "DOI": "10.1145/3514248",
+        "title": [
+          "Multi-view Shape Generation for a 3D Human-like Body"
+        ],
+        "author": [
+          {
+            "given": "Hang",
+            "family": "Yu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Fudan University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Chilam",
+            "family": "Cheang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Fudan University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yanwei",
+            "family": "Fu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Fudan University, Shanghai, China and Zhejiang Normal University, Jinhua, Zhejiang, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Xiangyang",
+            "family": "Xue",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Fudan University, Shanghai, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              5
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3514248",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3514248",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3514248",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              5
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              31
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Ensemble clustering (EC), utilizing multiple basic partitions (BPs) to yield a robust consensus clustering, has shown promising clustering performance. Nevertheless, most current algorithms suffer from two challenging hurdles: (1) a surge of EC-based methods only focus on pair-wise sample correlation while fully ignoring the high-order correlations of diverse views. (2) they deal directly with the co-association (CA) matrices generated from BPs, which are inevitably corrupted by noise and thus degrade the clustering performance. To address these issues, we propose a novel Double High-Order Correlation Preserved Robust Multi-View Ensemble Clustering (DC-RMEC) method, which preserves the high-order inter-view correlation and the high-order correlation of original data simultaneously. Specifically, DC-RMEC constructs a hypergraph from BPs to fuse high-level complementary information from different algorithms and incorporates multiple CA-based representations into a low-rank tensor to discover the high-order relevance underlying CA matrices, such that double high-order correlation of multi-view features could be dexterously uncovered. Moreover, a marginalized denoiser is invoked to gain robust view-specific CA matrices. Furthermore, we develop a unified framework to jointly optimize the representation tensor and the result matrix. An effective iterative optimization algorithm is designed to optimize our DC-RMEC model by resorting to the alternating direction method of multipliers. Extensive experiments on seven real-world multi-view datasets have demonstrated the superiority of DC-RMEC compared with several state-of-the-art multi-view ensemble clustering methods.</jats:p>",
+        "DOI": "10.1145/3612923",
+        "title": [
+          "Double High-Order Correlation Preserved Robust Multi-View Ensemble Clustering"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0001-4203-2743",
+            "authenticated-orcid": false,
+            "given": "Xiaojia",
+            "family": "Zhao",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology, Harbin Institute of Technology (Shenzhen), China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9589-1349",
+            "authenticated-orcid": false,
+            "given": "Tingting",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology, Harbin Institute of Technology (Shenzhen), China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3564-6042",
+            "authenticated-orcid": false,
+            "given": "Qiangqiang",
+            "family": "Shen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronics and Information Engineering, Harbin Institute of Technology (Shenzhen), China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3540-5775",
+            "authenticated-orcid": false,
+            "given": "Youfa",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Informatics, Huazhong Agricultural University, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-1970-1993",
+            "authenticated-orcid": false,
+            "given": "Yongyong",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology, Harbin Institute of Technology (Shenzhen), China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3216-7027",
+            "authenticated-orcid": false,
+            "given": "Jingyong",
+            "family": "Su",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology, Harbin Institute of Technology (Shenzhen), China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              9,
+              18
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3612923",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3612923",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3612923",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              9,
+              18
+            ]
+          ]
+        }
+      },
+      {
+        "abstract": "<jats:p>The explosion of multimedia data, collected from heterogeneous sources and represented in multiple formats, has led to the formation of comprehensive multi-view or multi-modal datasets, facilitating deeper analysis and insight. These datasets cover various physical features captured by different sensors, which makes the quality distribution of data among views uneven. In recent years, Graph Convolutional Networks (GCNs) have attracted substantial attention from the academic community, leading to their widespread adoption in a variety of application domains. However, GCNs are often considered black-box models due to their complex internal operations, thereby posing significant challenges to understanding and interpreting their decision-making processes. The lack of interpretability in GCNs undermines confidence in their predictions and makes it difficult to identify and address potential biases. To tackle these issues, we propose a generic multi-view graph convolutional network, which is applied to semi-supervised classification tasks. By maximizing subspace independence and restricting network transmission weights, we aim to find interpretability for the constructed network framework from both the spatial and transmission domains. The main contributions are summarized as follows: First, we propose a general and efficient graph learning framework for multi-view representation, which simplifies both feature fusion and downstream classification tasks. Second, we design two learning strategies, focusing on constraining the weights of forward propagation and maximizing the independence of subspaces, respectively, to effectively capture the inherent characteristics between multiple views and stably propagate label information. Finally, we develop a joint network based on the proposed framework that integrates both constrained weights and learned embeddings to emphasize the most informative features from each view. We conduct extensive experiments on eight benchmark datasets, where our proposed method consistently outperforms ten state-of-the-art approaches, demonstrating its superior effectiveness across diverse multi-view learning tasks.</jats:p>",
+        "DOI": "10.1145/3780098",
+        "title": [
+          "Enhancing Interpretability of Graph Convolutional Networks for Multi-view Learning"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-1672-3065",
+            "authenticated-orcid": false,
+            "given": "Na",
+            "family": "Song",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "College of Artificial Intelligence, Putian University, and School of Computer and Artificial Intelligence, Zhengzhou University, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7986-4244",
+            "authenticated-orcid": false,
+            "given": "Laurence T.",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer and Artificial Intelligence, Zhengzhou University, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0000-4682-4839",
+            "authenticated-orcid": false,
+            "given": "Jing",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer and Artificial Intelligence, Zhengzhou University, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0009-8442-9747",
+            "authenticated-orcid": false,
+            "given": "Xiangli",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer and Artificial Intelligence, Zhengzhou University, and Dublin University of Technology, China, Ireland"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9584-2160",
+            "authenticated-orcid": false,
+            "given": "Jieming",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer and Artificial Intelligence, Zhengzhou University, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0007-4454-9889",
+            "authenticated-orcid": false,
+            "given": "Shundong",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer Science and Technology, Hainan University, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5195-9682",
+            "authenticated-orcid": false,
+            "given": "Shiping",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "College of Computer and Data Science, Fuzhou University, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              10
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3780098",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3780098",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              10
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              31
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Pillar-based method is significant in the field of LiDAR-based 3D object detection which could directly make use of efficient 2D backbone and save computational resources during reference. Existing methods usually sequentially project the original point clouds into the cylindrical view or the bird-eye view for feature extraction. However, the former suffers from obscured problems and the scales of instances vary greatly with distance, while the latter leads to considerable confusion problems due to the loss of semantic information caused by the sparsity of the projected point cloud. In this article, we present a novel and efficient two-stage point-pillar hybrid architecture named Attentive Multi-View Fusion Network (AMVFNet), in which we abstract features from all cylindrical view, bird-eye view, and raw point clouds. Rather than designing more complex modules to solve the problems inherent in the single-view approach, our multi-view fusion architecture effectively combines the strengths of multiple perspectives to improve performance at a more fundamental level. Besides, to compensate for quantization distortion caused by projection operations, we propose attentive feature enhancement layers to further improve the capability of contextual information capturing. Extensive experiments on the KITTI detection benchmark illustrate that our proposed AMVFNet achieves competitive performance compared with other SOTA 3D object detectors.</jats:p>",
+        "DOI": "10.1145/3689639",
+        "title": [
+          "AMVFNet: Attentive Multi-View Fusion Network for 3D Object Detection"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0008-0194-4421",
+            "authenticated-orcid": false,
+            "given": "Yuxiao",
+            "family": "Huang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Electronics and Information Technology, Sun Yat-Sen University, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4947-1589",
+            "authenticated-orcid": false,
+            "given": "Zhicong",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronics and Information Technology, Sun Yat-Sen University, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9448-3554",
+            "authenticated-orcid": false,
+            "given": "Jingwen",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronics and Information Technology, Sun Yat-Sen University, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4884-323X",
+            "authenticated-orcid": false,
+            "given": "Haifeng",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Electronics and Information Technology, Sun Yat-Sen University, Guangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5432-8149",
+            "authenticated-orcid": false,
+            "given": "Dihu",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Integrated Circuits, Sun Yat-Sen University, Shenzhen, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              25
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3689639",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3689639",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3689639",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              25
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              31
+            ]
+          ]
+        },
+        "abstract": "<jats:p>\n            3D object representation learning is a fundamental challenge in computer vision to infer about the 3D world. Recent advances in deep learning have shown their efficiency in 3D object recognition, among which view-based methods have performed best so far. However, feature learning of multiple views in existing methods is mostly performed in a supervised fashion, which often requires a large amount of data labels with high costs. In contrast, self-supervised learning aims to learn multi-view feature representations without involving labeled data. To this end, we propose a novel self-supervised framework to learn Multi-View Transformation Equivariant Representations (MV-TER), exploring the equivariant transformations of a 3D object and its projected multiple views that we derive. Specifically, we perform a 3D transformation on a 3D object and obtain multiple views before and after the transformation via projection. Then, we train a representation encoding module to capture the intrinsic 3D object representation by decoding 3D transformation parameters from the fused feature representations of multiple views before and after the transformation. Experimental results demonstrate that the proposed MV-TER significantly outperforms the state-of-the-art view-based approaches in 3D object classification and retrieval tasks and show the generalization to real-world datasets. The code is available at\n            <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"url\" xlink:href=\"https://github.com/gyshgx868/mvter\">https://github.com/gyshgx868/mvter</jats:ext-link>\n            .\n          </jats:p>",
+        "DOI": "10.1145/3597613",
+        "title": [
+          "Self-supervised Multi-view Learning via Auto-encoding 3D Transformations"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-2679-4019",
+            "authenticated-orcid": false,
+            "given": "Xiang",
+            "family": "Gao",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Wangxuan Institute of Computer Technology, Peking University, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9860-0922",
+            "authenticated-orcid": false,
+            "given": "Wei",
+            "family": "Hu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Wangxuan Institute of Computer Technology, Peking University, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-3508-1851",
+            "authenticated-orcid": false,
+            "given": "Guo-Jun",
+            "family": "Qi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "OPPO US Research Center, United States"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              9,
+              18
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/3597613",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/3597613",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/3597613",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              9,
+              18
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2006,
+              8
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Data warehouses are dedicated to collecting heterogeneous and distributed data in order to perform decision analysis. Based on multidimensional model, OLAP commercial environments such as they are currently designed in traditional applications are used to provide means for the analysis of facts that are depicted by numeric data (e.g., sales depicted by amount or quantity sold). However, in numerous fields, like in medical or bioinformatics, multimedia data are used as valuable information in the decisional process. One of the problems when integrating multimedia data as facts in a multidimensional model is to deal with dimensions built on descriptors that can be obtained by various computation modes on raw multimedia data. Taking into account these computation modes makes possible the characterization of the data by various points of view depending on the user's profile, his best-practices, his level of expertise, and so on. We propose a new multidimensional model that integrates functional dimension versions allowing the descriptors of the multidimensional data to be computed by different functions. With this approach, the user is able to obtain and choose multiple points of view on the data he analyses. This model is used to develop an OLAP application for navigation into a hypercube integrating various functional dimension versions for the calculus of descriptors in a medical use case.</jats:p>",
+        "DOI": "10.1145/1152149.1152152",
+        "title": [
+          "Handling multiple points of view in a multimedia data warehouse"
+        ],
+        "author": [
+          {
+            "given": "Anne-Muriel",
+            "family": "Arigon",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Laboratoire de Biométrie et Biologie Evolutive, LBBE UMR CNRS 5558, UCBL, Villeurbanne Cedex, France"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Anne",
+            "family": "Tchounikine",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Laboratoire d'InfoRmatique en Images et Systèmes d'information, LIRIS UMR CNRS 5205 INSA, Villeurbanne Cedex, France"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Maryvonne",
+            "family": "Miquel",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Laboratoire d'InfoRmatique en Images et Systèmes d'information, LIRIS UMR CNRS 5205 INSA, Villeurbanne Cedex, France"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2006,
+              8
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM Transactions on Multimedia Computing, Communications, and Applications"
+        ],
+        "link": [
+          {
+            "URL": "https://dl.acm.org/doi/10.1145/1152149.1152152",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://dl.acm.org/doi/pdf/10.1145/1152149.1152152",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1145/1152149.1152152",
+        "ISSN": [
+          "1551-6857",
+          "1551-6865"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2006,
+              8
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 15,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

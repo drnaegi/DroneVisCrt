@@ -1,0 +1,2722 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 2012394,
+    "items": [
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              10
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>We introduce Seamless Satellite‐image Synthesis (SSS), a novel neural architecture to create scale‐and‐space continuous satellite textures from cartographic data. While 2D map data is cheap and easily synthesized, accurate satellite imagery is expensive and often unavailable or out of date. Our approach generates seamless textures over arbitrarily large spatial extents which are consistent through scale‐space. To overcome tile size limitations in image‐to‐image translation approaches, SSS learns to remove seams between tiled images in a semantically meaningful manner. Scale‐space continuity is achieved by a hierarchy of networks conditioned on style and cartographic data. Our qualitative and quantitative evaluations show that our system improves over the state‐of‐the‐art in several key areas. We show applications to texturing procedurally generation maps and interactive satellite image manipulation.</jats:p>",
+        "DOI": "10.1111/cgf.14413",
+        "title": [
+          "Seamless Satellite‐image Synthesis"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-1826-6566",
+            "authenticated-orcid": false,
+            "given": "Jialin",
+            "family": "Zhu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "University of Leeds"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6575-3682",
+            "authenticated-orcid": false,
+            "given": "Tom",
+            "family": "Kelly",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Leeds"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              11,
+              27
+            ]
+          ]
+        },
+        "container-title": [
+          "Computer Graphics Forum"
+        ],
+        "ISSN": [
+          "0167-7055",
+          "1467-8659"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              10
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.22214/ijraset.2023.52728",
+        "title": [
+          "Satellite Image Dehazing"
+        ],
+        "container-title": [
+          "International Journal for Research in Applied Science and Engineering Technology"
+        ],
+        "ISSN": [
+          "2321-9653"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              31
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              31
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Aditya",
+            "family": "Yeole",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>Abstract: The images captured during haze, murkiness and raw weather has serious degradation in them. Image dehazing of a single image is a problematic affair. While already-in-use systems depend on high-quality images, some Computer Vision applications, such self-driving cars and image restoration, typically use input from data that is of poor quality.. This paper proposes a deep CNN model based on dehazing algorithm using U-NET, dynamic U-NET and Generative Adversarial Networks (CycleGANs). CycleGAN is a method that comprehends automatic training of image-to-image transformation without associated examples. To train the model network, we use SIH dataset as the training set. The superior performance is accomplished using appreciably small dataset, the corresponding outcomes confirm the adaptability and strength of the model.</jats:p>"
+      },
+      {
+        "DOI": "10.47119/ijrp1001691320257677",
+        "title": [
+          "SATELLITE IMAGE ANALYSIS"
+        ],
+        "container-title": [
+          "International Journal of Research Publications"
+        ],
+        "ISSN": [
+          "2708-3578"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              1
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              1
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "LOHITH",
+            "family": "RAMESH",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "NITHIN",
+            "family": "JAIN",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "RITHVIK.",
+            "family": "B. REDDY",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.71097/ijsat.v16.i2.3823",
+        "title": [
+          "Satellite Image Detection Using Image Processing"
+        ],
+        "container-title": [
+          "International Journal on Science and Technology"
+        ],
+        "ISSN": [
+          "2229-7677"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              16
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              16
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "G. Manjula",
+            "family": "-",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "B. Linga Reddy",
+            "family": "-",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "M. Nagendra Prasad",
+            "family": "-",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "K. Mamatha Rani",
+            "family": "-",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "R. Sreenivasulu",
+            "family": "-",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>A technique for locating objects and patterns in satellite-captured photos is called satellite image detection. Convolutional Neural Networks (CNNs), a kind of deep learning model, are used in this project to increase the accuracy and efficiency of this procedure. CNNs can handle the complexity of high-resolution satellite photos and are very good at processing image data. After scaling and normalizing the photos, CNNs are used by the system to identify and categorize elements including vegetation, buildings, and bodies of water. The model was trained using a dataset of diverse satellite photos, yielding dependable outcomes and excellent accuracy. Disaster management, crop monitoring, urban planning, and environmental preservation are just a few of the many useful applications for this technology. This method demonstrates how deep learning can enhance satellite picture processing for practical applications, even when obstacles like high image sizes still exist.</jats:p>"
+      },
+      {
+        "DOI": "10.15576/asp.fc/2017.16.1.223",
+        "title": [
+          "CONFLUENCE SATELLITE IMAGE CLASSIFICATION"
+        ],
+        "container-title": [
+          "Acta Scientiarum Polonorum. Formatio Circumiectus"
+        ],
+        "ISSN": [
+          "1644-0765"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              3,
+              30
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2017,
+              3,
+              30
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Jorge Osvaldo",
+            "family": "Castillo-Pereyra",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Fabián",
+            "family": "Rivera-Trejo",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Hector Oswaldo",
+            "family": "Rubio-Arias",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>Zbieg rzek jest definiowany jako punkt spotkania dwóch lub więcej rzek, które dają początek nowej rzece. To połączenie się rzek powoduje, że parametry geometryczne, szczególnie szerokość i kąt przecięcia kształtują się w zależności od charakterystycznych cech zlewających się rzek. Opierając się na tym poglądzie, jak również na dostępnych zdjęciach satelitarnych sklasyfikowano w tej pracy 43 zbiegi rzek usytuowane w Tabasco (Meksyk). Kluczowe elementy stanowiły geometria (widok z góry) oraz kąt przecięcia, natomiast klasyfikację wykonano na podstawie stosowanych wielowymiarowych analiz statystycznych. Wyniki przedstawiono w trzech grupach: I. Podobieństwo między szerokościami trzech rzek i kąt przecięcia mniejszy niż 80°; II. Podobieństwo między szerokościami trzech rzek i kątem przecięcia między 80° a 160°; III: Podobieństwo między szerokością głównej rzeki (największej rzeki w zbiegu) oraz zbiegu rzek i kąt przecięcia większy niż 100°. Po przeprowadzeniu tej klasyfikacji, następnym krok to wykonanie zarówno hydraulicznych, jak i sedymentologicznych badań, pozwalających zrozumieć integralne zachowanie się zbiegających się rzek oraz zweryfikować proponowaną klasyfikację nie tylko pod kątem podobieństw geometrycznych, ale także działań hydraulicznych i sedymentologicznych, które również wykazują podobieństwa. Ze względu na trudności związane z badaniem wielu zbiegów rzek najlepiej byłoby wybrać ich przedstawiciela i dokonać jego analizy. W niniejszej pracy przedstawiliśmy postępowanie alternatywne, które może być użyteczne dla pracowników naukowych i inżynierów, jak również studentów zainteresowanych badaniem zbiegów rzek.</jats:p>"
+      },
+      {
+        "DOI": "10.1117/1.1495856",
+        "title": [
+          "Satellite image collection optimization"
+        ],
+        "container-title": [
+          "Optical Engineering"
+        ],
+        "ISSN": [
+          "0091-3286",
+          "1560-2303"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2002,
+              9,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2002,
+              9,
+              1
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "William",
+            "family": "Martin",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Lockheed Martin Space Systems Co."
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>Imaging satellite systems represent a high capital cost. Optimizing the collection of images is critical for both satisfying customer orders and building a sustainable satellite operations business. We describe the functions of an operational, multivariable, time dynamic optimization system that maximizes the daily collection of satellite images. A graphical user interface allows the operator to quickly see the results of what if adjustments to an image collection plan. Used for both long range planning and daily collection scheduling of Space Imaging's IKONOS satellite, the satellite control and tasking (SCT) software allows collection commands to be altered up to 10 min before upload to the satellite.</jats:p>"
+      },
+      {
+        "DOI": "10.1109/tgrs.2008.916475",
+        "title": [
+          "Model-Based Satellite Image Fusion"
+        ],
+        "container-title": [
+          "IEEE Transactions on Geoscience and Remote Sensing"
+        ],
+        "ISSN": [
+          "0196-2892"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2008,
+              5
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2008,
+              5
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "H.",
+            "family": "Aanaes",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "J.R.",
+            "family": "Sveinsson",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "A.A.",
+            "family": "Nielsen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "T.",
+            "family": "Bovith",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "J.A.",
+            "family": "Benediktsson",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.9790/2834-0351017",
+        "title": [
+          "Image Registration on Satellite Images"
+        ],
+        "container-title": [
+          "IOSR Journal of Electronics and Communication Engineering"
+        ],
+        "ISSN": [
+          "2278-8735",
+          "2278-2834"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2012
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2012
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "S",
+            "family": "Govindarajulu",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.56975/ijrar.v12i2.312688",
+        "title": [
+          "Image Segmentation On Satellite Images"
+        ],
+        "container-title": [
+          "International Journal of Research and Analytical Reviews"
+        ],
+        "ISSN": [
+          "2348-1269"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "K.",
+            "family": "Padmanaban",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Y.",
+            "family": "Anusha",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              8
+            ]
+          ]
+        },
+        "abstract": "<jats:p>The growing operational capability of global Earth Observation (EO) creates new opportunities for data-driven approaches to understand and protect our planet. However, the current use of EO archives is very restricted due to the huge archive sizes and the limited exploration capabilities provided by EO platforms. To address this limitation, we have recently proposed MiLaN, a content-based image retrieval approach for fast similarity search in satellite image archives. MiLaN is a deep hashing network based on metric learning that encodes high-dimensional image features into compact binary hash codes. We use these codes as keys in a hash table to enable real-time nearest neighbor search and highly accurate retrieval. In this demonstration, we showcase the efficiency of MiLaN by integrating it with EarthQube, a browser and search engine within AgoraEO. EarthQube supports interactive visual exploration and Query-by-Example over satellite image repositories. Demo visitors will interact with EarthQube playing the role of different users that search images in a large-scale remote sensing archive by their semantic content and apply other filters.</jats:p>",
+        "DOI": "10.14778/3554821.3554865",
+        "title": [
+          "Satellite image search in AgoraEO"
+        ],
+        "author": [
+          {
+            "given": "Ahmet Kerem",
+            "family": "Aksoy",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "TU Berlin"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Pavel",
+            "family": "Dushev",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "SAP Labs"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Eleni Tzirita",
+            "family": "Zacharatou",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "IT University of Copenhagen"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Holmer",
+            "family": "Hemsen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "DFKI"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Marcela",
+            "family": "Charfuelan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "DFKI"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jorge-Arnulfo",
+            "family": "Quiané-Ruiz",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "TU Berlin and DFKI"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Begüm",
+            "family": "Demir",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "TU Berlin"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Volker",
+            "family": "Markl",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "TU Berlin and DFKI"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              9,
+              29
+            ]
+          ]
+        },
+        "container-title": [
+          "Proceedings of the VLDB Endowment"
+        ],
+        "ISSN": [
+          "2150-8097"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              8
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.32782/2663-5941/2024.6.2/19",
+        "title": [
+          "SATELLITE IMAGE SEGMENTATION SOFTWARE DEVELOPMENT"
+        ],
+        "container-title": [
+          "Scientific notes of Taurida National V.I. Vernadsky University. Series: Technical Sciences"
+        ],
+        "ISSN": [
+          "2663-5941"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "D.S.",
+            "family": "Novak",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "A.O.",
+            "family": "Moshenskyi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "O.H.",
+            "family": "Guida",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "N.V.",
+            "family": "Ometsynska",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "V.B.",
+            "family": "Dromenko",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.22214/ijraset.2024.63096",
+        "title": [
+          "Satellite Image Classification using TensorFlow"
+        ],
+        "container-title": [
+          "International Journal for Research in Applied Science and Engineering Technology"
+        ],
+        "ISSN": [
+          "2321-9653"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              30
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              30
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Darshan",
+            "family": "P",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>Abstract: Satellite image classification plays a crucial role in various fields such as agriculture, urban planning, disaster management, and environmental monitoring. This paper presents a novel approach utilizing TensorFlow, a popular open-source machine learning framework, for satellite image classification. The proposed methodology leverages deep learning techniques to extract meaningful features from satellite images, enabling accurate classification into predefined categories. By harnessing the power of convolutional neural networks (CNNs) implemented in TensorFlow, this research aims to enhance the efficiency and accuracy of satellite image classification tasks. The experimental results demonstrate the effectiveness of the proposed approach in achieving high classification accuracy of about 96.5% while maintaining computational efficiency. It classifies about 10 different classes obtained from the EuroSat dataset. It is implemented in Google Collab for faster training and implementation.</jats:p>"
+      },
+      {
+        "DOI": "10.22214/ijraset.2019.6100",
+        "title": [
+          "Satellite Image Enhancement: A Review"
+        ],
+        "container-title": [
+          "International Journal for Research in Applied Science and Engineering Technology"
+        ],
+        "ISSN": [
+          "2321-9653"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              6,
+              30
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              6,
+              30
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Fatima Zahra",
+            "family": "Kidwai",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tgrs.2007.892008",
+        "title": [
+          "Semantic-Sensitive Satellite Image Retrieval"
+        ],
+        "container-title": [
+          "IEEE Transactions on Geoscience and Remote Sensing"
+        ],
+        "ISSN": [
+          "0196-2892"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2007,
+              4
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2007,
+              4
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Yikun",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Timo R.",
+            "family": "Bretschneider",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.5194/isprs-archives-xlii-4-w4-11-2017",
+        "title": [
+          "THERMAL AND VISIBLE SATELLITE IMAGE FUSION USING WAVELET IN REMOTE SENSING AND SATELLITE IMAGE PROCESSING"
+        ],
+        "container-title": [
+          "The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences"
+        ],
+        "ISSN": [
+          "2194-9034"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              9,
+              26
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2017,
+              9,
+              26
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "A. H.",
+            "family": "Ahrari",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "M.",
+            "family": "Kiavarz",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7254-4475",
+            "authenticated-orcid": false,
+            "given": "M.",
+            "family": "Hasanlou",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "M.",
+            "family": "Marofi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>Abstract. Multimodal remote sensing approach is based on merging different data in different portions of electromagnetic radiation that improves the accuracy in satellite image processing and interpretations. Remote Sensing Visible and thermal infrared bands independently contain valuable spatial and spectral information. Visible bands make enough information spatially and thermal makes more different radiometric and spectral information than visible. However low spatial resolution is the most important limitation in thermal infrared bands. Using satellite image fusion, it is possible to merge them as a single thermal image that contains high spectral and spatial information at the same time. The aim of this study is a performance assessment of thermal and visible image fusion quantitatively and qualitatively with wavelet transform and different filters. In this research, wavelet algorithm (Haar) and different decomposition filters (mean.linear,ma,min and rand) for thermal and panchromatic bands of Landast8 Satellite were applied as shortwave and longwave fusion method . Finally, quality assessment has been done with quantitative and qualitative approaches. Quantitative parameters such as Entropy, Standard Deviation, Cross Correlation, Q Factor and Mutual Information were used. For thermal and visible image fusion accuracy assessment, all parameters (quantitative and qualitative) must be analysed with respect to each other. Among all relevant statistical factors, correlation has the most meaningful result and similarity to the qualitative assessment. Results showed that mean and linear filters make better fused images against the other filters in Haar algorithm. Linear and mean filters have same performance and there is not any difference between their qualitative and quantitative results.\n                    </jats:p>"
+      },
+      {
+        "DOI": "10.35940/ijitee.c8349.019320",
+        "title": [
+          "Satellite Image Classification for Environmental Analysis using Image Processing"
+        ],
+        "container-title": [
+          "International Journal of Innovative Technology and Exploring Engineering"
+        ],
+        "ISSN": [
+          "2278-3075"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              1,
+              30
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2020,
+              1,
+              30
+            ]
+          ]
+        },
+        "author": [
+          {
+            "name": "Department of Computer Science and Engineering, Saveetha School of Engineering, Saveetha Institute of Medical and Technical Sciences, Chennai, India.",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "P. V. Goutham",
+            "family": "Reddy*",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Dr. L. Rama",
+            "family": "Parvathy",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "name": "Professor, Department of Computer Science and Engineering, Saveetha School of Engineering, Saveetha Institute of Medical and Technical Sciences, Chennai, India.",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>Conventional supervised classification of satellite pictures utilizes a solitary multi-band picture and incidental ground perceptions to build phantom marks of land spread classes. We contrasted this methodology with three choices that get marks from different pictures and timespans. signature speculation, in this unearthly marks, is gotten from various pictures inside one season, however maybe from various years. signature extension, in this phantom marks, is made with information from pictures obtained during various periods of that year; and mixes of development and speculation. Utilizing the information for India, we evaluated the nature of these various marks to characterize the pictures used to infer the mark, and for use in transient mark expansion, i.e., applying a mark acquired from the information of one or quite a long while to pictures from different years. While applying marks to the pictures they were gotten from, signature development improved exactness comparative with the customary strategy, and inconstancy in precision declined uniquely. Conversely, signature speculation didn't improve grouping. While applying marks to pictures of different years (worldly expansion), the traditional technique, utilizing a mark got from a solitary picture, brought about extremely low characterization precision. Mark's development additionally performed ineffectively yet multi-year signature speculation performed much better and this seems, by all accounts, to be a promising methodology in the transient augmentation of ghastly marks for satellite picture arrangements. This project summarizes the different audits on satellite picture characterization strategies and systems. The summary helps the analysts to choose suitable satellite picture characterization strategies or methods dependent on the requirements. Later on, the results acquired from the proposed technique will be an extraordinary measure for anticipating and examining the effect of floods. It will help salvage groups to address high caution regions first in this way, least or no loss of life will be accomplished. In the future, the technique can be adjusted to be utilized for coastline location, urbanization, deforestation, and seismic tremors.</jats:p>"
+      },
+      {
+        "DOI": "10.58213/055ncd50",
+        "title": [
+          "Image Resolution Enhancement by Image Fusion of Satellite Imagery"
+        ],
+        "container-title": [
+          "Vidhyayana"
+        ],
+        "ISSN": [
+          "2454-8596"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              10,
+              10
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2020,
+              10,
+              10
+            ]
+          ]
+        },
+        "author": [
+          {
+            "family": "Rutul D. Mehta",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "family": "Asha P Patel",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>Image fusion is an art of combining the multiple images obtained from single sensor or multiple sensors, synthesizing an image, wherein the information from the multiple primitive images can be reflected in a single image to analyse and judge the target more precisely and comprehensively. A novel method using SWT and LBP for fusing Multispectral low-resolution remotely sensed images with a more highly resolved Panchromatic image is described. Target is to obtain a high-resolution Multispectral image which gives the spectral characteristic of the low-resolution data with the spatial resolution of the Panchromatic image. As an example, the depicted fusion algorithm is applied to three different pair of satellite images scenes and the results are compared.</jats:p>"
+      },
+      {
+        "DOI": "10.1109/tgrs.2012.2213095",
+        "title": [
+          "Spatiotemporal Satellite Image Fusion Through One-Pair Image Learning"
+        ],
+        "container-title": [
+          "IEEE Transactions on Geoscience and Remote Sensing"
+        ],
+        "ISSN": [
+          "0196-2892",
+          "1558-0644"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              4
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2013,
+              4
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Huihui",
+            "family": "Song",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Bo",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/tgrs.2021.3088686",
+        "title": [
+          "Spectral Synthesis for Geostationary Satellite-to-Satellite Translation"
+        ],
+        "container-title": [
+          "IEEE Transactions on Geoscience and Remote Sensing"
+        ],
+        "ISSN": [
+          "0196-2892",
+          "1558-0644"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2022
+            ]
+          ]
+        },
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-4506-2646",
+            "authenticated-orcid": false,
+            "given": "Thomas J.",
+            "family": "Vandal",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-7313-0082",
+            "authenticated-orcid": false,
+            "given": "Daniel",
+            "family": "McDuff",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Weile",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6506-5978",
+            "authenticated-orcid": false,
+            "given": "Kate",
+            "family": "Duffy",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Andrew",
+            "family": "Michaelis",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0883-1517",
+            "authenticated-orcid": false,
+            "given": "Ramakrishna R.",
+            "family": "Nemani",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.9790/4200-04240104",
+        "title": [
+          "Unsupervised Learning for Satellite Image Classification"
+        ],
+        "container-title": [
+          "IOSR journal of VLSI and Signal Processing"
+        ],
+        "ISSN": [
+          "2319-4197",
+          "2319-4200"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2014
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2014
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2014
+            ]
+          ]
+        },
+        "author": [
+          {
+            "name": "Department of Electronics and Communication Engineering , Amrita School Of Engineering, Bangalore, India",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Giriraja",
+            "family": "C.V",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Srinivasa",
+            "family": "C",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "T.K. Jaya",
+            "family": "Ram",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Avula",
+            "family": "Haswanth",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1007/s40295-024-00466-3",
+        "title": [
+          "Learning Satellite Image Recovery Through Turbulence"
+        ],
+        "container-title": [
+          "The Journal of the Astronautical Sciences"
+        ],
+        "ISSN": [
+          "0021-9142",
+          "2195-0571"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              24
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              24
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              10
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Kimmy",
+            "family": "Chang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Justin",
+            "family": "Fletcher",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        },
+        "abstract": "<jats:p xml:lang=\"en\">This research paper explores the application of satellite image processing techniques for crop detection in the agricultural industry. The primary objective is to provide insights into how these techniques can enhance crop yield and reduce losses, thereby contributing to global food security. The analysis employs advanced technologies and analytical methods to process satellite images and extract valuable information pertaining to crop growth and health. The findings demonstrate that satellite image processing offers accurate and timely data on crop conditions, enabling farmers to make well-informed decisions regarding irrigation, fertilization, and pest control. By harnessing these technologies, a more sustainable and productive agricultural system can be established to address the challenge of feeding a growing population. This research contributes to the expanding body of knowledge surrounding the use of satellite image processing for crop detection and establishes a foundation for further exploration and development of these technologies in agriculture. The analysis highlights the potential benefits of employing satellite image processing techniques for crop monitoring and management. The ability to analyze large-scale agricultural landscapes using satellite imagery provides a comprehensive and cost-effective approach for monitoring crop growth and detecting anomalies or areas of concern. It emphasizes the significance of accurate and timely data for optimizing resource allocation and improving crop management practices. By leveraging the insights gained from satellite image processing, farmers can adopt proactive measures to optimize their farming operations, enhance productivity, and mitigate potential risks. This research contributes valuable knowledge to the utilization of satellite image processing for crop detection, offering promising possibilities for the advancement of agriculture and addressing global food security challenges.</jats:p>",
+        "DOI": "10.26634/jip.10.2.19800",
+        "title": [
+          "Crop detection using satellite image processing"
+        ],
+        "author": [
+          {
+            "given": "Jadhav",
+            "family": "Pratik",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "G. H. Raisoni College of Engineering & Management",
+                "place": [
+                  "Wagholi, Pune, India"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Kachave",
+            "family": "Vishwambhar",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "G. H. Raisoni College of Engineering & Management",
+                "place": [
+                  "Wagholi, Pune, India"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Mane",
+            "family": "Aakash",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "G. H. Raisoni College of Engineering & Management",
+                "place": [
+                  "Wagholi, Pune, India"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Joshi",
+            "family": "Kavita",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "G. H. Raisoni College of Engineering & Management",
+                "place": [
+                  "Wagholi, Pune, India"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        },
+        "container-title": [
+          "i-manager’s Journal on Image Processing"
+        ],
+        "ISSN": [
+          "2349-4530",
+          "2349-6827"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.22214/ijraset.2024.61508",
+        "title": [
+          "Analyzing Urbanization using Satellite Image Processing"
+        ],
+        "container-title": [
+          "International Journal for Research in Applied Science and Engineering Technology"
+        ],
+        "ISSN": [
+          "2321-9653"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              31
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              31
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Soham",
+            "family": "Pawar",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Asim",
+            "family": "Dakhway",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Arfaat",
+            "family": "Hashmi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Rishika",
+            "family": "Tripathi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Chhaya",
+            "family": "Dhavale",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>Abstract: Urbanization is directly proportional to the increase in population, which contributes to the increase in country’s GDP but affects the environment and ecosystem. This paper introduces an analysis of the satellite imagery of Mumbai for past 5 years (2019-2023). Mumbai has witnessed significant changes in the geographic region. In order to control and prevent the effects of urbanization, it is necessary to analyze the geographical changes and effects of the same. In this proposed analysis, we have analyzed urbanization with respect to changes in water, forest, urban land and barren land. Use of satellite imagery plays an important role in providing the opportunity for this analysis. Google Earth Engine (GEE) is used for the change detection for the selected area using the satellite imagery dataset provider COPERNICUS named Harmonized Sentinel-2 MSI as an input to this analysis. For this analysis we have used 3 classification methods i.e. supervised, unsurprised and NDVI</jats:p>"
+      },
+      {
+        "DOI": "10.54074/jicsa.v1i01.9",
+        "title": [
+          "Image Super Resolution for Satellite Imagery"
+        ],
+        "container-title": [
+          "Journal of Intelligent Computing Systems and Applications"
+        ],
+        "ISSN": [
+          "3123-1705"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              6
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              6
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "fadjrianah",
+            "family": "fadjrianah",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "id": [
+                  {
+                    "id": "https://ror.org/02jktx121",
+                    "id-type": "ROR",
+                    "asserted-by": "publisher"
+                  }
+                ],
+                "name": "Sumatera Institute of Technology"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Bella Wahmilyana",
+            "family": "Asril",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "id": [
+                  {
+                    "id": "https://ror.org/02r7z4c46",
+                    "id-type": "ROR",
+                    "asserted-by": "publisher"
+                  }
+                ],
+                "name": "Institut Teknologi Del"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8176-7101",
+            "authenticated-orcid": false,
+            "given": "Hogan Eighfansyah",
+            "family": "Susilo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "id": [
+                  {
+                    "id": "https://ror.org/02hmjzt55",
+                    "id-type": "ROR",
+                    "asserted-by": "publisher"
+                  }
+                ],
+                "name": "National Research and Innovation Agency"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>Super resolution (SR) techniques play a critical role in enhancing the quality of satellite imagery by reconstructing high resolution (HR) images from low resolution (LR) inputs. This study investigates the application of the Enhanced Super Resolution Generative Adversarial Network (ESRGAN) to improve the spatial resolution of satellite images. The ESRGAN framework integrates a Residual-in-Residual Dense Block (RRDB) generator, a Relativistic average GAN (RaGAN) discriminator, and an improved perceptual loss function to achieve sharper textures and more realistic structures. The 4× Satellite Image Super Resolution dataset, consisting of paired LR (2 m/pixel) and HR (0.5 m/pixel) images, was employed. Quantitative evaluation was conducted using the Peak Signal-to-Noise Ratio (PSNR), with Lanczos5 interpolation used as a baseline for comparison. Experimental results on ten test images demonstrate that ESRGAN consistently outperforms Lanczos5. Qualitative assessments further confirm that ESRGAN effectively restores high frequency details, enhances fine textures, and preserves object boundaries more accurately than the interpolation method. These findings highlight ESRGAN’s potential as an advanced solution for improving visual quality and detail preservation in high resolution satellite imagery applications.</jats:p>"
+      },
+      {
+        "DOI": "10.33920/sel-4-2106-08",
+        "title": [
+          "Automatic image referencing in satellite surveying"
+        ],
+        "container-title": [
+          "Zemleustrojstvo, kadastr i monitoring zemel' (Land management, cadastre and land monitoring)"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              5,
+              21
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              5,
+              21
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              5,
+              21
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "V.A.",
+            "family": "Pantyushin",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "State University of Land Management, Moscow"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "A.A.",
+            "family": "Andreev",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Military Space Academy named after A. F. Mozhaisky, St. Petersburg"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>The method of coordinate referencing of remote sensing materials in the process of satellite surveying is proposed in this paper. The method provides automatic determination of position of the survey routes and images in the routes on the surface of the Earth ellipsoid with their subsequent displaying on the nomenclature sheets of topographic maps on the composite table. The method provides for fully automatic development of a scheme of areal coverage with survey materials in the presence of data on the coordinates of photographing points obtained at the moments of exposure. The algorithm can be used to link images to the corresponding areas of electronic and digital maps.</jats:p>"
+      },
+      {
+        "DOI": "10.3406/mappe.1987.2355",
+        "title": [
+          "L’œil du satellite : une image N.O.A.A."
+        ],
+        "container-title": [
+          "Mappemonde"
+        ],
+        "ISSN": [
+          "0764-3470"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1987
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1987
+            ]
+          ]
+        },
+        "author": [
+          {
+            "name": "Institut Géographique National (I.G.N.)",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>Les images de satellites, remarquables de précision, donnent une vision renouvelée de l’espace géographique.</jats:p>"
+      },
+      {
+        "DOI": "10.22385/jctecs.v5i0.72",
+        "title": [
+          "Vector Quantization for Satellite Image Compression"
+        ],
+        "container-title": [
+          "Journal of Communications Technology, Electronics and Computer Science"
+        ],
+        "ISSN": [
+          "2457-905X"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              4,
+              30
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2016,
+              4,
+              30
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Sanjith Sathya",
+            "family": "Joseph",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "R.",
+            "family": "Ganesan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>Image compression is the process of reducing the size of a file without humiliating the quality of the image to an unacceptable level by Human Visual System. The reduction in file size allows as to store more data in less memory and speed up the transmission process in low bandwidth also, in case of satellite images it reduces the time required for the image to reach the ground station. In order to increase the transmission process compression plays an important role in remote sensing images.  This paper presents a coding scheme for satellite images using Vector Quantization. And it is a well-known technique for signal compression, and it is also the generalization of the scalar quantization.  The given satellite image is compressed using VCDemo software by creating codebooks for vector quantization and the quality of the compressed and decompressed image is compared by the Mean Square Error, Signal to Noise Ratio, Peak Signal to Noise Ratio values.</jats:p>"
+      },
+      {
+        "DOI": "10.30564/ese.v5i1.5234",
+        "title": [
+          "Satellite Image Enhancement Using Histogram Equalization"
+        ],
+        "container-title": [
+          "Electrical Science &amp; Engineering"
+        ],
+        "ISSN": [
+          "2661-3247"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              10
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              10
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Ibrahim",
+            "family": "Goni",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yusuf Musa",
+            "family": "Malgwi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Asabe Sandra",
+            "family": "Ahmadu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>Image enhancement is an indispensable technique in improving the quality, brightness, contrast and clarity of satellite images. The object that appears in images and variation caused by shadow, occlusion, camouflage in satellite images are the fundamental challenges posed by image enhancement techniques. The aim of this research work was to enhance satellite images of Sambisa using histogram equalization technique. MATLAB 2021 was used to implement the experiment. The results show that histogram equalization method has an excellent processing effect and it improved the brightness, contrast and clarity of the images as compared original images and the enhanced images.</jats:p>"
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              3
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>Existing quantum hardware is limited in the number of bits and length of the series of operations. Nevertheless, by shifting parts of the computation on classical hardware, hybrid quantum-classical systems utilize quantum hardware for scaled-down machine learning approaches, which is quantum machine learning. Due to the theoretically possible computational speed-up of quantum computers compared to classical computers and the increasing volume and speed of data generated in earth observation, attempts are now being made to use quantum computers for satellite image processing. However, satellite imagery is too large and high dimensional, and transformations that reduce the dimensionality are necessary to fit the classical data in the limited input domain of quantum circuits. This paper presents and compares several dimensionality reduction techniques as part of hybrid quantum-classical systems to represent satellite images with up to <jats:inline-formula><jats:alternatives><jats:tex-math>$$256\\times 256\\times 3$$</jats:tex-math><mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n                  <mml:mrow>\n                    <mml:mn>256</mml:mn>\n                    <mml:mo>×</mml:mo>\n                    <mml:mn>256</mml:mn>\n                    <mml:mo>×</mml:mo>\n                    <mml:mn>3</mml:mn>\n                  </mml:mrow>\n                </mml:math></jats:alternatives></jats:inline-formula> values with only 16 values. We evaluate the representations of two benchmark datasets with supervised classification by four different quantum circuit architectures. We demonstrate the potential use of quantum machine learning for satellite image classification and give a comprehensive overview of the impact of various satellite image representations on the performance of quantum classifiers. It shows that autoencoder models are best suited to create small-scale representations, outperforming commonly used methods such as principle component analysis.</jats:p>",
+        "DOI": "10.1007/s13222-024-00464-7",
+        "title": [
+          "Satellite Image Representations for Quantum Classifiers"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-3742-8468",
+            "authenticated-orcid": false,
+            "given": "Johann Maximilian",
+            "family": "Zollner",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Paul",
+            "family": "Walther",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Martin",
+            "family": "Werner",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              23
+            ]
+          ]
+        },
+        "container-title": [
+          "Datenbank-Spektrum"
+        ],
+        "ISSN": [
+          "1618-2162",
+          "1610-1995"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              23
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.35940/ijitee.f1293.0486s419",
+        "title": [
+          "Exploring Fusion Techniques for Satellite Image"
+        ],
+        "container-title": [
+          "International Journal of Innovative Technology and Exploring Engineering"
+        ],
+        "ISSN": [
+          "2278-3075"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              7,
+              26
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              7,
+              26
+            ]
+          ]
+        },
+        "abstract": "<jats:p>With the advance in multispectral imaging, the use of image fusion has become a new and important research area. A solitary caught picture of a certifiable scene is generally deficient to uncover every one of the points of interest due to under-or over-uncovered areas. Amid the most recent twenty years, numerous strategies, for example, Multiplicative Change, Brovey Transform, Principal Component Analysis (PCA), and IHS Transform have been grown great quality melded pictures. Inspite of the very great visual outcomes, numerous analysts have announced the restrictions of the above combination procedures. The most huge issue is twisting of shading ,Another basic issue is that the combination quality frequently depend upon the administrator's combination encounter and upon the informational collection being melded. The goal of this paper is to examine different combination systems utilized for satellite pictures and dissect these methodologies intently for different situations. Likewise talk about the progressions which have been made while creating different combination methods their constraints and so forth. Combination methods on satellite pictures empower us to break down various sorts of information like climate estimate, Forest Area, Identify Roads for Maps, Water Bodies and so on altogether.</jats:p>"
+      },
+      {
+        "DOI": "10.56343/stet.116.018.001.004",
+        "title": [
+          "Satellite Image Classification using Deep Learning"
+        ],
+        "container-title": [
+          "Scientific Transactions in Environment and Technovation"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              25
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              25
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              25
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.11591/ijeecs.v9.i3.pp633-636",
+        "title": [
+          "Review About Various Satellite Image Segmentation"
+        ],
+        "container-title": [
+          "Indonesian Journal of Electrical Engineering and Computer Science"
+        ],
+        "ISSN": [
+          "2502-4760",
+          "2502-4752"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              3,
+              1
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2018,
+              3,
+              1
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Shabir Ahmed",
+            "family": "Mir",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "T.",
+            "family": "Padma",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>&lt;p&gt;In this paper, a review about different algorithm is proposed efficiently to segment the satellite images. Segmentation of Image is one of the promising and active researches in recent years. As literature prove that region segmentation will produce better results. Human visual perception is more effective than any machine vision systems for extracting semantic information from image. There are various segmentation techniques are available. Fuzzy C Means (FCM), Expectation Minimization (EM) and K-Means algorithm is developed to estimate parameters of the prior probabilities and likelihood probabilities. Finally Peak Signal to Noise Ratio (PSNR) is calculated for all the algorithms and reviewed.&lt;/p&gt;</jats:p>"
+      },
+      {
+        "DOI": "10.32473/flairs.39.1.141816",
+        "title": [
+          "Satellite Image Analysis Using Modified EfficientNet"
+        ],
+        "container-title": [
+          "The International FLAIRS Conference Proceedings"
+        ],
+        "ISSN": [
+          "2334-0762",
+          "2334-0754"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              6
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              6
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Rahul",
+            "family": "Chaudhari",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Nazmul",
+            "family": "Shahadat",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "abstract": "<jats:p>Climate change is reshaping the Earth’s surface through vegetation loss, desertification, and water depletion, necessitating efficient automated analysis of satellite imagery. This work evaluates three lightweight EfficientNet-based architectures for satellite image classification using four classes from the RSI-CB256 dataset and ten classes from the EUROSAT dataset. The models include EfficientNet-Lite with a Squeeze-and-Excitation (SE) head, EfficientNet-B0 with a pointwise head, and an SE-enhanced EfficientNet-B0, all trained under identical settings with parameter counts between 3.37M and 4M. Experimental results show thatthe SE-enhanced EfficientNet-B0 achieves the highest accuracy, reaching 99.83% on RSI-CB256 and 95.10% on EUROSAT, while maintaining computational efficiency. These findings highlight the effectiveness of SE-augmented EfficientNet architectures for accurate and scalable AI-driven climate monitoring</jats:p>"
+      },
+      {
+        "DOI": "10.1016/s0736-5853(05)80018-8",
+        "title": [
+          "Satellite image analysis using neural networks"
+        ],
+        "container-title": [
+          "Telematics and Informatics"
+        ],
+        "ISSN": [
+          "0736-5853"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1990
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1990
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Roger A.",
+            "family": "Sheldon",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1016/j.sigpro.2006.05.005",
+        "title": [
+          "Satellite image restoration using statistical models"
+        ],
+        "container-title": [
+          "Signal Processing"
+        ],
+        "ISSN": [
+          "0165-1684"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2007,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2007,
+              3
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "K.",
+            "family": "Rajesh",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "K.C.",
+            "family": "Roy",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "S.",
+            "family": "Sengupta",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "S.",
+            "family": "Sinha",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              1989,
+              5,
+              2
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Colder water off Seward, Alaska, imaged by the NOAA‐11 polar orbiting satellite coincides with the leading part of the oil spilled from the <jats:italic>Exxon Valdez</jats:italic>. Visual observations from a National Oceanic and Atmospheric Administration airplane suggest that the location of the cooler radiant temperature on the image (Figure 1) was the leading edge of the spill, which was about 180 km southwest of Bligh Reef in Prince William Sound, where the tanker ran aground March 24.</jats:p><jats:p>The spill was carried to its April 7 position by wind and the Alaska Coastal Current at an average speed of 15 cm s<jats:sup>−1</jats:sup> (about 13 km a day). Wind and fresh water discharge drive the coastal current, which is unusually slow due to record low precipitation in southeastern Alaska in February.</jats:p>",
+        "DOI": "10.1029/89eo00143",
+        "title": [
+          "Oil spill shows on satellite image"
+        ],
+        "author": [
+          {
+            "family": "Anonymous",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2011,
+              6,
+              3
+            ]
+          ]
+        },
+        "container-title": [
+          "Eos, Transactions American Geophysical Union"
+        ],
+        "ISSN": [
+          "0096-3941",
+          "2324-9250"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1989,
+              5,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.1016/0045-8732(89)90039-9",
+        "title": [
+          "Premiere image du satellite MOP-1"
+        ],
+        "container-title": [
+          "COSPAR Information Bulletin"
+        ],
+        "ISSN": [
+          "0045-8732"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1989,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1989,
+              12
+            ]
+          ]
+        }
+      },
+      {
+        "DOI": "10.5120/3621-5056",
+        "title": [
+          "Fractal Image Compression of Satellite Imageries"
+        ],
+        "container-title": [
+          "International Journal of Computer Applications"
+        ],
+        "ISSN": [
+          "0975-8887"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              9,
+              29
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2011,
+              9,
+              29
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "Veenadevi.S.",
+            "family": "V",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "A.",
+            "family": "G.Ananth",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.17577/ijertv8is120099",
+        "title": [
+          "Satellite Image Classification using Dense Networks"
+        ],
+        "container-title": [
+          "International Journal of Engineering Research and"
+        ],
+        "ISSN": [
+          "2278-0181"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              12,
+              13
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              12,
+              13
+            ]
+          ]
+        },
+        "author": [
+          {
+            "family": "K. Navya",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "name": "SV University College Of Engineering",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/64.464930",
+        "title": [
+          "Satellite image dissemination via software agents"
+        ],
+        "container-title": [
+          "IEEE Expert"
+        ],
+        "ISSN": [
+          "0885-9000"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1995,
+              10
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1995,
+              10
+            ]
+          ]
+        },
+        "author": [
+          {
+            "given": "C.",
+            "family": "Toomey",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "W.",
+            "family": "Mark",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "items-per-page": 40,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

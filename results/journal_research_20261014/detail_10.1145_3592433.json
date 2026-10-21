@@ -1,0 +1,635 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        14
+      ]
+    ],
+    "date-time": "2026-10-14T01:55:51Z",
+    "timestamp": 1791942951731,
+    "version": "4.3.4"
+  },
+  "reference-count": 61,
+  "publisher": "Association for Computing Machinery (ACM)",
+  "issue": "4",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            26
+          ]
+        ],
+        "date-time": "2023-07-26T00:00:00Z",
+        "timestamp": 1690329600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100000781",
+      "name": "European Research Council",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "788065 (FUNGRAPH)"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "788065 (FUNGRAPH)"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100000781",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "dl.acm.org"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "ACM Trans. Graph."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2023,
+        8
+      ]
+    ]
+  },
+  "abstract": "<jats:p>Radiance Field methods have recently revolutionized novel-view synthesis of scenes captured with multiple photos or videos. However, achieving high visual quality still requires neural networks that are costly to train and render, while recent faster methods inevitably trade off speed for quality. For unbounded and complete scenes (rather than isolated objects) and 1080p resolution rendering, no current method can achieve real-time display rates. We introduce three key elements that allow us to achieve state-of-the-art visual quality while maintaining competitive training times and importantly allow high-quality real-time (≥ 30 fps) novel-view synthesis at 1080p resolution. First, starting from sparse points produced during camera calibration, we represent the scene with 3D Gaussians that preserve desirable properties of continuous volumetric radiance fields for scene optimization while avoiding unnecessary computation in empty space; Second, we perform interleaved optimization/density control of the 3D Gaussians, notably optimizing anisotropic covariance to achieve an accurate representation of the scene; Third, we develop a fast visibility-aware rendering algorithm that supports anisotropic splatting and both accelerates training and allows realtime rendering. We demonstrate state-of-the-art visual quality and real-time rendering on several established datasets.</jats:p>",
+  "DOI": "10.1145/3592433",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2023,
+        7,
+        26
+      ]
+    ],
+    "date-time": "2023-07-26T14:29:21Z",
+    "timestamp": 1690381761000
+  },
+  "page": "1-14",
+  "update-policy": "https://doi.org/10.1145/crossmark-policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 6667,
+  "title": [
+    "3D Gaussian Splatting for Real-Time Radiance Field Rendering"
+  ],
+  "prefix": "10.1145",
+  "volume": "42",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-5168-8648",
+      "authenticated-orcid": false,
+      "given": "Bernhard",
+      "family": "Kerbl",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Inria, Sophia-Antipolis, France"
+        },
+        {
+          "name": "Université Nice Cote d'Azur, Sophia-Antipolis, France"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0002-5829-2192",
+      "authenticated-orcid": false,
+      "given": "Georgios",
+      "family": "Kopanas",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Inria, Sophia-Antipolis, France"
+        },
+        {
+          "name": "Université Côte d'Azur, Sophia-Antipolis, France"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0006-7784-7957",
+      "authenticated-orcid": false,
+      "given": "Thomas",
+      "family": "Leimkuehler",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Max-Planck-Institut für Informatik, Saarbruecken, Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-9254-4819",
+      "authenticated-orcid": false,
+      "given": "George",
+      "family": "Drettakis",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Inria, Sophia-Antipolis, France"
+        },
+        {
+          "name": "Unversité Côte d'Azur, Sophia-Antipolis, France"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "320",
+  "published-online": {
+    "date-parts": [
+      [
+        2023,
+        7,
+        26
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_2_2_1_1",
+      "volume-title": "Proceedings, Part XXII. 696--712",
+      "author": "Aliev Kara-Ali",
+      "year": "2020",
+      "unstructured": "Kara-Ali Aliev, Artem Sevastopolsky, Maria Kolos, Dmitry Ulyanov, and Victor Lempitsky. 2020. Neural Point-Based Graphics. In Computer Vision - ECCV 2020: 16th European Conference, Glasgow, UK, August 23--28, 2020, Proceedings, Part XXII. 696--712."
+    },
+    {
+      "key": "e_1_2_2_2_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICCV48922.2021.00580"
+    },
+    {
+      "key": "e_1_2_2_3_1",
+      "volume-title": "Mip-NeRF 360: Unbounded Anti-Aliased Neural Radiance Fields. CVPR",
+      "author": "Barron Jonathan T.",
+      "year": "2022",
+      "unstructured": "Jonathan T. Barron, Ben Mildenhall, Dor Verbin, Pratul P. Srinivasan, and Peter Hedman. 2022. Mip-NeRF 360: Unbounded Anti-Aliased Neural Radiance Fields. CVPR (2022)."
+    },
+    {
+      "key": "e_1_2_2_4_1",
+      "unstructured": "Sebastien Bonopera Jerome Esnault Siddhant Prakash Simon Rodriguez Theo Thonat Mehdi Benadel Gaurav Chaurasia Julien Philip and George Drettakis. 2020. sibr: A System for Image Based Rendering. https://gitlab.inria.fr/sibr/sibr_core"
+    },
+    {
+      "key": "e_1_2_2_5_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5555/2386366.2386369"
+    },
+    {
+      "key": "e_1_2_2_6_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/383259.383309"
+    },
+    {
+      "key": "e_1_2_2_7_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2487228.2487238"
+    },
+    {
+      "key": "e_1_2_2_8_1",
+      "volume-title": "TensoRF: Tensorial Radiance Fields. In European Conference on Computer Vision (ECCV).",
+      "author": "Chen Anpei",
+      "year": "2022",
+      "unstructured": "Anpei Chen, Zexiang Xu, Andreas Geiger, Jingyi Yu, and Hao Su. 2022b. TensoRF: Tensorial Radiance Fields. In European Conference on Computer Vision (ECCV)."
+    },
+    {
+      "key": "e_1_2_2_9_1",
+      "volume-title": "MobileNeRF: Exploiting the Polygon Rasterization Pipeline for Efficient Neural Field Rendering on Mobile Architectures. arXiv preprint arXiv:2208.00277",
+      "author": "Chen Zhiqin",
+      "year": "2022",
+      "unstructured": "Zhiqin Chen, Thomas Funkhouser, Peter Hedman, and Andrea Tagliasacchi. 2022a. MobileNeRF: Exploiting the Polygon Rasterization Pipeline for Efficient Neural Field Rendering on Mobile Architectures. arXiv preprint arXiv:2208.00277 (2022)."
+    },
+    {
+      "key": "e_1_2_2_10_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TIP.2016.2575005"
+    },
+    {
+      "key": "e_1_2_2_11_1",
+      "volume-title": "Marcus Magnor, Philippe Bekaert, Edilson De Aguiar, Naveed Ahmed, Christian Theobalt, and Anita Sellent.",
+      "author": "Eisemann Martin",
+      "year": "2008",
+      "unstructured": "Martin Eisemann, Bert De Decker, Marcus Magnor, Philippe Bekaert, Edilson De Aguiar, Naveed Ahmed, Christian Theobalt, and Anita Sellent. 2008. Floating textures. In Computer graphics forum, Vol. 27. Wiley Online Library, 409--418."
+    },
+    {
+      "key": "e_1_2_2_12_1",
+      "volume-title": "Deepstereo: Learning to predict new views from the world's imagery. In CVPR.",
+      "author": "Flynn John",
+      "year": "2016",
+      "unstructured": "John Flynn, Ivan Neulander, James Philbin, and Noah Snavely. 2016. Deepstereo: Learning to predict new views from the world's imagery. In CVPR."
+    },
+    {
+      "key": "e_1_2_2_13_1",
+      "volume-title": "Plenoxels: Radiance Fields without Neural Networks. In CVPR.",
+      "author": "Yu Fridovich-Keil",
+      "year": "2022",
+      "unstructured": "Fridovich-Keil and Yu, Matthew Tancik, Qinhong Chen, Benjamin Recht, and Angjoo Kanazawa. 2022. Plenoxels: Radiance Fields without Neural Networks. In CVPR."
+    },
+    {
+      "key": "e_1_2_2_14_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICCV48922.2021.01408"
+    },
+    {
+      "key": "e_1_2_2_15_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Michael Goesele Noah Snavely Brian Curless Hugues Hoppe and Steven M Seitz. 2007. Multi-view stereo for community photo collections. In ICCV.",
+      "DOI": "10.1109/ICCV.2007.4408933"
+    },
+    {
+      "key": "e_1_2_2_16_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/237170.237200"
+    },
+    {
+      "key": "e_1_2_2_17_1",
+      "volume-title": "Point-based graphics",
+      "author": "Gross Markus",
+      "unstructured": "Markus Gross and Hanspeter (Eds) Pfister. 2011. Point-based graphics. Elsevier."
+    },
+    {
+      "key": "e_1_2_2_18_1",
+      "volume-title": "Dally",
+      "author": "Grossman Jeff P.",
+      "year": "1998",
+      "unstructured": "Jeff P. Grossman and William J. Dally. 1998. Point Sample Rendering. In Rendering Techniques."
+    },
+    {
+      "key": "e_1_2_2_19_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3272127.3275084"
+    },
+    {
+      "key": "e_1_2_2_20_1",
+      "first-page": "B16",
+      "volume-title": "Scalable Inside-Out Image-Based Rendering. ACM Transactions on Graphics (SIGGRAPH Asia Conference Proceedings) 35",
+      "author": "Hedman Peter",
+      "year": "2016",
+      "unstructured": "Peter Hedman, Tobias Ritschel, George Drettakis, and Gabriel Brostow. 2016. Scalable Inside-Out Image-Based Rendering. ACM Transactions on Graphics (SIGGRAPH Asia Conference Proceedings) 35, 6 (December 2016). http://www-sop.inria.fr/reves/Basilic/2016/HRDB16"
+    },
+    {
+      "key": "e_1_2_2_21_1",
+      "volume-title": "Baking Neural Radiance Fields for Real-Time View Synthesis. ICCV",
+      "author": "Hedman Peter",
+      "year": "2021",
+      "unstructured": "Peter Hedman, Pratul P. Srinivasan, Ben Mildenhall, Jonathan T. Barron, and Paul Debevec. 2021. Baking Neural Radiance Fields for Real-Time View Synthesis. ICCV (2021)."
+    },
+    {
+      "key": "e_1_2_2_22_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICCV.2019.01008"
+    },
+    {
+      "key": "e_1_2_2_23_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3072959.3073599"
+    },
+    {
+      "key": "e_1_2_2_24_1",
+      "first-page": "D22",
+      "volume-title": "Neural Point Catacaustics for Novel-View Synthesis of Reflections. ACM Transactions on Graphics (SIGGRAPH Asia Conference Proceedings) 41",
+      "author": "Kopanas Georgios",
+      "year": "2022",
+      "unstructured": "Georgios Kopanas, Thomas Leimkühler, Gilles Rainer, Clément Jambon, and George Drettakis. 2022. Neural Point Catacaustics for Novel-View Synthesis of Reflections. ACM Transactions on Graphics (SIGGRAPH Asia Conference Proceedings) 41, 6 (2022), 201. http://www-sop.inria.fr/reves/Basilic/2022/KLRJD22"
+    },
+    {
+      "key": "e_1_2_2_25_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.14339"
+    },
+    {
+      "key": "e_1_2_2_26_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2018323.2018337"
+    },
+    {
+      "key": "e_1_2_2_27_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPR46437.2021.00149"
+    },
+    {
+      "key": "e_1_2_2_28_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/237170.237199"
+    },
+    {
+      "key": "e_1_2_2_29_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3450626.3459863"
+    },
+    {
+      "key": "e_1_2_2_30_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1854273.1854344"
+    },
+    {
+      "key": "e_1_2_2_31_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Ben Mildenhall Pratul P. Srinivasan Matthew Tancik Jonathan T. Barron Ravi Ramamoorthi and Ren Ng. 2020. NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis. In ECCV.",
+      "DOI": "10.1007/978-3-030-58452-8_24"
+    },
+    {
+      "key": "e_1_2_2_32_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3528223.3530127"
+    },
+    {
+      "key": "e_1_2_2_33_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3130800.3130855"
+    },
+    {
+      "key": "e_1_2_2_34_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/344779.344936"
+    },
+    {
+      "key": "e_1_2_2_35_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICCV48922.2021.01407"
+    },
+    {
+      "key": "e_1_2_2_36_1",
+      "volume-title": "Object Space EWA Surface Splatting: A Hardware Accelerated Approach to High Quality Point Rendering. Computer Graphics Forum 21",
+      "author": "Ren Liu",
+      "year": "2002",
+      "unstructured": "Liu Ren, Hanspeter Pfister, and Matthias Zwicker. 2002. Object Space EWA Surface Splatting: A Hardware Accelerated Approach to High Quality Point Rendering. Computer Graphics Forum 21 (2002)."
+    },
+    {
+      "key": "e_1_2_2_37_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICCV.2015.94"
+    },
+    {
+      "key": "e_1_2_2_38_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-030-58529-7_37"
+    },
+    {
+      "key": "e_1_2_2_39_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3528223.3530122"
+    },
+    {
+      "key": "e_1_2_2_40_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.cag.2004.08.014"
+    },
+    {
+      "key": "e_1_2_2_41_1",
+      "volume-title": "Structure-from-Motion Revisited. In Conference on Computer Vision and Pattern Recognition (CVPR).",
+      "author": "Schönberger Johannes Lutz",
+      "year": "2016",
+      "unstructured": "Johannes Lutz Schönberger and Jan-Michael Frahm. 2016. Structure-from-Motion Revisited. In Conference on Computer Vision and Pattern Recognition (CVPR)."
+    },
+    {
+      "key": "e_1_2_2_42_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3543863"
+    },
+    {
+      "key": "e_1_2_2_43_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPR.2019.00254"
+    },
+    {
+      "key": "e_1_2_2_44_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1179352.1141964"
+    },
+    {
+      "key": "e_1_2_2_45_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICCV.2011.6126338"
+    },
+    {
+      "key": "e_1_2_2_46_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Cheng Sun Min Sun and Hwann-Tzong Chen. 2022. Direct Voxel Grid Optimization: Super-fast Convergence for Radiance Fields Reconstruction. In CVPR.",
+      "DOI": "10.1109/CVPR52688.2022.00538"
+    },
+    {
+      "key": "e_1_2_2_47_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3528233.3530727"
+    },
+    {
+      "key": "e_1_2_2_48_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Towaki Takikawa Joey Litalien Kangxue Yin Karsten Kreis Charles Loop Derek Nowrouzezahrai Alec Jacobson Morgan McGuire and Sanja Fidler. 2021. Neural Geometric Level of Detail: Real-time Rendering with Implicit 3D Shapes. (2021).",
+      "DOI": "10.1109/CVPR46437.2021.01120"
+    },
+    {
+      "key": "e_1_2_2_49_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.14507"
+    },
+    {
+      "key": "e_1_2_2_50_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3306346.3323035"
+    },
+    {
+      "key": "e_1_2_2_51_1",
+      "volume-title": "The Eleventh International Conference on Learning Representations. https://openreview.net/forum?id=AdPJb9cud_Y",
+      "author": "Wang Angtian",
+      "year": "2023",
+      "unstructured": "Angtian Wang, Peng Wang, Jian Sun, Adam Kortylewski, and Alan Yuille. 2023. VoGE: A Differentiable Volume Renderer using Gaussian Ellipsoids for Analysis-by-Synthesis. In The Eleventh International Conference on Learning Representations. https://openreview.net/forum?id=AdPJb9cud_Y"
+    },
+    {
+      "key": "e_1_2_2_52_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPR42600.2020.00749"
+    },
+    {
+      "key": "e_1_2_2_53_1",
+      "volume-title": "Scalable Neural Indoor Scene Rendering. ACM Transactions on Graphics (TOG)",
+      "author": "Wu Xiuchao",
+      "year": "2022",
+      "unstructured": "Xiuchao Wu, Jiamin Xu, Zihan Zhu, Hujun Bao, Qixing Huang, James Tompkin, and Weiwei Xu. 2022. Scalable Neural Indoor Scene Rendering. ACM Transactions on Graphics (TOG) (2022)."
+    },
+    {
+      "key": "e_1_2_2_54_1",
+      "volume-title": "Computer Graphics Forum",
+      "author": "Xie Yiheng",
+      "unstructured": "Yiheng Xie, Towaki Takikawa, Shunsuke Saito, Or Litany, Shiqin Yan, Numair Khan, Federico Tombari, James Tompkin, Vincent Sitzmann, and Srinath Sridhar. 2022. Neural fields in visual computing and beyond. In Computer Graphics Forum, Vol. 41. Wiley Online Library, 641--676."
+    },
+    {
+      "key": "e_1_2_2_55_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPR52688.2022.00536"
+    },
+    {
+      "key": "e_1_2_2_56_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3355089.3356513"
+    },
+    {
+      "key": "e_1_2_2_57_1",
+      "unstructured": "Alex Yu Ruilong Li Matthew Tancik Hao Li Ren Ng and Angjoo Kanazawa. 2021. PlenOctrees for Real-time Rendering of Neural Radiance Fields. In ICCV."
+    },
+    {
+      "key": "e_1_2_2_58_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3550469.3555413"
+    },
+    {
+      "key": "e_1_2_2_59_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-319-46493-0_18"
+    },
+    {
+      "key": "e_1_2_2_60_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VISUAL.2001.964490"
+    },
+    {
+      "key": "e_1_2_2_61_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/383259.383300"
+    }
+  ],
+  "container-title": [
+    "ACM Transactions on Graphics"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://dl.acm.org/doi/10.1145/3592433",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://dl.acm.org/doi/pdf/10.1145/3592433",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        6,
+        17
+      ]
+    ],
+    "date-time": "2025-06-17T17:48:59Z",
+    "timestamp": 1750182539000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://dl.acm.org/doi/10.1145/3592433"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2023,
+        7,
+        26
+      ]
+    ]
+  },
+  "references-count": 61,
+  "journal-issue": {
+    "issue": "4",
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          8
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1145/3592433"
+  ],
+  "URL": "https://doi.org/10.1145/3592433",
+  "relation": {},
+  "ISSN": [
+    "0730-0301",
+    "1557-7368"
+  ],
+  "issn-type": [
+    {
+      "value": "0730-0301",
+      "type": "print"
+    },
+    {
+      "value": "1557-7368",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2023,
+        7,
+        26
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2023-07-26",
+      "order": 2,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ]
+}

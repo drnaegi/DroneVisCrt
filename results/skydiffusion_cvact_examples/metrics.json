@@ -1,0 +1,39 @@
+{
+  "sample_count": 3,
+  "mean": {
+    "psnr_db": 12.368755280715819,
+    "ssim_rgb": 0.09562168270349503,
+    "lpips_alex": 0.6411018570264181
+  },
+  "per_sample": [
+    {
+      "name": "2-6Pro9zN1qOxbFSTigfAg_grdView",
+      "psnr_db": 13.401837994279436,
+      "ssim_rgb": 0.09296909719705582,
+      "lpips_alex": 0.6003913283348083,
+      "target_resized": true
+    },
+    {
+      "name": "cSsY4Js1I4eYNdAgcmKxzg_grdView",
+      "psnr_db": 11.883169668471425,
+      "ssim_rgb": 0.10811040550470352,
+      "lpips_alex": 0.615446925163269,
+      "target_resized": true
+    },
+    {
+      "name": "EFcX7D8xMiXIrWwznx225Q_grdView",
+      "psnr_db": 11.821258179396597,
+      "ssim_rgb": 0.08578554540872574,
+      "lpips_alex": 0.7074673175811768,
+      "target_resized": true
+    }
+  ],
+  "definitions": {
+    "psnr_db": "skimage PSNR, RGB [0,1], data_range=1, no 40 dB cap",
+    "ssim_rgb": "skimage SSIM, RGB [0,1], channel_axis=-1, default uniform 7x7 window",
+    "lpips_alex": "lpips 0.1.4, pretrained AlexNet, RGB [-1,1]",
+    "target_resize": "only if needed: OpenCV INTER_LINEAR to generated image size; G2A-3 targets are already 512x512"
+  },
+  "scope": "small-sample cross-dataset smoke test; not paper benchmark scores",
+  "fid": "not computed: sample count is too small for a useful FID comparison"
+}

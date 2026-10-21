@@ -1,0 +1,130 @@
+[
+  {
+    "title": "FVGen: Accelerating Novel-View Synthesis with Adversarial Video Diffusion Distillation",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Teng_FVGen_Accelerating_Novel-View_Synthesis_with_Adversarial_Video_Diffusion_Distillation_ICCV_2025_paper.html"
+  },
+  {
+    "title": "E-NeMF: Event-based Neural Motion Field for Novel Space-time View Synthesis of Dynamic Scenes",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Liu_E-NeMF_Event-based_Neural_Motion_Field_for_Novel_Space-time_View_Synthesis_ICCV_2025_paper.html"
+  },
+  {
+    "title": "RayGaussX: Accelerating Gaussian-Based Ray Marching for Real-Time and High-Quality Novel View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Blanc_RayGaussX_Accelerating_Gaussian-Based_Ray_Marching_for_Real-Time_and_High-Quality_Novel_ICCV_2025_paper.html"
+  },
+  {
+    "title": "Cross-View Isolated Sign Language Recognition via View Synthesis and Feature Disentanglement",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Shen_Cross-View_Isolated_Sign_Language_Recognition_via_View_Synthesis_and_Feature_ICCV_2025_paper.html"
+  },
+  {
+    "title": "Diffuman4D: 4D Consistent Human View Synthesis from Sparse-View Videos with Spatio-Temporal Diffusion Models",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Jin_Diffuman4D_4D_Consistent_Human_View_Synthesis_from_Sparse-View_Videos_with_ICCV_2025_paper.html"
+  },
+  {
+    "title": "StolenLoRA: Exploring LoRA Extraction Attacks via Synthetic Data",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Wang_StolenLoRA_Exploring_LoRA_Extraction_Attacks_via_Synthetic_Data_ICCV_2025_paper.html"
+  },
+  {
+    "title": "Unraveling the Effects of Synthetic Data on End-to-End Autonomous Driving",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Ge_Unraveling_the_Effects_of_Synthetic_Data_on_End-to-End_Autonomous_Driving_ICCV_2025_paper.html"
+  },
+  {
+    "title": "Seeing and Seeing Through the Glass: Real and Synthetic Data for Multi-Layer Depth Estimation",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Wen_Seeing_and_Seeing_Through_the_Glass_Real_and_Synthetic_Data_ICCV_2025_paper.html"
+  },
+  {
+    "title": "ReCamMaster: Camera-Controlled Generative Rendering from A Single Video",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Bai_ReCamMaster_Camera-Controlled_Generative_Rendering_from_A_Single_Video_ICCV_2025_paper.html"
+  },
+  {
+    "title": "Bootstrap3D: Improving Multi-view Diffusion Model with Synthetic Data",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Sun_Bootstrap3D_Improving_Multi-view_Diffusion_Model_with_Synthetic_Data_ICCV_2025_paper.html"
+  },
+  {
+    "title": "Self-Ensembling Gaussian Splatting for Few-Shot Novel View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhao_Self-Ensembling_Gaussian_Splatting_for_Few-Shot_Novel_View_Synthesis_ICCV_2025_paper.html"
+  },
+  {
+    "title": "RayZer: A Self-supervised Large View Synthesis Model",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Jiang_RayZer_A_Self-supervised_Large_View_Synthesis_Model_ICCV_2025_paper.html"
+  },
+  {
+    "title": "HumanOLAT: A Large-Scale Dataset for Full-Body Human Relighting and Novel-View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Teufel_HumanOLAT_A_Large-Scale_Dataset_for_Full-Body_Human_Relighting_and_Novel-View_ICCV_2025_paper.html"
+  },
+  {
+    "title": "SEHDR: Single-Exposure HDR Novel View Synthesis via 3D Gaussian Bracketing",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Li_SEHDR_Single-Exposure_HDR_Novel_View_Synthesis_via_3D_Gaussian_Bracketing_ICCV_2025_paper.html"
+  },
+  {
+    "title": "Scaling Tumor Segmentation: Best Lessons from Real and Synthetic Data",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Chen_Scaling_Tumor_Segmentation_Best_Lessons_from_Real_and_Synthetic_Data_ICCV_2025_paper.html"
+  },
+  {
+    "title": "DAViD: Data-efficient and Accurate Vision Models from Synthetic Data",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Saleh_DAViD_Data-efficient_and_Accurate_Vision_Models_from_Synthetic_Data_ICCV_2025_paper.html"
+  },
+  {
+    "title": "SynFER: Towards Boosting Facial Expression Recognition with Synthetic Data",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/He_SynFER_Towards_Boosting_Facial_Expression_Recognition_with_Synthetic_Data_ICCV_2025_paper.html"
+  },
+  {
+    "title": "Driving View Synthesis on Free-form Trajectories with Generative Prior",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Yang_Driving_View_Synthesis_on_Free-form_Trajectories_with_Generative_Prior_ICCV_2025_paper.html"
+  },
+  {
+    "title": "Extrapolated Urban View Synthesis Benchmark",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Han_Extrapolated_Urban_View_Synthesis_Benchmark_ICCV_2025_paper.html"
+  },
+  {
+    "title": "Generating Multi-Image Synthetic Data for Text-to-Image Customization",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Kumari_Generating_Multi-Image_Synthetic_Data_for_Text-to-Image_Customization_ICCV_2025_paper.html"
+  },
+  {
+    "title": "MR-FIQA: Face Image Quality Assessment with Multi-Reference Representations from Synthetic Data Generation",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Ou_MR-FIQA_Face_Image_Quality_Assessment_with_Multi-Reference_Representations_from_Synthetic_ICCV_2025_paper.html"
+  },
+  {
+    "title": "SynAD: Enhancing Real-World End-to-End Autonomous Driving Models through Synthetic Data Integration",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Kim_SynAD_Enhancing_Real-World_End-to-End_Autonomous_Driving_Models_through_Synthetic_Data_ICCV_2025_paper.html"
+  },
+  {
+    "title": "Scaling Transformer-Based Novel View Synthesis with Models Token Disentanglement and Synthetic Data",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Nair_Scaling_Transformer-Based_Novel_View_Synthesis_with_Models_Token_Disentanglement_and_ICCV_2025_paper.html"
+  },
+  {
+    "title": "EVER: Exact Volumetric Ellipsoid Rendering for Real-time View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Mai_EVER_Exact_Volumetric_Ellipsoid_Rendering_for_Real-time_View_Synthesis_ICCV_2025_paper.html"
+  },
+  {
+    "title": "PerLDiff: Controllable Street View Synthesis Using Perspective-Layout Diffusion Model",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhang_PerLDiff_Controllable_Street_View_Synthesis_Using_Perspective-Layout_Diffusion_Model_ICCV_2025_paper.html"
+  },
+  {
+    "title": "Stable Virtual Camera: Generative View Synthesis with Diffusion Models",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhou_Stable_Virtual_Camera_Generative_View_Synthesis_with_Diffusion_Models_ICCV_2025_paper.html"
+  },
+  {
+    "title": "GeoDiffusion: A Training-Free Framework for Accurate 3D Geometric Conditioning in Image Generation",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Mueller_GeoDiffusion_A_Training-Free_Framework_for_Accurate_3D_Geometric_Conditioning_in_ICCV_2025_paper.html"
+  },
+  {
+    "title": "BillBoard Splatting (BBSplat): Learnable Textured Primitives for Novel View Synthesis",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Svitov_BillBoard_Splatting_BBSplat_Learnable_Textured_Primitives_for_Novel_View_Synthesis_ICCV_2025_paper.html"
+  },
+  {
+    "title": "Scaling and Taming Adversarial Training with Synthetic Data",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Wu_Scaling_and_Taming_Adversarial_Training_with_Synthetic_Data_ICCV_2025_paper.html"
+  },
+  {
+    "title": "WAVE: Warp-Based View Guidance for Consistent Novel View Synthesis Using a Single Image",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Park_WAVE_Warp-Based_View_Guidance_for_Consistent_Novel_View_Synthesis_Using_ICCV_2025_paper.html"
+  },
+  {
+    "title": "CameraCtrl II: Dynamic Scene Exploration via Camera-controlled Video Diffusion Models",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/He_CameraCtrl_II_Dynamic_Scene_Exploration_via_Camera-controlled_Video_Diffusion_Models_ICCV_2025_paper.html"
+  },
+  {
+    "title": "UniGS: Modeling Unitary 3D Gaussians for Novel View Synthesis from Sparse-view Images",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Wu_UniGS_Modeling_Unitary_3D_Gaussians_for_Novel_View_Synthesis_from_ICCV_2025_paper.html"
+  }
+]

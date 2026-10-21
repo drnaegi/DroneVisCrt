@@ -1,0 +1,1527 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 138,
+    "items": [
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              10
+            ]
+          ]
+        },
+        "DOI": "10.1109/mmul.2025.3620542",
+        "title": [
+          "High-Quality Dynamic Human Novel View Synthesis Based on Multiview Video"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-9645-5031",
+            "authenticated-orcid": false,
+            "given": "Wenkai",
+            "family": "Liu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Huazhong University of Science and Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5748-4355",
+            "authenticated-orcid": false,
+            "given": "Tao",
+            "family": "Guan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Huazhong University of Science and Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6114-0387",
+            "authenticated-orcid": false,
+            "given": "Luoyuan",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Huazhong University of Science and Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8832-4530",
+            "authenticated-orcid": false,
+            "given": "Yuesong",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Huazhong University of Science and Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE MultiMedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/93/11370732/11202321.pdf?arnumber=11202321",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/mmul.2025.3620542",
+        "ISSN": [
+          "1070-986X",
+          "1941-0166"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              10
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              7
+            ]
+          ]
+        },
+        "DOI": "10.1109/mmul.2025.3578972",
+        "title": [
+          "CAMUL: Context-Aware Multiconditional Instance Synthesis for Image Segmentation"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-6577-2122",
+            "authenticated-orcid": false,
+            "given": "Thanh-Danh",
+            "family": "Nguyen",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "University of Information Technology, Ho Chi Minh City, Vietnam"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0005-1549-989X",
+            "authenticated-orcid": false,
+            "given": "Trong-Tai",
+            "family": "Dam Vu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Information Technology, Ho Chi Minh City, Vietnam"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0008-3031-1711",
+            "authenticated-orcid": false,
+            "given": "Bich-Nga",
+            "family": "Pham",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Information Technology, Ho Chi Minh City, Vietnam"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6882-0070",
+            "authenticated-orcid": false,
+            "given": "Thanh Duc",
+            "family": "Ngo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Information Technology, Ho Chi Minh City, Vietnam"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0236-7992",
+            "authenticated-orcid": false,
+            "given": "Tam V.",
+            "family": "Nguyen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Dayton, Dayton, OH, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4260-7874",
+            "authenticated-orcid": false,
+            "given": "Vinh-Tiep",
+            "family": "Nguyen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Information Technology, Ho Chi Minh City, Vietnam"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE MultiMedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/93/11197059/11036554.pdf?arnumber=11036554",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/mmul.2025.3578972",
+        "ISSN": [
+          "1070-986X",
+          "1941-0166"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              7
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              10
+            ]
+          ]
+        },
+        "DOI": "10.1109/mmul.2024.3421243",
+        "title": [
+          "Specific Diverse Text-to-Image Synthesis via Exemplar Guidance"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0006-2741-7406",
+            "authenticated-orcid": false,
+            "given": "Ailin",
+            "family": "Li",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Chongqing University of Posts and Communications, Chongqing, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4791-454X",
+            "authenticated-orcid": false,
+            "given": "Lei",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Zhejiang University, Hangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0062-6308",
+            "authenticated-orcid": false,
+            "given": "Zhiwen",
+            "family": "Zuo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Zhejiang Gongshang University, Hangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7994-6725",
+            "authenticated-orcid": false,
+            "given": "Wei",
+            "family": "Xing",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Zhejiang University, Hangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Dongming",
+            "family": "Lu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Zhejiang University, Hangzhou, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE MultiMedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/93/10807513/10585279.pdf?arnumber=10585279",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/mmul.2024.3421243",
+        "ISSN": [
+          "1070-986X",
+          "1941-0166"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              10
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              7,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.1109/mmul.2020.3048939",
+        "title": [
+          "Class-Balanced Text to Image Synthesis With Attentive Generative Adversarial Network"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-2484-5529",
+            "authenticated-orcid": false,
+            "given": "Min",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "School of Computer and Information Technology, Beijing Jiaotong University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6059-7943",
+            "authenticated-orcid": false,
+            "given": "Congyan",
+            "family": "Lang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer and Information Technology, Beijing Jiaotong University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Liqian",
+            "family": "Liang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer and Information Technology, Beijing Jiaotong University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Gengyu",
+            "family": "Lyu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer and Information Technology, Beijing Jiaotong University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5922-9358",
+            "authenticated-orcid": false,
+            "given": "Songhe",
+            "family": "Feng",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer and Information Technology, Beijing Jiaotong University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-2369-2129",
+            "authenticated-orcid": false,
+            "given": "Tao",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "School of Computer and Information Technology, Beijing Jiaotong University, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE MultiMedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/93/9540885/09314089.pdf?arnumber=9314089",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/mmul.2020.3048939",
+        "ISSN": [
+          "1070-986X",
+          "1941-0166"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              7,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              4
+            ]
+          ]
+        },
+        "DOI": "10.1109/mmul.2024.3375610",
+        "title": [
+          "S<sup>5</sup>: Sketch-to-Image Synthesis via Scene and Size Sensing"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-4742-6861",
+            "authenticated-orcid": false,
+            "given": "Samah S.",
+            "family": "Baraheem",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, Umm Al-Qura University, Makkah, Saudi Arabia"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0236-7992",
+            "authenticated-orcid": false,
+            "given": "Tam V.",
+            "family": "Nguyen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Department of Computer Science, University of Dayton, Dayton, OH, USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE MultiMedia"
+        ],
+        "link": [
+          {
+            "URL": "https://ieeexplore.ieee.org/ielam/93/10595543/10466756-aam.pdf",
+            "content-type": "application/pdf",
+            "content-version": "am",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/93/10595543/10466756.pdf?arnumber=10466756",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/mmul.2024.3375610",
+        "ISSN": [
+          "1070-986X",
+          "1941-0166"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              4
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.1109/mmul.2022.3195091",
+        "title": [
+          "Learning 3-D Face Shape From Diverse Sources With Cross-Domain Face Synthesis"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-7455-5602",
+            "authenticated-orcid": false,
+            "given": "Zhuo",
+            "family": "Chen",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Huazhong University of Science and Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5748-4355",
+            "authenticated-orcid": false,
+            "given": "Tao",
+            "family": "Guan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Huazhong University of Science and Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8832-4530",
+            "authenticated-orcid": false,
+            "given": "Yuesong",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Huazhong University of Science and Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yawei",
+            "family": "Luo",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Huazhong University of Science and Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-6114-0387",
+            "authenticated-orcid": false,
+            "given": "Luoyuan",
+            "family": "Xu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Huazhong University of Science and Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Wenkai",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Huazhong University of Science and Technology, Wuhan, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE MultiMedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/93/10123003/09844786.pdf?arnumber=9844786",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/mmul.2022.3195091",
+        "ISSN": [
+          "1070-986X",
+          "1941-0166"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2025,
+              7
+            ]
+          ]
+        },
+        "DOI": "10.1109/mmul.2025.3588977",
+        "title": [
+          "SD-Prompt: Learnable and Adaptive Prompts for Enhancing Subject-Driven Text-to-Image Synthesis"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0002-4809-9129",
+            "authenticated-orcid": false,
+            "given": "Mengling",
+            "family": "Xu",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Nanjing University of Posts and Telecommunications, Nanjing, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-4662-7170",
+            "authenticated-orcid": false,
+            "given": "Ming",
+            "family": "Tao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nanjing University of Posts and Telecommunications, Nanjing, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8662-9488",
+            "authenticated-orcid": false,
+            "given": "Jie",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nanjing University of Posts and Telecommunications, Nanjing, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-5956-831X",
+            "authenticated-orcid": false,
+            "given": "Bing-Kun",
+            "family": "Bao",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nanjing University of Posts and Telecommunications, Nanjing, China"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE MultiMedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/93/11197059/11080248.pdf?arnumber=11080248",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/mmul.2025.3588977",
+        "ISSN": [
+          "1070-986X",
+          "1941-0166"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              7
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2006,
+              4
+            ]
+          ]
+        },
+        "DOI": "10.1109/mmul.2006.46",
+        "title": [
+          "Visions and View in Multimedia"
+        ],
+        "author": [
+          {
+            "given": "S.",
+            "family": "Boll",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Multimedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx5/93/33952/01621029.pdf?arnumber=1621029",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/mmul.2006.46",
+        "ISSN": [
+          "1070-986X"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2006,
+              4
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.1109/mmul.2024.3363429",
+        "title": [
+          "Image-Relevant Entities Knowledge-Aware News Image Captioning"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-9608-7101",
+            "authenticated-orcid": false,
+            "given": "Sonali",
+            "family": "Ajankar",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Indian Institute of Technology, Varanasi, 221005, India"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-2801-0687",
+            "authenticated-orcid": false,
+            "given": "Tanima",
+            "family": "Dutta",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Indian Institute of Technology, Varanasi, 221005, India"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE MultiMedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/93/10497148/10424412.pdf?arnumber=10424412",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/mmul.2024.3363429",
+        "ISSN": [
+          "1070-986X",
+          "1941-0166"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2012,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.1109/mmul.2011.59",
+        "title": [
+          "Image Retrieval in Forensics: Tattoo Image Database Application"
+        ],
+        "author": [
+          {
+            "given": "Jungeun",
+            "family": "Lee",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "rong",
+            "family": "jin",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Anil",
+            "family": "Jain",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Wei",
+            "family": "Tong",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Multimedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx5/93/6138564/06060794.pdf?arnumber=6060794",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/mmul.2011.59",
+        "ISSN": [
+          "1070-986X"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2012,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2013,
+              7
+            ]
+          ]
+        },
+        "DOI": "10.1109/mmul.2013.17",
+        "title": [
+          "Large-Scale Image Phylogeny: Tracing Image Ancestral Relationships"
+        ],
+        "author": [
+          {
+            "given": "Zanoni",
+            "family": "Dias",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Siome",
+            "family": "Goldenstein",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Anderson",
+            "family": "Rocha",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE MultiMedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/93/6585302/06497035.pdf?arnumber=6497035",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/mmul.2013.17",
+        "ISSN": [
+          "1070-986X"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              7
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              1997
+            ]
+          ]
+        },
+        "DOI": "10.1109/93.580392",
+        "title": [
+          "Virtual view generation for 3D digital video"
+        ],
+        "author": [
+          {
+            "given": "S.",
+            "family": "Moezzi",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "family": "Li-Cheng Tai",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "P.",
+            "family": "Gerard",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Multimedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx4/93/12582/00580392.pdf?arnumber=580392",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/93.580392",
+        "ISSN": [
+          "1070-986X"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1997
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              10,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.1109/mmul.2022.3177452",
+        "title": [
+          "Unpaired Image-to-Image Translation Using Negative Learning for Noisy Patches"
+        ],
+        "author": [
+          {
+            "given": "Yu-Hsiang",
+            "family": "Hung",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "National Taiwan University of Science and Technology, Taipei, Taiwan"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9276-2533",
+            "authenticated-orcid": false,
+            "given": "Julianne",
+            "family": "Tan",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "National Taiwan University of Science and Technology, Taipei, Taiwan"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0525-0466",
+            "authenticated-orcid": false,
+            "given": "Tai-Ming",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "National Taiwan University of Science and Technology, Taipei, Taiwan"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Shang-Che",
+            "family": "Hsu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "National Taiwan University of Science and Technology, Taipei, Taiwan"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-9191-7169",
+            "authenticated-orcid": false,
+            "given": "Yi-Ling",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "National Taiwan University of Science and Technology, Taipei, Taiwan"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7735-243X",
+            "authenticated-orcid": false,
+            "given": "Kai-Lung",
+            "family": "Hua",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "National Taiwan University of Science and Technology, Taipei, Taiwan"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE MultiMedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/93/10007738/09780547.pdf?arnumber=9780547",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/mmul.2022.3177452",
+        "ISSN": [
+          "1070-986X",
+          "1941-0166"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              10,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.1109/mmul.2025.3646865",
+        "title": [
+          "Image Painter: An Optimized Stroke-Based Algorithm for Artistic Image Stylization"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-9103-3400",
+            "authenticated-orcid": false,
+            "given": "Chang-Chieh",
+            "family": "Cheng",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "National Yang Ming Chiao Tung University, Hsinchu, Taiwan"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE MultiMedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx8/93/11476802/11311375.pdf?arnumber=11311375",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/mmul.2025.3646865",
+        "ISSN": [
+          "1070-986X",
+          "1941-0166"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "published-print": {
+          "date-parts": [
+            [
+              2014,
+              7
+            ]
+          ]
+        },
+        "DOI": "10.1109/mmul.2014.20",
+        "title": [
+          "View-Based 3D Object Retrieval: Challenges and Approaches"
+        ],
+        "author": [
+          {
+            "given": "Yue",
+            "family": "Gao",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Tsinghua University, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Qionghai",
+            "family": "Dai",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Tsinghua University, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE MultiMedia"
+        ],
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx7/93/6861871/06756714.pdf?arnumber=6756714",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "URL": "https://doi.org/10.1109/mmul.2014.20",
+        "ISSN": [
+          "1070-986X",
+          "1941-0166"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              7
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 15,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}
