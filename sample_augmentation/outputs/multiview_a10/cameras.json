@@ -1,0 +1,65 @@
+{
+  "ids": [
+    "00572",
+    "00563",
+    "00616"
+  ],
+  "train_indices_multi": [
+    0,
+    1
+  ],
+  "train_indices_single": [
+    0
+  ],
+  "evaluation_indices": [
+    2
+  ],
+  "camera_calibration_uses_evaluation_image": true,
+  "camera_model": "estimated pinhole; no ground truth intrinsics or extrinsics",
+  "checkpoint_repository": "kvuong2711/checkpoint-aerial-mast3r",
+  "checkpoint_revision": "0cf76e1da5c9b2bb7fb9d17cce03e0e6582c034e",
+  "global_alignment_loss": 0.021336957812309265,
+  "quality": [
+    {
+      "id": "00572",
+      "focal_512": 553.271484375,
+      "fov_deg": 49.660179138183594,
+      "median_confidence": 3.8985908031463623,
+      "fraction_confidence_gt3": 0.5990486145019531,
+      "rotation_from_reference_deg": 0.02797645330429077,
+      "camera_center": [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "id": "00563",
+      "focal_512": 715.681640625,
+      "fov_deg": 39.36435317993164,
+      "median_confidence": 3.6170432567596436,
+      "fraction_confidence_gt3": 0.785858154296875,
+      "rotation_from_reference_deg": 89.25313568115234,
+      "camera_center": [
+        -3.2461204528808594,
+        -6.960681915283203,
+        -0.7009754776954651
+      ]
+    },
+    {
+      "id": "00616",
+      "focal_512": 801.5162353515625,
+      "fov_deg": 35.42640686035156,
+      "median_confidence": 7.38702917098999,
+      "fraction_confidence_gt3": 0.8059730529785156,
+      "rotation_from_reference_deg": 21.84311866760254,
+      "camera_center": [
+        -0.44651252031326294,
+        -0.24983273446559906,
+        -1.3396885395050049
+      ]
+    }
+  ],
+  "normalization_depth_scale": 0.24725325405597687,
+  "elapsed_s": 25.069622699997126
+}

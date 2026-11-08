@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "step": 4000,
+  "total_steps": 4000,
+  "device": "NVIDIA GeForce RTX 5070 Ti",
+  "backend": "PyTorch hash-grid NeRF + upstream ZeroNVS SDS",
+  "paper_reproduction": false,
+  "resolution": 256,
+  "loss_sds": 1.1407639980316162,
+  "sds_image_gradient_norm": 6.878781795501709,
+  "reference_mse": 0.00037756713572889566,
+  "reference_psnr": 34.23005814672541,
+  "azimuth_deg": -27.67289323385836,
+  "elevation_deg": 5.796723770820055,
+  "peak_vram_GiB": 7.076882839202881,
+  "elapsed_s": 1976.3755624999976,
+  "estimated_remaining_s": 0.0,
+  "exported_frames": 120,
+  "render_resolution": 256
+}

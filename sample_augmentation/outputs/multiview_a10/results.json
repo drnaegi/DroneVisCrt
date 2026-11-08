@@ -1,0 +1,112 @@
+{
+  "single": [
+    {
+      "image": "00572",
+      "psnr": 33.43599653516201,
+      "ssim": 0.9419841766357422,
+      "used_for_nerf_training": true
+    },
+    {
+      "image": "00563",
+      "psnr": 11.771798588105016,
+      "ssim": 0.3411078155040741,
+      "used_for_nerf_training": false
+    },
+    {
+      "image": "00616",
+      "psnr": 13.647545315864757,
+      "ssim": 0.2038547843694687,
+      "used_for_nerf_training": false
+    }
+  ],
+  "multi": [
+    {
+      "image": "00572",
+      "psnr": 29.82894036315928,
+      "ssim": 0.8729732632637024,
+      "used_for_nerf_training": true
+    },
+    {
+      "image": "00563",
+      "psnr": 32.5588502836528,
+      "ssim": 0.9100660681724548,
+      "used_for_nerf_training": true
+    },
+    {
+      "image": "00616",
+      "psnr": 12.241896476286424,
+      "ssim": 0.26738157868385315,
+      "used_for_nerf_training": false
+    }
+  ],
+  "heldout_psnr_delta_db": -1.4056488395783333,
+  "heldout_ssim_delta": 0.06352679431438446,
+  "calibration_caveat": "All 3 images used to estimate cameras/geometry. 00616 excluded from RGB, pseudo-depth and SDS reference losses. Not a fully unseen-image benchmark.",
+  "method": "Experimental multi-reference ZeroNVS SDS + RGB + MASt3R predicted-depth NeRF supervision. Not official paper reproduction.",
+  "steps_per_run": 2000,
+  "camera_estimation": {
+    "ids": [
+      "00572",
+      "00563",
+      "00616"
+    ],
+    "train_indices_multi": [
+      0,
+      1
+    ],
+    "train_indices_single": [
+      0
+    ],
+    "evaluation_indices": [
+      2
+    ],
+    "camera_calibration_uses_evaluation_image": true,
+    "camera_model": "estimated pinhole; no ground truth intrinsics or extrinsics",
+    "checkpoint_repository": "kvuong2711/checkpoint-aerial-mast3r",
+    "checkpoint_revision": "0cf76e1da5c9b2bb7fb9d17cce03e0e6582c034e",
+    "global_alignment_loss": 0.021336957812309265,
+    "quality": [
+      {
+        "id": "00572",
+        "focal_512": 553.271484375,
+        "fov_deg": 49.660179138183594,
+        "median_confidence": 3.8985908031463623,
+        "fraction_confidence_gt3": 0.5990486145019531,
+        "rotation_from_reference_deg": 0.02797645330429077,
+        "camera_center": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      {
+        "id": "00563",
+        "focal_512": 715.681640625,
+        "fov_deg": 39.36435317993164,
+        "median_confidence": 3.6170432567596436,
+        "fraction_confidence_gt3": 0.785858154296875,
+        "rotation_from_reference_deg": 89.25313568115234,
+        "camera_center": [
+          -3.2461204528808594,
+          -6.960681915283203,
+          -0.7009754776954651
+        ]
+      },
+      {
+        "id": "00616",
+        "focal_512": 801.5162353515625,
+        "fov_deg": 35.42640686035156,
+        "median_confidence": 7.38702917098999,
+        "fraction_confidence_gt3": 0.8059730529785156,
+        "rotation_from_reference_deg": 21.84311866760254,
+        "camera_center": [
+          -0.44651252031326294,
+          -0.24983273446559906,
+          -1.3396885395050049
+        ]
+      }
+    ],
+    "normalization_depth_scale": 0.24725325405597687,
+    "elapsed_s": 25.069622699997126
+  }
+}

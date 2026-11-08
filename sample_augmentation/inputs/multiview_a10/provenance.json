@@ -1,0 +1,35 @@
+[
+  {
+    "id": "00572",
+    "source_path": "third_party\\aerial-megadepth\\assets\\t04_v13_s00_r01_VaryingAltitudes_WACV_test_A10\\00572.jpg",
+    "sha256": "db3ba053586711d90aa82bfa9160a5f49fe0bad95d0fce54eb5903e91e9217bf",
+    "source_size": [
+      2960,
+      3950
+    ],
+    "processing": "EXIF transpose; ImageOps.fit center square to 512 LANCZOS; resize 512 to 256 LANCZOS",
+    "source_url": "https://raw.githubusercontent.com/kvuong2711/aerial-megadepth/main/assets/t04_v13_s00_r01_VaryingAltitudes_WACV_test_A10/00572.jpg"
+  },
+  {
+    "id": "00563",
+    "source_path": "third_party\\aerial-megadepth\\assets\\t04_v13_s00_r01_VaryingAltitudes_WACV_test_A10\\00563.jpg",
+    "sha256": "04ccd3354ee9ea3713c516afa08fcd7e3d64a02b4428eb79527c8d9716b81118",
+    "source_size": [
+      4566,
+      3420
+    ],
+    "processing": "EXIF transpose; ImageOps.fit center square to 512 LANCZOS; resize 512 to 256 LANCZOS",
+    "source_url": "https://raw.githubusercontent.com/kvuong2711/aerial-megadepth/main/assets/t04_v13_s00_r01_VaryingAltitudes_WACV_test_A10/00563.jpg"
+  },
+  {
+    "id": "00616",
+    "source_path": "third_party\\aerial-megadepth\\assets\\t04_v13_s00_r01_VaryingAltitudes_WACV_test_A10\\00616.jpg",
+    "sha256": "79d492972109c2bba6f538f4f970fed4a9b34724e324eb7cb64209eb2e423a1c",
+    "source_size": [
+      1896,
+      1066
+    ],
+    "processing": "EXIF transpose; ImageOps.fit center square to 512 LANCZOS; resize 512 to 256 LANCZOS",
+    "source_url": "https://raw.githubusercontent.com/kvuong2711/aerial-megadepth/main/assets/t04_v13_s00_r01_VaryingAltitudes_WACV_test_A10/00616.jpg"
+  }
+]

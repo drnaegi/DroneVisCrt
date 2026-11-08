@@ -1,0 +1,22 @@
+{
+  "image": "inputs/aerialmegadepth/00572_256_rgba.png",
+  "output": "outputs/aerialmegadepth_00572",
+  "seed": 0,
+  "steps": 4000,
+  "fov": 55.0,
+  "elevation": 20.0,
+  "scale": 0.7,
+  "resolution": 128,
+  "final_resolution": 256,
+  "resolution_milestone": 2000,
+  "samples": 64,
+  "ray_chunk": 4096,
+  "reference_rays": 4096,
+  "hash_log2_size": 19,
+  "lr": 0.005,
+  "lambda_sds": 0.1,
+  "lambda_rgb": 1500.0,
+  "lambda_normal_smooth": 0.0,
+  "lambda_orient": 0.0,
+  "checkpoint_every": 250
+}

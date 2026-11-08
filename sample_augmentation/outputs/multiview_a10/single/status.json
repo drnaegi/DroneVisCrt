@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "mode": "single",
+  "step": 2000,
+  "total_steps": 2000,
+  "reference_mse": 0.0006513713742606342,
+  "reference_psnr_sampled": 31.86171331239087,
+  "predicted_depth_loss": 0.00226450408808887,
+  "sds_loss": 0.0,
+  "sds_image_gradient_norm": 0.0,
+  "elapsed_s": 308.38319180000326,
+  "peak_vram_GiB": 8.074817657470703,
+  "exported_frames": 120
+}

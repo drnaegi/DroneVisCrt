@@ -1,0 +1,22 @@
+{
+  "repositories": {
+    "ZeroNVS": {
+      "url": "https://github.com/kylesargent/ZeroNVS",
+      "commit": "5bfa13550594d20b17f4cd2ed434eebc144edea2"
+    },
+    "zeronvs_diffusion": {
+      "url": "https://github.com/kylesargent/zeronvs_diffusion",
+      "commit": "f82b71a29ad7497b8d4b6bbbcd8aea44ed5c43a9"
+    },
+    "aerialmegadepth": {
+      "url": "https://github.com/kvuong2711/aerial-megadepth",
+      "commit": "cdf478ff4fdaf888fb91c940bc48d55095e2cdbd"
+    }
+  },
+  "source_hashes": {
+    "ZeroNVS/threestudio/models/guidance/zero123_guidance.py": "ee853fc48338136c36d6a635c5fb3fd30b4017ac79efee539bc4f71bc8712ff5",
+    "ZeroNVS/zeronvs_config.yaml": "fddb1b6bb87402541929f3ec688a4c81e543a04a19c17c894203cb99a027bb22",
+    "ZeroNVS/zeronvs_diffusion/zero123/ldm/data/common.py": "bf8e7571cf5e231a94e47f3581eac922d89969719715736c04d91bc20336ffad"
+  },
+  "retrieval": "Source archives from GitHub codeload; main branch commit IDs resolved from GitHub commit feeds on 2026-11-05."
+}

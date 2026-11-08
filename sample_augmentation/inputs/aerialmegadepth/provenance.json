@@ -1,0 +1,18 @@
+{
+  "repository": "https://github.com/kvuong2711/aerial-megadepth",
+  "source_url": "https://raw.githubusercontent.com/kvuong2711/aerial-megadepth/main/assets/t04_v13_s00_r01_VaryingAltitudes_WACV_test_A10/00572.jpg",
+  "source_path": "assets/t04_v13_s00_r01_VaryingAltitudes_WACV_test_A10/00572.jpg",
+  "sha256": "db3ba053586711d90aa82bfa9160a5f49fe0bad95d0fce54eb5903e91e9217bf",
+  "source_size": [
+    2960,
+    3950
+  ],
+  "preprocessing": "center crop to square, resize 256x256 LANCZOS; opaque alpha; no background removal",
+  "training_input": "00572_256_rgba.png",
+  "camera": {
+    "fov_deg": 55.0,
+    "elevation_deg": 20.0,
+    "content_scale": 0.7,
+    "status": "assumed; no calibrated camera parameters in demo image"
+  }
+}

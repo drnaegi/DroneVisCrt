@@ -7,6 +7,7 @@
 | 位置 | 内容 |
 | --- | --- |
 | `code/skydiffusion/` | 第三方研究代码及本地复现修改；许可见该目录内的 `LICENSE` |
+| `sample_augmentation/` | Windows / CUDA ZeroNVS 单图与双图 NeRF 蒸馏、AirSim 下载工具及正式实验记录；新视角质量仍未达到高质量扩增要求 |
 | `configs/` | 实验配置 |
 | `tools/` | 数据审计、模型下载、推理、评价与对齐检查脚本 |
 | `results/` | 已保存的实验结果、日志、调研来源和核验记录 |

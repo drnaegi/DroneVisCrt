@@ -1,0 +1,23 @@
+{
+  "seed": 0,
+  "steps": 2000,
+  "reference_rays": 4096,
+  "samples": 96,
+  "ray_chunk": 2048,
+  "hash_log2_size": 19,
+  "lr": 0.005,
+  "lambda_rgb": 1500.0,
+  "lambda_depth": 20.0,
+  "lambda_sds": 0.1,
+  "warmup_steps": 100,
+  "sds_every": 2,
+  "sds_resolution": 64,
+  "sampling": "piecewise inverse depth 0.15-2 and linear 2-12, equal intervals",
+  "near": 0.15,
+  "far": 12.0,
+  "calibration": "MASt3R aerial, common shared calibration for both runs",
+  "mode": "single",
+  "reference_indices": [
+    0
+  ]
+}

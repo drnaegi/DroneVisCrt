@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "training_steps": 4000,
+  "valid_unique_training_steps": 4000,
+  "checkpoint_sha256": "0073e14398ea3a7f43e7f9711cf62ddadb3df114a636811602725de8efdca6ed",
+  "png_count": 120,
+  "distinct_png_count": 120,
+  "video_frames": 120,
+  "video_fps": 24.0,
+  "render_resolution": [
+    256,
+    256
+  ],
+  "camera_matrices": "valid OpenGL c2w rotations, all frames at step 4000",
+  "reload_max_pixel_difference_8bit": 0,
+  "reference_view_only": {
+    "mse": 0.00025114681920967996,
+    "psnr": 36.000723178366314,
+    "ssim": 0.9593366384506226,
+    "ssim_window": "7x7 uniform, sample covariance, valid borders"
+  },
+  "peak_training_vram_GiB": 7.076882839202881,
+  "all_training_sds_image_gradients_finite_nonzero": true,
+  "upstream_guidance_and_camera_source_hashes_unchanged": true,
+  "novel_view_quality": "No ground truth; must be judged visually. Reference metrics do not establish novel-view accuracy.",
+  "paper_reproduction": false
+}
