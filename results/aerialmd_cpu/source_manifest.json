@@ -1,0 +1,771 @@
+{
+  "repository": "https://github.com/kvuong2711/aerial-megadepth",
+  "revision": "cdf478ff4fdaf888fb91c940bc48d55095e2cdbd",
+  "scope": "Partial snapshot for CPU inference; excludes unavailable documentation and training/data-generation files.",
+  "verified_files": [
+    {
+      "path": ".gitmodules",
+      "git_blob_sha1": "446025d780599b0b1a586865478693be66d337cb"
+    },
+    {
+      "path": "README.md",
+      "git_blob_sha1": "0a5993a576ec68b3890a952e6343c70072151b44"
+    },
+    {
+      "path": "assets/siteACC0003-finearts/siteACC0003-camA005-2023-10-16-13-32-00-000181.jpg",
+      "git_blob_sha1": "2c8b017bd27fabefdd315ab2c16a448c813cd378"
+    },
+    {
+      "path": "assets/siteACC0003-finearts/siteACC0003-camA010-2023-12-21-19-43-25-000309.jpg",
+      "git_blob_sha1": "4b59be51a9a2e057e42ecf4a5352a577047a45b0"
+    },
+    {
+      "path": "mast3r/CHECKPOINTS_NOTICE",
+      "git_blob_sha1": "040aed77ec78156cb6c1af8da1652e13ade10bcd"
+    },
+    {
+      "path": "mast3r/LICENSE",
+      "git_blob_sha1": "a97986e3a8ddd49973959f6c748dfa8b881b64d3"
+    },
+    {
+      "path": "mast3r/NOTICE",
+      "git_blob_sha1": "8dc389289cfef6c1b830736329b046dce623cead"
+    },
+    {
+      "path": "mast3r/README.md",
+      "git_blob_sha1": "86bf0a55c6bcecf6f7dd8dcf5f82ff88fce95533"
+    },
+    {
+      "path": "mast3r/assets/NLE_tower/01D90321-69C8-439F-B0B0-E87E7634741C-83120-000041DAE419D7AE.jpg",
+      "git_blob_sha1": "fd6b2d4edcfb5b277350a7ab0948a144f01f809c"
+    },
+    {
+      "path": "mast3r/assets/NLE_tower/1AD85EF5-B651-4291-A5C0-7BDB7D966384-83120-000041DADF639E09.jpg",
+      "git_blob_sha1": "999cc01f92686bdab008e91004a457769613845f"
+    },
+    {
+      "path": "mast3r/assets/NLE_tower/28EDBB63-B9F9-42FB-AC86-4852A33ED71B-83120-000041DAF22407A1.jpg",
+      "git_blob_sha1": "ba840a9d53c7c48087d080a98033ebe7354ebd84"
+    },
+    {
+      "path": "mast3r/assets/NLE_tower/91E9B685-7A7D-42D7-B933-23A800EE4129-83120-000041DAE12C8176.jpg",
+      "git_blob_sha1": "6c261b1cd68d26158b33e8874cd2530dbcf1e75f"
+    },
+    {
+      "path": "mast3r/assets/NLE_tower/CDBBD885-54C3-4EB4-9181-226059A60EE0-83120-000041DAE0C3D612.jpg",
+      "git_blob_sha1": "224d0f7992d19e87464d430e1ee9c0469e9a4028"
+    },
+    {
+      "path": "mast3r/assets/NLE_tower/FF5599FD-768B-431A-AB83-BDA5FB44CB9D-83120-000041DADDE35483.jpg",
+      "git_blob_sha1": "9974efd5907393daa5ae47a047daec9698866a38"
+    },
+    {
+      "path": "mast3r/assets/demo.jpg",
+      "git_blob_sha1": "0c3c6560eca4b1cb41e8c29b52c7f25e9afd5173"
+    },
+    {
+      "path": "mast3r/assets/examples.jpg",
+      "git_blob_sha1": "aa40b208a5107269aed3058ccd5315457ec14676"
+    },
+    {
+      "path": "mast3r/assets/mast3r.jpg",
+      "git_blob_sha1": "de4a0ff4a8727f20030d673c0fcad653fc7e56d4"
+    },
+    {
+      "path": "mast3r/assets/mast3r_archi.jpg",
+      "git_blob_sha1": "126a371c984498587437c5f05ca842c5fda63cc2"
+    },
+    {
+      "path": "mast3r/assets/matching.jpg",
+      "git_blob_sha1": "c35487745cd0e01ef1c3f5a72127cbf429840e59"
+    },
+    {
+      "path": "mast3r/colmap_utils.py",
+      "git_blob_sha1": "8ee6fb41fca0c9c56d1c01e943df5158f5d98fe7"
+    },
+    {
+      "path": "mast3r/demo.py",
+      "git_blob_sha1": "24ecafa179773f40003c72b811bdba10a2839c86"
+    },
+    {
+      "path": "mast3r/demo_dust3r_ga.py",
+      "git_blob_sha1": "361c10e392e42525d57765b3f95fec43a89035a3"
+    },
+    {
+      "path": "mast3r/demo_dust3r_nongradio.py",
+      "git_blob_sha1": "eb3acd9c7aecc4c0367b32880091be3cc54171d5"
+    },
+    {
+      "path": "mast3r/demo_glomap.py",
+      "git_blob_sha1": "05005804672069e61b48ab82d5df54ad0197a8c8"
+    },
+    {
+      "path": "mast3r/demo_mast3r_nongradio.py",
+      "git_blob_sha1": "b1e170ade68ea1cbf183997d46fc827b89f07ecb"
+    },
+    {
+      "path": "mast3r/docker/docker-compose-cpu.yml",
+      "git_blob_sha1": "746fe20a790cf609f467a8eba0ae1461669fa5f6"
+    },
+    {
+      "path": "mast3r/docker/docker-compose-cuda.yml",
+      "git_blob_sha1": "30670bd837c09ecd3f8546e640eca87119784769"
+    },
+    {
+      "path": "mast3r/docker/files/cpu.Dockerfile",
+      "git_blob_sha1": "fcfff9fcec9df0aa1b99b6ecd7b7cfb3c7ffa082"
+    },
+    {
+      "path": "mast3r/docker/files/cuda.Dockerfile",
+      "git_blob_sha1": "2351878136f03992a24f8f297d7a0b1b57029457"
+    },
+    {
+      "path": "mast3r/docker/files/entrypoint.sh",
+      "git_blob_sha1": "1d39d8a294f171e42bd39ec59324926f7617c055"
+    },
+    {
+      "path": "mast3r/docker/run.sh",
+      "git_blob_sha1": "4cd0380ef2be2ef462361e77cf83828973a0a5f9"
+    },
+    {
+      "path": "mast3r/dust3r/.gitignore",
+      "git_blob_sha1": "194e236cbd708160926c3513b4232285eb47b029"
+    },
+    {
+      "path": "mast3r/dust3r/.gitmodules",
+      "git_blob_sha1": "c950ef981a8d2e47599dd7acbbe1bf8de9a42aca"
+    },
+    {
+      "path": "mast3r/dust3r/LICENSE",
+      "git_blob_sha1": "a97986e3a8ddd49973959f6c748dfa8b881b64d3"
+    },
+    {
+      "path": "mast3r/dust3r/NOTICE",
+      "git_blob_sha1": "81da544dd534c5465361f35cf6a5a0cfff7c1d3f"
+    },
+    {
+      "path": "mast3r/dust3r/croco/LICENSE",
+      "git_blob_sha1": "d9b84b1a65f9db6d8920a9048d162f52ba3ea56d"
+    },
+    {
+      "path": "mast3r/dust3r/croco/NOTICE",
+      "git_blob_sha1": "d51bb365036c12d428d6e3a4fd00885756d5261c"
+    },
+    {
+      "path": "mast3r/dust3r/croco/assets/arch.jpg",
+      "git_blob_sha1": "3f5b032729ddc58c06d890a0ebda1749276070c4"
+    },
+    {
+      "path": "mast3r/dust3r/croco/croco-stereo-flow-demo.ipynb",
+      "git_blob_sha1": "2b00a7607ab5f82d1857041969bfec977e56b3e0"
+    },
+    {
+      "path": "mast3r/dust3r/croco/datasets/crops/extract_crops_from_images.py",
+      "git_blob_sha1": "eb66a0474ce44b54c44c08887cbafdb045b11ff3"
+    },
+    {
+      "path": "mast3r/dust3r/croco/datasets/habitat_sim/README.MD",
+      "git_blob_sha1": "a505781ff9eb91bce7f1d189e848f8ba1c560940"
+    },
+    {
+      "path": "mast3r/dust3r/croco/datasets/habitat_sim/__init__.py",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "mast3r/dust3r/croco/datasets/habitat_sim/generate_multiview_images.py",
+      "git_blob_sha1": "421d49a1696474415940493296b3f2d982398850"
+    },
+    {
+      "path": "mast3r/dust3r/croco/datasets/habitat_sim/multiview_habitat_sim_generator.py",
+      "git_blob_sha1": "91e5f923b836a645caf5d8e4aacc425047e3c144"
+    },
+    {
+      "path": "mast3r/dust3r/croco/datasets/habitat_sim/pack_metadata_files.py",
+      "git_blob_sha1": "10672a01f7dd615d3b4df37781f7f6f97e753ba6"
+    },
+    {
+      "path": "mast3r/dust3r/croco/datasets/habitat_sim/paths.py",
+      "git_blob_sha1": "4d63b5fa29c274ddfeae084734a35ba66d7edee8"
+    },
+    {
+      "path": "mast3r/dust3r/croco/datasets/pairs_dataset.py",
+      "git_blob_sha1": "9f107526b34e154d9013a9a7a0bde3d5ff6f581c"
+    },
+    {
+      "path": "mast3r/dust3r/croco/datasets/transforms.py",
+      "git_blob_sha1": "216bac61f8254fd50e7f269ee80301f250a2d11e"
+    },
+    {
+      "path": "mast3r/dust3r/croco/demo.py",
+      "git_blob_sha1": "91b80ccc5c98c18e20d1ce782511aa824ef28f77"
+    },
+    {
+      "path": "mast3r/dust3r/croco/interactive_demo.ipynb",
+      "git_blob_sha1": "6cfc960af5baac9a69029c29a16eea4e24123a71"
+    },
+    {
+      "path": "mast3r/dust3r/croco/models/blocks.py",
+      "git_blob_sha1": "18133524f0ae265b0bd8d062d7c9eeaa63858a9b"
+    },
+    {
+      "path": "mast3r/dust3r/croco/models/criterion.py",
+      "git_blob_sha1": "11696c40865344490f23796ea45e8fbd5e654731"
+    },
+    {
+      "path": "mast3r/dust3r/croco/models/croco.py",
+      "git_blob_sha1": "14c68634152d75555b4c35c25af268394c5821fe"
+    },
+    {
+      "path": "mast3r/dust3r/croco/models/croco_downstream.py",
+      "git_blob_sha1": "159dfff4d2c1461bc235e21441b57ce1e2088f76"
+    },
+    {
+      "path": "mast3r/dust3r/croco/models/curope/__init__.py",
+      "git_blob_sha1": "25e3d48a162760260826080f6366838e83e26878"
+    },
+    {
+      "path": "mast3r/dust3r/croco/models/curope/curope.cpp",
+      "git_blob_sha1": "8fe9058e05aa1bf3f37b0d970edc7312bc68455b"
+    },
+    {
+      "path": "mast3r/dust3r/croco/models/curope/curope2d.py",
+      "git_blob_sha1": "a49c12f8c529e9a889b5ac20c5767158f238e17d"
+    },
+    {
+      "path": "mast3r/dust3r/croco/models/curope/kernels.cu",
+      "git_blob_sha1": "7156cd1bb935cb1f0be45e58add53f9c21505c20"
+    },
+    {
+      "path": "mast3r/dust3r/croco/models/curope/setup.py",
+      "git_blob_sha1": "230632ed05e309200e8f93a3a852072333975009"
+    },
+    {
+      "path": "mast3r/dust3r/croco/models/dpt_block.py",
+      "git_blob_sha1": "d4ddfb74e2769ceca88720d4c730e00afd71c763"
+    },
+    {
+      "path": "mast3r/dust3r/croco/models/head_downstream.py",
+      "git_blob_sha1": "bd40c91ba244d6c3522c6efd4ed4d724b7bdc650"
+    },
+    {
+      "path": "mast3r/dust3r/croco/models/masking.py",
+      "git_blob_sha1": "fb0d36f53efb4d42f3270db515235dceea8a44c2"
+    },
+    {
+      "path": "mast3r/dust3r/croco/models/pos_embed.py",
+      "git_blob_sha1": "61360af923bd302617f21b5485a11d7e367b76dd"
+    },
+    {
+      "path": "mast3r/dust3r/croco/pretrain.py",
+      "git_blob_sha1": "2c45e488015ef5380c71d0381ff453fdb860759e"
+    },
+    {
+      "path": "mast3r/dust3r/croco/stereoflow/augmentor.py",
+      "git_blob_sha1": "69e6117151988d94cbc4b385e0d88e982133bf10"
+    },
+    {
+      "path": "mast3r/dust3r/croco/stereoflow/criterion.py",
+      "git_blob_sha1": "57792ebeeee34827b317a4d32b7445837bb33f17"
+    },
+    {
+      "path": "mast3r/dust3r/croco/stereoflow/datasets_flow.py",
+      "git_blob_sha1": "7f553ff0caf5924065e55bf81e106e645a4f74ff"
+    },
+    {
+      "path": "mast3r/dust3r/croco/stereoflow/datasets_stereo.py",
+      "git_blob_sha1": "dbdf841a6650afa71ae5782702902c79eba31a5c"
+    },
+    {
+      "path": "mast3r/dust3r/croco/stereoflow/download_model.sh",
+      "git_blob_sha1": "533119609108c5ec3c22ff79b10e9215c1ac5098"
+    },
+    {
+      "path": "mast3r/dust3r/croco/stereoflow/engine.py",
+      "git_blob_sha1": "c057346b99143bf6b9c4666a58215b2b91aca7a6"
+    },
+    {
+      "path": "mast3r/dust3r/croco/stereoflow/test.py",
+      "git_blob_sha1": "0248e56664c769752595af251e1eadcfa3a479d9"
+    },
+    {
+      "path": "mast3r/dust3r/croco/stereoflow/train.py",
+      "git_blob_sha1": "91f2414ffbe5ecd547d31c0e2455478d402719d6"
+    },
+    {
+      "path": "mast3r/dust3r/croco/utils/misc.py",
+      "git_blob_sha1": "132e102a662c987dce5282633cb8730b0e0d5c2d"
+    },
+    {
+      "path": "mast3r/dust3r/datasets_preprocess/habitat/README.md",
+      "git_blob_sha1": "3a24120c2374ebca77128be4600581ea94a5090c"
+    },
+    {
+      "path": "mast3r/dust3r/datasets_preprocess/habitat/find_scenes.py",
+      "git_blob_sha1": "b57f649efc2e5c1903454aa4125a3d07e751e387"
+    },
+    {
+      "path": "mast3r/dust3r/datasets_preprocess/habitat/habitat_renderer/__init__.py",
+      "git_blob_sha1": "a32692113d830ddc4af4e6ed608f222fbe062e6e"
+    },
+    {
+      "path": "mast3r/dust3r/datasets_preprocess/habitat/habitat_renderer/habitat_sim_envmaps_renderer.py",
+      "git_blob_sha1": "4a31f1174a234b900ecaa76705fa271baf8a5669"
+    },
+    {
+      "path": "mast3r/dust3r/datasets_preprocess/habitat/habitat_renderer/multiview_crop_generator.py",
+      "git_blob_sha1": "b86238b44a5cdd7a2e30b9d64773c2388f9711c3"
+    },
+    {
+      "path": "mast3r/dust3r/datasets_preprocess/habitat/habitat_renderer/projections.py",
+      "git_blob_sha1": "4db1f79d23e23a8ba144b4357c4d4daf10cf8fab"
+    },
+    {
+      "path": "mast3r/dust3r/datasets_preprocess/habitat/habitat_renderer/projections_conversions.py",
+      "git_blob_sha1": "4bcfed4066bbac62fa4254ea6417bf429b098b75"
+    },
+    {
+      "path": "mast3r/dust3r/datasets_preprocess/habitat/preprocess_habitat.py",
+      "git_blob_sha1": "cacbe2467a8e9629c2472b0e05fc0cf8326367e2"
+    },
+    {
+      "path": "mast3r/dust3r/datasets_preprocess/path_to_root.py",
+      "git_blob_sha1": "6e076a17a408d0a9e043fbda2d73f1592e7cb71a"
+    },
+    {
+      "path": "mast3r/dust3r/datasets_preprocess/preprocess_arkitscenes.py",
+      "git_blob_sha1": "5dbc103a82d646293e1d81f5132683e2b08cd879"
+    },
+    {
+      "path": "mast3r/dust3r/datasets_preprocess/preprocess_blendedMVS.py",
+      "git_blob_sha1": "d22793793c1219ebb1b3ba8eff51226c2b13f657"
+    },
+    {
+      "path": "mast3r/dust3r/datasets_preprocess/preprocess_co3d.py",
+      "git_blob_sha1": "e287b85ddf8791bd6f2d53a6992d13b916c209b6"
+    },
+    {
+      "path": "mast3r/dust3r/datasets_preprocess/preprocess_megadepth.py",
+      "git_blob_sha1": "b07c0c5dff0cfd828f9ce4fd204cf2eaa22487f1"
+    },
+    {
+      "path": "mast3r/dust3r/datasets_preprocess/preprocess_scannetpp.py",
+      "git_blob_sha1": "03f2ff44a76b0d89011d8092e4dc395233f4d7bd"
+    },
+    {
+      "path": "mast3r/dust3r/datasets_preprocess/preprocess_staticthings3d.py",
+      "git_blob_sha1": "ee3eec16321c14b12291699f1fee492b5a7d8b1c"
+    },
+    {
+      "path": "mast3r/dust3r/datasets_preprocess/preprocess_waymo.py",
+      "git_blob_sha1": "203f337330a7e06e61d2fb9dd99647063967922d"
+    },
+    {
+      "path": "mast3r/dust3r/datasets_preprocess/preprocess_wildrgbd.py",
+      "git_blob_sha1": "ff3f0f7abb7d9ef43bba6a7c6cd6f4e652a8f510"
+    },
+    {
+      "path": "mast3r/dust3r/docker/docker-compose-cpu.yml",
+      "git_blob_sha1": "2015fd771e8b6246d288c03a38f6fbb3f17dff20"
+    },
+    {
+      "path": "mast3r/dust3r/docker/docker-compose-cuda.yml",
+      "git_blob_sha1": "85710af953d669fe618273de6ce3a062a7a84cca"
+    },
+    {
+      "path": "mast3r/dust3r/docker/files/cpu.Dockerfile",
+      "git_blob_sha1": "c9ccc39682dd7c7723f447ff47f12531a593446f"
+    },
+    {
+      "path": "mast3r/dust3r/docker/files/cuda.Dockerfile",
+      "git_blob_sha1": "a1d2edce1a5e7cee2fa3d66faf4f6ee019595267"
+    },
+    {
+      "path": "mast3r/dust3r/docker/files/entrypoint.sh",
+      "git_blob_sha1": "9637072a0af071f927ca0481bcaa4b600644b8b5"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/cloud_opt/__init__.py",
+      "git_blob_sha1": "faf5cd279a317c1efb9ba947682992c0949c1bdc"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/cloud_opt/base_opt.py",
+      "git_blob_sha1": "4d36e05bfca80509bced20add7c067987d538951"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/cloud_opt/commons.py",
+      "git_blob_sha1": "3be9f855a69ea18c82dcc8e5769e0149a59649bd"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/cloud_opt/init_im_poses.py",
+      "git_blob_sha1": "7887c5cde27115273601e704b81ca0b0301f3715"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/cloud_opt/modular_optimizer.py",
+      "git_blob_sha1": "d06464b40276684385c18b9195be1491c6f47f07"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/cloud_opt/optimizer.py",
+      "git_blob_sha1": "42e48613e55faa4ede5a366d1c0bfc4d18ffae4f"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/cloud_opt/pair_viewer.py",
+      "git_blob_sha1": "62ae3b9a5fbca8b96711de051d9d6597830bd488"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/datasets/__init__.py",
+      "git_blob_sha1": "2123d09ec2840ab5ee9ca43057c35f93233bde89"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/datasets/arkitscenes.py",
+      "git_blob_sha1": "4fad51acdc18b82cd6a4d227de0dac3b25783e33"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/datasets/base/__init__.py",
+      "git_blob_sha1": "a32692113d830ddc4af4e6ed608f222fbe062e6e"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/datasets/base/base_stereo_view_dataset.py",
+      "git_blob_sha1": "9bcac01da8c27a57a7601a09c7e75754d12871e3"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/datasets/base/batched_sampler.py",
+      "git_blob_sha1": "85f58a65d41bb8101159e032d5b0aac26a7cf1a1"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/datasets/blendedmvs.py",
+      "git_blob_sha1": "93e68c28620cc47a7b1743834e45f82d576126d0"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/datasets/habitat.py",
+      "git_blob_sha1": "11ce8a0ffb2134387d5fb794df89834db3ea8c9f"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/datasets/megadepth.py",
+      "git_blob_sha1": "8131498b76d855e5293fe79b3686fc42bf87eea8"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/datasets/staticthings3d.py",
+      "git_blob_sha1": "e7f70f0ee7bf8c8ab6bb1702aa2481f3d16df413"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/datasets/utils/__init__.py",
+      "git_blob_sha1": "a32692113d830ddc4af4e6ed608f222fbe062e6e"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/datasets/utils/cropping.py",
+      "git_blob_sha1": "07a331847cb8df997b3012790f5a96f69f21464d"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/datasets/utils/transforms.py",
+      "git_blob_sha1": "eb34f2f01d3f8f829ba71a7e03e181bf18f72c25"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/datasets/waymo.py",
+      "git_blob_sha1": "b9a135152cd8973532405b491450c22942dcd6ca"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/datasets/wildrgbd.py",
+      "git_blob_sha1": "c41dd0b78402bf8ff1e62c6a50de338aa916e0af"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/demo.py",
+      "git_blob_sha1": "c491be097b71ec38ea981dadf4f456d6e9829d48"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/heads/__init__.py",
+      "git_blob_sha1": "53d0aa5610cae95f34f96bdb3ff9e835a2d6208e"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/heads/dpt_head.py",
+      "git_blob_sha1": "b7bdc9ff587eef3ec8978a22f63659fbf3c277d6"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/heads/linear_head.py",
+      "git_blob_sha1": "6b697f29eaa6f43fad0a3e27a8d9b8f1a602a833"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/heads/postprocess.py",
+      "git_blob_sha1": "cd68a90d89b8dcd7d8a4b4ea06ef8b17eb5da093"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/image_pairs.py",
+      "git_blob_sha1": "ebcf902b4d07b83fe83ffceba3f45ca0d74dfcf7"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/inference.py",
+      "git_blob_sha1": "90540486b077add90ca50f62a5072e082cb2f2d7"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/losses.py",
+      "git_blob_sha1": "4f8febff1a2dd674e759bcf83d023099a59cc934"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/model.py",
+      "git_blob_sha1": "41c3a4f78eb5fbafdeb7ab8523468de320886c64"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/optim_factory.py",
+      "git_blob_sha1": "9b9c16e0e0fda3fd03c3def61abc1f354f75c584"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/patch_embed.py",
+      "git_blob_sha1": "07bb184bccb9d16657581576779904065d2dc857"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/post_process.py",
+      "git_blob_sha1": "550a9b41025ad003228ef16f97d045fc238746e4"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/training.py",
+      "git_blob_sha1": "53af9764ebb03a0083c22294298ed674e9164edc"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/utils/__init__.py",
+      "git_blob_sha1": "a32692113d830ddc4af4e6ed608f222fbe062e6e"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/utils/device.py",
+      "git_blob_sha1": "e3b6a74dac05a2e1ba3a2b2f0faa8cea08ece745"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/utils/geometry.py",
+      "git_blob_sha1": "ce365faf2acb97ffaafa1b80cb8ee0c28de0b6d6"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/utils/image.py",
+      "git_blob_sha1": "6312a346df919ae6a0424504d824ef813fea250f"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/utils/misc.py",
+      "git_blob_sha1": "88c4d2dab6d5c14021ed9ed6646c3159a3a4637b"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/utils/parallel.py",
+      "git_blob_sha1": "06ae7fefdb9d2298929f0cbc20dfbc57eb7d7f7b"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/utils/path_to_croco.py",
+      "git_blob_sha1": "39226ce6bc0e1993ba98a22096de32cb6fa916b4"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r/viz.py",
+      "git_blob_sha1": "9150e8b850d9f1e6bf9ddf6e865d34fc743e276a"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r_visloc/__init__.py",
+      "git_blob_sha1": "a32692113d830ddc4af4e6ed608f222fbe062e6e"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r_visloc/datasets/__init__.py",
+      "git_blob_sha1": "566926b1e248e4b64fc5182031af634435bb8601"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r_visloc/datasets/aachen_day_night.py",
+      "git_blob_sha1": "159548e8b51a1b5872a2392cd9107ff96e40e801"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r_visloc/datasets/base_colmap.py",
+      "git_blob_sha1": "def1da61b5d3b416db5845c2016082348df944a6"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r_visloc/datasets/base_dataset.py",
+      "git_blob_sha1": "cda3774c5ab5b668be5eecf89681abc96df5fe17"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r_visloc/datasets/cambridge_landmarks.py",
+      "git_blob_sha1": "ca3e131941bf444d86a709d23e518e7b93d3d0f6"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r_visloc/datasets/inloc.py",
+      "git_blob_sha1": "99ed11f554203d353d0559d0589f40ec1ffbf66e"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r_visloc/datasets/sevenscenes.py",
+      "git_blob_sha1": "c15e851d262f0d7ba7071c933d8fe8f0a6b1c49d"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r_visloc/datasets/utils.py",
+      "git_blob_sha1": "6053ae2e5ba6c0b0f5f014161b666623d6e0f3f5"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r_visloc/evaluation.py",
+      "git_blob_sha1": "027179f2b1007db558f57d3d67f48a6d7aa1ab9d"
+    },
+    {
+      "path": "mast3r/dust3r/dust3r_visloc/localization.py",
+      "git_blob_sha1": "ac8ae198dc3479f12a976bab0bda692328880710"
+    },
+    {
+      "path": "mast3r/dust3r/requirements.txt",
+      "git_blob_sha1": "d2bf20ed439b43b0604f12985288d8b8d6b55f8f"
+    },
+    {
+      "path": "mast3r/dust3r/requirements_optional.txt",
+      "git_blob_sha1": "d42662c0e87c6ce4ac990f2afedecc96cdea7f06"
+    },
+    {
+      "path": "mast3r/dust3r/train.py",
+      "git_blob_sha1": "503e63572376c259e6b259850e19c3f6036aa535"
+    },
+    {
+      "path": "mast3r/dust3r/visloc.py",
+      "git_blob_sha1": "6411b3eaf96dea961f9524e887a12d92f2012c6b"
+    },
+    {
+      "path": "mast3r/eval.py",
+      "git_blob_sha1": "dea4c3c8aa9870702582d443312a346b39e0e24a"
+    },
+    {
+      "path": "mast3r/eval_utils.py",
+      "git_blob_sha1": "4e8637c4e778bf510461e115c2d5cfdc6d876cf7"
+    },
+    {
+      "path": "mast3r/hloc_viz.py",
+      "git_blob_sha1": "6ebe62a63e99ea821230765c91f219324821f7a8"
+    },
+    {
+      "path": "mast3r/kapture_mast3r_mapping.py",
+      "git_blob_sha1": "18e8d74092e5a89dbf5c8916c82ba1156f90067f"
+    },
+    {
+      "path": "mast3r/make_pairs.py",
+      "git_blob_sha1": "daf54115a9b8c7f125a45d885f369057f171475a"
+    },
+    {
+      "path": "mast3r/mast3r/__init__.py",
+      "git_blob_sha1": "d7dd877d649ce4dbd749dd7195a8b34c0f91d4f0"
+    },
+    {
+      "path": "mast3r/mast3r/catmlp_dpt_head.py",
+      "git_blob_sha1": "d6d40af24781b6bdceb869e3fd09fd3be6248369"
+    },
+    {
+      "path": "mast3r/mast3r/cloud_opt/__init__.py",
+      "git_blob_sha1": "d7dd877d649ce4dbd749dd7195a8b34c0f91d4f0"
+    },
+    {
+      "path": "mast3r/mast3r/cloud_opt/sparse_ga.py",
+      "git_blob_sha1": "e5ff343c5e6173e352b62f6ae000f54e5642f3a7"
+    },
+    {
+      "path": "mast3r/mast3r/cloud_opt/triangulation.py",
+      "git_blob_sha1": "2af88df37bfd360161b4e96b93b0fd28a0ecf183"
+    },
+    {
+      "path": "mast3r/mast3r/cloud_opt/tsdf_optimizer.py",
+      "git_blob_sha1": "69f138c0301e4ad3cd4804d265f241b923e1b2b8"
+    },
+    {
+      "path": "mast3r/mast3r/cloud_opt/utils/__init__.py",
+      "git_blob_sha1": "d7dd877d649ce4dbd749dd7195a8b34c0f91d4f0"
+    },
+    {
+      "path": "mast3r/mast3r/cloud_opt/utils/losses.py",
+      "git_blob_sha1": "e1dd36afd6862592b8d00c499988136a972bd6e6"
+    },
+    {
+      "path": "mast3r/mast3r/cloud_opt/utils/schedules.py",
+      "git_blob_sha1": "d96253b4348d2f089c10142c5991e5afb8a9b683"
+    },
+    {
+      "path": "mast3r/mast3r/colmap/__init__.py",
+      "git_blob_sha1": "d7dd877d649ce4dbd749dd7195a8b34c0f91d4f0"
+    },
+    {
+      "path": "mast3r/mast3r/colmap/database.py",
+      "git_blob_sha1": "5de83a35664d4038a99713de7f397e83940e5421"
+    },
+    {
+      "path": "mast3r/mast3r/colmap/mapping.py",
+      "git_blob_sha1": "64ae66f185809df5a55e22aba97ba17ab7ba97f0"
+    },
+    {
+      "path": "mast3r/mast3r/datasets/__init__.py",
+      "git_blob_sha1": "c625aca0a773c105ed229ff87364721b4755bc8d"
+    },
+    {
+      "path": "mast3r/mast3r/datasets/base/__init__.py",
+      "git_blob_sha1": "d7dd877d649ce4dbd749dd7195a8b34c0f91d4f0"
+    },
+    {
+      "path": "mast3r/mast3r/datasets/base/mast3r_base_stereo_view_dataset.py",
+      "git_blob_sha1": "3ced0ef0dc6b1d6225781af55d3e924e133fdeaf"
+    },
+    {
+      "path": "mast3r/mast3r/datasets/utils/__init__.py",
+      "git_blob_sha1": "a32692113d830ddc4af4e6ed608f222fbe062e6e"
+    },
+    {
+      "path": "mast3r/mast3r/datasets/utils/cropping.py",
+      "git_blob_sha1": "57f4d84b019eaac9cf0c308a94f2cb8e2ec1a6ba"
+    },
+    {
+      "path": "mast3r/mast3r/demo.py",
+      "git_blob_sha1": "b5aff454604f60e567cb15a843fad26e9d4374be"
+    },
+    {
+      "path": "mast3r/mast3r/demo_glomap.py",
+      "git_blob_sha1": "135e24afaaa31aa84a764c57c8642b82ba21051e"
+    },
+    {
+      "path": "mast3r/mast3r/fast_nn.py",
+      "git_blob_sha1": "05537f43c1be10b3733e80def8295c2ff5b5b8c0"
+    },
+    {
+      "path": "mast3r/mast3r/image_pairs.py",
+      "git_blob_sha1": "22a9fd97f557a629edd2cf05f22a6590e71caf30"
+    },
+    {
+      "path": "mast3r/mast3r/losses.py",
+      "git_blob_sha1": "92872ead8957174554e6385f61c1f9dfb5e5d054"
+    },
+    {
+      "path": "mast3r/mast3r/model.py",
+      "git_blob_sha1": "f328c5e43b8e98f2ec960e4d25e6f235ac543544"
+    },
+    {
+      "path": "mast3r/mast3r/retrieval/graph.py",
+      "git_blob_sha1": "14b6a45af492c436f9f789cad7647a90b728d56c"
+    },
+    {
+      "path": "mast3r/mast3r/retrieval/model.py",
+      "git_blob_sha1": "3a157a508df11b91c9ada70bd145fb18294895ce"
+    },
+    {
+      "path": "mast3r/mast3r/retrieval/processor.py",
+      "git_blob_sha1": "8287326cbbc21fc62fbd427346a48a09b375a52f"
+    },
+    {
+      "path": "mast3r/mast3r/utils/__init__.py",
+      "git_blob_sha1": "d7dd877d649ce4dbd749dd7195a8b34c0f91d4f0"
+    },
+    {
+      "path": "mast3r/mast3r/utils/coarse_to_fine.py",
+      "git_blob_sha1": "c062e8608f82c608f2d605d69a95a7e0f301b3cf"
+    },
+    {
+      "path": "mast3r/mast3r/utils/collate.py",
+      "git_blob_sha1": "72ee3a437b87ef7049dcd03b93e594a8325b780c"
+    },
+    {
+      "path": "mast3r/mast3r/utils/misc.py",
+      "git_blob_sha1": "1a5403c67116f5156e47537df8fbcfcacb7bb474"
+    },
+    {
+      "path": "mast3r/mast3r/utils/path_to_dust3r.py",
+      "git_blob_sha1": "ebfd78cb432ef45ee30bb893f7f90fff08474b93"
+    },
+    {
+      "path": "mast3r/requirements.txt",
+      "git_blob_sha1": "ff88936c77d98f85c1a4d5ae4bfcf374e332f4b3"
+    },
+    {
+      "path": "mast3r/train.py",
+      "git_blob_sha1": "57a7689c408f63701cf4287ada50802f1a5cef6a"
+    },
+    {
+      "path": "mast3r/visloc.py",
+      "git_blob_sha1": "8e460169068d3d82308538aef6c14c756e9848ce"
+    }
+  ]
+}

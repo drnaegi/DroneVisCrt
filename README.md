@@ -19,7 +19,7 @@
 
 原始数据集、模型权重、数据压缩包和本机运行环境不纳入普通 Git 版本管理；本地文件保留原位。具体清单见 `GITHUB_UPLOAD_PLAN.md` 及 `workspace_large_files.csv`。
 
-- 数据准备方式见 `code/skydiffusion/README.md` 和根目录中的复现记录。
+- 数据准备方式见 `code/skydiffusion/README.md` 和 `tools/` 中的数据准备脚本。
 - 模型下载及校验逻辑见 `tools/download_skydiffusion_checkpoint.py`。
 - 环境依赖参考 `tools/skydiffusion-requirements.txt`、`tools/skydiffusion-environment.freeze.txt` 和上游环境说明。
 - 部分实验脚本使用 `/root/DroneVisCrt` 下的本机绝对路径，迁移到其他机器后需调整配置和路径。

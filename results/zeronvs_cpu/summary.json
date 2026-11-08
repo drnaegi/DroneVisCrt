@@ -1,0 +1,22 @@
+{
+  "version": "ZeroNVS fine-tuned on MegaScenes, iteration 90000",
+  "image_size": [
+    256,
+    256
+  ],
+  "left_seconds_from_log": 51.06,
+  "right_seconds": 51.41887543722987,
+  "right_peak_process_rss_gib": 10.105087280273438,
+  "left_run_note": "First view completed and saved; process terminated during second view before final JSON. Timing recovered from log, rounded to 0.01 s.",
+  "right_run_note": "Rerun as independent process; full metadata in right/run.json.",
+  "seed": 42,
+  "threads": 16,
+  "ddim_configured_steps": 50,
+  "actual_updates_per_view": 49,
+  "guidance_scale": 3.0,
+  "eta": 1.0,
+  "assumed_fov_degrees": 60.0,
+  "assumed_depth_quantile": 1.0,
+  "comparison": "comparison.png",
+  "original_checkpoint_status": "Google Drive download quota exceeded; MegaScenes official fine-tuned weights used."
+}

@@ -1,0 +1,77 @@
+{
+  "model": "ZeroNVS fine-tuned on MegaScenes, iteration 90000",
+  "checkpoint": "/root/DroneVisCrt/checkpoints/zeronvs-megascenes/model-inference.safetensors",
+  "checkpoint_loading": "strict; non-EMA parameters",
+  "input": "/root/DroneVisCrt/code/aerial-megadepth/assets/siteACC0003-finearts/siteACC0003-camA005-2023-10-16-13-32-00-000181.jpg",
+  "input_preprocessing": "EXIF transpose, RGB, center crop to 256x256",
+  "device": "cpu",
+  "dtype": "float32",
+  "torch": "2.0.0+cu118",
+  "threads": 16,
+  "steps": 50,
+  "sampler": "DDIM",
+  "eta": 1.0,
+  "guidance_scale": 3.0,
+  "seed": 42,
+  "assumed_fov_degrees": 60,
+  "assumed_reference_depth_quantile": 1.0,
+  "pose_convention": "OpenGL camera-to-world; reference identity; orbit about (0,0,-1)",
+  "load_seconds": 11.251514369621873,
+  "outputs": [
+    {
+      "orbit_degrees": 10.0,
+      "seconds": 51.41887543722987,
+      "image": "orbit_+10.png",
+      "executed_denoising_updates": 49,
+      "target_camera_to_reference": [
+        [
+          0.9848077297210693,
+          0.0,
+          0.1736481785774231,
+          0.1736481785774231
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.1736481785774231,
+          0.0,
+          0.9848077297210693,
+          -0.015192270278930664
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "conditioning_vector": [
+        0.9848077297210693,
+        0.0,
+        0.1736481785774231,
+        0.08681536465883255,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -0.1736481785774231,
+        0.0,
+        0.9848077297210693,
+        -0.007596129551529884,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0471975803375244,
+        0.8660253882408142,
+        0.5
+      ]
+    }
+  ],
+  "peak_process_rss_gib": 10.105087280273438,
+  "scope": "Single-image pose-conditioned diffusion smoke test; not original ZeroNVS NeRF distillation, not AerialMegaDepth fine-tuned weights, no ground truth accuracy evaluation."
+}

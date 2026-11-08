@@ -1,0 +1,18 @@
+{
+  "release_url": "https://github.com/microsoft/AirSim/releases/tag/v1.8.1",
+  "tag": "v1.8.1",
+  "release_name": "v1.8.1 - Linux",
+  "published_at": "2022-07-18T20:11:48Z",
+  "asset": {
+    "id": 73394647,
+    "name": "Blocks.zip",
+    "size": 142533463,
+    "browser_download_url": "https://github.com/microsoft/AirSim/releases/download/v1.8.1/Blocks.zip",
+    "digest": null,
+    "updated_at": "2022-08-02T01:04:50Z"
+  },
+  "download_sha256": "563e1da1b5d7303b9405c8736243ea92ab0a011b96a561f26f17563d105a404f",
+  "zip_crc_check": "passed_before_extraction",
+  "installation_directory": "/opt/airsim/Blocks-v1.8.1",
+  "archive_retained": false
+}

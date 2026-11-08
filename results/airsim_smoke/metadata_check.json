@@ -1,0 +1,32 @@
+{
+  "rpc_ping": true,
+  "client_version": 1,
+  "server_version": 1,
+  "scene_object_count": 209,
+  "scene_object_examples": [
+    "CameraActor_2147482540",
+    "Cone_5",
+    "Cylinder2",
+    "Cylinder3",
+    "Cylinder4",
+    "Cylinder5",
+    "Cylinder6",
+    "Cylinder7",
+    "Cylinder8",
+    "Cylinder_2",
+    "Ground",
+    "Ground_2"
+  ],
+  "requested_position_ned_m": [
+    3,
+    0,
+    -4
+  ],
+  "actual_position_ned_m": [
+    3.0,
+    0.0,
+    -4.0
+  ],
+  "camera_fov_degrees": 89.90362548828125,
+  "rendering_test": "failed_VulkanCommandBuffer_assertion"
+}

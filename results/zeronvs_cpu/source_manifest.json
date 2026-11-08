@@ -1,0 +1,874 @@
+[
+  {
+    "repository": "https://github.com/kylesargent/zeronvs_diffusion",
+    "revision": "f82b71a29ad7497b8d4b6bbbcd8aea44ed5c43a9",
+    "files": [
+      {
+        "path": "LICENSE",
+        "git_blob_sha1": "f94e6b5e2e17da2cfdbee482842f7b03dd7cbd9f"
+      },
+      {
+        "path": "README.md",
+        "git_blob_sha1": "9d4d4e494dfc5b8645c74ab15c2b1321cfdcbdf6"
+      },
+      {
+        "path": "zero123/LICENSE",
+        "git_blob_sha1": "be24ebeed0fb31665dc3c33d2610d35f77b12709"
+      },
+      {
+        "path": "zero123/configs/sd-objaverse-finetune-c_concat-256.yaml",
+        "git_blob_sha1": "691c85058aa9c6803ce60ebafa37c9b0ba548bd9"
+      },
+      {
+        "path": "zero123/gradio_new.py",
+        "git_blob_sha1": "56ad900fa3b94ab887b702197217e916adbdd0bb"
+      },
+      {
+        "path": "zero123/gradio_objaverse.py",
+        "git_blob_sha1": "333a94b6797d90d4661f4ab647a423ce511dec68"
+      },
+      {
+        "path": "zero123/instructions.md",
+        "git_blob_sha1": "46108946e31d9e63a483b0d75b5815c8f0ba33e0"
+      },
+      {
+        "path": "zero123/ksarge.code-workspace",
+        "git_blob_sha1": "b2464b7d00363d5be21c9855d69b5d61c29dbd50"
+      },
+      {
+        "path": "zero123/ldm/data/__init__.py",
+        "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "zero123/ldm/data/base.py",
+        "git_blob_sha1": "742794e631081bbfa7c44f3df6f83373ca5c15c1"
+      },
+      {
+        "path": "zero123/ldm/data/coco.py",
+        "git_blob_sha1": "5e5e27e6ec6a51932f67b83dd88533cb39631e26"
+      },
+      {
+        "path": "zero123/ldm/data/common.py",
+        "git_blob_sha1": "88c5c1cc967ed05675de796671b9f65b52c1c0d8"
+      },
+      {
+        "path": "zero123/ldm/data/dummy.py",
+        "git_blob_sha1": "3b74a77fe8954686e480d28aaed19e52d3e3c9b7"
+      },
+      {
+        "path": "zero123/ldm/data/imagenet.py",
+        "git_blob_sha1": "66231964a685cc875243018461a6aaa63a96dbf0"
+      },
+      {
+        "path": "zero123/ldm/data/inpainting/__init__.py",
+        "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "zero123/ldm/data/inpainting/synthetic_mask.py",
+        "git_blob_sha1": "bb4c38f3a79b8eb40553469d6f0656ad2f54609a"
+      },
+      {
+        "path": "zero123/ldm/data/laion.py",
+        "git_blob_sha1": "2eb608c1a4cf2b7c0215bdd7c1c81841e3a39b0c"
+      },
+      {
+        "path": "zero123/ldm/data/lsun.py",
+        "git_blob_sha1": "6256e45715ff0b57c53f985594d27cbbbff0e68e"
+      },
+      {
+        "path": "zero123/ldm/data/nerf_like.py",
+        "git_blob_sha1": "84ef18288db005c72d3b5832144a7bd5cfffe9b2"
+      },
+      {
+        "path": "zero123/ldm/data/pixelnerf.py",
+        "git_blob_sha1": "ade2b2a2ed714cb00bf23ad7c966bd4962cf313e"
+      },
+      {
+        "path": "zero123/ldm/data/simple.py",
+        "git_blob_sha1": "0a7ea6c839e7fb324d7c1aa7aa71f72dc7ab5a6f"
+      },
+      {
+        "path": "zero123/ldm/data/test_simple.py",
+        "git_blob_sha1": "e7e725b5dfa81b73b3a1afed3cc6f986e2c79474"
+      },
+      {
+        "path": "zero123/ldm/data/webdataset_base.py",
+        "git_blob_sha1": "5d70f1acd2350b8dd740076240d049768a6534be"
+      },
+      {
+        "path": "zero123/ldm/data/webdataset_co3d.py",
+        "git_blob_sha1": "0243074f4cadee6a1dcb69ad6c29aac4a23aa4d1"
+      },
+      {
+        "path": "zero123/ldm/data/webdataset_objaverse.py",
+        "git_blob_sha1": "5e706201f1d94e162b24fe4e568c250bebbd63b8"
+      },
+      {
+        "path": "zero123/ldm/data/webdataset_re10k.py",
+        "git_blob_sha1": "ad4e4ee2c3974bc31f6d6bd40aeff7787c6698e8"
+      },
+      {
+        "path": "zero123/ldm/data/webdataset_utils.py",
+        "git_blob_sha1": "c19d8d80306185d97c138ef847c6c396de2863fb"
+      },
+      {
+        "path": "zero123/ldm/extras.py",
+        "git_blob_sha1": "62e654b330c44b85565f958d04bee217a168d7ec"
+      },
+      {
+        "path": "zero123/ldm/guidance.py",
+        "git_blob_sha1": "53d1a2a61b5f2f086178154cf04ea078e0835845"
+      },
+      {
+        "path": "zero123/ldm/lr_scheduler.py",
+        "git_blob_sha1": "be39da9ca6dacc22bf3df9c7389bbb403a4a3ade"
+      },
+      {
+        "path": "zero123/ldm/models/autoencoder.py",
+        "git_blob_sha1": "6a9c4f45498561953b8085981609b2a3298a5473"
+      },
+      {
+        "path": "zero123/ldm/models/diffusion/__init__.py",
+        "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "zero123/ldm/models/diffusion/classifier.py",
+        "git_blob_sha1": "67e98b9d8ffb96a150b517497ace0a242d7163ef"
+      },
+      {
+        "path": "zero123/ldm/models/diffusion/ddim.py",
+        "git_blob_sha1": "39ad3728a0b29f373e384ce15263e0ab04bec78d"
+      },
+      {
+        "path": "zero123/ldm/models/diffusion/ddpm.py",
+        "git_blob_sha1": "5319eaea5571ef9d9e469cfb5346e2c515e3817b"
+      },
+      {
+        "path": "zero123/ldm/models/diffusion/options.py",
+        "git_blob_sha1": "294941793df708653ca7acdef9c7c03a689e2511"
+      },
+      {
+        "path": "zero123/ldm/models/diffusion/plms.py",
+        "git_blob_sha1": "080edeec9efed663f0e01de0afbbf3bed1cfa1d1"
+      },
+      {
+        "path": "zero123/ldm/models/diffusion/sampling_util.py",
+        "git_blob_sha1": "367da6f6ba1bd78c0b75dd4284d913b2503d8f9a"
+      },
+      {
+        "path": "zero123/ldm/modules/attention.py",
+        "git_blob_sha1": "124effbeee03d2f0950f6cac6aa455be5a6d359f"
+      },
+      {
+        "path": "zero123/ldm/modules/diffusionmodules/__init__.py",
+        "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "zero123/ldm/modules/diffusionmodules/model.py",
+        "git_blob_sha1": "533e589a2024f1d7c52093d8c472c3b1b6617e26"
+      },
+      {
+        "path": "zero123/ldm/modules/diffusionmodules/openaimodel.py",
+        "git_blob_sha1": "6b994cca787464d34f6367edf486974b3542f808"
+      },
+      {
+        "path": "zero123/ldm/modules/diffusionmodules/util.py",
+        "git_blob_sha1": "a952e6c40308c33edd422da0ce6a60f47e73661b"
+      },
+      {
+        "path": "zero123/ldm/modules/distributions/__init__.py",
+        "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "zero123/ldm/modules/distributions/distributions.py",
+        "git_blob_sha1": "f2b8ef901130efc171aa69742ca0244d94d3f2e9"
+      },
+      {
+        "path": "zero123/ldm/modules/ema.py",
+        "git_blob_sha1": "c8c75af43565f6e140287644aaaefa97dd6e67c5"
+      },
+      {
+        "path": "zero123/ldm/modules/encoders/__init__.py",
+        "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "zero123/ldm/modules/encoders/modules.py",
+        "git_blob_sha1": "b1afccfc55d1b8162d6da8c0316082584a4bde34"
+      },
+      {
+        "path": "zero123/ldm/modules/evaluate/adm_evaluator.py",
+        "git_blob_sha1": "508cddf206e9aa8b2fa1de32e69a7b78acee13c0"
+      },
+      {
+        "path": "zero123/ldm/modules/evaluate/evaluate_perceptualsim.py",
+        "git_blob_sha1": "c85fef967b60b90e3001b0cc29aa70b1a80ed36f"
+      },
+      {
+        "path": "zero123/ldm/modules/evaluate/frechet_video_distance.py",
+        "git_blob_sha1": "d9e13c41505d9895016cdda1a1fd59aec33ab4d0"
+      },
+      {
+        "path": "zero123/ldm/modules/evaluate/ssim.py",
+        "git_blob_sha1": "4e8883ccb3b30455a76caf2e4d1e04745f75d214"
+      },
+      {
+        "path": "zero123/ldm/modules/evaluate/torch_frechet_video_distance.py",
+        "git_blob_sha1": "04856b828a17cdc97fa88a7b9d2f7fe0f735b3fc"
+      },
+      {
+        "path": "zero123/ldm/modules/image_degradation/__init__.py",
+        "git_blob_sha1": "7836cada81f90ded99c58d5942eea4c3477f58fc"
+      },
+      {
+        "path": "zero123/ldm/modules/image_degradation/bsrgan.py",
+        "git_blob_sha1": "32ef56169978e550090261cddbcf5eb611a6173b"
+      },
+      {
+        "path": "zero123/ldm/modules/image_degradation/bsrgan_light.py",
+        "git_blob_sha1": "dfa760689762d4e9490fe4d817f844955f1b35de"
+      },
+      {
+        "path": "zero123/ldm/modules/image_degradation/utils_image.py",
+        "git_blob_sha1": "0175f155ad900ae33c3c46ed87f49b352e3faf98"
+      },
+      {
+        "path": "zero123/ldm/modules/losses/__init__.py",
+        "git_blob_sha1": "876d7c5bd6e3245ee77feb4c482b7a8143604ad5"
+      },
+      {
+        "path": "zero123/ldm/modules/losses/contperceptual.py",
+        "git_blob_sha1": "672c1e32a1389def02461c0781339681060c540e"
+      },
+      {
+        "path": "zero123/ldm/modules/losses/vqperceptual.py",
+        "git_blob_sha1": "f69981769e4bd5462600458c4fcf26620f7e4306"
+      },
+      {
+        "path": "zero123/ldm/modules/x_transformer.py",
+        "git_blob_sha1": "5fc15bf9cfe0111a910e7de33d04ffdec3877576"
+      },
+      {
+        "path": "zero123/ldm/thirdp/psp/helpers.py",
+        "git_blob_sha1": "983baaa50ea9df0cbabe09aba80293ddf7709845"
+      },
+      {
+        "path": "zero123/ldm/thirdp/psp/id_loss.py",
+        "git_blob_sha1": "e08ee095bd20ff664dcf470de15ff54f839b38e2"
+      },
+      {
+        "path": "zero123/ldm/thirdp/psp/model_irse.py",
+        "git_blob_sha1": "21cedd2994a6eed5a0afd451b08dd09801fe60c0"
+      },
+      {
+        "path": "zero123/ldm/util.py",
+        "git_blob_sha1": "5d48ccb2baa91898682ac5b8d02345694aa3a9ec"
+      },
+      {
+        "path": "zero123/main.py",
+        "git_blob_sha1": "4317279f96a21a05228ed8597f102963d1d92454"
+      },
+      {
+        "path": "zero123/requirements.txt",
+        "git_blob_sha1": "91b6c9485527eb2349c94e63eca0ba3fe933f62c"
+      },
+      {
+        "path": "zero123/resources.py",
+        "git_blob_sha1": "6f86ff0f0403789372438b4bd363882d699903fc"
+      },
+      {
+        "path": "zero123/run_train_local.sh",
+        "git_blob_sha1": "a186acf28287a31f901bb8e921552a912118d3a1"
+      },
+      {
+        "path": "zero123/setup.py",
+        "git_blob_sha1": "a24d541676407eee1bea271179ffd1d80c6a8e79"
+      },
+      {
+        "path": "zero123/uses.md",
+        "git_blob_sha1": "cc186284c21f376f3c77766cfca2f10aec29f392"
+      },
+      {
+        "path": "zero123/viz.py",
+        "git_blob_sha1": "20d0bec9672ae2cd4faef60a0bf226de3da13aa1"
+      }
+    ]
+  },
+  {
+    "repository": "https://github.com/MegaScenes/nvs",
+    "revision": "0de3b004f643e0584112e7282a14ec304358e93f",
+    "files": [
+      {
+        "path": ".gitignore",
+        "git_blob_sha1": "65970f695f73ec1b9d898a4810ba1e492ec8e853"
+      },
+      {
+        "path": "README.md",
+        "git_blob_sha1": "56ad77a57e172d51f34db69027c15afaf3728259"
+      },
+      {
+        "path": "acc_configs/1.yaml",
+        "git_blob_sha1": "8932fe5f7f0e2667ac12c2c58b998bdc49189cbb"
+      },
+      {
+        "path": "acc_configs/2.yaml",
+        "git_blob_sha1": "cbbdf7f3f972997495a09d7c661789ee95b07fd7"
+      },
+      {
+        "path": "acc_configs/3.yaml",
+        "git_blob_sha1": "2ef45751cd67bf87aadf48c56bebc750367065db"
+      },
+      {
+        "path": "acc_configs/4.yaml",
+        "git_blob_sha1": "e5f0253a00f98534dcfc1b4a4d5aac2e776657d6"
+      },
+      {
+        "path": "acc_configs/5.yaml",
+        "git_blob_sha1": "0830f8c255b8d35a226dfde1f2e99c914e4adfc0"
+      },
+      {
+        "path": "acc_configs/6.yaml",
+        "git_blob_sha1": "ad7a51b3294d6c06108d0a258279fb687c31f332"
+      },
+      {
+        "path": "configs/warp_plus_pose/config.yaml",
+        "git_blob_sha1": "c13e61fad1ad78b103b31ff72335034d6e9fbf93"
+      },
+      {
+        "path": "configs/warp_plus_pose/iter_112000/random_states_0.pkl",
+        "git_blob_sha1": "770d8ca97309c86455ec535a6c35902003513c37"
+      },
+      {
+        "path": "configs/zeronvs_finetune/config.yaml",
+        "git_blob_sha1": "e61b3d629f70ad1ef90b6734e76bf4f24e6a7b6c"
+      },
+      {
+        "path": "configs/zeronvs_finetune/iter_90000/iteration.txt",
+        "git_blob_sha1": "a8e114b2b9f999f4f74032cc17e5e8af6b1460f6"
+      },
+      {
+        "path": "configs/zeronvs_finetune/iter_90000/random_states_0.pkl",
+        "git_blob_sha1": "7b4ebe84006fede031376bcd148ecbbd644c08ab"
+      },
+      {
+        "path": "configs/zeronvs_original/config.yaml",
+        "git_blob_sha1": "e61b3d629f70ad1ef90b6734e76bf4f24e6a7b6c"
+      },
+      {
+        "path": "dataloader/__init__.py",
+        "git_blob_sha1": "a2670b85d47b799f589ba6cb8e5dc40a01b8311b"
+      },
+      {
+        "path": "dataloader/data_helpers.py",
+        "git_blob_sha1": "23c28c77bc39aa1fbd24fc651f4d1f60270eb0df"
+      },
+      {
+        "path": "dataloader/depth_helpers.py",
+        "git_blob_sha1": "71b22c8ada4aebbff7b6af03ccffb70b0189ba9d"
+      },
+      {
+        "path": "dataloader/evalhelpers.py",
+        "git_blob_sha1": "1948020b4925c37fdaf477a235fb7d4cb50de1d3"
+      },
+      {
+        "path": "dataloader/paired_dataset.py",
+        "git_blob_sha1": "ee9f79184fbd863d33a44e52148ec16e3673e015"
+      },
+      {
+        "path": "dataloader/util_3dphoto.py",
+        "git_blob_sha1": "19b09b60a451f405eb1863892bf1367bb7c8f9cf"
+      },
+      {
+        "path": "evaluation/__init__.py",
+        "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "evaluation/gen_metrics.py",
+        "git_blob_sha1": "77059fdda6ff4a6d8f3d19a6d51ce74cea12d6b5"
+      },
+      {
+        "path": "evaluation/recon_metrics.py",
+        "git_blob_sha1": "3f2cfd0039e9df103a6e9f2fd10e2ee77d1c619e"
+      },
+      {
+        "path": "evaluation/test_data/helpers.py",
+        "git_blob_sha1": "411094e957ca165c47ab3b52b1ca46977f3b98f0"
+      },
+      {
+        "path": "evaluation/utils.py",
+        "git_blob_sha1": "3c07bac469dc4944dd605fed0948a51eb73c2176"
+      },
+      {
+        "path": "ldm/data/__init__.py",
+        "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "ldm/data/backup_simple.py",
+        "git_blob_sha1": "93d5a93f6084632da8dee05e6c41d6bb4181aa86"
+      },
+      {
+        "path": "ldm/data/base.py",
+        "git_blob_sha1": "742794e631081bbfa7c44f3df6f83373ca5c15c1"
+      },
+      {
+        "path": "ldm/data/coco.py",
+        "git_blob_sha1": "5e5e27e6ec6a51932f67b83dd88533cb39631e26"
+      },
+      {
+        "path": "ldm/data/common.py",
+        "git_blob_sha1": "f8226ebf58ba0ab935a641a0a2b873ee04e5f79b"
+      },
+      {
+        "path": "ldm/data/data_helpers.py",
+        "git_blob_sha1": "72d8a7bebbae38573653e5d44580ff3e2ab82f32"
+      },
+      {
+        "path": "ldm/data/dummy.py",
+        "git_blob_sha1": "3b74a77fe8954686e480d28aaed19e52d3e3c9b7"
+      },
+      {
+        "path": "ldm/data/imagenet.py",
+        "git_blob_sha1": "66231964a685cc875243018461a6aaa63a96dbf0"
+      },
+      {
+        "path": "ldm/data/inpainting/__init__.py",
+        "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "ldm/data/inpainting/synthetic_mask.py",
+        "git_blob_sha1": "bb4c38f3a79b8eb40553469d6f0656ad2f54609a"
+      },
+      {
+        "path": "ldm/data/laion.py",
+        "git_blob_sha1": "2eb608c1a4cf2b7c0215bdd7c1c81841e3a39b0c"
+      },
+      {
+        "path": "ldm/data/lsun.py",
+        "git_blob_sha1": "6256e45715ff0b57c53f985594d27cbbbff0e68e"
+      },
+      {
+        "path": "ldm/data/nerf_like.py",
+        "git_blob_sha1": "84ef18288db005c72d3b5832144a7bd5cfffe9b2"
+      },
+      {
+        "path": "ldm/data/simple.py",
+        "git_blob_sha1": "ed0a6f83b29f0e308f4411bf9adc838429517272"
+      },
+      {
+        "path": "ldm/extras.py",
+        "git_blob_sha1": "62e654b330c44b85565f958d04bee217a168d7ec"
+      },
+      {
+        "path": "ldm/guidance.py",
+        "git_blob_sha1": "53d1a2a61b5f2f086178154cf04ea078e0835845"
+      },
+      {
+        "path": "ldm/logger.py",
+        "git_blob_sha1": "1f474d04b39026b69a552c1fba00c39c390555e7"
+      },
+      {
+        "path": "ldm/lr_scheduler.py",
+        "git_blob_sha1": "be39da9ca6dacc22bf3df9c7389bbb403a4a3ade"
+      },
+      {
+        "path": "ldm/models/autoencoder.py",
+        "git_blob_sha1": "bbb3853a7febc0e876bbd35a416b3d3e54b6cdf7"
+      },
+      {
+        "path": "ldm/models/diffusion/__init__.py",
+        "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "ldm/models/diffusion/all_functions_ddpm.py",
+        "git_blob_sha1": "cab26c7062c7c0098eeedf24c2b8b6dbee033ecb"
+      },
+      {
+        "path": "ldm/models/diffusion/backup_ddpm.py",
+        "git_blob_sha1": "bb844397d11ae56ba9876be653a4759d86894526"
+      },
+      {
+        "path": "ldm/models/diffusion/classifier.py",
+        "git_blob_sha1": "67e98b9d8ffb96a150b517497ace0a242d7163ef"
+      },
+      {
+        "path": "ldm/models/diffusion/ddim.py",
+        "git_blob_sha1": "57ecb3bd6461b736d51f03684867e69617d01c69"
+      },
+      {
+        "path": "ldm/models/diffusion/ddpm.py",
+        "git_blob_sha1": "e281d4458b8c393447ed6703a9951fa2f7fda226"
+      },
+      {
+        "path": "ldm/models/diffusion/plms.py",
+        "git_blob_sha1": "080edeec9efed663f0e01de0afbbf3bed1cfa1d1"
+      },
+      {
+        "path": "ldm/models/diffusion/sampling_util.py",
+        "git_blob_sha1": "a0ae00fe86044456fc403af403be71ff15112424"
+      },
+      {
+        "path": "ldm/modules/attention.py",
+        "git_blob_sha1": "d870c38f6447535eced9492b88e025b8f3376985"
+      },
+      {
+        "path": "ldm/modules/diffusionmodules/__init__.py",
+        "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "ldm/modules/diffusionmodules/model.py",
+        "git_blob_sha1": "533e589a2024f1d7c52093d8c472c3b1b6617e26"
+      },
+      {
+        "path": "ldm/modules/diffusionmodules/openaimodel.py",
+        "git_blob_sha1": "5d0685ac989f5888a25ba052eee620315816de5e"
+      },
+      {
+        "path": "ldm/modules/diffusionmodules/util.py",
+        "git_blob_sha1": "a952e6c40308c33edd422da0ce6a60f47e73661b"
+      },
+      {
+        "path": "ldm/modules/distributions/__init__.py",
+        "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "ldm/modules/distributions/distributions.py",
+        "git_blob_sha1": "f2b8ef901130efc171aa69742ca0244d94d3f2e9"
+      },
+      {
+        "path": "ldm/modules/ema.py",
+        "git_blob_sha1": "c8c75af43565f6e140287644aaaefa97dd6e67c5"
+      },
+      {
+        "path": "ldm/modules/encoders/__init__.py",
+        "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "ldm/modules/encoders/modules.py",
+        "git_blob_sha1": "dbedfc27ee7b9d9ea1ef14d4a70fb271c461551b"
+      },
+      {
+        "path": "ldm/modules/evaluate/adm_evaluator.py",
+        "git_blob_sha1": "508cddf206e9aa8b2fa1de32e69a7b78acee13c0"
+      },
+      {
+        "path": "ldm/modules/evaluate/evaluate_perceptualsim.py",
+        "git_blob_sha1": "c85fef967b60b90e3001b0cc29aa70b1a80ed36f"
+      },
+      {
+        "path": "ldm/modules/evaluate/frechet_video_distance.py",
+        "git_blob_sha1": "d9e13c41505d9895016cdda1a1fd59aec33ab4d0"
+      },
+      {
+        "path": "ldm/modules/evaluate/ssim.py",
+        "git_blob_sha1": "4e8883ccb3b30455a76caf2e4d1e04745f75d214"
+      },
+      {
+        "path": "ldm/modules/evaluate/torch_frechet_video_distance.py",
+        "git_blob_sha1": "04856b828a17cdc97fa88a7b9d2f7fe0f735b3fc"
+      },
+      {
+        "path": "ldm/modules/image_degradation/__init__.py",
+        "git_blob_sha1": "7836cada81f90ded99c58d5942eea4c3477f58fc"
+      },
+      {
+        "path": "ldm/modules/image_degradation/bsrgan.py",
+        "git_blob_sha1": "32ef56169978e550090261cddbcf5eb611a6173b"
+      },
+      {
+        "path": "ldm/modules/image_degradation/bsrgan_light.py",
+        "git_blob_sha1": "dfa760689762d4e9490fe4d817f844955f1b35de"
+      },
+      {
+        "path": "ldm/modules/image_degradation/utils_image.py",
+        "git_blob_sha1": "0175f155ad900ae33c3c46ed87f49b352e3faf98"
+      },
+      {
+        "path": "ldm/modules/losses/__init__.py",
+        "git_blob_sha1": "876d7c5bd6e3245ee77feb4c482b7a8143604ad5"
+      },
+      {
+        "path": "ldm/modules/losses/contperceptual.py",
+        "git_blob_sha1": "672c1e32a1389def02461c0781339681060c540e"
+      },
+      {
+        "path": "ldm/modules/losses/vqperceptual.py",
+        "git_blob_sha1": "f69981769e4bd5462600458c4fcf26620f7e4306"
+      },
+      {
+        "path": "ldm/modules/x_transformer.py",
+        "git_blob_sha1": "5fc15bf9cfe0111a910e7de33d04ffdec3877576"
+      },
+      {
+        "path": "ldm/thirdp/psp/helpers.py",
+        "git_blob_sha1": "983baaa50ea9df0cbabe09aba80293ddf7709845"
+      },
+      {
+        "path": "ldm/thirdp/psp/id_loss.py",
+        "git_blob_sha1": "e08ee095bd20ff664dcf470de15ff54f839b38e2"
+      },
+      {
+        "path": "ldm/thirdp/psp/model_irse.py",
+        "git_blob_sha1": "21cedd2994a6eed5a0afd451b08dd09801fe60c0"
+      },
+      {
+        "path": "ldm/util.py",
+        "git_blob_sha1": "a3cace9082e566bf74ceb5aa3658662fb7ec5b1e"
+      },
+      {
+        "path": "misc/requirements.txt",
+        "git_blob_sha1": "2af94d9e1ac6d7534fbc7137241b882aeb5f2a4c"
+      },
+      {
+        "path": "misc/setup_env.sh",
+        "git_blob_sha1": "ccb31f7dda8ada95e65dce906ef461106322c971"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/orbit/warped/0.png",
+        "git_blob_sha1": "99f63685c00146827c16b876375fd74a932b42a4"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/orbit/warped/1.png",
+        "git_blob_sha1": "be46d961f1d2ee1c0a646a8a6b39c8c38e9667cf"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/orbit/warped/10.png",
+        "git_blob_sha1": "a1c6a9ead5706db690c364c2f46348fe955781cd"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/orbit/warped/11.png",
+        "git_blob_sha1": "9792dbe3eb9bc211dee65c01f2ac703047e1b6d2"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/orbit/warped/12.png",
+        "git_blob_sha1": "6b189fc147bdb73ee39b7ed8bb2a2013f1295f2b"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/orbit/warped/13.png",
+        "git_blob_sha1": "30998a56aeb78f4676f8f293e4476bf742c47124"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/orbit/warped/14.png",
+        "git_blob_sha1": "cdf3fd14c1ac09e42cd314b245d6c7c6c11be419"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/orbit/warped/15.png",
+        "git_blob_sha1": "77d133cfbffa396343d2c4cbacb6a1cf80d372f1"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/orbit/warped/16.png",
+        "git_blob_sha1": "9fa04a5b8147392e27ec02780a262c2e2f0e7ec9"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/orbit/warped/17.png",
+        "git_blob_sha1": "1ad8c913a7b1c42fc1ebac3cd750df3f821aab71"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/orbit/warped/18.png",
+        "git_blob_sha1": "b580b8b95e7b4edd42d16d7c3f764288a7d6b9af"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/orbit/warped/2.png",
+        "git_blob_sha1": "b584c72a99a6832dcb24b38c32a773e97c9ff52d"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/orbit/warped/3.png",
+        "git_blob_sha1": "16c5cbba6d2a3215e69fa0cb245118a46d57a99a"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/orbit/warped/4.png",
+        "git_blob_sha1": "17348340dae600b4f9fe705909c27166c6c84216"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/orbit/warped/5.png",
+        "git_blob_sha1": "931076777dabfcf2ee9683a433c648e16215e01f"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/orbit/warped/6.png",
+        "git_blob_sha1": "531d4fe64033303d4387536a407aeace0f4a01b2"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/orbit/warped/7.png",
+        "git_blob_sha1": "986a8884dc1256759493af83e0832335a93d78db"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/orbit/warped/8.png",
+        "git_blob_sha1": "4e3aae77c5b24d69f8332e08fa69f284d45665db"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/orbit/warped/9.png",
+        "git_blob_sha1": "d81098987442966ff96f6ec197ff9a65227f94e2"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/reference.png",
+        "git_blob_sha1": "ecac16ad4826616531c01f3e63cf18ac4f7a29fb"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/reference_padded.png",
+        "git_blob_sha1": "7ad54bf6f38eb95c7b6617acb4a4f531a4801c91"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/spiral/warped/0.png",
+        "git_blob_sha1": "241d350b4c1fe94946b09ad75dbb38e7b0b8bb79"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/spiral/warped/1.png",
+        "git_blob_sha1": "facb59366ce5a47f56016132640cbd8c29b07e0e"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/spiral/warped/10.png",
+        "git_blob_sha1": "dc85da5cc5bc4bb7b95956acb5e7aa3599e5494a"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/spiral/warped/11.png",
+        "git_blob_sha1": "c7c672c3520651c67fb261331574341be6681a86"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/spiral/warped/12.png",
+        "git_blob_sha1": "5c62e60b8608bc7c7ffba7a9bd5a2ca2ff762418"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/spiral/warped/13.png",
+        "git_blob_sha1": "7ac6ddc42eaf5a84e581e559c1ace0e7fb4ac3e0"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/spiral/warped/14.png",
+        "git_blob_sha1": "d8d683e5b5d2a4b5442fa12a0e9c0d2b7bdea233"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/spiral/warped/15.png",
+        "git_blob_sha1": "fc24aa921f142f59d8ceaf35079dcf548855d61b"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/spiral/warped/16.png",
+        "git_blob_sha1": "5c41cb05c78d1543b6748ffc69535ec8593dea47"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/spiral/warped/17.png",
+        "git_blob_sha1": "6ee76bb6a2c63ef5091478624d16f465d960b880"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/spiral/warped/18.png",
+        "git_blob_sha1": "3d066d247ac9f0c50770fe8b7d55726d9d001fbc"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/spiral/warped/19.png",
+        "git_blob_sha1": "301dc9e2d6a02b3246b03affa19643be91a6fc39"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/spiral/warped/2.png",
+        "git_blob_sha1": "6ad8f165bb7c9776ff0975669e550e3b006f510e"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/spiral/warped/4.png",
+        "git_blob_sha1": "a337c69480b80cedded654393f89cd36d852d437"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/spiral/warped/5.png",
+        "git_blob_sha1": "e7de1843c0601ab6689da214e9ae2794f8efb9aa"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/spiral/warped/6.png",
+        "git_blob_sha1": "5c969b7d1a20c68518a1ea14c7c5fa96ea549123"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/spiral/warped/7.png",
+        "git_blob_sha1": "79f7899f35a54b6ba156b5c1d660da10c90c05f9"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/spiral/warped/8.png",
+        "git_blob_sha1": "f7729c8493a7ab26c39f6f0d206ac4ca590cdfeb"
+      },
+      {
+        "path": "qual_eval/warp_plus_pose/hatfield/spiral/warped/9.png",
+        "git_blob_sha1": "a48bbcdc90163013fb4e18273de9127f08d75274"
+      },
+      {
+        "path": "qual_eval/zeronvs_finetune/hatfield/orbit/warped/0.png",
+        "git_blob_sha1": "40c1ab6483b61588706ae94e973649172510022f"
+      },
+      {
+        "path": "qual_eval/zeronvs_finetune/hatfield/orbit/warped/1.png",
+        "git_blob_sha1": "81eb19b35d8893e037f3e4b554ba84eaefb81dab"
+      },
+      {
+        "path": "qual_eval/zeronvs_finetune/hatfield/orbit/warped/10.png",
+        "git_blob_sha1": "a0503d6683eae4c2d6c0ed4070cdd902be0d7f77"
+      },
+      {
+        "path": "qual_eval/zeronvs_finetune/hatfield/orbit/warped/11.png",
+        "git_blob_sha1": "9efc264ced4b2927d20aa6e52c1e18ecc872cc33"
+      },
+      {
+        "path": "qual_eval/zeronvs_finetune/hatfield/orbit/warped/12.png",
+        "git_blob_sha1": "0bb5ab6c1bf858c7075a61a5c25ccbea3431b127"
+      },
+      {
+        "path": "qual_eval/zeronvs_finetune/hatfield/orbit/warped/13.png",
+        "git_blob_sha1": "acae2ded59e713163755ab87965021a181fa45cc"
+      },
+      {
+        "path": "qual_eval/zeronvs_finetune/hatfield/orbit/warped/14.png",
+        "git_blob_sha1": "01bb755e75821c58f264e1eaa5fd4eead4d4a774"
+      },
+      {
+        "path": "qual_eval/zeronvs_finetune/hatfield/orbit/warped/15.png",
+        "git_blob_sha1": "9143ce77c787af433a4250ae1c33b3ef1e4c2aac"
+      },
+      {
+        "path": "qual_eval/zeronvs_finetune/hatfield/orbit/warped/16.png",
+        "git_blob_sha1": "70823f4cc2478b4230dcf52eeee5b892cdbc690f"
+      },
+      {
+        "path": "qual_eval/zeronvs_finetune/hatfield/orbit/warped/17.png",
+        "git_blob_sha1": "ee0e797259d115761b1b57af0f44c5acd14e3e16"
+      },
+      {
+        "path": "qual_eval/zeronvs_finetune/hatfield/orbit/warped/18.png",
+        "git_blob_sha1": "dacfb68892e3c29a1a95b1f7de1fd8591a8caf7a"
+      },
+      {
+        "path": "qual_eval/zeronvs_finetune/hatfield/orbit/warped/2.png",
+        "git_blob_sha1": "d7e1a63146114c9026465ea940ee2d692cfbe5c1"
+      },
+      {
+        "path": "qual_eval/zeronvs_finetune/hatfield/orbit/warped/3.png",
+        "git_blob_sha1": "d8be8ffd5717087c26b39a6cf2b307eb8f24c85d"
+      },
+      {
+        "path": "qual_eval/zeronvs_finetune/hatfield/orbit/warped/4.png",
+        "git_blob_sha1": "3da0fd326519e4bcef97974fef1cc43cfb579a44"
+      },
+      {
+        "path": "qual_eval/zeronvs_finetune/hatfield/orbit/warped/5.png",
+        "git_blob_sha1": "b340cdb8a905580bda79cafc90b46dbbdf9d96d7"
+      },
+      {
+        "path": "qual_eval/zeronvs_finetune/hatfield/orbit/warped/6.png",
+        "git_blob_sha1": "d01351f7704ee9c83a870cf29216bd59b2042e4a"
+      },
+      {
+        "path": "qual_eval/zeronvs_finetune/hatfield/orbit/warped/7.png",
+        "git_blob_sha1": "6a416ca0a5d629dd6c823f97abd28fe27f023c5f"
+      },
+      {
+        "path": "qual_eval/zeronvs_finetune/hatfield/orbit/warped/8.png",
+        "git_blob_sha1": "f8204c1e445c89cb39a8243a111b455b53fa42ba"
+      },
+      {
+        "path": "qual_eval/zeronvs_finetune/hatfield/orbit/warped/9.png",
+        "git_blob_sha1": "4b28615e4505e8559aef261b4fc94908dbe0e7a4"
+      },
+      {
+        "path": "qual_eval/zeronvs_finetune/hatfield/reference.png",
+        "git_blob_sha1": "ecac16ad4826616531c01f3e63cf18ac4f7a29fb"
+      },
+      {
+        "path": "qual_eval/zeronvs_finetune/hatfield/reference_padded.png",
+        "git_blob_sha1": "7ad54bf6f38eb95c7b6617acb4a4f531a4801c91"
+      },
+      {
+        "path": "qual_eval/zeronvs_finetune/hatfield/spiral/warped/0.png",
+        "git_blob_sha1": "43c469c6bec653c9c47e51b95a02bd4c33c3b416"
+      }
+    ]
+  }
+]
