@@ -11,8 +11,8 @@
     },
     {
       "path": ".gitignore",
-      "size_bytes": 223,
-      "sha256": "44f8553c0a803af43481a3c7a3564b31ebf4f6258ffbbbb48ea8ed66a2b84edd",
+      "size_bytes": 245,
+      "sha256": "e81a1c62eee9fee4a288b6c7e37a702a001a7883848e334c706307a82f58b269",
       "source": "import_documentation"
     },
     {
@@ -35,8 +35,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 2648,
-      "sha256": "d6e91fc12c84fd8988e7654bc774ac6ed42c7fdbe5660276ef776b9e8f5accdb",
+      "size_bytes": 3122,
+      "sha256": "9854c3ffe509601f411e83de7e6a034af34ef884077bdb64388f98f0e29712fd",
       "source": "import_documentation"
     },
     {
@@ -5894,6 +5894,18 @@
       "size_bytes": 2883,
       "sha256": "5b2ce422712c73b58cae57620de997ca1a119787a4bfb3796271ee4cce40649b",
       "source": "workspace"
+    },
+    {
+      "path": "CHECKPOINTS.md",
+      "size_bytes": 4256,
+      "sha256": "2901bfb2270d244104bbcdeae829958d4ed7e14c2233e4340ae681e3fb613f96",
+      "source": "checkpoint_release_documentation"
+    },
+    {
+      "path": "CHECKPOINTS_MANIFEST.json",
+      "size_bytes": 5200,
+      "sha256": "ac676daae511b757c03927040cfe1ef39f943f22be033b6a66c6a897aad62765",
+      "source": "checkpoint_release_documentation"
     }
   ]
 }

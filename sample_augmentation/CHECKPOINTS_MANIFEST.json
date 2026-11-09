@@ -1,0 +1,147 @@
+{
+  "format_version": 1,
+  "repository": "drnaegi/DroneVisCrt",
+  "tag": "nerf-distillation-20261109",
+  "source_commit": "3929d9893d09770b52c634c803a1c0fdf20c0cc4",
+  "checkpoint_count": 5,
+  "assets": [
+    {
+      "name": "zeronvs-single-4000.zip",
+      "role": "formal",
+      "step": 4000,
+      "files": [
+        {
+          "path": "outputs/aerialmegadepth_00572/last.pt",
+          "size_bytes": 201401408,
+          "sha256": "0073e14398ea3a7f43e7f9711cf62ddadb3df114a636811602725de8efdca6ed"
+        },
+        {
+          "path": "outputs/aerialmegadepth_00572/config.json",
+          "size_bytes": 516,
+          "sha256": "049187966375868a11f2e68dba8f899b04c7b710cf1851fe08162a213f848fea"
+        },
+        {
+          "path": "outputs/aerialmegadepth_00572/status.json",
+          "size_bytes": 638,
+          "sha256": "59901c0dac760698c8ca4432122e3864b64826812e4a7a526311063df68ef914"
+        }
+      ],
+      "size_bytes": 145199745,
+      "sha256": "9eb7aebdb1f7f2f283f313d3d469f3a750a6b273ea8c7c92e7296553cabf746c"
+    },
+    {
+      "name": "multiview-single-2000.zip",
+      "role": "formal",
+      "step": 2000,
+      "files": [
+        {
+          "path": "outputs/multiview_a10/single/last.pt",
+          "size_bytes": 201389126,
+          "sha256": "02a9931f49657146eb57d85e24d8b716c4fc16a93d72d8e80e32b3573784a953"
+        },
+        {
+          "path": "outputs/multiview_a10/single/config.json",
+          "size_bytes": 534,
+          "sha256": "66cbc723e8ad6aeaf6f19b25fed81370f2d4feb80c1bd0aa5f9ef21213b91252"
+        },
+        {
+          "path": "outputs/multiview_a10/single/status.json",
+          "size_bytes": 386,
+          "sha256": "04f9f828e61e6a613897b5530c1b0e089669295700448ea8e4a99a24816f40c6"
+        }
+      ],
+      "size_bytes": 144394665,
+      "sha256": "370edce13a67fc78aa6f32e5b3b4e5ff7a0abd869106aa1948dccdcfc245ab74"
+    },
+    {
+      "name": "multiview-dual-2000.zip",
+      "role": "formal",
+      "step": 2000,
+      "files": [
+        {
+          "path": "outputs/multiview_a10/multi/last.pt",
+          "size_bytes": 201389126,
+          "sha256": "99489fad3b040e4c7c7e697695036e0a51a4eb55eeadd885ca29edbee7555fba"
+        },
+        {
+          "path": "outputs/multiview_a10/multi/config.json",
+          "size_bytes": 541,
+          "sha256": "847a5f068940995cf36cfad955c29f43d6983f5209cd606730ac609cfd82835f"
+        },
+        {
+          "path": "outputs/multiview_a10/multi/status.json",
+          "size_bytes": 385,
+          "sha256": "6adc0a3e5869d444c358216bb28cffba79439879165dfbc20acec82284db3b39"
+        }
+      ],
+      "size_bytes": 144176013,
+      "sha256": "94cc816b467aa286a94bf6535a7b6b7a6293639fbd213d1957d632fb9d36a030"
+    },
+    {
+      "name": "smoke-single-2.zip",
+      "role": "smoke",
+      "step": 2,
+      "files": [
+        {
+          "path": "outputs/smoke_00572/last.pt",
+          "size_bytes": 201401472,
+          "sha256": "1843dee30f0db760165315d5ce4e8769eec0f49161b6f1fa02b4378f7abccdae"
+        },
+        {
+          "path": "outputs/smoke_00572/config.json",
+          "size_bytes": 510,
+          "sha256": "4cb51d8106c3437a1960ff413e10abf66f90e2e34f1e9669d13872980fedabfe"
+        },
+        {
+          "path": "outputs/smoke_00572/status.json",
+          "size_bytes": 572,
+          "sha256": "024d71c7912a990a04cfaafec825d9a2dc35be8fb16fbfffd9e2779acfd46a17"
+        }
+      ],
+      "size_bytes": 126758768,
+      "sha256": "249003615ba3b17da1a7fe55ed934d1fbe20fd4e44666eb9a742e6ec14f2231a"
+    },
+    {
+      "name": "aborted-inverse-single-1000.zip",
+      "role": "aborted",
+      "step": 1000,
+      "files": [
+        {
+          "path": "outputs/multiview_a10/aborted_inverse_sampling/single/last.pt",
+          "size_bytes": 201388998,
+          "sha256": "59dee5d6a3860074b24bac7b3381590f212a9ac6f6923ab09902476f244521b0"
+        },
+        {
+          "path": "outputs/multiview_a10/aborted_inverse_sampling/single/config.json",
+          "size_bytes": 419,
+          "sha256": "0c58683d1d1a0788bf07fb22508d069e20befb7dd2616e6a7279f3da731370af"
+        },
+        {
+          "path": "outputs/multiview_a10/aborted_inverse_sampling/single/status.json",
+          "size_bytes": 361,
+          "sha256": "1709418f2471cf7dacf5b31d51608a12271cd697cfb1581d75c34e59a0298d87"
+        }
+      ],
+      "size_bytes": 141478782,
+      "sha256": "bde2abca1080384ef6837fc794bf220f7c7346e1f226653fc79a7de5b8bafd56"
+    },
+    {
+      "name": "multiview-calibration.zip",
+      "role": "calibration",
+      "files": [
+        {
+          "path": "outputs/multiview_a10/cameras.pt",
+          "size_bytes": 15732377,
+          "sha256": "7f500bb38faaab3ecfea1f4432c17a4ad2e73845e4f49f0c8cbf539df8411112"
+        },
+        {
+          "path": "outputs/multiview_a10/cameras.json",
+          "size_bytes": 1759,
+          "sha256": "4ac41850bb2b4a6829f8349c7d6b774c61e77c8be72d6d22b9375f513f53b595"
+        }
+      ],
+      "size_bytes": 13443219,
+      "sha256": "9365003e7b76028382505dbb7370efbe131813761838633dc7455c6bfdb669f1"
+    }
+  ]
+}

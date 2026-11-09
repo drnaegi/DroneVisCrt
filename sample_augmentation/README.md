@@ -9,6 +9,7 @@
 - [单图实验说明](README_ZeroNVS.md)：方法、运行参数、模型来源与限制。
 - [单图/双图对照](README_MultiView.md)：共享相机估计、训练划分、结果及公平性边界。
 - [单图执行验证](VERIFICATION_ZeroNVS.md)：已有本机运行的验证记录。
+- [检查点下载与恢复](CHECKPOINTS.md)：全部 5 个 NeRF 检查点、相机文件及 SHA256 校验方法。
 - `scripts/`：训练、下载、渲染与验收脚本。
 - `configs/`、`inputs/`：实验配置、输入图像及来源记录。
 - `outputs/aerialmegadepth_00572/`、`outputs/multiview_a10/`：正式实验的图像、视频、数值与历史验证报告。
@@ -20,12 +21,12 @@
 
 `ZeroNVS/` 与 `third_party/aerial-megadepth/` 保留本地已有上游源码快照及许可文件，路径布局与脚本一致；它们不是本项目原创代码，也不作为 Git submodule 管理。使用和再分发应遵守上游许可及数据来源要求。
 
-权重不随源码提交。按实验说明运行 `scripts/inspect_remote_checkpoint.py`、`scripts/download_inference_weights.py` 和 `scripts/download_aerial_checkpoint.py` 获取所需权重并核验。
+教师权重不随源码提交。按实验说明运行 `scripts/inspect_remote_checkpoint.py`、`scripts/download_inference_weights.py` 和 `scripts/download_aerial_checkpoint.py` 获取所需教师权重并核验。已蒸馏的 NeRF 检查点单独保存在 [GitHub Release](https://github.com/drnaegi/DroneVisCrt/releases/tag/nerf-distillation-20261109)，下载和恢复方法见 [CHECKPOINTS.md](CHECKPOINTS.md)。
 
 ## 导入范围
 
-保留源码、配置、输入、来源记录及两组正式实验的可视化与数值记录。未包含虚拟环境、Python 缓存、模型权重、训练检查点、预测中间张量、点云、AirSim 运行包、下载缓存和中止实验。
+Git 文件树保留源码、配置、输入、来源记录及两组正式实验的可视化与数值记录。NeRF 检查点、冒烟测试及中止实验的检查点归档、多图相机文件保存在 Release 附件中。虚拟环境、Python 缓存、教师权重、图像对预测中间张量、点云、AirSim 运行包和下载缓存不在本次上传范围内。
 
-`verification.json`、`status.json` 和验证文档记录的是原工作区已经执行的实验。由于检查点等大文件未入库，克隆后不能仅凭这些记录重新执行完整产物验收；需要重新训练或自行提供原检查点。训练前请使用新的输出目录，或备份并移走已归档的正式实验记录，避免与新运行混用。
+`verification.json`、`status.json` 和验证文档记录的是原工作区已经执行的实验。克隆后需另外下载 Release 附件并恢复检查点；多图重新渲染还需要恢复相机文件。验收脚本若依赖未归档的中间文件，仍需重新生成。训练前请使用新的输出目录，或备份并移走已归档的正式实验记录，避免与新运行混用。
 
 `AirSim/download_blocks.py` 可重新下载模拟器运行包。完整文件清单及 SHA256 记录在 `IMPORT_MANIFEST.json`；本模块禁用 Git 换行转换，以保留来源记录与文件哈希。
