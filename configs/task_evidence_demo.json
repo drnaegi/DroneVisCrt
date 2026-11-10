@@ -1,0 +1,45 @@
+{
+  "scene_id": "demo_road",
+  "task": "检测道路附近的车辆和行人，适应斜视和远距离观测",
+  "references": [
+    {
+      "image_id": "ref_00",
+      "path": "demo/reference_00.jpg",
+      "width": 64,
+      "height": 48,
+      "instances": [
+        {"instance_id": "car_01", "category": "car", "bbox": [20, 16, 38, 31], "attributes": ["small"], "confidence": 0.98},
+        {"instance_id": "person_01", "category": "person", "bbox": [42, 12, 48, 29], "confidence": 0.92}
+      ]
+    },
+    {
+      "image_id": "ref_01",
+      "path": "demo/reference_01.jpg",
+      "width": 64,
+      "height": 48,
+      "instances": [
+        {"instance_id": "car_01", "category": "car", "bbox": [18, 17, 36, 32], "attributes": ["small"], "confidence": 0.96},
+        {"instance_id": "person_01", "category": "person", "bbox": [40, 13, 46, 30], "confidence": 0.9}
+      ]
+    }
+  ],
+  "camera": {
+    "intrinsics": [[48.0, 0.0, 32.0], [0.0, 48.0, 24.0], [0.0, 0.0, 1.0]],
+    "world_to_camera": [[1.0, 0.0, 0.0, 0.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 4.0], [0.0, 0.0, 0.0, 1.0]],
+    "width": 64,
+    "height": 48
+  },
+  "point_cloud": {
+    "points": [
+      {"xyz": [-0.7, -0.3, 2.0], "rgb": [0.2, 0.2, 0.2], "confidence": 0.95, "instance_id": "car_01"},
+      {"xyz": [-0.5, -0.3, 2.1], "rgb": [0.25, 0.25, 0.25], "confidence": 0.95, "instance_id": "car_01"},
+      {"xyz": [-0.3, -0.3, 2.0], "rgb": [0.22, 0.22, 0.22], "confidence": 0.9, "instance_id": "car_01"},
+      {"xyz": [0.7, -0.4, 2.4], "rgb": [0.8, 0.7, 0.6], "confidence": 0.85, "instance_id": "person_01"},
+      {"xyz": [0.7, -0.1, 2.4], "rgb": [0.7, 0.6, 0.5], "confidence": 0.85, "instance_id": "person_01"},
+      {"xyz": [0.7, 0.2, 2.4], "rgb": [0.65, 0.55, 0.45], "confidence": 0.8, "instance_id": "person_01"},
+      {"xyz": [-2.0, 0.8, 3.0], "rgb": [0.3, 0.35, 0.3], "confidence": 0.7, "instance_id": null},
+      {"xyz": [0.0, 0.8, 3.0], "rgb": [0.35, 0.4, 0.35], "confidence": 0.7, "instance_id": null},
+      {"xyz": [2.0, 0.8, 3.0], "rgb": [0.3, 0.35, 0.3], "confidence": 0.7, "instance_id": null}
+    ]
+  }
+}

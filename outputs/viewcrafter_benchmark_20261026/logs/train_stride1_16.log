@@ -1,0 +1,67 @@
+Global seed set to 123
+/root/DroneVisCrt/envs/viewcrafter/lib/python3.12/site-packages/kornia/feature/lightglue.py:44: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  @torch.cuda.amp.custom_fwd(cast_inputs=torch.float32)
+/root/DroneVisCrt/code/viewcrafter-sparse/utils/diffusion_utils.py:84: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(ckpt, map_location="cpu")
+AE working on z of shape (1, 4, 32, 32) = 4096 dimensions.
+>>> model checkpoint loaded.
+Generated views saved
+{
+  "method": "ViewCrafter_16",
+  "source_revision": "97cdb8634b28708cbd50912d57c52f23c5ffbf09",
+  "source_frame_indices": [
+    0,
+    2,
+    3,
+    5,
+    6,
+    8,
+    10,
+    11,
+    13,
+    14,
+    16,
+    18,
+    19,
+    21,
+    22,
+    24
+  ],
+  "evaluation_common_indices": [
+    2,
+    3,
+    5,
+    6,
+    8,
+    10,
+    11,
+    13,
+    14,
+    16,
+    18,
+    19,
+    21,
+    22,
+    24
+  ],
+  "seed": 123,
+  "steps": 50,
+  "ddim_eta": 1.0,
+  "guidance_scale": 7.5,
+  "guidance_rescale": 0.7,
+  "prompt": "Rotating view of a scene",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "torch": "2.5.1+cu124",
+  "checkpoint": {
+    "url": "https://hf-mirror.com/Drexubery/ViewCrafter_16/resolve/c89ced4a6d256429d7ab7a5907c838160388266f/model.ckpt",
+    "size": 10437386879,
+    "sha256": "d6f46e70d0297e510352d899a280dd7d805261dd6fdd5305306dec2149a76753",
+    "verified_publisher_sha256": true
+  },
+  "geometry_metadata": "/root/DroneVisCrt/outputs/viewcrafter_benchmark_20261026/train_stride1/geometry/run.json",
+  "diffusion_model_load_seconds": 35.688863416959066,
+  "diffusion_seconds": 77.9336861660122,
+  "diffusion_peak_allocated_gib": 15.659862995147705,
+  "generated_frames": 16,
+  "source_reconstruction_mae_0_255": 7.003360977396369
+}

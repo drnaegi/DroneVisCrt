@@ -1,0 +1,20 @@
+{
+  "study_sha256": "8c088dee4f35d3e4b70f2d3d32c1ee99059e7964bcae50c38efaf064738bec87",
+  "scene_sha256": "7895f9f3ad225a9a183ebdf813a63962b2a62bc81b24966d8d08aea87fa3d452",
+  "checkpoints": {
+    "hierarchical_01views_seed0": "a3839dd1cc808a17f9bba26956a728d78f667629caaf00dc85f97607e15a4502",
+    "hierarchical_01views_seed1": "dc72a05c421c897171ea2e94c6b5cffb565be92ace25cc7b46c09b3b1dfc9215",
+    "hierarchical_01views_seed2": "38343938b853bbfa201a32c26a4097c59ddd7223eedcd91d409cc3eeb4e6d5c5",
+    "hierarchical_02views_seed0": "e3dc22e241fd507c6e92ff8194f2c33fa8384276c3572de5d1b1fd777e8647cf",
+    "hierarchical_02views_seed1": "bbe125ad363ad690275c2faa96bfc9282b0991daa86b2831e953ef90660223ca",
+    "hierarchical_02views_seed2": "80af62b41506e11212770c181fe60238fa7af55761b53fe254eddd040d0ff3cc",
+    "hierarchical_04views_seed0": "560499b4187b6fa44d5a4a7fec85de51d2486d97cb3ae9ef77a18ad07e95aa7f",
+    "hierarchical_04views_seed1": "e884ca5f98f060581e1c0a57b31e9bcf019c3efd99666705d5c4fc90a18a12a8",
+    "hierarchical_04views_seed2": "ab16b73b72be97ee9dd8439f1d6818cebff6a2f1bf74f7d7b07a046aeaf86949",
+    "hierarchical_08views_seed0": "f2bf7c05aad825ce55fe096741e6b4bdd67086242c35125b12839579e342ddc2",
+    "hierarchical_08views_seed1": "1922c7695f47edaf9c0d6aa13eaa2886da21bf241f98b1fa0c44114cfbf962f3",
+    "hierarchical_08views_seed2": "fac9b469bf16b4b735608701ba0b498a909c509653e155c64f92755240c1803c",
+    "uniform_01views_seed0": "bf8f5b70031df27bd8a2fdf17fa841a4e9e4bca82e4abaf06ec15edb6abf6d26",
+    "uniform_02views_seed0": "92a09b51a509fc24b05a1805eb4eee18b2dccb920e6668fb49e826421b1a0d2a"
+  }
+}

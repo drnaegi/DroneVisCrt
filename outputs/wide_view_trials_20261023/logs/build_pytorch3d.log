@@ -1,0 +1,17 @@
+Looking in indexes: http://mirrors.aliyun.com/pypi/simple
+Processing ./code/pytorch3d
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: pytorch3d
+  Building wheel for pytorch3d (setup.py): started
+  Building wheel for pytorch3d (setup.py): still running...
+  Building wheel for pytorch3d (setup.py): still running...
+  Building wheel for pytorch3d (setup.py): finished with status 'done'
+  Created wheel for pytorch3d: filename=pytorch3d-0.7.9-cp312-cp312-linux_x86_64.whl size=3853185 sha256=d1988efea0221be62114c70e1189682a70f632df3d9de6b3cbec62cdb766cc96
+  Stored in directory: /tmp/pip-ephem-wheel-cache-waxl5ojt/wheels/35/12/b7/9166f432af570748010e5c17d8812f07f86c94942bf67a9e01
+Successfully built pytorch3d
+Installing collected packages: pytorch3d
+Successfully installed pytorch3d-0.7.9
+
+[notice] A new release of pip is available: 24.0 -> 26.2.2
+[notice] To update, run: pip install --upgrade pip

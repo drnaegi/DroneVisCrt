@@ -1,0 +1,2 @@
+gsplat: CUDA extension has been set up successfully in 101.11 seconds.
+GSplat CUDA warmup OK torch.Size([1, 64, 64, 3]) seconds 101.74503724102397

@@ -1,0 +1,22 @@
+Global seed set to 123
+Warning, cannot find cuda-compiled version of RoPE2D, using a slow pytorch version instead
+Traceback (most recent call last):
+  File "/root/DroneVisCrt/tools/run_viewcrafter_trial.py", line 283, in <module>
+    main()
+  File "/root/DroneVisCrt/tools/run_viewcrafter_trial.py", line 273, in main
+    geometry(args, opts, metadata)
+  File "/root/DroneVisCrt/tools/run_viewcrafter_trial.py", line 137, in geometry
+    engine = GeometryEngine(opts)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/root/DroneVisCrt/code/viewcrafter-sparse/viewcrafter.py", line 34, in __init__
+    self.setup_dust3r()
+  File "/root/DroneVisCrt/tools/run_viewcrafter_trial.py", line 131, in setup_dust3r
+    result = model.load_state_dict(state, strict=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/DroneVisCrt/code/viewcrafter-sparse/extern/dust3r/dust3r/model.py", line 53, in load_state_dict
+    return super().load_state_dict(new_ckpt, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py", line 2584, in load_state_dict
+    raise RuntimeError(
+RuntimeError: Error(s) in loading state_dict for AsymmetricCroCo3DStereo:
+	Missing key(s) in state_dict: "downstream_head1.dpt.scratch.layer_rn.0.weight", "downstream_head1.dpt.scratch.layer_rn.1.weight", "downstream_head1.dpt.scratch.layer_rn.2.weight", "downstream_head1.dpt.scratch.layer_rn.3.weight", "downstream_head2.dpt.scratch.layer_rn.0.weight", "downstream_head2.dpt.scratch.layer_rn.1.weight", "downstream_head2.dpt.scratch.layer_rn.2.weight", "downstream_head2.dpt.scratch.layer_rn.3.weight". 

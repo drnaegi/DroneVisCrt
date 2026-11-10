@@ -1,0 +1,730 @@
+{
+  "method": "sharp",
+  "checkpoint": "/root/DroneVisCrt/checkpoints/SHARP/sharp_2572gikvuh.pt",
+  "checkpoint_sha256": "94211a75198c47f61fca7d739ba08a215418d8d398d48fddf023baccc24f073d",
+  "source_revision": "aed6527499ef91cba3b54c18d49a870f25947190",
+  "utils3d_revision": "3fab839f0be9931dac7c8488eb0e1600c236e183",
+  "torch": "2.5.1+cu124",
+  "cuda": "12.4",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "horizontal_fov_assumed_degrees": 60,
+  "calibration": "unknown; shared assumed FOV for diagnostics, not true camera calibration",
+  "camera_protocol": "each geometry normalized to median depth 1; look at [0,0,1]; camera x offset relative to that depth",
+  "target_ground_truth": false,
+  "seed": 20261023,
+  "samples": [
+    {
+      "inference_seconds": 5.283220823010197,
+      "inference_peak_allocated_gib": 6.888407230377197,
+      "median_predicted_depth_before_normalization": 25.193157196044922,
+      "gaussian_count": 1179648,
+      "internal_resolution": [
+        1536,
+        1536
+      ],
+      "rendering": "official SHARP GSplatRenderer; custom documented camera path",
+      "input": "/root/DroneVisCrt/outputs/open_source_trials_20261023/inputs/0000001_02999_d_0000005.jpg",
+      "input_sha256": "fc80a9305b38af026091cbe0a1d4cfe059964852253b93f01fee17b7443e5514",
+      "resolution": [
+        1024,
+        576
+      ],
+      "total_sample_seconds": 11.468455622001784,
+      "total_peak_allocated_gib": 6.888407230377197,
+      "views": [
+        {
+          "offset": 0.0,
+          "extrinsics_world_to_camera": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "low_coverage_fraction": 2.2040473090277777e-05,
+          "source_reconstruction_mae_0_255": 5.081043243408203
+        },
+        {
+          "offset": -0.05,
+          "extrinsics_world_to_camera": [
+            [
+              0.9987523555755615,
+              0.0,
+              -0.049937620759010315,
+              0.049937617033720016
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.049937620759010315,
+              0.0,
+              0.9987523555755615,
+              0.002496881177648902
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "low_coverage_fraction": 0.00011528862847222222
+        },
+        {
+          "offset": 0.05,
+          "extrinsics_world_to_camera": [
+            [
+              0.9987523555755615,
+              -0.0,
+              0.049937620759010315,
+              -0.049937617033720016
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.049937620759010315,
+              0.0,
+              0.9987523555755615,
+              0.002496881177648902
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "low_coverage_fraction": 8.985731336805556e-05
+        },
+        {
+          "offset": -0.15,
+          "extrinsics_world_to_camera": [
+            [
+              0.9889363646507263,
+              0.0,
+              -0.14834046363830566,
+              0.14834046363830566
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.14834046363830566,
+              0.0,
+              0.9889363646507263,
+              0.02225106954574585
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "low_coverage_fraction": 0.004675971137152778
+        },
+        {
+          "offset": 0.15,
+          "extrinsics_world_to_camera": [
+            [
+              0.9889363646507263,
+              -0.0,
+              0.14834046363830566,
+              -0.14834046363830566
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.14834046363830566,
+              0.0,
+              0.9889363646507263,
+              0.02225106954574585
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "low_coverage_fraction": 0.006544325086805556
+        }
+      ],
+      "video_frames": 48,
+      "video_encoded_resolution": [
+        1024,
+        576
+      ],
+      "output": "/root/DroneVisCrt/outputs/open_source_trials_20261023/sharp/0000001_02999_d_0000005"
+    },
+    {
+      "inference_seconds": 4.86174718500115,
+      "inference_peak_allocated_gib": 6.887609004974365,
+      "median_predicted_depth_before_normalization": 31.969322204589844,
+      "gaussian_count": 1179648,
+      "internal_resolution": [
+        1536,
+        1536
+      ],
+      "rendering": "official SHARP GSplatRenderer; custom documented camera path",
+      "input": "/root/DroneVisCrt/outputs/open_source_trials_20261023/inputs/0000002_00005_d_0000014.jpg",
+      "input_sha256": "17532f304f390479d8b7998863af7d2c51549702977c1e76b82ed8700dea7085",
+      "resolution": [
+        960,
+        540
+      ],
+      "total_sample_seconds": 9.930202634015586,
+      "total_peak_allocated_gib": 6.887609004974365,
+      "views": [
+        {
+          "offset": 0.0,
+          "extrinsics_world_to_camera": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "low_coverage_fraction": 1.736111111111111e-05,
+          "source_reconstruction_mae_0_255": 2.976651191711426
+        },
+        {
+          "offset": -0.05,
+          "extrinsics_world_to_camera": [
+            [
+              0.9987523555755615,
+              0.0,
+              -0.049937620759010315,
+              0.049937617033720016
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.049937620759010315,
+              0.0,
+              0.9987523555755615,
+              0.002496881177648902
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "low_coverage_fraction": 2.8935185185185186e-05
+        },
+        {
+          "offset": 0.05,
+          "extrinsics_world_to_camera": [
+            [
+              0.9987523555755615,
+              -0.0,
+              0.049937620759010315,
+              -0.049937617033720016
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.049937620759010315,
+              0.0,
+              0.9987523555755615,
+              0.002496881177648902
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "low_coverage_fraction": 3.6651234567901234e-05
+        },
+        {
+          "offset": -0.15,
+          "extrinsics_world_to_camera": [
+            [
+              0.9889363646507263,
+              0.0,
+              -0.14834046363830566,
+              0.14834046363830566
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.14834046363830566,
+              0.0,
+              0.9889363646507263,
+              0.02225106954574585
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "low_coverage_fraction": 0.004521604938271605
+        },
+        {
+          "offset": 0.15,
+          "extrinsics_world_to_camera": [
+            [
+              0.9889363646507263,
+              -0.0,
+              0.14834046363830566,
+              -0.14834046363830566
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.14834046363830566,
+              0.0,
+              0.9889363646507263,
+              0.02225106954574585
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "low_coverage_fraction": 0.009741512345679012
+        }
+      ],
+      "video_frames": 48,
+      "video_encoded_resolution": [
+        960,
+        540
+      ],
+      "output": "/root/DroneVisCrt/outputs/open_source_trials_20261023/sharp/0000002_00005_d_0000014"
+    },
+    {
+      "inference_seconds": 4.972149327018997,
+      "inference_peak_allocated_gib": 6.887609004974365,
+      "median_predicted_depth_before_normalization": 33.212188720703125,
+      "gaussian_count": 1179648,
+      "internal_resolution": [
+        1536,
+        1536
+      ],
+      "rendering": "official SHARP GSplatRenderer; custom documented camera path",
+      "input": "/root/DroneVisCrt/outputs/open_source_trials_20261023/inputs/0000003_00231_d_0000016.jpg",
+      "input_sha256": "3bd4906082b03b93f4e74bdba57b2c29b42bcdaa1798b3b97e39bdc2f7d60b5f",
+      "resolution": [
+        960,
+        540
+      ],
+      "total_sample_seconds": 10.180203575990163,
+      "total_peak_allocated_gib": 6.887609004974365,
+      "views": [
+        {
+          "offset": 0.0,
+          "extrinsics_world_to_camera": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "low_coverage_fraction": 9.645061728395062e-06,
+          "source_reconstruction_mae_0_255": 3.061022996902466
+        },
+        {
+          "offset": -0.05,
+          "extrinsics_world_to_camera": [
+            [
+              0.9987523555755615,
+              0.0,
+              -0.049937620759010315,
+              0.049937617033720016
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.049937620759010315,
+              0.0,
+              0.9987523555755615,
+              0.002496881177648902
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "low_coverage_fraction": 0.00015625
+        },
+        {
+          "offset": 0.05,
+          "extrinsics_world_to_camera": [
+            [
+              0.9987523555755615,
+              -0.0,
+              0.049937620759010315,
+              -0.049937617033720016
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.049937620759010315,
+              0.0,
+              0.9987523555755615,
+              0.002496881177648902
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "low_coverage_fraction": 0.00010223765432098765
+        },
+        {
+          "offset": -0.15,
+          "extrinsics_world_to_camera": [
+            [
+              0.9889363646507263,
+              0.0,
+              -0.14834046363830566,
+              0.14834046363830566
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.14834046363830566,
+              0.0,
+              0.9889363646507263,
+              0.02225106954574585
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "low_coverage_fraction": 0.004614197530864198
+        },
+        {
+          "offset": 0.15,
+          "extrinsics_world_to_camera": [
+            [
+              0.9889363646507263,
+              -0.0,
+              0.14834046363830566,
+              -0.14834046363830566
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.14834046363830566,
+              0.0,
+              0.9889363646507263,
+              0.02225106954574585
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "low_coverage_fraction": 0.006547067901234568
+        }
+      ],
+      "video_frames": 48,
+      "video_encoded_resolution": [
+        960,
+        540
+      ],
+      "output": "/root/DroneVisCrt/outputs/open_source_trials_20261023/sharp/0000003_00231_d_0000016"
+    },
+    {
+      "inference_seconds": 4.916190502990503,
+      "inference_peak_allocated_gib": 6.889631748199463,
+      "median_predicted_depth_before_normalization": 20.098665237426758,
+      "gaussian_count": 1179648,
+      "internal_resolution": [
+        1536,
+        1536
+      ],
+      "rendering": "official SHARP GSplatRenderer; custom documented camera path",
+      "input": "/root/DroneVisCrt/outputs/open_source_trials_20261023/inputs/demo_traffic.jpg",
+      "input_sha256": "4fa8b46849dd3de5b3b0a141d6aafe98e190f578ccec0c9dacc440cd8434db11",
+      "resolution": [
+        1024,
+        683
+      ],
+      "total_sample_seconds": 10.870260322000831,
+      "total_peak_allocated_gib": 6.889631748199463,
+      "views": [
+        {
+          "offset": 0.0,
+          "extrinsics_world_to_camera": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "low_coverage_fraction": 7.863973279648609e-05,
+          "source_reconstruction_mae_0_255": 2.9222657680511475
+        },
+        {
+          "offset": -0.05,
+          "extrinsics_world_to_camera": [
+            [
+              0.9987523555755615,
+              0.0,
+              -0.049937620759010315,
+              0.049937617033720016
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.049937620759010315,
+              0.0,
+              0.9987523555755615,
+              0.002496881177648902
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "low_coverage_fraction": 0.0055419564421669105
+        },
+        {
+          "offset": 0.05,
+          "extrinsics_world_to_camera": [
+            [
+              0.9987523555755615,
+              -0.0,
+              0.049937620759010315,
+              -0.049937617033720016
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.049937620759010315,
+              0.0,
+              0.9987523555755615,
+              0.002496881177648902
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "low_coverage_fraction": 0.0008607476207906295
+        },
+        {
+          "offset": -0.15,
+          "extrinsics_world_to_camera": [
+            [
+              0.9889363646507263,
+              0.0,
+              -0.14834046363830566,
+              0.14834046363830566
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.14834046363830566,
+              0.0,
+              0.9889363646507263,
+              0.02225106954574585
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "low_coverage_fraction": 0.06265727946559298
+        },
+        {
+          "offset": 0.15,
+          "extrinsics_world_to_camera": [
+            [
+              0.9889363646507263,
+              -0.0,
+              0.14834046363830566,
+              -0.14834046363830566
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.14834046363830566,
+              0.0,
+              0.9889363646507263,
+              0.02225106954574585
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "low_coverage_fraction": 0.0877819591874085
+        }
+      ],
+      "video_frames": 48,
+      "video_encoded_resolution": [
+        1024,
+        684
+      ],
+      "output": "/root/DroneVisCrt/outputs/open_source_trials_20261023/sharp/demo_traffic"
+    }
+  ],
+  "model_load_seconds": 12.448934212006861
+}

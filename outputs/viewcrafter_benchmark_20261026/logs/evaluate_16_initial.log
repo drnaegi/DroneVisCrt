@@ -1,0 +1,74 @@
+/root/miniconda3/lib/python3.12/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/root/miniconda3/lib/python3.12/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=AlexNet_Weights.IMAGENET1K_V1`. You can also use `weights=AlexNet_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/root/DroneVisCrt/envs/viewcrafter/lib/python3.12/site-packages/lpips/lpips.py:107: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.load_state_dict(torch.load(model_path, map_location='cpu'), strict=False)
+Setting up [LPIPS] perceptual loss: trunk [alex], v[0.1], spatial [off]
+Loading model from: /root/DroneVisCrt/envs/viewcrafter/lib/python3.12/site-packages/lpips/weights/v0.1/alex.pth
+Scored and visualized train_stride1
+Scored and visualized train_stride3
+Scored and visualized truck_stride1
+Scored and visualized truck_stride3
+[
+  {
+    "clip": "ALL",
+    "method": "copy_source",
+    "crop": "center_square",
+    "subset": "common_targets",
+    "targets": 60,
+    "psnr": 9.883115751224839,
+    "ssim": 0.2588978298008442,
+    "lpips_alex": 0.591754346092542
+  },
+  {
+    "clip": "ALL",
+    "method": "copy_source",
+    "crop": "full",
+    "subset": "common_targets",
+    "targets": 60,
+    "psnr": 9.880841673696912,
+    "ssim": 0.2768238730728626,
+    "lpips_alex": 0.5975161413351695
+  },
+  {
+    "clip": "ALL",
+    "method": "geometry_only",
+    "crop": "center_square",
+    "subset": "common_targets",
+    "targets": 60,
+    "psnr": 9.073882081118343,
+    "ssim": 0.19587454227730633,
+    "lpips_alex": 0.6594889253377915
+  },
+  {
+    "clip": "ALL",
+    "method": "geometry_only",
+    "crop": "full",
+    "subset": "common_targets",
+    "targets": 60,
+    "psnr": 8.650359297312274,
+    "ssim": 0.17351151922096808,
+    "lpips_alex": 0.7011845007538795
+  },
+  {
+    "clip": "ALL",
+    "method": "viewcrafter16",
+    "crop": "center_square",
+    "subset": "common_targets",
+    "targets": 60,
+    "psnr": 11.588695229926163,
+    "ssim": 0.32980620165665947,
+    "lpips_alex": 0.525318370014429
+  },
+  {
+    "clip": "ALL",
+    "method": "viewcrafter16",
+    "crop": "full",
+    "subset": "common_targets",
+    "targets": 60,
+    "psnr": 11.213953857200769,
+    "ssim": 0.3299303556481997,
+    "lpips_alex": 0.5491315022110939
+  }
+]

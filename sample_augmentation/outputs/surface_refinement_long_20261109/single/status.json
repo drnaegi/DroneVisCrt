@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "step": 2000,
+  "source_step": 2000,
+  "training_ids": [
+    "00572"
+  ],
+  "source_sha256": "02a9931f49657146eb57d85e24d8b716c4fc16a93d72d8e80e32b3573784a953",
+  "elapsed_s": 69.16194885398727,
+  "peak_allocated_gib": 1.822484016418457
+}

@@ -1,0 +1,26 @@
+{
+  "scene": "fern",
+  "steps": 1500,
+  "long_side": 128,
+  "planned_runs": [
+    "hierarchical_01views_seed0",
+    "hierarchical_02views_seed0",
+    "hierarchical_04views_seed0",
+    "hierarchical_08views_seed0",
+    "hierarchical_01views_seed1",
+    "hierarchical_02views_seed1",
+    "hierarchical_04views_seed1",
+    "hierarchical_08views_seed1",
+    "hierarchical_01views_seed2",
+    "hierarchical_02views_seed2",
+    "hierarchical_04views_seed2",
+    "hierarchical_08views_seed2",
+    "uniform_01views_seed0",
+    "uniform_02views_seed0"
+  ],
+  "purpose": "Geometry/ray-sampling diagnostic with existing PyTorch NeRF; no diffusion teacher or depth prior.",
+  "primary_comparison": "Hierarchical two-view minus one-view paired by seed on identical test cameras.",
+  "controls": "Four/eight-view coverage; uniform one/two-view seed-zero sampler ablation.",
+  "selection": "All configurations declared before training; test opened once after full training matrix.",
+  "limitations": "Low-resolution fixed-budget diagnostic, not a reproduction of NeRF or ZeroNVS paper results."
+}

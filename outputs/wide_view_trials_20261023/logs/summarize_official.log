@@ -1,0 +1,19 @@
+[
+  {
+    "experiment": "official_phi30",
+    "phi": 30.0,
+    "theta": 0.0,
+    "requested_rotation_degrees": 30.0,
+    "camera_endpoint_rotation_degrees": 29.989160494956366,
+    "baseline_over_radius": 0.515554369738295,
+    "geometry_seconds": 16.253910294006346,
+    "diffusion_seconds": 78.12025029302458,
+    "diffusion_peak_allocated_gib": 15.657810688018799,
+    "source_reconstruction_mae_0_255": 4.671730091795325,
+    "decoded_frames": {
+      "conditions.mp4": 16,
+      "generated.mp4": 16,
+      "comparison.mp4": 16
+    }
+  }
+]

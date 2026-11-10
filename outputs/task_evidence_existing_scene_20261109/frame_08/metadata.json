@@ -1,0 +1,29 @@
+{
+  "frame": 8,
+  "condition": {
+    "view_id": "frame_08",
+    "shape": [
+      288,
+      512
+    ],
+    "valid_projection_fraction": 0.6931627061631944,
+    "support_mean_on_projection": 1.0,
+    "task_attention_fraction": 0.8809475368923612,
+    "task_evidence_mass": 38196.72265625,
+    "instance_names": [
+      "scene"
+    ],
+    "metadata": {
+      "task_parser_version": "controlled-v1",
+      "condition_policy": "task relevance is gated by projected geometry support",
+      "context_radius_pixels": 3,
+      "is_generation_reliability": false,
+      "is_target_label": false
+    }
+  },
+  "saved_geometry_condition_mae": 0.23540322482585907,
+  "source_dataset": "/root/autodl-tmp/DroneVisCrt/outputs/wide_view_trials_20261023/parking_phi30",
+  "label_status": "geometry_condition_only_no_object_annotation",
+  "viewcrafter_generated_image": "/root/autodl-tmp/DroneVisCrt/outputs/wide_view_trials_20261023/parking_phi30/generated/008.png",
+  "valid_projection_fraction": 0.6931627061631944
+}

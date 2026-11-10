@@ -21,3 +21,17 @@ credentials.json
 *.part
 *.incomplete
 /outputs/proposal_revision_20261017/NotoSerifCJKsc-Regular.otf
+/code/ml-sharp/
+/code/moge/
+/code/utils3d/
+/code/viewcrafter/
+/code/viewcrafter-sparse/
+/code/pytorch3d/
+/outputs/open_source_trials_20261023/**/*.ply
+/outputs/open_source_trials_20261023/**/*.glb
+/outputs/open_source_trials_20261023/**/*.npz
+/outputs/open_source_trials_20261023/**/*.npy
+/outputs/wide_view_trials_20261023/**/*.npy
+/outputs/wide_view_trials_20261023/**/*.npz
+/outputs/viewcrafter_benchmark_*/**/*.npy
+/outputs/viewcrafter_benchmark_*/**/*.npz

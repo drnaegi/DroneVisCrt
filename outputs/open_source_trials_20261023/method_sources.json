@@ -1,0 +1,15 @@
+{
+  "SHARP": {
+    "source": "https://github.com/apple/ml-sharp",
+    "paper": "https://arxiv.org/abs/2512.10685",
+    "model_license": "Apple Machine Learning Research Model License; non-commercial research"
+  },
+  "MoGe-2": {
+    "source": "https://github.com/microsoft/MoGe",
+    "paper": "https://arxiv.org/abs/2507.02546",
+    "model": "Ruicheng/moge-2-vitb-normal",
+    "model_revision": "ca5f0e07ff01d3e5a364c1d954ed12ee1814b368",
+    "checkpoint_sha256": "16b8110e86d5dc5a849db120ca96ef3a223fd30b0c9146d1d81db504073da5f6",
+    "license": "MIT"
+  }
+}

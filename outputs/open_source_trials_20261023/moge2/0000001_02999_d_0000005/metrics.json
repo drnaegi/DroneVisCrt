@@ -1,0 +1,179 @@
+{
+  "inference_seconds": 0.7316517809813377,
+  "inference_peak_allocated_gib": 1.61057710647583,
+  "median_predicted_depth_before_normalization": 39.187469482421875,
+  "valid_geometry_fraction": 1.0,
+  "mesh_face_count": 1066248,
+  "mesh_depth_edge_rtol": 0.03,
+  "resolution_level": 9,
+  "rendering": "MoGe-2 geometry plus utils3d mesh rendering; no generative hole filling",
+  "coverage_definition": "rasterized mesh alpha (vertex=1, background=0); not target correctness",
+  "opengl_renderer": "llvmpipe (LLVM 15.0.7, 256 bits)",
+  "input": "/root/DroneVisCrt/outputs/open_source_trials_20261023/inputs/0000001_02999_d_0000005.jpg",
+  "input_sha256": "fc80a9305b38af026091cbe0a1d4cfe059964852253b93f01fee17b7443e5514",
+  "resolution": [
+    1024,
+    576
+  ],
+  "total_sample_seconds": 28.382939595001517,
+  "total_peak_allocated_gib": 1.61057710647583,
+  "views": [
+    {
+      "offset": 0.0,
+      "extrinsics_world_to_camera": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "low_coverage_fraction": 0.09613037109375,
+      "source_reconstruction_mae_0_255": 10.503399848937988
+    },
+    {
+      "offset": -0.05,
+      "extrinsics_world_to_camera": [
+        [
+          0.9987523555755615,
+          0.0,
+          -0.049937620759010315,
+          0.049937617033720016
+        ],
+        [
+          -0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.049937620759010315,
+          0.0,
+          0.9987523555755615,
+          0.002496881177648902
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "low_coverage_fraction": 0.12133110894097222
+    },
+    {
+      "offset": 0.05,
+      "extrinsics_world_to_camera": [
+        [
+          0.9987523555755615,
+          -0.0,
+          0.049937620759010315,
+          -0.049937617033720016
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.049937620759010315,
+          0.0,
+          0.9987523555755615,
+          0.002496881177648902
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "low_coverage_fraction": 0.1141018337673611
+    },
+    {
+      "offset": -0.15,
+      "extrinsics_world_to_camera": [
+        [
+          0.9889363646507263,
+          0.0,
+          -0.14834046363830566,
+          0.14834046363830566
+        ],
+        [
+          -0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.14834046363830566,
+          0.0,
+          0.9889363646507263,
+          0.02225106954574585
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "low_coverage_fraction": 0.2174106174045139
+    },
+    {
+      "offset": 0.15,
+      "extrinsics_world_to_camera": [
+        [
+          0.9889363646507263,
+          -0.0,
+          0.14834046363830566,
+          -0.14834046363830566
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.14834046363830566,
+          0.0,
+          0.9889363646507263,
+          0.02225106954574585
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "low_coverage_fraction": 0.1831749810112847
+    }
+  ],
+  "video_frames": 48,
+  "video_encoded_resolution": [
+    1024,
+    576
+  ],
+  "output": "/root/DroneVisCrt/outputs/open_source_trials_20261023/moge2/0000001_02999_d_0000005"
+}

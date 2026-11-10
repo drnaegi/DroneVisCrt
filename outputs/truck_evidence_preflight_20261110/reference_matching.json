@@ -1,0 +1,119 @@
+[
+  {
+    "references": [
+      0,
+      3
+    ],
+    "ransac_matches": 150,
+    "accepted_points": 150,
+    "median_reprojection_error_px": 0.39761111204352906
+  },
+  {
+    "references": [
+      0,
+      6
+    ],
+    "ransac_matches": 27,
+    "accepted_points": 27,
+    "median_reprojection_error_px": 0.4011472531447038
+  },
+  {
+    "references": [
+      0,
+      12
+    ],
+    "ransac_matches": 8,
+    "accepted_points": 6,
+    "median_reprojection_error_px": 0.2920796279774399
+  },
+  {
+    "references": [
+      0,
+      16
+    ],
+    "ransac_matches": 8,
+    "accepted_points": 6,
+    "median_reprojection_error_px": 0.04951754114037202
+  },
+  {
+    "references": [
+      3,
+      6
+    ],
+    "ransac_matches": 48,
+    "accepted_points": 48,
+    "median_reprojection_error_px": 0.1975790131558231
+  },
+  {
+    "references": [
+      3,
+      12
+    ],
+    "ransac_matches": 8,
+    "accepted_points": 8,
+    "median_reprojection_error_px": 0.12774094684686596
+  },
+  {
+    "references": [
+      3,
+      16
+    ],
+    "ransac_matches": 8,
+    "accepted_points": 7,
+    "median_reprojection_error_px": 0.413362886542126
+  },
+  {
+    "references": [
+      6,
+      9
+    ],
+    "ransac_matches": 12,
+    "accepted_points": 5,
+    "median_reprojection_error_px": 0.4179592892493703
+  },
+  {
+    "references": [
+      6,
+      12
+    ],
+    "ransac_matches": 24,
+    "accepted_points": 24,
+    "median_reprojection_error_px": 0.07336695987022002
+  },
+  {
+    "references": [
+      6,
+      16
+    ],
+    "ransac_matches": 20,
+    "accepted_points": 19,
+    "median_reprojection_error_px": 0.31952067410039003
+  },
+  {
+    "references": [
+      9,
+      12
+    ],
+    "ransac_matches": 37,
+    "accepted_points": 34,
+    "median_reprojection_error_px": 0.3364184400555078
+  },
+  {
+    "references": [
+      9,
+      16
+    ],
+    "ransac_matches": 30,
+    "accepted_points": 27,
+    "median_reprojection_error_px": 0.8457374382670378
+  },
+  {
+    "references": [
+      12,
+      16
+    ],
+    "ransac_matches": 175,
+    "accepted_points": 160,
+    "median_reprojection_error_px": 0.30284286636064983
+  }
+]

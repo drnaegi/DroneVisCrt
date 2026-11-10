@@ -1,0 +1,25 @@
+Global seed set to 123
+Warning, cannot find cuda-compiled version of RoPE2D, using a slow pytorch version instead
+DUSt3R strict state load: <All keys matched successfully>
+>> Loading a list of 1 images
+Traceback (most recent call last):
+  File "/root/DroneVisCrt/tools/run_viewcrafter_trial.py", line 289, in <module>
+    main()
+  File "/root/DroneVisCrt/tools/run_viewcrafter_trial.py", line 279, in main
+    geometry(args, opts, metadata)
+  File "/root/DroneVisCrt/tools/run_viewcrafter_trial.py", line 143, in geometry
+    engine = GeometryEngine(opts)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/root/DroneVisCrt/code/viewcrafter-sparse/viewcrafter.py", line 39, in __init__
+    self.images, self.img_ori = self.load_initial_images(image_dir=self.opts.image_dir)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/DroneVisCrt/code/viewcrafter-sparse/viewcrafter.py", line 412, in load_initial_images
+    images = load_images([image_dir], size=512,force_1024 = True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/DroneVisCrt/code/viewcrafter-sparse/extern/dust3r/dust3r/utils/image.py", line 113, in load_images
+    img = center_crop_pil_image(img)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/DroneVisCrt/code/viewcrafter-sparse/extern/dust3r/dust3r/utils/image.py", line 32, in center_crop_pil_image
+    input_image = input_image.resize((w, target_height), Image.ANTIALIAS)
+                                                         ^^^^^^^^^^^^^^^
+AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'

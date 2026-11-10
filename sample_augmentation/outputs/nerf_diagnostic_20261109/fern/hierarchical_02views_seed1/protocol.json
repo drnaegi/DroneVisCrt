@@ -1,0 +1,27 @@
+{
+  "config": {
+    "steps": 1500,
+    "rays": 1024,
+    "samples": 64,
+    "render_chunk": 1024,
+    "hash_log2_size": 17,
+    "lr": 0.005,
+    "torch": "2.5.1+cu124",
+    "device": "NVIDIA GeForce RTX 4090",
+    "teacher": null,
+    "selection": "Fixed final step; no checkpoint selection from validation or test",
+    "count": 2,
+    "seed": 1,
+    "sampler": "hierarchical"
+  },
+  "scene_sha256": "11bc28c33bcc21f8d51ce24b65e87b384d7e041890c70ed6f42b2ed5e86cc876",
+  "training_ids": [
+    "image001",
+    "image015"
+  ],
+  "implementation_sha256": {
+    "run_nerf_diagnostic.py": "21e905bcaf7af0e7e6cedf8177703e46401ce5b9f26e9269a170f8cd8c408387",
+    "nerf_diagnostic_data.py": "5b19118cb4c0d26294901b54e48d6551349874da1278db565be249c5b5fcf348",
+    "portable_nerf.py": "7b8ae61cbfed68872870f28ff6d6a52d4f6ccbaf86273bbe01e89f6b00b1d7ce"
+  }
+}

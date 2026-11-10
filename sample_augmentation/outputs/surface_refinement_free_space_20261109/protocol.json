@@ -1,0 +1,35 @@
+{
+  "config": {
+    "seed": 0,
+    "steps": 600,
+    "reference_rays": 2048,
+    "samples": 96,
+    "lr": 0.001,
+    "lambda_rgb": 1500.0,
+    "lambda_depth": 20.0,
+    "lambda_surface": 2.0,
+    "lambda_free_space": 20.0,
+    "relative_band": 0.08,
+    "absolute_band": 0.02
+  },
+  "calibration_sha256": "7f500bb38faaab3ecfea1f4432c17a4ad2e73845e4f49f0c8cbf539df8411112",
+  "training_reference_ids": {
+    "single": [
+      "00572"
+    ],
+    "multi": [
+      "00572",
+      "00563"
+    ]
+  },
+  "evaluation_id": "00616",
+  "selection": "Fixed final step; no selection using evaluation metrics",
+  "torch": "2.5.1+cu124",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "script_sha256": {
+    "refine_multiview_geometry.py": "ce350acaf6c621a37cc80b84a12e7bec7de57440e3283cfb2853ff2801b727d3",
+    "surface_constraints.py": "d8ba4e3e57c5c0d8138d0a0d6259f5cf9b16c01915f44fbb293c83f638abdfa8",
+    "portable_nerf.py": "7b8ae61cbfed68872870f28ff6d6a52d4f6ccbaf86273bbe01e89f6b00b1d7ce",
+    "run_multiview_experiment.py": "81596f0bd4bd8b4c7b9352437bd652429bc357a673fcb326d0faccc8a0d77a04"
+  }
+}

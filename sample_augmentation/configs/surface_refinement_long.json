@@ -1,0 +1,13 @@
+{
+  "seed": 0,
+  "steps": 2000,
+  "reference_rays": 2048,
+  "samples": 96,
+  "lr": 0.001,
+  "lambda_rgb": 1500.0,
+  "lambda_depth": 20.0,
+  "lambda_surface": 20.0,
+  "lambda_free_space": 20.0,
+  "relative_band": 0.08,
+  "absolute_band": 0.02
+}

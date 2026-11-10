@@ -1,0 +1,15 @@
+Looking in indexes: http://mirrors.aliyun.com/pypi/simple
+Collecting gsplat==1.5.3
+  Downloading http://mirrors.aliyun.com/pypi/packages/aa/68/c5cbbdb86421a3f45ac0b52cf9860b1048d089335151d3f37c23aabcbef1/gsplat-1.5.3-py3-none-any.whl (6.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.5/6.5 MB 147.8 kB/s eta 0:00:00
+Collecting timm==1.0.20
+  Downloading http://mirrors.aliyun.com/pypi/packages/c5/74/5573615570bf010f788e977ac57c4b49db0aaf6d634134f6a9212d8dcdfd/timm-1.0.20-py3-none-any.whl (2.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.5/2.5 MB 152.2 kB/s eta 0:00:00
+Collecting huggingface-hub==0.35.3
+  Downloading http://mirrors.aliyun.com/pypi/packages/31/a0/651f93d154cb72323358bf2bbae3e642bdb5d2f1bfc874d096f7cb159fa0/huggingface_hub-0.35.3-py3-none-any.whl (564 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 564.3/564.3 kB 144.6 kB/s eta 0:00:00
+Collecting imageio==2.37.0 (from imageio[ffmpeg]==2.37.0)
+  Downloading http://mirrors.aliyun.com/pypi/packages/cb/bd/b394387b598ed84d8d0fa90611a90bee0adc2021820ad5729f7ced74a8e2/imageio-2.37.0-py3-none-any.whl (315 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 315.8/315.8 kB 151.2 kB/s eta 0:00:00
+Collecting matplotlib==3.10.6
+  Downloading http://mirrors.aliyun.com/pypi/packages/67/c3/135fdbbbf84e0979712df58e5e22b4f257b3f5e52a3c4aacf1b8abec0d09/matplotlib-3.10.6-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (8.7 MB)

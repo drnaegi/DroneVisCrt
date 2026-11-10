@@ -1,0 +1,635 @@
+{
+  "dataset": "Tanks-and-Temples, processed Train and Truck scenes",
+  "mirror_repository": "nvs-bench/tanksandtemples",
+  "revision": "f5c9529539ab3e93dc33362f84034c6704bd7256",
+  "split": "Local deterministic subset; not the paper's undisclosed Easy/Hard split",
+  "selection": "First sorted image as source; 25 images with stride 1 or 3; fixed before inference",
+  "clips": [
+    {
+      "name": "train_stride1",
+      "scene": "train",
+      "stride": 1,
+      "source_index": 0,
+      "frames": [
+        "train/images/00001.jpg",
+        "train/images/00002.jpg",
+        "train/images/00003.jpg",
+        "train/images/00004.jpg",
+        "train/images/00005.jpg",
+        "train/images/00006.jpg",
+        "train/images/00007.jpg",
+        "train/images/00008.jpg",
+        "train/images/00009.jpg",
+        "train/images/00010.jpg",
+        "train/images/00011.jpg",
+        "train/images/00012.jpg",
+        "train/images/00013.jpg",
+        "train/images/00014.jpg",
+        "train/images/00015.jpg",
+        "train/images/00016.jpg",
+        "train/images/00017.jpg",
+        "train/images/00018.jpg",
+        "train/images/00019.jpg",
+        "train/images/00020.jpg",
+        "train/images/00021.jpg",
+        "train/images/00022.jpg",
+        "train/images/00023.jpg",
+        "train/images/00024.jpg",
+        "train/images/00025.jpg"
+      ]
+    },
+    {
+      "name": "train_stride3",
+      "scene": "train",
+      "stride": 3,
+      "source_index": 0,
+      "frames": [
+        "train/images/00001.jpg",
+        "train/images/00004.jpg",
+        "train/images/00007.jpg",
+        "train/images/00010.jpg",
+        "train/images/00013.jpg",
+        "train/images/00016.jpg",
+        "train/images/00019.jpg",
+        "train/images/00022.jpg",
+        "train/images/00025.jpg",
+        "train/images/00028.jpg",
+        "train/images/00031.jpg",
+        "train/images/00034.jpg",
+        "train/images/00037.jpg",
+        "train/images/00040.jpg",
+        "train/images/00043.jpg",
+        "train/images/00046.jpg",
+        "train/images/00049.jpg",
+        "train/images/00052.jpg",
+        "train/images/00055.jpg",
+        "train/images/00058.jpg",
+        "train/images/00061.jpg",
+        "train/images/00064.jpg",
+        "train/images/00067.jpg",
+        "train/images/00070.jpg",
+        "train/images/00073.jpg"
+      ]
+    },
+    {
+      "name": "truck_stride1",
+      "scene": "truck",
+      "stride": 1,
+      "source_index": 0,
+      "frames": [
+        "truck/images/000001.jpg",
+        "truck/images/000002.jpg",
+        "truck/images/000003.jpg",
+        "truck/images/000004.jpg",
+        "truck/images/000005.jpg",
+        "truck/images/000006.jpg",
+        "truck/images/000007.jpg",
+        "truck/images/000008.jpg",
+        "truck/images/000009.jpg",
+        "truck/images/000010.jpg",
+        "truck/images/000011.jpg",
+        "truck/images/000012.jpg",
+        "truck/images/000013.jpg",
+        "truck/images/000014.jpg",
+        "truck/images/000015.jpg",
+        "truck/images/000016.jpg",
+        "truck/images/000017.jpg",
+        "truck/images/000018.jpg",
+        "truck/images/000019.jpg",
+        "truck/images/000020.jpg",
+        "truck/images/000021.jpg",
+        "truck/images/000022.jpg",
+        "truck/images/000023.jpg",
+        "truck/images/000024.jpg",
+        "truck/images/000025.jpg"
+      ]
+    },
+    {
+      "name": "truck_stride3",
+      "scene": "truck",
+      "stride": 3,
+      "source_index": 0,
+      "frames": [
+        "truck/images/000001.jpg",
+        "truck/images/000004.jpg",
+        "truck/images/000007.jpg",
+        "truck/images/000010.jpg",
+        "truck/images/000013.jpg",
+        "truck/images/000016.jpg",
+        "truck/images/000019.jpg",
+        "truck/images/000022.jpg",
+        "truck/images/000025.jpg",
+        "truck/images/000028.jpg",
+        "truck/images/000031.jpg",
+        "truck/images/000034.jpg",
+        "truck/images/000037.jpg",
+        "truck/images/000040.jpg",
+        "truck/images/000043.jpg",
+        "truck/images/000046.jpg",
+        "truck/images/000049.jpg",
+        "truck/images/000052.jpg",
+        "truck/images/000055.jpg",
+        "truck/images/000058.jpg",
+        "truck/images/000061.jpg",
+        "truck/images/000064.jpg",
+        "truck/images/000067.jpg",
+        "truck/images/000070.jpg",
+        "truck/images/000073.jpg"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "train/images/00001.jpg",
+      "sha256": "a6c64d45e8d3c7c87864c52e761944d0c080258654ad8ec4b740650d9ae6e6b4",
+      "bytes": 372211,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00001.jpg"
+    },
+    {
+      "path": "train/images/00002.jpg",
+      "sha256": "f243a2de5a551a8aaba07cfff321857af2ab7b4b95c58e5c3eae8913cee639c5",
+      "bytes": 383531,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00002.jpg"
+    },
+    {
+      "path": "train/images/00003.jpg",
+      "sha256": "c837af4ff27567e01fcf10caa6efee364996b9df6044bc0467415a118205d0a4",
+      "bytes": 390766,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00003.jpg"
+    },
+    {
+      "path": "train/images/00004.jpg",
+      "sha256": "7fd3beb07312c7907f1f09f83382730d6262a819c5010503ee3e4cd7db3b615d",
+      "bytes": 416407,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00004.jpg"
+    },
+    {
+      "path": "train/images/00005.jpg",
+      "sha256": "1bab9d4347e676719af3e1e2fc7a8e1c29e00e05392da4fd69261cba6b5c75b2",
+      "bytes": 418160,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00005.jpg"
+    },
+    {
+      "path": "train/images/00006.jpg",
+      "sha256": "692a9db46ae89895b722fd3f5818a9844393f16c47fb0c3fa63f292f725d594b",
+      "bytes": 424664,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00006.jpg"
+    },
+    {
+      "path": "train/images/00007.jpg",
+      "sha256": "ab42d06a3920452a8b95931e67f37fdafc0c3255a2c62ee0733b2d504fc99ffb",
+      "bytes": 422627,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00007.jpg"
+    },
+    {
+      "path": "train/images/00008.jpg",
+      "sha256": "f619e82ba3440785f97c7bca15fe6a379a16800cd0945ac3afbc870daef3823c",
+      "bytes": 420022,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00008.jpg"
+    },
+    {
+      "path": "train/images/00009.jpg",
+      "sha256": "f10a73567d35d884218f5fcd62923d072b57e843e97fe54719cee8544e4252e6",
+      "bytes": 422816,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00009.jpg"
+    },
+    {
+      "path": "train/images/00010.jpg",
+      "sha256": "36bbacd7bb4a74ad5742856889e4d861502e49f214ddcb9dde84208b67e4c7a0",
+      "bytes": 424973,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00010.jpg"
+    },
+    {
+      "path": "train/images/00011.jpg",
+      "sha256": "56dae597c00e72274dc2ce47f8b71d285aa544d7bd7d9ab7970f7353b24bbbfc",
+      "bytes": 443537,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00011.jpg"
+    },
+    {
+      "path": "train/images/00012.jpg",
+      "sha256": "da233590ad1599dd5fa5b896eb3ecc80940567dd08af812d0b44d309c58eb7f5",
+      "bytes": 475062,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00012.jpg"
+    },
+    {
+      "path": "train/images/00013.jpg",
+      "sha256": "40d3f17f7aafdee622223f49b6d2986794098605180d3a90c44820901f83f9ed",
+      "bytes": 473312,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00013.jpg"
+    },
+    {
+      "path": "train/images/00014.jpg",
+      "sha256": "561991a4978f2ab20c3cb4bde3ae2017b6cf2a5b7ee84430b0f5063d644ec653",
+      "bytes": 452013,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00014.jpg"
+    },
+    {
+      "path": "train/images/00015.jpg",
+      "sha256": "313dc5324532dbb0da923509f880e101c07472bd584fde6eebc3a8665e7ab0c2",
+      "bytes": 394798,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00015.jpg"
+    },
+    {
+      "path": "train/images/00016.jpg",
+      "sha256": "52fddcf91d0b0c6242b0e5930a1759cd01a34abab7855aa1d0ece250e9536875",
+      "bytes": 369984,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00016.jpg"
+    },
+    {
+      "path": "train/images/00017.jpg",
+      "sha256": "d8b80b2b5557587453b9c14846323d121386f8a7372f0922dab43cf1a1f213e2",
+      "bytes": 369925,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00017.jpg"
+    },
+    {
+      "path": "train/images/00018.jpg",
+      "sha256": "43495183ea7ba40964e6aa8a85259a604c564f53117d54b7db758279d9b8ff57",
+      "bytes": 373331,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00018.jpg"
+    },
+    {
+      "path": "train/images/00019.jpg",
+      "sha256": "8f5d9aa01aa6f9da5b872ccaf38a6e87061bce23c5cfd12860383e74ef173c22",
+      "bytes": 373499,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00019.jpg"
+    },
+    {
+      "path": "train/images/00020.jpg",
+      "sha256": "a9bf786a34ffa527d5689f40d8d9889e08b367d24d5a4cf97c9979bc8b4060a3",
+      "bytes": 374972,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00020.jpg"
+    },
+    {
+      "path": "train/images/00021.jpg",
+      "sha256": "3bb84427cee31631a15f77b8be68566bc1ef20174a1d04eda31fc462413c43a6",
+      "bytes": 391979,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00021.jpg"
+    },
+    {
+      "path": "train/images/00022.jpg",
+      "sha256": "b52d614a50d4aa0170ddaa9832ac4dd2ceca1a5f45447d8d7a4e378242e65ea0",
+      "bytes": 457286,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00022.jpg"
+    },
+    {
+      "path": "train/images/00023.jpg",
+      "sha256": "97abd247d9ce59a569685ad02dc718722c2046bdf6b157ed6794885815b956d2",
+      "bytes": 454399,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00023.jpg"
+    },
+    {
+      "path": "train/images/00024.jpg",
+      "sha256": "12e1a75eddf9c4bf799d3cc4215a5cdef9ad1d45ab8f4a6065d00d6d1b697349",
+      "bytes": 443008,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00024.jpg"
+    },
+    {
+      "path": "train/images/00025.jpg",
+      "sha256": "03c7dec39e8e447b6271e962af4c28b15e0adc7cf49681dc1c2010254510192e",
+      "bytes": 440210,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00025.jpg"
+    },
+    {
+      "path": "train/images/00028.jpg",
+      "sha256": "1ffeedafb2cd8e337a4e7efaa690e1642eab638211f6143634ba226e52f22072",
+      "bytes": 437135,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00028.jpg"
+    },
+    {
+      "path": "train/images/00031.jpg",
+      "sha256": "06ebf5f794b8f1c67b904025d5d33812b5d9622bff63ca3128951e6c2b232bea",
+      "bytes": 424185,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00031.jpg"
+    },
+    {
+      "path": "train/images/00034.jpg",
+      "sha256": "112bd095de50a9d4780b6b6788aef4ff35f9035ec7e0d5026910b83e8276d302",
+      "bytes": 413716,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00034.jpg"
+    },
+    {
+      "path": "train/images/00037.jpg",
+      "sha256": "3c07884bc5686b8bb5632c27088fd2db21f4819a3638497cd73c7fcc04cf3a07",
+      "bytes": 410928,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00037.jpg"
+    },
+    {
+      "path": "train/images/00040.jpg",
+      "sha256": "f15f8618bf364037c04fb716e4f006260aa539f821033782ca02d3e4b8c1fc7e",
+      "bytes": 408682,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00040.jpg"
+    },
+    {
+      "path": "train/images/00043.jpg",
+      "sha256": "57ccc1191c59ed1c31d0b8ec4e48ff42c90f33a5961836a55ff3fb7e68072c37",
+      "bytes": 440581,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00043.jpg"
+    },
+    {
+      "path": "train/images/00046.jpg",
+      "sha256": "802969771452d8d5eb1794086b44b5059511b79ec421393ae5f5f373d1fa3a2c",
+      "bytes": 445562,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00046.jpg"
+    },
+    {
+      "path": "train/images/00049.jpg",
+      "sha256": "2e12ed2b10e035ac4d34c0ffc18f12f6ca0b6c6a07b7e4e16853d425c64dd985",
+      "bytes": 428387,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00049.jpg"
+    },
+    {
+      "path": "train/images/00052.jpg",
+      "sha256": "340f47ce2a839d9b011e9035428489e8570488120633b112216af0a8f1c4240b",
+      "bytes": 447546,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00052.jpg"
+    },
+    {
+      "path": "train/images/00055.jpg",
+      "sha256": "2434ea2a8c638827355f0ec0f7042d74ae9d2ebedae4b0f5d5c82a9e313b1353",
+      "bytes": 442932,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00055.jpg"
+    },
+    {
+      "path": "train/images/00058.jpg",
+      "sha256": "6f2c6417fe9ae174bdb1abce4e311e038157b4e3e5d3359613be2136fdf1614c",
+      "bytes": 423618,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00058.jpg"
+    },
+    {
+      "path": "train/images/00061.jpg",
+      "sha256": "d9467be263266a707d857152d401d449a9f89690b2d28df33c73a2091bf1f496",
+      "bytes": 406998,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00061.jpg"
+    },
+    {
+      "path": "train/images/00064.jpg",
+      "sha256": "b2d35dd4455de164dc1e347a1bcd5ef75513de88f409c87d41093fa17a1ae452",
+      "bytes": 401521,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00064.jpg"
+    },
+    {
+      "path": "train/images/00067.jpg",
+      "sha256": "faa7314789bc87159fc4190b7d27e03ea5e2c40fd8609b642b06b0ceef3470b9",
+      "bytes": 430083,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00067.jpg"
+    },
+    {
+      "path": "train/images/00070.jpg",
+      "sha256": "67c9eac215607f310972b11367e95a450a62ffd5cf5e209f220806499d3b6fd0",
+      "bytes": 455303,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00070.jpg"
+    },
+    {
+      "path": "train/images/00073.jpg",
+      "sha256": "9db7aea541fe13cafb737c16b74fa44a9aa5bdf66b4437d0f06ef04ba65e4860",
+      "bytes": 407962,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/train/images/00073.jpg"
+    },
+    {
+      "path": "truck/images/000001.jpg",
+      "sha256": "38063d904ed164b1e32193ab9b087b939e0a873767582e52162672f5d25beb56",
+      "bytes": 465332,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000001.jpg"
+    },
+    {
+      "path": "truck/images/000002.jpg",
+      "sha256": "fb9ff085527b1e5d2c8b3b9f2c1bac3fc1161b7156f45b97496784ec1e15b662",
+      "bytes": 464678,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000002.jpg"
+    },
+    {
+      "path": "truck/images/000003.jpg",
+      "sha256": "5ba4b6f363e1a3f36c4c8acccb4080b3fc0ea2d4411f808a37a6e44c8f9f516e",
+      "bytes": 464570,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000003.jpg"
+    },
+    {
+      "path": "truck/images/000004.jpg",
+      "sha256": "8bacf2cb71af828ede8ea07481ed67ca6261c52597abf87d088d84729e3ce9b7",
+      "bytes": 465356,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000004.jpg"
+    },
+    {
+      "path": "truck/images/000005.jpg",
+      "sha256": "887fed6c7419384100af44c519a747fc59a37475ef7121bb702573b4cc99683e",
+      "bytes": 465525,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000005.jpg"
+    },
+    {
+      "path": "truck/images/000006.jpg",
+      "sha256": "886fc8237663df03e1702ec30a9e5d8c7a6bf775ffc1c0ae7f55f8547975e273",
+      "bytes": 464351,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000006.jpg"
+    },
+    {
+      "path": "truck/images/000007.jpg",
+      "sha256": "23c0c0eb2c1b6d786186ba3591dca963b75e77d73483a8936c37b461acd42051",
+      "bytes": 468990,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000007.jpg"
+    },
+    {
+      "path": "truck/images/000008.jpg",
+      "sha256": "77f4dbbd97f9bddac3f9d2b94f7521889fed6a26e620045136313962f2c2f5f1",
+      "bytes": 469781,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000008.jpg"
+    },
+    {
+      "path": "truck/images/000009.jpg",
+      "sha256": "3da0fedd20eb8df970ff7ff4596526c10f9f99c4766cfe776f6bb907c6751fbd",
+      "bytes": 469920,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000009.jpg"
+    },
+    {
+      "path": "truck/images/000010.jpg",
+      "sha256": "bb7f15f212ba706e85fd640fea86ebce15d5c078aa5ac0e1e69568751f837ba5",
+      "bytes": 469870,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000010.jpg"
+    },
+    {
+      "path": "truck/images/000011.jpg",
+      "sha256": "8d78464b5dbf45b0040f8ddada0177718696ac6429ea5f3aa45590a14387d137",
+      "bytes": 473417,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000011.jpg"
+    },
+    {
+      "path": "truck/images/000012.jpg",
+      "sha256": "e16a36bf739920b07209fd9d28e21198e22d7e375abf0659e230176b7625df99",
+      "bytes": 474029,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000012.jpg"
+    },
+    {
+      "path": "truck/images/000013.jpg",
+      "sha256": "e221fcc67501199d41abae59598c2ef6ae48947f4b481ff897b6234b02a1c260",
+      "bytes": 479815,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000013.jpg"
+    },
+    {
+      "path": "truck/images/000014.jpg",
+      "sha256": "897297ebe51119ec77cbcdad57ee4c611279a6411fbb328e0bb5fa51f8c19abf",
+      "bytes": 477987,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000014.jpg"
+    },
+    {
+      "path": "truck/images/000015.jpg",
+      "sha256": "694f9f750bdcde664ba629b941b8b29c803611c690b154ed23078466a9cc73d7",
+      "bytes": 480766,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000015.jpg"
+    },
+    {
+      "path": "truck/images/000016.jpg",
+      "sha256": "1c6f5ffca28568c76a352f503370f53d0c72620db3b466c0fa5ac09a17877178",
+      "bytes": 481732,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000016.jpg"
+    },
+    {
+      "path": "truck/images/000017.jpg",
+      "sha256": "9fe749fe16a046e2a85de8f5e2860cb38a4c8b96701ce83e666d4decccfdea10",
+      "bytes": 462294,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000017.jpg"
+    },
+    {
+      "path": "truck/images/000018.jpg",
+      "sha256": "77209517392df34ba9275dd79aa6b9867a6780c6336728ef30b6f451f85654a2",
+      "bytes": 447653,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000018.jpg"
+    },
+    {
+      "path": "truck/images/000019.jpg",
+      "sha256": "4682436344a8bdb2bc88acc598503102f8084ff0ef671e1ded10536d00223c08",
+      "bytes": 445636,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000019.jpg"
+    },
+    {
+      "path": "truck/images/000020.jpg",
+      "sha256": "cb4849dbf1e7a67a9d795d443ef08d34cdfabc84475bd403e7fd82e7cf2206dc",
+      "bytes": 435835,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000020.jpg"
+    },
+    {
+      "path": "truck/images/000021.jpg",
+      "sha256": "ff6addec4a305aec316fb983e8137e440534cf81a010861d63c9fb30f369cca2",
+      "bytes": 424613,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000021.jpg"
+    },
+    {
+      "path": "truck/images/000022.jpg",
+      "sha256": "4e003d0ce9eed18e705a5f923f589b7cf5d861db3c39896787a10e3cbd1ab820",
+      "bytes": 415421,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000022.jpg"
+    },
+    {
+      "path": "truck/images/000023.jpg",
+      "sha256": "56073d92efb2e4f04cb54bfcfd6ac5046aa3e944aa6e0cdb889c0755ffb59220",
+      "bytes": 411825,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000023.jpg"
+    },
+    {
+      "path": "truck/images/000024.jpg",
+      "sha256": "fc4ec9e4c9df68feb2e042907dabc09aa2e99177ad2f9a44ecfe1e1cca807b44",
+      "bytes": 412363,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000024.jpg"
+    },
+    {
+      "path": "truck/images/000025.jpg",
+      "sha256": "61cd0d6f35e20fb01bded585fd5fb468e38e508f76e31cb2b92e2ce7c308d49d",
+      "bytes": 412888,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000025.jpg"
+    },
+    {
+      "path": "truck/images/000028.jpg",
+      "sha256": "d214813dfae5e1b6c7d3c18496561b22e5972486d4a02a0c310e198b03272b04",
+      "bytes": 404261,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000028.jpg"
+    },
+    {
+      "path": "truck/images/000031.jpg",
+      "sha256": "c5cf28eed87d450344eab2f1e5fac217507cfab2b59aed9b25dbdbc94546bd6f",
+      "bytes": 406887,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000031.jpg"
+    },
+    {
+      "path": "truck/images/000034.jpg",
+      "sha256": "068d94e8b99495536560703645083ff52ba07cc51a7bcda52543a5584812ce87",
+      "bytes": 428873,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000034.jpg"
+    },
+    {
+      "path": "truck/images/000037.jpg",
+      "sha256": "b382608a6cfbf1106723f6f27546d22e51dde59b5ea65bd61e91fb8cfe014370",
+      "bytes": 445615,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000037.jpg"
+    },
+    {
+      "path": "truck/images/000040.jpg",
+      "sha256": "9bc60cd27f9331ff5ed933bb11f7614a6be97596bd574035ca68fdde06222666",
+      "bytes": 453947,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000040.jpg"
+    },
+    {
+      "path": "truck/images/000043.jpg",
+      "sha256": "16e70aaa115fc82c4c41c17cc5140b7ab5b46a8de57dbce90e5f822fbf397b37",
+      "bytes": 441578,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000043.jpg"
+    },
+    {
+      "path": "truck/images/000046.jpg",
+      "sha256": "83d2cb70da887cad041d9eb327dc033d172b82d2aee5530a3140148b13e4c079",
+      "bytes": 417218,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000046.jpg"
+    },
+    {
+      "path": "truck/images/000049.jpg",
+      "sha256": "ffd719fcf1e085636f91eb760dae03a86ea3d24c49e9ad7e5fb93ddc3d4471ad",
+      "bytes": 427985,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000049.jpg"
+    },
+    {
+      "path": "truck/images/000052.jpg",
+      "sha256": "7531ea443155d22ff4dc1db57dfdd3892e6c2567846f64631923529b4163288c",
+      "bytes": 433210,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000052.jpg"
+    },
+    {
+      "path": "truck/images/000055.jpg",
+      "sha256": "6df74985b165baa7536d9ecaa938001fc0c333998e23a2826bd1c8035f97834d",
+      "bytes": 448068,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000055.jpg"
+    },
+    {
+      "path": "truck/images/000058.jpg",
+      "sha256": "ed13c487b3856be90c6a22845392144669e4fb16b2f5a548129b60d74dfc7005",
+      "bytes": 441894,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000058.jpg"
+    },
+    {
+      "path": "truck/images/000061.jpg",
+      "sha256": "6919a20664782c83763234cd931f8f518ccdf119145049c124d6a32a1de13582",
+      "bytes": 414108,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000061.jpg"
+    },
+    {
+      "path": "truck/images/000064.jpg",
+      "sha256": "f423e416e1b7e6dff4ef5138109c24968d4645a349f785fe9538ddcd361adcc1",
+      "bytes": 437947,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000064.jpg"
+    },
+    {
+      "path": "truck/images/000067.jpg",
+      "sha256": "10c7cbfc28ef0188e0bf3ccde65b8c1bd185f59ebe19c376db884193d78ded22",
+      "bytes": 442877,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000067.jpg"
+    },
+    {
+      "path": "truck/images/000070.jpg",
+      "sha256": "cddcb0e3d98aecb69f5a1ff9aaedd698e6faff3d6c30fbf01b9602d7c6f77ab0",
+      "bytes": 425724,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000070.jpg"
+    },
+    {
+      "path": "truck/images/000073.jpg",
+      "sha256": "c467cb544863ec64df5a90535ebeaac6eaa38ef44b86eaf5110ae9d150e0658e",
+      "bytes": 414790,
+      "url": "https://hf-mirror.com/datasets/nvs-bench/tanksandtemples/resolve/f5c9529539ab3e93dc33362f84034c6704bd7256/truck/images/000073.jpg"
+    }
+  ]
+}

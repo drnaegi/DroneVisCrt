@@ -1,0 +1,188 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting numpy==1.26.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/0f/50/de23fde84e45f5c4fda2488c759b69990fd4512387a8632860f3ac9cd225/numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.0 MB)
+Collecting einops==0.8.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/87/62/9773de14fe6c45c23649e98b83231fffd7b9892b6cf863251dc2afa73643/einops-0.8.1-py3-none-any.whl (64 kB)
+Collecting omegaconf==2.3.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e3/94/1843518e420fa3ed6919835845df698c7e27e183cb997394e4a670973a65/omegaconf-2.3.0-py3-none-any.whl (79 kB)
+Collecting pytorch-lightning==1.9.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/bf/9d/ba77d6d9fd7ca5ff7260ae5033c2355e6f920d3dad764ef107d8c2b54a27/pytorch_lightning-1.9.3-py3-none-any.whl (826 kB)
+Collecting torchmetrics==0.11.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fb/47/6e9f9b41c48750a45ad07cc6d43a2979bfc09e6989656aece97cc59cbef1/torchmetrics-0.11.4-py3-none-any.whl (519 kB)
+Collecting open-clip-torch==2.17.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/0f/17/00e2565e7d9eb8a35ce5129e69f834e06341ca6fde15b9c0f694fe7c18f2/open_clip_torch-2.17.1-py3-none-any.whl (1.5 MB)
+Collecting transformers==4.44.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/75/35/07c9879163b603f0e464b0f6e6e628a2340cfc7cdc5ca8e7d52d776710d4/transformers-4.44.2-py3-none-any.whl (9.5 MB)
+Collecting kornia==0.7.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/58/26/9e6fad0f5e8c25b19e3c25fd0efa0817b9e1a3d9670df8454162e053f283/kornia-0.7.3-py2.py3-none-any.whl (833 kB)
+Collecting roma==1.5.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/51/21/a482cb663c6c04cbe533f4f711c35803c96a45de6552452baf16c3008941/roma-1.5.0-py3-none-any.whl (24 kB)
+Collecting decord==0.6.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/11/79/936af42edf90a7bd4e41a6cac89c913d4b47fa48a26b042d5129a9242ee3/decord-0.6.0-py3-none-manylinux2010_x86_64.whl (13.6 MB)
+Collecting av==13.1.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/7f/22/0dd8d1d5cad415772bb707d16aea8b81cf75d340d11d3668eea43468c730/av-13.1.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (34.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 34.4/34.4 MB 409.0 kB/s eta 0:00:00
+Collecting imageio==2.37.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/cb/bd/b394387b598ed84d8d0fa90611a90bee0adc2021820ad5729f7ced74a8e2/imageio-2.37.0-py3-none-any.whl (315 kB)
+Collecting imageio-ffmpeg==0.6.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a0/2d/43c8522a2038e9d0e7dbdf3a61195ecc31ca576fb1527a528c877e87d973/imageio_ffmpeg-0.6.0-py3-none-manylinux2014_x86_64.whl (29.5 MB)
+Collecting matplotlib==3.10.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/67/c3/135fdbbbf84e0979712df58e5e22b4f257b3f5e52a3c4aacf1b8abec0d09/matplotlib-3.10.6-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (8.7 MB)
+Collecting opencv-python-headless==4.11.0.86
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dd/5c/c139a7876099916879609372bfa513b7f1257f7f1a908b0bdc1c2328241b/opencv_python_headless-4.11.0.86-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (50.0 MB)
+Collecting scipy==1.16.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/53/11/a0160990b82999b45874dc60c0c183d3a3a969a563fffc476d5a9995c407/scipy-1.16.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (35.7 MB)
+Collecting timm==0.6.13
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/f6/c6/806d9b2fa95f418ad700dd206a935d5e8d7355505589dd13a70eb3a45048/timm-0.6.13-py3-none-any.whl (549 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 549.1/549.1 kB 272.9 kB/s eta 0:00:00
+Collecting trimesh==4.4.3
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/71/63/bbe0395bb7dd414188fb0df0e97132098e541a6ad7b64c7faf3b1886d222/trimesh-4.4.3-py3-none-any.whl (695 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 695.9/695.9 kB 319.6 kB/s eta 0:00:00
+Collecting ninja==1.13.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ed/de/0e6edf44d6a04dabd0318a519125ed0415ce437ad5a1ec9b9be03d9048cf/ninja-1.13.0-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (180 kB)
+Collecting iopath==0.1.10
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/72/73/b3d451dfc523756cf177d3ebb0af76dc7751b341c60e2a21871be400ae29/iopath-0.1.10.tar.gz (42 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.2/42.2 kB 369.4 kB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting fvcore==0.1.5.post20221221
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/a5/93/d056a9c4efc6c79ba7b5159cc66bb436db93d2cc46dca18ed65c59cc8e4e/fvcore-0.1.5.post20221221.tar.gz (50 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 50.2/50.2 kB 377.5 kB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting antlr4-python3-runtime==4.9.* (from omegaconf==2.3.0)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/3e/38/7859ff46355f76f8d19459005ca000b6e7012f2f1ca597746cbcd1fbfe5e/antlr4-python3-runtime-4.9.3.tar.gz (117 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 117.0/117.0 kB 393.0 kB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: PyYAML>=5.1.0 in /root/miniconda3/lib/python3.12/site-packages (from omegaconf==2.3.0) (6.0.2)
+Requirement already satisfied: torch>=1.10.0 in /root/miniconda3/lib/python3.12/site-packages (from pytorch-lightning==1.9.3) (2.5.1+cu124)
+Requirement already satisfied: tqdm>=4.57.0 in /root/miniconda3/lib/python3.12/site-packages (from pytorch-lightning==1.9.3) (4.66.2)
+Requirement already satisfied: fsspec>2021.06.0 in /root/miniconda3/lib/python3.12/site-packages (from fsspec[http]>2021.06.0->pytorch-lightning==1.9.3) (2024.10.0)
+Requirement already satisfied: packaging>=17.1 in /root/miniconda3/lib/python3.12/site-packages (from pytorch-lightning==1.9.3) (23.2)
+Requirement already satisfied: typing-extensions>=4.0.0 in /root/miniconda3/lib/python3.12/site-packages (from pytorch-lightning==1.9.3) (4.12.2)
+Collecting lightning-utilities>=0.6.0.post0 (from pytorch-lightning==1.9.3)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/25/f4/ead6e0e37209b07c9baa3e984ccdb0348ca370b77cea3aaea8ddbb097e00/lightning_utilities-0.15.3-py3-none-any.whl (31 kB)
+Requirement already satisfied: torchvision in /root/miniconda3/lib/python3.12/site-packages (from open-clip-torch==2.17.1) (0.20.1+cu124)
+Collecting regex (from open-clip-torch==2.17.1)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/26/83/d2fbd2e4e3afb1167daa825187d196f313cbaa1a4768f311fb041bb0e3d2/regex-2026.9.29-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (807 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 807.8/807.8 kB 407.9 kB/s eta 0:00:00
+Collecting ftfy (from open-clip-torch==2.17.1)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/ab/6e/81d47999aebc1b155f81eca4477a616a70f238a2549848c38983f3c22a82/ftfy-6.3.1-py3-none-any.whl (44 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.8/44.8 kB 208.5 kB/s eta 0:00:00
+Collecting huggingface-hub (from open-clip-torch==2.17.1)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/eb/b0/0f7b430fd100b3a3b037fdbb314878200241082e607b3383c63d91a13a72/huggingface_hub-2.2.0-py3-none-any.whl (839 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 839.9/839.9 kB 332.8 kB/s eta 0:00:00
+Collecting sentencepiece (from open-clip-torch==2.17.1)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/b6/2d/37e3da037318a70066ded0d51bc2a7f35491ae6338dd993d5eb1503fc3b5/sentencepiece-0.2.2-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (1.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 339.9 kB/s eta 0:00:00
+Collecting protobuf<4 (from open-clip-torch==2.17.1)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/8d/14/619e24a4c70df2901e1f4dbc50a6291eb63a759172558df326347dce1f0d/protobuf-3.20.3-py2.py3-none-any.whl (162 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 162.1/162.1 kB 343.6 kB/s eta 0:00:00
+Requirement already satisfied: filelock in /root/miniconda3/lib/python3.12/site-packages (from transformers==4.44.2) (3.16.1)
+Collecting huggingface-hub (from open-clip-torch==2.17.1)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/a8/af/48ac8483240de756d2438c380746e7130d1c6f75802ef22f3c6d49982787/huggingface_hub-0.36.2-py3-none-any.whl (566 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 325.0 kB/s eta 0:00:00
+Requirement already satisfied: requests in /root/miniconda3/lib/python3.12/site-packages (from transformers==4.44.2) (2.31.0)
+Collecting safetensors>=0.4.1 (from transformers==4.44.2)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/28/50/f203ff3a3ddfe19308efc83c5a3a29ed02bf786732ec35e68bf9162f3365/safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (516 kB)
+Collecting tokenizers<0.20,>=0.19 (from transformers==4.44.2)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/80/54/12047a69f5b382d7ee72044dc89151a2dd0d13b2c9bdcc22654883704d31/tokenizers-0.19.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.6/3.6 MB 365.3 kB/s eta 0:00:00
+Collecting kornia-rs>=0.1.0 (from kornia==0.7.3)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/1b/01/05a31ef5ed358f9a086626718fb7bafba4a5f60e408ec1bb2309ba307779/kornia_rs-0.2.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (5.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.3/5.3 MB 468.2 kB/s eta 0:00:00
+Requirement already satisfied: pillow>=8.3.2 in /root/miniconda3/lib/python3.12/site-packages (from imageio==2.37.0) (11.0.0)
+Requirement already satisfied: contourpy>=1.0.1 in /root/miniconda3/lib/python3.12/site-packages (from matplotlib==3.10.6) (1.3.1)
+Requirement already satisfied: cycler>=0.10 in /root/miniconda3/lib/python3.12/site-packages (from matplotlib==3.10.6) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in /root/miniconda3/lib/python3.12/site-packages (from matplotlib==3.10.6) (4.55.0)
+Requirement already satisfied: kiwisolver>=1.3.1 in /root/miniconda3/lib/python3.12/site-packages (from matplotlib==3.10.6) (1.4.7)
+Requirement already satisfied: pyparsing>=2.3.1 in /root/miniconda3/lib/python3.12/site-packages (from matplotlib==3.10.6) (3.2.0)
+Requirement already satisfied: python-dateutil>=2.7 in /root/miniconda3/lib/python3.12/site-packages (from matplotlib==3.10.6) (2.9.0.post0)
+Collecting portalocker (from iopath==0.1.10)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/47/ec/02e439b10c6b2aa26629f269a27ae2aa395fae70207fd344046858a34156/portalocker-4.4.1-py3-none-any.whl (129 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 129.7/129.7 kB 270.3 kB/s eta 0:00:00
+Collecting yacs>=0.1.6 (from fvcore==0.1.5.post20221221)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/38/4f/fe9a4d472aa867878ce3bb7efb16654c5d63672b86dc0e6e953a67018433/yacs-0.1.8-py3-none-any.whl (14 kB)
+Collecting termcolor>=1.1 (from fvcore==0.1.5.post20221221)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/33/d1/8bb87d21e9aeb323cc03034f5eaf2c8f69841e40e4853c2627edf8111ed3/termcolor-3.3.0-py3-none-any.whl (7.7 kB)
+Collecting tabulate (from fvcore==0.1.5.post20221221)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/99/55/db07de81b5c630da5cbf5c7df646580ca26dfaefa593667fc6f2fe016d2e/tabulate-0.10.0-py3-none-any.whl (39 kB)
+Collecting aiohttp!=4.0.0a0,!=4.0.0a1 (from fsspec[http]>2021.06.0->pytorch-lightning==1.9.3)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/da/e4/aa172eb534b7f02f1f8ff1c3213347eaf3cf218db91a727c6863c22f1035/aiohttp-3.14.5-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (1.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 312.4 kB/s eta 0:00:00
+Collecting hf-xet<2.0.0,>=1.1.3 (from huggingface-hub->open-clip-torch==2.17.1)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a3/4c/2bf3b66c215d409655f28de1622393dde04c9461280d48c7924bb3b2decd/hf_xet-1.7.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.2 MB)
+Requirement already satisfied: six>=1.5 in /root/miniconda3/lib/python3.12/site-packages (from python-dateutil>=2.7->matplotlib==3.10.6) (1.16.0)
+Requirement already satisfied: networkx in /root/miniconda3/lib/python3.12/site-packages (from torch>=1.10.0->pytorch-lightning==1.9.3) (3.4.2)
+Requirement already satisfied: jinja2 in /root/miniconda3/lib/python3.12/site-packages (from torch>=1.10.0->pytorch-lightning==1.9.3) (3.1.4)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.4.127 in /root/miniconda3/lib/python3.12/site-packages (from torch>=1.10.0->pytorch-lightning==1.9.3) (12.4.127)
+Requirement already satisfied: nvidia-cuda-runtime-cu12==12.4.127 in /root/miniconda3/lib/python3.12/site-packages (from torch>=1.10.0->pytorch-lightning==1.9.3) (12.4.127)
+Requirement already satisfied: nvidia-cuda-cupti-cu12==12.4.127 in /root/miniconda3/lib/python3.12/site-packages (from torch>=1.10.0->pytorch-lightning==1.9.3) (12.4.127)
+Requirement already satisfied: nvidia-cudnn-cu12==9.1.0.70 in /root/miniconda3/lib/python3.12/site-packages (from torch>=1.10.0->pytorch-lightning==1.9.3) (9.1.0.70)
+Requirement already satisfied: nvidia-cublas-cu12==12.4.5.8 in /root/miniconda3/lib/python3.12/site-packages (from torch>=1.10.0->pytorch-lightning==1.9.3) (12.4.5.8)
+Requirement already satisfied: nvidia-cufft-cu12==11.2.1.3 in /root/miniconda3/lib/python3.12/site-packages (from torch>=1.10.0->pytorch-lightning==1.9.3) (11.2.1.3)
+Requirement already satisfied: nvidia-curand-cu12==10.3.5.147 in /root/miniconda3/lib/python3.12/site-packages (from torch>=1.10.0->pytorch-lightning==1.9.3) (10.3.5.147)
+Requirement already satisfied: nvidia-cusolver-cu12==11.6.1.9 in /root/miniconda3/lib/python3.12/site-packages (from torch>=1.10.0->pytorch-lightning==1.9.3) (11.6.1.9)
+Requirement already satisfied: nvidia-cusparse-cu12==12.3.1.170 in /root/miniconda3/lib/python3.12/site-packages (from torch>=1.10.0->pytorch-lightning==1.9.3) (12.3.1.170)
+Requirement already satisfied: nvidia-nccl-cu12==2.21.5 in /root/miniconda3/lib/python3.12/site-packages (from torch>=1.10.0->pytorch-lightning==1.9.3) (2.21.5)
+Requirement already satisfied: nvidia-nvtx-cu12==12.4.127 in /root/miniconda3/lib/python3.12/site-packages (from torch>=1.10.0->pytorch-lightning==1.9.3) (12.4.127)
+Requirement already satisfied: nvidia-nvjitlink-cu12==12.4.127 in /root/miniconda3/lib/python3.12/site-packages (from torch>=1.10.0->pytorch-lightning==1.9.3) (12.4.127)
+Requirement already satisfied: triton==3.1.0 in /root/miniconda3/lib/python3.12/site-packages (from torch>=1.10.0->pytorch-lightning==1.9.3) (3.1.0)
+Requirement already satisfied: setuptools in /root/miniconda3/lib/python3.12/site-packages (from torch>=1.10.0->pytorch-lightning==1.9.3) (69.5.1)
+Requirement already satisfied: sympy==1.13.1 in /root/miniconda3/lib/python3.12/site-packages (from torch>=1.10.0->pytorch-lightning==1.9.3) (1.13.1)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in /root/miniconda3/lib/python3.12/site-packages (from sympy==1.13.1->torch>=1.10.0->pytorch-lightning==1.9.3) (1.3.0)
+Requirement already satisfied: wcwidth in /root/miniconda3/lib/python3.12/site-packages (from ftfy->open-clip-torch==2.17.1) (0.2.13)
+Requirement already satisfied: charset-normalizer<4,>=2 in /root/miniconda3/lib/python3.12/site-packages (from requests->transformers==4.44.2) (2.0.4)
+Requirement already satisfied: idna<4,>=2.5 in /root/miniconda3/lib/python3.12/site-packages (from requests->transformers==4.44.2) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /root/miniconda3/lib/python3.12/site-packages (from requests->transformers==4.44.2) (2.1.0)
+Requirement already satisfied: certifi>=2017.4.17 in /root/miniconda3/lib/python3.12/site-packages (from requests->transformers==4.44.2) (2024.2.2)
+Collecting aiohappyeyeballs>=2.5.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]>2021.06.0->pytorch-lightning==1.9.3)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/71/43/1947f06babed6b3f1d7f38b0c767f52df66bfb2bc10b468c4a7de9eceff2/aiohappyeyeballs-2.7.1-py3-none-any.whl (15 kB)
+Collecting aiosignal>=1.4.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]>2021.06.0->pytorch-lightning==1.9.3)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/fb/76/641ae371508676492379f16e2fa48f4e2c11741bd63c48be4b12a6b09cba/aiosignal-1.4.0-py3-none-any.whl (7.5 kB)
+Requirement already satisfied: attrs>=17.3.0 in /root/miniconda3/lib/python3.12/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]>2021.06.0->pytorch-lightning==1.9.3) (24.2.0)
+Collecting frozenlist>=1.1.1 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]>2021.06.0->pytorch-lightning==1.9.3)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/6a/bd/d91c5e39f490a49df14320f4e8c80161cfcce09f1e2cde1edd16a551abb3/frozenlist-1.8.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (242 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 242.4/242.4 kB 306.5 kB/s eta 0:00:00
+Collecting multidict<8.0,>=4.5 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]>2021.06.0->pytorch-lightning==1.9.3)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/7a/f3/374c0ab122bb98b1a62a8742b1e3f59563e4d609942005a4041861a0df67/multidict-7.1.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (483 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 483.0/483.0 kB 280.3 kB/s eta 0:00:00
+Collecting propcache>=0.2.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]>2021.06.0->pytorch-lightning==1.9.3)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/85/9f/83a07b6ec0e043c050cfdd35fb0cf1b7897b91d554d6eea293740309afe7/propcache-0.5.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (250 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 250.4/250.4 kB 281.8 kB/s eta 0:00:00
+Collecting yarl<2.0,>=1.25.1 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]>2021.06.0->pytorch-lightning==1.9.3)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/bc/7b/ca212cbe170ac8b96e45317ecbcf9c3c3ecf0cdec98d5b088a9c4088929b/yarl-1.25.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (117 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 117.0/117.0 kB 320.3 kB/s eta 0:00:00
+Requirement already satisfied: MarkupSafe>=2.0 in /root/miniconda3/lib/python3.12/site-packages (from jinja2->torch>=1.10.0->pytorch-lightning==1.9.3) (3.0.2)
+Building wheels for collected packages: iopath, fvcore, antlr4-python3-runtime
+  Building wheel for iopath (setup.py): started
+  Building wheel for iopath (setup.py): finished with status 'done'
+  Created wheel for iopath: filename=iopath-0.1.10-py3-none-any.whl size=31532 sha256=76279ac18871d5d131c25105b411e6845b2285a8495ad0ffa729260a68df0190
+  Stored in directory: /root/.cache/pip/wheels/c9/e2/b3/418ed86a4134a72fd580f69e54b698afa0b7f7a67201b6489e
+  Building wheel for fvcore (setup.py): started
+  Building wheel for fvcore (setup.py): finished with status 'done'
+  Created wheel for fvcore: filename=fvcore-0.1.5.post20221221-py3-none-any.whl size=61400 sha256=11b11e50cf891bbd7da698cfc582365bea258cb9a65a01eb8886180754d99409
+  Stored in directory: /root/.cache/pip/wheels/2a/e0/02/2db9a0c2b1c1bbf94876914083fdb52f21491c427bc3b98107
+  Building wheel for antlr4-python3-runtime (setup.py): started
+  Building wheel for antlr4-python3-runtime (setup.py): finished with status 'done'
+  Created wheel for antlr4-python3-runtime: filename=antlr4_python3_runtime-4.9.3-py3-none-any.whl size=144554 sha256=2895451a4179acb35d559a5c7dcac28931776e47eb01ff923b2a4b1fd5367af5
+  Stored in directory: /root/.cache/pip/wheels/31/58/36/73780dbf65711f21db7bcf174f41a65ef294c8f7c2d260910f
+Successfully built iopath fvcore antlr4-python3-runtime
+Installing collected packages: antlr4-python3-runtime, yacs, termcolor, tabulate, sentencepiece, safetensors, roma, regex, protobuf, propcache, portalocker, omegaconf, numpy, ninja, multidict, lightning-utilities, kornia-rs, imageio-ffmpeg, hf-xet, ftfy, frozenlist, einops, av, aiohappyeyeballs, yarl, trimesh, scipy, opencv-python-headless, iopath, imageio, huggingface-hub, decord, aiosignal, tokenizers, matplotlib, fvcore, aiohttp, transformers, torchmetrics, kornia, timm, pytorch-lightning, open-clip-torch
+  Attempting uninstall: protobuf
+    Found existing installation: protobuf 5.28.3
+    Not uninstalling protobuf at /root/miniconda3/lib/python3.12/site-packages, outside environment /root/DroneVisCrt/envs/viewcrafter
+    Can't uninstall 'protobuf'. No files were found to uninstall.
+  Attempting uninstall: numpy
+    Found existing installation: numpy 2.1.3
+    Not uninstalling numpy at /root/miniconda3/lib/python3.12/site-packages, outside environment /root/DroneVisCrt/envs/viewcrafter
+    Can't uninstall 'numpy'. No files were found to uninstall.
+  Attempting uninstall: matplotlib
+    Found existing installation: matplotlib 3.9.2
+    Not uninstalling matplotlib at /root/miniconda3/lib/python3.12/site-packages, outside environment /root/DroneVisCrt/envs/viewcrafter
+    Can't uninstall 'matplotlib'. No files were found to uninstall.
+Successfully installed aiohappyeyeballs-2.7.1 aiohttp-3.14.5 aiosignal-1.4.0 antlr4-python3-runtime-4.9.3 av-13.1.0 decord-0.6.0 einops-0.8.1 frozenlist-1.8.0 ftfy-6.3.1 fvcore-0.1.5.post20221221 hf-xet-1.7.0 huggingface-hub-0.36.2 imageio-2.37.0 imageio-ffmpeg-0.6.0 iopath-0.1.10 kornia-0.7.3 kornia-rs-0.2.0 lightning-utilities-0.15.3 matplotlib-3.10.6 multidict-7.1.0 ninja-1.13.0 numpy-1.26.4 omegaconf-2.3.0 open-clip-torch-2.17.1 opencv-python-headless-4.11.0.86 portalocker-4.4.1 propcache-0.5.4 protobuf-3.20.3 pytorch-lightning-1.9.3 regex-2026.9.29 roma-1.5.0 safetensors-0.8.0 scipy-1.16.2 sentencepiece-0.2.2 tabulate-0.10.0 termcolor-3.3.0 timm-0.6.13 tokenizers-0.19.1 torchmetrics-0.11.4 transformers-4.44.2 trimesh-4.4.3 yacs-0.1.8 yarl-1.25.1
+
+[notice] A new release of pip is available: 24.0 -> 26.2.2
+[notice] To update, run: python -m pip install --upgrade pip

@@ -1,0 +1,15 @@
+{
+  "raw_text": "保持场景结构和可见物体，适应斜视和远距离观测",
+  "categories": [],
+  "attributes": [
+    "oblique",
+    "far"
+  ],
+  "relations": [],
+  "view_conditions": [
+    "oblique",
+    "far"
+  ],
+  "requirements": [],
+  "parser_version": "controlled-v1"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "clips": [
+    "train_stride1",
+    "train_stride3",
+    "truck_stride1",
+    "truck_stride3"
+  ],
+  "pngs_checked": 364,
+  "videos_decoded": 20,
+  "video_frames_decoded": 428,
+  "common_targets_per_method": 60,
+  "input_hashes_checked": true,
+  "shared_geometry_conditions_identical": true,
+  "aggregate_means_checked": true
+}

@@ -1,0 +1,25 @@
+Processing moge2 outputs/open_source_trials_20261023/inputs/0000001_02999_d_0000005.jpg
+Traceback (most recent call last):
+  File "/root/DroneVisCrt/tools/run_nvs_trials.py", line 329, in <module>
+    main()
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/DroneVisCrt/tools/run_nvs_trials.py", line 281, in main
+    rendered, alpha = render(offset)
+                      ^^^^^^^^^^^^^^
+  File "/root/DroneVisCrt/tools/run_nvs_trials.py", line 192, in render
+    result = utils3d.np.rasterize_triangles(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/DroneVisCrt/code/utils3d/utils3d/numpy/rasterization.py", line 527, in rasterize_triangles
+    clear_texture(ctx, interpolation_id_tex, value=(-1,))
+  File "/root/DroneVisCrt/code/utils3d/utils3d/numpy/rasterization.py", line 349, in clear_texture
+    vao = ctx.mgl_ctx.vertex_array(prog, [])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/DroneVisCrt/envs/nvs_trials/lib/python3.12/site-packages/moderngl/__init__.py", line 2030, in vertex_array
+    return self._vertex_array(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/DroneVisCrt/envs/nvs_trials/lib/python3.12/site-packages/moderngl/__init__.py", line 2041, in _vertex_array
+    locations = program._attribute_locations
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute '_attribute_locations'

@@ -1,0 +1,178 @@
+{
+  "inference_seconds": 4.916190502990503,
+  "inference_peak_allocated_gib": 6.889631748199463,
+  "median_predicted_depth_before_normalization": 20.098665237426758,
+  "gaussian_count": 1179648,
+  "internal_resolution": [
+    1536,
+    1536
+  ],
+  "rendering": "official SHARP GSplatRenderer; custom documented camera path",
+  "input": "/root/DroneVisCrt/outputs/open_source_trials_20261023/inputs/demo_traffic.jpg",
+  "input_sha256": "4fa8b46849dd3de5b3b0a141d6aafe98e190f578ccec0c9dacc440cd8434db11",
+  "resolution": [
+    1024,
+    683
+  ],
+  "total_sample_seconds": 10.870260322000831,
+  "total_peak_allocated_gib": 6.889631748199463,
+  "views": [
+    {
+      "offset": 0.0,
+      "extrinsics_world_to_camera": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "low_coverage_fraction": 7.863973279648609e-05,
+      "source_reconstruction_mae_0_255": 2.9222657680511475
+    },
+    {
+      "offset": -0.05,
+      "extrinsics_world_to_camera": [
+        [
+          0.9987523555755615,
+          0.0,
+          -0.049937620759010315,
+          0.049937617033720016
+        ],
+        [
+          -0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.049937620759010315,
+          0.0,
+          0.9987523555755615,
+          0.002496881177648902
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "low_coverage_fraction": 0.0055419564421669105
+    },
+    {
+      "offset": 0.05,
+      "extrinsics_world_to_camera": [
+        [
+          0.9987523555755615,
+          -0.0,
+          0.049937620759010315,
+          -0.049937617033720016
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.049937620759010315,
+          0.0,
+          0.9987523555755615,
+          0.002496881177648902
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "low_coverage_fraction": 0.0008607476207906295
+    },
+    {
+      "offset": -0.15,
+      "extrinsics_world_to_camera": [
+        [
+          0.9889363646507263,
+          0.0,
+          -0.14834046363830566,
+          0.14834046363830566
+        ],
+        [
+          -0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.14834046363830566,
+          0.0,
+          0.9889363646507263,
+          0.02225106954574585
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "low_coverage_fraction": 0.06265727946559298
+    },
+    {
+      "offset": 0.15,
+      "extrinsics_world_to_camera": [
+        [
+          0.9889363646507263,
+          -0.0,
+          0.14834046363830566,
+          -0.14834046363830566
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.14834046363830566,
+          0.0,
+          0.9889363646507263,
+          0.02225106954574585
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "low_coverage_fraction": 0.0877819591874085
+    }
+  ],
+  "video_frames": 48,
+  "video_encoded_resolution": [
+    1024,
+    684
+  ],
+  "output": "/root/DroneVisCrt/outputs/open_source_trials_20261023/sharp/demo_traffic"
+}

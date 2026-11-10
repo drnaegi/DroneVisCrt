@@ -1,0 +1,24 @@
+{
+  "identity_ssim": 1.0,
+  "identity_lpips": 0.0,
+  "constant_offset_psnr_expected": 20,
+  "constant_offset_psnr_actual": 19.999999093548684,
+  "common_indices": [
+    0,
+    2,
+    3,
+    5,
+    6,
+    8,
+    10,
+    11,
+    13,
+    14,
+    16,
+    18,
+    19,
+    21,
+    22,
+    24
+  ]
+}

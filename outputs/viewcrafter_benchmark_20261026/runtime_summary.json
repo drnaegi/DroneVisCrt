@@ -1,0 +1,66 @@
+[
+  {
+    "clip": "train_stride1",
+    "method": "ViewCrafter_16",
+    "frames": 16,
+    "generation_seconds": 77.9336861660122,
+    "peak_allocated_gib": 15.659862995147705,
+    "load_seconds": 35.688863416959066
+  },
+  {
+    "clip": "train_stride1",
+    "method": "ViewCrafter_25",
+    "frames": 25,
+    "generation_seconds": 122.76811671600444,
+    "peak_allocated_gib": 17.38402271270752,
+    "load_seconds": 35.910920851980336
+  },
+  {
+    "clip": "train_stride3",
+    "method": "ViewCrafter_16",
+    "frames": 16,
+    "generation_seconds": 77.90587781899376,
+    "peak_allocated_gib": 15.659862995147705,
+    "load_seconds": 35.47911285498412
+  },
+  {
+    "clip": "train_stride3",
+    "method": "ViewCrafter_25",
+    "frames": 25,
+    "generation_seconds": 122.77968644798966,
+    "peak_allocated_gib": 17.38402271270752,
+    "load_seconds": 35.07909599295817
+  },
+  {
+    "clip": "truck_stride1",
+    "method": "ViewCrafter_16",
+    "frames": 16,
+    "generation_seconds": 77.91936101694591,
+    "peak_allocated_gib": 15.659862995147705,
+    "load_seconds": 35.349861012015026
+  },
+  {
+    "clip": "truck_stride1",
+    "method": "ViewCrafter_25",
+    "frames": 25,
+    "generation_seconds": 122.81263350497466,
+    "peak_allocated_gib": 17.38402271270752,
+    "load_seconds": 35.51515668199863
+  },
+  {
+    "clip": "truck_stride3",
+    "method": "ViewCrafter_16",
+    "frames": 16,
+    "generation_seconds": 77.89611400297144,
+    "peak_allocated_gib": 15.659862995147705,
+    "load_seconds": 35.05994962202385
+  },
+  {
+    "clip": "truck_stride3",
+    "method": "ViewCrafter_25",
+    "frames": 25,
+    "generation_seconds": 122.81135422998341,
+    "peak_allocated_gib": 17.38402271270752,
+    "load_seconds": 35.585834026976954
+  }
+]

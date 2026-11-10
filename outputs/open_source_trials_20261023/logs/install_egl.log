@@ -1,0 +1,108 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gyp javascript-common libauthen-sasl-perl libclone-perl libdata-dump-perl
+  libencode-locale-perl libfile-basedir-perl libfile-desktopentry-perl
+  libfile-listing-perl libfile-mimeinfo-perl libfont-afm-perl libfontenc1
+  libgtkd-3-0 libhtml-form-perl libhtml-format-perl libhtml-parser-perl
+  libhtml-tagset-perl libhtml-tree-perl libhttp-cookies-perl
+  libhttp-daemon-perl libhttp-date-perl libhttp-message-perl
+  libhttp-negotiate-perl libice6 libio-html-perl libio-socket-ssl-perl
+  libio-stringy-perl libipc-system-simple-perl libjs-events libjs-highlight.js
+  libjs-inherits libjs-is-typedarray libjs-psl libjs-source-map
+  libjs-sprintf-js libjs-typedarray-to-buffer libllvm11 liblwp-mediatypes-perl
+  liblwp-protocol-https-perl libmailtools-perl libnet-dbus-perl
+  libnet-http-perl libnet-smtp-ssl-perl libnet-ssleay-perl libnotify-bin
+  libnotify4 libphobos2-ldc-shared98 libsm6 libtext-iconv-perl
+  libtie-ixhash-perl libtimedate-perl libtry-tiny-perl liburi-perl libuv1-dev
+  libvte-2.91-0 libvte-2.91-common libvted-3-0 libwww-perl
+  libwww-robotrules-perl libx11-protocol-perl libxaw7 libxcb-shape0
+  libxkbfile1 libxml-parser-perl libxml-twig-perl libxml-xpathengine-perl
+  libxmu6 libxmuu1 libxt6 libxtst6 libxv1 libxxf86dga1 node-abab node-abbrev
+  node-agent-base node-ansi-regex node-ansi-styles node-ansistyles node-aproba
+  node-archy node-are-we-there-yet node-argparse node-arrify node-asap
+  node-asynckit node-balanced-match node-brace-expansion node-builtins
+  node-chalk node-chownr node-clean-yaml-object node-cli-table node-clone
+  node-color-convert node-color-name node-colors node-columnify
+  node-combined-stream node-commander node-console-control-strings
+  node-core-util-is node-cssom node-cssstyle node-debug
+  node-decompress-response node-defaults node-delayed-stream node-delegates
+  node-depd node-diff node-encoding node-end-of-stream node-err-code
+  node-escape-string-regexp node-events node-fancy-log node-foreground-child
+  node-fs-write-stream-atomic node-fs.realpath node-function-bind node-gauge
+  node-get-stream node-glob node-got node-graceful-fs node-growl node-has-flag
+  node-has-unicode node-hosted-git-info node-https-proxy-agent node-iconv-lite
+  node-iferr node-imurmurhash node-indent-string node-inflight node-inherits
+  node-ini node-ip node-ip-regex node-is-buffer node-is-plain-obj
+  node-is-typedarray node-isarray node-isexe node-json-buffer
+  node-json-parse-better-errors node-jsonparse node-kind-of node-lcov-parse
+  node-lodash-packages node-log-driver node-lowercase-keys node-lru-cache
+  node-mimic-response node-minimatch node-minimist node-minipass node-ms
+  node-mute-stream node-negotiator node-normalize-package-data
+  node-npm-bundled node-npm-package-arg node-npmlog node-object-assign
+  node-once node-osenv node-p-cancelable node-p-map node-path-is-absolute
+  node-process-nextick-args node-promise-inflight node-promise-retry
+  node-promzard node-psl node-pump node-punycode node-quick-lru node-read
+  node-read-package-json node-readable-stream node-resolve node-retry
+  node-rimraf node-run-queue node-safe-buffer node-semver node-set-blocking
+  node-signal-exit node-slash node-slice-ansi node-source-map
+  node-source-map-support node-spdx-correct node-spdx-exceptions
+  node-spdx-expression-parse node-spdx-license-ids node-sprintf-js node-ssri
+  node-stack-utils node-stealthy-require node-string-decoder node-string-width
+  node-strip-ansi node-supports-color node-text-table node-time-stamp
+  node-tmatch node-tough-cookie node-typedarray-to-buffer node-unique-filename
+  node-universalify node-util-deprecate node-validate-npm-package-license
+  node-validate-npm-package-name node-wcwidth.js node-webidl-conversions
+  node-whatwg-fetch node-wide-align node-wrappy node-write-file-atomic
+  node-yallist perl-openssl-defaults tilix tilix-common x11-utils
+  x11-xserver-utils xdg-utils
+Use 'apt autoremove' to remove them.
+The following additional packages will be installed:
+  libegl-mesa0 libgbm1 libgl1-mesa-dri libglapi-mesa libglx-mesa0
+  libwayland-server0
+Recommended packages:
+  libgl1-amber-dri
+The following NEW packages will be installed:
+  libegl-mesa0 libegl1 libgbm1 libwayland-server0
+The following packages will be upgraded:
+  libgl1-mesa-dri libglapi-mesa libglx-mesa0
+3 upgraded, 4 newly installed, 0 to remove and 183 not upgraded.
+Need to get 9269 kB of archives.
+After this operation, 745 kB of additional disk space will be used.
+Get:1 https://repo.huaweicloud.com/ubuntu jammy-security/main amd64 libwayland-server0 amd64 1.20.0-1ubuntu0.1 [34.3 kB]
+Get:2 https://repo.huaweicloud.com/ubuntu jammy-security/main amd64 libgbm1 amd64 23.2.1-1ubuntu3.1~22.04.4 [33.7 kB]
+Get:3 https://repo.huaweicloud.com/ubuntu jammy-security/main amd64 libgl1-mesa-dri amd64 23.2.1-1ubuntu3.1~22.04.4 [8860 kB]
+Get:4 https://repo.huaweicloud.com/ubuntu jammy-security/main amd64 libglx-mesa0 amd64 23.2.1-1ubuntu3.1~22.04.4 [158 kB]
+Get:5 https://repo.huaweicloud.com/ubuntu jammy-security/main amd64 libglapi-mesa amd64 23.2.1-1ubuntu3.1~22.04.4 [35.6 kB]
+Get:6 https://repo.huaweicloud.com/ubuntu jammy-security/main amd64 libegl-mesa0 amd64 23.2.1-1ubuntu3.1~22.04.4 [118 kB]
+Get:7 https://repo.huaweicloud.com/ubuntu jammy/main amd64 libegl1 amd64 1.4.0-1 [28.6 kB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 9269 kB in 1s (10.1 MB/s)
+Selecting previously unselected package libwayland-server0:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 81695 files and directories currently installed.)
+Preparing to unpack .../0-libwayland-server0_1.20.0-1ubuntu0.1_amd64.deb ...
+Unpacking libwayland-server0:amd64 (1.20.0-1ubuntu0.1) ...
+Selecting previously unselected package libgbm1:amd64.
+Preparing to unpack .../1-libgbm1_23.2.1-1ubuntu3.1~22.04.4_amd64.deb ...
+Unpacking libgbm1:amd64 (23.2.1-1ubuntu3.1~22.04.4) ...
+Preparing to unpack .../2-libgl1-mesa-dri_23.2.1-1ubuntu3.1~22.04.4_amd64.deb ...
+Unpacking libgl1-mesa-dri:amd64 (23.2.1-1ubuntu3.1~22.04.4) over (23.2.1-1ubuntu3.1~22.04.3) ...
+Preparing to unpack .../3-libglx-mesa0_23.2.1-1ubuntu3.1~22.04.4_amd64.deb ...
+Unpacking libglx-mesa0:amd64 (23.2.1-1ubuntu3.1~22.04.4) over (23.2.1-1ubuntu3.1~22.04.3) ...
+Preparing to unpack .../4-libglapi-mesa_23.2.1-1ubuntu3.1~22.04.4_amd64.deb ...
+Unpacking libglapi-mesa:amd64 (23.2.1-1ubuntu3.1~22.04.4) over (23.2.1-1ubuntu3.1~22.04.3) ...
+Selecting previously unselected package libegl-mesa0:amd64.
+Preparing to unpack .../5-libegl-mesa0_23.2.1-1ubuntu3.1~22.04.4_amd64.deb ...
+Unpacking libegl-mesa0:amd64 (23.2.1-1ubuntu3.1~22.04.4) ...
+Selecting previously unselected package libegl1:amd64.
+Preparing to unpack .../6-libegl1_1.4.0-1_amd64.deb ...
+Unpacking libegl1:amd64 (1.4.0-1) ...
+Setting up libwayland-server0:amd64 (1.20.0-1ubuntu0.1) ...
+Setting up libgbm1:amd64 (23.2.1-1ubuntu3.1~22.04.4) ...
+Setting up libglapi-mesa:amd64 (23.2.1-1ubuntu3.1~22.04.4) ...
+Setting up libgl1-mesa-dri:amd64 (23.2.1-1ubuntu3.1~22.04.4) ...
+Setting up libegl-mesa0:amd64 (23.2.1-1ubuntu3.1~22.04.4) ...
+Setting up libegl1:amd64 (1.4.0-1) ...
+Setting up libglx-mesa0:amd64 (23.2.1-1ubuntu3.1~22.04.4) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.6) ...

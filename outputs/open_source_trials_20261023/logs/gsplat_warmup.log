@@ -1,0 +1,36 @@
+Traceback (most recent call last):
+  File "/root/DroneVisCrt/envs/nvs_trials/lib/python3.12/site-packages/gsplat/cuda/_backend.py", line 166, in <module>
+    from gsplat import csrc as _C
+ImportError: cannot import name 'csrc' from 'gsplat' (/root/DroneVisCrt/envs/nvs_trials/lib/python3.12/site-packages/gsplat/__init__.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 8, in <module>
+  File "/root/DroneVisCrt/envs/nvs_trials/lib/python3.12/site-packages/gsplat/rendering.py", line 409, in rasterization
+    proj_results = fully_fused_projection(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/DroneVisCrt/envs/nvs_trials/lib/python3.12/site-packages/gsplat/cuda/_wrapper.py", line 404, in fully_fused_projection
+    return _FullyFusedProjectionPacked.apply(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/autograd/function.py", line 575, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/DroneVisCrt/envs/nvs_trials/lib/python3.12/site-packages/gsplat/cuda/_wrapper.py", line 1606, in forward
+    camera_model_type = _make_lazy_cuda_obj(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "/root/DroneVisCrt/envs/nvs_trials/lib/python3.12/site-packages/gsplat/cuda/_wrapper.py", line 24, in _make_lazy_cuda_obj
+    from ._backend import _C
+  File "/root/DroneVisCrt/envs/nvs_trials/lib/python3.12/site-packages/gsplat/cuda/_backend.py", line 217, in <module>
+    _C = load_extension(
+         ^^^^^^^^^^^^^^^
+  File "/root/DroneVisCrt/envs/nvs_trials/lib/python3.12/site-packages/gsplat/cuda/_backend.py", line 79, in load_extension
+    compiled = _jit_compile(
+               ^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 1721, in _jit_compile
+    _write_ninja_file_and_build_library(
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 1803, in _write_ninja_file_and_build_library
+    verify_ninja_availability()
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/utils/cpp_extension.py", line 1852, in verify_ninja_availability
+    raise RuntimeError("Ninja is required to load C++ extensions")
+RuntimeError: Ninja is required to load C++ extensions

@@ -1,0 +1,58 @@
+{
+  "scene_id": "parking_phi30",
+  "references": [
+    {
+      "image_id": "source",
+      "path": "/root/autodl-tmp/DroneVisCrt/outputs/wide_view_trials_20261023/parking_phi30/input.png",
+      "width": 512,
+      "height": 288,
+      "instances": [
+        {
+          "instance_id": "scene",
+          "category": "scene",
+          "bbox": [
+            0,
+            0,
+            512,
+            288
+          ],
+          "confidence": 1.0
+        }
+      ]
+    }
+  ],
+  "instances": {
+    "scene": {
+      "instance_id": "scene",
+      "category": "scene",
+      "observations": [
+        {
+          "instance_id": "scene",
+          "category": "scene",
+          "bbox": [
+            0.0,
+            0.0,
+            512.0,
+            288.0
+          ],
+          "image_id": "source",
+          "attributes": [],
+          "confidence": 1.0
+        }
+      ],
+      "point_count": 147456,
+      "geometry_support": 1.0,
+      "identity_confidence": 0.5,
+      "anchor_xyz": [
+        -0.002513244515284896,
+        0.0047966111451387405,
+        -0.031175553798675537
+      ]
+    }
+  },
+  "point_count": 147456,
+  "metadata": {
+    "identity_policy": "explicit instance_id is required for full cross-view identity confidence",
+    "task_categories": []
+  }
+}

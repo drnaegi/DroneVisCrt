@@ -1,0 +1,85 @@
+{
+  "metrics": {
+    "original_single": [
+      {
+        "id": "00572",
+        "psnr": 33.43599263159214,
+        "ssim": 0.9419833421707153
+      },
+      {
+        "id": "00563",
+        "psnr": 11.771798588105016,
+        "ssim": 0.3411078453063965
+      },
+      {
+        "id": "00616",
+        "psnr": 13.647519460732585,
+        "ssim": 0.20385438203811646
+      }
+    ],
+    "original_multi": [
+      {
+        "id": "00572",
+        "psnr": 29.828813503758678,
+        "ssim": 0.8729743957519531
+      },
+      {
+        "id": "00563",
+        "psnr": 32.559089972162774,
+        "ssim": 0.9100682735443115
+      },
+      {
+        "id": "00616",
+        "psnr": 12.242121226362983,
+        "ssim": 0.26738440990448
+      }
+    ],
+    "refined_single": [
+      {
+        "id": "00572",
+        "psnr": 30.24070952982834,
+        "ssim": 0.8901171088218689
+      },
+      {
+        "id": "00563",
+        "psnr": 11.357360326781293,
+        "ssim": 0.32364240288734436
+      },
+      {
+        "id": "00616",
+        "psnr": 13.175937689347123,
+        "ssim": 0.19737449288368225
+      }
+    ],
+    "refined_multi": [
+      {
+        "id": "00572",
+        "psnr": 28.540112909088265,
+        "ssim": 0.8403739929199219
+      },
+      {
+        "id": "00563",
+        "psnr": 31.033818474772403,
+        "ssim": 0.8865014314651489
+      },
+      {
+        "id": "00616",
+        "psnr": 12.331341805885414,
+        "ssim": 0.2655915319919586
+      }
+    ]
+  },
+  "heldout_comparison": {
+    "psnr_dual_minus_single": -0.8445958834617091,
+    "psnr_dual_minus_original_dual": 0.08922057952243101,
+    "ssim_dual_minus_single": 0.06821703910827637,
+    "ssim_dual_minus_original_dual": -0.0017928779125213623
+  },
+  "both_heldout_metrics_improved_over_refined_single": false,
+  "limitations": [
+    "Exploratory single scene and seed; previously inspected held-out image is now a development check.",
+    "Shared calibration used all three images; held-out RGB/depth never used by refinement.",
+    "Refinement has no new SDS updates; both models start from their own archived SDS checkpoint.",
+    "Pseudo-depth is estimated, not ground truth. No universal improvement guarantee."
+  ]
+}

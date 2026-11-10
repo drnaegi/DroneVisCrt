@@ -1,0 +1,579 @@
+{
+  "scene": "fern",
+  "experiments": [
+    {
+      "run": "hierarchical_01views_seed0",
+      "config": {
+        "steps": 1500,
+        "rays": 1024,
+        "samples": 64,
+        "render_chunk": 1024,
+        "hash_log2_size": 17,
+        "lr": 0.005,
+        "torch": "2.5.1+cu124",
+        "device": "NVIDIA GeForce RTX 4090",
+        "teacher": null,
+        "selection": "Fixed final step; no checkpoint selection from validation or test",
+        "count": 1,
+        "seed": 0,
+        "sampler": "hierarchical"
+      },
+      "views": [
+        {
+          "id": "image000",
+          "mse": 0.010107792913913727,
+          "psnr": 19.953436643842796,
+          "ssim": 0.6742011308670044
+        },
+        {
+          "id": "image008",
+          "mse": 0.011017654091119766,
+          "psnr": 19.579108668035165,
+          "ssim": 0.6310235261917114
+        },
+        {
+          "id": "image016",
+          "mse": 0.022131232544779778,
+          "psnr": 16.549943984319594,
+          "ssim": 0.3526296019554138
+        }
+      ],
+      "mean_psnr": 18.694163098732517,
+      "mean_ssim": 0.5526180863380432,
+      "count": 3
+    },
+    {
+      "run": "hierarchical_01views_seed1",
+      "config": {
+        "steps": 1500,
+        "rays": 1024,
+        "samples": 64,
+        "render_chunk": 1024,
+        "hash_log2_size": 17,
+        "lr": 0.005,
+        "torch": "2.5.1+cu124",
+        "device": "NVIDIA GeForce RTX 4090",
+        "teacher": null,
+        "selection": "Fixed final step; no checkpoint selection from validation or test",
+        "count": 1,
+        "seed": 1,
+        "sampler": "hierarchical"
+      },
+      "views": [
+        {
+          "id": "image000",
+          "mse": 0.009122193790972233,
+          "psnr": 20.399007058885566,
+          "ssim": 0.6969499588012695
+        },
+        {
+          "id": "image008",
+          "mse": 0.010060016997158527,
+          "psnr": 19.97401285506143,
+          "ssim": 0.6489728689193726
+        },
+        {
+          "id": "image016",
+          "mse": 0.020441362634301186,
+          "psnr": 16.894901572245534,
+          "ssim": 0.3647942543029785
+        }
+      ],
+      "mean_psnr": 19.089307162064177,
+      "mean_ssim": 0.5702390273412069,
+      "count": 3
+    },
+    {
+      "run": "hierarchical_01views_seed2",
+      "config": {
+        "steps": 1500,
+        "rays": 1024,
+        "samples": 64,
+        "render_chunk": 1024,
+        "hash_log2_size": 17,
+        "lr": 0.005,
+        "torch": "2.5.1+cu124",
+        "device": "NVIDIA GeForce RTX 4090",
+        "teacher": null,
+        "selection": "Fixed final step; no checkpoint selection from validation or test",
+        "count": 1,
+        "seed": 2,
+        "sampler": "hierarchical"
+      },
+      "views": [
+        {
+          "id": "image000",
+          "mse": 0.010083897039294243,
+          "psnr": 19.963715972969247,
+          "ssim": 0.6720702052116394
+        },
+        {
+          "id": "image008",
+          "mse": 0.011354070156812668,
+          "psnr": 19.44848426596208,
+          "ssim": 0.6103448271751404
+        },
+        {
+          "id": "image016",
+          "mse": 0.02164318971335888,
+          "psnr": 16.64678733730597,
+          "ssim": 0.34512779116630554
+        }
+      ],
+      "mean_psnr": 18.6863291920791,
+      "mean_ssim": 0.5425142745176951,
+      "count": 3
+    },
+    {
+      "run": "hierarchical_02views_seed0",
+      "config": {
+        "steps": 1500,
+        "rays": 1024,
+        "samples": 64,
+        "render_chunk": 1024,
+        "hash_log2_size": 17,
+        "lr": 0.005,
+        "torch": "2.5.1+cu124",
+        "device": "NVIDIA GeForce RTX 4090",
+        "teacher": null,
+        "selection": "Fixed final step; no checkpoint selection from validation or test",
+        "count": 2,
+        "seed": 0,
+        "sampler": "hierarchical"
+      },
+      "views": [
+        {
+          "id": "image000",
+          "mse": 0.007987861521542072,
+          "psnr": 20.975694727136332,
+          "ssim": 0.6976957321166992
+        },
+        {
+          "id": "image008",
+          "mse": 0.008532022126019001,
+          "psnr": 20.689480269690343,
+          "ssim": 0.6754212975502014
+        },
+        {
+          "id": "image016",
+          "mse": 0.007432126440107822,
+          "psnr": 21.2888691045494,
+          "ssim": 0.6862270832061768
+        }
+      ],
+      "mean_psnr": 20.984681367125358,
+      "mean_ssim": 0.6864480376243591,
+      "count": 3
+    },
+    {
+      "run": "hierarchical_02views_seed1",
+      "config": {
+        "steps": 1500,
+        "rays": 1024,
+        "samples": 64,
+        "render_chunk": 1024,
+        "hash_log2_size": 17,
+        "lr": 0.005,
+        "torch": "2.5.1+cu124",
+        "device": "NVIDIA GeForce RTX 4090",
+        "teacher": null,
+        "selection": "Fixed final step; no checkpoint selection from validation or test",
+        "count": 2,
+        "seed": 1,
+        "sampler": "hierarchical"
+      },
+      "views": [
+        {
+          "id": "image000",
+          "mse": 0.007764417212456465,
+          "psnr": 21.098911363182662,
+          "ssim": 0.7077471613883972
+        },
+        {
+          "id": "image008",
+          "mse": 0.008487042970955372,
+          "psnr": 20.712435989307394,
+          "ssim": 0.6776607632637024
+        },
+        {
+          "id": "image016",
+          "mse": 0.007240465842187405,
+          "psnr": 21.40233490959894,
+          "ssim": 0.6946331858634949
+        }
+      ],
+      "mean_psnr": 21.071227420696335,
+      "mean_ssim": 0.6933470368385315,
+      "count": 3
+    },
+    {
+      "run": "hierarchical_02views_seed2",
+      "config": {
+        "steps": 1500,
+        "rays": 1024,
+        "samples": 64,
+        "render_chunk": 1024,
+        "hash_log2_size": 17,
+        "lr": 0.005,
+        "torch": "2.5.1+cu124",
+        "device": "NVIDIA GeForce RTX 4090",
+        "teacher": null,
+        "selection": "Fixed final step; no checkpoint selection from validation or test",
+        "count": 2,
+        "seed": 2,
+        "sampler": "hierarchical"
+      },
+      "views": [
+        {
+          "id": "image000",
+          "mse": 0.008224917575716972,
+          "psnr": 20.848684455470647,
+          "ssim": 0.6846525073051453
+        },
+        {
+          "id": "image008",
+          "mse": 0.009417780674993992,
+          "psnr": 20.26051427797413,
+          "ssim": 0.649596095085144
+        },
+        {
+          "id": "image016",
+          "mse": 0.007563259918242693,
+          "psnr": 21.21290974426198,
+          "ssim": 0.6788184642791748
+        }
+      ],
+      "mean_psnr": 20.77403615923559,
+      "mean_ssim": 0.671022355556488,
+      "count": 3
+    },
+    {
+      "run": "hierarchical_04views_seed0",
+      "config": {
+        "steps": 1500,
+        "rays": 1024,
+        "samples": 64,
+        "render_chunk": 1024,
+        "hash_log2_size": 17,
+        "lr": 0.005,
+        "torch": "2.5.1+cu124",
+        "device": "NVIDIA GeForce RTX 4090",
+        "teacher": null,
+        "selection": "Fixed final step; no checkpoint selection from validation or test",
+        "count": 4,
+        "seed": 0,
+        "sampler": "hierarchical"
+      },
+      "views": [
+        {
+          "id": "image000",
+          "mse": 0.0037169705610722303,
+          "psnr": 24.29810878563815,
+          "ssim": 0.8367735147476196
+        },
+        {
+          "id": "image008",
+          "mse": 0.003999125212430954,
+          "psnr": 23.980349979128608,
+          "ssim": 0.8273993730545044
+        },
+        {
+          "id": "image016",
+          "mse": 0.0032173004001379013,
+          "psnr": 24.92508387021119,
+          "ssim": 0.8381688594818115
+        }
+      ],
+      "mean_psnr": 24.401180878325977,
+      "mean_ssim": 0.8341139157613119,
+      "count": 3
+    },
+    {
+      "run": "hierarchical_04views_seed1",
+      "config": {
+        "steps": 1500,
+        "rays": 1024,
+        "samples": 64,
+        "render_chunk": 1024,
+        "hash_log2_size": 17,
+        "lr": 0.005,
+        "torch": "2.5.1+cu124",
+        "device": "NVIDIA GeForce RTX 4090",
+        "teacher": null,
+        "selection": "Fixed final step; no checkpoint selection from validation or test",
+        "count": 4,
+        "seed": 1,
+        "sampler": "hierarchical"
+      },
+      "views": [
+        {
+          "id": "image000",
+          "mse": 0.0037556455936282873,
+          "psnr": 24.253153972349025,
+          "ssim": 0.838441014289856
+        },
+        {
+          "id": "image008",
+          "mse": 0.004183479584753513,
+          "psnr": 23.784623460162706,
+          "ssim": 0.821723461151123
+        },
+        {
+          "id": "image016",
+          "mse": 0.0033635515719652176,
+          "psnr": 24.73201909069864,
+          "ssim": 0.8284422159194946
+        }
+      ],
+      "mean_psnr": 24.256598841070126,
+      "mean_ssim": 0.8295355637868246,
+      "count": 3
+    },
+    {
+      "run": "hierarchical_04views_seed2",
+      "config": {
+        "steps": 1500,
+        "rays": 1024,
+        "samples": 64,
+        "render_chunk": 1024,
+        "hash_log2_size": 17,
+        "lr": 0.005,
+        "torch": "2.5.1+cu124",
+        "device": "NVIDIA GeForce RTX 4090",
+        "teacher": null,
+        "selection": "Fixed final step; no checkpoint selection from validation or test",
+        "count": 4,
+        "seed": 2,
+        "sampler": "hierarchical"
+      },
+      "views": [
+        {
+          "id": "image000",
+          "mse": 0.003939082846045494,
+          "psnr": 24.046048850953913,
+          "ssim": 0.8271561861038208
+        },
+        {
+          "id": "image008",
+          "mse": 0.004343701992183924,
+          "psnr": 23.621399779840445,
+          "ssim": 0.812192440032959
+        },
+        {
+          "id": "image016",
+          "mse": 0.003378606168553233,
+          "psnr": 24.71262429353373,
+          "ssim": 0.8296680450439453
+        }
+      ],
+      "mean_psnr": 24.12669097477603,
+      "mean_ssim": 0.8230055570602417,
+      "count": 3
+    },
+    {
+      "run": "hierarchical_08views_seed0",
+      "config": {
+        "steps": 1500,
+        "rays": 1024,
+        "samples": 64,
+        "render_chunk": 1024,
+        "hash_log2_size": 17,
+        "lr": 0.005,
+        "torch": "2.5.1+cu124",
+        "device": "NVIDIA GeForce RTX 4090",
+        "teacher": null,
+        "selection": "Fixed final step; no checkpoint selection from validation or test",
+        "count": 8,
+        "seed": 0,
+        "sampler": "hierarchical"
+      },
+      "views": [
+        {
+          "id": "image000",
+          "mse": 0.001330373459495604,
+          "psnr": 28.76026427731396,
+          "ssim": 0.9403735995292664
+        },
+        {
+          "id": "image008",
+          "mse": 0.0009106245706789196,
+          "psnr": 30.406606356374187,
+          "ssim": 0.9531378149986267
+        },
+        {
+          "id": "image016",
+          "mse": 0.0013991770101711154,
+          "psnr": 28.541273393483124,
+          "ssim": 0.9247304797172546
+        }
+      ],
+      "mean_psnr": 29.23604800905709,
+      "mean_ssim": 0.9394139647483826,
+      "count": 3
+    },
+    {
+      "run": "hierarchical_08views_seed1",
+      "config": {
+        "steps": 1500,
+        "rays": 1024,
+        "samples": 64,
+        "render_chunk": 1024,
+        "hash_log2_size": 17,
+        "lr": 0.005,
+        "torch": "2.5.1+cu124",
+        "device": "NVIDIA GeForce RTX 4090",
+        "teacher": null,
+        "selection": "Fixed final step; no checkpoint selection from validation or test",
+        "count": 8,
+        "seed": 1,
+        "sampler": "hierarchical"
+      },
+      "views": [
+        {
+          "id": "image000",
+          "mse": 0.0014685896458104253,
+          "psnr": 28.330995380805728,
+          "ssim": 0.9341198205947876
+        },
+        {
+          "id": "image008",
+          "mse": 0.001015634392388165,
+          "psnr": 29.93262601052056,
+          "ssim": 0.947737991809845
+        },
+        {
+          "id": "image016",
+          "mse": 0.0015008340124040842,
+          "psnr": 28.236673367261837,
+          "ssim": 0.9189478158950806
+        }
+      ],
+      "mean_psnr": 28.833431586196042,
+      "mean_ssim": 0.9336018760999044,
+      "count": 3
+    },
+    {
+      "run": "hierarchical_08views_seed2",
+      "config": {
+        "steps": 1500,
+        "rays": 1024,
+        "samples": 64,
+        "render_chunk": 1024,
+        "hash_log2_size": 17,
+        "lr": 0.005,
+        "torch": "2.5.1+cu124",
+        "device": "NVIDIA GeForce RTX 4090",
+        "teacher": null,
+        "selection": "Fixed final step; no checkpoint selection from validation or test",
+        "count": 8,
+        "seed": 2,
+        "sampler": "hierarchical"
+      },
+      "views": [
+        {
+          "id": "image000",
+          "mse": 0.0013816975988447666,
+          "psnr": 28.595869971381536,
+          "ssim": 0.9360442757606506
+        },
+        {
+          "id": "image008",
+          "mse": 0.0009699512738734484,
+          "psnr": 30.13250082248608,
+          "ssim": 0.9495166540145874
+        },
+        {
+          "id": "image016",
+          "mse": 0.0014441560488194227,
+          "psnr": 28.403858763788918,
+          "ssim": 0.9217746257781982
+        }
+      ],
+      "mean_psnr": 29.044076519218844,
+      "mean_ssim": 0.9357785185178121,
+      "count": 3
+    },
+    {
+      "run": "uniform_01views_seed0",
+      "config": {
+        "steps": 1500,
+        "rays": 1024,
+        "samples": 64,
+        "render_chunk": 1024,
+        "hash_log2_size": 17,
+        "lr": 0.005,
+        "torch": "2.5.1+cu124",
+        "device": "NVIDIA GeForce RTX 4090",
+        "teacher": null,
+        "selection": "Fixed final step; no checkpoint selection from validation or test",
+        "count": 1,
+        "seed": 0,
+        "sampler": "uniform"
+      },
+      "views": [
+        {
+          "id": "image000",
+          "mse": 0.010535497218370438,
+          "psnr": 19.773449632263677,
+          "ssim": 0.6265165209770203
+        },
+        {
+          "id": "image008",
+          "mse": 0.01175984088331461,
+          "psnr": 19.295985544474608,
+          "ssim": 0.5738112330436707
+        },
+        {
+          "id": "image016",
+          "mse": 0.02134459652006626,
+          "psnr": 16.707120503125978,
+          "ssim": 0.30698761343955994
+        }
+      ],
+      "mean_psnr": 18.59218522662142,
+      "mean_ssim": 0.5024384558200836,
+      "count": 3
+    },
+    {
+      "run": "uniform_02views_seed0",
+      "config": {
+        "steps": 1500,
+        "rays": 1024,
+        "samples": 64,
+        "render_chunk": 1024,
+        "hash_log2_size": 17,
+        "lr": 0.005,
+        "torch": "2.5.1+cu124",
+        "device": "NVIDIA GeForce RTX 4090",
+        "teacher": null,
+        "selection": "Fixed final step; no checkpoint selection from validation or test",
+        "count": 2,
+        "seed": 0,
+        "sampler": "uniform"
+      },
+      "views": [
+        {
+          "id": "image000",
+          "mse": 0.008817513473331928,
+          "psnr": 20.54653868049558,
+          "ssim": 0.6517005562782288
+        },
+        {
+          "id": "image008",
+          "mse": 0.009710370562970638,
+          "psnr": 20.12764196417168,
+          "ssim": 0.6127595901489258
+        },
+        {
+          "id": "image016",
+          "mse": 0.008053109049797058,
+          "psnr": 20.940364199434036,
+          "ssim": 0.6479902863502502
+        }
+      ],
+      "mean_psnr": 20.53818161470043,
+      "mean_ssim": 0.6374834775924683,
+      "count": 3
+    }
+  ]
+}

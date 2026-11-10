@@ -1,0 +1,20 @@
+Looking in indexes: http://mirrors.aliyun.com/pypi/simple
+Collecting numpy==1.26.4
+  Downloading http://mirrors.aliyun.com/pypi/packages/0f/50/de23fde84e45f5c4fda2488c759b69990fd4512387a8632860f3ac9cd225/numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.0/18.0 MB 77.5 kB/s eta 0:00:00
+Collecting tifffile==2024.8.30
+  Downloading http://mirrors.aliyun.com/pypi/packages/3a/4f/73714b1c1d339b1545cac28764e39f88c69468b5e10e51f327f9aa9d55b9/tifffile-2024.8.30-py3-none-any.whl (227 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 227.3/227.3 kB 77.4 kB/s eta 0:00:00
+Installing collected packages: numpy, tifffile
+  Attempting uninstall: numpy
+    Found existing installation: numpy 2.5.4
+    Uninstalling numpy-2.5.4:
+      Successfully uninstalled numpy-2.5.4
+  Attempting uninstall: tifffile
+    Found existing installation: tifffile 2026.10.15
+    Uninstalling tifffile-2026.10.15:
+      Successfully uninstalled tifffile-2026.10.15
+Successfully installed numpy-1.26.4 tifffile-2024.8.30
+
+[notice] A new release of pip is available: 24.0 -> 26.2.2
+[notice] To update, run: python -m pip install --upgrade pip

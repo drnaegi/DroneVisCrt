@@ -1,0 +1,27 @@
+Processing moge2 outputs/open_source_trials_20261023/inputs/demo_traffic.jpg
+libEGL warning: MESA-LOADER: failed to open swrast: /usr/lib/dri/swrast_dri.so: cannot open shared object file: No such file or directory (search paths /usr/lib/x86_64-linux-gnu/dri:\$${ORIGIN}/dri:/usr/lib/dri, suffix _dri)
+
+libEGL warning: MESA-LOADER: failed to open swrast: /usr/lib/dri/swrast_dri.so: cannot open shared object file: No such file or directory (search paths /usr/lib/x86_64-linux-gnu/dri:\$${ORIGIN}/dri:/usr/lib/dri, suffix _dri)
+
+Traceback (most recent call last):
+  File "/root/DroneVisCrt/tools/run_nvs_trials.py", line 323, in <module>
+    main()
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/DroneVisCrt/tools/run_nvs_trials.py", line 267, in main
+    render, depth, info = infer_moge(model, image, args.fov, output)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/DroneVisCrt/tools/run_nvs_trials.py", line 182, in infer_moge
+    context = utils3d.np.RastContext(standalone=True, backend="egl")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/DroneVisCrt/code/utils3d/utils3d/numpy/rasterization.py", line 290, in __init__
+    self.mgl_ctx = moderngl.create_context(*args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/DroneVisCrt/envs/nvs_trials/lib/python3.12/site-packages/moderngl/__init__.py", line 2437, in create_context
+    ctx.mglo, ctx.version_code = mgl.create_context(
+                                 ^^^^^^^^^^^^^^^^^^^
+  File "/root/DroneVisCrt/envs/nvs_trials/lib/python3.12/site-packages/glcontext/__init__.py", line 120, in create
+    return egl.create_context(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Exception: eglInitialize failed (0x3001)

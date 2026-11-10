@@ -1,0 +1,33 @@
+[
+  {
+    "path": "outputs/open_source_trials_20261023/inputs/0000001_02999_d_0000005.jpg",
+    "source_url": "https://hf-mirror.com/datasets/Voxel51/VisDrone2019-DET/resolve/3c3b9e9bd44c91121c1fc19fce428f0e6b71bba2/data/0000001_02999_d_0000005.jpg",
+    "sha256": "fc80a9305b38af026091cbe0a1d4cfe059964852253b93f01fee17b7443e5514",
+    "origin": "VisDrone2019-DET via Voxel51 public mirror",
+    "sequence": "0000001",
+    "purpose": "qualitative smoke only; not a benchmark split"
+  },
+  {
+    "path": "outputs/open_source_trials_20261023/inputs/0000002_00005_d_0000014.jpg",
+    "source_url": "https://hf-mirror.com/datasets/Voxel51/VisDrone2019-DET/resolve/3c3b9e9bd44c91121c1fc19fce428f0e6b71bba2/data/0000002_00005_d_0000014.jpg",
+    "sha256": "17532f304f390479d8b7998863af7d2c51549702977c1e76b82ed8700dea7085",
+    "origin": "VisDrone2019-DET via Voxel51 public mirror",
+    "sequence": "0000002",
+    "purpose": "qualitative smoke only; not a benchmark split"
+  },
+  {
+    "path": "outputs/open_source_trials_20261023/inputs/0000003_00231_d_0000016.jpg",
+    "source_url": "https://hf-mirror.com/datasets/Voxel51/VisDrone2019-DET/resolve/3c3b9e9bd44c91121c1fc19fce428f0e6b71bba2/data/0000003_00231_d_0000016.jpg",
+    "sha256": "3bd4906082b03b93f4e74bdba57b2c29b42bcdaa1798b3b97e39bdc2f7d60b5f",
+    "origin": "VisDrone2019-DET via Voxel51 public mirror",
+    "sequence": "0000003",
+    "purpose": "qualitative smoke only; not a benchmark split"
+  },
+  {
+    "path": "outputs/open_source_trials_20261023/inputs/demo_traffic.jpg",
+    "source_url": "https://github.com/microsoft/MoGe/blob/b942f00bdc2a2a23ebb474fbe034d487e6dcceec/example_images/03_Traffic.jpg",
+    "sha256": "4fa8b46849dd3de5b3b0a141d6aafe98e190f578ccec0c9dacc440cd8434db11",
+    "origin": "MoGe official example; street-level, not UAV",
+    "purpose": "installation diagnostic"
+  }
+]

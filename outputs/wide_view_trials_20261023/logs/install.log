@@ -1,0 +1,69 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting numpy==1.26.4
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/0f/50/de23fde84e45f5c4fda2488c759b69990fd4512387a8632860f3ac9cd225/numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.0/18.0 MB 4.0 MB/s eta 0:00:00
+Collecting einops==0.8.1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/87/62/9773de14fe6c45c23649e98b83231fffd7b9892b6cf863251dc2afa73643/einops-0.8.1-py3-none-any.whl (64 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.4/64.4 kB 9.2 MB/s eta 0:00:00
+Collecting omegaconf==2.3.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/e3/94/1843518e420fa3ed6919835845df698c7e27e183cb997394e4a670973a65/omegaconf-2.3.0-py3-none-any.whl (79 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.5/79.5 kB 9.0 MB/s eta 0:00:00
+Collecting pytorch-lightning==1.9.3
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/bf/9d/ba77d6d9fd7ca5ff7260ae5033c2355e6f920d3dad764ef107d8c2b54a27/pytorch_lightning-1.9.3-py3-none-any.whl (826 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 826.4/826.4 kB 1.7 MB/s eta 0:00:00
+Collecting torchmetrics==0.11.4
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/fb/47/6e9f9b41c48750a45ad07cc6d43a2979bfc09e6989656aece97cc59cbef1/torchmetrics-0.11.4-py3-none-any.whl (519 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 519.2/519.2 kB 2.3 MB/s eta 0:00:00
+Collecting open-clip-torch==2.17.1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/0f/17/00e2565e7d9eb8a35ce5129e69f834e06341ca6fde15b9c0f694fe7c18f2/open_clip_torch-2.17.1-py3-none-any.whl (1.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 1.9 MB/s eta 0:00:00
+Collecting transformers==4.44.2
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/75/35/07c9879163b603f0e464b0f6e6e628a2340cfc7cdc5ca8e7d52d776710d4/transformers-4.44.2-py3-none-any.whl (9.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.5/9.5 MB 1.5 MB/s eta 0:00:00
+Collecting kornia==0.7.3
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/58/26/9e6fad0f5e8c25b19e3c25fd0efa0817b9e1a3d9670df8454162e053f283/kornia-0.7.3-py2.py3-none-any.whl (833 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 833.3/833.3 kB 1.4 MB/s eta 0:00:00
+Collecting roma==1.5.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/51/21/a482cb663c6c04cbe533f4f711c35803c96a45de6552452baf16c3008941/roma-1.5.0-py3-none-any.whl (24 kB)
+Collecting decord==0.6.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/11/79/936af42edf90a7bd4e41a6cac89c913d4b47fa48a26b042d5129a9242ee3/decord-0.6.0-py3-none-manylinux2010_x86_64.whl (13.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.6/13.6 MB 1.0 MB/s eta 0:00:00
+Collecting av==14.4.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/86/f6/0b473dab52dfdea05f28f3578b1c56b6c796ce85e76951bab7c4e38d5a74/av-14.4.0.tar.gz (3.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.9/3.9 MB 908.6 kB/s eta 0:00:00
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [14 lines of output]
+      Package libavdevice was not found in the pkg-config search path.
+      Perhaps you should add the directory containing `libavdevice.pc'
+      to the PKG_CONFIG_PATH environment variable
+      No package 'libavdevice' found
+      Package libavfilter was not found in the pkg-config search path.
+      Perhaps you should add the directory containing `libavfilter.pc'
+      to the PKG_CONFIG_PATH environment variable
+      No package 'libavfilter' found
+      
+      [1;91mWarning![0m You are installing from source.
+      It is [1;37mEXPECTED[0m that it will fail. You are [1;37mREQUIRED[0m to use ffmpeg 7.
+      You [1;37mMUST[0m have Cython, pkg-config, and a C compiler.
+      
+      pkg-config could not find libraries ['avformat', 'avcodec', 'avdevice', 'avutil', 'avfilter', 'swscale', 'swresample']
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: subprocess-exited-with-error
+
+× Getting requirements to build wheel did not run successfully.
+│ exit code: 1
+╰─> See above for output.
+
+note: This error originates from a subprocess, and is likely not a problem with pip.
+
+[notice] A new release of pip is available: 24.0 -> 26.2.2
+[notice] To update, run: python -m pip install --upgrade pip

@@ -1,0 +1,158 @@
+{
+  "new_diffusion_ran": false,
+  "task_adapter_ran": false,
+  "reference_count": 6,
+  "accepted_sparse_points": 521,
+  "dense_points": 158134,
+  "seconds": 35.170494622027036,
+  "metrics": [
+    {
+      "frame": 0,
+      "split": "reference",
+      "point_coverage": 0.2139214409722222,
+      "splat_coverage": 0.3928426106770833,
+      "splat_added_fraction": 0.1789211697048611,
+      "supported_rgb_mae": 0.15652960538864136,
+      "task_roi_rgb_mae": 0.140275239944458
+    },
+    {
+      "frame": 3,
+      "split": "reference",
+      "point_coverage": 0.2909817165798611,
+      "splat_coverage": 0.4959581163194444,
+      "splat_added_fraction": 0.20497639973958334,
+      "supported_rgb_mae": 0.14405301213264465,
+      "task_roi_rgb_mae": 0.12833212316036224
+    },
+    {
+      "frame": 6,
+      "split": "reference",
+      "point_coverage": 0.3400200737847222,
+      "splat_coverage": 0.5245293511284722,
+      "splat_added_fraction": 0.18450927734375,
+      "supported_rgb_mae": 0.1452513188123703,
+      "task_roi_rgb_mae": 0.12586824595928192
+    },
+    {
+      "frame": 9,
+      "split": "reference",
+      "point_coverage": 0.3395114474826389,
+      "splat_coverage": 0.5819973415798612,
+      "splat_added_fraction": 0.2424858940972222,
+      "supported_rgb_mae": 0.13979780673980713,
+      "task_roi_rgb_mae": 0.1332899034023285
+    },
+    {
+      "frame": 12,
+      "split": "reference",
+      "point_coverage": 0.2986992730034722,
+      "splat_coverage": 0.4750434027777778,
+      "splat_added_fraction": 0.17634412977430555,
+      "supported_rgb_mae": 0.12224282324314117,
+      "task_roi_rgb_mae": 0.11394301801919937
+    },
+    {
+      "frame": 16,
+      "split": "reference",
+      "point_coverage": 0.2704874674479167,
+      "splat_coverage": 0.4239841037326389,
+      "splat_added_fraction": 0.1534966362847222,
+      "supported_rgb_mae": 0.1274735927581787,
+      "task_roi_rgb_mae": 0.11269699782133102
+    },
+    {
+      "frame": 1,
+      "split": "development",
+      "point_coverage": 0.18198649088541666,
+      "splat_coverage": 0.32403564453125,
+      "splat_added_fraction": 0.14204915364583334,
+      "supported_rgb_mae": 0.1709090620279312,
+      "task_roi_rgb_mae": 0.15002012252807617
+    },
+    {
+      "frame": 5,
+      "split": "development",
+      "point_coverage": 0.2972886827256944,
+      "splat_coverage": 0.4694281684027778,
+      "splat_added_fraction": 0.17213948567708334,
+      "supported_rgb_mae": 0.15537713468074799,
+      "task_roi_rgb_mae": 0.1299927681684494
+    },
+    {
+      "frame": 11,
+      "split": "development",
+      "point_coverage": 0.2672797309027778,
+      "splat_coverage": 0.4887966579861111,
+      "splat_added_fraction": 0.22151692708333334,
+      "supported_rgb_mae": 0.1815994530916214,
+      "task_roi_rgb_mae": 0.1754337102174759
+    },
+    {
+      "frame": 2,
+      "split": "evaluation",
+      "point_coverage": 0.21826171875,
+      "splat_coverage": 0.3901095920138889,
+      "splat_added_fraction": 0.1718478732638889,
+      "supported_rgb_mae": 0.16568785905838013,
+      "task_roi_rgb_mae": 0.14166295528411865
+    },
+    {
+      "frame": 4,
+      "split": "evaluation",
+      "point_coverage": 0.24955240885416666,
+      "splat_coverage": 0.4184773763020833,
+      "splat_added_fraction": 0.16892496744791666,
+      "supported_rgb_mae": 0.15889178216457367,
+      "task_roi_rgb_mae": 0.14007116854190826
+    },
+    {
+      "frame": 7,
+      "split": "evaluation",
+      "point_coverage": 0.2950846354166667,
+      "splat_coverage": 0.4685533311631944,
+      "splat_added_fraction": 0.1734686957465278,
+      "supported_rgb_mae": 0.15233619511127472,
+      "task_roi_rgb_mae": 0.12975889444351196
+    },
+    {
+      "frame": 10,
+      "split": "evaluation",
+      "point_coverage": 0.2585652669270833,
+      "splat_coverage": 0.5267198350694444,
+      "splat_added_fraction": 0.2681545681423611,
+      "supported_rgb_mae": 0.20297250151634216,
+      "task_roi_rgb_mae": 0.198418527841568
+    },
+    {
+      "frame": 14,
+      "split": "evaluation",
+      "point_coverage": 0.2428860134548611,
+      "splat_coverage": 0.3757527669270833,
+      "splat_added_fraction": 0.1328667534722222,
+      "supported_rgb_mae": 0.16096191108226776,
+      "task_roi_rgb_mae": 0.14025220274925232
+    },
+    {
+      "frame": 15,
+      "split": "evaluation",
+      "point_coverage": 0.248291015625,
+      "splat_coverage": 0.3857896592881944,
+      "splat_added_fraction": 0.13749864366319445,
+      "supported_rgb_mae": 0.16226473450660706,
+      "task_roi_rgb_mae": 0.14001886546611786
+    }
+  ],
+  "evaluation_mean": {
+    "point_coverage": 0.2521068431712963,
+    "splat_coverage": 0.4275670934606481,
+    "supported_rgb_mae": 0.1671858305732409,
+    "task_roi_rgb_mae": 0.14836376905441284
+  },
+  "limitations": [
+    "Historical cameras jointly estimated using target photos",
+    "CPU stereo baseline is not proposed DUSt3R-plus-adapter method",
+    "Coarse ROI polygons are not human-reviewed instance ground truth",
+    "Splat additions do not prove observed surface continuity; unresolved does not mean never-observed",
+    "MAE is measured only on projected pixels; no detector, identity, or downstream gain claim"
+  ]
+}
