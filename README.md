@@ -6,6 +6,16 @@
 
 ## 当前实验状态
 
+研究一已完成由两张已知相机照片合成新视角的射线标定与源图自校验。在新的 16 个 Mill 19 Rubble 实拍机位和 12 个 SynDrone 模拟机位上，相对同一网络的简单中位数定标，平均 PSNR 分别提高 0.169 和 0.715 dB。[研究一技术路线、同图对照与复验](outputs/aerial_stereo_study/研究一_相机射线标定与双源新视角合成.md)
+
+研究一已实现独立的双源相机校准与选源渲染。在三个新地点、六幅实拍目标图上，完整方法的 LPIPS 为 0.2479，同相机双源平均为 0.2948。严格地物关系的双实拍核验与遥测对照均为 1/3。[技术路线、消融与图文样本](outputs/aerial_mosaic_validation/研究一_双源校准与图文扩增.md)
+
+研究一已在 FloodNet 新选的五个实拍地点完成描述与相机联合选择、几何融合和 ViewCrafter 稀疏视角对照。主组三地及补充组两地的双实拍掩膜通过数，联合策略与第二源端点对照分别同为 0/3、1/2。逐地点画质、消融、盲评图卡与复跑入口见[研究一实拍扩增实验报告](outputs/floodnet_joint_pairs/研究一实拍扩增实验报告.md)。
+
+研究一已导出三对道路与水面局部扩增样例，并完成四选二的视角选择和生成补全对照。固定相机时，将核验位置移入类别内部，使两个目标视角均通过局部区域检查的候选从 7 个增至 14 个。图像生成仍弱于最简单的最近像素补洞对照。详见[局部路水关系与成对扩增验证](outputs/relation_nvs_20261120/局部路水关系与成对扩增验证.md)。
+
+研究一扩散基线实验（2026-11-22）：完成 ViewCrafter sparse 在四个开发场景上的已知相机 RGB 对照及源真值深度诊断。RGB 同输入组中，ViewCrafter 的全图 LPIPS 为 0.228952，普通融合为 0.320976，但共同支持区域的像素误差增加；尚未证明自主关系约束方法优于成熟基线。实验协议、实测结果和下一步机制验证见 [ViewCrafter 同输入对照与下一步研究](outputs/relation_nvs_20261120/ViewCrafter同输入对照与下一步研究.md)。
+
 以下状态依据仓库中已保存的实验记录；AerialMegaDepth、ZeroNVS 和 AirSim 的实测日期为 2026-11-04。
 
 | 方向 | 已完成内容 | 结论与边界 | 结果入口 |
@@ -139,3 +149,7 @@ python tools/skydiffusion_preflight.py --profile configs/skydiffusion_disaster_d
 第三方源码、模型、数据和论文分别遵循各自的许可及使用条件，请查阅对应目录中的 `LICENSE`、`NOTICE` 和上游说明。`code/` 下的 AerialMegaDepth、MegaScenes 与 ZeroNVS 为 CPU 推理获取的部分源码快照，未包含所有上游训练、数据或演示资源；已获取文件的固定提交及校验记录见对应结果目录中的 `source_manifest.json`。Windows 样本扩增模块的来源与导入清单见 [source_provenance.json](sample_augmentation/source_provenance.json) 和 [IMPORT_MANIFEST.json](sample_augmentation/IMPORT_MANIFEST.json)。
 
 研究方案中的计划与已完成实验应结合各结果目录的 README、原始日志和核验记录阅读，不能仅凭运行成功认定复现了论文指标。
+
+## 道路—水体关系独立原型
+
+新增 [`relation_nvs/`](relation_nvs/README.md)：源侧场景表面构建、共享外观优化、成对视角选择、独立评价与下游训练接口。使用通用预训练图像先验，不修改已有 SkyDiffusion/ViewCrafter 实验。入口、输入协议及限制见模块说明；公开数据审计和开发结果见 [`outputs/relation_nvs_20261120/`](outputs/relation_nvs_20261120/)。该原型不代表方法新颖性、真实下游收益或优于基线已经成立。

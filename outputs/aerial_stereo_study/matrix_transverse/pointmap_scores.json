@@ -1,0 +1,182 @@
+{
+  "rows": [
+    {
+      "case": "0301_0317_0299",
+      "source": "datasets/matrixcity_fusion_20261116/aerial/0301.png",
+      "target": "0299.png",
+      "target_sha256": "632b1ba00b24a8d97d1afe4e3261d80ec09cc64ed7b15a3dc0e9d067e0d8346f",
+      "method": "pointmap_median",
+      "psnr": 16.323053694393625,
+      "ssim": 0.2885760900401244,
+      "lpips": 0.4394119679927826,
+      "observed_psnr": 16.955416190862135,
+      "complement_psnr": 13.715000904353296,
+      "plane_support": 0.858642578125
+    },
+    {
+      "case": "0301_0317_0299",
+      "source": "datasets/matrixcity_fusion_20261116/aerial/0301.png",
+      "target": "0299.png",
+      "target_sha256": "632b1ba00b24a8d97d1afe4e3261d80ec09cc64ed7b15a3dc0e9d067e0d8346f",
+      "method": "pointmap_scale",
+      "psnr": 17.616452023140464,
+      "ssim": 0.4760001022221713,
+      "lpips": 0.32809534668922424,
+      "observed_psnr": 18.765995101544775,
+      "complement_psnr": 13.79156681263349,
+      "plane_support": 0.858642578125
+    },
+    {
+      "case": "0301_0317_0299",
+      "source": "datasets/matrixcity_fusion_20261116/aerial/0301.png",
+      "target": "0299.png",
+      "target_sha256": "632b1ba00b24a8d97d1afe4e3261d80ec09cc64ed7b15a3dc0e9d067e0d8346f",
+      "method": "pointmap_rays",
+      "psnr": 17.616542870572523,
+      "ssim": 0.4418219810744855,
+      "lpips": 0.3349153995513916,
+      "observed_psnr": 18.766018036983194,
+      "complement_psnr": 13.791788882295057,
+      "plane_support": 0.858642578125
+    },
+    {
+      "case": "0301_0317_0299",
+      "source": "datasets/matrixcity_fusion_20261116/aerial/0301.png",
+      "target": "0299.png",
+      "target_sha256": "632b1ba00b24a8d97d1afe4e3261d80ec09cc64ed7b15a3dc0e9d067e0d8346f",
+      "method": "pointmap_matches",
+      "psnr": 17.616720515628195,
+      "ssim": 0.44128697436075615,
+      "lpips": 0.33402419090270996,
+      "observed_psnr": 18.76631178805992,
+      "complement_psnr": 13.791742186372735,
+      "plane_support": 0.858642578125
+    },
+    {
+      "case": "0291_0307_0309",
+      "source": "datasets/matrixcity_fusion_20261116/aerial/0291.png",
+      "target": "0309.png",
+      "target_sha256": "1b7ab79d7582d158ff1b3e7f489f5fbc72c98069da69f896e6e890bea3a6cb98",
+      "method": "pointmap_median",
+      "psnr": 16.34922531474308,
+      "ssim": 0.3920131950402744,
+      "lpips": 0.34798434376716614,
+      "observed_psnr": 19.11977853754262,
+      "complement_psnr": 13.33036610026628,
+      "plane_support": 0.6803792317708334
+    },
+    {
+      "case": "0291_0307_0309",
+      "source": "datasets/matrixcity_fusion_20261116/aerial/0291.png",
+      "target": "0309.png",
+      "target_sha256": "1b7ab79d7582d158ff1b3e7f489f5fbc72c98069da69f896e6e890bea3a6cb98",
+      "method": "pointmap_scale",
+      "psnr": 15.799657672003384,
+      "ssim": 0.25991731321572625,
+      "lpips": 0.38757607340812683,
+      "observed_psnr": 17.732020054804217,
+      "complement_psnr": 13.333435490282133,
+      "plane_support": 0.6803792317708334
+    },
+    {
+      "case": "0291_0307_0309",
+      "source": "datasets/matrixcity_fusion_20261116/aerial/0291.png",
+      "target": "0309.png",
+      "target_sha256": "1b7ab79d7582d158ff1b3e7f489f5fbc72c98069da69f896e6e890bea3a6cb98",
+      "method": "pointmap_rays",
+      "psnr": 16.299831294941075,
+      "ssim": 0.37873903913289,
+      "lpips": 0.3474418520927429,
+      "observed_psnr": 18.98372113077581,
+      "complement_psnr": 13.330382555392049,
+      "plane_support": 0.6803792317708334
+    },
+    {
+      "case": "0291_0307_0309",
+      "source": "datasets/matrixcity_fusion_20261116/aerial/0291.png",
+      "target": "0309.png",
+      "target_sha256": "1b7ab79d7582d158ff1b3e7f489f5fbc72c98069da69f896e6e890bea3a6cb98",
+      "method": "pointmap_matches",
+      "psnr": 16.30807505340084,
+      "ssim": 0.3817163122209947,
+      "lpips": 0.3473723530769348,
+      "observed_psnr": 19.00626223645119,
+      "complement_psnr": 13.330367646109805,
+      "plane_support": 0.6803792317708334
+    },
+    {
+      "case": "0311_0308_0319",
+      "source": "datasets/matrixcity_fusion_20261116/aerial/0311.png",
+      "target": "0319.png",
+      "target_sha256": "6a7f3ea823cca239f69357f85a88b9390192965b1e2d6ec9c5f07644bba91533",
+      "method": "pointmap_median",
+      "psnr": 15.968984870973504,
+      "ssim": 0.1842350781536676,
+      "lpips": 0.45446252822875977,
+      "observed_psnr": 16.058549995996312,
+      "complement_psnr": 15.810268701886294,
+      "plane_support": 0.6458333333333334
+    },
+    {
+      "case": "0311_0308_0319",
+      "source": "datasets/matrixcity_fusion_20261116/aerial/0311.png",
+      "target": "0319.png",
+      "target_sha256": "6a7f3ea823cca239f69357f85a88b9390192965b1e2d6ec9c5f07644bba91533",
+      "method": "pointmap_scale",
+      "psnr": 16.163617498185886,
+      "ssim": 0.1705526972055713,
+      "lpips": 0.4179129898548126,
+      "observed_psnr": 16.40043089532872,
+      "complement_psnr": 15.762455588378419,
+      "plane_support": 0.6458333333333334
+    },
+    {
+      "case": "0311_0308_0319",
+      "source": "datasets/matrixcity_fusion_20261116/aerial/0311.png",
+      "target": "0319.png",
+      "target_sha256": "6a7f3ea823cca239f69357f85a88b9390192965b1e2d6ec9c5f07644bba91533",
+      "method": "pointmap_rays",
+      "psnr": 17.670589305488335,
+      "ssim": 0.35958762851999576,
+      "lpips": 0.35392460227012634,
+      "observed_psnr": 19.24993398127051,
+      "complement_psnr": 15.750658420401768,
+      "plane_support": 0.6458333333333334
+    },
+    {
+      "case": "0311_0308_0319",
+      "source": "datasets/matrixcity_fusion_20261116/aerial/0311.png",
+      "target": "0319.png",
+      "target_sha256": "6a7f3ea823cca239f69357f85a88b9390192965b1e2d6ec9c5f07644bba91533",
+      "method": "pointmap_matches",
+      "psnr": 17.670589305488335,
+      "ssim": 0.35958762851999576,
+      "lpips": 0.35392460227012634,
+      "observed_psnr": 19.24993398127051,
+      "complement_psnr": 15.750658420401768,
+      "plane_support": 0.6458333333333334
+    }
+  ],
+  "mean": {
+    "pointmap_matches": {
+      "lpips": 0.3451070487499237,
+      "psnr": 17.198461624839123,
+      "ssim": 0.3941969717005822
+    },
+    "pointmap_median": {
+      "lpips": 0.41395294666290283,
+      "psnr": 16.213754626703402,
+      "ssim": 0.2882747877446888
+    },
+    "pointmap_rays": {
+      "lpips": 0.345427284638087,
+      "psnr": 17.19565449033398,
+      "ssim": 0.3933828829091237
+    },
+    "pointmap_scale": {
+      "lpips": 0.37786146998405457,
+      "psnr": 16.52657573110991,
+      "ssim": 0.30215670421448965
+    }
+  }
+}

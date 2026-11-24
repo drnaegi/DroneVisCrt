@@ -1,0 +1,115 @@
+{
+  "rows": [
+    {
+      "case": "0000_0002_0001",
+      "source": "datasets/stereo_survey/drone_dataset_noema/0000.jpg",
+      "target": "0001.jpg",
+      "target_sha256": "822e154cad6bf491b8c713b0006a73303584ed16f305ebd613ec701e726d08c2",
+      "method": "mapanything_median",
+      "psnr": 21.50095533673014,
+      "ssim": 0.22460628133718488,
+      "lpips": 0.2027011662721634,
+      "observed_psnr": 21.53429508366889,
+      "complement_psnr": 19.566943500876725,
+      "plane_support": 0.9865515029325513
+    },
+    {
+      "case": "0016_0018_0017",
+      "source": "datasets/stereo_survey/drone_dataset_noema/0016.jpg",
+      "target": "0017.jpg",
+      "target_sha256": "63e43e00df067140ab8853f60dae236356acd2565663350d3d3738ea4fc562ee",
+      "method": "mapanything_median",
+      "psnr": 20.804002097197937,
+      "ssim": 0.5122279312652392,
+      "lpips": 0.1663914918899536,
+      "observed_psnr": 20.800357947904885,
+      "complement_psnr": 22.316274316160793,
+      "plane_support": 0.9971533632697948
+    },
+    {
+      "case": "0032_0034_0033",
+      "source": "datasets/stereo_survey/drone_dataset_noema/0032.jpg",
+      "target": "0033.jpg",
+      "target_sha256": "d38db61245dcb913591dd681eb59a1f6f3a5b8a2d21703424d62049b5c4fbef0",
+      "method": "mapanything_median",
+      "psnr": 24.112149624458045,
+      "ssim": 0.6516278440721602,
+      "lpips": 0.12818898260593414,
+      "observed_psnr": 24.12825555482165,
+      "complement_psnr": 20.975039755794374,
+      "plane_support": 0.9965175953079178
+    },
+    {
+      "case": "0048_0050_0049",
+      "source": "datasets/stereo_survey/drone_dataset_noema/0048.jpg",
+      "target": "0049.jpg",
+      "target_sha256": "4dae0e4b45038a9390b946d89e07a86c59ab50bdba9070015a09052d341a32c5",
+      "method": "mapanything_median",
+      "psnr": 24.958506176762594,
+      "ssim": 0.6065542907689796,
+      "lpips": 0.14850661158561707,
+      "observed_psnr": 24.9587314704498,
+      "complement_psnr": 24.90406232803924,
+      "plane_support": 0.9959047379032258
+    },
+    {
+      "case": "0064_0066_0065",
+      "source": "datasets/stereo_survey/drone_dataset_noema/0064.jpg",
+      "target": "0065.jpg",
+      "target_sha256": "91f72bbb705c9b39468f1b95564c0214835cb05cc01acc6563762aad5d575689",
+      "method": "mapanything_median",
+      "psnr": 21.559692390171147,
+      "ssim": 0.2329732053834179,
+      "lpips": 0.18762920796871185,
+      "observed_psnr": 21.57251973484054,
+      "complement_psnr": 19.931799724973637,
+      "plane_support": 0.9935564057917888
+    },
+    {
+      "case": "0080_0082_0081",
+      "source": "datasets/stereo_survey/drone_dataset_noema/0080.jpg",
+      "target": "0081.jpg",
+      "target_sha256": "23ea938f84e030885f98225851dbca2b7cf6a0835770bacd833c7a9d3f4b36f2",
+      "method": "mapanything_median",
+      "psnr": 23.65859827150836,
+      "ssim": 0.5893450559730663,
+      "lpips": 0.14896570146083832,
+      "observed_psnr": 23.664843543438447,
+      "complement_psnr": 22.14792520350929,
+      "plane_support": 0.9965576887829912
+    },
+    {
+      "case": "0096_0098_0097",
+      "source": "datasets/stereo_survey/drone_dataset_noema/0096.jpg",
+      "target": "0097.jpg",
+      "target_sha256": "b3d1f4ea869451a3268b1b0f5d20d76a3193ed87eedb205130feb04d1290100c",
+      "method": "mapanything_median",
+      "psnr": 23.68318009439853,
+      "ssim": 0.6052177898196528,
+      "lpips": 0.14501109719276428,
+      "observed_psnr": 23.691541261263556,
+      "complement_psnr": 21.962503156616414,
+      "plane_support": 0.9960593841642229
+    },
+    {
+      "case": "0112_0114_0113",
+      "source": "datasets/stereo_survey/drone_dataset_noema/0112.jpg",
+      "target": "0113.jpg",
+      "target_sha256": "5d7542aac5bee8a8bcf902edef1ee2c9ae86423595f55ae114c9ff06c7344250",
+      "method": "mapanything_median",
+      "psnr": 21.66481625394438,
+      "ssim": 0.26544443783574695,
+      "lpips": 0.21595942974090576,
+      "observed_psnr": 21.663176578371754,
+      "complement_psnr": 22.17483155813385,
+      "plane_support": 0.9966035098973607
+    }
+  ],
+  "mean": {
+    "mapanything_median": {
+      "lpips": 0.16791921108961105,
+      "psnr": 22.742737530646394,
+      "ssim": 0.46099960455693095
+    }
+  }
+}

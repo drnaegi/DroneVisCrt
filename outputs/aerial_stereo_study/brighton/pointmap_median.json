@@ -1,0 +1,26 @@
+{
+  "0000_0002_0001": {
+    "alignment": [],
+    "rgb_sha256": "a026d36a4bbd1e8d795f2693422aba51757582b670390aaf798c2e5e4d0c883a"
+  },
+  "0003_0005_0004": {
+    "alignment": [],
+    "rgb_sha256": "2657320c435918f3043c0e5118b0677d68ebea61ec96a16aa050abea8b052f6e"
+  },
+  "0006_0008_0007": {
+    "alignment": [],
+    "rgb_sha256": "ca1d3f333b0ae3e50a6418ccb10e062baf5c0e582b24617a53e5958c23516f8c"
+  },
+  "0009_0011_0010": {
+    "alignment": [],
+    "rgb_sha256": "8a3a621e4579f6ef57fa5393aeb1ea6582089482ed1f8c2dc75b492719e43e3c"
+  },
+  "0012_0014_0013": {
+    "alignment": [],
+    "rgb_sha256": "79397043e6e0461a1f0950243cca1da67d96fad16f416064532a99c78ac9b03f"
+  },
+  "0015_0017_0016": {
+    "alignment": [],
+    "rgb_sha256": "7369585d93a47717a6fa6a0c43976414bec5261062e4dcf888beb41e75040586"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "r_61_r_27_r_0": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "ef669dda674297487de9689248e44296a155e1f3c566789abedbbefc474c718a"
+  },
+  "r_66_r_12_r_8": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "3e48b24a7a5bbe9983d1b3e42e321aef2f727f8fd2f2d8387382f3ccc6b19cb8"
+  },
+  "r_45_r_23_r_16": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "dbf2e55ada7aea8fae8fa50b9f4684409487a32bd46a22aafff45c8291004c12"
+  },
+  "r_5_r_16_r_24": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "4491807ea2ca6f2f564ee368048a26989e7f929d5825fa1e77d172e5e7e55531"
+  },
+  "r_16_r_87_r_32": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "89c9c45cada7b41d6ea296a8075729ad51ec13db6db10e0b37a3d86ceeea101e"
+  },
+  "r_24_r_92_r_40": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "36a8ceeac1a94fd22fc4e0d1f754eaf7a7f3ce7b7e4f406533e2e6ea030c7b5f"
+  },
+  "r_28_r_73_r_160": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "8581b4110899dd211121bac4a47a5ddc95775bd3cb90f4aeba73b0d341bf28e5"
+  },
+  "r_80_r_73_r_168": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "3b9789988ce71737f571011b0978962e08e334eb474a9f9a3165151acb715af8"
+  },
+  "r_59_r_22_r_176": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "c958645b7b92533402c31cf07c90e9ee79e06c1e7339eea0e7d3ba36beafb8c5"
+  },
+  "r_22_r_59_r_184": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "8b064f7d3210d237a7b189125ade5117f9a7203cf4e3f2ad945a4f33c3430949"
+  },
+  "r_50_r_11_r_192": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "a2327cc9e0138d2d458c56e51dcb5209ef714deff3e7f76b0b5f78835fda6ab9"
+  }
+}

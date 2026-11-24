@@ -1,0 +1,82 @@
+{
+  "6332_6334_6333": {
+    "rgb_sha256": "cbcbd0aaebc23901a4bbf3d40b30724ce650ea755962062e3a8f2e069a90cab3",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.030280458809053022
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.04457054606797014
+      }
+    ],
+    "changed_fraction": 0.004277547200520833
+  },
+  "6433_6435_6434": {
+    "rgb_sha256": "3b525be890f92ba4a7c5b3d1858038458b81b58931233ed8ad8f4e029956ffe9",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      }
+    ],
+    "changed_fraction": 0.22091166178385416
+  },
+  "6520_6522_6521": {
+    "rgb_sha256": "15d6f88d910d6f0c4178c880cd5f9b02a7e862c079faf4c49920125afadd32c7",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      }
+    ],
+    "changed_fraction": 0.16026814778645834
+  },
+  "6949_6951_6950": {
+    "rgb_sha256": "cc963fd3dcff1c97c4fe50b76edb1fd1e0658a51cc160aaa86161ee28798ff76",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      }
+    ],
+    "changed_fraction": 0.004633585611979167
+  },
+  "9110_9114_9112": {
+    "rgb_sha256": "5798358078f5b9dc0a9417a2bcb38fea2c3fe4dea6d57a114d6748394785445d",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.03705901367920632
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.04208062894923421
+      }
+    ],
+    "changed_fraction": 0.0128021240234375
+  }
+}

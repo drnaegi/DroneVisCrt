@@ -1,0 +1,82 @@
+{
+  "6332_6334_6333": {
+    "rgb_sha256": "5feea2936d50fe0b6f7a3dd6c92bc286adaddb7ec4ad1b30d84a8131b9bff130",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.030280458809053022
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.04457054606797014
+      }
+    ],
+    "changed_fraction": 0.0
+  },
+  "6433_6435_6434": {
+    "rgb_sha256": "eaff0f886cc7db52c965897f221cddfbca3030d24af90c223a397ddbc73ff6f1",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      }
+    ],
+    "changed_fraction": 0.0
+  },
+  "6520_6522_6521": {
+    "rgb_sha256": "2e273878eb64456e1117e550a4bbc2cc940acf96d1b727d033349d78373569cd",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      }
+    ],
+    "changed_fraction": 0.0
+  },
+  "6949_6951_6950": {
+    "rgb_sha256": "1a1e803a4e0672890c5abc7e0658c1dd2abe41405a9c97316228877ba187f3ea",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      }
+    ],
+    "changed_fraction": 0.0
+  },
+  "9110_9114_9112": {
+    "rgb_sha256": "0f753ea16cf2bb1ac294e0fde07f27d58e2b1c750c930a24b2f14483de0245cd",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.03705901367920632
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.04208062894923421
+      }
+    ],
+    "changed_fraction": 0.0
+  }
+}

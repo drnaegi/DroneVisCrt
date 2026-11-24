@@ -1,0 +1,130 @@
+{
+  "6373_6372_6374": {
+    "alignment": [],
+    "rgb_sha256": "20f59937e85f330bbb15aa4c1e9d1539d4ba844e650ebffa867f6f2d2a3f965b"
+  },
+  "6373_6372_6375": {
+    "alignment": [],
+    "rgb_sha256": "261a3e3915900faea9d69a91a291b504fc8996c1dd5ab7d9901f17ff019dc0d8"
+  },
+  "6500_6501_6498": {
+    "alignment": [],
+    "rgb_sha256": "7f70dd111e27d356547a7c86f4db329dfa54bfef6730d14b2e915e24f7a0d5d7"
+  },
+  "6500_6501_6502": {
+    "alignment": [],
+    "rgb_sha256": "9922005063a04c7d51887ae9f405cc112801402fa73f64522bdc5102c5e81c43"
+  },
+  "6644_6645_6642": {
+    "alignment": [],
+    "rgb_sha256": "50be00b30afd4a4b5b251e759e3baa8bfa5b32a37d1adcd4b3edc6edc9dd883a"
+  },
+  "6644_6645_6646": {
+    "alignment": [],
+    "rgb_sha256": "69c4da5bd6f461caf43dc6776debf051bc7ea8e73192bfc59704c415b5447c6f"
+  },
+  "6664_6665_6662": {
+    "alignment": [],
+    "rgb_sha256": "1e191ec37c9ab56500e25129fc69d0461c3c04df275efefe0b4642c2e092f97e"
+  },
+  "6664_6665_6666": {
+    "alignment": [],
+    "rgb_sha256": "280cf51ae80b9d24371ea2fe0a71614ea02cc61a50f3d4926c3d7d07c5975cd8"
+  },
+  "6796_6797_6795": {
+    "alignment": [],
+    "rgb_sha256": "5843fda73eafa82cfdf0ef3c9c7cbd6eca040cd7328cff72f5a3dcd6714d4265"
+  },
+  "6796_6797_6798": {
+    "alignment": [],
+    "rgb_sha256": "ef56642df0ce262c6d36072db6a69a953df7bddef9f296e30f61767fdafb7862"
+  },
+  "6844_6845_6842": {
+    "alignment": [],
+    "rgb_sha256": "dd659a2d0828472a2f6d2f28b1e66e4cc15cde0a6e5b291ee8608228aac37cb1"
+  },
+  "6844_6845_6846": {
+    "alignment": [],
+    "rgb_sha256": "723cd64a5010a29aed8549c31d2735add061fb719e2ae5560cf60e18b196fa4d"
+  },
+  "6892_6893_6891": {
+    "alignment": [],
+    "rgb_sha256": "3f637005666a2f37d11d13eff58f5c1967b9401863150869e87d66cbb559a095"
+  },
+  "6892_6893_6894": {
+    "alignment": [],
+    "rgb_sha256": "c9d06026ec5afd01123e2c304cb78a8ac862f408732f6e014e889de67a19b330"
+  },
+  "6929_6928_6930": {
+    "alignment": [],
+    "rgb_sha256": "34a193b483b138aedb01a5110f39cc8d577c5e9a94c87ad09450a111b3c6e72a"
+  },
+  "6929_6928_6931": {
+    "alignment": [],
+    "rgb_sha256": "e02109ec5d5a39aeb110ca6159d759da7e870dfbe6e45b34932e0b99fd9e9273"
+  },
+  "7001_7000_7002": {
+    "alignment": [],
+    "rgb_sha256": "4dfe761a40a3ce2dfa5b612376d90b22043a0d5e1f1233c46702fd4a23edf44b"
+  },
+  "7001_7000_7003": {
+    "alignment": [],
+    "rgb_sha256": "5b8434114c88e1bd4d482cc8a06128db9e033659d201300a12eadec41bdeb1cb"
+  },
+  "7864_7865_7862": {
+    "alignment": [],
+    "rgb_sha256": "216c0f3e85cbdd5eeac23033ab4af54cafdee6d25b364e7e936e9bcc3374b7f7"
+  },
+  "7864_7865_7867": {
+    "alignment": [],
+    "rgb_sha256": "ba8a552109b1a08f0386c4c729a7c5d9480f7234789e9e03ec0ff97261752f0b"
+  },
+  "8388_8389_8386": {
+    "alignment": [],
+    "rgb_sha256": "c8b68ee10e4caddd517461e410d75219c8c0b499f1cb2188549b3345e9a93d4b"
+  },
+  "8388_8389_8390": {
+    "alignment": [],
+    "rgb_sha256": "c29f1aa795c51a163f76a87adecaeeab2ba61b91abd24806b365dbc39b09b9d2"
+  },
+  "8796_8797_8794": {
+    "alignment": [],
+    "rgb_sha256": "a6cdd3f6e927cc22dfdb05ab6d8343d3b699df25b259ece011ef1ae060f18df2"
+  },
+  "8796_8797_8798": {
+    "alignment": [],
+    "rgb_sha256": "c19598471d51a6102a9a5ee0cdbc0ef8cf258fb28412ec4d54477fad270cb3f7"
+  },
+  "8816_8817_8814": {
+    "alignment": [],
+    "rgb_sha256": "7b4fc980e58961cde12f77953168d97c09228ad18d1d67c618a868594f93a8cd"
+  },
+  "8816_8817_8818": {
+    "alignment": [],
+    "rgb_sha256": "02e7501e74292f245f59cac2f25b4573d5d83954bda35edd7f6ba6bda06eee91"
+  },
+  "9040_9041_9039": {
+    "alignment": [],
+    "rgb_sha256": "30647cc424b97b60d9cdb93dee654a8a9d66e436b866e654b4cb13fb6e17ac3b"
+  },
+  "9040_9041_9042": {
+    "alignment": [],
+    "rgb_sha256": "b94272f4af9ff6c161ae594cd2c05abb2e0583fa08dc6b376203df13a055044e"
+  },
+  "9060_9061_9058": {
+    "alignment": [],
+    "rgb_sha256": "df8a9fb85ad636ab601e8f156a0e2eb2155d85d4ebb59a4a441faa3f27f65f9b"
+  },
+  "9060_9061_9062": {
+    "alignment": [],
+    "rgb_sha256": "a51515b841f592e78e80bddfdf5edd9c3ab96a635d25e08c7fd156bc2b672531"
+  },
+  "9080_9081_9078": {
+    "alignment": [],
+    "rgb_sha256": "0b81637fbf7a5b60e36efe9f32bbaff21454dc44114c3a67eb7826f4d87fcc9a"
+  },
+  "9080_9081_9079": {
+    "alignment": [],
+    "rgb_sha256": "0137ab115ef5a441062f91e2ba999c4237cdd8ed237ac923d23ce168a83223e2"
+  }
+}

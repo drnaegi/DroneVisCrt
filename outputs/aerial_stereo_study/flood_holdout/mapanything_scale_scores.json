@@ -1,0 +1,76 @@
+{
+  "rows": [
+    {
+      "case": "6332_6334_6333",
+      "source": "datasets/floodnet_joint/images/6332.jpg",
+      "target": "6333.jpg",
+      "target_sha256": "f970e9a1f2c8d1be8ed54b98f26e1321399781da0f43ed650d65861ebc708e67",
+      "method": "mapanything_median",
+      "psnr": 25.209030444674724,
+      "ssim": 0.6318153953525257,
+      "lpips": 0.0907137393951416,
+      "observed_psnr": 25.208980178577455,
+      "complement_psnr": 25.5293440948976,
+      "plane_support": 0.9998372395833334
+    },
+    {
+      "case": "6433_6435_6434",
+      "source": "datasets/floodnet_joint/images/6433.jpg",
+      "target": "6434.jpg",
+      "target_sha256": "bfeeea5cf2c5823bafec42a7c71144b0226caa59eef5066318691a35a1ac49fc",
+      "method": "mapanything_median",
+      "psnr": 21.246362804768516,
+      "ssim": 0.449533689293395,
+      "lpips": 0.19242022931575775,
+      "observed_psnr": 21.26336948804593,
+      "complement_psnr": 20.66241576763495,
+      "plane_support": 0.9735616048177084
+    },
+    {
+      "case": "6520_6522_6521",
+      "source": "datasets/floodnet_joint/images/6520.jpg",
+      "target": "6521.jpg",
+      "target_sha256": "c5b89d3d8a451ca94f8f594e15e747fb7f733e8ce008402c43ae371afe2723f5",
+      "method": "mapanything_median",
+      "psnr": 21.72980214398775,
+      "ssim": 0.3628419022405156,
+      "lpips": 0.25843849778175354,
+      "observed_psnr": 21.728256317865,
+      "complement_psnr": 22.116588303039094,
+      "plane_support": 0.9958394368489584
+    },
+    {
+      "case": "6949_6951_6950",
+      "source": "datasets/floodnet_joint/images/6949.jpg",
+      "target": "6950.jpg",
+      "target_sha256": "d541975b0ddcd0eeba8780dd02f7928afa895b0cb405b4d5b1bbd6010d5b159e",
+      "method": "mapanything_median",
+      "psnr": 18.140249682695988,
+      "ssim": 0.48330475715731397,
+      "lpips": 0.2672460377216339,
+      "observed_psnr": 18.11866239453333,
+      "complement_psnr": 21.6866667496966,
+      "plane_support": 0.99114990234375
+    },
+    {
+      "case": "9110_9114_9112",
+      "source": "datasets/floodnet_joint/images/9110.jpg",
+      "target": "9112.jpg",
+      "target_sha256": "fbadacdb387ba64670481833b9dc48b9ce37a179e50e2660d2bdc2552b7d2d8a",
+      "method": "mapanything_median",
+      "psnr": 22.39848973238667,
+      "ssim": 0.5844287081433326,
+      "lpips": 0.08583127707242966,
+      "observed_psnr": 22.40311650664399,
+      "complement_psnr": 19.759011601877262,
+      "plane_support": 0.9987284342447916
+    }
+  ],
+  "mean": {
+    "mapanything_median": {
+      "lpips": 0.1789299562573433,
+      "psnr": 21.74478696170273,
+      "ssim": 0.5023848904374166
+    }
+  }
+}

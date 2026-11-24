@@ -1,0 +1,242 @@
+{
+  "0000_0004_0002": {
+    "rgb_sha256": "1709bf7362c2e259b5319b421654ea825596b9876005b5f83b5036785a5d86ab",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.026123314096826753
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.018520464387292993
+      }
+    ],
+    "changed_fraction": 0.0
+  },
+  "0018_0022_0020": {
+    "rgb_sha256": "bdbd9bb2ce65d1e3c6acdf654e48da595eafe5bf4621941cc5db13fd5403d4b2",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      }
+    ],
+    "changed_fraction": 0.0
+  },
+  "0036_0040_0038": {
+    "rgb_sha256": "9c1a355f8a35c8e55959de88a0da77f2a75a0ccf8ece5dd769663d8a38757f80",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      }
+    ],
+    "changed_fraction": 0.0
+  },
+  "0054_0058_0056": {
+    "rgb_sha256": "c97a935790c7555e75987d02da1f68418626f68b9bb6184eed209b1eaf555ea2",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.01678816342594814
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.03084700060710485
+      }
+    ],
+    "changed_fraction": 0.0
+  },
+  "0072_0076_0074": {
+    "rgb_sha256": "416153ef0ae67d56fe601868ddc544e2e214f587fa32514adbc115487479c877",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.04054152769027001
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.04616172829807482
+      }
+    ],
+    "changed_fraction": 0.0
+  },
+  "0090_0094_0092": {
+    "rgb_sha256": "0e64f3d614474e1c0d3a24e98d667385d9bb1043ecadba651e4a57fa49600a25",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      }
+    ],
+    "changed_fraction": 0.0
+  },
+  "0108_0112_0110": {
+    "rgb_sha256": "fc66edbdf3611349499b0dbf054fb18c0a58dbab8d6e8b219a6011e1967f50dc",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.015998367809860237
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.01203234901334851
+      }
+    ],
+    "changed_fraction": 0.0
+  },
+  "0126_0130_0128": {
+    "rgb_sha256": "a56ca1ebc36c8e35e5022331911087fbf243865a51321f45929ad3c39edfbc94",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.0178184683572896
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.026427983788658044
+      }
+    ],
+    "changed_fraction": 0.0
+  },
+  "0144_0148_0146": {
+    "rgb_sha256": "ca2dbd9df305a3073f5b35ca05c903a29bea6c491ec57a067e88a6da192dcce9",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      }
+    ],
+    "changed_fraction": 0.0
+  },
+  "0162_0166_0164": {
+    "rgb_sha256": "78699b96438787c1689b5446525a2347838e18c9ba463ec4da3eb6f19979cdea",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.004293758303681931
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.029639460352711453
+      }
+    ],
+    "changed_fraction": 0.0
+  },
+  "0180_0184_0182": {
+    "rgb_sha256": "48f546f8aa63b1b3e27f128ed9a862076f316061b62b0e3b5385dd248e55f811",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.00765354160860387
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.02227468642856712
+      }
+    ],
+    "changed_fraction": 0.0
+  },
+  "0198_0202_0200": {
+    "rgb_sha256": "fdb3f9679c22a370d75139db14999a54cad3232312069465611d44b1fa0bbc4d",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      }
+    ],
+    "changed_fraction": 0.0
+  },
+  "0216_0220_0218": {
+    "rgb_sha256": "5c832b02017fda02854af7443a134d16b078d5656baac030e046cb15146c7df0",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      }
+    ],
+    "changed_fraction": 0.0
+  },
+  "0234_0238_0236": {
+    "rgb_sha256": "a72b4b84ae8138446a2f35133d6387aa4bf9cedfd3e17bd159e323b71540360f",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      }
+    ],
+    "changed_fraction": 0.0
+  },
+  "0252_0256_0254": {
+    "rgb_sha256": "101577a572251e58741b1897163af1e0b26a07c787a55c7539379493d838a3b5",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.039331028426995256
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.011127189939331506
+      }
+    ],
+    "changed_fraction": 0.0
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "0020_0010_0019": {
+    "alignment": [],
+    "rgb_sha256": "5cd87f4375618675ef2bb86370e48184066b821b08e29c949f330b7f80c3d609"
+  },
+  "0028_0030_0029": {
+    "alignment": [],
+    "rgb_sha256": "f8c84a53008aeea65d0dc3dd78f887840f5a74e57da30fd7e0b493393a99bd8d"
+  },
+  "0040_0038_0039": {
+    "alignment": [],
+    "rgb_sha256": "eeb28a4eac7d8744886bc8652d5b2b8af81616b229d723ddf59b57de29488725"
+  },
+  "0048_0050_0049": {
+    "alignment": [],
+    "rgb_sha256": "92b0993ff462a9d61809a9e1074dfc7db565fed7473cb7fd90c941e5a2c567b7"
+  },
+  "0190_0180_0189": {
+    "alignment": [],
+    "rgb_sha256": "058bb72cc252a31e50bad8eed025e14bdf148aedd1ccf1fc153bcf82b85cf149"
+  },
+  "0198_0190_0199": {
+    "alignment": [],
+    "rgb_sha256": "603b2f0ae7cf07c0d5a8f2a9ed11758981d3d64ed84893e0e51c8d17c05b3bbb"
+  },
+  "0290_0298_0289": {
+    "alignment": [],
+    "rgb_sha256": "7e1fdf5f45c524ab0ed0b02fa49f7ad36574571783e362c955b972a027178759"
+  },
+  "0298_0300_0299": {
+    "alignment": [],
+    "rgb_sha256": "3d899c514e32a07974f0ef4db7cdf0dd888a515b51cd9cf27b525c7917d06ae8"
+  },
+  "0310_0308_0309": {
+    "alignment": [],
+    "rgb_sha256": "6aa4ca6daf6a6f754eb60834d2e50a50a8be66cfcd34d52891122319e78f8c0f"
+  },
+  "0318_0320_0319": {
+    "alignment": [],
+    "rgb_sha256": "400aff1e5444526ee8ff9bc13753f66d9da01a8c21e77a6d31c0d0c10159b2a2"
+  },
+  "0350_0358_0349": {
+    "alignment": [],
+    "rgb_sha256": "ff6dd293890108e1ddd18443f9f37b9f8b205ce861de9a2b5d798c03ed89fbc2"
+  },
+  "0358_0368_0359": {
+    "alignment": [],
+    "rgb_sha256": "f20fa0137fff3b976c21a8cd0b7219b8abbb54860c993a4595e6cf12aa33250d"
+  }
+}

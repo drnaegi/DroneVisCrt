@@ -1,0 +1,96 @@
+{
+  "0000_0002_0001": {
+    "fits": [
+      {
+        "model": "plane",
+        "errors": {}
+      },
+      {
+        "model": "plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "1b65d8855cac5586e4b8dee97f83b26bf58791b2505895f55f2e24899d716651"
+  },
+  "0003_0005_0004": {
+    "fits": [
+      {
+        "model": "plane",
+        "errors": {}
+      },
+      {
+        "model": "plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "c2530e3264d7b90ff2720f6993b7b3e660e6b9deb93edf1fe1edcbdf77e14d26"
+  },
+  "0006_0008_0007": {
+    "fits": [
+      {
+        "model": "plane",
+        "errors": {}
+      },
+      {
+        "model": "plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "ccc423c9cb2015c0014258835c3ed76ce1cdf93c485f23b6b016e6c0199d7bdf"
+  },
+  "0009_0011_0010": {
+    "fits": [
+      {
+        "model": "plane",
+        "errors": {
+          "plane": 0.02478543792777765,
+          "altitude": 0.024865700459698867,
+          "mono_shape": 0.024865700459698867
+        }
+      },
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.024829326029239634,
+          "altitude": 0.0249118551047455,
+          "mono_shape": 0.01939915600850639
+        }
+      }
+    ],
+    "rgb_sha256": "c14c7037d64ec5264a3b248660674f8a9d04ba5ad5c2a9c2224d9cb3ea76ca7f"
+  },
+  "0012_0014_0013": {
+    "fits": [
+      {
+        "model": "plane",
+        "errors": {
+          "plane": 0.0420660355121216,
+          "altitude": 0.03980576999547616,
+          "mono_shape": 0.03980576999547616
+        }
+      },
+      {
+        "model": "plane",
+        "errors": {
+          "plane": 0.042150187172797345,
+          "altitude": 0.03762668185586626,
+          "mono_shape": 0.03762668185586626
+        }
+      }
+    ],
+    "rgb_sha256": "9829a68abfaecd4e9e7ebdb366ec025d7649f2f3cad7f439061b6fffc1806ae1"
+  },
+  "0015_0017_0016": {
+    "fits": [
+      {
+        "model": "plane",
+        "errors": {}
+      },
+      {
+        "model": "plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "b7a12855b56974ccd1e898c4b459f41c7a1ddd724adeb3984912a68e7e70c79d"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "device": "NVIDIA GeForce RTX 4090",
+  "omp_threads": "2",
+  "openblas_threads": "1",
+  "scope": "From loaded RGB arrays and network weights through both axial depth maps. Excludes I/O, common RAFT and rendering. Alternating order. One warm-up pair.",
+  "rows": [
+    {
+      "case": "Town02_00499_20_Town02_00499_80_Town02_00499_50",
+      "seconds": {
+        "rays": 0.1595029211603105,
+        "optimizer": 5.611176930135116
+      }
+    },
+    {
+      "case": "Town02_01499_20_Town02_01499_80_Town02_01499_50",
+      "seconds": {
+        "optimizer": 5.722839245107025,
+        "rays": 0.18356159212999046
+      }
+    },
+    {
+      "case": "Town02_02499_20_Town02_02499_80_Town02_02499_50",
+      "seconds": {
+        "rays": 0.1612133679445833,
+        "optimizer": 5.795687173958868
+      }
+    },
+    {
+      "case": "Town05_00499_20_Town05_00499_80_Town05_00499_50",
+      "seconds": {
+        "optimizer": 5.529830310028046,
+        "rays": 0.14500293508172035
+      }
+    },
+    {
+      "case": "Town05_01499_20_Town05_01499_80_Town05_01499_50",
+      "seconds": {
+        "rays": 0.13450430589728057,
+        "optimizer": 5.637000211980194
+      }
+    },
+    {
+      "case": "Town05_02499_20_Town05_02499_80_Town05_02499_50",
+      "seconds": {
+        "optimizer": 5.555876715108752,
+        "rays": 0.15363007318228483
+      }
+    },
+    {
+      "case": "Town06_00499_20_Town06_00499_80_Town06_00499_50",
+      "seconds": {
+        "rays": 0.13762965495698154,
+        "optimizer": 5.650344948051497
+      }
+    },
+    {
+      "case": "Town06_01499_20_Town06_01499_80_Town06_01499_50",
+      "seconds": {
+        "optimizer": 5.6391935450956225,
+        "rays": 0.14701092685572803
+      }
+    },
+    {
+      "case": "Town06_02499_20_Town06_02499_80_Town06_02499_50",
+      "seconds": {
+        "rays": 0.13472840399481356,
+        "optimizer": 5.485258407890797
+      }
+    },
+    {
+      "case": "Town10HD_00499_20_Town10HD_00499_80_Town10HD_00499_50",
+      "seconds": {
+        "optimizer": 5.629556434927508,
+        "rays": 0.15645954385399818
+      }
+    },
+    {
+      "case": "Town10HD_01499_20_Town10HD_01499_80_Town10HD_01499_50",
+      "seconds": {
+        "rays": 0.13397165201604366,
+        "optimizer": 5.686702449107543
+      }
+    },
+    {
+      "case": "Town10HD_02499_20_Town10HD_02499_80_Town10HD_02499_50",
+      "seconds": {
+        "optimizer": 5.837357512908056,
+        "rays": 0.1994831881020218
+      }
+    }
+  ],
+  "median_seconds": {
+    "rays": 0.15032050001900643,
+    "optimizer": 5.638096878537908
+  }
+}

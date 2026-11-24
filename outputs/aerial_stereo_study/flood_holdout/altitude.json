@@ -1,0 +1,67 @@
+{
+  "6332_6334_6333": {
+    "fits": [
+      {
+        "model": "altitude",
+        "errors": {}
+      },
+      {
+        "model": "altitude",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "ab7aaa846ad367b877bf1ec95992a3279b14d7ea032cc5751980d5a8ee737949"
+  },
+  "6433_6435_6434": {
+    "fits": [
+      {
+        "model": "altitude",
+        "errors": {}
+      },
+      {
+        "model": "altitude",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "ddcceb52e4da1d8ef889db0eb59e7fecdb24abaf4b4705c55ee7130b187a4986"
+  },
+  "6520_6522_6521": {
+    "fits": [
+      {
+        "model": "altitude",
+        "errors": {}
+      },
+      {
+        "model": "altitude",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "ca59440befc79a2bc0da25a78599067cfa85662013edb3b85cb1304758d7e0f9"
+  },
+  "6949_6951_6950": {
+    "fits": [
+      {
+        "model": "altitude",
+        "errors": {}
+      },
+      {
+        "model": "altitude",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "a2665266b76d8b9e5261c1aab600dd3d15793f912448e828d4c2e0fd5ec5c1d0"
+  },
+  "9110_9114_9112": {
+    "fits": [
+      {
+        "model": "altitude",
+        "errors": {}
+      },
+      {
+        "model": "altitude",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "5db2cd30dc08947afb147871534777886a76a8b5e04d3faa9d0b5c587b6a8d78"
+  }
+}

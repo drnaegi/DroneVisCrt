@@ -1,0 +1,210 @@
+{
+  "0000_0002_0001": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "3c5f96852e51cdf86594d8514cff404eb621de3e18b2bde019c4f64ac98fbfd6"
+  },
+  "0004_0006_0005": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "b6ae711c9ebf45ff82d3da09662cf962cd74379702d64de7034511aa7f59c64d"
+  },
+  "0008_0010_0009": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "9df8bc0f964508bcd22630288c224b589e5fe1080cc0052339a33cb6e18ca553"
+  },
+  "0012_0014_0013": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "019459a4462c5dcbe246d647ae9b662e0b7eb1cf72770dafe867bf143e83b8eb"
+  },
+  "0016_0018_0017": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "db4e2d3213f0e68def38f3952fddd91c5ef211903cc970b05c21486248b651da"
+  },
+  "0020_0022_0021": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "670c67fb6e39bf59c0e30492eacff9cefb19c0524bb374940cbbab688be3d249"
+  },
+  "0024_0026_0025": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "ae6fcb30e8c03148814221a398bd70370e9df2e428719a6e912cee309125d713"
+  },
+  "0028_0030_0029": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "ac8bc29be0c1bfca420bb17a2a0e099749466a0ba82609cd9bfc08b4a43a4bb8"
+  },
+  "0032_0034_0033": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "2bf1051ff8b8ee9be9e278117696de1d9079fb91e41c0583ce311ab630a1e3d8"
+  },
+  "0036_0038_0037": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "8c1f0ee6f6d619734703497759e3ffb95a65a1041b576f6f4e960530af9d9465"
+  },
+  "0040_0042_0041": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "49a33a92f3e9122c4743a59b1c66d03ff298c5bf740376567ea2f379f93ed983"
+  },
+  "0044_0046_0045": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "1ed2d9edada38a48b2c7cdc918b7490259b2fc4df5b927ae05b5a86909303197"
+  },
+  "0048_0050_0049": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "757b86102ffbfa93774def8ad87e6df0954e440ab2fa4da2cc5dff10e662b67e"
+  },
+  "0052_0054_0053": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "61d450f14d0b8afa4343260731290936d21578d595b00cf084016ef417afdf9c"
+  },
+  "0056_0058_0057": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "316081cc52bad43edcc3e51837776e5fe26ada49eb14e935e886b9a54cb23ee7"
+  },
+  "0060_0062_0061": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "6aa9f0f6aae93c080f015209c50f674bb2aa7c41d9ecba458935c75ad9dfc5cc"
+  }
+}

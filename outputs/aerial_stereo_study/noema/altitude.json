@@ -1,0 +1,106 @@
+{
+  "0000_0002_0001": {
+    "fits": [
+      {
+        "model": "altitude",
+        "errors": {}
+      },
+      {
+        "model": "altitude",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "69add9ed801b3f9e03c71a1456c44e586651f469016890d586508d1097cfac40"
+  },
+  "0016_0018_0017": {
+    "fits": [
+      {
+        "model": "altitude",
+        "errors": {}
+      },
+      {
+        "model": "altitude",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "a008f1aa39fce851356772df2209725e9b3367ad5c4be23a8d515e670ae59c24"
+  },
+  "0032_0034_0033": {
+    "fits": [
+      {
+        "model": "altitude",
+        "errors": {}
+      },
+      {
+        "model": "altitude",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "9ad45e2e03c8be66d9925f525338aee75fb7929095f265178d53636e70408242"
+  },
+  "0048_0050_0049": {
+    "fits": [
+      {
+        "model": "altitude",
+        "errors": {}
+      },
+      {
+        "model": "altitude",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "d3b7b36484bda93a0502c96e9cd7f1a14c8eb102db341291ff35fe8eba8fc2fc"
+  },
+  "0064_0066_0065": {
+    "fits": [
+      {
+        "model": "altitude",
+        "errors": {}
+      },
+      {
+        "model": "altitude",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "e44cb722b7f2fd38ec64931e86d4d9bb27b758c99b87cf9d6bb7ef7181c0b4e6"
+  },
+  "0080_0082_0081": {
+    "fits": [
+      {
+        "model": "altitude",
+        "errors": {}
+      },
+      {
+        "model": "altitude",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "d804fcf529f840516b61723dee1c16dfc038a4503e56fd7fcd19b6b99b4ab563"
+  },
+  "0096_0098_0097": {
+    "fits": [
+      {
+        "model": "altitude",
+        "errors": {}
+      },
+      {
+        "model": "altitude",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "c460c7b2ded7ee8b3d135300c1a66803ae3b17c4bfda86e2a74700bf4bd8591e"
+  },
+  "0112_0114_0113": {
+    "fits": [
+      {
+        "model": "altitude",
+        "errors": {}
+      },
+      {
+        "model": "altitude",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "b1b306bd820bef938047d17efd6a178a489b4dda95299ac461c15dd065895d01"
+  }
+}

@@ -1,0 +1,418 @@
+{
+  "6373_6372_6374": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "921907d582563a9d65f871e7bf2df08a2412a5e1ca4094b9cf2cfe7162e691a7"
+  },
+  "6373_6372_6375": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "0ce35029cebf1c83c2b0010a80ab53def7def96ea9a217994da41eaf47b6e685"
+  },
+  "6500_6501_6498": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "602f8dceb1f5f54572743ea4b16915e74c82d51ec36b062259e5a8d405ad8438"
+  },
+  "6500_6501_6502": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "1f3df9ccd6253b565e5844545a48dc07a4e439d59d0f551d6ad566a27a3b79e1"
+  },
+  "6644_6645_6642": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "e238cbd83c557be52f3d5236068e31c78474e7a3bb2a187db2211dbae5747fc8"
+  },
+  "6644_6645_6646": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "8235a27875a9752f8aae5093f60a814c91a27ad55b12b6898c5be0acc45d5afc"
+  },
+  "6664_6665_6662": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "59e4b2d6ef4e51c0e0e7260ae84161b4695b890c6943b6e8599bc3b4fd230b8b"
+  },
+  "6664_6665_6666": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "66b671fa5b54af684b6a8f6efb390b48438752fce429be8c2f1f2cea519c5457"
+  },
+  "6796_6797_6795": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "742fb9d0e876ef6d8834173c762b6106133ce92bb21ba8a5d2371422f61bb07d"
+  },
+  "6796_6797_6798": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "02787ac40ca8ccb1ee25f832e7d59d111cba4bafb753db185447453acc465b96"
+  },
+  "6844_6845_6842": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "0f094d0fdec29130ce73b0f3bbcb585a9a97ac0b0a2283b0d5e6ee170d1fc6df"
+  },
+  "6844_6845_6846": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "871be2966b73a5e4ca3fe12bb604471f0b92bc49d43754574b4d0f68e7074ba6"
+  },
+  "6892_6893_6891": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "47752e7658973f6352873757508a86ce99b94e525d87694f914442cb669e6ff0"
+  },
+  "6892_6893_6894": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "5639735483cfc959b8c7968e4de6032ee98881658b51bf55c2723c90fb9a3132"
+  },
+  "6929_6928_6930": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "46ed217371ee9e8fee263c43a80642f8a0bef0039772403b292135dcc2a58cf5"
+  },
+  "6929_6928_6931": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "aa7285f94466f1b3318a417672dfc1271b279762f4a33ed8d323b3220036761a"
+  },
+  "7001_7000_7002": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "022f1f06d33384787d6f55d1cc43ed253b26f8070af4123d9028b1a12ef351d3"
+  },
+  "7001_7000_7003": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "cba75a0e0d0a512a5df397d9b4432a1893885bb858cad1fc41f942c3cdde6080"
+  },
+  "7864_7865_7862": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "609eec59a8e72e22633bc8902a137fd429bbbb22d70cf16f19c0786e8e1e15e5"
+  },
+  "7864_7865_7867": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "c8d8f7da4676701c9040dfc005ff9a6b23c795a10be6f62a03a27cc87bb44905"
+  },
+  "8388_8389_8386": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "68dc19eae3cd3fd0cebadc5cf0677e7c1d8248b9320245f1dded4e783782e5bf"
+  },
+  "8388_8389_8390": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "9e678708d16ce8bba90466e4ed00d66071e25b6fec32d1420cebcb13ce687aa0"
+  },
+  "8796_8797_8794": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "7bf1ca96c6de076388c1000f73788fb956b78a7f04d6c41db72e310f6fc6c73a"
+  },
+  "8796_8797_8798": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "76e912f153dd85e24528d9c82de423ac7fb608753d5333a59ab2cc3acdaaa9c7"
+  },
+  "8816_8817_8814": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "016d1f5a589ab193c6a4b95f03ac3e988571282dc81f0da15aff30f9accab6a3"
+  },
+  "8816_8817_8818": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "a37dad8df80c903a820cce9a0c7cb4599d142bf5bf81f8fa259409e72e166804"
+  },
+  "9040_9041_9039": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "dc8b4d2bd4aad67708a4b6486649f150aaa2b63fb7b9b2288f2cf031b33dd14e"
+  },
+  "9040_9041_9042": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "838b70d181330bec8a7ebc02283e67f896373275e961054012a12ca2db1c0522"
+  },
+  "9060_9061_9058": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "5e2f73f65982b4d045cad6e9a8e5a8af5e28da17d9e1c26347272620925477e5"
+  },
+  "9060_9061_9062": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "d19fee3cecb4f101267b2b0a34bec081bf33eb2210c4fd8f0a4d0bf7e0af2d8a"
+  },
+  "9080_9081_9078": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "e76405648636778698f4687ca7964314c92892d57ebf140b23c1b2f7a3c6664f"
+  },
+  "9080_9081_9079": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "54fa828b63e81948290b206d90caa5110ebd5372b1f0deedd9193bab9fefe965"
+  }
+}

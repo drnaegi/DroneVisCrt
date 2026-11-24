@@ -1,0 +1,66 @@
+{
+  "0000_0002_0001": {
+    "alignment": [],
+    "rgb_sha256": "bbaba26517326a73211a34b83c83a17c73d7f1f5602b2f424810081e461fed0c"
+  },
+  "0004_0006_0005": {
+    "alignment": [],
+    "rgb_sha256": "9b22cb8ecda86e9dd651be960629a200b5e2230a05c862674adf4280f9d2c112"
+  },
+  "0008_0010_0009": {
+    "alignment": [],
+    "rgb_sha256": "e0577b295cbaba52d0d41d93e55c3acaa76a00c4642263c6d07d1a15492eb476"
+  },
+  "0012_0014_0013": {
+    "alignment": [],
+    "rgb_sha256": "11f6c4b88570c023163d97f5464884c3f641b0435d13a35d13585eca76d01ce8"
+  },
+  "0016_0018_0017": {
+    "alignment": [],
+    "rgb_sha256": "c3595c09bb084445d21109efd6f1168a46d5429e6e36f513b585c2f41fd3c03d"
+  },
+  "0020_0022_0021": {
+    "alignment": [],
+    "rgb_sha256": "5e94fc03de987045de37ffdddeaebd4f67ce074f6bdccac93506201acf679583"
+  },
+  "0024_0026_0025": {
+    "alignment": [],
+    "rgb_sha256": "8bcd2ac1b005b4b9923a070c15a7cebe1553c2c7fee415f55827c8c35690039f"
+  },
+  "0028_0030_0029": {
+    "alignment": [],
+    "rgb_sha256": "da15b66fa4ed5275e8bb92b2bf288d7f896bb1b0cee82242477b7103c77a7dfa"
+  },
+  "0032_0034_0033": {
+    "alignment": [],
+    "rgb_sha256": "19908eec6ae813114992d644cbcb5ffdfddc3fa09e64e5f29eb32dc85dfa77c3"
+  },
+  "0036_0038_0037": {
+    "alignment": [],
+    "rgb_sha256": "522955dc4711c5d530ec5f706ce1934f4be0c2420b0adee595cf2396d7b4e692"
+  },
+  "0040_0042_0041": {
+    "alignment": [],
+    "rgb_sha256": "8f492818d59e686826e3c9b48fa4175a82ee4ba36ce8f9bb2ae502b22fee4026"
+  },
+  "0044_0046_0045": {
+    "alignment": [],
+    "rgb_sha256": "9edbcb67f05a40867e4a56de63bc666f5e3be127a478daaf48dea0a2eea201c1"
+  },
+  "0048_0050_0049": {
+    "alignment": [],
+    "rgb_sha256": "0291767fa1ef0343e85e5fc7043076414f97dd937a30f2194ee5ccf39bbae193"
+  },
+  "0052_0054_0053": {
+    "alignment": [],
+    "rgb_sha256": "4bc03e4860c286023b7fe869bfbff579d2ef4b4051429254284778267bde88dc"
+  },
+  "0056_0058_0057": {
+    "alignment": [],
+    "rgb_sha256": "835fca5e5c2bffec6b364b52a2e979b89666f95a971c1bba746dffb8065fb18e"
+  },
+  "0060_0062_0061": {
+    "alignment": [],
+    "rgb_sha256": "1f310e6c82df4d8a0b6babc7a64e97a4244fe7b3e9cd6320582dc6d160ad3a9c"
+  }
+}

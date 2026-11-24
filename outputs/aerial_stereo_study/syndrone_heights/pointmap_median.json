@@ -1,0 +1,22 @@
+{
+  "Town01_height20_source_rgb_height80_source_rgb_height50_source_rgb": {
+    "alignment": [],
+    "depth_sha256": "5c87c92bc8a3271654a15c9c5f9dd60206c560bfa1e99f8ece0d0e962691b616",
+    "rgb_sha256": "fe2742946cf2deab3eba0944e9a2703b6712b24acc4bcdae2d12dac28491907d"
+  },
+  "Town03_height20_source_rgb_height80_source_rgb_height50_source_rgb": {
+    "alignment": [],
+    "depth_sha256": "59e22619541598febc56b95d07d48b15a51d51b6be9d689b66557f6351a584cb",
+    "rgb_sha256": "2d62ed77ae0d05dfe1be9f4c332ab4d393d04631a5b85c3b47fe0ed7f852014a"
+  },
+  "Town04_height20_source_rgb_height80_source_rgb_height50_source_rgb": {
+    "alignment": [],
+    "depth_sha256": "7b8bc721da4c2d61c943cfd3990841cbb739f745226a4a41c460a4f4e3c0a4ba",
+    "rgb_sha256": "2c692110e4549f68ce6c80761167fa7c7b0fba62e57162c77a5d1b522fbd6897"
+  },
+  "Town07_height20_source_rgb_height80_source_rgb_height50_source_rgb": {
+    "alignment": [],
+    "depth_sha256": "10f81331f2d5828dc3801fc7d28e9a45b3796df531a10fc8756012f383ae4a33",
+    "rgb_sha256": "31465da9f015b119aea676a01a34af1e46d7ad3ca135e7dd5fa9f6ce7e11d683"
+  }
+}

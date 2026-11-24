@@ -1,0 +1,30 @@
+{
+  "Town01_height20_source_rgb_height80_source_rgb_height50_source_rgb": {
+    "rgb_sha256": "de812f9f7469bf5ebde83dd3925de75efbcd3a27d813e08b007db096e908f4fa",
+    "valid_depth": [
+      0.8206719292534722,
+      0.8126220703125
+    ]
+  },
+  "Town03_height20_source_rgb_height80_source_rgb_height50_source_rgb": {
+    "rgb_sha256": "2aa34085b9afe8a690ed42a1a2daa383aabb78c9a06b4c0a4682f46b3f95a0d8",
+    "valid_depth": [
+      0.8434651692708334,
+      0.9002685546875
+    ]
+  },
+  "Town04_height20_source_rgb_height80_source_rgb_height50_source_rgb": {
+    "rgb_sha256": "aaf1bdb2bb119cf441c8f567fe14ac48d29cc55f577794ff2c254e9ac681fe04",
+    "valid_depth": [
+      0.8633151584201388,
+      0.7594875759548612
+    ]
+  },
+  "Town07_height20_source_rgb_height80_source_rgb_height50_source_rgb": {
+    "rgb_sha256": "3e42c61f011ad218337ab2875ebf38918d394c222e4368a9366e495f12ab4331",
+    "valid_depth": [
+      0.7674763997395834,
+      0.9122178819444444
+    ]
+  }
+}

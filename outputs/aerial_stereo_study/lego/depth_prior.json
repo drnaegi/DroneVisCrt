@@ -1,0 +1,233 @@
+{
+  "r_61_r_27_r_0": {
+    "fits": [
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.13116774203975917,
+          "altitude": 0.13048808879638665,
+          "mono_shape": 0.02366014950296106
+        }
+      },
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.13837584091459892,
+          "altitude": 0.14144470525733174,
+          "mono_shape": 0.03256633235308854
+        }
+      }
+    ],
+    "rgb_sha256": "2b696b12278227f6313f84299d85178d5e5563ea2bb452ba9463381c2f31c9ed"
+  },
+  "r_66_r_12_r_8": {
+    "fits": [
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.15501963584767528,
+          "altitude": 0.1405123316313493,
+          "mono_shape": 0.012935652329632976
+        }
+      },
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.1437738240921088,
+          "altitude": 0.15366866434083773,
+          "mono_shape": 0.016735131393389124
+        }
+      }
+    ],
+    "rgb_sha256": "3d99bb3ffafc819ef20d6024118c5d608bdd9b2dafb1d198d7e3ee93abe5b1ae"
+  },
+  "r_45_r_23_r_16": {
+    "fits": [
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.12922431538674434,
+          "altitude": 0.12815146872079874,
+          "mono_shape": 0.016705259932870687
+        }
+      },
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.13168230332392108,
+          "altitude": 0.1306932504298586,
+          "mono_shape": 0.018170009178789095
+        }
+      }
+    ],
+    "rgb_sha256": "c907c5f1769b53ecedc00d7c84eedc16de3432eb9862eb9a357d24999c409dcb"
+  },
+  "r_5_r_16_r_24": {
+    "fits": [
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.11880769097454369,
+          "altitude": 0.10715435938047412,
+          "mono_shape": 0.016921051231887346
+        }
+      },
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.13268923973819535,
+          "altitude": 0.11944228570981441,
+          "mono_shape": 0.016782116801554437
+        }
+      }
+    ],
+    "rgb_sha256": "7ecce0e6bdbffa54f74a7049684c851969f853c587916ff15b71def570fb0012"
+  },
+  "r_16_r_87_r_32": {
+    "fits": [
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.1258160882484759,
+          "altitude": 0.0858122536049843,
+          "mono_shape": 0.013402062052205736
+        }
+      },
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.100230886853404,
+          "altitude": 0.07555174638413695,
+          "mono_shape": 0.014119048028095296
+        }
+      }
+    ],
+    "rgb_sha256": "392033820ebe0ab512445189e81b4d45e88e718fc969a8c0a9c6577e30229ccd"
+  },
+  "r_24_r_92_r_40": {
+    "fits": [
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.15145239039827257,
+          "altitude": 0.09038523924638306,
+          "mono_shape": 0.022960841434131924
+        }
+      },
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.13137893920726307,
+          "altitude": 0.0863222185112743,
+          "mono_shape": 0.025536069255502187
+        }
+      }
+    ],
+    "rgb_sha256": "0bca7918ba239ab3d0933b86e2a7ef47b1c87bb399acbe9f8aa2996282aa9d18"
+  },
+  "r_28_r_73_r_160": {
+    "fits": [
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.14916475727394565,
+          "altitude": 0.10724719820466992,
+          "mono_shape": 0.024189872755404983
+        }
+      },
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.14736774872751243,
+          "altitude": 0.10821194720172052,
+          "mono_shape": 0.013156019391079058
+        }
+      }
+    ],
+    "rgb_sha256": "ffd72a9a82e0dbc2f8b7d8d748166a271f34a9b92e47a87f061782f0c0ea2f30"
+  },
+  "r_80_r_73_r_168": {
+    "fits": [
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.12524498780583143,
+          "altitude": 0.11229921838321011,
+          "mono_shape": 0.018447663956029023
+        }
+      },
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.1466713886096475,
+          "altitude": 0.12588127605020819,
+          "mono_shape": 0.015956837750261858
+        }
+      }
+    ],
+    "rgb_sha256": "023305c84d0f595b049bf4129175d728e0652de2f6fd2898ca4335ee9968c64a"
+  },
+  "r_59_r_22_r_176": {
+    "fits": [
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.13429833902800742,
+          "altitude": 0.12872426631328715,
+          "mono_shape": 0.01576878624835107
+        }
+      },
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.1309389927755478,
+          "altitude": 0.12620474502242207,
+          "mono_shape": 0.01477563316115064
+        }
+      }
+    ],
+    "rgb_sha256": "7eb435b77b7d2dcf291e7be18e663af10bda31b1eeb202ad6e7cdcd223429a2a"
+  },
+  "r_22_r_59_r_184": {
+    "fits": [
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.1309389927755478,
+          "altitude": 0.12620474502242207,
+          "mono_shape": 0.01477563316115064
+        }
+      },
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.13429833902800742,
+          "altitude": 0.12872426631328715,
+          "mono_shape": 0.01576878624835107
+        }
+      }
+    ],
+    "rgb_sha256": "568063746d3016f394776a8df0f75f6aec19cffeedcfa88e9af35490a9695ba2"
+  },
+  "r_50_r_11_r_192": {
+    "fits": [
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.13825722388684283,
+          "altitude": 0.10146455612136243,
+          "mono_shape": 0.023430069565459854
+        }
+      },
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.12525848333442582,
+          "altitude": 0.10236224961878633,
+          "mono_shape": 0.02677321050656943
+        }
+      }
+    ],
+    "rgb_sha256": "d2b1adec22c6cabee67929d0fa6a5d640fc0a1562ff7645f7935c1f685820e18"
+  }
+}

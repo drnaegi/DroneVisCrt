@@ -1,0 +1,41 @@
+{
+  "0291_0307_0299": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "89756727f0327839de7a72ff10c52647a9e91afda37b4cc3eea6c9d9fc2b57da"
+  },
+  "0301_0317_0309": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "2d2909d18088fee6b2f7bf89f37e6abc9ae1629ac90322febcf0d32a43780777"
+  },
+  "0320_0317_0319": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "fc8900369940f1ed98bc5f5c9e9ad635c783f5965e4a61c3e67d4ee96f075750"
+  }
+}

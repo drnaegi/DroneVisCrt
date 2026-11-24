@@ -1,0 +1,106 @@
+{
+  "0000_0002_0001": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "cc0b40ba1df86ff6ed04c1d69e5e26cf8ae1b3909b02164c44b11e9efe74ea55"
+  },
+  "0016_0018_0017": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "c474caef85d4ea436fe48b2f9c0a09b0187db7d4e5441d4e78bf49c36bf01767"
+  },
+  "0032_0034_0033": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "d7d43385d71a7efba120afe891f1cbc40226eb705c752d512fd468e2fb8e5148"
+  },
+  "0048_0050_0049": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "e37686f2a051020c2838e16a6efdd52bb61299ccad380e5f21f541ce76fb61a1"
+  },
+  "0064_0066_0065": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "45319386e48204ef7651016ac2a373c830e7c4e79adfbad2d7d8bc7ccfdf1d21"
+  },
+  "0080_0082_0081": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "312d6800fede7bd26d17f6c97f258224970e601fc683e9da166ccc21229e2d14"
+  },
+  "0096_0098_0097": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "6b9cb2d12934870543361af13271f58695e7c1b9b1a81e0ff7c231c0610c6733"
+  },
+  "0112_0114_0113": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "11b56ece94ea2c755c942904c0e5fe56858f058bdba6f199f7ad8c0972519a1a"
+  }
+}

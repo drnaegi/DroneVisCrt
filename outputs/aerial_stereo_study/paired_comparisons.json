@@ -1,0 +1,5807 @@
+{
+  "score_sha256": {
+    "fresh": "0a90ca640e4fb1debfb3b2c6840cba139940f9053167fd7ce26c6fe37b7ef92a",
+    "confirmation": "b0780b73f7c8d00b5bd963641617e32b646413346cbc0db1000644a78ec73000",
+    "brighton": "836835366895206da0207abb3aa49ef3cfd6fcacaee62ab2c5c2df13997c3a20",
+    "matrixcity": "922be6ef5be454f8301186ca6af78ba47edeb8dd67a182ad455e706dbe9f8dde",
+    "monterey": "6b164250678537720b0cddf05ce79f1fb1f8096c69153758da75b7b8c528713f",
+    "cross": "4c7ee10542a2e2ba2260fc55c261613b21b16d5b9c354e91439c369f0571e2c8",
+    "park1": "758bc11ef4b5cf17ae6785b2fcbf4acf1d60ad4648e76cad33689642cfafd85e",
+    "park3": "53ae6c0cae01319f59c519830ff562efe4864b87b6a7ac5f5620268e7d7594f9",
+    "noema": "3326e7a7602dda58bd211f0912de4f3ff19da76d270268f938b924908d678c63",
+    "sand_key": "d23a52de409ed38049b1a357e0418ee5c0a4c22f69263422baf4f220dae8a657",
+    "lego": "7da45517992b7aee126001f19515b64922ec332204c8329ed9f20fda571d7df6",
+    "flood_holdout": "8bc47a8e273d95db3535409158491ba2c14ca117bc97ee64ae2b7bda0ee7e404",
+    "matrix_collinear": "a1bfdc24c419e7dbf36552529a79c94150da89ad475ad51ea04c78ab81849a58",
+    "matrix_transverse": "799965eb223b98dcec8ccc62dbf4fd706cfbf7baea0ce05e299a960f3d4251d8"
+  },
+  "aggregation": "Equal targets within flight, equal flight means within region, equal region means; pilot Brighton/FloodNet/MatrixCity excluded from geography means.",
+  "contrasts": [
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "learned_bands_image",
+      "group": "fresh",
+      "targets": 32,
+      "deltas": {
+        "psnr": -0.015182189885086572,
+        "ssim": -0.0009751347497646036,
+        "lpips": 0.0019333157688379288
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 1,
+        "lpips": 5
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "learned_bands_image",
+      "group": "confirmation",
+      "targets": 6,
+      "deltas": {
+        "psnr": -0.006490753343955251,
+        "ssim": -0.0005383117604924326,
+        "lpips": 0.0007070253292719523
+      },
+      "wins": {
+        "psnr": 0,
+        "ssim": 1,
+        "lpips": 1
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "learned_bands_image",
+      "group": "brighton",
+      "targets": 6,
+      "deltas": {
+        "psnr": -0.00035275126808690754,
+        "ssim": 0.0001066019136009173,
+        "lpips": -0.0004023114840189616
+      },
+      "wins": {
+        "psnr": 3,
+        "ssim": 4,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "learned_bands_image",
+      "group": "matrixcity",
+      "targets": 12,
+      "deltas": {
+        "psnr": 0.04870244590673126,
+        "ssim": -0.0008569669029373691,
+        "lpips": -0.001997975011666616
+      },
+      "wins": {
+        "psnr": 8,
+        "ssim": 3,
+        "lpips": 11
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "learned_bands_image",
+      "group": "monterey",
+      "targets": 15,
+      "deltas": {
+        "psnr": 0.007402339126985188,
+        "ssim": 8.960359316372661e-05,
+        "lpips": 0.00019529561201731365
+      },
+      "wins": {
+        "psnr": 6,
+        "ssim": 6,
+        "lpips": 7
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "learned_bands_image",
+      "group": "cross",
+      "targets": 9,
+      "deltas": {
+        "psnr": -0.0007893312691153022,
+        "ssim": -0.00011320879282841756,
+        "lpips": 0.0005905023879475064
+      },
+      "wins": {
+        "psnr": 6,
+        "ssim": 3,
+        "lpips": 0
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "learned_bands_image",
+      "group": "park1",
+      "targets": 8,
+      "deltas": {
+        "psnr": 0.008343010422657615,
+        "ssim": -0.00016836078202894095,
+        "lpips": 0.0004761563614010811
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 4,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "learned_bands_image",
+      "group": "park3",
+      "targets": 6,
+      "deltas": {
+        "psnr": -0.002618223243322504,
+        "ssim": -0.00019183600662897593,
+        "lpips": -0.00019479791323343912
+      },
+      "wins": {
+        "psnr": 2,
+        "ssim": 0,
+        "lpips": 5
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "learned_bands_image",
+      "group": "noema",
+      "targets": 8,
+      "deltas": {
+        "psnr": 0.0033990679741227048,
+        "ssim": -2.3320418522296965e-05,
+        "lpips": 3.534182906150818e-05
+      },
+      "wins": {
+        "psnr": 3,
+        "ssim": 4,
+        "lpips": 4
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "learned_bands_image",
+      "group": "sand_key",
+      "targets": 16,
+      "deltas": {
+        "psnr": -0.002100006538378496,
+        "ssim": -5.2067082162009226e-05,
+        "lpips": 0.00017186487093567848
+      },
+      "wins": {
+        "psnr": 7,
+        "ssim": 8,
+        "lpips": 5
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "learned_bands_image",
+      "group": "lego",
+      "targets": 11,
+      "deltas": {
+        "psnr": 0.5004213303879415,
+        "ssim": -0.004458455193063053,
+        "lpips": -0.003222842108119618
+      },
+      "wins": {
+        "psnr": 8,
+        "ssim": 4,
+        "lpips": 5
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "learned_bands_image",
+      "group": "flood_holdout",
+      "targets": 5,
+      "deltas": {
+        "psnr": -0.005641821680683279,
+        "ssim": -0.00010446970667897793,
+        "lpips": 5.064159631729126e-05
+      },
+      "wins": {
+        "psnr": 2,
+        "ssim": 1,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "learned_bands_image",
+      "group": "matrix_collinear",
+      "targets": 3,
+      "deltas": {
+        "psnr": -0.022235308533245995,
+        "ssim": -0.004962711551545151,
+        "lpips": 0.002671043078104655
+      },
+      "wins": {
+        "psnr": 0,
+        "ssim": 0,
+        "lpips": 0
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "learned_bands_image",
+      "group": "matrix_transverse",
+      "targets": 3,
+      "deltas": {
+        "psnr": 0.011244415822082724,
+        "ssim": -0.0007769829531578768,
+        "lpips": -0.0016632378101348877
+      },
+      "wins": {
+        "psnr": 2,
+        "ssim": 1,
+        "lpips": 1
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "learned_bands_image",
+      "group": "equal_geography",
+      "geographies": [
+        "Monterey",
+        "Sheffield",
+        "Noema",
+        "Sand Key"
+      ],
+      "deltas": {
+        "psnr": 0.0025866381332006667,
+        "ssim": -3.58964420040061e-05,
+        "lpips": 0.00017328064767988745
+      },
+      "geo_deltas": {
+        "Monterey": {
+          "psnr": 0.007402339126985188,
+          "ssim": 8.960359316372661e-05,
+          "lpips": 0.00019529561201731365
+        },
+        "Sheffield": {
+          "psnr": 0.0016451519700732698,
+          "ssim": -0.0001578018604954448,
+          "lpips": 0.00029062027870504944
+        },
+        "Noema": {
+          "psnr": 0.0033990679741227048,
+          "ssim": -2.3320418522296965e-05,
+          "lpips": 3.534182906150818e-05
+        },
+        "Sand Key": {
+          "psnr": -0.002100006538378496,
+          "ssim": -5.2067082162009226e-05,
+          "lpips": 0.00017186487093567848
+        }
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "learned_bands_constant",
+      "group": "fresh",
+      "targets": 32,
+      "deltas": {
+        "psnr": 0.013799579499397363,
+        "ssim": 0.000691765667951442,
+        "lpips": -0.0011487901210784912
+      },
+      "wins": {
+        "psnr": 28,
+        "ssim": 29,
+        "lpips": 21
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "learned_bands_constant",
+      "group": "confirmation",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.005573997162943971,
+        "ssim": 0.00048001901391293383,
+        "lpips": -0.00110980619986852
+      },
+      "wins": {
+        "psnr": 6,
+        "ssim": 6,
+        "lpips": 5
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "learned_bands_constant",
+      "group": "brighton",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.04644061871599092,
+        "ssim": 0.0022741043830718324,
+        "lpips": -0.0031259730458259583
+      },
+      "wins": {
+        "psnr": 5,
+        "ssim": 6,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "learned_bands_constant",
+      "group": "matrixcity",
+      "targets": 12,
+      "deltas": {
+        "psnr": 0.15404697718434365,
+        "ssim": 0.0016124021570093998,
+        "lpips": -0.012737551083167395
+      },
+      "wins": {
+        "psnr": 8,
+        "ssim": 7,
+        "lpips": 7
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "learned_bands_constant",
+      "group": "monterey",
+      "targets": 15,
+      "deltas": {
+        "psnr": 0.027436133645917002,
+        "ssim": 0.0008001193976166054,
+        "lpips": 0.00288959542910258
+      },
+      "wins": {
+        "psnr": 10,
+        "ssim": 14,
+        "lpips": 0
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "learned_bands_constant",
+      "group": "cross",
+      "targets": 9,
+      "deltas": {
+        "psnr": 0.038565873813570226,
+        "ssim": 0.0009151101142265664,
+        "lpips": 0.001611251797940996
+      },
+      "wins": {
+        "psnr": 8,
+        "ssim": 7,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "learned_bands_constant",
+      "group": "park1",
+      "targets": 8,
+      "deltas": {
+        "psnr": 0.02879151126776036,
+        "ssim": 0.0010117314986474828,
+        "lpips": -5.267094820737839e-05
+      },
+      "wins": {
+        "psnr": 7,
+        "ssim": 5,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "learned_bands_constant",
+      "group": "park3",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.013075599773922994,
+        "ssim": 0.0020265522895055086,
+        "lpips": 0.00014664605259895325
+      },
+      "wins": {
+        "psnr": 5,
+        "ssim": 6,
+        "lpips": 4
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "learned_bands_constant",
+      "group": "noema",
+      "targets": 8,
+      "deltas": {
+        "psnr": 0.03434114388076148,
+        "ssim": 0.00032141381583239426,
+        "lpips": -0.0012589218094944954
+      },
+      "wins": {
+        "psnr": 5,
+        "ssim": 5,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "learned_bands_constant",
+      "group": "sand_key",
+      "targets": 16,
+      "deltas": {
+        "psnr": 0.02019930564063399,
+        "ssim": 0.0015364383819596386,
+        "lpips": 0.00043929601088166237
+      },
+      "wins": {
+        "psnr": 13,
+        "ssim": 16,
+        "lpips": 7
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "learned_bands_constant",
+      "group": "lego",
+      "targets": 11,
+      "deltas": {
+        "psnr": 0.2268034433890496,
+        "ssim": -0.008801671802530634,
+        "lpips": 0.014613908461549065
+      },
+      "wins": {
+        "psnr": 8,
+        "ssim": 1,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "learned_bands_constant",
+      "group": "flood_holdout",
+      "targets": 5,
+      "deltas": {
+        "psnr": 0.04751486446749169,
+        "ssim": 0.0018291922381921677,
+        "lpips": -0.0012360036373138428
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 5,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "learned_bands_constant",
+      "group": "matrix_collinear",
+      "targets": 3,
+      "deltas": {
+        "psnr": 0.23862758188920333,
+        "ssim": 0.02873243350962083,
+        "lpips": -0.021296481291453045
+      },
+      "wins": {
+        "psnr": 2,
+        "ssim": 3,
+        "lpips": 1
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "learned_bands_constant",
+      "group": "matrix_transverse",
+      "targets": 3,
+      "deltas": {
+        "psnr": 0.055257930321774985,
+        "ssim": 0.009683738120894486,
+        "lpips": -0.010349710782368978
+      },
+      "wins": {
+        "psnr": 3,
+        "ssim": 3,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "learned_bands_constant",
+      "group": "equal_geography",
+      "geographies": [
+        "Monterey",
+        "Sheffield",
+        "Noema",
+        "Sand Key"
+      ],
+      "deltas": {
+        "psnr": 0.027196894529765918,
+        "ssim": 0.0009939423907171228,
+        "lpips": 0.0006595946494834842
+      },
+      "geo_deltas": {
+        "Monterey": {
+          "psnr": 0.027436133645917002,
+          "ssim": 0.0008001193976166054,
+          "lpips": 0.00288959542910258
+        },
+        "Sheffield": {
+          "psnr": 0.026810994951751193,
+          "ssim": 0.0013177979674598526,
+          "lpips": 0.0005684089674441903
+        },
+        "Noema": {
+          "psnr": 0.03434114388076148,
+          "ssim": 0.00032141381583239426,
+          "lpips": -0.0012589218094944954
+        },
+        "Sand Key": {
+          "psnr": 0.02019930564063399,
+          "ssim": 0.0015364383819596386,
+          "lpips": 0.00043929601088166237
+        }
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "simple_average",
+      "group": "fresh",
+      "targets": 32,
+      "deltas": {
+        "psnr": 0.006174278704316527,
+        "ssim": 0.0009201072358449858,
+        "lpips": 0.006346661597490311
+      },
+      "wins": {
+        "psnr": 21,
+        "ssim": 24,
+        "lpips": 0
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "simple_average",
+      "group": "confirmation",
+      "targets": 6,
+      "deltas": {
+        "psnr": -0.01872053716740781,
+        "ssim": 0.0004625946510380674,
+        "lpips": 0.005871591468652089
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 4,
+        "lpips": 0
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "simple_average",
+      "group": "brighton",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.08488050288412019,
+        "ssim": 0.0035445772626541716,
+        "lpips": 0.002947921554247538
+      },
+      "wins": {
+        "psnr": 6,
+        "ssim": 6,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "simple_average",
+      "group": "matrixcity",
+      "targets": 12,
+      "deltas": {
+        "psnr": 0.06842935534128596,
+        "ssim": 0.001194376907643337,
+        "lpips": 0.008250939349333445
+      },
+      "wins": {
+        "psnr": 9,
+        "ssim": 8,
+        "lpips": 1
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "simple_average",
+      "group": "monterey",
+      "targets": 15,
+      "deltas": {
+        "psnr": 0.1124508037657525,
+        "ssim": 0.004263662058992778,
+        "lpips": 0.010759271184603373
+      },
+      "wins": {
+        "psnr": 13,
+        "ssim": 14,
+        "lpips": 1
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "simple_average",
+      "group": "cross",
+      "targets": 9,
+      "deltas": {
+        "psnr": 0.07499602470555938,
+        "ssim": 0.0038468070192201947,
+        "lpips": 0.006552879181173112
+      },
+      "wins": {
+        "psnr": 7,
+        "ssim": 8,
+        "lpips": 0
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "simple_average",
+      "group": "park1",
+      "targets": 8,
+      "deltas": {
+        "psnr": 0.10109759790386619,
+        "ssim": 0.004220973935505471,
+        "lpips": 0.0027872342616319656
+      },
+      "wins": {
+        "psnr": 5,
+        "ssim": 8,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "simple_average",
+      "group": "park3",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.13383897551341603,
+        "ssim": 0.0059081673581331635,
+        "lpips": 0.006680928170681
+      },
+      "wins": {
+        "psnr": 6,
+        "ssim": 6,
+        "lpips": 0
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "simple_average",
+      "group": "noema",
+      "targets": 8,
+      "deltas": {
+        "psnr": 0.08590653150265881,
+        "ssim": 0.0016092366872068747,
+        "lpips": 0.004055238328874111
+      },
+      "wins": {
+        "psnr": 7,
+        "ssim": 7,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "simple_average",
+      "group": "sand_key",
+      "targets": 16,
+      "deltas": {
+        "psnr": 0.0971093644325558,
+        "ssim": 0.003180869226196613,
+        "lpips": 0.0039972541853785515
+      },
+      "wins": {
+        "psnr": 15,
+        "ssim": 16,
+        "lpips": 4
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "simple_average",
+      "group": "lego",
+      "targets": 11,
+      "deltas": {
+        "psnr": -0.2624386745289586,
+        "ssim": -0.010132174390681743,
+        "lpips": 0.023145411840894005
+      },
+      "wins": {
+        "psnr": 6,
+        "ssim": 0,
+        "lpips": 0
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "simple_average",
+      "group": "flood_holdout",
+      "targets": 5,
+      "deltas": {
+        "psnr": 0.12077520581352345,
+        "ssim": 0.004010299751516311,
+        "lpips": 0.0055244237184524534
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 5,
+        "lpips": 1
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "simple_average",
+      "group": "matrix_collinear",
+      "targets": 3,
+      "deltas": {
+        "psnr": 0.03584638915095321,
+        "ssim": 0.0013044021193708843,
+        "lpips": 0.01966443657875061
+      },
+      "wins": {
+        "psnr": 2,
+        "ssim": 2,
+        "lpips": 0
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "simple_average",
+      "group": "matrix_transverse",
+      "targets": 3,
+      "deltas": {
+        "psnr": 0.09793319131095639,
+        "ssim": 0.005952459915518867,
+        "lpips": -0.0005418558915456136
+      },
+      "wins": {
+        "psnr": 3,
+        "ssim": 3,
+        "lpips": 1
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "simple_average",
+      "group": "equal_geography",
+      "geographies": [
+        "Monterey",
+        "Sheffield",
+        "Noema",
+        "Sand Key"
+      ],
+      "deltas": {
+        "psnr": 0.09969439143547858,
+        "ssim": 0.003428104352503969,
+        "lpips": 0.006038027725837849
+      },
+      "geo_deltas": {
+        "Monterey": {
+          "psnr": 0.1124508037657525,
+          "ssim": 0.004263662058992778,
+          "lpips": 0.010759271184603373
+        },
+        "Sheffield": {
+          "psnr": 0.10331086604094719,
+          "ssim": 0.004658649437619611,
+          "lpips": 0.0053403472044953595
+        },
+        "Noema": {
+          "psnr": 0.08590653150265881,
+          "ssim": 0.0016092366872068747,
+          "lpips": 0.004055238328874111
+        },
+        "Sand Key": {
+          "psnr": 0.0971093644325558,
+          "ssim": 0.003180869226196613,
+          "lpips": 0.0039972541853785515
+        }
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "detail_qualified_fixed",
+      "group": "fresh",
+      "targets": 32,
+      "deltas": {
+        "psnr": 0.03472673430731299,
+        "ssim": 0.0038265643418751603,
+        "lpips": 0.009362034499645233
+      },
+      "wins": {
+        "psnr": 30,
+        "ssim": 31,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "detail_qualified_fixed",
+      "group": "confirmation",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.026071570993394744,
+        "ssim": 0.0027735243997102275,
+        "lpips": 0.009536365667978922
+      },
+      "wins": {
+        "psnr": 6,
+        "ssim": 5,
+        "lpips": 0
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "detail_qualified_fixed",
+      "group": "brighton",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.08379927948742132,
+        "ssim": 0.006548555112293013,
+        "lpips": 0.0032779698570569358
+      },
+      "wins": {
+        "psnr": 6,
+        "ssim": 6,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "detail_qualified_fixed",
+      "group": "matrixcity",
+      "targets": 12,
+      "deltas": {
+        "psnr": 0.054728999948912595,
+        "ssim": 0.01085543653930234,
+        "lpips": 0.012989958127339682
+      },
+      "wins": {
+        "psnr": 7,
+        "ssim": 11,
+        "lpips": 0
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "detail_qualified_fixed",
+      "group": "monterey",
+      "targets": 15,
+      "deltas": {
+        "psnr": 0.12334827928645353,
+        "ssim": 0.007956865932460254,
+        "lpips": 0.025491528709729514
+      },
+      "wins": {
+        "psnr": 15,
+        "ssim": 14,
+        "lpips": 0
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "detail_qualified_fixed",
+      "group": "cross",
+      "targets": 9,
+      "deltas": {
+        "psnr": 0.21529434515880652,
+        "ssim": 0.010948627544362191,
+        "lpips": 0.015482027497556474
+      },
+      "wins": {
+        "psnr": 9,
+        "ssim": 9,
+        "lpips": 0
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "detail_qualified_fixed",
+      "group": "park1",
+      "targets": 8,
+      "deltas": {
+        "psnr": 0.09457589386385679,
+        "ssim": 0.006662570971694447,
+        "lpips": 0.0071050627157092094
+      },
+      "wins": {
+        "psnr": 8,
+        "ssim": 8,
+        "lpips": 1
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "detail_qualified_fixed",
+      "group": "park3",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.06629644645787636,
+        "ssim": 0.010598410052269322,
+        "lpips": 0.012576624751091003
+      },
+      "wins": {
+        "psnr": 5,
+        "ssim": 6,
+        "lpips": 0
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "detail_qualified_fixed",
+      "group": "noema",
+      "targets": 8,
+      "deltas": {
+        "psnr": 0.10063796465331887,
+        "ssim": 0.005016983005190108,
+        "lpips": 0.007137584500014782
+      },
+      "wins": {
+        "psnr": 8,
+        "ssim": 7,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "detail_qualified_fixed",
+      "group": "sand_key",
+      "targets": 16,
+      "deltas": {
+        "psnr": 0.10265020230563082,
+        "ssim": 0.0062412879323857084,
+        "lpips": 0.006752658169716597
+      },
+      "wins": {
+        "psnr": 15,
+        "ssim": 16,
+        "lpips": 5
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "detail_qualified_fixed",
+      "group": "lego",
+      "targets": 11,
+      "deltas": {
+        "psnr": -0.0903392858114579,
+        "ssim": -0.0038836409535628613,
+        "lpips": 0.010403595526110043
+      },
+      "wins": {
+        "psnr": 6,
+        "ssim": 3,
+        "lpips": 1
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "detail_qualified_fixed",
+      "group": "flood_holdout",
+      "targets": 5,
+      "deltas": {
+        "psnr": 0.11687624657792242,
+        "ssim": 0.007979915076565525,
+        "lpips": 0.00904739499092102
+      },
+      "wins": {
+        "psnr": 5,
+        "ssim": 5,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "detail_qualified_fixed",
+      "group": "matrix_collinear",
+      "targets": 3,
+      "deltas": {
+        "psnr": 0.24081026413701898,
+        "ssim": 0.005981859531289139,
+        "lpips": 0.008866856495539347
+      },
+      "wins": {
+        "psnr": 3,
+        "ssim": 2,
+        "lpips": 0
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "detail_qualified_fixed",
+      "group": "matrix_transverse",
+      "targets": 3,
+      "deltas": {
+        "psnr": 0.06720608538174844,
+        "ssim": 0.006863806033616869,
+        "lpips": 0.002239455779393514
+      },
+      "wins": {
+        "psnr": 3,
+        "ssim": 3,
+        "lpips": 1
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "detail_qualified_fixed",
+      "group": "equal_geography",
+      "geographies": [
+        "Monterey",
+        "Sheffield",
+        "Noema",
+        "Sand Key"
+      ],
+      "deltas": {
+        "psnr": 0.11300633535139579,
+        "ssim": 0.007154584931536181,
+        "lpips": 0.012775752425228281
+      },
+      "geo_deltas": {
+        "Monterey": {
+          "psnr": 0.12334827928645353,
+          "ssim": 0.007956865932460254,
+          "lpips": 0.025491528709729514
+        },
+        "Sheffield": {
+          "psnr": 0.1253888951601799,
+          "ssim": 0.009403202856108654,
+          "lpips": 0.01172123832145223
+        },
+        "Noema": {
+          "psnr": 0.10063796465331887,
+          "ssim": 0.005016983005190108,
+          "lpips": 0.007137584500014782
+        },
+        "Sand Key": {
+          "psnr": 0.10265020230563082,
+          "ssim": 0.0062412879323857084,
+          "lpips": 0.006752658169716597
+        }
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "rife_ground",
+      "group": "brighton",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.07012038876734443,
+        "ssim": 6.635141972620208e-05,
+        "lpips": -5.294879277547201e-05
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 3,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "rife_ground",
+      "group": "matrixcity",
+      "targets": 12,
+      "deltas": {
+        "psnr": 2.8111096852225863,
+        "ssim": 0.18369474340645178,
+        "lpips": -0.054898638278245926
+      },
+      "wins": {
+        "psnr": 12,
+        "ssim": 12,
+        "lpips": 10
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "rife_ground",
+      "group": "monterey",
+      "targets": 15,
+      "deltas": {
+        "psnr": 0.23524336779943505,
+        "ssim": 0.007666559491903349,
+        "lpips": 0.0007965455452601115
+      },
+      "wins": {
+        "psnr": 12,
+        "ssim": 14,
+        "lpips": 8
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "rife_ground",
+      "group": "cross",
+      "targets": 9,
+      "deltas": {
+        "psnr": 0.4135654350496303,
+        "ssim": 0.01745274775172457,
+        "lpips": -0.00922314077615738
+      },
+      "wins": {
+        "psnr": 9,
+        "ssim": 7,
+        "lpips": 7
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "rife_ground",
+      "group": "park1",
+      "targets": 8,
+      "deltas": {
+        "psnr": 0.09307039182694066,
+        "ssim": -0.0010394843307910302,
+        "lpips": -0.006875825114548206
+      },
+      "wins": {
+        "psnr": 3,
+        "ssim": 3,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "rife_ground",
+      "group": "park3",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.1702137514095643,
+        "ssim": 0.011997233246721408,
+        "lpips": 0.001238945871591568
+      },
+      "wins": {
+        "psnr": 5,
+        "ssim": 5,
+        "lpips": 4
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "rife_ground",
+      "group": "noema",
+      "targets": 8,
+      "deltas": {
+        "psnr": 0.13780231049403824,
+        "ssim": 0.01925431195038339,
+        "lpips": -0.016816080547869205
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 6,
+        "lpips": 7
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "rife_ground",
+      "group": "sand_key",
+      "targets": 13,
+      "deltas": {
+        "psnr": 0.09866179768026374,
+        "ssim": -6.054092875371278e-05,
+        "lpips": 0.003350092241397271
+      },
+      "wins": {
+        "psnr": 10,
+        "ssim": 11,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "rife_ground",
+      "group": "flood_holdout",
+      "targets": 5,
+      "deltas": {
+        "psnr": -0.058344227783823754,
+        "ssim": -0.006468498813215306,
+        "lpips": -0.002316044270992279
+      },
+      "wins": {
+        "psnr": 3,
+        "ssim": 2,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "rife_ground",
+      "group": "matrix_collinear",
+      "targets": 3,
+      "deltas": {
+        "psnr": 0.0636588579979976,
+        "ssim": -0.04039169023383099,
+        "lpips": 0.03801427284876505
+      },
+      "wins": {
+        "psnr": 2,
+        "ssim": 0,
+        "lpips": 0
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "rife_ground",
+      "group": "matrix_transverse",
+      "targets": 3,
+      "deltas": {
+        "psnr": 0.3010456984197892,
+        "ssim": 0.018923229434702826,
+        "lpips": 0.005000183979670207
+      },
+      "wins": {
+        "psnr": 3,
+        "ssim": 3,
+        "lpips": 1
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "rife_ground",
+      "group": "equal_geography",
+      "geographies": [
+        "Monterey",
+        "Sheffield",
+        "Noema",
+        "Sand Key"
+      ],
+      "deltas": {
+        "psnr": 0.17433100051727884,
+        "ssim": 0.009082624017354502,
+        "lpips": -0.00440569569189579
+      },
+      "geo_deltas": {
+        "Monterey": {
+          "psnr": 0.23524336779943505,
+          "ssim": 0.007666559491903349,
+          "lpips": 0.0007965455452601115
+        },
+        "Sheffield": {
+          "psnr": 0.2256165260953784,
+          "ssim": 0.009470165555884981,
+          "lpips": -0.004953340006371339
+        },
+        "Noema": {
+          "psnr": 0.13780231049403824,
+          "ssim": 0.01925431195038339,
+          "lpips": -0.016816080547869205
+        },
+        "Sand Key": {
+          "psnr": 0.09866179768026374,
+          "ssim": -6.054092875371278e-05,
+          "lpips": 0.003350092241397271
+        }
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "depthsplat_dl3dv_256x448_plane_bg",
+      "group": "fresh",
+      "targets": 32,
+      "deltas": {
+        "psnr": 0.0013688027544138115,
+        "ssim": 0.0010511379626567145,
+        "lpips": -0.033291108906269073
+      },
+      "wins": {
+        "psnr": 12,
+        "ssim": 13,
+        "lpips": 29
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "depthsplat_dl3dv_256x448_plane_bg",
+      "group": "confirmation",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.2795555988998073,
+        "ssim": 0.03967045210648939,
+        "lpips": -0.03473820288976034
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 3,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "depthsplat_dl3dv_256x448_plane_bg",
+      "group": "brighton",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.1146093772385773,
+        "ssim": 0.025677799886344704,
+        "lpips": -0.05940598497788111
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 4,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "depthsplat_dl3dv_256x448_plane_bg",
+      "group": "matrixcity",
+      "targets": 12,
+      "deltas": {
+        "psnr": 2.4737134762368,
+        "ssim": 0.2515525303167248,
+        "lpips": -0.06778413305679958
+      },
+      "wins": {
+        "psnr": 12,
+        "ssim": 12,
+        "lpips": 12
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "depthsplat_dl3dv_256x448_plane_bg",
+      "group": "monterey",
+      "targets": 15,
+      "deltas": {
+        "psnr": 0.8176525864348497,
+        "ssim": 0.03336862578061676,
+        "lpips": -0.11535238027572632
+      },
+      "wins": {
+        "psnr": 10,
+        "ssim": 8,
+        "lpips": 15
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "depthsplat_dl3dv_256x448_plane_bg",
+      "group": "cross",
+      "targets": 9,
+      "deltas": {
+        "psnr": 1.1053868501308355,
+        "ssim": 0.07417118127223188,
+        "lpips": -0.036172636681132846
+      },
+      "wins": {
+        "psnr": 8,
+        "ssim": 8,
+        "lpips": 9
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "depthsplat_dl3dv_256x448_plane_bg",
+      "group": "park1",
+      "targets": 8,
+      "deltas": {
+        "psnr": -0.18558625668254702,
+        "ssim": -0.027584922026999345,
+        "lpips": -0.04155891668051481
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 1,
+        "lpips": 8
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "depthsplat_dl3dv_256x448_plane_bg",
+      "group": "park3",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.2039378281158243,
+        "ssim": 0.00558894405521355,
+        "lpips": -0.03792570655544599
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 2,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "depthsplat_dl3dv_256x448_plane_bg",
+      "group": "noema",
+      "targets": 8,
+      "deltas": {
+        "psnr": 0.925829510512679,
+        "ssim": 0.13111704995359585,
+        "lpips": -0.06296406034380198
+      },
+      "wins": {
+        "psnr": 7,
+        "ssim": 6,
+        "lpips": 8
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "depthsplat_dl3dv_256x448_plane_bg",
+      "group": "sand_key",
+      "targets": 16,
+      "deltas": {
+        "psnr": 0.04896376132688052,
+        "ssim": -0.0007857354506156516,
+        "lpips": -0.01148218521848321
+      },
+      "wins": {
+        "psnr": 7,
+        "ssim": 5,
+        "lpips": 10
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "depthsplat_dl3dv_256x448_plane_bg",
+      "group": "lego",
+      "targets": 11,
+      "deltas": {
+        "psnr": 3.1030197791351046,
+        "ssim": 0.25252874127699404,
+        "lpips": -0.09208959645845673
+      },
+      "wins": {
+        "psnr": 11,
+        "ssim": 11,
+        "lpips": 11
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "depthsplat_dl3dv_256x448_plane_bg",
+      "group": "flood_holdout",
+      "targets": 5,
+      "deltas": {
+        "psnr": 0.5518917968107381,
+        "ssim": 0.032878808712618945,
+        "lpips": -0.07224375307559967
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 4,
+        "lpips": 5
+      }
+    },
+    {
+      "candidate": "learned_bands_geometry",
+      "control": "depthsplat_dl3dv_256x448_plane_bg",
+      "group": "equal_geography",
+      "geographies": [
+        "Monterey",
+        "Sheffield",
+        "Noema",
+        "Sand Key"
+      ],
+      "deltas": {
+        "psnr": 0.5417563330322783,
+        "ssim": 0.04527291867926975,
+        "lpips": -0.05708776145259402
+      },
+      "geo_deltas": {
+        "Monterey": {
+          "psnr": 0.8176525864348497,
+          "ssim": 0.03336862578061676,
+          "lpips": -0.11535238027572632
+        },
+        "Sheffield": {
+          "psnr": 0.3745794738547043,
+          "ssim": 0.017391734433482027,
+          "lpips": -0.038552419972364554
+        },
+        "Noema": {
+          "psnr": 0.925829510512679,
+          "ssim": 0.13111704995359585,
+          "lpips": -0.06296406034380198
+        },
+        "Sand Key": {
+          "psnr": 0.04896376132688052,
+          "ssim": -0.0007857354506156516,
+          "lpips": -0.01148218521848321
+        }
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "detail_median_stereo_fixed",
+      "group": "fresh",
+      "targets": 32,
+      "deltas": {
+        "psnr": -0.001227877940726374,
+        "ssim": -0.00034431705828979337,
+        "lpips": 3.978004679083824e-05
+      },
+      "wins": {
+        "psnr": 18,
+        "ssim": 18,
+        "lpips": 13
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "detail_median_stereo_fixed",
+      "group": "confirmation",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.0026411884239191017,
+        "ssim": -2.8615989407139903e-05,
+        "lpips": -0.00035171210765838623
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 2,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "detail_median_stereo_fixed",
+      "group": "brighton",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.00795525030217418,
+        "ssim": 0.0003139773253279775,
+        "lpips": 0.002409540116786957
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 4,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "detail_median_stereo_fixed",
+      "group": "matrixcity",
+      "targets": 12,
+      "deltas": {
+        "psnr": 0.06439739347422109,
+        "ssim": 0.00421083001399671,
+        "lpips": -0.0024362727999687195
+      },
+      "wins": {
+        "psnr": 10,
+        "ssim": 10,
+        "lpips": 7
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "detail_median_stereo_fixed",
+      "group": "monterey",
+      "targets": 15,
+      "deltas": {
+        "psnr": 0.0031264221501641504,
+        "ssim": 0.0009555283423149458,
+        "lpips": 0.0019654393196105956
+      },
+      "wins": {
+        "psnr": 6,
+        "ssim": 7,
+        "lpips": 5
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "detail_median_stereo_fixed",
+      "group": "cross",
+      "targets": 9,
+      "deltas": {
+        "psnr": -0.006630384092036066,
+        "ssim": 0.0008125828075961196,
+        "lpips": 0.0013326174683041042
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 4,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "detail_median_stereo_fixed",
+      "group": "park1",
+      "targets": 8,
+      "deltas": {
+        "psnr": -0.003985360647929204,
+        "ssim": -0.0001945989313545532,
+        "lpips": 0.0004409346729516983
+      },
+      "wins": {
+        "psnr": 3,
+        "ssim": 3,
+        "lpips": 4
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "detail_median_stereo_fixed",
+      "group": "park3",
+      "targets": 6,
+      "deltas": {
+        "psnr": -0.03903531052815179,
+        "ssim": -0.00032759258977764033,
+        "lpips": 0.0010830610990524292
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 4,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "detail_median_stereo_fixed",
+      "group": "noema",
+      "targets": 8,
+      "deltas": {
+        "psnr": -0.023006816687375586,
+        "ssim": -0.00400880090021483,
+        "lpips": 0.0013336017727851868
+      },
+      "wins": {
+        "psnr": 2,
+        "ssim": 2,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "detail_median_stereo_fixed",
+      "group": "sand_key",
+      "targets": 16,
+      "deltas": {
+        "psnr": -0.012193019028378105,
+        "ssim": -0.0012230689141834242,
+        "lpips": 0.004467880818992853
+      },
+      "wins": {
+        "psnr": 8,
+        "ssim": 10,
+        "lpips": 7
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "detail_median_stereo_fixed",
+      "group": "lego",
+      "targets": 11,
+      "deltas": {
+        "psnr": -0.08482977916396918,
+        "ssim": -0.003414686391141236,
+        "lpips": 7.746910507028753e-05
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 1,
+        "lpips": 5
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "detail_median_stereo_fixed",
+      "group": "flood_holdout",
+      "targets": 5,
+      "deltas": {
+        "psnr": -0.00999964613738058,
+        "ssim": -0.0006578464365663783,
+        "lpips": -0.001336371898651123
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 3,
+        "lpips": 4
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "detail_median_stereo_fixed",
+      "group": "matrix_collinear",
+      "targets": 3,
+      "deltas": {
+        "psnr": 0.007208732568756204,
+        "ssim": 0.0005560882144845883,
+        "lpips": -0.002848327159881592
+      },
+      "wins": {
+        "psnr": 3,
+        "ssim": 3,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "detail_median_stereo_fixed",
+      "group": "matrix_transverse",
+      "targets": 3,
+      "deltas": {
+        "psnr": 0.00010692425509499041,
+        "ssim": -0.002328437130537181,
+        "lpips": -0.0034362077713012695
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 1,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "detail_median_stereo_fixed",
+      "group": "equal_geography",
+      "geographies": [
+        "Monterey",
+        "Sheffield",
+        "Noema",
+        "Sand Key"
+      ],
+      "deltas": {
+        "psnr": -0.012155941330407139,
+        "ssim": -0.0010448860941488331,
+        "lpips": 0.0021797815812061782
+      },
+      "geo_deltas": {
+        "Monterey": {
+          "psnr": 0.0031264221501641504,
+          "ssim": 0.0009555283423149458,
+          "lpips": 0.0019654393196105956
+        },
+        "Sheffield": {
+          "psnr": -0.016550351756039017,
+          "ssim": 9.679709548797536e-05,
+          "lpips": 0.0009522044134360773
+        },
+        "Noema": {
+          "psnr": -0.023006816687375586,
+          "ssim": -0.00400880090021483,
+          "lpips": 0.0013336017727851868
+        },
+        "Sand Key": {
+          "psnr": -0.012193019028378105,
+          "ssim": -0.0012230689141834242,
+          "lpips": 0.004467880818992853
+        }
+      }
+    },
+    {
+      "candidate": "precision_depth",
+      "control": "detail_median_stereo_fixed",
+      "group": "fresh",
+      "targets": 32,
+      "deltas": {
+        "psnr": -0.0012457239801689224,
+        "ssim": -0.0003401003663256238,
+        "lpips": 5.0005968660116196e-05
+      },
+      "wins": {
+        "psnr": 18,
+        "ssim": 18,
+        "lpips": 13
+      }
+    },
+    {
+      "candidate": "precision_depth",
+      "control": "detail_median_stereo_fixed",
+      "group": "confirmation",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.002666165363018891,
+        "ssim": -3.4561280703754305e-05,
+        "lpips": -0.0003614450494448344
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 2,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "precision_depth",
+      "control": "detail_median_stereo_fixed",
+      "group": "brighton",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.0018754096000416591,
+        "ssim": 0.0001316691190895077,
+        "lpips": 0.00014931211868921915
+      },
+      "wins": {
+        "psnr": 2,
+        "ssim": 2,
+        "lpips": 1
+      }
+    },
+    {
+      "candidate": "precision_depth",
+      "control": "detail_median_stereo_fixed",
+      "group": "matrixcity",
+      "targets": 12,
+      "deltas": {
+        "psnr": 0.040702821830163494,
+        "ssim": 0.00042710456726425633,
+        "lpips": -0.0005008590718110403
+      },
+      "wins": {
+        "psnr": 8,
+        "ssim": 8,
+        "lpips": 7
+      }
+    },
+    {
+      "candidate": "precision_depth",
+      "control": "detail_median_stereo_fixed",
+      "group": "monterey",
+      "targets": 15,
+      "deltas": {
+        "psnr": -0.0035300791461393053,
+        "ssim": 3.5397996275406594e-05,
+        "lpips": 0.00022070507208506266
+      },
+      "wins": {
+        "psnr": 2,
+        "ssim": 5,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "precision_depth",
+      "control": "detail_median_stereo_fixed",
+      "group": "cross",
+      "targets": 9,
+      "deltas": {
+        "psnr": -0.006667376618106384,
+        "ssim": 0.00044441082412931417,
+        "lpips": 0.00042120863993962604
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 3,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "precision_depth",
+      "control": "detail_median_stereo_fixed",
+      "group": "park1",
+      "targets": 8,
+      "deltas": {
+        "psnr": -0.0007776862412360863,
+        "ssim": -9.226939887311408e-05,
+        "lpips": -3.233272582292557e-05
+      },
+      "wins": {
+        "psnr": 3,
+        "ssim": 2,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "precision_depth",
+      "control": "detail_median_stereo_fixed",
+      "group": "park3",
+      "targets": 6,
+      "deltas": {
+        "psnr": -0.03533238458945457,
+        "ssim": -0.0004220723355411367,
+        "lpips": -0.0002444609999656677
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 1,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "precision_depth",
+      "control": "detail_median_stereo_fixed",
+      "group": "noema",
+      "targets": 8,
+      "deltas": {
+        "psnr": 0.0006012575070921677,
+        "ssim": -0.00013011503636622956,
+        "lpips": 6.876885890960693e-05
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 2,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "precision_depth",
+      "control": "detail_median_stereo_fixed",
+      "group": "sand_key",
+      "targets": 16,
+      "deltas": {
+        "psnr": 0.005609160349018927,
+        "ssim": -0.00014435958031908808,
+        "lpips": 0.0002422630786895752
+      },
+      "wins": {
+        "psnr": 5,
+        "ssim": 7,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "precision_depth",
+      "control": "detail_median_stereo_fixed",
+      "group": "lego",
+      "targets": 11,
+      "deltas": {
+        "psnr": -0.1318766854530331,
+        "ssim": -0.0035176844300461863,
+        "lpips": 0.0012219717556780035
+      },
+      "wins": {
+        "psnr": 2,
+        "ssim": 1,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "precision_depth",
+      "control": "detail_median_stereo_fixed",
+      "group": "flood_holdout",
+      "targets": 5,
+      "deltas": {
+        "psnr": -0.0020219577972824254,
+        "ssim": -0.0002153969820220536,
+        "lpips": -0.00023159533739089966
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 1,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "precision_depth",
+      "control": "detail_median_stereo_fixed",
+      "group": "matrix_collinear",
+      "targets": 3,
+      "deltas": {
+        "psnr": -0.00010148662068705978,
+        "ssim": 0.0001623954262151006,
+        "lpips": -8.860230445861816e-05
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 2,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "precision_depth",
+      "control": "detail_median_stereo_fixed",
+      "group": "matrix_transverse",
+      "targets": 3,
+      "deltas": {
+        "psnr": 0.00029186467998224924,
+        "ssim": 0.00013878837626853566,
+        "lpips": -7.152557373046875e-06
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 1,
+        "lpips": 1
+      }
+    },
+    {
+      "candidate": "precision_depth",
+      "control": "detail_median_stereo_fixed",
+      "group": "equal_geography",
+      "geographies": [
+        "Monterey",
+        "Sheffield",
+        "Noema",
+        "Sand Key"
+      ],
+      "deltas": {
+        "psnr": -0.0028947026099068055,
+        "ssim": -6.559673095955581e-05,
+        "lpips": 0.00014496882860031394
+      },
+      "geo_deltas": {
+        "Monterey": {
+          "psnr": -0.0035300791461393053,
+          "ssim": 3.5397996275406594e-05,
+          "lpips": 0.00022070507208506266
+        },
+        "Sheffield": {
+          "psnr": -0.014259149149599012,
+          "ssim": -2.331030342831221e-05,
+          "lpips": 4.8138304717010914e-05
+        },
+        "Noema": {
+          "psnr": 0.0006012575070921677,
+          "ssim": -0.00013011503636622956,
+          "lpips": 6.876885890960693e-05
+        },
+        "Sand Key": {
+          "psnr": 0.005609160349018927,
+          "ssim": -0.00014435958031908808,
+          "lpips": 0.0002422630786895752
+        }
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "precision_depth",
+      "group": "fresh",
+      "targets": 32,
+      "deltas": {
+        "psnr": 1.7846039442548367e-05,
+        "ssim": -4.216691964169586e-06,
+        "lpips": -1.0225921869277954e-05
+      },
+      "wins": {
+        "psnr": 13,
+        "ssim": 11,
+        "lpips": 8
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "precision_depth",
+      "group": "confirmation",
+      "targets": 6,
+      "deltas": {
+        "psnr": -2.4976939099789302e-05,
+        "ssim": 5.945291296614401e-06,
+        "lpips": 9.73294178644816e-06
+      },
+      "wins": {
+        "psnr": 2,
+        "ssim": 3,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "precision_depth",
+      "group": "brighton",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.006079840702132522,
+        "ssim": 0.00018230820623846983,
+        "lpips": 0.0022602279980977378
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 4,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "precision_depth",
+      "group": "matrixcity",
+      "targets": 12,
+      "deltas": {
+        "psnr": 0.0236945716440576,
+        "ssim": 0.0037837254467324535,
+        "lpips": -0.0019354137281576793
+      },
+      "wins": {
+        "psnr": 10,
+        "ssim": 10,
+        "lpips": 7
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "precision_depth",
+      "group": "monterey",
+      "targets": 15,
+      "deltas": {
+        "psnr": 0.006656501296303455,
+        "ssim": 0.0009201303460395392,
+        "lpips": 0.001744734247525533
+      },
+      "wins": {
+        "psnr": 7,
+        "ssim": 7,
+        "lpips": 4
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "precision_depth",
+      "group": "cross",
+      "targets": 9,
+      "deltas": {
+        "psnr": 3.699252607031806e-05,
+        "ssim": 0.00036817198346680537,
+        "lpips": 0.0009114088283644782
+      },
+      "wins": {
+        "psnr": 5,
+        "ssim": 4,
+        "lpips": 5
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "precision_depth",
+      "group": "park1",
+      "targets": 8,
+      "deltas": {
+        "psnr": -0.0032076744066931173,
+        "ssim": -0.00010232953248143911,
+        "lpips": 0.00047326739877462387
+      },
+      "wins": {
+        "psnr": 2,
+        "ssim": 3,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "precision_depth",
+      "group": "park3",
+      "targets": 6,
+      "deltas": {
+        "psnr": -0.0037029259386972178,
+        "ssim": 9.447974576349642e-05,
+        "lpips": 0.001327522099018097
+      },
+      "wins": {
+        "psnr": 3,
+        "ssim": 4,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "precision_depth",
+      "group": "noema",
+      "targets": 8,
+      "deltas": {
+        "psnr": -0.023608074194467754,
+        "ssim": -0.0038786858638486,
+        "lpips": 0.0012648329138755798
+      },
+      "wins": {
+        "psnr": 3,
+        "ssim": 3,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "precision_depth",
+      "group": "sand_key",
+      "targets": 16,
+      "deltas": {
+        "psnr": -0.01780217937739703,
+        "ssim": -0.001078709333864336,
+        "lpips": 0.004225617740303278
+      },
+      "wins": {
+        "psnr": 6,
+        "ssim": 7,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "precision_depth",
+      "group": "lego",
+      "targets": 11,
+      "deltas": {
+        "psnr": 0.04704690628906392,
+        "ssim": 0.00010299803890495058,
+        "lpips": -0.0011445026506077159
+      },
+      "wins": {
+        "psnr": 5,
+        "ssim": 3,
+        "lpips": 4
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "precision_depth",
+      "group": "flood_holdout",
+      "targets": 5,
+      "deltas": {
+        "psnr": -0.007977688340098155,
+        "ssim": -0.00044244945454432474,
+        "lpips": -0.0011047765612602234
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 2,
+        "lpips": 4
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "precision_depth",
+      "group": "matrix_collinear",
+      "targets": 3,
+      "deltas": {
+        "psnr": 0.007310219189443264,
+        "ssim": 0.0003936927882694878,
+        "lpips": -0.0027597248554229736
+      },
+      "wins": {
+        "psnr": 2,
+        "ssim": 2,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "precision_depth",
+      "group": "matrix_transverse",
+      "targets": 3,
+      "deltas": {
+        "psnr": -0.00018494042488725881,
+        "ssim": -0.0024672255068057167,
+        "lpips": -0.0034290552139282227
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 1,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "precision_depth",
+      "group": "equal_geography",
+      "geographies": [
+        "Monterey",
+        "Sheffield",
+        "Noema",
+        "Sand Key"
+      ],
+      "deltas": {
+        "psnr": -0.009261238720500335,
+        "ssim": -0.0009792893631892774,
+        "lpips": 0.0020348127526058643
+      },
+      "geo_deltas": {
+        "Monterey": {
+          "psnr": 0.006656501296303455,
+          "ssim": 0.0009201303460395392,
+          "lpips": 0.001744734247525533
+        },
+        "Sheffield": {
+          "psnr": -0.0022912026064400054,
+          "ssim": 0.00012010739891628757,
+          "lpips": 0.0009040661087190664
+        },
+        "Noema": {
+          "psnr": -0.023608074194467754,
+          "ssim": -0.0038786858638486,
+          "lpips": 0.0012648329138755798
+        },
+        "Sand Key": {
+          "psnr": -0.01780217937739703,
+          "ssim": -0.001078709333864336,
+          "lpips": 0.004225617740303278
+        }
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "detail_qualified_fixed",
+      "group": "fresh",
+      "targets": 32,
+      "deltas": {
+        "psnr": -0.01925230618621504,
+        "ssim": -0.0006612526431880629,
+        "lpips": 0.0012484430335462093
+      },
+      "wins": {
+        "psnr": 13,
+        "ssim": 12,
+        "lpips": 13
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "detail_qualified_fixed",
+      "group": "confirmation",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.006279424416693639,
+        "ssim": 0.0024708205192290424,
+        "lpips": -0.0008808299899101257
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 4,
+        "lpips": 4
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "detail_qualified_fixed",
+      "group": "brighton",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.13264051315920966,
+        "ssim": -0.008404213804751268,
+        "lpips": 0.006741660336653392
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 1,
+        "lpips": 4
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "detail_qualified_fixed",
+      "group": "matrixcity",
+      "targets": 12,
+      "deltas": {
+        "psnr": -0.14731879190065497,
+        "ssim": -0.0063956749228215315,
+        "lpips": -0.0008428233365217844
+      },
+      "wins": {
+        "psnr": 8,
+        "ssim": 8,
+        "lpips": 8
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "detail_qualified_fixed",
+      "group": "monterey",
+      "targets": 15,
+      "deltas": {
+        "psnr": 0.026465060730250182,
+        "ssim": 0.0026943780924705385,
+        "lpips": 0.0021538277467091876
+      },
+      "wins": {
+        "psnr": 8,
+        "ssim": 8,
+        "lpips": 5
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "detail_qualified_fixed",
+      "group": "cross",
+      "targets": 9,
+      "deltas": {
+        "psnr": 0.06041695850785129,
+        "ssim": 0.001316448470052578,
+        "lpips": 0.00034949349032508
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 5,
+        "lpips": 5
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "detail_qualified_fixed",
+      "group": "park1",
+      "targets": 8,
+      "deltas": {
+        "psnr": -0.014395553632792879,
+        "ssim": -0.00033603353076798806,
+        "lpips": -0.0026598917320370674
+      },
+      "wins": {
+        "psnr": 5,
+        "ssim": 5,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "detail_qualified_fixed",
+      "group": "park3",
+      "targets": 6,
+      "deltas": {
+        "psnr": -0.05324019758198754,
+        "ssim": -0.0033053907836105845,
+        "lpips": 0.001817908138036728
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 1,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "detail_qualified_fixed",
+      "group": "noema",
+      "targets": 8,
+      "deltas": {
+        "psnr": 0.2034677913589884,
+        "ssim": 0.008753424000346299,
+        "lpips": 0.0018952060490846634
+      },
+      "wins": {
+        "psnr": 7,
+        "ssim": 6,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "detail_qualified_fixed",
+      "group": "sand_key",
+      "targets": 16,
+      "deltas": {
+        "psnr": -0.05893072892736462,
+        "ssim": -0.0014813149699773945,
+        "lpips": 0.005904243793338537
+      },
+      "wins": {
+        "psnr": 5,
+        "ssim": 7,
+        "lpips": 4
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "detail_qualified_fixed",
+      "group": "lego",
+      "targets": 11,
+      "deltas": {
+        "psnr": -1.1810620354108667,
+        "ssim": -0.015010562060765908,
+        "lpips": 0.013473037291656841
+      },
+      "wins": {
+        "psnr": 0,
+        "ssim": 0,
+        "lpips": 0
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "detail_qualified_fixed",
+      "group": "flood_holdout",
+      "targets": 5,
+      "deltas": {
+        "psnr": 0.21528846686411213,
+        "ssim": 0.0038019874933433286,
+        "lpips": -0.0075500160455703735
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 2,
+        "lpips": 4
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "detail_qualified_fixed",
+      "group": "matrix_collinear",
+      "targets": 3,
+      "deltas": {
+        "psnr": 0.2720403869860834,
+        "ssim": -0.014970107150968609,
+        "lpips": -0.0213546355565389
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 1,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "detail_qualified_fixed",
+      "group": "matrix_transverse",
+      "targets": 3,
+      "deltas": {
+        "psnr": -0.1274048577775234,
+        "ssim": -0.018403835000634555,
+        "lpips": 0.004738181829452515
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 1,
+        "lpips": 1
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "detail_qualified_fixed",
+      "group": "equal_geography",
+      "geographies": [
+        "Monterey",
+        "Sheffield",
+        "Noema",
+        "Sand Key"
+      ],
+      "deltas": {
+        "psnr": 0.04214896473155773,
+        "ssim": 0.0022978737936826944,
+        "lpips": 0.0024472785553101587
+      },
+      "geo_deltas": {
+        "Monterey": {
+          "psnr": 0.026465060730250182,
+          "ssim": 0.0026943780924705385,
+          "lpips": 0.0021538277467091876
+        },
+        "Sheffield": {
+          "psnr": -0.002406264235643043,
+          "ssim": -0.0007749919481086649,
+          "lpips": -0.0001641633678917531
+        },
+        "Noema": {
+          "psnr": 0.2034677913589884,
+          "ssim": 0.008753424000346299,
+          "lpips": 0.0018952060490846634
+        },
+        "Sand Key": {
+          "psnr": -0.05893072892736462,
+          "ssim": -0.0014813149699773945,
+          "lpips": 0.005904243793338537
+        }
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "rife_ground",
+      "group": "brighton",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.11896162243913277,
+        "ssim": -0.01488641749731808,
+        "lpips": 0.003410741686820984
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 1,
+        "lpips": 4
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "rife_ground",
+      "group": "matrixcity",
+      "targets": 12,
+      "deltas": {
+        "psnr": 2.6090618933730183,
+        "ssim": 0.16644363194432793,
+        "lpips": -0.06873141974210739
+      },
+      "wins": {
+        "psnr": 12,
+        "ssim": 11,
+        "lpips": 12
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "rife_ground",
+      "group": "monterey",
+      "targets": 15,
+      "deltas": {
+        "psnr": 0.1383601492432317,
+        "ssim": 0.0024040716519136327,
+        "lpips": -0.022541155417760212
+      },
+      "wins": {
+        "psnr": 10,
+        "ssim": 9,
+        "lpips": 15
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "rife_ground",
+      "group": "cross",
+      "targets": 9,
+      "deltas": {
+        "psnr": 0.25868804839867504,
+        "ssim": 0.007820568677414954,
+        "lpips": -0.024355674783388775
+      },
+      "wins": {
+        "psnr": 6,
+        "ssim": 6,
+        "lpips": 9
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "rife_ground",
+      "group": "park1",
+      "targets": 8,
+      "deltas": {
+        "psnr": -0.015901055669709008,
+        "ssim": -0.008038088833253465,
+        "lpips": -0.016640779562294483
+      },
+      "wins": {
+        "psnr": 5,
+        "ssim": 2,
+        "lpips": 7
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "rife_ground",
+      "group": "park3",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.0506771073697004,
+        "ssim": -0.0019065675891584977,
+        "lpips": -0.009519770741462708
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 1,
+        "lpips": 5
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "rife_ground",
+      "group": "noema",
+      "targets": 8,
+      "deltas": {
+        "psnr": 0.24063213719970777,
+        "ssim": 0.02299075294553958,
+        "lpips": -0.022058458998799324
+      },
+      "wins": {
+        "psnr": 5,
+        "ssim": 5,
+        "lpips": 8
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "rife_ground",
+      "group": "sand_key",
+      "targets": 13,
+      "deltas": {
+        "psnr": -0.121903108029307,
+        "ssim": -0.009028897622153788,
+        "lpips": 0.003375215599170098
+      },
+      "wins": {
+        "psnr": 7,
+        "ssim": 3,
+        "lpips": 8
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "rife_ground",
+      "group": "flood_holdout",
+      "targets": 5,
+      "deltas": {
+        "psnr": 0.040067992502365965,
+        "ssim": -0.010646426396437503,
+        "lpips": -0.018913455307483673
+      },
+      "wins": {
+        "psnr": 2,
+        "ssim": 2,
+        "lpips": 4
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "rife_ground",
+      "group": "matrix_collinear",
+      "targets": 3,
+      "deltas": {
+        "psnr": 0.09488898084706203,
+        "ssim": -0.061343656916088736,
+        "lpips": 0.0077927807966868086
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 1,
+        "lpips": 1
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "rife_ground",
+      "group": "matrix_transverse",
+      "targets": 3,
+      "deltas": {
+        "psnr": 0.10643475526051738,
+        "ssim": -0.0063444115995485995,
+        "lpips": 0.007498910029729207
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 1,
+        "lpips": 1
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "rife_ground",
+      "group": "equal_geography",
+      "geographies": [
+        "Monterey",
+        "Sheffield",
+        "Noema",
+        "Sand Key"
+      ],
+      "deltas": {
+        "psnr": 0.088727636278297,
+        "ssim": 0.003914474431741772,
+        "lpips": -0.01451578512827619
+      },
+      "geo_deltas": {
+        "Monterey": {
+          "psnr": 0.1383601492432317,
+          "ssim": 0.0024040716519136327,
+          "lpips": -0.022541155417760212
+        },
+        "Sheffield": {
+          "psnr": 0.09782136669955548,
+          "ssim": -0.0007080292483323362,
+          "lpips": -0.016838741695715323
+        },
+        "Noema": {
+          "psnr": 0.24063213719970777,
+          "ssim": 0.02299075294553958,
+          "lpips": -0.022058458998799324
+        },
+        "Sand Key": {
+          "psnr": -0.121903108029307,
+          "ssim": -0.009028897622153788,
+          "lpips": 0.003375215599170098
+        }
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "simple_average",
+      "group": "fresh",
+      "targets": 32,
+      "deltas": {
+        "psnr": -0.0478047617892115,
+        "ssim": -0.0035677097492182374,
+        "lpips": -0.0017669298686087132
+      },
+      "wins": {
+        "psnr": 10,
+        "ssim": 5,
+        "lpips": 20
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "simple_average",
+      "group": "confirmation",
+      "targets": 6,
+      "deltas": {
+        "psnr": -0.03851268374410891,
+        "ssim": 0.0001598907705568827,
+        "lpips": -0.0045456041892369585
+      },
+      "wins": {
+        "psnr": 2,
+        "ssim": 2,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "simple_average",
+      "group": "brighton",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.13372173655590855,
+        "ssim": -0.01140819165439011,
+        "lpips": 0.006411612033843994
+      },
+      "wins": {
+        "psnr": 3,
+        "ssim": 1,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "simple_average",
+      "group": "matrixcity",
+      "targets": 12,
+      "deltas": {
+        "psnr": -0.13361843650828162,
+        "ssim": -0.016056734554480534,
+        "lpips": -0.00558184211452802
+      },
+      "wins": {
+        "psnr": 7,
+        "ssim": 3,
+        "lpips": 9
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "simple_average",
+      "group": "monterey",
+      "targets": 15,
+      "deltas": {
+        "psnr": 0.01556758520954915,
+        "ssim": -0.000998825780996938,
+        "lpips": -0.012578429778416951
+      },
+      "wins": {
+        "psnr": 9,
+        "ssim": 8,
+        "lpips": 13
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "simple_average",
+      "group": "cross",
+      "targets": 9,
+      "deltas": {
+        "psnr": -0.07988136194539584,
+        "ssim": -0.00578537205508942,
+        "lpips": -0.008579654826058282
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 1,
+        "lpips": 9
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "simple_average",
+      "group": "park1",
+      "targets": 8,
+      "deltas": {
+        "psnr": -0.007873849592783477,
+        "ssim": -0.0027776305669569637,
+        "lpips": -0.006977720186114311
+      },
+      "wins": {
+        "psnr": 3,
+        "ssim": 2,
+        "lpips": 7
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "simple_average",
+      "group": "park3",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.014302331473552124,
+        "ssim": -0.007995633477746742,
+        "lpips": -0.004077788442373276
+      },
+      "wins": {
+        "psnr": 2,
+        "ssim": 0,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "simple_average",
+      "group": "noema",
+      "targets": 8,
+      "deltas": {
+        "psnr": 0.18873635820832835,
+        "ssim": 0.005345677682363065,
+        "lpips": -0.0011871401220560074
+      },
+      "wins": {
+        "psnr": 7,
+        "ssim": 6,
+        "lpips": 4
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "simple_average",
+      "group": "sand_key",
+      "targets": 16,
+      "deltas": {
+        "psnr": -0.06447156680043964,
+        "ssim": -0.00454173367616649,
+        "lpips": 0.003148839809000492
+      },
+      "wins": {
+        "psnr": 7,
+        "ssim": 0,
+        "lpips": 10
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "simple_average",
+      "group": "lego",
+      "targets": 11,
+      "deltas": {
+        "psnr": -1.3531614241283674,
+        "ssim": -0.02125909549788479,
+        "lpips": 0.026214853606440804
+      },
+      "wins": {
+        "psnr": 0,
+        "ssim": 0,
+        "lpips": 0
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "simple_average",
+      "group": "flood_holdout",
+      "targets": 5,
+      "deltas": {
+        "psnr": 0.21918742609971317,
+        "ssim": -0.00016762783170588548,
+        "lpips": -0.01107298731803894
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 2,
+        "lpips": 4
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "simple_average",
+      "group": "matrix_collinear",
+      "targets": 3,
+      "deltas": {
+        "psnr": 0.06707651200001763,
+        "ssim": -0.019647564562886865,
+        "lpips": -0.010557055473327637
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 1,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "simple_average",
+      "group": "matrix_transverse",
+      "targets": 3,
+      "deltas": {
+        "psnr": -0.09667775184831544,
+        "ssim": -0.019315181118732556,
+        "lpips": 0.001956870158513387
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 1,
+        "lpips": 1
+      }
+    },
+    {
+      "candidate": "precision_donor",
+      "control": "simple_average",
+      "group": "equal_geography",
+      "geographies": [
+        "Monterey",
+        "Sheffield",
+        "Noema",
+        "Sand Key"
+      ],
+      "deltas": {
+        "psnr": 0.028837020815640532,
+        "ssim": -0.0014286067853495179,
+        "lpips": -0.004290446144080273
+      },
+      "geo_deltas": {
+        "Monterey": {
+          "psnr": 0.01556758520954915,
+          "ssim": -0.000998825780996938,
+          "lpips": -0.012578429778416951
+        },
+        "Sheffield": {
+          "psnr": -0.02448429335487573,
+          "ssim": -0.005519545366597709,
+          "lpips": -0.006545054484848624
+        },
+        "Noema": {
+          "psnr": 0.18873635820832835,
+          "ssim": 0.005345677682363065,
+          "lpips": -0.0011871401220560074
+        },
+        "Sand Key": {
+          "psnr": -0.06447156680043964,
+          "ssim": -0.00454173367616649,
+          "lpips": 0.003148839809000492
+        }
+      }
+    },
+    {
+      "candidate": "depth_prior",
+      "control": "median_stereo",
+      "group": "fresh",
+      "targets": 32,
+      "deltas": {
+        "psnr": 0.013081619544572043,
+        "ssim": 0.0005995964068350942,
+        "lpips": -0.000922120176255703
+      },
+      "wins": {
+        "psnr": 20,
+        "ssim": 22,
+        "lpips": 16
+      }
+    },
+    {
+      "candidate": "depth_prior",
+      "control": "median_stereo",
+      "group": "confirmation",
+      "targets": 6,
+      "deltas": {
+        "psnr": -0.005640241365024797,
+        "ssim": -0.0026292134436876244,
+        "lpips": 0.0010785733660062153
+      },
+      "wins": {
+        "psnr": 3,
+        "ssim": 2,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "depth_prior",
+      "control": "median_stereo",
+      "group": "brighton",
+      "targets": 6,
+      "deltas": {
+        "psnr": -0.011884631053078168,
+        "ssim": 0.009063690308092702,
+        "lpips": -0.011093554397424063
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 5,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "depth_prior",
+      "control": "median_stereo",
+      "group": "matrixcity",
+      "targets": 12,
+      "deltas": {
+        "psnr": 0.07922982503407254,
+        "ssim": 0.00992690481743432,
+        "lpips": -0.00036699076493581134
+      },
+      "wins": {
+        "psnr": 5,
+        "ssim": 6,
+        "lpips": 4
+      }
+    },
+    {
+      "candidate": "depth_prior",
+      "control": "median_stereo",
+      "group": "monterey",
+      "targets": 15,
+      "deltas": {
+        "psnr": -0.034791927740395086,
+        "ssim": -0.0014553524841802426,
+        "lpips": 0.0006218522787094117
+      },
+      "wins": {
+        "psnr": 7,
+        "ssim": 8,
+        "lpips": 8
+      }
+    },
+    {
+      "candidate": "depth_prior",
+      "control": "median_stereo",
+      "group": "cross",
+      "targets": 9,
+      "deltas": {
+        "psnr": -0.06382840323409293,
+        "ssim": -0.00043045686518722933,
+        "lpips": 0.0006483362780676947
+      },
+      "wins": {
+        "psnr": 5,
+        "ssim": 6,
+        "lpips": 5
+      }
+    },
+    {
+      "candidate": "depth_prior",
+      "control": "median_stereo",
+      "group": "park1",
+      "targets": 8,
+      "deltas": {
+        "psnr": -0.014585826804867752,
+        "ssim": 0.00018257263314348446,
+        "lpips": 0.005077793262898922
+      },
+      "wins": {
+        "psnr": 3,
+        "ssim": 4,
+        "lpips": 1
+      }
+    },
+    {
+      "candidate": "depth_prior",
+      "control": "median_stereo",
+      "group": "park3",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.05086182780705517,
+        "ssim": 0.0033894833082655875,
+        "lpips": -0.0025310292840003967
+      },
+      "wins": {
+        "psnr": 6,
+        "ssim": 5,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "depth_prior",
+      "control": "median_stereo",
+      "group": "noema",
+      "targets": 8,
+      "deltas": {
+        "psnr": -0.2174798950636485,
+        "ssim": -0.012404190594863997,
+        "lpips": -0.0008447244763374329
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 2,
+        "lpips": 5
+      }
+    },
+    {
+      "candidate": "depth_prior",
+      "control": "median_stereo",
+      "group": "sand_key",
+      "targets": 16,
+      "deltas": {
+        "psnr": -0.012984108396729921,
+        "ssim": -0.0006114113787586903,
+        "lpips": -0.0003035259433090687
+      },
+      "wins": {
+        "psnr": 8,
+        "ssim": 10,
+        "lpips": 10
+      }
+    },
+    {
+      "candidate": "depth_prior",
+      "control": "median_stereo",
+      "group": "lego",
+      "targets": 11,
+      "deltas": {
+        "psnr": 0.345514240192725,
+        "ssim": 0.006984010872134335,
+        "lpips": -0.007536857981573452
+      },
+      "wins": {
+        "psnr": 10,
+        "ssim": 11,
+        "lpips": 9
+      }
+    },
+    {
+      "candidate": "depth_prior",
+      "control": "median_stereo",
+      "group": "flood_holdout",
+      "targets": 5,
+      "deltas": {
+        "psnr": -0.22550416917950714,
+        "ssim": -0.003967306186831843,
+        "lpips": 0.006538602709770203
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 2,
+        "lpips": 1
+      }
+    },
+    {
+      "candidate": "depth_prior",
+      "control": "median_stereo",
+      "group": "matrix_collinear",
+      "targets": 3,
+      "deltas": {
+        "psnr": -0.1838063239897707,
+        "ssim": 0.01943293866024588,
+        "lpips": 0.014843563238779703
+      },
+      "wins": {
+        "psnr": 2,
+        "ssim": 2,
+        "lpips": 1
+      }
+    },
+    {
+      "candidate": "depth_prior",
+      "control": "median_stereo",
+      "group": "matrix_transverse",
+      "targets": 3,
+      "deltas": {
+        "psnr": 0.04370079043477659,
+        "ssim": 0.01078403921741077,
+        "lpips": -0.006856769323348999
+      },
+      "wins": {
+        "psnr": 2,
+        "ssim": 2,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "depth_prior",
+      "control": "median_stereo",
+      "group": "equal_geography",
+      "geographies": [
+        "Monterey",
+        "Sheffield",
+        "Noema",
+        "Sand Key"
+      ],
+      "deltas": {
+        "psnr": -0.06861001631951884,
+        "ssim": -0.003355938691432246,
+        "lpips": 0.00013465881951291257
+      },
+      "geo_deltas": {
+        "Monterey": {
+          "psnr": -0.034791927740395086,
+          "ssim": -0.0014553524841802426,
+          "lpips": 0.0006218522787094117
+        },
+        "Sheffield": {
+          "psnr": -0.009184134077301837,
+          "ssim": 0.0010471996920739476,
+          "lpips": 0.0010650334189887401
+        },
+        "Noema": {
+          "psnr": -0.2174798950636485,
+          "ssim": -0.012404190594863997,
+          "lpips": -0.0008447244763374329
+        },
+        "Sand Key": {
+          "psnr": -0.012984108396729921,
+          "ssim": -0.0006114113787586903,
+          "lpips": -0.0003035259433090687
+        }
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "detail_median_stereo_fixed",
+      "group": "fresh",
+      "targets": 32,
+      "deltas": {
+        "psnr": 0.018024428245488666,
+        "ssim": 0.00031693558489826953,
+        "lpips": -0.001208662986755371
+      },
+      "wins": {
+        "psnr": 20,
+        "ssim": 21,
+        "lpips": 18
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "detail_median_stereo_fixed",
+      "group": "confirmation",
+      "targets": 6,
+      "deltas": {
+        "psnr": -0.0036382359927745376,
+        "ssim": -0.0024994365086361825,
+        "lpips": 0.0005291178822517395
+      },
+      "wins": {
+        "psnr": 3,
+        "ssim": 2,
+        "lpips": 4
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "detail_median_stereo_fixed",
+      "group": "brighton",
+      "targets": 6,
+      "deltas": {
+        "psnr": -0.12468526285703548,
+        "ssim": 0.008718191130079246,
+        "lpips": -0.004332120219866435
+      },
+      "wins": {
+        "psnr": 2,
+        "ssim": 5,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "detail_median_stereo_fixed",
+      "group": "matrixcity",
+      "targets": 12,
+      "deltas": {
+        "psnr": 0.21171618537487605,
+        "ssim": 0.010606504936818242,
+        "lpips": -0.001593449463446935
+      },
+      "wins": {
+        "psnr": 5,
+        "ssim": 7,
+        "lpips": 5
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "detail_median_stereo_fixed",
+      "group": "monterey",
+      "targets": 15,
+      "deltas": {
+        "psnr": -0.023338638580086033,
+        "ssim": -0.001738849750155593,
+        "lpips": -0.00018838842709859212
+      },
+      "wins": {
+        "psnr": 7,
+        "ssim": 8,
+        "lpips": 8
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "detail_median_stereo_fixed",
+      "group": "cross",
+      "targets": 9,
+      "deltas": {
+        "psnr": -0.06704734259988736,
+        "ssim": -0.0005038656624564584,
+        "lpips": 0.0009831239779790242
+      },
+      "wins": {
+        "psnr": 5,
+        "ssim": 6,
+        "lpips": 4
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "detail_median_stereo_fixed",
+      "group": "park1",
+      "targets": 8,
+      "deltas": {
+        "psnr": 0.010410192984863675,
+        "ssim": 0.00014143459941343486,
+        "lpips": 0.0031008264049887657
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 4,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "detail_median_stereo_fixed",
+      "group": "park3",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.01420488705383575,
+        "ssim": 0.0029777981938329443,
+        "lpips": -0.0007348470389842987
+      },
+      "wins": {
+        "psnr": 5,
+        "ssim": 5,
+        "lpips": 5
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "detail_median_stereo_fixed",
+      "group": "noema",
+      "targets": 8,
+      "deltas": {
+        "psnr": -0.226474608046364,
+        "ssim": -0.012762224900561128,
+        "lpips": -0.0005616042762994766
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 2,
+        "lpips": 5
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "detail_median_stereo_fixed",
+      "group": "sand_key",
+      "targets": 16,
+      "deltas": {
+        "psnr": 0.04673770989898651,
+        "ssim": 0.0002582460557939703,
+        "lpips": -0.001436362974345684
+      },
+      "wins": {
+        "psnr": 11,
+        "ssim": 11,
+        "lpips": 10
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "detail_median_stereo_fixed",
+      "group": "lego",
+      "targets": 11,
+      "deltas": {
+        "psnr": 1.0962322562468976,
+        "ssim": 0.011595875669624672,
+        "lpips": -0.013395568186586554
+      },
+      "wins": {
+        "psnr": 11,
+        "ssim": 11,
+        "lpips": 11
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "detail_median_stereo_fixed",
+      "group": "flood_holdout",
+      "targets": 5,
+      "deltas": {
+        "psnr": -0.2252881130014927,
+        "ssim": -0.004459833929909706,
+        "lpips": 0.00621364414691925
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 2,
+        "lpips": 1
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "detail_median_stereo_fixed",
+      "group": "matrix_collinear",
+      "targets": 3,
+      "deltas": {
+        "psnr": -0.2648316544173272,
+        "ssim": 0.015526195365453197,
+        "lpips": 0.018506308396657307
+      },
+      "wins": {
+        "psnr": 2,
+        "ssim": 2,
+        "lpips": 1
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "detail_median_stereo_fixed",
+      "group": "matrix_transverse",
+      "targets": 3,
+      "deltas": {
+        "psnr": 0.12751178203261837,
+        "ssim": 0.016075397870097374,
+        "lpips": -0.008174389600753784
+      },
+      "wins": {
+        "psnr": 2,
+        "ssim": 2,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "detail_median_stereo_fixed",
+      "group": "equal_geography",
+      "geographies": [
+        "Monterey",
+        "Sheffield",
+        "Noema",
+        "Sand Key"
+      ],
+      "deltas": {
+        "psnr": -0.05430490606196488,
+        "ssim": -0.0033427598878315277,
+        "lpips": -0.0002674969741039806
+      },
+      "geo_deltas": {
+        "Monterey": {
+          "psnr": -0.023338638580086033,
+          "ssim": -0.001738849750155593,
+          "lpips": -0.00018838842709859212
+        },
+        "Sheffield": {
+          "psnr": -0.014144087520395978,
+          "ssim": 0.0008717890435966403,
+          "lpips": 0.0011163677813278304
+        },
+        "Noema": {
+          "psnr": -0.226474608046364,
+          "ssim": -0.012762224900561128,
+          "lpips": -0.0005616042762994766
+        },
+        "Sand Key": {
+          "psnr": 0.04673770989898651,
+          "ssim": 0.0002582460557939703,
+          "lpips": -0.001436362974345684
+        }
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "depth_prior",
+      "group": "fresh",
+      "targets": 32,
+      "deltas": {
+        "psnr": 0.05492943575630982,
+        "ssim": 0.0011439395536090684,
+        "lpips": -0.0022119656205177307
+      },
+      "wins": {
+        "psnr": 24,
+        "ssim": 24,
+        "lpips": 24
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "depth_prior",
+      "group": "confirmation",
+      "targets": 6,
+      "deltas": {
+        "psnr": -0.03037347313616549,
+        "ssim": 5.5357467824063145e-05,
+        "lpips": 0.00043991704781850177
+      },
+      "wins": {
+        "psnr": 3,
+        "ssim": 3,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "depth_prior",
+      "group": "brighton",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.2211877509978096,
+        "ssim": 0.002565726610711213,
+        "lpips": -0.001845357318719228
+      },
+      "wins": {
+        "psnr": 6,
+        "ssim": 5,
+        "lpips": 4
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "depth_prior",
+      "group": "matrixcity",
+      "targets": 12,
+      "deltas": {
+        "psnr": 1.1113654847536107,
+        "ssim": 0.014825064811396782,
+        "lpips": -0.011408224701881409
+      },
+      "wins": {
+        "psnr": 12,
+        "ssim": 11,
+        "lpips": 12
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "depth_prior",
+      "group": "monterey",
+      "targets": 15,
+      "deltas": {
+        "psnr": 0.22741069277809392,
+        "ssim": 0.0038321827711022085,
+        "lpips": -0.011255643765131633
+      },
+      "wins": {
+        "psnr": 12,
+        "ssim": 15,
+        "lpips": 15
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "depth_prior",
+      "group": "cross",
+      "targets": 9,
+      "deltas": {
+        "psnr": 0.22118979901591335,
+        "ssim": 0.004454773680863444,
+        "lpips": -0.004773245089583927
+      },
+      "wins": {
+        "psnr": 8,
+        "ssim": 8,
+        "lpips": 8
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "depth_prior",
+      "group": "park1",
+      "targets": 8,
+      "deltas": {
+        "psnr": 0.2744491693606441,
+        "ssim": 0.004885348132104835,
+        "lpips": -0.008008317090570927
+      },
+      "wins": {
+        "psnr": 5,
+        "ssim": 8,
+        "lpips": 8
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "depth_prior",
+      "group": "park3",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.3797391291168646,
+        "ssim": 0.005279602606628038,
+        "lpips": -0.005912123868862788
+      },
+      "wins": {
+        "psnr": 6,
+        "ssim": 6,
+        "lpips": 5
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "depth_prior",
+      "group": "noema",
+      "targets": 8,
+      "deltas": {
+        "psnr": 0.21221659671434479,
+        "ssim": 0.0012332089408441382,
+        "lpips": -0.005220416933298111
+      },
+      "wins": {
+        "psnr": 7,
+        "ssim": 8,
+        "lpips": 8
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "depth_prior",
+      "group": "sand_key",
+      "targets": 16,
+      "deltas": {
+        "psnr": 0.22952121803622227,
+        "ssim": 0.0011222353578536626,
+        "lpips": -0.002241103909909725
+      },
+      "wins": {
+        "psnr": 15,
+        "ssim": 14,
+        "lpips": 12
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "depth_prior",
+      "group": "lego",
+      "targets": 11,
+      "deltas": {
+        "psnr": 0.9804533256425436,
+        "ssim": -0.0005457113088193178,
+        "lpips": -0.005637255920605226
+      },
+      "wins": {
+        "psnr": 9,
+        "ssim": 6,
+        "lpips": 8
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "depth_prior",
+      "group": "flood_holdout",
+      "targets": 5,
+      "deltas": {
+        "psnr": 0.277730853296562,
+        "ssim": 0.003458985748888199,
+        "lpips": -0.0031786054372787476
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 4,
+        "lpips": 4
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "depth_prior",
+      "group": "matrix_collinear",
+      "targets": 3,
+      "deltas": {
+        "psnr": 0.08004687757031921,
+        "ssim": -0.013047116583623211,
+        "lpips": 0.022562811772028606
+      },
+      "wins": {
+        "psnr": 2,
+        "ssim": 2,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "depth_prior",
+      "group": "matrix_transverse",
+      "targets": 3,
+      "deltas": {
+        "psnr": 0.236802678283795,
+        "ssim": 0.004719459727270105,
+        "lpips": -0.002359400192896525
+      },
+      "wins": {
+        "psnr": 3,
+        "ssim": 2,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "depth_prior",
+      "group": "equal_geography",
+      "geographies": [
+        "Monterey",
+        "Sheffield",
+        "Noema",
+        "Sand Key"
+      ],
+      "deltas": {
+        "psnr": 0.24023530167328375,
+        "ssim": 0.0027652171357496953,
+        "lpips": -0.0062370983228363375
+      },
+      "geo_deltas": {
+        "Monterey": {
+          "psnr": 0.22741069277809392,
+          "ssim": 0.0038321827711022085,
+          "lpips": -0.011255643765131633
+        },
+        "Sheffield": {
+          "psnr": 0.291792699164474,
+          "ssim": 0.004873241473198772,
+          "lpips": -0.00623122868300588
+        },
+        "Noema": {
+          "psnr": 0.21221659671434479,
+          "ssim": 0.0012332089408441382,
+          "lpips": -0.005220416933298111
+        },
+        "Sand Key": {
+          "psnr": 0.22952121803622227,
+          "ssim": 0.0011222353578536626,
+          "lpips": -0.002241103909909725
+        }
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "mesh_qualified_blend",
+      "group": "fresh",
+      "targets": 32,
+      "deltas": {
+        "psnr": -0.01642048421501946,
+        "ssim": -0.0029878188751266323,
+        "lpips": -0.010866167023777962
+      },
+      "wins": {
+        "psnr": 5,
+        "ssim": 1,
+        "lpips": 30
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "mesh_qualified_blend",
+      "group": "confirmation",
+      "targets": 6,
+      "deltas": {
+        "psnr": -0.018816609127692157,
+        "ssim": -0.002197824202273944,
+        "lpips": -0.010946052769819895
+      },
+      "wins": {
+        "psnr": 0,
+        "ssim": 1,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "mesh_qualified_blend",
+      "group": "brighton",
+      "targets": 6,
+      "deltas": {
+        "psnr": -0.033554038096777816,
+        "ssim": -0.004228567075463968,
+        "lpips": -0.0068114350239435835
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 0,
+        "lpips": 4
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "mesh_qualified_blend",
+      "group": "matrixcity",
+      "targets": 12,
+      "deltas": {
+        "psnr": 0.14988419797278763,
+        "ssim": -0.008188181322856721,
+        "lpips": -0.028062185893456142
+      },
+      "wins": {
+        "psnr": 7,
+        "ssim": 2,
+        "lpips": 12
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "mesh_qualified_blend",
+      "group": "monterey",
+      "targets": 15,
+      "deltas": {
+        "psnr": -0.1061737808492912,
+        "ssim": -0.007751744937692142,
+        "lpips": -0.025097028414408366
+      },
+      "wins": {
+        "psnr": 0,
+        "ssim": 1,
+        "lpips": 14
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "mesh_qualified_blend",
+      "group": "cross",
+      "targets": 9,
+      "deltas": {
+        "psnr": -0.16859209700964406,
+        "ssim": -0.010006684644300871,
+        "lpips": -0.013915624883439805
+      },
+      "wins": {
+        "psnr": 0,
+        "ssim": 0,
+        "lpips": 9
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "mesh_qualified_blend",
+      "group": "park1",
+      "targets": 8,
+      "deltas": {
+        "psnr": -0.061448942481522995,
+        "ssim": -0.0057547037042616975,
+        "lpips": -0.006918592378497124
+      },
+      "wins": {
+        "psnr": 0,
+        "ssim": 0,
+        "lpips": 7
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "mesh_qualified_blend",
+      "group": "park3",
+      "targets": 6,
+      "deltas": {
+        "psnr": -0.06527591671958562,
+        "ssim": -0.008701917135564091,
+        "lpips": -0.012183771779139837
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 0,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "mesh_qualified_blend",
+      "group": "noema",
+      "targets": 8,
+      "deltas": {
+        "psnr": -0.05948419503558888,
+        "ssim": -0.004647218607774298,
+        "lpips": -0.00871949177235365
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 2,
+        "lpips": 5
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "mesh_qualified_blend",
+      "group": "sand_key",
+      "targets": 16,
+      "deltas": {
+        "psnr": -0.07797414249409784,
+        "ssim": -0.004731496197299741,
+        "lpips": -0.006688801106065512
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 2,
+        "lpips": 12
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "mesh_qualified_blend",
+      "group": "lego",
+      "targets": 11,
+      "deltas": {
+        "psnr": 0.44003734869170397,
+        "ssim": -0.004866447152788722,
+        "lpips": 0.00267178937792778
+      },
+      "wins": {
+        "psnr": 9,
+        "ssim": 3,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "mesh_qualified_blend",
+      "group": "flood_holdout",
+      "targets": 5,
+      "deltas": {
+        "psnr": -0.0634029126990285,
+        "ssim": -0.006080018198895832,
+        "lpips": -0.010646569728851318
+      },
+      "wins": {
+        "psnr": 0,
+        "ssim": 0,
+        "lpips": 4
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "mesh_qualified_blend",
+      "group": "matrix_collinear",
+      "targets": 3,
+      "deltas": {
+        "psnr": 0.04003723871055934,
+        "ssim": 0.024915678677159287,
+        "lpips": -0.03202854593594869
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 1,
+        "lpips": 1
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "mesh_qualified_blend",
+      "group": "matrix_transverse",
+      "targets": 3,
+      "deltas": {
+        "psnr": -0.010261729306231851,
+        "ssim": 0.003264952617487308,
+        "lpips": -0.013382017612457275
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 2,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "mesh_qualified_blend",
+      "group": "equal_geography",
+      "geographies": [
+        "Monterey",
+        "Sheffield",
+        "Noema",
+        "Sand Key"
+      ],
+      "deltas": {
+        "psnr": -0.08551777594564053,
+        "ssim": -0.006321223726035434,
+        "lpips": -0.012877829409963279
+      },
+      "geo_deltas": {
+        "Monterey": {
+          "psnr": -0.1061737808492912,
+          "ssim": -0.007751744937692142,
+          "lpips": -0.025097028414408366
+        },
+        "Sheffield": {
+          "psnr": -0.09843898540358421,
+          "ssim": -0.008154435161375553,
+          "lpips": -0.011005996347025588
+        },
+        "Noema": {
+          "psnr": -0.05948419503558888,
+          "ssim": -0.004647218607774298,
+          "lpips": -0.00871949177235365
+        },
+        "Sand Key": {
+          "psnr": -0.07797414249409784,
+          "ssim": -0.004731496197299741,
+          "lpips": -0.006688801106065512
+        }
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "detail_qualified_adaptive",
+      "group": "fresh",
+      "targets": 32,
+      "deltas": {
+        "psnr": -0.003868426124261415,
+        "ssim": -0.0011681239315038429,
+        "lpips": -0.0029476433992385864
+      },
+      "wins": {
+        "psnr": 8,
+        "ssim": 1,
+        "lpips": 24
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "detail_qualified_adaptive",
+      "group": "confirmation",
+      "targets": 6,
+      "deltas": {
+        "psnr": -0.0030078748203550276,
+        "ssim": -0.0005856021947673595,
+        "lpips": -0.0024817039569218955
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 2,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "detail_qualified_adaptive",
+      "group": "brighton",
+      "targets": 6,
+      "deltas": {
+        "psnr": -0.0039877383783567906,
+        "ssim": -0.0009927014721458048,
+        "lpips": -0.0010782678922017415
+      },
+      "wins": {
+        "psnr": 2,
+        "ssim": 0,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "detail_qualified_adaptive",
+      "group": "matrixcity",
+      "targets": 12,
+      "deltas": {
+        "psnr": 0.11165350816994864,
+        "ssim": -0.004959443131637237,
+        "lpips": -0.00668896238009135
+      },
+      "wins": {
+        "psnr": 7,
+        "ssim": 1,
+        "lpips": 7
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "detail_qualified_adaptive",
+      "group": "monterey",
+      "targets": 15,
+      "deltas": {
+        "psnr": -0.02529374155959137,
+        "ssim": -0.0019757202583881167,
+        "lpips": -0.0032438576221466065
+      },
+      "wins": {
+        "psnr": 0,
+        "ssim": 0,
+        "lpips": 14
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "detail_qualified_adaptive",
+      "group": "cross",
+      "targets": 9,
+      "deltas": {
+        "psnr": -0.05447956975470368,
+        "ssim": -0.0029666129004306293,
+        "lpips": -0.0033245409528414407
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 1,
+        "lpips": 9
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "detail_qualified_adaptive",
+      "group": "park1",
+      "targets": 8,
+      "deltas": {
+        "psnr": -0.01753492523370026,
+        "ssim": -0.0015348482327644936,
+        "lpips": -0.00013271532952785492
+      },
+      "wins": {
+        "psnr": 0,
+        "ssim": 0,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "detail_qualified_adaptive",
+      "group": "park3",
+      "targets": 6,
+      "deltas": {
+        "psnr": -0.007598165991183829,
+        "ssim": -0.0016691471540138207,
+        "lpips": -0.0008309011658032736
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 0,
+        "lpips": 4
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "detail_qualified_adaptive",
+      "group": "noema",
+      "targets": 8,
+      "deltas": {
+        "psnr": -0.0063896477138105645,
+        "ssim": -0.0010290248671026465,
+        "lpips": -0.001683281734585762
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 0,
+        "lpips": 7
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "detail_qualified_adaptive",
+      "group": "sand_key",
+      "targets": 16,
+      "deltas": {
+        "psnr": -0.01232292656643863,
+        "ssim": -0.0005729575431009035,
+        "lpips": -0.0005594491958618164
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 4,
+        "lpips": 9
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "detail_qualified_adaptive",
+      "group": "lego",
+      "targets": 11,
+      "deltas": {
+        "psnr": 0.28937678623473884,
+        "ssim": -0.0048190062138105845,
+        "lpips": 0.013298417695543983
+      },
+      "wins": {
+        "psnr": 9,
+        "ssim": 1,
+        "lpips": 1
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "detail_qualified_adaptive",
+      "group": "flood_holdout",
+      "targets": 5,
+      "deltas": {
+        "psnr": -0.021049642354527266,
+        "ssim": -0.0021052604009677454,
+        "lpips": -0.0018784746527671814
+      },
+      "wins": {
+        "psnr": 0,
+        "ssim": 0,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "detail_qualified_adaptive",
+      "group": "matrix_collinear",
+      "targets": 3,
+      "deltas": {
+        "psnr": 0.04549710251576992,
+        "ssim": 0.018096865402662032,
+        "lpips": -0.01065748929977417
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 2,
+        "lpips": 1
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "detail_qualified_adaptive",
+      "group": "matrix_transverse",
+      "targets": 3,
+      "deltas": {
+        "psnr": 0.009247939935721186,
+        "ssim": 0.003713179030298497,
+        "lpips": -0.006398449341456096
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 2,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "detail_qualified_adaptive",
+      "group": "equal_geography",
+      "geographies": [
+        "Monterey",
+        "Sheffield",
+        "Noema",
+        "Sand Key"
+      ],
+      "deltas": {
+        "psnr": -0.017635967374925787,
+        "ssim": -0.0014086430244153287,
+        "lpips": -0.001728993592162927
+      },
+      "geo_deltas": {
+        "Monterey": {
+          "psnr": -0.02529374155959137,
+          "ssim": -0.0019757202583881167,
+          "lpips": -0.0032438576221466065
+        },
+        "Sheffield": {
+          "psnr": -0.02653755365986259,
+          "ssim": -0.002056869429069648,
+          "lpips": -0.001429385816057523
+        },
+        "Noema": {
+          "psnr": -0.0063896477138105645,
+          "ssim": -0.0010290248671026465,
+          "lpips": -0.001683281734585762
+        },
+        "Sand Key": {
+          "psnr": -0.01232292656643863,
+          "ssim": -0.0005729575431009035,
+          "lpips": -0.0005594491958618164
+        }
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "simple_average",
+      "group": "fresh",
+      "targets": 32,
+      "deltas": {
+        "psnr": -0.028552455602996463,
+        "ssim": -0.0029064571060301745,
+        "lpips": -0.0030153729021549225
+      },
+      "wins": {
+        "psnr": 6,
+        "ssim": 0,
+        "lpips": 25
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "simple_average",
+      "group": "confirmation",
+      "targets": 6,
+      "deltas": {
+        "psnr": -0.044792108160802556,
+        "ssim": -0.00231092974867216,
+        "lpips": -0.0036647741993268332
+      },
+      "wins": {
+        "psnr": 0,
+        "ssim": 0,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "simple_average",
+      "group": "brighton",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.001081223396698879,
+        "ssim": -0.003003977849638841,
+        "lpips": -0.0003300483028093974
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 0,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "simple_average",
+      "group": "matrixcity",
+      "targets": 12,
+      "deltas": {
+        "psnr": 0.013700355392373353,
+        "ssim": -0.009661059631659003,
+        "lpips": -0.004739018778006236
+      },
+      "wins": {
+        "psnr": 6,
+        "ssim": 1,
+        "lpips": 8
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "simple_average",
+      "group": "monterey",
+      "targets": 15,
+      "deltas": {
+        "psnr": -0.010897475520701031,
+        "ssim": -0.0036932038734674767,
+        "lpips": -0.014732257525126139
+      },
+      "wins": {
+        "psnr": 7,
+        "ssim": 0,
+        "lpips": 15
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "simple_average",
+      "group": "cross",
+      "targets": 9,
+      "deltas": {
+        "psnr": -0.14029832045324714,
+        "ssim": -0.007101820525141998,
+        "lpips": -0.008929148316383362
+      },
+      "wins": {
+        "psnr": 0,
+        "ssim": 0,
+        "lpips": 9
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "simple_average",
+      "group": "park1",
+      "targets": 8,
+      "deltas": {
+        "psnr": 0.006521704040009402,
+        "ssim": -0.0024415970361889756,
+        "lpips": -0.004317828454077244
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 0,
+        "lpips": 8
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "simple_average",
+      "group": "park3",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.06754252905553966,
+        "ssim": -0.004690242694136158,
+        "lpips": -0.005895696580410004
+      },
+      "wins": {
+        "psnr": 2,
+        "ssim": 0,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "simple_average",
+      "group": "noema",
+      "targets": 8,
+      "deltas": {
+        "psnr": -0.014731433150660056,
+        "ssim": -0.003407746317983233,
+        "lpips": -0.0030823461711406708
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 0,
+        "lpips": 5
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "simple_average",
+      "group": "sand_key",
+      "targets": 16,
+      "deltas": {
+        "psnr": -0.005540837873075022,
+        "ssim": -0.0030604187061890956,
+        "lpips": -0.002755403984338045
+      },
+      "wins": {
+        "psnr": 11,
+        "ssim": 0,
+        "lpips": 12
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "simple_average",
+      "group": "lego",
+      "targets": 11,
+      "deltas": {
+        "psnr": -0.17209938871750066,
+        "ssim": -0.0062485334371188824,
+        "lpips": 0.012741816314783964
+      },
+      "wins": {
+        "psnr": 5,
+        "ssim": 0,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "simple_average",
+      "group": "flood_holdout",
+      "targets": 5,
+      "deltas": {
+        "psnr": 0.0038989592356010404,
+        "ssim": -0.003969615325049214,
+        "lpips": -0.003522971272468567
+      },
+      "wins": {
+        "psnr": 3,
+        "ssim": 0,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "simple_average",
+      "group": "matrix_collinear",
+      "targets": 3,
+      "deltas": {
+        "psnr": -0.20496387498606575,
+        "ssim": -0.004677457411918255,
+        "lpips": 0.010797580083211264
+      },
+      "wins": {
+        "psnr": 2,
+        "ssim": 0,
+        "lpips": 1
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "simple_average",
+      "group": "matrix_transverse",
+      "targets": 3,
+      "deltas": {
+        "psnr": 0.030727105929207948,
+        "ssim": -0.0009113461180980017,
+        "lpips": -0.0027813116709391275
+      },
+      "wins": {
+        "psnr": 3,
+        "ssim": 1,
+        "lpips": 2
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "simple_average",
+      "group": "equal_geography",
+      "geographies": [
+        "Monterey",
+        "Sheffield",
+        "Noema",
+        "Sand Key"
+      ],
+      "deltas": {
+        "psnr": -0.0133119439159172,
+        "ssim": -0.0037264805790322123,
+        "lpips": -0.0067377246993904315
+      },
+      "geo_deltas": {
+        "Monterey": {
+          "psnr": -0.010897475520701031,
+          "ssim": -0.0036932038734674767,
+          "lpips": -0.014732257525126139
+        },
+        "Sheffield": {
+          "psnr": -0.022078029119232692,
+          "ssim": -0.004744553418489044,
+          "lpips": -0.00638089111695687
+        },
+        "Noema": {
+          "psnr": -0.014731433150660056,
+          "ssim": -0.003407746317983233,
+          "lpips": -0.0030823461711406708
+        },
+        "Sand Key": {
+          "psnr": -0.005540837873075022,
+          "ssim": -0.0030604187061890956,
+          "lpips": -0.002755403984338045
+        }
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "reverse_bands",
+      "group": "fresh",
+      "targets": 32,
+      "deltas": {
+        "psnr": 0.004998113781811919,
+        "ssim": -0.002611414137242872,
+        "lpips": -0.010301859118044376
+      },
+      "wins": {
+        "psnr": 15,
+        "ssim": 3,
+        "lpips": 30
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "reverse_bands",
+      "group": "confirmation",
+      "targets": 6,
+      "deltas": {
+        "psnr": -0.06300238023752325,
+        "ssim": -0.0026172021684862656,
+        "lpips": -0.009145162999629974
+      },
+      "wins": {
+        "psnr": 0,
+        "ssim": 1,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "reverse_bands",
+      "group": "brighton",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.1292898059818155,
+        "ssim": -0.0023048633234289614,
+        "lpips": -0.01056463768084844
+      },
+      "wins": {
+        "psnr": 5,
+        "ssim": 1,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "reverse_bands",
+      "group": "matrixcity",
+      "targets": 12,
+      "deltas": {
+        "psnr": 0.8517186038340032,
+        "ssim": 0.0031134525507391744,
+        "lpips": -0.043232509245475136
+      },
+      "wins": {
+        "psnr": 11,
+        "ssim": 7,
+        "lpips": 12
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "reverse_bands",
+      "group": "monterey",
+      "targets": 15,
+      "deltas": {
+        "psnr": 0.0997178998059501,
+        "ssim": -0.004594481757284833,
+        "lpips": -0.03329760730266571
+      },
+      "wins": {
+        "psnr": 12,
+        "ssim": 1,
+        "lpips": 15
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "reverse_bands",
+      "group": "cross",
+      "targets": 9,
+      "deltas": {
+        "psnr": -0.0654095063351071,
+        "ssim": -0.00793559055462627,
+        "lpips": -0.016611341800954606
+      },
+      "wins": {
+        "psnr": 3,
+        "ssim": 0,
+        "lpips": 9
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "reverse_bands",
+      "group": "park1",
+      "targets": 8,
+      "deltas": {
+        "psnr": 0.17159536179833856,
+        "ssim": -0.0012993295118285883,
+        "lpips": -0.014936216175556183
+      },
+      "wins": {
+        "psnr": 5,
+        "ssim": 1,
+        "lpips": 8
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "reverse_bands",
+      "group": "park3",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.2662191400079414,
+        "ssim": -0.0044568700682730555,
+        "lpips": -0.01907731220126152
+      },
+      "wins": {
+        "psnr": 5,
+        "ssim": 0,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "reverse_bands",
+      "group": "noema",
+      "targets": 8,
+      "deltas": {
+        "psnr": 0.1290555007666203,
+        "ssim": -0.0037020208942494318,
+        "lpips": -0.011086573824286461
+      },
+      "wins": {
+        "psnr": 6,
+        "ssim": 2,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "reverse_bands",
+      "group": "sand_key",
+      "targets": 16,
+      "deltas": {
+        "psnr": 0.09869792102635944,
+        "ssim": -0.0036331177442535875,
+        "lpips": -0.00827400991693139
+      },
+      "wins": {
+        "psnr": 13,
+        "ssim": 1,
+        "lpips": 14
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "reverse_bands",
+      "group": "lego",
+      "targets": 11,
+      "deltas": {
+        "psnr": 0.7356775708618577,
+        "ssim": 0.0023357715315080007,
+        "lpips": -0.008731466125358234
+      },
+      "wins": {
+        "psnr": 8,
+        "ssim": 7,
+        "lpips": 10
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "reverse_bands",
+      "group": "flood_holdout",
+      "targets": 5,
+      "deltas": {
+        "psnr": 0.170568656190013,
+        "ssim": -0.0032671083182907014,
+        "lpips": -0.013590352237224579
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 0,
+        "lpips": 4
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "reverse_bands",
+      "group": "matrix_collinear",
+      "targets": 3,
+      "deltas": {
+        "psnr": -0.029435035305985718,
+        "ssim": 0.010450287170918856,
+        "lpips": -0.020472208658854168
+      },
+      "wins": {
+        "psnr": 2,
+        "ssim": 1,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "reverse_bands",
+      "group": "matrix_transverse",
+      "targets": 3,
+      "deltas": {
+        "psnr": 0.18101748554604846,
+        "ssim": 0.007221590830732307,
+        "lpips": -0.01592286427815755
+      },
+      "wins": {
+        "psnr": 3,
+        "ssim": 3,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "reverse_bands",
+      "group": "equal_geography",
+      "geographies": [
+        "Monterey",
+        "Sheffield",
+        "Noema",
+        "Sand Key"
+      ],
+      "deltas": {
+        "psnr": 0.1129015800223302,
+        "ssim": -0.004123387610174289,
+        "lpips": -0.017383286942451916
+      },
+      "geo_deltas": {
+        "Monterey": {
+          "psnr": 0.0997178998059501,
+          "ssim": -0.004594481757284833,
+          "lpips": -0.03329760730266571
+        },
+        "Sheffield": {
+          "psnr": 0.12413499849039095,
+          "ssim": -0.0045639300449093045,
+          "lpips": -0.016874956725924106
+        },
+        "Noema": {
+          "psnr": 0.1290555007666203,
+          "ssim": -0.0037020208942494318,
+          "lpips": -0.011086573824286461
+        },
+        "Sand Key": {
+          "psnr": 0.09869792102635944,
+          "ssim": -0.0036331177442535875,
+          "lpips": -0.00827400991693139
+        }
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "sharpen_surface",
+      "group": "fresh",
+      "targets": 32,
+      "deltas": {
+        "psnr": 0.9203339800765301,
+        "ssim": 0.07498455673939758,
+        "lpips": -0.029336409643292427
+      },
+      "wins": {
+        "psnr": 32,
+        "ssim": 32,
+        "lpips": 32
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "sharpen_surface",
+      "group": "confirmation",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.9992489203563126,
+        "ssim": 0.07789931875427279,
+        "lpips": -0.024100278814633686
+      },
+      "wins": {
+        "psnr": 6,
+        "ssim": 6,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "sharpen_surface",
+      "group": "brighton",
+      "targets": 6,
+      "deltas": {
+        "psnr": 1.2139252856305147,
+        "ssim": 0.05841283513113784,
+        "lpips": -0.03409400085608164
+      },
+      "wins": {
+        "psnr": 6,
+        "ssim": 6,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "sharpen_surface",
+      "group": "matrixcity",
+      "targets": 12,
+      "deltas": {
+        "psnr": 2.4136979004732795,
+        "ssim": 0.05184198362394876,
+        "lpips": -0.05534908299644788
+      },
+      "wins": {
+        "psnr": 12,
+        "ssim": 12,
+        "lpips": 12
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "sharpen_surface",
+      "group": "monterey",
+      "targets": 15,
+      "deltas": {
+        "psnr": 1.4719244178433966,
+        "ssim": 0.06061800363088567,
+        "lpips": -0.02488522926966349
+      },
+      "wins": {
+        "psnr": 15,
+        "ssim": 15,
+        "lpips": 14
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "sharpen_surface",
+      "group": "cross",
+      "targets": 9,
+      "deltas": {
+        "psnr": 1.88214448166235,
+        "ssim": 0.06234090409461682,
+        "lpips": -0.02935719821188185
+      },
+      "wins": {
+        "psnr": 9,
+        "ssim": 9,
+        "lpips": 9
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "sharpen_surface",
+      "group": "park1",
+      "targets": 8,
+      "deltas": {
+        "psnr": 1.1979537589198563,
+        "ssim": 0.0796482773763672,
+        "lpips": -0.027374595403671265
+      },
+      "wins": {
+        "psnr": 8,
+        "ssim": 8,
+        "lpips": 7
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "sharpen_surface",
+      "group": "park3",
+      "targets": 6,
+      "deltas": {
+        "psnr": 1.1737964316389629,
+        "ssim": 0.08235121747881398,
+        "lpips": -0.030556211868921917
+      },
+      "wins": {
+        "psnr": 6,
+        "ssim": 6,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "sharpen_surface",
+      "group": "noema",
+      "targets": 8,
+      "deltas": {
+        "psnr": 2.1094854046822387,
+        "ssim": 0.057087592902147724,
+        "lpips": -0.012058649212121964
+      },
+      "wins": {
+        "psnr": 8,
+        "ssim": 8,
+        "lpips": 7
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "sharpen_surface",
+      "group": "sand_key",
+      "targets": 16,
+      "deltas": {
+        "psnr": 0.9633659786499726,
+        "ssim": 0.07293868337247486,
+        "lpips": -0.018814718816429377
+      },
+      "wins": {
+        "psnr": 16,
+        "ssim": 16,
+        "lpips": 14
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "sharpen_surface",
+      "group": "lego",
+      "targets": 11,
+      "deltas": {
+        "psnr": 1.331667344780532,
+        "ssim": 0.010356535570782482,
+        "lpips": -0.0007089518687941811
+      },
+      "wins": {
+        "psnr": 11,
+        "ssim": 10,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "sharpen_surface",
+      "group": "flood_holdout",
+      "targets": 5,
+      "deltas": {
+        "psnr": 1.5553368476357137,
+        "ssim": 0.09187998423779344,
+        "lpips": -0.02595820724964142
+      },
+      "wins": {
+        "psnr": 5,
+        "ssim": 5,
+        "lpips": 5
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "sharpen_surface",
+      "group": "matrix_collinear",
+      "targets": 3,
+      "deltas": {
+        "psnr": 1.2994337316124163,
+        "ssim": 0.07809240817575772,
+        "lpips": -0.03966909646987915
+      },
+      "wins": {
+        "psnr": 3,
+        "ssim": 3,
+        "lpips": 1
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "sharpen_surface",
+      "group": "matrix_transverse",
+      "targets": 3,
+      "deltas": {
+        "psnr": 1.2368863051875383,
+        "ssim": 0.06254631264527157,
+        "lpips": -0.04030787944793701
+      },
+      "wins": {
+        "psnr": 3,
+        "ssim": 3,
+        "lpips": 3
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "sharpen_surface",
+      "group": "equal_geography",
+      "geographies": [
+        "Monterey",
+        "Sheffield",
+        "Noema",
+        "Sand Key"
+      ],
+      "deltas": {
+        "psnr": 1.4906851729789996,
+        "ssim": 0.06635610322219357,
+        "lpips": -0.021213649781593295
+      },
+      "geo_deltas": {
+        "Monterey": {
+          "psnr": 1.4719244178433966,
+          "ssim": 0.06061800363088567,
+          "lpips": -0.02488522926966349
+        },
+        "Sheffield": {
+          "psnr": 1.4179648907403897,
+          "ssim": 0.07478013298326601,
+          "lpips": -0.029096001828158344
+        },
+        "Noema": {
+          "psnr": 2.1094854046822387,
+          "ssim": 0.057087592902147724,
+          "lpips": -0.012058649212121964
+        },
+        "Sand Key": {
+          "psnr": 0.9633659786499726,
+          "ssim": 0.07293868337247486,
+          "lpips": -0.018814718816429377
+        }
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "depthsplat_dl3dv_256x448_plane_bg",
+      "group": "fresh",
+      "targets": 32,
+      "deltas": {
+        "psnr": -0.03335793155289918,
+        "ssim": -0.002775426379218446,
+        "lpips": -0.04265314340591431
+      },
+      "wins": {
+        "psnr": 11,
+        "ssim": 12,
+        "lpips": 32
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "depthsplat_dl3dv_256x448_plane_bg",
+      "group": "confirmation",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.25348402790641256,
+        "ssim": 0.03689692770677916,
+        "lpips": -0.04427456855773926
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 3,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "depthsplat_dl3dv_256x448_plane_bg",
+      "group": "brighton",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.03081009775115599,
+        "ssim": 0.019129244774051687,
+        "lpips": -0.06268395483493805
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 4,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "depthsplat_dl3dv_256x448_plane_bg",
+      "group": "matrixcity",
+      "targets": 12,
+      "deltas": {
+        "psnr": 2.4189844762878874,
+        "ssim": 0.24069709377742246,
+        "lpips": -0.08077409118413925
+      },
+      "wins": {
+        "psnr": 12,
+        "ssim": 12,
+        "lpips": 12
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "depthsplat_dl3dv_256x448_plane_bg",
+      "group": "monterey",
+      "targets": 15,
+      "deltas": {
+        "psnr": 0.6943043071483962,
+        "ssim": 0.02541175984815652,
+        "lpips": -0.14084390898545582
+      },
+      "wins": {
+        "psnr": 9,
+        "ssim": 8,
+        "lpips": 15
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "depthsplat_dl3dv_256x448_plane_bg",
+      "group": "cross",
+      "targets": 9,
+      "deltas": {
+        "psnr": 0.8900925049720291,
+        "ssim": 0.06322255372786968,
+        "lpips": -0.05165466417868932
+      },
+      "wins": {
+        "psnr": 8,
+        "ssim": 8,
+        "lpips": 9
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "depthsplat_dl3dv_256x448_plane_bg",
+      "group": "park1",
+      "targets": 8,
+      "deltas": {
+        "psnr": -0.2801621505464038,
+        "ssim": -0.034247492998693785,
+        "lpips": -0.04866397939622402
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 1,
+        "lpips": 8
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "depthsplat_dl3dv_256x448_plane_bg",
+      "group": "park3",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.13764138165794795,
+        "ssim": -0.0050094659970557716,
+        "lpips": -0.050502331306536995
+      },
+      "wins": {
+        "psnr": 3,
+        "ssim": 2,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "depthsplat_dl3dv_256x448_plane_bg",
+      "group": "noema",
+      "targets": 8,
+      "deltas": {
+        "psnr": 0.8251915458593602,
+        "ssim": 0.12610006694840575,
+        "lpips": -0.07010164484381676
+      },
+      "wins": {
+        "psnr": 6,
+        "ssim": 6,
+        "lpips": 8
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "depthsplat_dl3dv_256x448_plane_bg",
+      "group": "sand_key",
+      "targets": 16,
+      "deltas": {
+        "psnr": -0.053686440978750305,
+        "ssim": -0.00702702338300136,
+        "lpips": -0.018234843388199806
+      },
+      "wins": {
+        "psnr": 7,
+        "ssim": 3,
+        "lpips": 14
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "depthsplat_dl3dv_256x448_plane_bg",
+      "group": "lego",
+      "targets": 11,
+      "deltas": {
+        "psnr": 3.1933590649465633,
+        "ssim": 0.25641238223055685,
+        "lpips": -0.10249319198456677
+      },
+      "wins": {
+        "psnr": 11,
+        "ssim": 11,
+        "lpips": 11
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "depthsplat_dl3dv_256x448_plane_bg",
+      "group": "flood_holdout",
+      "targets": 5,
+      "deltas": {
+        "psnr": 0.4350155502328157,
+        "ssim": 0.02489889363605342,
+        "lpips": -0.08129114806652069
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 4,
+        "lpips": 5
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "depthsplat_dl3dv_256x448_plane_bg",
+      "group": "equal_geography",
+      "geographies": [
+        "Monterey",
+        "Sheffield",
+        "Noema",
+        "Sand Key"
+      ],
+      "deltas": {
+        "psnr": 0.4287499976808826,
+        "ssim": 0.038118333747733574,
+        "lpips": -0.06986351387782229
+      },
+      "geo_deltas": {
+        "Monterey": {
+          "psnr": 0.6943043071483962,
+          "ssim": 0.02541175984815652,
+          "lpips": -0.14084390898545582
+        },
+        "Sheffield": {
+          "psnr": 0.2491905786945244,
+          "ssim": 0.007988531577373375,
+          "lpips": -0.05027365829381678
+        },
+        "Noema": {
+          "psnr": 0.8251915458593602,
+          "ssim": 0.12610006694840575,
+          "lpips": -0.07010164484381676
+        },
+        "Sand Key": {
+          "psnr": -0.053686440978750305,
+          "ssim": -0.00702702338300136,
+          "lpips": -0.018234843388199806
+        }
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "mvsplat_acid_native_plane_bg",
+      "group": "fresh",
+      "targets": 32,
+      "deltas": {
+        "psnr": 0.974861078842431,
+        "ssim": 0.007489213923007649,
+        "lpips": -0.08125190529972315
+      },
+      "wins": {
+        "psnr": 29,
+        "ssim": 16,
+        "lpips": 32
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "mvsplat_acid_native_plane_bg",
+      "group": "confirmation",
+      "targets": 6,
+      "deltas": {
+        "psnr": 1.9140787199778142,
+        "ssim": 0.046276855727795906,
+        "lpips": -0.09702964375416438
+      },
+      "wins": {
+        "psnr": 6,
+        "ssim": 3,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "mvsplat_acid_native_plane_bg",
+      "group": "brighton",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.45328550885389013,
+        "ssim": 0.00843286119558409,
+        "lpips": -0.09526618818442027
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 2,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "mvsplat_acid_native_plane_bg",
+      "group": "matrixcity",
+      "targets": 12,
+      "deltas": {
+        "psnr": 2.655441110730265,
+        "ssim": 0.24419722254717582,
+        "lpips": -0.1551701140900453
+      },
+      "wins": {
+        "psnr": 12,
+        "ssim": 12,
+        "lpips": 12
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "mvsplat_acid_native_plane_bg",
+      "group": "monterey",
+      "targets": 15,
+      "deltas": {
+        "psnr": 2.2026441732992046,
+        "ssim": 0.04871737689463155,
+        "lpips": -0.28107296327749887
+      },
+      "wins": {
+        "psnr": 14,
+        "ssim": 9,
+        "lpips": 15
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "mvsplat_acid_native_plane_bg",
+      "group": "cross",
+      "targets": 9,
+      "deltas": {
+        "psnr": 4.0930075237759915,
+        "ssim": 0.1486943540331901,
+        "lpips": -0.18861300663815606
+      },
+      "wins": {
+        "psnr": 9,
+        "ssim": 7,
+        "lpips": 9
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "mvsplat_acid_native_plane_bg",
+      "group": "park1",
+      "targets": 8,
+      "deltas": {
+        "psnr": 2.264432211517005,
+        "ssim": -0.017106018603898515,
+        "lpips": -0.19518531672656536
+      },
+      "wins": {
+        "psnr": 6,
+        "ssim": 2,
+        "lpips": 8
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "mvsplat_acid_native_plane_bg",
+      "group": "park3",
+      "targets": 6,
+      "deltas": {
+        "psnr": 3.086749609130434,
+        "ssim": -0.0004832431744266896,
+        "lpips": -0.21331427122155824
+      },
+      "wins": {
+        "psnr": 5,
+        "ssim": 3,
+        "lpips": 6
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "mvsplat_acid_native_plane_bg",
+      "group": "noema",
+      "targets": 8,
+      "deltas": {
+        "psnr": 2.71327248736588,
+        "ssim": 0.1247224361721987,
+        "lpips": -0.20685523003339767
+      },
+      "wins": {
+        "psnr": 7,
+        "ssim": 5,
+        "lpips": 8
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "mvsplat_acid_native_plane_bg",
+      "group": "sand_key",
+      "targets": 16,
+      "deltas": {
+        "psnr": 1.865667769368803,
+        "ssim": 0.005538150536170863,
+        "lpips": -0.2551301419734955
+      },
+      "wins": {
+        "psnr": 16,
+        "ssim": 10,
+        "lpips": 16
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "mvsplat_acid_native_plane_bg",
+      "group": "lego",
+      "targets": 11,
+      "deltas": {
+        "psnr": 1.8713088224691767,
+        "ssim": 0.1477634278104295,
+        "lpips": -0.07112857428464023
+      },
+      "wins": {
+        "psnr": 8,
+        "ssim": 11,
+        "lpips": 11
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "mvsplat_acid_native_plane_bg",
+      "group": "flood_holdout",
+      "targets": 5,
+      "deltas": {
+        "psnr": 2.2223539773053944,
+        "ssim": 0.0012564152858212663,
+        "lpips": -0.12570676505565642
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 2,
+        "lpips": 5
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "mvsplat_acid_native_plane_bg",
+      "group": "equal_geography",
+      "geographies": [
+        "Monterey",
+        "Sheffield",
+        "Noema",
+        "Sand Key"
+      ],
+      "deltas": {
+        "psnr": 2.4824118862104245,
+        "ssim": 0.05566991525532235,
+        "lpips": -0.23552396670328798
+      },
+      "geo_deltas": {
+        "Monterey": {
+          "psnr": 2.2026441732992046,
+          "ssim": 0.04871737689463155,
+          "lpips": -0.28107296327749887
+        },
+        "Sheffield": {
+          "psnr": 3.14806311480781,
+          "ssim": 0.0437016974182883,
+          "lpips": -0.1990375315287599
+        },
+        "Noema": {
+          "psnr": 2.71327248736588,
+          "ssim": 0.1247224361721987,
+          "lpips": -0.20685523003339767
+        },
+        "Sand Key": {
+          "psnr": 1.865667769368803,
+          "ssim": 0.005538150536170863,
+          "lpips": -0.2551301419734955
+        }
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "rife_ground",
+      "group": "brighton",
+      "targets": 6,
+      "deltas": {
+        "psnr": -0.013678890720076886,
+        "ssim": -0.006482203692566811,
+        "lpips": -0.0033309186498324075
+      },
+      "wins": {
+        "psnr": 2,
+        "ssim": 2,
+        "lpips": 4
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "rife_ground",
+      "group": "matrixcity",
+      "targets": 12,
+      "deltas": {
+        "psnr": 2.756380685273674,
+        "ssim": 0.17283930686714943,
+        "lpips": -0.0678885964055856
+      },
+      "wins": {
+        "psnr": 12,
+        "ssim": 12,
+        "lpips": 12
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "rife_ground",
+      "group": "monterey",
+      "targets": 15,
+      "deltas": {
+        "psnr": 0.11189508851298152,
+        "ssim": -0.0002903064405569061,
+        "lpips": -0.0246949831644694
+      },
+      "wins": {
+        "psnr": 9,
+        "ssim": 8,
+        "lpips": 15
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "rife_ground",
+      "group": "cross",
+      "targets": 9,
+      "deltas": {
+        "psnr": 0.19827108989082376,
+        "ssim": 0.006504120207362376,
+        "lpips": -0.024705168273713853
+      },
+      "wins": {
+        "psnr": 6,
+        "ssim": 6,
+        "lpips": 9
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "rife_ground",
+      "group": "park1",
+      "targets": 8,
+      "deltas": {
+        "psnr": -0.0015055020369161287,
+        "ssim": -0.007702055302485477,
+        "lpips": -0.013980887830257416
+      },
+      "wins": {
+        "psnr": 2,
+        "ssim": 1,
+        "lpips": 7
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "rife_ground",
+      "group": "park3",
+      "targets": 6,
+      "deltas": {
+        "psnr": 0.10391730495168794,
+        "ssim": 0.0013988231944520868,
+        "lpips": -0.011337678879499435
+      },
+      "wins": {
+        "psnr": 5,
+        "ssim": 3,
+        "lpips": 5
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "rife_ground",
+      "group": "noema",
+      "targets": 8,
+      "deltas": {
+        "psnr": 0.03716434584071937,
+        "ssim": 0.014237328945193282,
+        "lpips": -0.023953665047883987
+      },
+      "wins": {
+        "psnr": 4,
+        "ssim": 5,
+        "lpips": 8
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "rife_ground",
+      "group": "sand_key",
+      "targets": 13,
+      "deltas": {
+        "psnr": -0.022396469413056782,
+        "ssim": -0.007113787987172249,
+        "lpips": -0.0042839623414553125
+      },
+      "wins": {
+        "psnr": 9,
+        "ssim": 4,
+        "lpips": 8
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "rife_ground",
+      "group": "flood_holdout",
+      "targets": 5,
+      "deltas": {
+        "psnr": -0.17522047436174618,
+        "ssim": -0.01444841388978083,
+        "lpips": -0.0113634392619133
+      },
+      "wins": {
+        "psnr": 0,
+        "ssim": 2,
+        "lpips": 4
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "rife_ground",
+      "group": "matrix_collinear",
+      "targets": 3,
+      "deltas": {
+        "psnr": -0.17715140613902136,
+        "ssim": -0.04637354976512013,
+        "lpips": 0.029147416353225708
+      },
+      "wins": {
+        "psnr": 1,
+        "ssim": 0,
+        "lpips": 1
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "rife_ground",
+      "group": "matrix_transverse",
+      "targets": 3,
+      "deltas": {
+        "psnr": 0.23383961303804077,
+        "ssim": 0.012059423401085956,
+        "lpips": 0.002760728200276693
+      },
+      "wins": {
+        "psnr": 2,
+        "ssim": 3,
+        "lpips": 0
+      }
+    },
+    {
+      "candidate": "detail_qualified_fixed",
+      "control": "rife_ground",
+      "group": "equal_geography",
+      "geographies": [
+        "Monterey",
+        "Sheffield",
+        "Noema",
+        "Sand Key"
+      ],
+      "deltas": {
+        "psnr": 0.05672264896896066,
+        "ssim": 0.0017250493043101135,
+        "lpips": -0.017401797220408067
+      },
+      "geo_deltas": {
+        "Monterey": {
+          "psnr": 0.11189508851298152,
+          "ssim": -0.0002903064405569061,
+          "lpips": -0.0246949831644694
+        },
+        "Sheffield": {
+          "psnr": 0.10022763093519853,
+          "ssim": 6.696269977632859e-05,
+          "lpips": -0.01667457832782357
+        },
+        "Noema": {
+          "psnr": 0.03716434584071937,
+          "ssim": 0.014237328945193282,
+          "lpips": -0.023953665047883987
+        },
+        "Sand Key": {
+          "psnr": -0.022396469413056782,
+          "ssim": -0.007113787987172249,
+          "lpips": -0.0042839623414553125
+        }
+      }
+    }
+  ]
+}

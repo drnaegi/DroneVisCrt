@@ -1,0 +1,51 @@
+{
+  "input_sha256": "f40117f1baf733062fc260534ed1d367be448d29fc29c5da4c3d9fe6123b9997",
+  "source_rgb_sha256": [
+    "37a5c25c52bd7f78d9c8a583b937348e56346f5efd66fbed65ebb494afef455b",
+    "30f72eb9c7b6e9a51f07395a18aebf8c9d99964d4e28899e884722ad281db04f"
+  ],
+  "horizontal_similarity": [
+    [
+      0.9944293775898635,
+      0.09100663428472926
+    ],
+    [
+      -0.09100663428472926,
+      0.9944293775898635
+    ]
+  ],
+  "matches": 544,
+  "scatter_m": 0.2684518383912181,
+  "provenance": {
+    "0": "reflected context",
+    "1": "first reference",
+    "2": "second reference"
+  },
+  "views": [
+    {
+      "camera_id": "6374",
+      "coverage": 0.8509114583333334,
+      "rgb_sha256": "cd3611cbe1666c7b0b27655f4a0d5c3aebb12e92569ab98d51bbf227eebb4519"
+    },
+    {
+      "camera_id": "6375",
+      "coverage": 0.6974029541015625,
+      "rgb_sha256": "5e227efc8da3138d8c88d4201191b4fdc9c31e19a2173ccaa1589248095c6b02"
+    }
+  ],
+  "method": "surface_precision",
+  "pose_source": "survey_telemetry",
+  "source_map_role": "inverse detail branch only",
+  "depth_models": [
+    {
+      "model": "precision",
+      "errors": {},
+      "prior_log_depth_sigma": 0.030566567421148765
+    },
+    {
+      "model": "precision",
+      "errors": {},
+      "prior_log_depth_sigma": 0.02466004664408101
+    }
+  ]
+}

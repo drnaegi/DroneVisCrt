@@ -1,0 +1,119 @@
+{
+  "0000_0002_0001": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "657619cc8024cb70b26669eac919f26ff85c5d4258b7f6c20bf43d6f935edb5d"
+  },
+  "0021_0023_0022": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "34d365377cbeae286884ef1b7d39314692a6e4cb5b0a0a71bd50d085358c92cc"
+  },
+  "0042_0044_0043": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "26ec9a4a6afbb83c07f0ddafa3ff10fb61ca94e164df0e68957d28f6d996dd0c"
+  },
+  "0063_0065_0064": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "fa46ff58296d5e4405a71d0da22ab89e091274c69afa9342aa97bf695aa21ca9"
+  },
+  "0084_0086_0085": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "b8b82bb36e17d5783d58fd11e87132fb2f0bc4ab1c9553d252be4c9bd59a4e33"
+  },
+  "0105_0107_0106": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "c15310fe739a0144113227716e4ef9510bde60b1b8cb4002a533d3d099b3f819"
+  },
+  "0126_0128_0127": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "77d8284ecc36e27d3a2b9b94fd20e7b98f4d67f72ca28c169c8421f9c0f67629"
+  },
+  "0147_0149_0148": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "40129257ec9cdcd9ab7b60403ffd3c044178e943e8cf854602c57398d8c5243e"
+  },
+  "0168_0170_0169": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "5a615b92c34abd825b9bc19d0e66149a2b75241d7907f2ef7fb90157e0d54c11"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Town01_height20_source_rgb_height80_source_rgb_height50_source_rgb": {
+    "rgb_sha256": "b6e82f49011350feb50bf7edb82fb52b9bb2a76ae3f431798e2358989aeafb70",
+    "native_frame_sha256": "72343fe338b4601b903df9e27f356beaa9b6ed5cbd6c7aef86d13d57dfeed7a5",
+    "prior_audit_sha256": "2a73ac68e8b6b4fb79464dddef324443db622e9483ab241809e1025f7df2b966"
+  },
+  "Town03_height20_source_rgb_height80_source_rgb_height50_source_rgb": {
+    "rgb_sha256": "6208af12f76272f645a4a58dff80a94f900da704323035c803807de0e589e6d7",
+    "native_frame_sha256": "bf1a1b337487de68bf6d0e51f29b0bdbe0031179236f5d1b44dde2215e042a7c",
+    "prior_audit_sha256": "7b1c34374be827afebd0f72e3cedd7862e64a8b8e3b48f28c07d39ff77561623"
+  },
+  "Town04_height20_source_rgb_height80_source_rgb_height50_source_rgb": {
+    "rgb_sha256": "e88824b702836ef4d52379d1f84594e09a2ecd45c543574d5af1623d028af049",
+    "native_frame_sha256": "b350dd3b357b28e2740046f1f22c2794a04bb0738ecbecc9b8adfb44bc248b41",
+    "prior_audit_sha256": "6cbc4e1c22cccc84500a7b32d90a6c00ea63bf8c68159e6237d5cc4c2197539a"
+  },
+  "Town07_height20_source_rgb_height80_source_rgb_height50_source_rgb": {
+    "rgb_sha256": "d7450ae7200f0027c671c7e61d81b496a699fab40e773bb0d30450d9b4576cb3",
+    "native_frame_sha256": "6a1b9d75c4b819ce2da60706bcbdd25110d50d93e46a03c3410e05d2573fa477",
+    "prior_audit_sha256": "c2869060f24e6046424bdd01f212156b950eafc11a3ba782a89007c0d52d47ac"
+  }
+}

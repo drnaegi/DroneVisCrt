@@ -1,0 +1,9 @@
+{
+  "eligible": [
+    "Town01_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+    "Town03_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+    "Town04_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+    "Town07_height20_source_rgb_height80_source_rgb_height50_source_rgb"
+  ],
+  "excluded": {}
+}

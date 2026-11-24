@@ -1,0 +1,41 @@
+{
+  "0301_0317_0299": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "88b3570b52c70b467b5ac5bb2d634a946e10bc1aaaacb6975302a5d94475ecbf"
+  },
+  "0291_0307_0309": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "9f5f869632b9a8ed303bf6ddca6bae0dcfb7054b195647f18ef8ea2b9a4eef5e"
+  },
+  "0311_0308_0319": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "67a1327acf1e98ac7bae5f902fbe70ecea6f413c54a5ca9a51e73b4e5cf21a98"
+  }
+}

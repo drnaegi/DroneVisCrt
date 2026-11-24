@@ -1,0 +1,234 @@
+{
+  "rows": [
+    {
+      "case": "Town01_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+      "source": "outputs/relation_nvs_20261120/multitown_extension/Town01/converted/height20_source_rgb.png",
+      "target": "height50_source_rgb.png",
+      "target_sha256": "66923b8c1db07d7a8c39c7bd8046583d9c337101606535c151d3553c882aeca6",
+      "method": "surface_direct",
+      "psnr": 17.162623954341637,
+      "ssim": 0.48199729453272805,
+      "lpips": 0.35344186425209045,
+      "observed_psnr": 17.75007233406215,
+      "complement_psnr": 11.493059246543334,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town01_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+      "source": "outputs/relation_nvs_20261120/multitown_extension/Town01/converted/height20_source_rgb.png",
+      "target": "height50_source_rgb.png",
+      "target_sha256": "66923b8c1db07d7a8c39c7bd8046583d9c337101606535c151d3553c882aeca6",
+      "method": "surface_refined",
+      "psnr": 17.172793265803136,
+      "ssim": 0.48837215181835836,
+      "lpips": 0.35159456729888916,
+      "observed_psnr": 17.762265084959978,
+      "complement_psnr": 11.493059246543334,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town01_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+      "source": "outputs/relation_nvs_20261120/multitown_extension/Town01/converted/height20_source_rgb.png",
+      "target": "height50_source_rgb.png",
+      "target_sha256": "66923b8c1db07d7a8c39c7bd8046583d9c337101606535c151d3553c882aeca6",
+      "method": "ground_selected",
+      "psnr": 17.170667864326212,
+      "ssim": 0.4871716984545002,
+      "lpips": 0.3523757755756378,
+      "observed_psnr": 17.759721530788543,
+      "complement_psnr": 11.493033038985146,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town01_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+      "source": "outputs/relation_nvs_20261120/multitown_extension/Town01/converted/height20_source_rgb.png",
+      "target": "height50_source_rgb.png",
+      "target_sha256": "66923b8c1db07d7a8c39c7bd8046583d9c337101606535c151d3553c882aeca6",
+      "method": "surface_selected",
+      "psnr": 17.17478345337208,
+      "ssim": 0.4872846136310424,
+      "lpips": 0.35113584995269775,
+      "observed_psnr": 17.764658407437068,
+      "complement_psnr": 11.493026783316518,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town03_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+      "source": "outputs/relation_nvs_20261120/multitown_extension/Town03/converted/height20_source_rgb.png",
+      "target": "height50_source_rgb.png",
+      "target_sha256": "2c18a948a3958aa1cb3c7a6d9fa094d97ada2bc797c7c2aa6006d3a1dc2fbcf2",
+      "method": "surface_direct",
+      "psnr": 17.461772548272997,
+      "ssim": 0.48130115025619147,
+      "lpips": 0.3188011944293976,
+      "observed_psnr": 17.909539750357293,
+      "complement_psnr": 12.572746298029614,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town03_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+      "source": "outputs/relation_nvs_20261120/multitown_extension/Town03/converted/height20_source_rgb.png",
+      "target": "height50_source_rgb.png",
+      "target_sha256": "2c18a948a3958aa1cb3c7a6d9fa094d97ada2bc797c7c2aa6006d3a1dc2fbcf2",
+      "method": "surface_refined",
+      "psnr": 17.48474925230974,
+      "ssim": 0.5076831462184613,
+      "lpips": 0.31835296750068665,
+      "observed_psnr": 17.936221463450153,
+      "complement_psnr": 12.572746298029614,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town03_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+      "source": "outputs/relation_nvs_20261120/multitown_extension/Town03/converted/height20_source_rgb.png",
+      "target": "height50_source_rgb.png",
+      "target_sha256": "2c18a948a3958aa1cb3c7a6d9fa094d97ada2bc797c7c2aa6006d3a1dc2fbcf2",
+      "method": "ground_selected",
+      "psnr": 17.345234921223533,
+      "ssim": 0.49343269451428595,
+      "lpips": 0.3489304482936859,
+      "observed_psnr": 17.774556358405473,
+      "complement_psnr": 12.572746298029614,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town03_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+      "source": "outputs/relation_nvs_20261120/multitown_extension/Town03/converted/height20_source_rgb.png",
+      "target": "height50_source_rgb.png",
+      "target_sha256": "2c18a948a3958aa1cb3c7a6d9fa094d97ada2bc797c7c2aa6006d3a1dc2fbcf2",
+      "method": "surface_selected",
+      "psnr": 17.372594433659266,
+      "ssim": 0.49250050684098295,
+      "lpips": 0.34190186858177185,
+      "observed_psnr": 17.806195041568586,
+      "complement_psnr": 12.572746298029614,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town04_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+      "source": "outputs/relation_nvs_20261120/multitown_extension/Town04/converted/height20_source_rgb.png",
+      "target": "height50_source_rgb.png",
+      "target_sha256": "5f75df1d8b051d8d8befae8425315fb70b6590ca2cc30e53390203346d443c90",
+      "method": "surface_direct",
+      "psnr": 19.306527335404088,
+      "ssim": 0.6370951598964669,
+      "lpips": 0.26230937242507935,
+      "observed_psnr": 19.6958385131586,
+      "complement_psnr": 14.799947313383157,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town04_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+      "source": "outputs/relation_nvs_20261120/multitown_extension/Town04/converted/height20_source_rgb.png",
+      "target": "height50_source_rgb.png",
+      "target_sha256": "5f75df1d8b051d8d8befae8425315fb70b6590ca2cc30e53390203346d443c90",
+      "method": "surface_refined",
+      "psnr": 19.325714916113675,
+      "ssim": 0.6465701859031416,
+      "lpips": 0.261370450258255,
+      "observed_psnr": 19.71781990069487,
+      "complement_psnr": 14.799947313383157,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town04_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+      "source": "outputs/relation_nvs_20261120/multitown_extension/Town04/converted/height20_source_rgb.png",
+      "target": "height50_source_rgb.png",
+      "target_sha256": "5f75df1d8b051d8d8befae8425315fb70b6590ca2cc30e53390203346d443c90",
+      "method": "ground_selected",
+      "psnr": 19.32725607953699,
+      "ssim": 0.6562272647920552,
+      "lpips": 0.25702887773513794,
+      "observed_psnr": 19.71951254398874,
+      "complement_psnr": 14.80045089919238,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town04_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+      "source": "outputs/relation_nvs_20261120/multitown_extension/Town04/converted/height20_source_rgb.png",
+      "target": "height50_source_rgb.png",
+      "target_sha256": "5f75df1d8b051d8d8befae8425315fb70b6590ca2cc30e53390203346d443c90",
+      "method": "surface_selected",
+      "psnr": 19.322938037045102,
+      "ssim": 0.6463450573938762,
+      "lpips": 0.2607685625553131,
+      "observed_psnr": 19.714637818536545,
+      "complement_psnr": 14.799947313383157,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town07_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+      "source": "outputs/relation_nvs_20261120/multitown_extension/Town07/converted/height20_source_rgb.png",
+      "target": "height50_source_rgb.png",
+      "target_sha256": "08b5555609ba1b334d59542a51af7727dce7e112e8c3f51b27e35dcd1b7bb9f9",
+      "method": "surface_direct",
+      "psnr": 15.715348963605766,
+      "ssim": 0.36136069368434826,
+      "lpips": 0.46510207653045654,
+      "observed_psnr": 15.671523305704103,
+      "complement_psnr": 16.76997553969016,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town07_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+      "source": "outputs/relation_nvs_20261120/multitown_extension/Town07/converted/height20_source_rgb.png",
+      "target": "height50_source_rgb.png",
+      "target_sha256": "08b5555609ba1b334d59542a51af7727dce7e112e8c3f51b27e35dcd1b7bb9f9",
+      "method": "surface_refined",
+      "psnr": 15.720578846578787,
+      "ssim": 0.3610448827394186,
+      "lpips": 0.4658263921737671,
+      "observed_psnr": 15.676944352384975,
+      "complement_psnr": 16.76997553969016,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town07_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+      "source": "outputs/relation_nvs_20261120/multitown_extension/Town07/converted/height20_source_rgb.png",
+      "target": "height50_source_rgb.png",
+      "target_sha256": "08b5555609ba1b334d59542a51af7727dce7e112e8c3f51b27e35dcd1b7bb9f9",
+      "method": "ground_selected",
+      "psnr": 15.739174676591308,
+      "ssim": 0.3632886132395054,
+      "lpips": 0.45898646116256714,
+      "observed_psnr": 15.69622183684698,
+      "complement_psnr": 16.76997553969016,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town07_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+      "source": "outputs/relation_nvs_20261120/multitown_extension/Town07/converted/height20_source_rgb.png",
+      "target": "height50_source_rgb.png",
+      "target_sha256": "08b5555609ba1b334d59542a51af7727dce7e112e8c3f51b27e35dcd1b7bb9f9",
+      "method": "surface_selected",
+      "psnr": 15.718036456210495,
+      "ssim": 0.3606337687211179,
+      "lpips": 0.4653736352920532,
+      "observed_psnr": 15.674309002260916,
+      "complement_psnr": 16.76997553969016,
+      "plane_support": 0.9550713433159722
+    }
+  ],
+  "mean": {
+    "ground_selected": {
+      "lpips": 0.3543303906917572,
+      "psnr": 17.39558338541951,
+      "ssim": 0.5000300677500866
+    },
+    "surface_direct": {
+      "lpips": 0.349913626909256,
+      "psnr": 17.41156820040612,
+      "ssim": 0.4904385745924337
+    },
+    "surface_refined": {
+      "lpips": 0.3492860943078995,
+      "psnr": 17.425959070201333,
+      "ssim": 0.500917591669845
+    },
+    "surface_selected": {
+      "lpips": 0.354794979095459,
+      "psnr": 17.397088095071737,
+      "ssim": 0.4966909866467548
+    }
+  }
+}

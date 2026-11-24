@@ -1,0 +1,80 @@
+{
+  "0000_0002_0001": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "e0fb36f4ef1a2b0a4f2a78fa64745896240591f6816dc7d2ce4dd8c9099e624b"
+  },
+  "0005_0007_0006": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "6427b5c7dc4964e436f9a7a33229ee88379e979f0205aad9ab619e13e5de800a"
+  },
+  "0010_0012_0011": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "9e886b45594dec02c17bb5d67b1f4b8a77e3b2b74b4b439b8c014975c8c5c949"
+  },
+  "0015_0017_0016": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "8a4990530fe24032d22d37f0828f6f0c456e5fb38a9616348f1bad509f5abd7e"
+  },
+  "0020_0022_0021": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "6a7a055a3f16d1c8d30ac30e7ac9bd7c5fd33c2054e47bd3f7a36707187b453c"
+  },
+  "0025_0027_0026": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "e4be56578905d851048ef8ba740e333fae3b1f236f57566a675c9588c61f6a31"
+  }
+}

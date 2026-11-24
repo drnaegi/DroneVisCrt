@@ -1,0 +1,50 @@
+{
+  "Town02_00499_20_Town02_00499_80_Town02_00499_50": {
+    "alignment": [],
+    "rgb_sha256": "f481d30a2a24ddd16619cd8ddd54e049f2545384ff7d5ee5d65e3b57160e80df"
+  },
+  "Town02_01499_20_Town02_01499_80_Town02_01499_50": {
+    "alignment": [],
+    "rgb_sha256": "375b55e9a47ede24dd82acde63c82b37ff5bdfd2612f6edde8cf72427ff48e6b"
+  },
+  "Town02_02499_20_Town02_02499_80_Town02_02499_50": {
+    "alignment": [],
+    "rgb_sha256": "2e4e982487cc0d7b1eb751188b2c09e956279b26fbddd11c412e5a4945f4a4b0"
+  },
+  "Town05_00499_20_Town05_00499_80_Town05_00499_50": {
+    "alignment": [],
+    "rgb_sha256": "31d76a4ae684cb4ed072ba5136f89895db4c305b8241f3de40984b42ba536864"
+  },
+  "Town05_01499_20_Town05_01499_80_Town05_01499_50": {
+    "alignment": [],
+    "rgb_sha256": "2fb5ac196e659d0015a5138e1c7070afd690a54b2cb00d147e12fb60666af9f6"
+  },
+  "Town05_02499_20_Town05_02499_80_Town05_02499_50": {
+    "alignment": [],
+    "rgb_sha256": "55368a67bfa16eaf1c3a0facd1a79bef8c230c12f135bdf86f792008c3c914a6"
+  },
+  "Town06_00499_20_Town06_00499_80_Town06_00499_50": {
+    "alignment": [],
+    "rgb_sha256": "b9fb7517b7e30d871f946af757f2ef03f3824fc6a98710b94f17b5116d2062bc"
+  },
+  "Town06_01499_20_Town06_01499_80_Town06_01499_50": {
+    "alignment": [],
+    "rgb_sha256": "dc23acf6f61cdd297dc4df4a32949e0bfbc16add42e22bf1365f6ff03421f538"
+  },
+  "Town06_02499_20_Town06_02499_80_Town06_02499_50": {
+    "alignment": [],
+    "rgb_sha256": "28378d8eefea2035fa20b56ea7edf6890a8177f229b21e60f56594b9653ea4ff"
+  },
+  "Town10HD_00499_20_Town10HD_00499_80_Town10HD_00499_50": {
+    "alignment": [],
+    "rgb_sha256": "b38ac84d541e389cb0263302933b1f54b72a20f92c873440805eeb88cc0351de"
+  },
+  "Town10HD_01499_20_Town10HD_01499_80_Town10HD_01499_50": {
+    "alignment": [],
+    "rgb_sha256": "dc67453be2bb0139e595b322b851eea6f2d084c81d14e4e783f274b7540ac12a"
+  },
+  "Town10HD_02499_20_Town10HD_02499_80_Town10HD_02499_50": {
+    "alignment": [],
+    "rgb_sha256": "354ed37cfa10e6c52d481b940aed1ba41e7108ecff07db9714bb534dbe667c99"
+  }
+}

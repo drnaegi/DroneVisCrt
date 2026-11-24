@@ -1,0 +1,46 @@
+{
+  "r_61_r_27_r_0": {
+    "rgb_sha256": "898fe337c9b274dc4d76ead05630c2865c2299df9ac20b3bf45697058e02f868",
+    "weights_sha256": "1e856f6ee5a7d52d7ed7b8a305ceaf5037db61f805332d33ee1c46101e0a71cd"
+  },
+  "r_66_r_12_r_8": {
+    "rgb_sha256": "f07fc3cb7ae051a3692178c47b15e59000b6ca148d8e5ac2e004afb6fe8d894b",
+    "weights_sha256": "1e856f6ee5a7d52d7ed7b8a305ceaf5037db61f805332d33ee1c46101e0a71cd"
+  },
+  "r_45_r_23_r_16": {
+    "rgb_sha256": "f773b32d770cce74c57fb2758bc66f776c111fdf57da67ffe8100ec2454f33b0",
+    "weights_sha256": "1e856f6ee5a7d52d7ed7b8a305ceaf5037db61f805332d33ee1c46101e0a71cd"
+  },
+  "r_5_r_16_r_24": {
+    "rgb_sha256": "d4b9be3b44171c076fc1199b188d93f3aed4fbd3d7aa91a7d565985ebcad1a0a",
+    "weights_sha256": "1e856f6ee5a7d52d7ed7b8a305ceaf5037db61f805332d33ee1c46101e0a71cd"
+  },
+  "r_16_r_87_r_32": {
+    "rgb_sha256": "e55bba33a53693370e60eed77238cd1de3d1a35ee5354905675f3d344512f0e9",
+    "weights_sha256": "1e856f6ee5a7d52d7ed7b8a305ceaf5037db61f805332d33ee1c46101e0a71cd"
+  },
+  "r_24_r_92_r_40": {
+    "rgb_sha256": "b41ab81e6cbacf5875de0fe5220a932ae28db7b00cf570f8b051588db359cf04",
+    "weights_sha256": "1e856f6ee5a7d52d7ed7b8a305ceaf5037db61f805332d33ee1c46101e0a71cd"
+  },
+  "r_28_r_73_r_160": {
+    "rgb_sha256": "f80d01209117274dfef7afeb77f7c25925d37058e107a34182f1b8502b06d128",
+    "weights_sha256": "1e856f6ee5a7d52d7ed7b8a305ceaf5037db61f805332d33ee1c46101e0a71cd"
+  },
+  "r_80_r_73_r_168": {
+    "rgb_sha256": "d3bc18a7521e592a0cad910d2cd3e8be825b06a0b1c80aa7ecc3551325193018",
+    "weights_sha256": "1e856f6ee5a7d52d7ed7b8a305ceaf5037db61f805332d33ee1c46101e0a71cd"
+  },
+  "r_59_r_22_r_176": {
+    "rgb_sha256": "928d457d5e2c31e1389b84e6d680f30f7e603ed2f57300fa4071e01c7bb29653",
+    "weights_sha256": "1e856f6ee5a7d52d7ed7b8a305ceaf5037db61f805332d33ee1c46101e0a71cd"
+  },
+  "r_22_r_59_r_184": {
+    "rgb_sha256": "d9a25745f5488b6be849dc2216806e0e5a3e3e1a1cf558b3de3bfc0e894dbc40",
+    "weights_sha256": "1e856f6ee5a7d52d7ed7b8a305ceaf5037db61f805332d33ee1c46101e0a71cd"
+  },
+  "r_50_r_11_r_192": {
+    "rgb_sha256": "af1a9d90bdf2ae59e2ff92dfe878d4e79560e25ee9ecb28f379864601afeb00f",
+    "weights_sha256": "1e856f6ee5a7d52d7ed7b8a305ceaf5037db61f805332d33ee1c46101e0a71cd"
+  }
+}

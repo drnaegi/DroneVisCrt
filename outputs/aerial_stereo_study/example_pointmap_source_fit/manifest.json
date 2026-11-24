@@ -1,0 +1,90 @@
+{
+  "input_sha256": "745dee1b6cc97ff7bd498dd367591ace842c06ff01ffc3c5e3cdf92f2da6c73e",
+  "source_rgb_sha256": [
+    "6eadc076baad100a5b74271148eefb6e9ae361dccd70f8cbcc2a44104f5978c9",
+    "a6ba490745af8fc58ca94d05922f9c5eebb2e291fd62a50423596ca6fc0e356f"
+  ],
+  "horizontal_similarity": [
+    [
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0
+    ]
+  ],
+  "matches": 0,
+  "scatter_m": null,
+  "provenance": {
+    "0": "reflected context",
+    "1": "first reference",
+    "2": "second reference"
+  },
+  "views": [
+    {
+      "camera_id": "Town02_00499_50",
+      "coverage": 0.9653116861979166,
+      "rgb_sha256": "c081a8dc43615ff92dfb5d37dcf775b8989606288fb6aadc75b7e193e4db9f7c"
+    }
+  ],
+  "method": "surface_pointmap_source_fit",
+  "pose_source": "calibrated",
+  "source_map_role": "inverse detail branch only",
+  "depth_models": [
+    {
+      "model": "rays",
+      "errors": {
+        "anchors": 0
+      }
+    },
+    {
+      "model": "rays",
+      "errors": {
+        "anchors": 0
+      }
+    }
+  ],
+  "pointmap_alignment": [
+    [
+      [
+        119.91764330237196,
+        -1.2688207627933785,
+        -1.6718508592459318,
+        0.32838100523520586
+      ],
+      [
+        0.8436650151198989,
+        116.82779609594301,
+        -2.5779304239229806,
+        0.6044441222831795
+      ],
+      [
+        1.8537846079329257,
+        -4.218064431240114,
+        113.77242178011093,
+        -3.0491343538827556
+      ]
+    ],
+    [
+      [
+        182.39817753647037,
+        -0.3329045476203363,
+        0.49119118370451054,
+        -0.1717630543866109
+      ],
+      [
+        0.0465319699917918,
+        181.82000939828413,
+        1.3099234144610785,
+        -0.46609838042241697
+      ],
+      [
+        -0.41904879976715137,
+        1.0371516168904567,
+        154.51443228178712,
+        -0.14552108176482967
+      ]
+    ]
+  ]
+}

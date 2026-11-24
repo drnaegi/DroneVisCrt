@@ -1,0 +1,63 @@
+{
+  "rows": [
+    {
+      "case": "Town01_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+      "source": "outputs/relation_nvs_20261120/multitown_extension/Town01/converted/height20_source_rgb.png",
+      "target": "height50_source_rgb.png",
+      "target_sha256": "66923b8c1db07d7a8c39c7bd8046583d9c337101606535c151d3553c882aeca6",
+      "method": "mapanything_median",
+      "psnr": 15.877217531307505,
+      "ssim": 0.4008315378605589,
+      "lpips": 0.4096739590167999,
+      "observed_psnr": 16.269133774276444,
+      "complement_psnr": 11.352743132096686,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town03_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+      "source": "outputs/relation_nvs_20261120/multitown_extension/Town03/converted/height20_source_rgb.png",
+      "target": "height50_source_rgb.png",
+      "target_sha256": "2c18a948a3958aa1cb3c7a6d9fa094d97ada2bc797c7c2aa6006d3a1dc2fbcf2",
+      "method": "mapanything_median",
+      "psnr": 15.405869536997368,
+      "ssim": 0.35203797757107175,
+      "lpips": 0.428997278213501,
+      "observed_psnr": 15.610680970865868,
+      "complement_psnr": 12.440920592047519,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town04_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+      "source": "outputs/relation_nvs_20261120/multitown_extension/Town04/converted/height20_source_rgb.png",
+      "target": "height50_source_rgb.png",
+      "target_sha256": "5f75df1d8b051d8d8befae8425315fb70b6590ca2cc30e53390203346d443c90",
+      "method": "mapanything_median",
+      "psnr": 18.020603035998665,
+      "ssim": 0.5736071875391496,
+      "lpips": 0.2959313690662384,
+      "observed_psnr": 18.241161558849516,
+      "complement_psnr": 14.897522393776255,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town07_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+      "source": "outputs/relation_nvs_20261120/multitown_extension/Town07/converted/height20_source_rgb.png",
+      "target": "height50_source_rgb.png",
+      "target_sha256": "08b5555609ba1b334d59542a51af7727dce7e112e8c3f51b27e35dcd1b7bb9f9",
+      "method": "mapanything_median",
+      "psnr": 15.588719351750083,
+      "ssim": 0.3514479306086888,
+      "lpips": 0.4357825517654419,
+      "observed_psnr": 15.54827354465224,
+      "complement_psnr": 16.551828825351805,
+      "plane_support": 0.9550713433159722
+    }
+  ],
+  "mean": {
+    "mapanything_median": {
+      "lpips": 0.3925962895154953,
+      "psnr": 16.223102364013407,
+      "ssim": 0.41948115839486727
+    }
+  }
+}

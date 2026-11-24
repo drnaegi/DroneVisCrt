@@ -1,0 +1,50 @@
+{
+  "Town02_00499_20_Town02_00499_80_Town02_00499_50": {
+    "rgb_sha256": "5439724ae8ae4c16a7af2edce0a9b861935eb554b0db86a3a4203d194b225397",
+    "fraction": 0.5
+  },
+  "Town02_01499_20_Town02_01499_80_Town02_01499_50": {
+    "rgb_sha256": "c8874ff8e49ddfc00ed4aee1c990fd9ed84478fb8387395d18b83275978ad841",
+    "fraction": 0.5
+  },
+  "Town02_02499_20_Town02_02499_80_Town02_02499_50": {
+    "rgb_sha256": "947f60319350569273f47d8a8149de409185f7d27df536b85afb888304df87a7",
+    "fraction": 0.5
+  },
+  "Town05_00499_20_Town05_00499_80_Town05_00499_50": {
+    "rgb_sha256": "11ae18cd44877dd43d66217c59f3d9d61ca15e18950b8b87b8a45acdc71b1bb3",
+    "fraction": 0.5
+  },
+  "Town05_01499_20_Town05_01499_80_Town05_01499_50": {
+    "rgb_sha256": "91b669b290a8624e2f338ac4fe0ef5e683c1a3ed4f18497076f128ae723f4b88",
+    "fraction": 0.5
+  },
+  "Town05_02499_20_Town05_02499_80_Town05_02499_50": {
+    "rgb_sha256": "64a827f03706a4084c7ac5d2985828d24e96c8282a8326ce56165a006e7661ef",
+    "fraction": 0.5
+  },
+  "Town06_00499_20_Town06_00499_80_Town06_00499_50": {
+    "rgb_sha256": "7059c062ae711690237b204dc866d6e108f3e2e9734f529c15b6c9a82487167e",
+    "fraction": 0.5
+  },
+  "Town06_01499_20_Town06_01499_80_Town06_01499_50": {
+    "rgb_sha256": "1cca68cc36f213cfa47d4b45eccb522bc94f53a6e9580d11e8bfd8bfcc39e80e",
+    "fraction": 0.5
+  },
+  "Town06_02499_20_Town06_02499_80_Town06_02499_50": {
+    "rgb_sha256": "62aedc58ae3adc4c0842fabbf4e89f9f318296e89fbc5f3164856d7180ca700b",
+    "fraction": 0.5
+  },
+  "Town10HD_00499_20_Town10HD_00499_80_Town10HD_00499_50": {
+    "rgb_sha256": "fffe8859f1ddc625d29310902960d2ed0b6bf86e6cbb0fa75a0edd56f1c20861",
+    "fraction": 0.5
+  },
+  "Town10HD_01499_20_Town10HD_01499_80_Town10HD_01499_50": {
+    "rgb_sha256": "3f19df2537696c4322085412372cafdd9a0f6cf9e52e8e01f5b6514805df23ca",
+    "fraction": 0.5
+  },
+  "Town10HD_02499_20_Town10HD_02499_80_Town10HD_02499_50": {
+    "rgb_sha256": "cf207313d3910baffd576c4548ea16cc80af2b49187353688b91021f18d84069",
+    "fraction": 0.5
+  }
+}

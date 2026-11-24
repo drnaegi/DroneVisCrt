@@ -1,0 +1,125 @@
+{
+  "device": "NVIDIA GeForce RTX 4090",
+  "omp_threads": "2",
+  "openblas_threads": "1",
+  "candidate": "pointmap_source_fit",
+  "scope": "From images and loaded weights through full two-source RAFT, scene construction and one target RGB. Excludes file I/O and weight loading. Alternating order. One warm-up pair.",
+  "rows": [
+    {
+      "case": "000005_000002_000004",
+      "seconds": {
+        "rays": 0.710438780952245,
+        "optimizer": 6.312734111910686
+      }
+    },
+    {
+      "case": "000109_000107_000108",
+      "seconds": {
+        "optimizer": 6.261194988852367,
+        "rays": 0.7005571171175689
+      }
+    },
+    {
+      "case": "000235_000237_000236",
+      "seconds": {
+        "rays": 0.7201537371147424,
+        "optimizer": 6.3615277810022235
+      }
+    },
+    {
+      "case": "000339_000341_000340",
+      "seconds": {
+        "optimizer": 6.412105445051566,
+        "rays": 0.8672327271196991
+      }
+    },
+    {
+      "case": "000451_000453_000452",
+      "seconds": {
+        "rays": 0.9171301319729537,
+        "optimizer": 6.792927224887535
+      }
+    },
+    {
+      "case": "000555_000557_000556",
+      "seconds": {
+        "optimizer": 6.808018360985443,
+        "rays": 0.8296454451046884
+      }
+    },
+    {
+      "case": "000669_000667_000668",
+      "seconds": {
+        "rays": 0.7267055129632354,
+        "optimizer": 6.1415964749176055
+      }
+    },
+    {
+      "case": "000771_000773_000772",
+      "seconds": {
+        "optimizer": 6.6011368171311915,
+        "rays": 0.7341582339722663
+      }
+    },
+    {
+      "case": "000885_000883_000884",
+      "seconds": {
+        "rays": 0.7648161239922047,
+        "optimizer": 6.646937984973192
+      }
+    },
+    {
+      "case": "000995_000997_000996",
+      "seconds": {
+        "optimizer": 5.97378268907778,
+        "rays": 0.8382009938359261
+      }
+    },
+    {
+      "case": "001109_001107_001108",
+      "seconds": {
+        "rays": 0.8422874719835818,
+        "optimizer": 6.77408564905636
+      }
+    },
+    {
+      "case": "001219_001221_001220",
+      "seconds": {
+        "optimizer": 6.838710241951048,
+        "rays": 0.8094389389734715
+      }
+    },
+    {
+      "case": "001341_001339_001340",
+      "seconds": {
+        "rays": 0.71132384496741,
+        "optimizer": 6.593384330859408
+      }
+    },
+    {
+      "case": "001451_001453_001452",
+      "seconds": {
+        "optimizer": 5.459786998108029,
+        "rays": 0.6913926859851927
+      }
+    },
+    {
+      "case": "001563_001565_001564",
+      "seconds": {
+        "rays": 0.6946254500653595,
+        "optimizer": 6.25777175091207
+      }
+    },
+    {
+      "case": "001675_001677_001676",
+      "seconds": {
+        "optimizer": 6.822122926125303,
+        "rays": 0.677138851955533
+      }
+    }
+  ],
+  "median_seconds": {
+    "rays": 0.7304318734677508,
+    "optimizer": 6.502744887955487
+  }
+}

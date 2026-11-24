@@ -1,0 +1,115 @@
+{
+  "rows": [
+    {
+      "case": "0000_0002_0001",
+      "source": "datasets/stereo_survey/drone_dataset_noema/0000.jpg",
+      "target": "0001.jpg",
+      "target_sha256": "822e154cad6bf491b8c713b0006a73303584ed16f305ebd613ec701e726d08c2",
+      "method": "pointmap_global_optimizer",
+      "psnr": 21.62329014714951,
+      "ssim": 0.2192585152658403,
+      "lpips": 0.1732366979122162,
+      "observed_psnr": 21.658147194306167,
+      "complement_psnr": 19.619101610151553,
+      "plane_support": 0.9865515029325513
+    },
+    {
+      "case": "0016_0018_0017",
+      "source": "datasets/stereo_survey/drone_dataset_noema/0016.jpg",
+      "target": "0017.jpg",
+      "target_sha256": "63e43e00df067140ab8853f60dae236356acd2565663350d3d3738ea4fc562ee",
+      "method": "pointmap_global_optimizer",
+      "psnr": 21.538075142365077,
+      "ssim": 0.547607062005847,
+      "lpips": 0.16157378256320953,
+      "observed_psnr": 21.53601764800974,
+      "complement_psnr": 22.32637292123566,
+      "plane_support": 0.9971533632697948
+    },
+    {
+      "case": "0032_0034_0033",
+      "source": "datasets/stereo_survey/drone_dataset_noema/0032.jpg",
+      "target": "0033.jpg",
+      "target_sha256": "d38db61245dcb913591dd681eb59a1f6f3a5b8a2d21703424d62049b5c4fbef0",
+      "method": "pointmap_global_optimizer",
+      "psnr": 25.787051383301346,
+      "ssim": 0.6744149364793667,
+      "lpips": 0.12052838504314423,
+      "observed_psnr": 25.818296256480107,
+      "complement_psnr": 20.94213708307973,
+      "plane_support": 0.9965175953079178
+    },
+    {
+      "case": "0048_0050_0049",
+      "source": "datasets/stereo_survey/drone_dataset_noema/0048.jpg",
+      "target": "0049.jpg",
+      "target_sha256": "4dae0e4b45038a9390b946d89e07a86c59ab50bdba9070015a09052d341a32c5",
+      "method": "pointmap_global_optimizer",
+      "psnr": 25.762339450003502,
+      "ssim": 0.6540056956361925,
+      "lpips": 0.14575506746768951,
+      "observed_psnr": 25.766177106552767,
+      "complement_psnr": 24.917306214533156,
+      "plane_support": 0.9959047379032258
+    },
+    {
+      "case": "0064_0066_0065",
+      "source": "datasets/stereo_survey/drone_dataset_noema/0064.jpg",
+      "target": "0065.jpg",
+      "target_sha256": "91f72bbb705c9b39468f1b95564c0214835cb05cc01acc6563762aad5d575689",
+      "method": "pointmap_global_optimizer",
+      "psnr": 21.717146681399772,
+      "ssim": 0.23513296388894456,
+      "lpips": 0.18111740052700043,
+      "observed_psnr": 21.73290647748827,
+      "complement_psnr": 19.790008021519906,
+      "plane_support": 0.9935564057917888
+    },
+    {
+      "case": "0080_0082_0081",
+      "source": "datasets/stereo_survey/drone_dataset_noema/0080.jpg",
+      "target": "0081.jpg",
+      "target_sha256": "23ea938f84e030885f98225851dbca2b7cf6a0835770bacd833c7a9d3f4b36f2",
+      "method": "pointmap_global_optimizer",
+      "psnr": 24.08210195350259,
+      "ssim": 0.6121837554314465,
+      "lpips": 0.13545894622802734,
+      "observed_psnr": 24.090792340488584,
+      "complement_psnr": 22.0990355266133,
+      "plane_support": 0.9965576887829912
+    },
+    {
+      "case": "0096_0098_0097",
+      "source": "datasets/stereo_survey/drone_dataset_noema/0096.jpg",
+      "target": "0097.jpg",
+      "target_sha256": "b3d1f4ea869451a3268b1b0f5d20d76a3193ed87eedb205130feb04d1290100c",
+      "method": "pointmap_global_optimizer",
+      "psnr": 24.297893168530152,
+      "ssim": 0.6513036499545982,
+      "lpips": 0.13764232397079468,
+      "observed_psnr": 24.30930224112634,
+      "complement_psnr": 22.088558780399595,
+      "plane_support": 0.9960593841642229
+    },
+    {
+      "case": "0112_0114_0113",
+      "source": "datasets/stereo_survey/drone_dataset_noema/0112.jpg",
+      "target": "0113.jpg",
+      "target_sha256": "5d7542aac5bee8a8bcf902edef1ee2c9ae86423595f55ae114c9ff06c7344250",
+      "method": "pointmap_global_optimizer",
+      "psnr": 21.502699311369202,
+      "ssim": 0.23916346157891333,
+      "lpips": 0.21456801891326904,
+      "observed_psnr": 21.5006132057076,
+      "complement_psnr": 22.162651545708265,
+      "plane_support": 0.9966035098973607
+    }
+  ],
+  "mean": {
+    "pointmap_global_optimizer": {
+      "lpips": 0.15873507782816887,
+      "psnr": 23.288824654702644,
+      "ssim": 0.47913375503014366
+    }
+  }
+}

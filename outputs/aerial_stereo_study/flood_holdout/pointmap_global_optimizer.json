@@ -1,0 +1,22 @@
+{
+  "6332_6334_6333": {
+    "rgb_sha256": "b147495706e3d9adbb14b854a109add82838d1fb90aa699ac13f382f22311f31",
+    "optimizer_seconds": 5.902427583001554
+  },
+  "6433_6435_6434": {
+    "rgb_sha256": "bfe427e0df66e48e36d8a6d0aaa4315aa3b0a89eb24599af402430da292ae5aa",
+    "optimizer_seconds": 6.4444688288494945
+  },
+  "6520_6522_6521": {
+    "rgb_sha256": "ef01e8a20ae7b6b9b84dcee6e753c1f888b07799a6cc48e8ec8b864462f7e619",
+    "optimizer_seconds": 6.32078769011423
+  },
+  "6949_6951_6950": {
+    "rgb_sha256": "06c9a4ef71b70941589a9dcc6281b1df221da9687e108a26ff8329a3dc4ede19",
+    "optimizer_seconds": 6.274902306031436
+  },
+  "9110_9114_9112": {
+    "rgb_sha256": "3567458f17f91e6bd6528e343408e20d95082c01e319c5a8d29de07dde51721b",
+    "optimizer_seconds": 6.329483598936349
+  }
+}

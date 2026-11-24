@@ -1,0 +1,58 @@
+{
+  "input_sha256": "f40117f1baf733062fc260534ed1d367be448d29fc29c5da4c3d9fe6123b9997",
+  "source_rgb_sha256": [
+    "37a5c25c52bd7f78d9c8a583b937348e56346f5efd66fbed65ebb494afef455b",
+    "30f72eb9c7b6e9a51f07395a18aebf8c9d99964d4e28899e884722ad281db04f"
+  ],
+  "horizontal_similarity": [
+    [
+      0.9944293775898635,
+      0.09100663428472926
+    ],
+    [
+      -0.09100663428472926,
+      0.9944293775898635
+    ]
+  ],
+  "matches": 544,
+  "scatter_m": 0.2684518383912181,
+  "provenance": {
+    "0": "reflected context",
+    "1": "first reference",
+    "2": "second reference"
+  },
+  "views": [
+    {
+      "camera_id": "6374",
+      "coverage": 0.8463541666666666,
+      "rgb_sha256": "bc62b851734201ca63ef88f92ce9ff01a6b276a27a3e34f245a25eb6464a4634"
+    },
+    {
+      "camera_id": "6375",
+      "coverage": 0.6897837320963541,
+      "rgb_sha256": "7795df6355b29c668b86b60555353e362a93badb2b14b14aacdd61d338c08b4e"
+    }
+  ],
+  "method": "surface_learned",
+  "pose_source": "survey_telemetry",
+  "source_map_role": "inverse branch only; each frequency band may mix branches",
+  "depth_models": [
+    {
+      "model": "plane",
+      "errors": {
+        "plane": 0.012596021298001166,
+        "altitude": 0.012418589107433837,
+        "mono_shape": 0.010538658543470612
+      }
+    },
+    {
+      "model": "plane",
+      "errors": {
+        "plane": 0.012717763956264626,
+        "altitude": 0.012635261559317563,
+        "mono_shape": 0.008350406271629564
+      }
+    }
+  ],
+  "band_weights_sha256": "1e856f6ee5a7d52d7ed7b8a305ceaf5037db61f805332d33ee1c46101e0a71cd"
+}

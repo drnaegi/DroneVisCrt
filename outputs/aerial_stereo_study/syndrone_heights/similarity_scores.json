@@ -1,0 +1,120 @@
+{
+  "rows": [
+    {
+      "case": "Town01_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+      "source": "outputs/relation_nvs_20261120/multitown_extension/Town01/converted/height20_source_rgb.png",
+      "target": "height50_source_rgb.png",
+      "target_sha256": "66923b8c1db07d7a8c39c7bd8046583d9c337101606535c151d3553c882aeca6",
+      "method": "pointmap_similarity",
+      "psnr": 17.122875883585202,
+      "ssim": 0.4817030211030937,
+      "lpips": 0.37670961022377014,
+      "observed_psnr": 17.705842171370595,
+      "complement_psnr": 11.4759392120763,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town01_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+      "source": "outputs/relation_nvs_20261120/multitown_extension/Town01/converted/height20_source_rgb.png",
+      "target": "height50_source_rgb.png",
+      "target_sha256": "66923b8c1db07d7a8c39c7bd8046583d9c337101606535c151d3553c882aeca6",
+      "method": "moge_matched_precision",
+      "psnr": 17.23151470993583,
+      "ssim": 0.4597486783273865,
+      "lpips": 0.36183881759643555,
+      "observed_psnr": 17.77659606057717,
+      "complement_psnr": 11.781685181399231,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town03_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+      "source": "outputs/relation_nvs_20261120/multitown_extension/Town03/converted/height20_source_rgb.png",
+      "target": "height50_source_rgb.png",
+      "target_sha256": "2c18a948a3958aa1cb3c7a6d9fa094d97ada2bc797c7c2aa6006d3a1dc2fbcf2",
+      "method": "pointmap_similarity",
+      "psnr": 17.17789215476395,
+      "ssim": 0.45012593717606625,
+      "lpips": 0.349383145570755,
+      "observed_psnr": 17.57543170518036,
+      "complement_psnr": 12.615076569768968,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town03_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+      "source": "outputs/relation_nvs_20261120/multitown_extension/Town03/converted/height20_source_rgb.png",
+      "target": "height50_source_rgb.png",
+      "target_sha256": "2c18a948a3958aa1cb3c7a6d9fa094d97ada2bc797c7c2aa6006d3a1dc2fbcf2",
+      "method": "moge_matched_precision",
+      "psnr": 15.839978278812135,
+      "ssim": 0.3673431200293753,
+      "lpips": 0.40071964263916016,
+      "observed_psnr": 16.089248909187674,
+      "complement_psnr": 12.443961861507916,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town04_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+      "source": "outputs/relation_nvs_20261120/multitown_extension/Town04/converted/height20_source_rgb.png",
+      "target": "height50_source_rgb.png",
+      "target_sha256": "5f75df1d8b051d8d8befae8425315fb70b6590ca2cc30e53390203346d443c90",
+      "method": "pointmap_similarity",
+      "psnr": 19.1741798574382,
+      "ssim": 0.6216147516404974,
+      "lpips": 0.2690712809562683,
+      "observed_psnr": 19.546048351123858,
+      "complement_psnr": 14.789638271726044,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town04_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+      "source": "outputs/relation_nvs_20261120/multitown_extension/Town04/converted/height20_source_rgb.png",
+      "target": "height50_source_rgb.png",
+      "target_sha256": "5f75df1d8b051d8d8befae8425315fb70b6590ca2cc30e53390203346d443c90",
+      "method": "moge_matched_precision",
+      "psnr": 19.20588876102283,
+      "ssim": 0.6544581715982152,
+      "lpips": 0.2659534215927124,
+      "observed_psnr": 19.57361927986572,
+      "complement_psnr": 14.850882521392663,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town07_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+      "source": "outputs/relation_nvs_20261120/multitown_extension/Town07/converted/height20_source_rgb.png",
+      "target": "height50_source_rgb.png",
+      "target_sha256": "08b5555609ba1b334d59542a51af7727dce7e112e8c3f51b27e35dcd1b7bb9f9",
+      "method": "pointmap_similarity",
+      "psnr": 15.763472947872831,
+      "ssim": 0.3606317638104258,
+      "lpips": 0.4685424864292145,
+      "observed_psnr": 15.718591477346084,
+      "complement_psnr": 16.847102769654935,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town07_height20_source_rgb_height80_source_rgb_height50_source_rgb",
+      "source": "outputs/relation_nvs_20261120/multitown_extension/Town07/converted/height20_source_rgb.png",
+      "target": "height50_source_rgb.png",
+      "target_sha256": "08b5555609ba1b334d59542a51af7727dce7e112e8c3f51b27e35dcd1b7bb9f9",
+      "method": "moge_matched_precision",
+      "psnr": 15.645684743416087,
+      "ssim": 0.3619218920711414,
+      "lpips": 0.4346840977668762,
+      "observed_psnr": 15.597278729420555,
+      "complement_psnr": 16.827613382006156,
+      "plane_support": 0.9550713433159722
+    }
+  ],
+  "mean": {
+    "moge_matched_precision": {
+      "lpips": 0.3657989948987961,
+      "psnr": 16.98076662329672,
+      "ssim": 0.4608679655065296
+    },
+    "pointmap_similarity": {
+      "lpips": 0.365926630795002,
+      "psnr": 17.309605210915045,
+      "ssim": 0.4785188684325208
+    }
+  }
+}

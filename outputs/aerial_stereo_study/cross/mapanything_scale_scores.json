@@ -1,0 +1,128 @@
+{
+  "rows": [
+    {
+      "case": "0000_0002_0001",
+      "source": "datasets/stereo_survey/drone_dataset_sheffield_cross/0000.jpg",
+      "target": "0001.jpg",
+      "target_sha256": "24facca2ab939f1bce91e12b0154efd598d50dff4c81b279f0ca17ef47a2efd0",
+      "method": "mapanything_median",
+      "psnr": 19.817797414045106,
+      "ssim": 0.2154493583768626,
+      "lpips": 0.16715165972709656,
+      "observed_psnr": 19.843069462822537,
+      "complement_psnr": 14.35483486581629,
+      "plane_support": 0.9977010091145834
+    },
+    {
+      "case": "0021_0023_0022",
+      "source": "datasets/stereo_survey/drone_dataset_sheffield_cross/0021.jpg",
+      "target": "0022.jpg",
+      "target_sha256": "7a833e8d36d04981b18894e779990a32d72cb4824c446448705eb4eaf61effc2",
+      "method": "mapanything_median",
+      "psnr": 22.202575702737022,
+      "ssim": 0.6069133859048083,
+      "lpips": 0.11729101836681366,
+      "observed_psnr": 22.207117858162665,
+      "complement_psnr": 21.065077185474355,
+      "plane_support": 0.99652099609375
+    },
+    {
+      "case": "0042_0044_0043",
+      "source": "datasets/stereo_survey/drone_dataset_sheffield_cross/0042.jpg",
+      "target": "0043.jpg",
+      "target_sha256": "9c825791cade139a4d48ad75e8bcfb7e3ebf540bc490d5f24ea4f1a36b0d6705",
+      "method": "mapanything_median",
+      "psnr": 25.472352140747674,
+      "ssim": 0.7685482966639161,
+      "lpips": 0.10252949595451355,
+      "observed_psnr": 25.50732720262625,
+      "complement_psnr": 18.07057906466841,
+      "plane_support": 0.9982198079427084
+    },
+    {
+      "case": "0063_0065_0064",
+      "source": "datasets/stereo_survey/drone_dataset_sheffield_cross/0063.jpg",
+      "target": "0064.jpg",
+      "target_sha256": "9799e855261f090c393d54deb65b10d61a29bdfa155c890892bd935a1346d787",
+      "method": "mapanything_median",
+      "psnr": 22.19048968954491,
+      "ssim": 0.6490883101117054,
+      "lpips": 0.11749249696731567,
+      "observed_psnr": 22.22520330473071,
+      "complement_psnr": 14.865604571714483,
+      "plane_support": 0.9981943766276041
+    },
+    {
+      "case": "0084_0086_0085",
+      "source": "datasets/stereo_survey/drone_dataset_sheffield_cross/0084.jpg",
+      "target": "0085.jpg",
+      "target_sha256": "87591dc67ab7586aa304d8d47c0a67b2b1c1763f9ef2cfc95a144a6b5cd829c6",
+      "method": "mapanything_median",
+      "psnr": 23.845662159380527,
+      "ssim": 0.6757994196177178,
+      "lpips": 0.1348962038755417,
+      "observed_psnr": 23.873944346110413,
+      "complement_psnr": 19.376266829789962,
+      "plane_support": 0.9964040120442709
+    },
+    {
+      "case": "0105_0107_0106",
+      "source": "datasets/stereo_survey/drone_dataset_sheffield_cross/0105.jpg",
+      "target": "0106.jpg",
+      "target_sha256": "607fe738f4f89296a9d7d7253883701053412022941de410eabbf119171ca20b",
+      "method": "mapanything_median",
+      "psnr": 22.74413706163033,
+      "ssim": 0.4068341847440223,
+      "lpips": 0.15176115930080414,
+      "observed_psnr": 23.050235229741524,
+      "complement_psnr": 16.32894999948816,
+      "plane_support": 0.9802652994791666
+    },
+    {
+      "case": "0126_0128_0127",
+      "source": "datasets/stereo_survey/drone_dataset_sheffield_cross/0126.jpg",
+      "target": "0127.jpg",
+      "target_sha256": "2efd81b505fc28bf98252dd98e5e6a2b7adfca925af5c68449d940cfd34ec66b",
+      "method": "mapanything_median",
+      "psnr": 23.75066654310613,
+      "ssim": 0.5305978745839184,
+      "lpips": 0.11535215377807617,
+      "observed_psnr": 23.773030662631676,
+      "complement_psnr": 19.28695981919111,
+      "plane_support": 0.9971466064453125
+    },
+    {
+      "case": "0147_0149_0148",
+      "source": "datasets/stereo_survey/drone_dataset_sheffield_cross/0147.jpg",
+      "target": "0148.jpg",
+      "target_sha256": "013dc8ec8ff3ce8eef3bf8ab931c07f212e66a531b0caf76be5bbf6657b76753",
+      "method": "mapanything_median",
+      "psnr": 23.973488913224582,
+      "ssim": 0.7260620029817365,
+      "lpips": 0.1058729737997055,
+      "observed_psnr": 24.022825479720492,
+      "complement_psnr": 15.943630803929798,
+      "plane_support": 0.997894287109375
+    },
+    {
+      "case": "0168_0170_0169",
+      "source": "datasets/stereo_survey/drone_dataset_sheffield_cross/0168.jpg",
+      "target": "0169.jpg",
+      "target_sha256": "c675bccc8a156b24cf238269c714d5122239fa5a45bb38ac04e051725f500307",
+      "method": "mapanything_median",
+      "psnr": 23.25318048430113,
+      "ssim": 0.6478497632200657,
+      "lpips": 0.10419465601444244,
+      "observed_psnr": 23.237402377881786,
+      "complement_psnr": 27.081120318007233,
+      "plane_support": 0.9938252766927084
+    }
+  ],
+  "mean": {
+    "mapanything_median": {
+      "lpips": 0.12406020197603437,
+      "psnr": 23.02781667874638,
+      "ssim": 0.5807936218005282
+    }
+  }
+}

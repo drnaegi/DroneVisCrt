@@ -1,0 +1,98 @@
+{
+  "0000_0002_0001": {
+    "rgb_sha256": "c1fbffe35aa8814cd779b7abf2edab54b847e18d3aed01d4fc30c4727973b239",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      }
+    ],
+    "changed_fraction": 0.06720648871527778
+  },
+  "0003_0005_0004": {
+    "rgb_sha256": "c9129b388a5106ca578fbbd6598872d42d962303e5d7ab57c9cc8790f005297e",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      }
+    ],
+    "changed_fraction": 0.1121554904513889
+  },
+  "0006_0008_0007": {
+    "rgb_sha256": "f4282df4d415e417bd629b6c0fde4b94e4c5679bc16540013c8bde2f64425d1e",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      }
+    ],
+    "changed_fraction": 0.0012342664930555555
+  },
+  "0009_0011_0010": {
+    "rgb_sha256": "aa75261a6cc0b16375dc22dde6256b7fad68acdce128fc966997a6486ebacff2",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.03823892669359685
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.029840529314302665
+      }
+    ],
+    "changed_fraction": 0.10158284505208333
+  },
+  "0012_0014_0013": {
+    "rgb_sha256": "3e1bb5079a950ed913ce9db306fac8bf6f079e42ea37d5ecb8ece24ff222642c",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.07387753279250632
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.08468915528354837
+      }
+    ],
+    "changed_fraction": 0.051981608072916664
+  },
+  "0015_0017_0016": {
+    "rgb_sha256": "b313d4cb11a920ab6b45c6f0163e567b10e642a5089dd65b7e08a36aefb569a7",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      }
+    ],
+    "changed_fraction": 0.06873236762152778
+  }
+}

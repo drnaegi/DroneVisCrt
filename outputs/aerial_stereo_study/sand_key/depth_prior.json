@@ -1,0 +1,274 @@
+{
+  "0000_0002_0001": {
+    "fits": [
+      {
+        "model": "plane",
+        "errors": {}
+      },
+      {
+        "model": "plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "66b50a83e4c7f596b11769d9ec7abac45652ff0d9a76547caeb027234040b172"
+  },
+  "0004_0006_0005": {
+    "fits": [
+      {
+        "model": "plane",
+        "errors": {}
+      },
+      {
+        "model": "plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "4652870cda30c0af5a2ca172ba2b6651c1d739bbbb744c816944e4777b9faa8e"
+  },
+  "0008_0010_0009": {
+    "fits": [
+      {
+        "model": "plane",
+        "errors": {}
+      },
+      {
+        "model": "plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "f9c0dd1c97c56a882a545dd48629cd5ad49ea71453b4f8a31b716ed21263f256"
+  },
+  "0012_0014_0013": {
+    "fits": [
+      {
+        "model": "plane",
+        "errors": {}
+      },
+      {
+        "model": "plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "91b858867ede94e33eb40fb23e4ddf4caa0b1d8289118a686f6d6284052913fc"
+  },
+  "0016_0018_0017": {
+    "fits": [
+      {
+        "model": "plane",
+        "errors": {}
+      },
+      {
+        "model": "plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "7f34ec55eac3c8e7880c72614c440a4edf88ccd07cab8af7fdf3e71603c9675a"
+  },
+  "0020_0022_0021": {
+    "fits": [
+      {
+        "model": "altitude",
+        "errors": {
+          "plane": 0.030584669478361647,
+          "altitude": 0.02555250126216194,
+          "mono_shape": 0.02555250126216194
+        }
+      },
+      {
+        "model": "altitude",
+        "errors": {
+          "plane": 0.02973969734100082,
+          "altitude": 0.02457731154166621,
+          "mono_shape": 0.02457731154166621
+        }
+      }
+    ],
+    "rgb_sha256": "3576ad1ffd3f082ce2dc6e1cd855748723b09bf451433aefd1f278ddee8bd42a"
+  },
+  "0024_0026_0025": {
+    "fits": [
+      {
+        "model": "plane",
+        "errors": {
+          "plane": 0.04626046859467971,
+          "altitude": 0.04138538353953694,
+          "mono_shape": 0.04138538353953694
+        }
+      },
+      {
+        "model": "altitude",
+        "errors": {
+          "plane": 0.04627539618542044,
+          "altitude": 0.04087795175142835,
+          "mono_shape": 0.040637138347689165
+        }
+      }
+    ],
+    "rgb_sha256": "63d828542cd9d1d83f85331cb15ea2dbd3cf17a6b258700df64fd17843f651b0"
+  },
+  "0028_0030_0029": {
+    "fits": [
+      {
+        "model": "plane",
+        "errors": {}
+      },
+      {
+        "model": "plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "e9e48b7011ca167f7d90b0cc3e70bd631bbae96f3940f4c705bf3339b76d05ab"
+  },
+  "0032_0034_0033": {
+    "fits": [
+      {
+        "model": "altitude",
+        "errors": {
+          "plane": 0.02436914530557548,
+          "altitude": 0.01353583128427434,
+          "mono_shape": 0.01353583128427434
+        }
+      },
+      {
+        "model": "altitude",
+        "errors": {
+          "plane": 0.023748007333610814,
+          "altitude": 0.014136974063252306,
+          "mono_shape": 0.009296953614100907
+        }
+      }
+    ],
+    "rgb_sha256": "df25d3e8b13fae2e5b2056e65c8b0373c8a64431c64b36b29969ea3f5a6a56b5"
+  },
+  "0036_0038_0037": {
+    "fits": [
+      {
+        "model": "plane",
+        "errors": {}
+      },
+      {
+        "model": "plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "723b5b444cd3f22e306a278796f1921bc73c4358687271f070e0585f37b98514"
+  },
+  "0040_0042_0041": {
+    "fits": [
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.1315197323317994,
+          "altitude": 0.12866552158087374,
+          "mono_shape": 0.09437006008613083
+        }
+      },
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.11828547010139966,
+          "altitude": 0.11845285276762225,
+          "mono_shape": 0.08918050010601901
+        }
+      }
+    ],
+    "rgb_sha256": "49ae8a3c2c6a28da0af6d6620a11e037d743bdb0740b5faab74bc2c431130573"
+  },
+  "0044_0046_0045": {
+    "fits": [
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.049258302330163165,
+          "altitude": 0.039778338399180345,
+          "mono_shape": 0.030119788593065782
+        }
+      },
+      {
+        "model": "altitude",
+        "errors": {
+          "plane": 0.03985206757544539,
+          "altitude": 0.03516412273195928,
+          "mono_shape": 0.03447611457061835
+        }
+      }
+    ],
+    "rgb_sha256": "8d9978d66d566a9dc67b733ddd1a9934b2d49d3413a31dc6a6b743ae7c70dcf9"
+  },
+  "0048_0050_0049": {
+    "fits": [
+      {
+        "model": "altitude",
+        "errors": {
+          "plane": 0.022484319402163302,
+          "altitude": 0.01738758784764478,
+          "mono_shape": 0.01548125953722165
+        }
+      },
+      {
+        "model": "altitude",
+        "errors": {
+          "plane": 0.017416736819786158,
+          "altitude": 0.014522667618151632,
+          "mono_shape": 0.010028745884124734
+        }
+      }
+    ],
+    "rgb_sha256": "cb6b7048c4c9d4dd75667a019a9d253290a921559642618d2c3cebf2fd09f93f"
+  },
+  "0052_0054_0053": {
+    "fits": [
+      {
+        "model": "altitude",
+        "errors": {
+          "plane": 0.04293995319477416,
+          "altitude": 0.03383204646212673,
+          "mono_shape": 0.03375796842351008
+        }
+      },
+      {
+        "model": "altitude",
+        "errors": {
+          "plane": 0.034232939442828174,
+          "altitude": 0.027576119445219822,
+          "mono_shape": 0.027240383301697736
+        }
+      }
+    ],
+    "rgb_sha256": "20451bd619c63e25cf9aac8e4c52ace9711c4d65ae54d8c720e0774485f45862"
+  },
+  "0056_0058_0057": {
+    "fits": [
+      {
+        "model": "plane",
+        "errors": {
+          "plane": 0.012918907619595651,
+          "altitude": 0.012740393752121914,
+          "mono_shape": 0.012727558643786543
+        }
+      },
+      {
+        "model": "plane",
+        "errors": {
+          "plane": 0.014908424618398832,
+          "altitude": 0.014146767037279271,
+          "mono_shape": 0.014146767037279271
+        }
+      }
+    ],
+    "rgb_sha256": "8c7563cf7824797b5a930511e87dab141052999b37864f47bfed64232f6a9a11"
+  },
+  "0060_0062_0061": {
+    "fits": [
+      {
+        "model": "plane",
+        "errors": {}
+      },
+      {
+        "model": "plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "f39ec39236e7fa761d0c30da689b51accae8812626db0170d11c146fafef3b8b"
+  }
+}

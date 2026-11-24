@@ -1,0 +1,50 @@
+{
+  "Town02_00749_20_Town02_00749_80_Town02_00749_50": {
+    "alignment": [],
+    "rgb_sha256": "bbacc70d20af22791e0a1c571d846912055cc3a1d08b3bab01d911fa3f22fa0d"
+  },
+  "Town02_01749_20_Town02_01749_80_Town02_01749_50": {
+    "alignment": [],
+    "rgb_sha256": "a704b4c31ea5101117f00d31628e8e6641018d1e9312dae6a2f7eac324f9456e"
+  },
+  "Town02_02749_20_Town02_02749_80_Town02_02749_50": {
+    "alignment": [],
+    "rgb_sha256": "aaaa13bce52c346881f32fe7c48efb484b42ed6a0a388474f76da27a20840c7d"
+  },
+  "Town05_00749_20_Town05_00749_80_Town05_00749_50": {
+    "alignment": [],
+    "rgb_sha256": "3726db0d2430b6d87f11a8ccd1294637b9de4abc88a97cff0856e9ab98f65461"
+  },
+  "Town05_01749_20_Town05_01749_80_Town05_01749_50": {
+    "alignment": [],
+    "rgb_sha256": "c6aacb33310450e4d19fdbd9e5aa3e9c3e2969d08245ebc34cf6b7bd34822130"
+  },
+  "Town05_02749_20_Town05_02749_80_Town05_02749_50": {
+    "alignment": [],
+    "rgb_sha256": "fbad7f77b9c1ee8db87c1d7a82c97310d2cc7887f539fa5db3c62eb3893e57f9"
+  },
+  "Town06_00749_20_Town06_00749_80_Town06_00749_50": {
+    "alignment": [],
+    "rgb_sha256": "68ff36261f31134b4d71f562fb830ed2b9f5ca20610b8dfa8dc43b3018b9957d"
+  },
+  "Town06_01749_20_Town06_01749_80_Town06_01749_50": {
+    "alignment": [],
+    "rgb_sha256": "3e2739a0714c6de2a25ee04e78944403dc2095342377eb0366734023469cb062"
+  },
+  "Town06_02749_20_Town06_02749_80_Town06_02749_50": {
+    "alignment": [],
+    "rgb_sha256": "957b8f56636c4c840c0d39ee6bf017b86be0c44952fd12022c81aac94d9ead25"
+  },
+  "Town10HD_00749_20_Town10HD_00749_80_Town10HD_00749_50": {
+    "alignment": [],
+    "rgb_sha256": "5248cafb095c70cd5bda490f70e89b06c7185cd6ece05394b631881158342208"
+  },
+  "Town10HD_01749_20_Town10HD_01749_80_Town10HD_01749_50": {
+    "alignment": [],
+    "rgb_sha256": "b3f279e3758c696d82e3c49a449467095b739ea8710d42b5eb65563a531cb69c"
+  },
+  "Town10HD_02749_20_Town10HD_02749_80_Town10HD_02749_50": {
+    "alignment": [],
+    "rgb_sha256": "3075eb4b785d9dfee3bb8583cb62049b146ce462ff5cc48d2d3a7f26bab8c40a"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "0291_0307_0299": {
+    "rgb_sha256": "7c4e1ad7ffcd6202ded9afda6e1f74c9f49703d45c7a87dc21749a9e9b04d61a",
+    "weights_sha256": "1e856f6ee5a7d52d7ed7b8a305ceaf5037db61f805332d33ee1c46101e0a71cd"
+  },
+  "0301_0317_0309": {
+    "rgb_sha256": "a89b3e3a269f06edee1acb377343adeee53484b3fee7f761a95ca1a27727a381",
+    "weights_sha256": "1e856f6ee5a7d52d7ed7b8a305ceaf5037db61f805332d33ee1c46101e0a71cd"
+  },
+  "0320_0317_0319": {
+    "rgb_sha256": "9927f8ad3603069894a61d87f1c791a8bd3c4be8d55aa46071a40af7d5bb4918",
+    "weights_sha256": "1e856f6ee5a7d52d7ed7b8a305ceaf5037db61f805332d33ee1c46101e0a71cd"
+  }
+}

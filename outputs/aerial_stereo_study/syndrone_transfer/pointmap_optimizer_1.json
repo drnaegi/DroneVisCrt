@@ -1,0 +1,50 @@
+{
+  "Town02_00499_20_Town02_00499_80_Town02_00499_50": {
+    "rgb_sha256": "6b27278347b2abb90c6c3089fbdc94712b18773ff26bcb93af8ab9fe1179e61c",
+    "optimizer_seconds": 1.281341260066256
+  },
+  "Town02_01499_20_Town02_01499_80_Town02_01499_50": {
+    "rgb_sha256": "8f27d18190f55e8b82b16f329fba55285d50ee6d9c19857521761ef732521da0",
+    "optimizer_seconds": 0.3456494330894202
+  },
+  "Town02_02499_20_Town02_02499_80_Town02_02499_50": {
+    "rgb_sha256": "f282e1fd8f65f593e7702471ba85b48a0773fdccc7f7aba5cea3992400c8c490",
+    "optimizer_seconds": 0.36044940585270524
+  },
+  "Town05_00499_20_Town05_00499_80_Town05_00499_50": {
+    "rgb_sha256": "74a54ac6ce2bd981101d98a7f289510622c42bce768894515edd7a42166c5bcb",
+    "optimizer_seconds": 0.3538800908718258
+  },
+  "Town05_01499_20_Town05_01499_80_Town05_01499_50": {
+    "rgb_sha256": "0ce63b70bfa070b01fbb95fcc2da610bbac6b39e23b2fa3e6b7c395210b350ae",
+    "optimizer_seconds": 0.36495516495779157
+  },
+  "Town05_02499_20_Town05_02499_80_Town05_02499_50": {
+    "rgb_sha256": "b61bc7f2c71ea4dae03704f649011d8655379579b0b74c8004a7c12f6ae8fe43",
+    "optimizer_seconds": 0.3300919102039188
+  },
+  "Town06_00499_20_Town06_00499_80_Town06_00499_50": {
+    "rgb_sha256": "1a28c49410d57d7845876bbc185ba52a16139deebe4da239ed0f1f09126a3e01",
+    "optimizer_seconds": 0.3650989420711994
+  },
+  "Town06_01499_20_Town06_01499_80_Town06_01499_50": {
+    "rgb_sha256": "a54bab2aef1bbdcd71052c702e7ff1529b5e897b9817ed861ef7c998c7b37c7a",
+    "optimizer_seconds": 0.35903345700353384
+  },
+  "Town06_02499_20_Town06_02499_80_Town06_02499_50": {
+    "rgb_sha256": "e5a6d23b39b947e78922e03b2ec665bdb4d135a29e4435d47dfe4582056d95c8",
+    "optimizer_seconds": 0.36247244314290583
+  },
+  "Town10HD_00499_20_Town10HD_00499_80_Town10HD_00499_50": {
+    "rgb_sha256": "f68e511e282a3aeb1539c5b26e13a86630cc7b86bb47f7755455a79e45fc3fc0",
+    "optimizer_seconds": 0.38920268998481333
+  },
+  "Town10HD_01499_20_Town10HD_01499_80_Town10HD_01499_50": {
+    "rgb_sha256": "7877e1617837c7f4c2c3473a6cabadd9238a2a14101db69ab91929328dcd0ed7",
+    "optimizer_seconds": 0.36026837187819183
+  },
+  "Town10HD_02499_20_Town10HD_02499_80_Town10HD_02499_50": {
+    "rgb_sha256": "3103036e1a215ea204a84efdb6f1c2a699acd2aae1611a3c7c4150cbf3004105",
+    "optimizer_seconds": 0.3554806299507618
+  }
+}

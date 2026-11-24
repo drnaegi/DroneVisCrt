@@ -1,0 +1,3022 @@
+{
+  "rows": [
+    {
+      "case": "r_61_r_27_r_0",
+      "method": "altitude",
+      "pixels": 80119,
+      "windows": 70081,
+      "foreground_psnr": 27.794579115823264,
+      "foreground_ssim": 0.9437320339716551,
+      "static_lpips": 0.0324852280318737
+    },
+    {
+      "case": "r_61_r_27_r_0",
+      "method": "depth_prior",
+      "pixels": 80119,
+      "windows": 70081,
+      "foreground_psnr": 30.222346346310715,
+      "foreground_ssim": 0.9602551771295784,
+      "static_lpips": 0.028580479323863983
+    },
+    {
+      "case": "r_61_r_27_r_0",
+      "method": "depthsplat_dl3dv_256x448",
+      "pixels": 80119,
+      "windows": 70081,
+      "foreground_psnr": 19.278492292666044,
+      "foreground_ssim": 0.6479166621877952,
+      "static_lpips": 0.09218572080135345
+    },
+    {
+      "case": "r_61_r_27_r_0",
+      "method": "depthsplat_dl3dv_256x448_plane_bg",
+      "pixels": 80119,
+      "windows": 70081,
+      "foreground_psnr": 19.372187764415365,
+      "foreground_ssim": 0.6797747427749721,
+      "static_lpips": 0.08625798672437668
+    },
+    {
+      "case": "r_61_r_27_r_0",
+      "method": "detail_median_stereo_adaptive",
+      "pixels": 80119,
+      "windows": 70081,
+      "foreground_psnr": 21.378076850605837,
+      "foreground_ssim": 0.9134909361931353,
+      "static_lpips": 0.05488903820514679
+    },
+    {
+      "case": "r_61_r_27_r_0",
+      "method": "detail_median_stereo_fixed",
+      "pixels": 80119,
+      "windows": 70081,
+      "foreground_psnr": 23.020414965117617,
+      "foreground_ssim": 0.9340105589494963,
+      "static_lpips": 0.04408010095357895
+    },
+    {
+      "case": "r_61_r_27_r_0",
+      "method": "detail_qualified_adaptive",
+      "pixels": 80119,
+      "windows": 70081,
+      "foreground_psnr": 24.348903453784295,
+      "foreground_ssim": 0.9221618766578641,
+      "static_lpips": 0.04334651678800583
+    },
+    {
+      "case": "r_61_r_27_r_0",
+      "method": "detail_qualified_fixed",
+      "pixels": 80119,
+      "windows": 70081,
+      "foreground_psnr": 26.064042903095512,
+      "foreground_ssim": 0.9401510311493134,
+      "static_lpips": 0.034170206636190414
+    },
+    {
+      "case": "r_61_r_27_r_0",
+      "method": "flow_plane",
+      "pixels": 80119,
+      "windows": 70081,
+      "foreground_psnr": 23.96852057580642,
+      "foreground_ssim": 0.8453982035708855,
+      "static_lpips": 0.03741240128874779
+    },
+    {
+      "case": "r_61_r_27_r_0",
+      "method": "learned_bands_constant",
+      "pixels": 80119,
+      "windows": 70081,
+      "foreground_psnr": 23.70012113285832,
+      "foreground_ssim": 0.902928435450876,
+      "static_lpips": 0.0526028648018837
+    },
+    {
+      "case": "r_61_r_27_r_0",
+      "method": "learned_bands_geometry",
+      "pixels": 80119,
+      "windows": 70081,
+      "foreground_psnr": 24.807157284786022,
+      "foreground_ssim": 0.9138512301089337,
+      "static_lpips": 0.04629325494170189
+    },
+    {
+      "case": "r_61_r_27_r_0",
+      "method": "learned_bands_image",
+      "pixels": 80119,
+      "windows": 70081,
+      "foreground_psnr": 26.39904836810956,
+      "foreground_ssim": 0.930128896427336,
+      "static_lpips": 0.04288312420248985
+    },
+    {
+      "case": "r_61_r_27_r_0",
+      "method": "median_plane",
+      "pixels": 80119,
+      "windows": 70081,
+      "foreground_psnr": 30.94091473255132,
+      "foreground_ssim": 0.9642491756369835,
+      "static_lpips": 0.027872376143932343
+    },
+    {
+      "case": "r_61_r_27_r_0",
+      "method": "median_stereo",
+      "pixels": 80119,
+      "windows": 70081,
+      "foreground_psnr": 30.14234516512299,
+      "foreground_ssim": 0.9600607012450614,
+      "static_lpips": 0.028172753751277924
+    },
+    {
+      "case": "r_61_r_27_r_0",
+      "method": "mesh_median_stereo_blend",
+      "pixels": 80119,
+      "windows": 70081,
+      "foreground_psnr": 20.73811248997492,
+      "foreground_ssim": 0.8897719645170722,
+      "static_lpips": 0.06505072861909866
+    },
+    {
+      "case": "r_61_r_27_r_0",
+      "method": "mesh_median_stereo_hard",
+      "pixels": 80119,
+      "windows": 70081,
+      "foreground_psnr": 20.953512596094534,
+      "foreground_ssim": 0.9041109495244942,
+      "static_lpips": 0.0588216595351696
+    },
+    {
+      "case": "r_61_r_27_r_0",
+      "method": "mesh_qualified_blend",
+      "pixels": 80119,
+      "windows": 70081,
+      "foreground_psnr": 23.44468533238883,
+      "foreground_ssim": 0.9009000127482815,
+      "static_lpips": 0.05372714623808861
+    },
+    {
+      "case": "r_61_r_27_r_0",
+      "method": "mesh_qualified_hard",
+      "pixels": 80119,
+      "windows": 70081,
+      "foreground_psnr": 23.873254432854147,
+      "foreground_ssim": 0.91536393941782,
+      "static_lpips": 0.04592860862612724
+    },
+    {
+      "case": "r_61_r_27_r_0",
+      "method": "mvsplat_acid_256",
+      "pixels": 80119,
+      "windows": 70081,
+      "foreground_psnr": 15.239187481652532,
+      "foreground_ssim": 0.5388466861823381,
+      "static_lpips": 0.11917531490325928
+    },
+    {
+      "case": "r_61_r_27_r_0",
+      "method": "mvsplat_acid_native",
+      "pixels": 80119,
+      "windows": 70081,
+      "foreground_psnr": 19.138544008871676,
+      "foreground_ssim": 0.6330078303313617,
+      "static_lpips": 0.09056749939918518
+    },
+    {
+      "case": "r_61_r_27_r_0",
+      "method": "mvsplat_acid_native_plane_bg",
+      "pixels": 80119,
+      "windows": 70081,
+      "foreground_psnr": 18.374267422623518,
+      "foreground_ssim": 0.691654907950023,
+      "static_lpips": 0.08267106115818024
+    },
+    {
+      "case": "r_61_r_27_r_0",
+      "method": "plane",
+      "pixels": 80119,
+      "windows": 70081,
+      "foreground_psnr": 23.96733704716314,
+      "foreground_ssim": 0.8452418478463538,
+      "static_lpips": 0.03753914684057236
+    },
+    {
+      "case": "r_61_r_27_r_0",
+      "method": "precision_depth",
+      "pixels": 80119,
+      "windows": 70081,
+      "foreground_psnr": 23.137875898669922,
+      "foreground_ssim": 0.9314662421729344,
+      "static_lpips": 0.04442721605300903
+    },
+    {
+      "case": "r_61_r_27_r_0",
+      "method": "precision_donor",
+      "pixels": 80119,
+      "windows": 70081,
+      "foreground_psnr": 23.137875898669922,
+      "foreground_ssim": 0.9314662421729344,
+      "static_lpips": 0.04442721605300903
+    },
+    {
+      "case": "r_61_r_27_r_0",
+      "method": "reverse_bands",
+      "pixels": 80119,
+      "windows": 70081,
+      "foreground_psnr": 26.534612143950604,
+      "foreground_ssim": 0.9222297479001541,
+      "static_lpips": 0.04588990658521652
+    },
+    {
+      "case": "r_61_r_27_r_0",
+      "method": "sharpen_surface",
+      "pixels": 80119,
+      "windows": 70081,
+      "foreground_psnr": 21.273019498881368,
+      "foreground_ssim": 0.8661014983194449,
+      "static_lpips": 0.05780130624771118
+    },
+    {
+      "case": "r_61_r_27_r_0",
+      "method": "simple_average",
+      "pixels": 80119,
+      "windows": 70081,
+      "foreground_psnr": 27.339246376459727,
+      "foreground_ssim": 0.9374818512132999,
+      "static_lpips": 0.03766128420829773
+    },
+    {
+      "case": "r_61_r_27_r_0",
+      "method": "stereo",
+      "pixels": 80119,
+      "windows": 70081,
+      "foreground_psnr": 27.76459463647899,
+      "foreground_ssim": 0.943472239544149,
+      "static_lpips": 0.032340530306100845
+    },
+    {
+      "case": "r_61_r_27_r_0",
+      "method": "transport",
+      "pixels": 80119,
+      "windows": 70081,
+      "foreground_psnr": 27.769703810507124,
+      "foreground_ssim": 0.9435071994774136,
+      "static_lpips": 0.03233060985803604
+    },
+    {
+      "case": "r_66_r_12_r_8",
+      "method": "altitude",
+      "pixels": 82862,
+      "windows": 70537,
+      "foreground_psnr": 10.920893257474336,
+      "foreground_ssim": 0.21343842165977692,
+      "static_lpips": 0.28767842054367065
+    },
+    {
+      "case": "r_66_r_12_r_8",
+      "method": "depth_prior",
+      "pixels": 82862,
+      "windows": 70537,
+      "foreground_psnr": 12.47456269451126,
+      "foreground_ssim": 0.3397313405682225,
+      "static_lpips": 0.1891125589609146
+    },
+    {
+      "case": "r_66_r_12_r_8",
+      "method": "depthsplat_dl3dv_256x448",
+      "pixels": 82862,
+      "windows": 70537,
+      "foreground_psnr": 13.620170570591362,
+      "foreground_ssim": 0.24966421472658615,
+      "static_lpips": 0.20439854264259338
+    },
+    {
+      "case": "r_66_r_12_r_8",
+      "method": "depthsplat_dl3dv_256x448_plane_bg",
+      "pixels": 82862,
+      "windows": 70537,
+      "foreground_psnr": 13.859029099895846,
+      "foreground_ssim": 0.25226692777886733,
+      "static_lpips": 0.22430822253227234
+    },
+    {
+      "case": "r_66_r_12_r_8",
+      "method": "detail_median_stereo_adaptive",
+      "pixels": 82862,
+      "windows": 70537,
+      "foreground_psnr": 13.792328338329465,
+      "foreground_ssim": 0.3801216452438064,
+      "static_lpips": 0.17932672798633575
+    },
+    {
+      "case": "r_66_r_12_r_8",
+      "method": "detail_median_stereo_fixed",
+      "pixels": 82862,
+      "windows": 70537,
+      "foreground_psnr": 13.860754178372625,
+      "foreground_ssim": 0.3618091683021844,
+      "static_lpips": 0.190153568983078
+    },
+    {
+      "case": "r_66_r_12_r_8",
+      "method": "detail_qualified_adaptive",
+      "pixels": 82862,
+      "windows": 70537,
+      "foreground_psnr": 13.960247746164505,
+      "foreground_ssim": 0.370462076345021,
+      "static_lpips": 0.1721135377883911
+    },
+    {
+      "case": "r_66_r_12_r_8",
+      "method": "detail_qualified_fixed",
+      "pixels": 82862,
+      "windows": 70537,
+      "foreground_psnr": 14.113660229749927,
+      "foreground_ssim": 0.3535715727997006,
+      "static_lpips": 0.17983543872833252
+    },
+    {
+      "case": "r_66_r_12_r_8",
+      "method": "flow_plane",
+      "pixels": 82862,
+      "windows": 70537,
+      "foreground_psnr": 10.440150872823688,
+      "foreground_ssim": 0.13608956723439902,
+      "static_lpips": 0.27008137106895447
+    },
+    {
+      "case": "r_66_r_12_r_8",
+      "method": "learned_bands_constant",
+      "pixels": 82862,
+      "windows": 70537,
+      "foreground_psnr": 14.102205135535348,
+      "foreground_ssim": 0.38636759274196036,
+      "static_lpips": 0.18604326248168945
+    },
+    {
+      "case": "r_66_r_12_r_8",
+      "method": "learned_bands_geometry",
+      "pixels": 82862,
+      "windows": 70537,
+      "foreground_psnr": 14.52454151957914,
+      "foreground_ssim": 0.36930318096341275,
+      "static_lpips": 0.17793139815330505
+    },
+    {
+      "case": "r_66_r_12_r_8",
+      "method": "learned_bands_image",
+      "pixels": 82862,
+      "windows": 70537,
+      "foreground_psnr": 13.144060032318809,
+      "foreground_ssim": 0.3549444523938142,
+      "static_lpips": 0.20091360807418823
+    },
+    {
+      "case": "r_66_r_12_r_8",
+      "method": "median_plane",
+      "pixels": 82862,
+      "windows": 70537,
+      "foreground_psnr": 12.177372833721963,
+      "foreground_ssim": 0.3610314184253982,
+      "static_lpips": 0.20558246970176697
+    },
+    {
+      "case": "r_66_r_12_r_8",
+      "method": "median_stereo",
+      "pixels": 82862,
+      "windows": 70537,
+      "foreground_psnr": 12.107736465448447,
+      "foreground_ssim": 0.339318264752281,
+      "static_lpips": 0.2026747316122055
+    },
+    {
+      "case": "r_66_r_12_r_8",
+      "method": "mesh_median_stereo_blend",
+      "pixels": 82862,
+      "windows": 70537,
+      "foreground_psnr": 13.767027526720721,
+      "foreground_ssim": 0.38907287043964284,
+      "static_lpips": 0.19152863323688507
+    },
+    {
+      "case": "r_66_r_12_r_8",
+      "method": "mesh_median_stereo_hard",
+      "pixels": 82862,
+      "windows": 70537,
+      "foreground_psnr": 13.736247270423176,
+      "foreground_ssim": 0.39945670165411357,
+      "static_lpips": 0.17376065254211426
+    },
+    {
+      "case": "r_66_r_12_r_8",
+      "method": "mesh_qualified_blend",
+      "pixels": 82862,
+      "windows": 70537,
+      "foreground_psnr": 13.947221744878718,
+      "foreground_ssim": 0.3845640454622611,
+      "static_lpips": 0.18970473110675812
+    },
+    {
+      "case": "r_66_r_12_r_8",
+      "method": "mesh_qualified_hard",
+      "pixels": 82862,
+      "windows": 70537,
+      "foreground_psnr": 13.874562266210354,
+      "foreground_ssim": 0.38376443117140374,
+      "static_lpips": 0.17012767493724823
+    },
+    {
+      "case": "r_66_r_12_r_8",
+      "method": "mvsplat_acid_256",
+      "pixels": 82862,
+      "windows": 70537,
+      "foreground_psnr": 12.706986502534166,
+      "foreground_ssim": 0.22371672927064362,
+      "static_lpips": 0.21819519996643066
+    },
+    {
+      "case": "r_66_r_12_r_8",
+      "method": "mvsplat_acid_native",
+      "pixels": 82862,
+      "windows": 70537,
+      "foreground_psnr": 13.693470384039701,
+      "foreground_ssim": 0.2462696619068501,
+      "static_lpips": 0.21285881102085114
+    },
+    {
+      "case": "r_66_r_12_r_8",
+      "method": "mvsplat_acid_native_plane_bg",
+      "pixels": 82862,
+      "windows": 70537,
+      "foreground_psnr": 13.690347963701122,
+      "foreground_ssim": 0.25408355377058495,
+      "static_lpips": 0.23071904480457306
+    },
+    {
+      "case": "r_66_r_12_r_8",
+      "method": "plane",
+      "pixels": 82862,
+      "windows": 70537,
+      "foreground_psnr": 10.696747453440382,
+      "foreground_ssim": 0.12290263005641046,
+      "static_lpips": 0.26256290078163147
+    },
+    {
+      "case": "r_66_r_12_r_8",
+      "method": "precision_depth",
+      "pixels": 82862,
+      "windows": 70537,
+      "foreground_psnr": 13.710327782245058,
+      "foreground_ssim": 0.35951526132552,
+      "static_lpips": 0.19067323207855225
+    },
+    {
+      "case": "r_66_r_12_r_8",
+      "method": "precision_donor",
+      "pixels": 82862,
+      "windows": 70537,
+      "foreground_psnr": 13.798093036411744,
+      "foreground_ssim": 0.35933223125627656,
+      "static_lpips": 0.18789736926555634
+    },
+    {
+      "case": "r_66_r_12_r_8",
+      "method": "reverse_bands",
+      "pixels": 82862,
+      "windows": 70537,
+      "foreground_psnr": 12.968032881754581,
+      "foreground_ssim": 0.3425411336246885,
+      "static_lpips": 0.1865442991256714
+    },
+    {
+      "case": "r_66_r_12_r_8",
+      "method": "sharpen_surface",
+      "pixels": 82862,
+      "windows": 70537,
+      "foreground_psnr": 13.232417422916367,
+      "foreground_ssim": 0.34477031040866596,
+      "static_lpips": 0.18985521793365479
+    },
+    {
+      "case": "r_66_r_12_r_8",
+      "method": "simple_average",
+      "pixels": 82862,
+      "windows": 70537,
+      "foreground_psnr": 14.338389740464931,
+      "foreground_ssim": 0.37647704877884725,
+      "static_lpips": 0.14885026216506958
+    },
+    {
+      "case": "r_66_r_12_r_8",
+      "method": "stereo",
+      "pixels": 82862,
+      "windows": 70537,
+      "foreground_psnr": 10.544522461555967,
+      "foreground_ssim": 0.1671970678603277,
+      "static_lpips": 0.27644145488739014
+    },
+    {
+      "case": "r_66_r_12_r_8",
+      "method": "transport",
+      "pixels": 82862,
+      "windows": 70537,
+      "foreground_psnr": 10.55893413153212,
+      "foreground_ssim": 0.18072925089485503,
+      "static_lpips": 0.27573710680007935
+    },
+    {
+      "case": "r_45_r_23_r_16",
+      "method": "altitude",
+      "pixels": 88145,
+      "windows": 73455,
+      "foreground_psnr": 16.339642647616735,
+      "foreground_ssim": 0.6721940484939115,
+      "static_lpips": 0.1785116195678711
+    },
+    {
+      "case": "r_45_r_23_r_16",
+      "method": "depth_prior",
+      "pixels": 88145,
+      "windows": 73455,
+      "foreground_psnr": 18.5745082598746,
+      "foreground_ssim": 0.7644592226813407,
+      "static_lpips": 0.16491761803627014
+    },
+    {
+      "case": "r_45_r_23_r_16",
+      "method": "depthsplat_dl3dv_256x448",
+      "pixels": 88145,
+      "windows": 73455,
+      "foreground_psnr": 15.49815637914373,
+      "foreground_ssim": 0.2599967361606486,
+      "static_lpips": 0.15202784538269043
+    },
+    {
+      "case": "r_45_r_23_r_16",
+      "method": "depthsplat_dl3dv_256x448_plane_bg",
+      "pixels": 88145,
+      "windows": 73455,
+      "foreground_psnr": 16.912586565388192,
+      "foreground_ssim": 0.298844259233313,
+      "static_lpips": 0.1981220245361328
+    },
+    {
+      "case": "r_45_r_23_r_16",
+      "method": "detail_median_stereo_adaptive",
+      "pixels": 88145,
+      "windows": 73455,
+      "foreground_psnr": 19.6751966200946,
+      "foreground_ssim": 0.7713041303255651,
+      "static_lpips": 0.1532721221446991
+    },
+    {
+      "case": "r_45_r_23_r_16",
+      "method": "detail_median_stereo_fixed",
+      "pixels": 88145,
+      "windows": 73455,
+      "foreground_psnr": 19.50600823651125,
+      "foreground_ssim": 0.7638402374058678,
+      "static_lpips": 0.1594182252883911
+    },
+    {
+      "case": "r_45_r_23_r_16",
+      "method": "detail_qualified_adaptive",
+      "pixels": 88145,
+      "windows": 73455,
+      "foreground_psnr": 19.938409065322997,
+      "foreground_ssim": 0.7775309171817759,
+      "static_lpips": 0.15096692740917206
+    },
+    {
+      "case": "r_45_r_23_r_16",
+      "method": "detail_qualified_fixed",
+      "pixels": 88145,
+      "windows": 73455,
+      "foreground_psnr": 19.745521345748365,
+      "foreground_ssim": 0.7701229742278791,
+      "static_lpips": 0.15764787793159485
+    },
+    {
+      "case": "r_45_r_23_r_16",
+      "method": "flow_plane",
+      "pixels": 88145,
+      "windows": 73455,
+      "foreground_psnr": 13.319078227982953,
+      "foreground_ssim": 0.2054911375805904,
+      "static_lpips": 0.20899495482444763
+    },
+    {
+      "case": "r_45_r_23_r_16",
+      "method": "learned_bands_constant",
+      "pixels": 88145,
+      "windows": 73455,
+      "foreground_psnr": 19.884272740054563,
+      "foreground_ssim": 0.7759976341029277,
+      "static_lpips": 0.16286921501159668
+    },
+    {
+      "case": "r_45_r_23_r_16",
+      "method": "learned_bands_geometry",
+      "pixels": 88145,
+      "windows": 73455,
+      "foreground_psnr": 19.791294088682626,
+      "foreground_ssim": 0.7738587433945325,
+      "static_lpips": 0.16848766803741455
+    },
+    {
+      "case": "r_45_r_23_r_16",
+      "method": "learned_bands_image",
+      "pixels": 88145,
+      "windows": 73455,
+      "foreground_psnr": 19.16320746652435,
+      "foreground_ssim": 0.7681923401835093,
+      "static_lpips": 0.16659535467624664
+    },
+    {
+      "case": "r_45_r_23_r_16",
+      "method": "median_plane",
+      "pixels": 88145,
+      "windows": 73455,
+      "foreground_psnr": 18.362442673376293,
+      "foreground_ssim": 0.7565627786960506,
+      "static_lpips": 0.1654009222984314
+    },
+    {
+      "case": "r_45_r_23_r_16",
+      "method": "median_stereo",
+      "pixels": 88145,
+      "windows": 73455,
+      "foreground_psnr": 18.3576533587286,
+      "foreground_ssim": 0.7574959903065546,
+      "static_lpips": 0.16612596809864044
+    },
+    {
+      "case": "r_45_r_23_r_16",
+      "method": "mesh_median_stereo_blend",
+      "pixels": 88145,
+      "windows": 73455,
+      "foreground_psnr": 19.608074055644483,
+      "foreground_ssim": 0.7703169852437485,
+      "static_lpips": 0.16459158062934875
+    },
+    {
+      "case": "r_45_r_23_r_16",
+      "method": "mesh_median_stereo_hard",
+      "pixels": 88145,
+      "windows": 73455,
+      "foreground_psnr": 19.581490391438717,
+      "foreground_ssim": 0.7755599344284755,
+      "static_lpips": 0.15431815385818481
+    },
+    {
+      "case": "r_45_r_23_r_16",
+      "method": "mesh_qualified_blend",
+      "pixels": 88145,
+      "windows": 73455,
+      "foreground_psnr": 19.860928621342616,
+      "foreground_ssim": 0.7753926050084575,
+      "static_lpips": 0.1637142151594162
+    },
+    {
+      "case": "r_45_r_23_r_16",
+      "method": "mesh_qualified_hard",
+      "pixels": 88145,
+      "windows": 73455,
+      "foreground_psnr": 19.90721595730285,
+      "foreground_ssim": 0.7829398129722364,
+      "static_lpips": 0.15332554280757904
+    },
+    {
+      "case": "r_45_r_23_r_16",
+      "method": "mvsplat_acid_256",
+      "pixels": 88145,
+      "windows": 73455,
+      "foreground_psnr": 12.310354193083892,
+      "foreground_ssim": 0.2902649691386052,
+      "static_lpips": 0.1846579611301422
+    },
+    {
+      "case": "r_45_r_23_r_16",
+      "method": "mvsplat_acid_native",
+      "pixels": 88145,
+      "windows": 73455,
+      "foreground_psnr": 16.975896753759447,
+      "foreground_ssim": 0.39066970830426134,
+      "static_lpips": 0.130761981010437
+    },
+    {
+      "case": "r_45_r_23_r_16",
+      "method": "mvsplat_acid_native_plane_bg",
+      "pixels": 88145,
+      "windows": 73455,
+      "foreground_psnr": 16.544471971254087,
+      "foreground_ssim": 0.3880273454797207,
+      "static_lpips": 0.19404980540275574
+    },
+    {
+      "case": "r_45_r_23_r_16",
+      "method": "plane",
+      "pixels": 88145,
+      "windows": 73455,
+      "foreground_psnr": 13.33851193965665,
+      "foreground_ssim": 0.22925380584001226,
+      "static_lpips": 0.21224844455718994
+    },
+    {
+      "case": "r_45_r_23_r_16",
+      "method": "precision_depth",
+      "pixels": 88145,
+      "windows": 73455,
+      "foreground_psnr": 19.337627037722495,
+      "foreground_ssim": 0.7528603759045444,
+      "static_lpips": 0.16482847929000854
+    },
+    {
+      "case": "r_45_r_23_r_16",
+      "method": "precision_donor",
+      "pixels": 88145,
+      "windows": 73455,
+      "foreground_psnr": 19.337778744541975,
+      "foreground_ssim": 0.7529609210436483,
+      "static_lpips": 0.16483451426029205
+    },
+    {
+      "case": "r_45_r_23_r_16",
+      "method": "reverse_bands",
+      "pixels": 88145,
+      "windows": 73455,
+      "foreground_psnr": 19.113564496720457,
+      "foreground_ssim": 0.7712315716992453,
+      "static_lpips": 0.16851818561553955
+    },
+    {
+      "case": "r_45_r_23_r_16",
+      "method": "sharpen_surface",
+      "pixels": 88145,
+      "windows": 73455,
+      "foreground_psnr": 18.616394947882856,
+      "foreground_ssim": 0.7293644962028877,
+      "static_lpips": 0.17025980353355408
+    },
+    {
+      "case": "r_45_r_23_r_16",
+      "method": "simple_average",
+      "pixels": 88145,
+      "windows": 73455,
+      "foreground_psnr": 19.715875351350462,
+      "foreground_ssim": 0.7785353931762061,
+      "static_lpips": 0.15402019023895264
+    },
+    {
+      "case": "r_45_r_23_r_16",
+      "method": "stereo",
+      "pixels": 88145,
+      "windows": 73455,
+      "foreground_psnr": 16.30893684608319,
+      "foreground_ssim": 0.6613389581818341,
+      "static_lpips": 0.17913267016410828
+    },
+    {
+      "case": "r_45_r_23_r_16",
+      "method": "transport",
+      "pixels": 88145,
+      "windows": 73455,
+      "foreground_psnr": 16.347903048945746,
+      "foreground_ssim": 0.6731573209768101,
+      "static_lpips": 0.1786697804927826
+    },
+    {
+      "case": "r_5_r_16_r_24",
+      "method": "altitude",
+      "pixels": 89427,
+      "windows": 74214,
+      "foreground_psnr": 16.40485577064226,
+      "foreground_ssim": 0.7366061948408884,
+      "static_lpips": 0.1143997460603714
+    },
+    {
+      "case": "r_5_r_16_r_24",
+      "method": "depth_prior",
+      "pixels": 89427,
+      "windows": 74214,
+      "foreground_psnr": 19.709955536265767,
+      "foreground_ssim": 0.8639364894525987,
+      "static_lpips": 0.07454421371221542
+    },
+    {
+      "case": "r_5_r_16_r_24",
+      "method": "depthsplat_dl3dv_256x448",
+      "pixels": 89427,
+      "windows": 74214,
+      "foreground_psnr": 14.937832524531217,
+      "foreground_ssim": 0.23652814500717356,
+      "static_lpips": 0.17344972491264343
+    },
+    {
+      "case": "r_5_r_16_r_24",
+      "method": "depthsplat_dl3dv_256x448_plane_bg",
+      "pixels": 89427,
+      "windows": 74214,
+      "foreground_psnr": 15.335515268796037,
+      "foreground_ssim": 0.2595224789481623,
+      "static_lpips": 0.16921818256378174
+    },
+    {
+      "case": "r_5_r_16_r_24",
+      "method": "detail_median_stereo_adaptive",
+      "pixels": 89427,
+      "windows": 74214,
+      "foreground_psnr": 22.80336273985899,
+      "foreground_ssim": 0.8615985615517733,
+      "static_lpips": 0.06620948016643524
+    },
+    {
+      "case": "r_5_r_16_r_24",
+      "method": "detail_median_stereo_fixed",
+      "pixels": 89427,
+      "windows": 74214,
+      "foreground_psnr": 22.88125114361857,
+      "foreground_ssim": 0.8613396639486595,
+      "static_lpips": 0.07672113180160522
+    },
+    {
+      "case": "r_5_r_16_r_24",
+      "method": "detail_qualified_adaptive",
+      "pixels": 89427,
+      "windows": 74214,
+      "foreground_psnr": 24.202963416957537,
+      "foreground_ssim": 0.8647110098004671,
+      "static_lpips": 0.05732294172048569
+    },
+    {
+      "case": "r_5_r_16_r_24",
+      "method": "detail_qualified_fixed",
+      "pixels": 89427,
+      "windows": 74214,
+      "foreground_psnr": 23.838884944746223,
+      "foreground_ssim": 0.8626843783598616,
+      "static_lpips": 0.0697745829820633
+    },
+    {
+      "case": "r_5_r_16_r_24",
+      "method": "flow_plane",
+      "pixels": 89427,
+      "windows": 74214,
+      "foreground_psnr": 16.14189074549975,
+      "foreground_ssim": 0.6589877724284269,
+      "static_lpips": 0.11753810942173004
+    },
+    {
+      "case": "r_5_r_16_r_24",
+      "method": "learned_bands_constant",
+      "pixels": 89427,
+      "windows": 74214,
+      "foreground_psnr": 24.218891041576004,
+      "foreground_ssim": 0.8595647026188216,
+      "static_lpips": 0.06945347785949707
+    },
+    {
+      "case": "r_5_r_16_r_24",
+      "method": "learned_bands_geometry",
+      "pixels": 89427,
+      "windows": 74214,
+      "foreground_psnr": 21.97020052442966,
+      "foreground_ssim": 0.8605542412524414,
+      "static_lpips": 0.0928322970867157
+    },
+    {
+      "case": "r_5_r_16_r_24",
+      "method": "learned_bands_image",
+      "pixels": 89427,
+      "windows": 74214,
+      "foreground_psnr": 21.025410966968465,
+      "foreground_ssim": 0.8610518194749882,
+      "static_lpips": 0.09054577350616455
+    },
+    {
+      "case": "r_5_r_16_r_24",
+      "method": "median_plane",
+      "pixels": 89427,
+      "windows": 74214,
+      "foreground_psnr": 19.73085449465543,
+      "foreground_ssim": 0.8605987288067056,
+      "static_lpips": 0.07888481765985489
+    },
+    {
+      "case": "r_5_r_16_r_24",
+      "method": "median_stereo",
+      "pixels": 89427,
+      "windows": 74214,
+      "foreground_psnr": 19.811978437553734,
+      "foreground_ssim": 0.8658777846850146,
+      "static_lpips": 0.07742328941822052
+    },
+    {
+      "case": "r_5_r_16_r_24",
+      "method": "mesh_median_stereo_blend",
+      "pixels": 89427,
+      "windows": 74214,
+      "foreground_psnr": 22.68890109350723,
+      "foreground_ssim": 0.8560737413187192,
+      "static_lpips": 0.08049678802490234
+    },
+    {
+      "case": "r_5_r_16_r_24",
+      "method": "mesh_median_stereo_hard",
+      "pixels": 89427,
+      "windows": 74214,
+      "foreground_psnr": 22.507281413470462,
+      "foreground_ssim": 0.8587960733427128,
+      "static_lpips": 0.07193932682275772
+    },
+    {
+      "case": "r_5_r_16_r_24",
+      "method": "mesh_qualified_blend",
+      "pixels": 89427,
+      "windows": 74214,
+      "foreground_psnr": 24.128694255108798,
+      "foreground_ssim": 0.8588282605879857,
+      "static_lpips": 0.0704565942287445
+    },
+    {
+      "case": "r_5_r_16_r_24",
+      "method": "mesh_qualified_hard",
+      "pixels": 89427,
+      "windows": 74214,
+      "foreground_psnr": 23.935268714823565,
+      "foreground_ssim": 0.8635104739324807,
+      "static_lpips": 0.05774637311697006
+    },
+    {
+      "case": "r_5_r_16_r_24",
+      "method": "mvsplat_acid_256",
+      "pixels": 89427,
+      "windows": 74214,
+      "foreground_psnr": 14.660386844800051,
+      "foreground_ssim": 0.4797616567101698,
+      "static_lpips": 0.14096681773662567
+    },
+    {
+      "case": "r_5_r_16_r_24",
+      "method": "mvsplat_acid_native",
+      "pixels": 89427,
+      "windows": 74214,
+      "foreground_psnr": 17.91359711463826,
+      "foreground_ssim": 0.4737806386913191,
+      "static_lpips": 0.13906903564929962
+    },
+    {
+      "case": "r_5_r_16_r_24",
+      "method": "mvsplat_acid_native_plane_bg",
+      "pixels": 89427,
+      "windows": 74214,
+      "foreground_psnr": 17.5410066215615,
+      "foreground_ssim": 0.4605746925663595,
+      "static_lpips": 0.14977587759494781
+    },
+    {
+      "case": "r_5_r_16_r_24",
+      "method": "plane",
+      "pixels": 89427,
+      "windows": 74214,
+      "foreground_psnr": 14.244091414260138,
+      "foreground_ssim": 0.2717745899475688,
+      "static_lpips": 0.11898697912693024
+    },
+    {
+      "case": "r_5_r_16_r_24",
+      "method": "precision_depth",
+      "pixels": 89427,
+      "windows": 74214,
+      "foreground_psnr": 22.77690345507488,
+      "foreground_ssim": 0.860680513503871,
+      "static_lpips": 0.07799668610095978
+    },
+    {
+      "case": "r_5_r_16_r_24",
+      "method": "precision_donor",
+      "pixels": 89427,
+      "windows": 74214,
+      "foreground_psnr": 22.77690345507488,
+      "foreground_ssim": 0.860680513503871,
+      "static_lpips": 0.07799668610095978
+    },
+    {
+      "case": "r_5_r_16_r_24",
+      "method": "reverse_bands",
+      "pixels": 89427,
+      "windows": 74214,
+      "foreground_psnr": 20.75719599616682,
+      "foreground_ssim": 0.8629711900974923,
+      "static_lpips": 0.08185531944036484
+    },
+    {
+      "case": "r_5_r_16_r_24",
+      "method": "sharpen_surface",
+      "pixels": 89427,
+      "windows": 74214,
+      "foreground_psnr": 21.925922868083298,
+      "foreground_ssim": 0.8258719874169108,
+      "static_lpips": 0.07514593005180359
+    },
+    {
+      "case": "r_5_r_16_r_24",
+      "method": "simple_average",
+      "pixels": 89427,
+      "windows": 74214,
+      "foreground_psnr": 23.10073002194976,
+      "foreground_ssim": 0.868460312557352,
+      "static_lpips": 0.06350686401128769
+    },
+    {
+      "case": "r_5_r_16_r_24",
+      "method": "stereo",
+      "pixels": 89427,
+      "windows": 74214,
+      "foreground_psnr": 16.137331882312466,
+      "foreground_ssim": 0.6606696302232264,
+      "static_lpips": 0.11429842561483383
+    },
+    {
+      "case": "r_5_r_16_r_24",
+      "method": "transport",
+      "pixels": 89427,
+      "windows": 74214,
+      "foreground_psnr": 16.68734692254981,
+      "foreground_ssim": 0.7211996340429393,
+      "static_lpips": 0.108890600502491
+    },
+    {
+      "case": "r_16_r_87_r_32",
+      "method": "altitude",
+      "pixels": 90827,
+      "windows": 73682,
+      "foreground_psnr": 11.158568337879016,
+      "foreground_ssim": 0.39217520987020515,
+      "static_lpips": 0.28350937366485596
+    },
+    {
+      "case": "r_16_r_87_r_32",
+      "method": "depth_prior",
+      "pixels": 90827,
+      "windows": 73682,
+      "foreground_psnr": 12.421770441452756,
+      "foreground_ssim": 0.48558026260242726,
+      "static_lpips": 0.21908870339393616
+    },
+    {
+      "case": "r_16_r_87_r_32",
+      "method": "depthsplat_dl3dv_256x448",
+      "pixels": 90827,
+      "windows": 73682,
+      "foreground_psnr": 10.523769851380958,
+      "foreground_ssim": 0.17777832399658072,
+      "static_lpips": 0.3371979296207428
+    },
+    {
+      "case": "r_16_r_87_r_32",
+      "method": "depthsplat_dl3dv_256x448_plane_bg",
+      "pixels": 90827,
+      "windows": 73682,
+      "foreground_psnr": 11.47876855163167,
+      "foreground_ssim": 0.18425683009209812,
+      "static_lpips": 0.35033273696899414
+    },
+    {
+      "case": "r_16_r_87_r_32",
+      "method": "detail_median_stereo_adaptive",
+      "pixels": 90827,
+      "windows": 73682,
+      "foreground_psnr": 14.284664481026788,
+      "foreground_ssim": 0.5283043271133704,
+      "static_lpips": 0.1764546036720276
+    },
+    {
+      "case": "r_16_r_87_r_32",
+      "method": "detail_median_stereo_fixed",
+      "pixels": 90827,
+      "windows": 73682,
+      "foreground_psnr": 14.307696454879748,
+      "foreground_ssim": 0.5120723838486602,
+      "static_lpips": 0.2090761959552765
+    },
+    {
+      "case": "r_16_r_87_r_32",
+      "method": "detail_qualified_adaptive",
+      "pixels": 90827,
+      "windows": 73682,
+      "foreground_psnr": 16.93271790555445,
+      "foreground_ssim": 0.5353488524101084,
+      "static_lpips": 0.15292583405971527
+    },
+    {
+      "case": "r_16_r_87_r_32",
+      "method": "detail_qualified_fixed",
+      "pixels": 90827,
+      "windows": 73682,
+      "foreground_psnr": 16.79161885435827,
+      "foreground_ssim": 0.5166499588091016,
+      "static_lpips": 0.1890682429075241
+    },
+    {
+      "case": "r_16_r_87_r_32",
+      "method": "flow_plane",
+      "pixels": 90827,
+      "windows": 73682,
+      "foreground_psnr": 9.921749263355988,
+      "foreground_ssim": 0.16486611759617104,
+      "static_lpips": 0.32672709226608276
+    },
+    {
+      "case": "r_16_r_87_r_32",
+      "method": "learned_bands_constant",
+      "pixels": 90827,
+      "windows": 73682,
+      "foreground_psnr": 17.073426873270606,
+      "foreground_ssim": 0.5481181949879786,
+      "static_lpips": 0.16255491971969604
+    },
+    {
+      "case": "r_16_r_87_r_32",
+      "method": "learned_bands_geometry",
+      "pixels": 90827,
+      "windows": 73682,
+      "foreground_psnr": 16.511244888700688,
+      "foreground_ssim": 0.5335442255598248,
+      "static_lpips": 0.21156905591487885
+    },
+    {
+      "case": "r_16_r_87_r_32",
+      "method": "learned_bands_image",
+      "pixels": 90827,
+      "windows": 73682,
+      "foreground_psnr": 13.18105537826101,
+      "foreground_ssim": 0.520551287176095,
+      "static_lpips": 0.23402801156044006
+    },
+    {
+      "case": "r_16_r_87_r_32",
+      "method": "median_plane",
+      "pixels": 90827,
+      "windows": 73682,
+      "foreground_psnr": 11.242719525769708,
+      "foreground_ssim": 0.5013751878132562,
+      "static_lpips": 0.2376684546470642
+    },
+    {
+      "case": "r_16_r_87_r_32",
+      "method": "median_stereo",
+      "pixels": 90827,
+      "windows": 73682,
+      "foreground_psnr": 11.160031059306029,
+      "foreground_ssim": 0.4779662689247954,
+      "static_lpips": 0.23648309707641602
+    },
+    {
+      "case": "r_16_r_87_r_32",
+      "method": "mesh_median_stereo_blend",
+      "pixels": 90827,
+      "windows": 73682,
+      "foreground_psnr": 14.299756088421962,
+      "foreground_ssim": 0.5355380589789135,
+      "static_lpips": 0.18412582576274872
+    },
+    {
+      "case": "r_16_r_87_r_32",
+      "method": "mesh_median_stereo_hard",
+      "pixels": 90827,
+      "windows": 73682,
+      "foreground_psnr": 14.01170913851789,
+      "foreground_ssim": 0.5254682076134272,
+      "static_lpips": 0.17939352989196777
+    },
+    {
+      "case": "r_16_r_87_r_32",
+      "method": "mesh_qualified_blend",
+      "pixels": 90827,
+      "windows": 73682,
+      "foreground_psnr": 17.060896286399835,
+      "foreground_ssim": 0.5471292446487086,
+      "static_lpips": 0.16402558982372284
+    },
+    {
+      "case": "r_16_r_87_r_32",
+      "method": "mesh_qualified_hard",
+      "pixels": 90827,
+      "windows": 73682,
+      "foreground_psnr": 16.37288016907574,
+      "foreground_ssim": 0.5322053215422303,
+      "static_lpips": 0.15604645013809204
+    },
+    {
+      "case": "r_16_r_87_r_32",
+      "method": "mvsplat_acid_256",
+      "pixels": 90827,
+      "windows": 73682,
+      "foreground_psnr": 12.099986748905975,
+      "foreground_ssim": 0.20482903185387638,
+      "static_lpips": 0.23683789372444153
+    },
+    {
+      "case": "r_16_r_87_r_32",
+      "method": "mvsplat_acid_native",
+      "pixels": 90827,
+      "windows": 73682,
+      "foreground_psnr": 13.602215908141662,
+      "foreground_ssim": 0.18137368687358915,
+      "static_lpips": 0.2659335136413574
+    },
+    {
+      "case": "r_16_r_87_r_32",
+      "method": "mvsplat_acid_native_plane_bg",
+      "pixels": 90827,
+      "windows": 73682,
+      "foreground_psnr": 14.494351838870998,
+      "foreground_ssim": 0.1911869678734834,
+      "static_lpips": 0.2948111295700073
+    },
+    {
+      "case": "r_16_r_87_r_32",
+      "method": "plane",
+      "pixels": 90827,
+      "windows": 73682,
+      "foreground_psnr": 10.134913710543504,
+      "foreground_ssim": 0.15899971052500833,
+      "static_lpips": 0.3163264989852905
+    },
+    {
+      "case": "r_16_r_87_r_32",
+      "method": "precision_depth",
+      "pixels": 90827,
+      "windows": 73682,
+      "foreground_psnr": 14.358350715762679,
+      "foreground_ssim": 0.5122035683368917,
+      "static_lpips": 0.20799535512924194
+    },
+    {
+      "case": "r_16_r_87_r_32",
+      "method": "precision_donor",
+      "pixels": 90827,
+      "windows": 73682,
+      "foreground_psnr": 14.61285011134162,
+      "foreground_ssim": 0.5001456719539947,
+      "static_lpips": 0.21101534366607666
+    },
+    {
+      "case": "r_16_r_87_r_32",
+      "method": "reverse_bands",
+      "pixels": 90827,
+      "windows": 73682,
+      "foreground_psnr": 13.074961628599798,
+      "foreground_ssim": 0.5146974409312233,
+      "static_lpips": 0.20189307630062103
+    },
+    {
+      "case": "r_16_r_87_r_32",
+      "method": "sharpen_surface",
+      "pixels": 90827,
+      "windows": 73682,
+      "foreground_psnr": 16.017945952167366,
+      "foreground_ssim": 0.5125285284205553,
+      "static_lpips": 0.16411030292510986
+    },
+    {
+      "case": "r_16_r_87_r_32",
+      "method": "simple_average",
+      "pixels": 90827,
+      "windows": 73682,
+      "foreground_psnr": 15.603057411453776,
+      "foreground_ssim": 0.5323489994278332,
+      "static_lpips": 0.16576062142848969
+    },
+    {
+      "case": "r_16_r_87_r_32",
+      "method": "stereo",
+      "pixels": 90827,
+      "windows": 73682,
+      "foreground_psnr": 10.171093813137011,
+      "foreground_ssim": 0.23125633979637678,
+      "static_lpips": 0.3229508697986603
+    },
+    {
+      "case": "r_16_r_87_r_32",
+      "method": "transport",
+      "pixels": 90827,
+      "windows": 73682,
+      "foreground_psnr": 10.287233186457525,
+      "foreground_ssim": 0.27974450554169966,
+      "static_lpips": 0.31321436166763306
+    },
+    {
+      "case": "r_24_r_92_r_40",
+      "method": "altitude",
+      "pixels": 86058,
+      "windows": 71795,
+      "foreground_psnr": 14.37244263418078,
+      "foreground_ssim": 0.6287981430305785,
+      "static_lpips": 0.12728731334209442
+    },
+    {
+      "case": "r_24_r_92_r_40",
+      "method": "depth_prior",
+      "pixels": 86058,
+      "windows": 71795,
+      "foreground_psnr": 19.033351775811052,
+      "foreground_ssim": 0.8555335569813826,
+      "static_lpips": 0.07011081278324127
+    },
+    {
+      "case": "r_24_r_92_r_40",
+      "method": "depthsplat_dl3dv_256x448",
+      "pixels": 86058,
+      "windows": 71795,
+      "foreground_psnr": 14.07563480694607,
+      "foreground_ssim": 0.22587761271893197,
+      "static_lpips": 0.2213679552078247
+    },
+    {
+      "case": "r_24_r_92_r_40",
+      "method": "depthsplat_dl3dv_256x448_plane_bg",
+      "pixels": 86058,
+      "windows": 71795,
+      "foreground_psnr": 15.011099869835206,
+      "foreground_ssim": 0.25751978730745584,
+      "static_lpips": 0.22420158982276917
+    },
+    {
+      "case": "r_24_r_92_r_40",
+      "method": "detail_median_stereo_adaptive",
+      "pixels": 86058,
+      "windows": 71795,
+      "foreground_psnr": 17.54012599831893,
+      "foreground_ssim": 0.8231265112802028,
+      "static_lpips": 0.10224903374910355
+    },
+    {
+      "case": "r_24_r_92_r_40",
+      "method": "detail_median_stereo_fixed",
+      "pixels": 86058,
+      "windows": 71795,
+      "foreground_psnr": 18.22842257491234,
+      "foreground_ssim": 0.8266340678755929,
+      "static_lpips": 0.0951179713010788
+    },
+    {
+      "case": "r_24_r_92_r_40",
+      "method": "detail_qualified_adaptive",
+      "pixels": 86058,
+      "windows": 71795,
+      "foreground_psnr": 22.43196488771578,
+      "foreground_ssim": 0.8457661341514213,
+      "static_lpips": 0.08263352513313293
+    },
+    {
+      "case": "r_24_r_92_r_40",
+      "method": "detail_qualified_fixed",
+      "pixels": 86058,
+      "windows": 71795,
+      "foreground_psnr": 22.571403663924738,
+      "foreground_ssim": 0.8480734514755798,
+      "static_lpips": 0.08286122977733612
+    },
+    {
+      "case": "r_24_r_92_r_40",
+      "method": "flow_plane",
+      "pixels": 86058,
+      "windows": 71795,
+      "foreground_psnr": 13.583023179559028,
+      "foreground_ssim": 0.25507290832686186,
+      "static_lpips": 0.115097276866436
+    },
+    {
+      "case": "r_24_r_92_r_40",
+      "method": "learned_bands_constant",
+      "pixels": 86058,
+      "windows": 71795,
+      "foreground_psnr": 22.364637963795712,
+      "foreground_ssim": 0.8367357294259381,
+      "static_lpips": 0.09076286107301712
+    },
+    {
+      "case": "r_24_r_92_r_40",
+      "method": "learned_bands_geometry",
+      "pixels": 86058,
+      "windows": 71795,
+      "foreground_psnr": 22.04003059835708,
+      "foreground_ssim": 0.8405872113714193,
+      "static_lpips": 0.08857133984565735
+    },
+    {
+      "case": "r_24_r_92_r_40",
+      "method": "learned_bands_image",
+      "pixels": 86058,
+      "windows": 71795,
+      "foreground_psnr": 20.1697354295777,
+      "foreground_ssim": 0.8423267382205327,
+      "static_lpips": 0.07658134400844574
+    },
+    {
+      "case": "r_24_r_92_r_40",
+      "method": "median_plane",
+      "pixels": 86058,
+      "windows": 71795,
+      "foreground_psnr": 19.04064049181896,
+      "foreground_ssim": 0.840069684159918,
+      "static_lpips": 0.0653441920876503
+    },
+    {
+      "case": "r_24_r_92_r_40",
+      "method": "median_stereo",
+      "pixels": 86058,
+      "windows": 71795,
+      "foreground_psnr": 18.943105122302054,
+      "foreground_ssim": 0.8485147334826851,
+      "static_lpips": 0.06931070238351822
+    },
+    {
+      "case": "r_24_r_92_r_40",
+      "method": "mesh_median_stereo_blend",
+      "pixels": 86058,
+      "windows": 71795,
+      "foreground_psnr": 17.36642718390541,
+      "foreground_ssim": 0.8138853642430522,
+      "static_lpips": 0.11243872344493866
+    },
+    {
+      "case": "r_24_r_92_r_40",
+      "method": "mesh_median_stereo_hard",
+      "pixels": 86058,
+      "windows": 71795,
+      "foreground_psnr": 17.395437762424514,
+      "foreground_ssim": 0.8289814846306002,
+      "static_lpips": 0.10450460016727448
+    },
+    {
+      "case": "r_24_r_92_r_40",
+      "method": "mesh_qualified_blend",
+      "pixels": 86058,
+      "windows": 71795,
+      "foreground_psnr": 22.283841041206387,
+      "foreground_ssim": 0.8358948508615981,
+      "static_lpips": 0.09258226305246353
+    },
+    {
+      "case": "r_24_r_92_r_40",
+      "method": "mesh_qualified_hard",
+      "pixels": 86058,
+      "windows": 71795,
+      "foreground_psnr": 22.370069923542623,
+      "foreground_ssim": 0.851103319098969,
+      "static_lpips": 0.08437083661556244
+    },
+    {
+      "case": "r_24_r_92_r_40",
+      "method": "mvsplat_acid_256",
+      "pixels": 86058,
+      "windows": 71795,
+      "foreground_psnr": 14.083891699176522,
+      "foreground_ssim": 0.42325158832593623,
+      "static_lpips": 0.1605280637741089
+    },
+    {
+      "case": "r_24_r_92_r_40",
+      "method": "mvsplat_acid_native",
+      "pixels": 86058,
+      "windows": 71795,
+      "foreground_psnr": 16.16048958219822,
+      "foreground_ssim": 0.3661507023242153,
+      "static_lpips": 0.14582613110542297
+    },
+    {
+      "case": "r_24_r_92_r_40",
+      "method": "mvsplat_acid_native_plane_bg",
+      "pixels": 86058,
+      "windows": 71795,
+      "foreground_psnr": 16.359066216783397,
+      "foreground_ssim": 0.3681427851662241,
+      "static_lpips": 0.15697768330574036
+    },
+    {
+      "case": "r_24_r_92_r_40",
+      "method": "plane",
+      "pixels": 86058,
+      "windows": 71795,
+      "foreground_psnr": 13.519785056883375,
+      "foreground_ssim": 0.2324122440860647,
+      "static_lpips": 0.11486092209815979
+    },
+    {
+      "case": "r_24_r_92_r_40",
+      "method": "precision_depth",
+      "pixels": 86058,
+      "windows": 71795,
+      "foreground_psnr": 17.531919819469355,
+      "foreground_ssim": 0.8168339544915324,
+      "static_lpips": 0.10041597485542297
+    },
+    {
+      "case": "r_24_r_92_r_40",
+      "method": "precision_donor",
+      "pixels": 86058,
+      "windows": 71795,
+      "foreground_psnr": 17.531919819469355,
+      "foreground_ssim": 0.8168339544915324,
+      "static_lpips": 0.10041597485542297
+    },
+    {
+      "case": "r_24_r_92_r_40",
+      "method": "reverse_bands",
+      "pixels": 86058,
+      "windows": 71795,
+      "foreground_psnr": 19.955655287026374,
+      "foreground_ssim": 0.8422112022931608,
+      "static_lpips": 0.08839672058820724
+    },
+    {
+      "case": "r_24_r_92_r_40",
+      "method": "sharpen_surface",
+      "pixels": 86058,
+      "windows": 71795,
+      "foreground_psnr": 20.502316748745137,
+      "foreground_ssim": 0.7939325194175176,
+      "static_lpips": 0.09820380806922913
+    },
+    {
+      "case": "r_24_r_92_r_40",
+      "method": "simple_average",
+      "pixels": 86058,
+      "windows": 71795,
+      "foreground_psnr": 21.76826859348975,
+      "foreground_ssim": 0.8511722498047488,
+      "static_lpips": 0.07656300067901611
+    },
+    {
+      "case": "r_24_r_92_r_40",
+      "method": "stereo",
+      "pixels": 86058,
+      "windows": 71795,
+      "foreground_psnr": 15.062105384244568,
+      "foreground_ssim": 0.6216305200129727,
+      "static_lpips": 0.11559700965881348
+    },
+    {
+      "case": "r_24_r_92_r_40",
+      "method": "transport",
+      "pixels": 86058,
+      "windows": 71795,
+      "foreground_psnr": 15.073141298348226,
+      "foreground_ssim": 0.62374278965784,
+      "static_lpips": 0.11517344415187836
+    },
+    {
+      "case": "r_28_r_73_r_160",
+      "method": "altitude",
+      "pixels": 85351,
+      "windows": 71184,
+      "foreground_psnr": 19.298859266874338,
+      "foreground_ssim": 0.830282482989768,
+      "static_lpips": 0.083549365401268
+    },
+    {
+      "case": "r_28_r_73_r_160",
+      "method": "depth_prior",
+      "pixels": 85351,
+      "windows": 71184,
+      "foreground_psnr": 23.719964731426447,
+      "foreground_ssim": 0.9212962521425614,
+      "static_lpips": 0.05616823211312294
+    },
+    {
+      "case": "r_28_r_73_r_160",
+      "method": "depthsplat_dl3dv_256x448",
+      "pixels": 85351,
+      "windows": 71184,
+      "foreground_psnr": 14.7869396313669,
+      "foreground_ssim": 0.27036306158270046,
+      "static_lpips": 0.17413002252578735
+    },
+    {
+      "case": "r_28_r_73_r_160",
+      "method": "depthsplat_dl3dv_256x448_plane_bg",
+      "pixels": 85351,
+      "windows": 71184,
+      "foreground_psnr": 15.594277385925297,
+      "foreground_ssim": 0.31009616697896436,
+      "static_lpips": 0.17945028841495514
+    },
+    {
+      "case": "r_28_r_73_r_160",
+      "method": "detail_median_stereo_adaptive",
+      "pixels": 85351,
+      "windows": 71184,
+      "foreground_psnr": 16.357376576000107,
+      "foreground_ssim": 0.8761174983474407,
+      "static_lpips": 0.09608890861272812
+    },
+    {
+      "case": "r_28_r_73_r_160",
+      "method": "detail_median_stereo_fixed",
+      "pixels": 85351,
+      "windows": 71184,
+      "foreground_psnr": 16.773507903730764,
+      "foreground_ssim": 0.8786479462294433,
+      "static_lpips": 0.09707219153642654
+    },
+    {
+      "case": "r_28_r_73_r_160",
+      "method": "detail_qualified_adaptive",
+      "pixels": 85351,
+      "windows": 71184,
+      "foreground_psnr": 25.988832126225674,
+      "foreground_ssim": 0.9149082035037288,
+      "static_lpips": 0.057466838508844376
+    },
+    {
+      "case": "r_28_r_73_r_160",
+      "method": "detail_qualified_fixed",
+      "pixels": 85351,
+      "windows": 71184,
+      "foreground_psnr": 25.818397979287738,
+      "foreground_ssim": 0.9150049747622945,
+      "static_lpips": 0.059298086911439896
+    },
+    {
+      "case": "r_28_r_73_r_160",
+      "method": "flow_plane",
+      "pixels": 85351,
+      "windows": 71184,
+      "foreground_psnr": 17.550548300575283,
+      "foreground_ssim": 0.5615082674480867,
+      "static_lpips": 0.09396489709615707
+    },
+    {
+      "case": "r_28_r_73_r_160",
+      "method": "learned_bands_constant",
+      "pixels": 85351,
+      "windows": 71184,
+      "foreground_psnr": 25.5463481848353,
+      "foreground_ssim": 0.8954925464878091,
+      "static_lpips": 0.06840569525957108
+    },
+    {
+      "case": "r_28_r_73_r_160",
+      "method": "learned_bands_geometry",
+      "pixels": 85351,
+      "windows": 71184,
+      "foreground_psnr": 25.51874136605373,
+      "foreground_ssim": 0.8959689818629671,
+      "static_lpips": 0.06936434656381607
+    },
+    {
+      "case": "r_28_r_73_r_160",
+      "method": "learned_bands_image",
+      "pixels": 85351,
+      "windows": 71184,
+      "foreground_psnr": 24.881341722829966,
+      "foreground_ssim": 0.897235844737032,
+      "static_lpips": 0.06885061413049698
+    },
+    {
+      "case": "r_28_r_73_r_160",
+      "method": "median_plane",
+      "pixels": 85351,
+      "windows": 71184,
+      "foreground_psnr": 23.699447532660727,
+      "foreground_ssim": 0.9175228967123843,
+      "static_lpips": 0.06267720460891724
+    },
+    {
+      "case": "r_28_r_73_r_160",
+      "method": "median_stereo",
+      "pixels": 85351,
+      "windows": 71184,
+      "foreground_psnr": 23.34130341525369,
+      "foreground_ssim": 0.9135075815029688,
+      "static_lpips": 0.06501150131225586
+    },
+    {
+      "case": "r_28_r_73_r_160",
+      "method": "mesh_median_stereo_blend",
+      "pixels": 85351,
+      "windows": 71184,
+      "foreground_psnr": 16.222564215726933,
+      "foreground_ssim": 0.8567303526001246,
+      "static_lpips": 0.10758507251739502
+    },
+    {
+      "case": "r_28_r_73_r_160",
+      "method": "mesh_median_stereo_hard",
+      "pixels": 85351,
+      "windows": 71184,
+      "foreground_psnr": 16.294907893961195,
+      "foreground_ssim": 0.8810486896118498,
+      "static_lpips": 0.10070095956325531
+    },
+    {
+      "case": "r_28_r_73_r_160",
+      "method": "mesh_qualified_blend",
+      "pixels": 85351,
+      "windows": 71184,
+      "foreground_psnr": 25.461565647302187,
+      "foreground_ssim": 0.8950053078067215,
+      "static_lpips": 0.06911242753267288
+    },
+    {
+      "case": "r_28_r_73_r_160",
+      "method": "mesh_qualified_hard",
+      "pixels": 85351,
+      "windows": 71184,
+      "foreground_psnr": 26.25297768869052,
+      "foreground_ssim": 0.9214800920330165,
+      "static_lpips": 0.0559488907456398
+    },
+    {
+      "case": "r_28_r_73_r_160",
+      "method": "mvsplat_acid_256",
+      "pixels": 85351,
+      "windows": 71184,
+      "foreground_psnr": 11.575222455744939,
+      "foreground_ssim": 0.32769082454531445,
+      "static_lpips": 0.21467120945453644
+    },
+    {
+      "case": "r_28_r_73_r_160",
+      "method": "mvsplat_acid_native",
+      "pixels": 85351,
+      "windows": 71184,
+      "foreground_psnr": 13.395375965893717,
+      "foreground_ssim": 0.33399309260227095,
+      "static_lpips": 0.20546767115592957
+    },
+    {
+      "case": "r_28_r_73_r_160",
+      "method": "mvsplat_acid_native_plane_bg",
+      "pixels": 85351,
+      "windows": 71184,
+      "foreground_psnr": 15.100407595331172,
+      "foreground_ssim": 0.3715604543961758,
+      "static_lpips": 0.20736010372638702
+    },
+    {
+      "case": "r_28_r_73_r_160",
+      "method": "plane",
+      "pixels": 85351,
+      "windows": 71184,
+      "foreground_psnr": 16.271706804052567,
+      "foreground_ssim": 0.3729467012856019,
+      "static_lpips": 0.09106915444135666
+    },
+    {
+      "case": "r_28_r_73_r_160",
+      "method": "precision_depth",
+      "pixels": 85351,
+      "windows": 71184,
+      "foreground_psnr": 16.64315243413517,
+      "foreground_ssim": 0.8718037025167187,
+      "static_lpips": 0.10066830366849899
+    },
+    {
+      "case": "r_28_r_73_r_160",
+      "method": "precision_donor",
+      "pixels": 85351,
+      "windows": 71184,
+      "foreground_psnr": 16.64315243413517,
+      "foreground_ssim": 0.8718037025167187,
+      "static_lpips": 0.10066830366849899
+    },
+    {
+      "case": "r_28_r_73_r_160",
+      "method": "reverse_bands",
+      "pixels": 85351,
+      "windows": 71184,
+      "foreground_psnr": 24.51418678243631,
+      "foreground_ssim": 0.9033591628827543,
+      "static_lpips": 0.06570981442928314
+    },
+    {
+      "case": "r_28_r_73_r_160",
+      "method": "sharpen_surface",
+      "pixels": 85351,
+      "windows": 71184,
+      "foreground_psnr": 23.285972188796435,
+      "foreground_ssim": 0.861817197149061,
+      "static_lpips": 0.06929274648427963
+    },
+    {
+      "case": "r_28_r_73_r_160",
+      "method": "simple_average",
+      "pixels": 85351,
+      "windows": 71184,
+      "foreground_psnr": 25.67810015504408,
+      "foreground_ssim": 0.9130386027416918,
+      "static_lpips": 0.06001248210668564
+    },
+    {
+      "case": "r_28_r_73_r_160",
+      "method": "stereo",
+      "pixels": 85351,
+      "windows": 71184,
+      "foreground_psnr": 18.814091363936132,
+      "foreground_ssim": 0.8008471953884759,
+      "static_lpips": 0.09062187373638153
+    },
+    {
+      "case": "r_28_r_73_r_160",
+      "method": "transport",
+      "pixels": 85351,
+      "windows": 71184,
+      "foreground_psnr": 19.2886310989056,
+      "foreground_ssim": 0.8372249027869685,
+      "static_lpips": 0.08616666495800018
+    },
+    {
+      "case": "r_80_r_73_r_168",
+      "method": "altitude",
+      "pixels": 90178,
+      "windows": 72797,
+      "foreground_psnr": 9.473337994171537,
+      "foreground_ssim": 0.247423584429312,
+      "static_lpips": 0.28519684076309204
+    },
+    {
+      "case": "r_80_r_73_r_168",
+      "method": "depth_prior",
+      "pixels": 90178,
+      "windows": 72797,
+      "foreground_psnr": 11.370344756303666,
+      "foreground_ssim": 0.5766459498847374,
+      "static_lpips": 0.21506735682487488
+    },
+    {
+      "case": "r_80_r_73_r_168",
+      "method": "depthsplat_dl3dv_256x448",
+      "pixels": 90178,
+      "windows": 72797,
+      "foreground_psnr": 11.426258758578275,
+      "foreground_ssim": 0.18015840992324456,
+      "static_lpips": 0.33600372076034546
+    },
+    {
+      "case": "r_80_r_73_r_168",
+      "method": "depthsplat_dl3dv_256x448_plane_bg",
+      "pixels": 90178,
+      "windows": 72797,
+      "foreground_psnr": 11.763368344067187,
+      "foreground_ssim": 0.18590058640896753,
+      "static_lpips": 0.3455703556537628
+    },
+    {
+      "case": "r_80_r_73_r_168",
+      "method": "detail_median_stereo_adaptive",
+      "pixels": 90178,
+      "windows": 72797,
+      "foreground_psnr": 14.67486072892899,
+      "foreground_ssim": 0.5559587638318563,
+      "static_lpips": 0.18342287838459015
+    },
+    {
+      "case": "r_80_r_73_r_168",
+      "method": "detail_median_stereo_fixed",
+      "pixels": 90178,
+      "windows": 72797,
+      "foreground_psnr": 14.64519991878098,
+      "foreground_ssim": 0.5316891338594512,
+      "static_lpips": 0.21095643937587738
+    },
+    {
+      "case": "r_80_r_73_r_168",
+      "method": "detail_qualified_adaptive",
+      "pixels": 90178,
+      "windows": 72797,
+      "foreground_psnr": 15.846284299527667,
+      "foreground_ssim": 0.6294696998595417,
+      "static_lpips": 0.1661975085735321
+    },
+    {
+      "case": "r_80_r_73_r_168",
+      "method": "detail_qualified_fixed",
+      "pixels": 90178,
+      "windows": 72797,
+      "foreground_psnr": 15.754357285544163,
+      "foreground_ssim": 0.607858236458604,
+      "static_lpips": 0.1972784698009491
+    },
+    {
+      "case": "r_80_r_73_r_168",
+      "method": "flow_plane",
+      "pixels": 90178,
+      "windows": 72797,
+      "foreground_psnr": 8.937506277129208,
+      "foreground_ssim": 0.14439556894908687,
+      "static_lpips": 0.3093366026878357
+    },
+    {
+      "case": "r_80_r_73_r_168",
+      "method": "learned_bands_constant",
+      "pixels": 90178,
+      "windows": 72797,
+      "foreground_psnr": 15.953034438167917,
+      "foreground_ssim": 0.6534460006035576,
+      "static_lpips": 0.1662326604127884
+    },
+    {
+      "case": "r_80_r_73_r_168",
+      "method": "learned_bands_geometry",
+      "pixels": 90178,
+      "windows": 72797,
+      "foreground_psnr": 14.291093575154738,
+      "foreground_ssim": 0.63609698729713,
+      "static_lpips": 0.20711781084537506
+    },
+    {
+      "case": "r_80_r_73_r_168",
+      "method": "learned_bands_image",
+      "pixels": 90178,
+      "windows": 72797,
+      "foreground_psnr": 12.2608845252289,
+      "foreground_ssim": 0.6279936303061637,
+      "static_lpips": 0.21535134315490723
+    },
+    {
+      "case": "r_80_r_73_r_168",
+      "method": "median_plane",
+      "pixels": 90178,
+      "windows": 72797,
+      "foreground_psnr": 10.925701988449699,
+      "foreground_ssim": 0.49855922130531233,
+      "static_lpips": 0.23519492149353027
+    },
+    {
+      "case": "r_80_r_73_r_168",
+      "method": "median_stereo",
+      "pixels": 90178,
+      "windows": 72797,
+      "foreground_psnr": 10.959869044855783,
+      "foreground_ssim": 0.5026635571137474,
+      "static_lpips": 0.2309558391571045
+    },
+    {
+      "case": "r_80_r_73_r_168",
+      "method": "mesh_median_stereo_blend",
+      "pixels": 90178,
+      "windows": 72797,
+      "foreground_psnr": 14.732418822624407,
+      "foreground_ssim": 0.5869256233781488,
+      "static_lpips": 0.1853320598602295
+    },
+    {
+      "case": "r_80_r_73_r_168",
+      "method": "mesh_median_stereo_hard",
+      "pixels": 90178,
+      "windows": 72797,
+      "foreground_psnr": 14.302794966491433,
+      "foreground_ssim": 0.5362951993605585,
+      "static_lpips": 0.18066783249378204
+    },
+    {
+      "case": "r_80_r_73_r_168",
+      "method": "mesh_qualified_blend",
+      "pixels": 90178,
+      "windows": 72797,
+      "foreground_psnr": 15.92225643851698,
+      "foreground_ssim": 0.653175813602348,
+      "static_lpips": 0.16770774126052856
+    },
+    {
+      "case": "r_80_r_73_r_168",
+      "method": "mesh_qualified_hard",
+      "pixels": 90178,
+      "windows": 72797,
+      "foreground_psnr": 15.362237214221583,
+      "foreground_ssim": 0.6130987297887162,
+      "static_lpips": 0.1611069142818451
+    },
+    {
+      "case": "r_80_r_73_r_168",
+      "method": "mvsplat_acid_256",
+      "pixels": 90178,
+      "windows": 72797,
+      "foreground_psnr": 12.559574186917246,
+      "foreground_ssim": 0.274918691258884,
+      "static_lpips": 0.2255842387676239
+    },
+    {
+      "case": "r_80_r_73_r_168",
+      "method": "mvsplat_acid_native",
+      "pixels": 90178,
+      "windows": 72797,
+      "foreground_psnr": 12.983470553183992,
+      "foreground_ssim": 0.2124263883333524,
+      "static_lpips": 0.23351213335990906
+    },
+    {
+      "case": "r_80_r_73_r_168",
+      "method": "mvsplat_acid_native_plane_bg",
+      "pixels": 90178,
+      "windows": 72797,
+      "foreground_psnr": 13.208940910529115,
+      "foreground_ssim": 0.22533705732345682,
+      "static_lpips": 0.24162647128105164
+    },
+    {
+      "case": "r_80_r_73_r_168",
+      "method": "plane",
+      "pixels": 90178,
+      "windows": 72797,
+      "foreground_psnr": 9.092604870785886,
+      "foreground_ssim": 0.12299707507832344,
+      "static_lpips": 0.2985002398490906
+    },
+    {
+      "case": "r_80_r_73_r_168",
+      "method": "precision_depth",
+      "pixels": 90178,
+      "windows": 72797,
+      "foreground_psnr": 14.641821022962676,
+      "foreground_ssim": 0.5373898293231214,
+      "static_lpips": 0.21391834318637848
+    },
+    {
+      "case": "r_80_r_73_r_168",
+      "method": "precision_donor",
+      "pixels": 90178,
+      "windows": 72797,
+      "foreground_psnr": 14.997215008555184,
+      "foreground_ssim": 0.5426080752086944,
+      "static_lpips": 0.20268508791923523
+    },
+    {
+      "case": "r_80_r_73_r_168",
+      "method": "reverse_bands",
+      "pixels": 90178,
+      "windows": 72797,
+      "foreground_psnr": 11.998940846175874,
+      "foreground_ssim": 0.6151717970764453,
+      "static_lpips": 0.21099735796451569
+    },
+    {
+      "case": "r_80_r_73_r_168",
+      "method": "sharpen_surface",
+      "pixels": 90178,
+      "windows": 72797,
+      "foreground_psnr": 15.296670398952514,
+      "foreground_ssim": 0.6223526090746262,
+      "static_lpips": 0.17194561660289764
+    },
+    {
+      "case": "r_80_r_73_r_168",
+      "method": "simple_average",
+      "pixels": 90178,
+      "windows": 72797,
+      "foreground_psnr": 14.547608601485267,
+      "foreground_ssim": 0.6301393832646088,
+      "static_lpips": 0.17480236291885376
+    },
+    {
+      "case": "r_80_r_73_r_168",
+      "method": "stereo",
+      "pixels": 90178,
+      "windows": 72797,
+      "foreground_psnr": 9.320724110458993,
+      "foreground_ssim": 0.19793687293254214,
+      "static_lpips": 0.29863443970680237
+    },
+    {
+      "case": "r_80_r_73_r_168",
+      "method": "transport",
+      "pixels": 90178,
+      "windows": 72797,
+      "foreground_psnr": 9.319901653117347,
+      "foreground_ssim": 0.21919898976213065,
+      "static_lpips": 0.2874470055103302
+    },
+    {
+      "case": "r_59_r_22_r_176",
+      "method": "altitude",
+      "pixels": 88938,
+      "windows": 73657,
+      "foreground_psnr": 10.78663297811271,
+      "foreground_ssim": 0.37734391812858603,
+      "static_lpips": 0.2979307472705841
+    },
+    {
+      "case": "r_59_r_22_r_176",
+      "method": "depth_prior",
+      "pixels": 88938,
+      "windows": 73657,
+      "foreground_psnr": 11.920808585188087,
+      "foreground_ssim": 0.5561087733424164,
+      "static_lpips": 0.2515791058540344
+    },
+    {
+      "case": "r_59_r_22_r_176",
+      "method": "depthsplat_dl3dv_256x448",
+      "pixels": 88938,
+      "windows": 73657,
+      "foreground_psnr": 10.186221118994027,
+      "foreground_ssim": 0.12943705852720805,
+      "static_lpips": 0.3311942517757416
+    },
+    {
+      "case": "r_59_r_22_r_176",
+      "method": "depthsplat_dl3dv_256x448_plane_bg",
+      "pixels": 88938,
+      "windows": 73657,
+      "foreground_psnr": 11.561385781437984,
+      "foreground_ssim": 0.1484497468687045,
+      "static_lpips": 0.37173953652381897
+    },
+    {
+      "case": "r_59_r_22_r_176",
+      "method": "detail_median_stereo_adaptive",
+      "pixels": 88938,
+      "windows": 73657,
+      "foreground_psnr": 13.658986400881655,
+      "foreground_ssim": 0.5755136047709299,
+      "static_lpips": 0.2318936437368393
+    },
+    {
+      "case": "r_59_r_22_r_176",
+      "method": "detail_median_stereo_fixed",
+      "pixels": 88938,
+      "windows": 73657,
+      "foreground_psnr": 13.785338156130056,
+      "foreground_ssim": 0.5655957813940711,
+      "static_lpips": 0.252724826335907
+    },
+    {
+      "case": "r_59_r_22_r_176",
+      "method": "detail_qualified_adaptive",
+      "pixels": 88938,
+      "windows": 73657,
+      "foreground_psnr": 13.815780595151011,
+      "foreground_ssim": 0.5751231288203656,
+      "static_lpips": 0.22572343051433563
+    },
+    {
+      "case": "r_59_r_22_r_176",
+      "method": "detail_qualified_fixed",
+      "pixels": 88938,
+      "windows": 73657,
+      "foreground_psnr": 13.967129260706256,
+      "foreground_ssim": 0.5657496509949222,
+      "static_lpips": 0.2466607689857483
+    },
+    {
+      "case": "r_59_r_22_r_176",
+      "method": "flow_plane",
+      "pixels": 88938,
+      "windows": 73657,
+      "foreground_psnr": 9.072180497398808,
+      "foreground_ssim": 0.11977627031513216,
+      "static_lpips": 0.3715674877166748
+    },
+    {
+      "case": "r_59_r_22_r_176",
+      "method": "learned_bands_constant",
+      "pixels": 88938,
+      "windows": 73657,
+      "foreground_psnr": 13.85697670796615,
+      "foreground_ssim": 0.5702302471402707,
+      "static_lpips": 0.2367912381887436
+    },
+    {
+      "case": "r_59_r_22_r_176",
+      "method": "learned_bands_geometry",
+      "pixels": 88938,
+      "windows": 73657,
+      "foreground_psnr": 14.240024997666207,
+      "foreground_ssim": 0.5631833364568124,
+      "static_lpips": 0.2545478045940399
+    },
+    {
+      "case": "r_59_r_22_r_176",
+      "method": "learned_bands_image",
+      "pixels": 88938,
+      "windows": 73657,
+      "foreground_psnr": 12.59204537105725,
+      "foreground_ssim": 0.5431197514435849,
+      "static_lpips": 0.25089046359062195
+    },
+    {
+      "case": "r_59_r_22_r_176",
+      "method": "median_plane",
+      "pixels": 88938,
+      "windows": 73657,
+      "foreground_psnr": 11.678664932768468,
+      "foreground_ssim": 0.5569250609775223,
+      "static_lpips": 0.2558158040046692
+    },
+    {
+      "case": "r_59_r_22_r_176",
+      "method": "median_stereo",
+      "pixels": 88938,
+      "windows": 73657,
+      "foreground_psnr": 11.659509123354695,
+      "foreground_ssim": 0.5521190513025603,
+      "static_lpips": 0.2572908401489258
+    },
+    {
+      "case": "r_59_r_22_r_176",
+      "method": "mesh_median_stereo_blend",
+      "pixels": 88938,
+      "windows": 73657,
+      "foreground_psnr": 13.605502463021352,
+      "foreground_ssim": 0.5698693376516926,
+      "static_lpips": 0.2404213547706604
+    },
+    {
+      "case": "r_59_r_22_r_176",
+      "method": "mesh_median_stereo_hard",
+      "pixels": 88938,
+      "windows": 73657,
+      "foreground_psnr": 13.60389761409552,
+      "foreground_ssim": 0.5998209125723334,
+      "static_lpips": 0.2287665456533432
+    },
+    {
+      "case": "r_59_r_22_r_176",
+      "method": "mesh_qualified_blend",
+      "pixels": 88938,
+      "windows": 73657,
+      "foreground_psnr": 13.738877853202185,
+      "foreground_ssim": 0.5688970451454667,
+      "static_lpips": 0.23857855796813965
+    },
+    {
+      "case": "r_59_r_22_r_176",
+      "method": "mesh_qualified_hard",
+      "pixels": 88938,
+      "windows": 73657,
+      "foreground_psnr": 13.743577175861274,
+      "foreground_ssim": 0.6005825425047409,
+      "static_lpips": 0.22507146000862122
+    },
+    {
+      "case": "r_59_r_22_r_176",
+      "method": "mvsplat_acid_256",
+      "pixels": 88938,
+      "windows": 73657,
+      "foreground_psnr": 10.190829246787107,
+      "foreground_ssim": 0.18513357090899304,
+      "static_lpips": 0.25815773010253906
+    },
+    {
+      "case": "r_59_r_22_r_176",
+      "method": "mvsplat_acid_native",
+      "pixels": 88938,
+      "windows": 73657,
+      "foreground_psnr": 12.098274635163698,
+      "foreground_ssim": 0.2043951750308221,
+      "static_lpips": 0.2753850221633911
+    },
+    {
+      "case": "r_59_r_22_r_176",
+      "method": "mvsplat_acid_native_plane_bg",
+      "pixels": 88938,
+      "windows": 73657,
+      "foreground_psnr": 13.4804971698639,
+      "foreground_ssim": 0.23978410981146497,
+      "static_lpips": 0.31903576850891113
+    },
+    {
+      "case": "r_59_r_22_r_176",
+      "method": "plane",
+      "pixels": 88938,
+      "windows": 73657,
+      "foreground_psnr": 9.2829580399595,
+      "foreground_ssim": 0.12070441880695243,
+      "static_lpips": 0.34541451930999756
+    },
+    {
+      "case": "r_59_r_22_r_176",
+      "method": "precision_depth",
+      "pixels": 88938,
+      "windows": 73657,
+      "foreground_psnr": 13.627236757271886,
+      "foreground_ssim": 0.5496483205627313,
+      "static_lpips": 0.2506638467311859
+    },
+    {
+      "case": "r_59_r_22_r_176",
+      "method": "precision_donor",
+      "pixels": 88938,
+      "windows": 73657,
+      "foreground_psnr": 13.6270913874054,
+      "foreground_ssim": 0.5496448327437122,
+      "static_lpips": 0.2505820691585541
+    },
+    {
+      "case": "r_59_r_22_r_176",
+      "method": "reverse_bands",
+      "pixels": 88938,
+      "windows": 73657,
+      "foreground_psnr": 12.385974051495905,
+      "foreground_ssim": 0.5447546443965411,
+      "static_lpips": 0.2578132152557373
+    },
+    {
+      "case": "r_59_r_22_r_176",
+      "method": "sharpen_surface",
+      "pixels": 88938,
+      "windows": 73657,
+      "foreground_psnr": 13.173610553225124,
+      "foreground_ssim": 0.5246917394754447,
+      "static_lpips": 0.24081331491470337
+    },
+    {
+      "case": "r_59_r_22_r_176",
+      "method": "simple_average",
+      "pixels": 88938,
+      "windows": 73657,
+      "foreground_psnr": 13.786119229855146,
+      "foreground_ssim": 0.5758261760381579,
+      "static_lpips": 0.22699066996574402
+    },
+    {
+      "case": "r_59_r_22_r_176",
+      "method": "stereo",
+      "pixels": 88938,
+      "windows": 73657,
+      "foreground_psnr": 10.552742317001588,
+      "foreground_ssim": 0.36179808844472433,
+      "static_lpips": 0.30664438009262085
+    },
+    {
+      "case": "r_59_r_22_r_176",
+      "method": "transport",
+      "pixels": 88938,
+      "windows": 73657,
+      "foreground_psnr": 10.592188914821525,
+      "foreground_ssim": 0.36213561830127644,
+      "static_lpips": 0.3037746548652649
+    },
+    {
+      "case": "r_22_r_59_r_184",
+      "method": "altitude",
+      "pixels": 88042,
+      "windows": 73273,
+      "foreground_psnr": 13.91972568725276,
+      "foreground_ssim": 0.4749020295116819,
+      "static_lpips": 0.2625386714935303
+    },
+    {
+      "case": "r_22_r_59_r_184",
+      "method": "depth_prior",
+      "pixels": 88042,
+      "windows": 73273,
+      "foreground_psnr": 15.68291362485998,
+      "foreground_ssim": 0.6377201967170777,
+      "static_lpips": 0.2063884139060974
+    },
+    {
+      "case": "r_22_r_59_r_184",
+      "method": "depthsplat_dl3dv_256x448",
+      "pixels": 88042,
+      "windows": 73273,
+      "foreground_psnr": 11.235843888155653,
+      "foreground_ssim": 0.1387191191020147,
+      "static_lpips": 0.3602536618709564
+    },
+    {
+      "case": "r_22_r_59_r_184",
+      "method": "depthsplat_dl3dv_256x448_plane_bg",
+      "pixels": 88042,
+      "windows": 73273,
+      "foreground_psnr": 12.374995321989175,
+      "foreground_ssim": 0.16747420254540776,
+      "static_lpips": 0.3666474223136902
+    },
+    {
+      "case": "r_22_r_59_r_184",
+      "method": "detail_median_stereo_adaptive",
+      "pixels": 88042,
+      "windows": 73273,
+      "foreground_psnr": 16.901321096741015,
+      "foreground_ssim": 0.6610707955509484,
+      "static_lpips": 0.19563423097133636
+    },
+    {
+      "case": "r_22_r_59_r_184",
+      "method": "detail_median_stereo_fixed",
+      "pixels": 88042,
+      "windows": 73273,
+      "foreground_psnr": 16.950447897607116,
+      "foreground_ssim": 0.6434897593315168,
+      "static_lpips": 0.2065599411725998
+    },
+    {
+      "case": "r_22_r_59_r_184",
+      "method": "detail_qualified_adaptive",
+      "pixels": 88042,
+      "windows": 73273,
+      "foreground_psnr": 17.30308816229295,
+      "foreground_ssim": 0.6611356260937586,
+      "static_lpips": 0.18830491602420807
+    },
+    {
+      "case": "r_22_r_59_r_184",
+      "method": "detail_qualified_fixed",
+      "pixels": 88042,
+      "windows": 73273,
+      "foreground_psnr": 17.36412693183222,
+      "foreground_ssim": 0.6434764197542834,
+      "static_lpips": 0.20273882150650024
+    },
+    {
+      "case": "r_22_r_59_r_184",
+      "method": "flow_plane",
+      "pixels": 88042,
+      "windows": 73273,
+      "foreground_psnr": 11.360055196126416,
+      "foreground_ssim": 0.1787827067649739,
+      "static_lpips": 0.2830905318260193
+    },
+    {
+      "case": "r_22_r_59_r_184",
+      "method": "learned_bands_constant",
+      "pixels": 88042,
+      "windows": 73273,
+      "foreground_psnr": 17.436164101059212,
+      "foreground_ssim": 0.6618215500122056,
+      "static_lpips": 0.19360026717185974
+    },
+    {
+      "case": "r_22_r_59_r_184",
+      "method": "learned_bands_geometry",
+      "pixels": 88042,
+      "windows": 73273,
+      "foreground_psnr": 17.980508848952958,
+      "foreground_ssim": 0.6517225881476872,
+      "static_lpips": 0.2098086178302765
+    },
+    {
+      "case": "r_22_r_59_r_184",
+      "method": "learned_bands_image",
+      "pixels": 88042,
+      "windows": 73273,
+      "foreground_psnr": 16.63651030771694,
+      "foreground_ssim": 0.644112388878452,
+      "static_lpips": 0.2127036452293396
+    },
+    {
+      "case": "r_22_r_59_r_184",
+      "method": "median_plane",
+      "pixels": 88042,
+      "windows": 73273,
+      "foreground_psnr": 15.651698246888772,
+      "foreground_ssim": 0.6526030019587726,
+      "static_lpips": 0.20802785456180573
+    },
+    {
+      "case": "r_22_r_59_r_184",
+      "method": "median_stereo",
+      "pixels": 88042,
+      "windows": 73273,
+      "foreground_psnr": 15.589282172115764,
+      "foreground_ssim": 0.6421451516800396,
+      "static_lpips": 0.20880472660064697
+    },
+    {
+      "case": "r_22_r_59_r_184",
+      "method": "mesh_median_stereo_blend",
+      "pixels": 88042,
+      "windows": 73273,
+      "foreground_psnr": 16.83272011993541,
+      "foreground_ssim": 0.6602298150283944,
+      "static_lpips": 0.20181432366371155
+    },
+    {
+      "case": "r_22_r_59_r_184",
+      "method": "mesh_median_stereo_hard",
+      "pixels": 88042,
+      "windows": 73273,
+      "foreground_psnr": 16.876267456499594,
+      "foreground_ssim": 0.6793867682207382,
+      "static_lpips": 0.19256912171840668
+    },
+    {
+      "case": "r_22_r_59_r_184",
+      "method": "mesh_qualified_blend",
+      "pixels": 88042,
+      "windows": 73273,
+      "foreground_psnr": 17.240212892893034,
+      "foreground_ssim": 0.6608682944642698,
+      "static_lpips": 0.19500645995140076
+    },
+    {
+      "case": "r_22_r_59_r_184",
+      "method": "mesh_qualified_hard",
+      "pixels": 88042,
+      "windows": 73273,
+      "foreground_psnr": 17.302865559354736,
+      "foreground_ssim": 0.6791079016999944,
+      "static_lpips": 0.18543624877929688
+    },
+    {
+      "case": "r_22_r_59_r_184",
+      "method": "mvsplat_acid_256",
+      "pixels": 88042,
+      "windows": 73273,
+      "foreground_psnr": 11.639152951695484,
+      "foreground_ssim": 0.21997453496960753,
+      "static_lpips": 0.21117521822452545
+    },
+    {
+      "case": "r_22_r_59_r_184",
+      "method": "mvsplat_acid_native",
+      "pixels": 88042,
+      "windows": 73273,
+      "foreground_psnr": 14.462200020272356,
+      "foreground_ssim": 0.21622506006777442,
+      "static_lpips": 0.2465539574623108
+    },
+    {
+      "case": "r_22_r_59_r_184",
+      "method": "mvsplat_acid_native_plane_bg",
+      "pixels": 88042,
+      "windows": 73273,
+      "foreground_psnr": 14.610575051500387,
+      "foreground_ssim": 0.2560619484090192,
+      "static_lpips": 0.2867814600467682
+    },
+    {
+      "case": "r_22_r_59_r_184",
+      "method": "plane",
+      "pixels": 88042,
+      "windows": 73273,
+      "foreground_psnr": 11.313873432301005,
+      "foreground_ssim": 0.16708915869359967,
+      "static_lpips": 0.2761468291282654
+    },
+    {
+      "case": "r_22_r_59_r_184",
+      "method": "precision_depth",
+      "pixels": 88042,
+      "windows": 73273,
+      "foreground_psnr": 17.00603209999994,
+      "foreground_ssim": 0.6411047944216371,
+      "static_lpips": 0.20370173454284668
+    },
+    {
+      "case": "r_22_r_59_r_184",
+      "method": "precision_donor",
+      "pixels": 88042,
+      "windows": 73273,
+      "foreground_psnr": 17.00603209999994,
+      "foreground_ssim": 0.6411047944216371,
+      "static_lpips": 0.20370173454284668
+    },
+    {
+      "case": "r_22_r_59_r_184",
+      "method": "reverse_bands",
+      "pixels": 88042,
+      "windows": 73273,
+      "foreground_psnr": 16.332617318496737,
+      "foreground_ssim": 0.6406992691771748,
+      "static_lpips": 0.208293616771698
+    },
+    {
+      "case": "r_22_r_59_r_184",
+      "method": "sharpen_surface",
+      "pixels": 88042,
+      "windows": 73273,
+      "foreground_psnr": 16.20595871941956,
+      "foreground_ssim": 0.6126906481419138,
+      "static_lpips": 0.20233947038650513
+    },
+    {
+      "case": "r_22_r_59_r_184",
+      "method": "simple_average",
+      "pixels": 88042,
+      "windows": 73273,
+      "foreground_psnr": 17.860332651718082,
+      "foreground_ssim": 0.6556383383987899,
+      "static_lpips": 0.18948501348495483
+    },
+    {
+      "case": "r_22_r_59_r_184",
+      "method": "stereo",
+      "pixels": 88042,
+      "windows": 73273,
+      "foreground_psnr": 13.622312887526583,
+      "foreground_ssim": 0.46442961819555484,
+      "static_lpips": 0.26702165603637695
+    },
+    {
+      "case": "r_22_r_59_r_184",
+      "method": "transport",
+      "pixels": 88042,
+      "windows": 73273,
+      "foreground_psnr": 13.782742147818656,
+      "foreground_ssim": 0.46529531286469816,
+      "static_lpips": 0.2671055197715759
+    },
+    {
+      "case": "r_50_r_11_r_192",
+      "method": "altitude",
+      "pixels": 82830,
+      "windows": 70512,
+      "foreground_psnr": 11.905533193248964,
+      "foreground_ssim": 0.36822762433551126,
+      "static_lpips": 0.22090433537960052
+    },
+    {
+      "case": "r_50_r_11_r_192",
+      "method": "depth_prior",
+      "pixels": 82830,
+      "windows": 70512,
+      "foreground_psnr": 14.417406563246264,
+      "foreground_ssim": 0.5062222122327601,
+      "static_lpips": 0.15970994532108307
+    },
+    {
+      "case": "r_50_r_11_r_192",
+      "method": "depthsplat_dl3dv_256x448",
+      "pixels": 82830,
+      "windows": 70512,
+      "foreground_psnr": 14.304290893933771,
+      "foreground_ssim": 0.31804732987363715,
+      "static_lpips": 0.16571906208992004
+    },
+    {
+      "case": "r_50_r_11_r_192",
+      "method": "depthsplat_dl3dv_256x448_plane_bg",
+      "pixels": 82830,
+      "windows": 70512,
+      "foreground_psnr": 15.326591079821835,
+      "foreground_ssim": 0.329868005446095,
+      "static_lpips": 0.18483439087867737
+    },
+    {
+      "case": "r_50_r_11_r_192",
+      "method": "detail_median_stereo_adaptive",
+      "pixels": 82830,
+      "windows": 70512,
+      "foreground_psnr": 15.42452149179458,
+      "foreground_ssim": 0.5099013295503242,
+      "static_lpips": 0.1550048589706421
+    },
+    {
+      "case": "r_50_r_11_r_192",
+      "method": "detail_median_stereo_fixed",
+      "pixels": 82830,
+      "windows": 70512,
+      "foreground_psnr": 15.437324359890813,
+      "foreground_ssim": 0.4918298525909793,
+      "static_lpips": 0.17872828245162964
+    },
+    {
+      "case": "r_50_r_11_r_192",
+      "method": "detail_qualified_adaptive",
+      "pixels": 82830,
+      "windows": 70512,
+      "foreground_psnr": 17.268689897747123,
+      "foreground_ssim": 0.5549513329634801,
+      "static_lpips": 0.12997305393218994
+    },
+    {
+      "case": "r_50_r_11_r_192",
+      "method": "detail_qualified_fixed",
+      "pixels": 82830,
+      "windows": 70512,
+      "foreground_psnr": 17.01682524403384,
+      "foreground_ssim": 0.5337535788451394,
+      "static_lpips": 0.153923898935318
+    },
+    {
+      "case": "r_50_r_11_r_192",
+      "method": "flow_plane",
+      "pixels": 82830,
+      "windows": 70512,
+      "foreground_psnr": 10.99297741834899,
+      "foreground_ssim": 0.15423039125828997,
+      "static_lpips": 0.24374698102474213
+    },
+    {
+      "case": "r_50_r_11_r_192",
+      "method": "learned_bands_constant",
+      "pixels": 82830,
+      "windows": 70512,
+      "foreground_psnr": 17.354090247777734,
+      "foreground_ssim": 0.5694476958082467,
+      "static_lpips": 0.1376277208328247
+    },
+    {
+      "case": "r_50_r_11_r_192",
+      "method": "learned_bands_geometry",
+      "pixels": 82830,
+      "windows": 70512,
+      "foreground_psnr": 16.853126796028164,
+      "foreground_ssim": 0.5574962858936184,
+      "static_lpips": 0.16117358207702637
+    },
+    {
+      "case": "r_50_r_11_r_192",
+      "method": "learned_bands_image",
+      "pixels": 82830,
+      "windows": 70512,
+      "foreground_psnr": 15.825599979901959,
+      "foreground_ssim": 0.5525389167180733,
+      "static_lpips": 0.16380515694618225
+    },
+    {
+      "case": "r_50_r_11_r_192",
+      "method": "median_plane",
+      "pixels": 82830,
+      "windows": 70512,
+      "foreground_psnr": 14.289866093999926,
+      "foreground_ssim": 0.5108959467934973,
+      "static_lpips": 0.16571922600269318
+    },
+    {
+      "case": "r_50_r_11_r_192",
+      "method": "median_stereo",
+      "pixels": 82830,
+      "windows": 70512,
+      "foreground_psnr": 13.975379827655473,
+      "foreground_ssim": 0.48601823064288985,
+      "static_lpips": 0.17591942846775055
+    },
+    {
+      "case": "r_50_r_11_r_192",
+      "method": "mesh_median_stereo_blend",
+      "pixels": 82830,
+      "windows": 70512,
+      "foreground_psnr": 15.362759140505247,
+      "foreground_ssim": 0.5231670721778279,
+      "static_lpips": 0.16223423182964325
+    },
+    {
+      "case": "r_50_r_11_r_192",
+      "method": "mesh_median_stereo_hard",
+      "pixels": 82830,
+      "windows": 70512,
+      "foreground_psnr": 15.127168837406268,
+      "foreground_ssim": 0.5079705824744428,
+      "static_lpips": 0.15523971617221832
+    },
+    {
+      "case": "r_50_r_11_r_192",
+      "method": "mesh_qualified_blend",
+      "pixels": 82830,
+      "windows": 70512,
+      "foreground_psnr": 17.299951424472773,
+      "foreground_ssim": 0.5686959414101055,
+      "static_lpips": 0.1392522156238556
+    },
+    {
+      "case": "r_50_r_11_r_192",
+      "method": "mesh_qualified_hard",
+      "pixels": 82830,
+      "windows": 70512,
+      "foreground_psnr": 16.807934070229507,
+      "foreground_ssim": 0.5510087737833645,
+      "static_lpips": 0.13020595908164978
+    },
+    {
+      "case": "r_50_r_11_r_192",
+      "method": "mvsplat_acid_256",
+      "pixels": 82830,
+      "windows": 70512,
+      "foreground_psnr": 12.844796246876161,
+      "foreground_ssim": 0.2901262312109787,
+      "static_lpips": 0.17019951343536377
+    },
+    {
+      "case": "r_50_r_11_r_192",
+      "method": "mvsplat_acid_native",
+      "pixels": 82830,
+      "windows": 70512,
+      "foreground_psnr": 14.57523102201404,
+      "foreground_ssim": 0.28130208578486676,
+      "static_lpips": 0.1673355996608734
+    },
+    {
+      "case": "r_50_r_11_r_192",
+      "method": "mvsplat_acid_native_plane_bg",
+      "pixels": 82830,
+      "windows": 70512,
+      "foreground_psnr": 15.172086177926174,
+      "foreground_ssim": 0.3129347692213665,
+      "static_lpips": 0.1918635368347168
+    },
+    {
+      "case": "r_50_r_11_r_192",
+      "method": "plane",
+      "pixels": 82830,
+      "windows": 70512,
+      "foreground_psnr": 11.655365467220534,
+      "foreground_ssim": 0.18745151582799055,
+      "static_lpips": 0.22910133004188538
+    },
+    {
+      "case": "r_50_r_11_r_192",
+      "method": "precision_depth",
+      "pixels": 82830,
+      "windows": 70512,
+      "foreground_psnr": 15.376898694544792,
+      "foreground_ssim": 0.4860495425154043,
+      "static_lpips": 0.17876139283180237
+    },
+    {
+      "case": "r_50_r_11_r_192",
+      "method": "precision_donor",
+      "pixels": 82830,
+      "windows": 70512,
+      "foreground_psnr": 15.492644195808072,
+      "foreground_ssim": 0.4912983591265356,
+      "static_lpips": 0.17723673582077026
+    },
+    {
+      "case": "r_50_r_11_r_192",
+      "method": "reverse_bands",
+      "pixels": 82830,
+      "windows": 70512,
+      "foreground_psnr": 15.211262602741723,
+      "foreground_ssim": 0.5337980919446564,
+      "static_lpips": 0.1533922404050827
+    },
+    {
+      "case": "r_50_r_11_r_192",
+      "method": "sharpen_surface",
+      "pixels": 82830,
+      "windows": 70512,
+      "foreground_psnr": 16.15759597838381,
+      "foreground_ssim": 0.5222710744109842,
+      "static_lpips": 0.14128857851028442
+    },
+    {
+      "case": "r_50_r_11_r_192",
+      "method": "simple_average",
+      "pixels": 82830,
+      "windows": 70512,
+      "foreground_psnr": 16.74018263459558,
+      "foreground_ssim": 0.5486291590266104,
+      "static_lpips": 0.13544489443302155
+    },
+    {
+      "case": "r_50_r_11_r_192",
+      "method": "stereo",
+      "pixels": 82830,
+      "windows": 70512,
+      "foreground_psnr": 12.043352829588699,
+      "foreground_ssim": 0.37205879133493713,
+      "static_lpips": 0.21372848749160767
+    },
+    {
+      "case": "r_50_r_11_r_192",
+      "method": "transport",
+      "pixels": 82830,
+      "windows": 70512,
+      "foreground_psnr": 12.102260307022938,
+      "foreground_ssim": 0.37044650817458974,
+      "static_lpips": 0.21240922808647156
+    }
+  ],
+  "mean": {
+    "altitude": {
+      "foreground_psnr": 14.761370080297883,
+      "foreground_ssim": 0.5350112446601705,
+      "static_lpips": 0.19763560559261928
+    },
+    "depth_prior": {
+      "foreground_psnr": 17.23163030138642,
+      "foreground_ssim": 0.6788626757941003,
+      "static_lpips": 0.14866067638451402
+    },
+    "depthsplat_dl3dv_256x448": {
+      "foreground_psnr": 13.624873701480727,
+      "foreground_ssim": 0.25768060670968373,
+      "static_lpips": 0.23162985796278174
+    },
+    "depthsplat_dl3dv_256x448_plane_bg": {
+      "foreground_psnr": 14.417255003018528,
+      "foreground_ssim": 0.2794521576711826,
+      "static_lpips": 0.24551661244847559
+    },
+    "detail_median_stereo_adaptive": {
+      "foreground_psnr": 16.953711029325543,
+      "foreground_ssim": 0.677864373069032,
+      "static_lpips": 0.14494959332726218
+    },
+    "detail_median_stereo_fixed": {
+      "foreground_psnr": 17.217851435413806,
+      "foreground_ssim": 0.6700871412487203,
+      "static_lpips": 0.15641898865049536
+    },
+    "detail_qualified_adaptive": {
+      "foreground_psnr": 19.276171050585816,
+      "foreground_ssim": 0.6955971688897757,
+      "static_lpips": 0.12972500276836482
+    },
+    "detail_qualified_fixed": {
+      "foreground_psnr": 19.367815331184296,
+      "foreground_ssim": 0.6870087479669709,
+      "static_lpips": 0.1430234204639088
+    },
+    "flow_plane": {
+      "foreground_psnr": 13.207970959509685,
+      "foreground_ssim": 0.31132717377026403,
+      "static_lpips": 0.21614160964434798
+    },
+    "learned_bands_constant": {
+      "foreground_psnr": 19.226378960626985,
+      "foreground_ssim": 0.6963773026709629,
+      "static_lpips": 0.1388131075284698
+    },
+    "learned_bands_geometry": {
+      "foreground_psnr": 18.95708768076282,
+      "foreground_ssim": 0.6905606374826164,
+      "static_lpips": 0.15342701599001884
+    },
+    "learned_bands_image": {
+      "foreground_psnr": 17.752627231681355,
+      "foreground_ssim": 0.6856541878145074,
+      "static_lpips": 0.15664985809813847
+    },
+    "median_plane": {
+      "foreground_psnr": 17.06730214060557,
+      "foreground_ssim": 0.6745811910259819,
+      "static_lpips": 0.1552898402918469
+    },
+    "median_stereo": {
+      "foreground_psnr": 16.913472108336112,
+      "foreground_ssim": 0.6677897559671453,
+      "static_lpips": 0.1561975343660875
+    },
+    "mesh_median_stereo_blend": {
+      "foreground_psnr": 16.838569381817102,
+      "foreground_ssim": 0.6774164714161215,
+      "static_lpips": 0.15414721112359653
+    },
+    "mesh_median_stereo_hard": {
+      "foreground_psnr": 16.76279230371121,
+      "foreground_ssim": 0.6815359548576132,
+      "static_lpips": 0.14551655440167946
+    },
+    "mesh_qualified_blend": {
+      "foreground_psnr": 19.126284685246574,
+      "foreground_ssim": 0.6953955837951095,
+      "static_lpips": 0.14035163108598103
+    },
+    "mesh_qualified_hard": {
+      "foreground_psnr": 19.072985742924264,
+      "foreground_ssim": 0.6994695761768157,
+      "static_lpips": 0.12957408719442107
+    },
+    "mvsplat_acid_256": {
+      "foreground_psnr": 12.719124414379461,
+      "foreground_ssim": 0.31441041039775874,
+      "static_lpips": 0.194559014656327
+    },
+    "mvsplat_acid_native": {
+      "foreground_psnr": 14.999887813470615,
+      "foreground_ssim": 0.32178127547733487,
+      "static_lpips": 0.19211557778445157
+    },
+    "mvsplat_acid_native_plane_bg": {
+      "foreground_psnr": 15.325092630904122,
+      "foreground_ssim": 0.3417589629061708,
+      "static_lpips": 0.21415199474854904
+    },
+    "plane": {
+      "foreground_psnr": 13.04708138511515,
+      "foreground_ssim": 0.25743397254489875,
+      "static_lpips": 0.20934154228730636
+    },
+    "precision_depth": {
+      "foreground_psnr": 17.104376883441713,
+      "foreground_ssim": 0.6654141913704461,
+      "static_lpips": 0.15764096040617337
+    },
+    "precision_donor": {
+      "foreground_psnr": 17.17832329012848,
+      "foreground_ssim": 0.6652617544035959,
+      "static_lpips": 0.15649645775556564
+    },
+    "reverse_bands": {
+      "foreground_psnr": 17.53154582141502,
+      "foreground_ssim": 0.6812422956385032,
+      "static_lpips": 0.15175488658926703
+    },
+    "sharpen_surface": {
+      "foreground_psnr": 17.78980229795035,
+      "foreground_ssim": 0.6560356916761829,
+      "static_lpips": 0.14373237233270297
+    },
+    "simple_average": {
+      "foreground_psnr": 19.134355524351506,
+      "foreground_ssim": 0.6970679558571041,
+      "static_lpips": 0.13028160414912485
+    },
+    "stereo": {
+      "foreground_psnr": 14.576528048393108,
+      "foreground_ssim": 0.49842139290137466,
+      "static_lpips": 0.2015828906812451
+    },
+    "transport": {
+      "foreground_psnr": 14.709998774547872,
+      "foreground_ssim": 0.5160347302255656,
+      "static_lpips": 0.19826536151495847
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "0000_0002_0001": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "92f037379510838d3e3aae46be3c677d98a6c019136440a79839482dbc9884e2"
+  },
+  "0005_0007_0006": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "b3aeb8fa881debef07bf310fb872248b3a41d2775fe8474bfd694966e7025d6d"
+  },
+  "0010_0012_0011": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "157328ec17b3dced983758a4294c1a090756a78c2e0b90072c692b2fea7703d9"
+  },
+  "0015_0017_0016": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "8a4990530fe24032d22d37f0828f6f0c456e5fb38a9616348f1bad509f5abd7e"
+  },
+  "0020_0022_0021": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "6a7a055a3f16d1c8d30ac30e7ac9bd7c5fd33c2054e47bd3f7a36707187b453c"
+  },
+  "0025_0027_0026": {
+    "fits": [
+      {
+        "model": "median_plane",
+        "errors": {}
+      },
+      {
+        "model": "median_plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "f2a699215226a85b969280c23722cc1cef356c15c95b908bfa0e31d69c47ae55"
+  }
+}

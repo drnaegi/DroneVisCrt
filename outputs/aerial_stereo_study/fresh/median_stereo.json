@@ -1,0 +1,418 @@
+{
+  "6373_6372_6374": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "68000d5f0e96d8c872790ccf85677fc7d34dada06d9f7f29f0a63d917274b769"
+  },
+  "6373_6372_6375": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "816280a06d7ee93d9d5bb8eb5e341624b50279b9765d23540ecb3e99dd8e4d17"
+  },
+  "6500_6501_6498": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "6c3953491b3ed09c69c1cbaaec1ab5cc00e08bae1693eea50f5796b1d1974caa"
+  },
+  "6500_6501_6502": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "2ad95996dfd7654ca86a237dfdcb99d39a059aa9b72c3a0f688c65b01c00e798"
+  },
+  "6644_6645_6642": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "470fc413e484cd85986f4999fa9b357411d455d852779e20952f085c007145b5"
+  },
+  "6644_6645_6646": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "17b8c28270a7491e184097d547ec2abf0a3458c8281f75b50658f03676cc4e10"
+  },
+  "6664_6665_6662": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "9570838856e8d1d8d760df508ee264d5d4d559f7310137b729dbb250aa86e29d"
+  },
+  "6664_6665_6666": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "c034c5a472275818343e4c8c6585f4c63578b35b4b82732587a5506b668c868d"
+  },
+  "6796_6797_6795": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "e5d32367d0775efec38c65f82dabae43818794209b3f1a1e2437230e4d296d52"
+  },
+  "6796_6797_6798": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "d2f5155770bd4d817e57f800c488df7102e32a922086be76ed764cfc7da262f0"
+  },
+  "6844_6845_6842": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "9a81a6502fdd75f45c69dc9091ed47a5edb5c829309761d8f6f0a41f47b5cdd6"
+  },
+  "6844_6845_6846": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "cff26b3f8fe938a58092ddb1dc5bea87034dba4c378666d1fd0ea455dc7f8fe6"
+  },
+  "6892_6893_6891": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "5d87baebf76a14a4ad03440e1a9b4945026a960087ea4b3e5a3f866da9c01da3"
+  },
+  "6892_6893_6894": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "8de8093a7b3d2a39a2e621b2d2fce68d2524b80cde0f6feda6a3470861faf096"
+  },
+  "6929_6928_6930": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "daf56e35ac9dd727354c25ca5812cd9f6e5e41e0a1f158d17190af7ba64b8f99"
+  },
+  "6929_6928_6931": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "ac8736bda025f973b2385e494f65de2ac31adde8cecf85a6c12b0464a12612cb"
+  },
+  "7001_7000_7002": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "8e15b2417629fcae7d19d78405c0f16e3af1b5e42c894d23b19dc365c4c4167e"
+  },
+  "7001_7000_7003": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "b7bf76dda29ac08461ee933eef85713264eadbca50e333a4f5e1b69cbb89ba86"
+  },
+  "7864_7865_7862": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "0fd812cc09b35e2cc33ef6906e22732302480dc39ead974b9ec0472d563b7a06"
+  },
+  "7864_7865_7867": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "0d650e0484f9328e4d373e3f9c4ae7500cddff51dd7245ccd8181f13315eac51"
+  },
+  "8388_8389_8386": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "7dfa97380e7f92048e3c6acc04152915d30fae78476a040dc44385e3e296d15e"
+  },
+  "8388_8389_8390": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "eec6707b545289eb9353fdffc135c1e6c96eeef10e6a8a79033301925537232d"
+  },
+  "8796_8797_8794": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "5183029c247b2acde09c986ea52435c418dbb1f9f65a0f1b68603f118c837ebd"
+  },
+  "8796_8797_8798": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "2a4a882c839be717c0eb0cba1b600aef6a2460fd3d315327935485acc45bec5f"
+  },
+  "8816_8817_8814": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "281e7f7bccaa614d5a5a08e38306747b98d079ddb992a456f3d5f372f272bf12"
+  },
+  "8816_8817_8818": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "851541d4102c1a3dac824e227f0975f44a82b20600f26e2adf8dc5f97fff2ae0"
+  },
+  "9040_9041_9039": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "89484e7102cad156cf3b987a56a8b390c4fa68870f902d716e0ffbb9d8144c58"
+  },
+  "9040_9041_9042": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "a04365602d998b4e1e3db81a078376cf0368eca9fa17a96b2c184a47020ee200"
+  },
+  "9060_9061_9058": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "5aa357f806ff57949789d6c25bff578850adca5d494d596376bcf51a446b5e17"
+  },
+  "9060_9061_9062": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "2aa314d578064f112638428978972130ea240d1f7e3a0d362977ac7ad2505f30"
+  },
+  "9080_9081_9078": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "c31c8f49b521afd5d1d0823fc3cc4cf785e95d9c00254f8821f0018433fd8c6e"
+  },
+  "9080_9081_9079": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "74edfbde1c2737e1fa49da5382182773cf1c6fa2021a46dea1c8f54f4c7781b6"
+  }
+}

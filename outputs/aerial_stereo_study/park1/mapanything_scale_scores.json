@@ -1,0 +1,115 @@
+{
+  "rows": [
+    {
+      "case": "0000_0002_0001",
+      "source": "datasets/stereo_survey/drone_dataset_sheffield_park_1/0000.jpg",
+      "target": "0001.jpg",
+      "target_sha256": "1f45a583351230c9a77091f623a8db50076b99f20200ebe5ab750cc77a6b71b4",
+      "method": "mapanything_median",
+      "psnr": 12.8622824815245,
+      "ssim": 0.17943606845951066,
+      "lpips": 0.43019652366638184,
+      "observed_psnr": 12.90277413376674,
+      "complement_psnr": 11.482569194520071,
+      "plane_support": 0.9757843017578125
+    },
+    {
+      "case": "0010_0012_0011",
+      "source": "datasets/stereo_survey/drone_dataset_sheffield_park_1/0010.jpg",
+      "target": "0011.jpg",
+      "target_sha256": "895e96e625e899c7c06bfc203799a5496d964caaa5b06adba0c9d1755584c2ff",
+      "method": "mapanything_median",
+      "psnr": 22.48796528435056,
+      "ssim": 0.3815561202311801,
+      "lpips": 0.1783120334148407,
+      "observed_psnr": 22.587405098640588,
+      "complement_psnr": 14.252343965413711,
+      "plane_support": 0.9960174560546875
+    },
+    {
+      "case": "0020_0022_0021",
+      "source": "datasets/stereo_survey/drone_dataset_sheffield_park_1/0020.jpg",
+      "target": "0021.jpg",
+      "target_sha256": "1acd886da58fc9e6c6f9c13913eb8ee041cc3a2e29b4804fe88e83cd427dfe08",
+      "method": "mapanything_median",
+      "psnr": 17.50276427967905,
+      "ssim": 0.3078909046115054,
+      "lpips": 0.2168254256248474,
+      "observed_psnr": 17.503292780810725,
+      "complement_psnr": 17.047038086476327,
+      "plane_support": 0.9989013671875
+    },
+    {
+      "case": "0030_0032_0031",
+      "source": "datasets/stereo_survey/drone_dataset_sheffield_park_1/0030.jpg",
+      "target": "0031.jpg",
+      "target_sha256": "8d6130002f4dc8466c9da7cd71e5afa526f621dcba674f03316ea9599bc4612b",
+      "method": "mapanything_median",
+      "psnr": 21.382968714042754,
+      "ssim": 0.4327796891854005,
+      "lpips": 0.14454545080661774,
+      "observed_psnr": 21.38931278845414,
+      "complement_psnr": 19.848747724477903,
+      "plane_support": 0.9965667724609375
+    },
+    {
+      "case": "0040_0042_0041",
+      "source": "datasets/stereo_survey/drone_dataset_sheffield_park_1/0040.jpg",
+      "target": "0041.jpg",
+      "target_sha256": "8613141f1a53c9f58f886047f455a9e619eef77ac76622b6b1fcf8ce08233e7f",
+      "method": "mapanything_median",
+      "psnr": 18.793258293838733,
+      "ssim": 0.3410293894233347,
+      "lpips": 0.20098957419395447,
+      "observed_psnr": 18.775845626432588,
+      "complement_psnr": 21.688548900402722,
+      "plane_support": 0.9918111165364584
+    },
+    {
+      "case": "0050_0052_0051",
+      "source": "datasets/stereo_survey/drone_dataset_sheffield_park_1/0050.jpg",
+      "target": "0051.jpg",
+      "target_sha256": "48617db21695b447e87d2cab24be9df8caf19f98f6e4cc0a6bad88b5c55c9f87",
+      "method": "mapanything_median",
+      "psnr": 12.292590370527066,
+      "ssim": 0.20813795469554663,
+      "lpips": 0.5315168499946594,
+      "observed_psnr": 12.372882930225039,
+      "complement_psnr": 11.802036736740178,
+      "plane_support": 0.8671620686848959
+    },
+    {
+      "case": "0060_0062_0061",
+      "source": "datasets/stereo_survey/drone_dataset_sheffield_park_1/0060.jpg",
+      "target": "0061.jpg",
+      "target_sha256": "5439dc6a3225291ded728dd33ca6f1c8c80046966775709bd1066610b5c0829b",
+      "method": "mapanything_median",
+      "psnr": 20.86789649100014,
+      "ssim": 0.3837354530325465,
+      "lpips": 0.16753840446472168,
+      "observed_psnr": 20.930556273056673,
+      "complement_psnr": 14.71697470000452,
+      "plane_support": 0.9954325358072916
+    },
+    {
+      "case": "0070_0072_0071",
+      "source": "datasets/stereo_survey/drone_dataset_sheffield_park_1/0070.jpg",
+      "target": "0071.jpg",
+      "target_sha256": "7975b645f6bf3253a12727c34b99185e2d23f8c4b8d39ae2764f5f2fdac3c0da",
+      "method": "mapanything_median",
+      "psnr": 23.77311325484903,
+      "ssim": 0.6830929456358669,
+      "lpips": 0.10450294613838196,
+      "observed_psnr": 23.79471510519853,
+      "complement_psnr": 18.6500791548596,
+      "plane_support": 0.997802734375
+    }
+  ],
+  "mean": {
+    "mapanything_median": {
+      "lpips": 0.24680340103805065,
+      "psnr": 18.745354896226477,
+      "ssim": 0.36470731565936143
+    }
+  }
+}

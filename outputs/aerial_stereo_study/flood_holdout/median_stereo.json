@@ -1,0 +1,67 @@
+{
+  "6332_6334_6333": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "a311c999f54a6007e30277356decfd8f1ff3c4d825d3372652d48edd5065f4f8"
+  },
+  "6433_6435_6434": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "9ea241ba638b2376fb3968fd07acd51fbc752347f88311d052c5c82bf902d8d5"
+  },
+  "6520_6522_6521": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "28f1758b39ecab89724424ed24e1961bee4418dce1c1a2c4bf727010840a65b8"
+  },
+  "6949_6951_6950": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "b783ebd0f9fa4c337e7c1d3a582079a8e58ce232481cded25c6f9dda509062d9"
+  },
+  "9110_9114_9112": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "01591c20c074f4b064edb41aebc0bc83e4892be19aab19cd14ca3abcd8e167ee"
+  }
+}

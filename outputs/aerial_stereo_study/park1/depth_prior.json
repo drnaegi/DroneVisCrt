@@ -1,0 +1,162 @@
+{
+  "0000_0002_0001": {
+    "fits": [
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.060423086507229606,
+          "altitude": 0.05431329354480062,
+          "mono_shape": 0.033377684258667745
+        }
+      },
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.06206459513569738,
+          "altitude": 0.056034246581962446,
+          "mono_shape": 0.026204693090754926
+        }
+      }
+    ],
+    "rgb_sha256": "b421d11af2152ba4370a5d3308015f73fa43c606ec1f9e9cbf2d9f82595d35d5"
+  },
+  "0010_0012_0011": {
+    "fits": [
+      {
+        "model": "plane",
+        "errors": {
+          "plane": 0.02072312475798826,
+          "altitude": 0.02065329154485637,
+          "mono_shape": 0.02065329154485637
+        }
+      },
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.02023364579743611,
+          "altitude": 0.02016342254687627,
+          "mono_shape": 0.012688383364185856
+        }
+      }
+    ],
+    "rgb_sha256": "1e9990b4c54626d2996eb25471239ff2d654b57a56aa3cdfb74c9bef60ec5e23"
+  },
+  "0020_0022_0021": {
+    "fits": [
+      {
+        "model": "plane",
+        "errors": {
+          "plane": 0.02476247381785397,
+          "altitude": 0.023458028067135612,
+          "mono_shape": 0.021205194952359653
+        }
+      },
+      {
+        "model": "plane",
+        "errors": {
+          "plane": 0.023495144702336837,
+          "altitude": 0.022143946789366667,
+          "mono_shape": 0.019291468309771777
+        }
+      }
+    ],
+    "rgb_sha256": "2efa08a73b7df3d499bb3bfa624d40a4ba711a55d6c0aeee00d9ebcc58884617"
+  },
+  "0030_0032_0031": {
+    "fits": [
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.04048005777466878,
+          "altitude": 0.03694833142024676,
+          "mono_shape": 0.03154003225209244
+        }
+      },
+      {
+        "model": "plane",
+        "errors": {
+          "plane": 0.04106737825531666,
+          "altitude": 0.03794213200289489,
+          "mono_shape": 0.03698699916245758
+        }
+      }
+    ],
+    "rgb_sha256": "29ea0af5e7e02b6d5af9be8ba2d4a3d6333cf865ad491ef2bb5b83d82af3f6d2"
+  },
+  "0040_0042_0041": {
+    "fits": [
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.031182463649100777,
+          "altitude": 0.03013469406347656,
+          "mono_shape": 0.015014013362266635
+        }
+      },
+      {
+        "model": "plane",
+        "errors": {
+          "plane": 0.03126853169354876,
+          "altitude": 0.029978701455256433,
+          "mono_shape": 0.029978701455256433
+        }
+      }
+    ],
+    "rgb_sha256": "06e4dbb76a885f1978f845c42f733696dcb25bfc0c56647b343c3e01d097331c"
+  },
+  "0050_0052_0051": {
+    "fits": [
+      {
+        "model": "plane",
+        "errors": {}
+      },
+      {
+        "model": "plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "a400c7ca2ed2a78c0cb9eefe43090c222e8fdf9e7438b3e5d79bcf6e7e92a478"
+  },
+  "0060_0062_0061": {
+    "fits": [
+      {
+        "model": "plane",
+        "errors": {
+          "plane": 0.0167777342186834,
+          "altitude": 0.016740191495836866,
+          "mono_shape": 0.016662996079384453
+        }
+      },
+      {
+        "model": "plane",
+        "errors": {
+          "plane": 0.016790115768155738,
+          "altitude": 0.016784319839184953,
+          "mono_shape": 0.015639217468132016
+        }
+      }
+    ],
+    "rgb_sha256": "a218c0b1d6a612f5558fda86af91a4dea902da78233cc4a9c95c382f1b870669"
+  },
+  "0070_0072_0071": {
+    "fits": [
+      {
+        "model": "plane",
+        "errors": {
+          "plane": 0.019256129737455115,
+          "altitude": 0.019035008662975538,
+          "mono_shape": 0.019086104269188275
+        }
+      },
+      {
+        "model": "plane",
+        "errors": {
+          "plane": 0.018817871798466692,
+          "altitude": 0.018594837590188134,
+          "mono_shape": 0.018594837590188134
+        }
+      }
+    ],
+    "rgb_sha256": "1a2b4ca518ae602a265e03746443bb7f84b112537a59418087a1d99e79b91531"
+  }
+}

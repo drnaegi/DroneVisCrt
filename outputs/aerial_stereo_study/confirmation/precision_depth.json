@@ -1,0 +1,98 @@
+{
+  "6384_6385_6383": {
+    "rgb_sha256": "f2c77e76c478d147440d0266f96fddc2f72f9165fd6a85534b4ffaccfa94de06",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.030367494843788034
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.028052614103745745
+      }
+    ],
+    "changed_fraction": 0.0
+  },
+  "6384_6385_6386": {
+    "rgb_sha256": "8b6b9bd7042e8fb3b93618e5410f303b86b946a532728734c9cfa57ded62c769",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.030367494843788034
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.028052614103745745
+      }
+    ],
+    "changed_fraction": 0.0
+  },
+  "6549_6548_6547": {
+    "rgb_sha256": "be37c478dd9cec670d7912abda9dfb2e2171352a69b3802bde5e42469ab74a51",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.029224090375231326
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.018103469844025413
+      }
+    ],
+    "changed_fraction": 0.0
+  },
+  "6549_6548_6550": {
+    "rgb_sha256": "717380368964f9bdb063604649ccf1ab57a384902b408033cbf4523268d5627e",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.029224090375231326
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.018103469844025413
+      }
+    ],
+    "changed_fraction": 0.0
+  },
+  "8956_8957_8955": {
+    "rgb_sha256": "ffa1c40354d9f4cb8db663a1917a3b3c1051bf1e35bf5b02431a1262a44f5f7c",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.012917665374225668
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.014890917598089328
+      }
+    ],
+    "changed_fraction": 0.0
+  },
+  "8956_8957_8958": {
+    "rgb_sha256": "d97b4b2e33ca54f5dfba246d81c7d779977b0cb25ccdb4ec87bcecfb1c3bbeb2",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.012917665374225668
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.014890917598089328
+      }
+    ],
+    "changed_fraction": 0.0
+  }
+}

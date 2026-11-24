@@ -1,0 +1,83 @@
+{
+  "6332_6334_6333": {
+    "fits": [
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.04710697580300825,
+          "altitude": 0.04228766229533832,
+          "mono_shape": 0.033288916445149024
+        }
+      },
+      {
+        "model": "plane",
+        "errors": {
+          "plane": 0.04828211501034228,
+          "altitude": 0.04347185612452112,
+          "mono_shape": 0.04347387634647976
+        }
+      }
+    ],
+    "rgb_sha256": "b5b15fb8d524f5d3ccb29a8f6c15aa67332cc99b43493391acb17c15f3acfdcf"
+  },
+  "6433_6435_6434": {
+    "fits": [
+      {
+        "model": "plane",
+        "errors": {}
+      },
+      {
+        "model": "plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "ddcceb52e4da1d8ef889db0eb59e7fecdb24abaf4b4705c55ee7130b187a4986"
+  },
+  "6520_6522_6521": {
+    "fits": [
+      {
+        "model": "plane",
+        "errors": {}
+      },
+      {
+        "model": "plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "ca59440befc79a2bc0da25a78599067cfa85662013edb3b85cb1304758d7e0f9"
+  },
+  "6949_6951_6950": {
+    "fits": [
+      {
+        "model": "plane",
+        "errors": {}
+      },
+      {
+        "model": "plane",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "a2665266b76d8b9e5261c1aab600dd3d15793f912448e828d4c2e0fd5ec5c1d0"
+  },
+  "9110_9114_9112": {
+    "fits": [
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.06005451969085313,
+          "altitude": 0.05969013547359019,
+          "mono_shape": 0.026228639197489807
+        }
+      },
+      {
+        "model": "mono_shape",
+        "errors": {
+          "plane": 0.059723842213539054,
+          "altitude": 0.05912882286127508,
+          "mono_shape": 0.028585823179128805
+        }
+      }
+    ],
+    "rgb_sha256": "62a44e4c5fe974b8e6b9649178cbcc692e82ac510a9848b719e073c3a305417d"
+  }
+}

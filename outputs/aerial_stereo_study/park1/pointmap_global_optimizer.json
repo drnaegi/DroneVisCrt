@@ -1,0 +1,34 @@
+{
+  "0000_0002_0001": {
+    "rgb_sha256": "6de5bba784b24b54cfae31ad18d6dc7422c1f93fb4be53b43ed1217a9e6807c1",
+    "optimizer_seconds": 6.192406135844067
+  },
+  "0010_0012_0011": {
+    "rgb_sha256": "92f78d8d108a8771b80f0929bfc977cb601407a0ce8fddccb1be7ae42b76d6eb",
+    "optimizer_seconds": 6.015831511002034
+  },
+  "0020_0022_0021": {
+    "rgb_sha256": "34e7b72e5043172d8e48b88bb91a48642a0e86be55baa372f48520d6cbf6cc0c",
+    "optimizer_seconds": 6.170892040943727
+  },
+  "0030_0032_0031": {
+    "rgb_sha256": "1e380bade5a74336e470bc886e3f1918fed06eb86c687c4a02608baef93bba9d",
+    "optimizer_seconds": 5.937994624953717
+  },
+  "0040_0042_0041": {
+    "rgb_sha256": "d18fa6b845621aa0fcd72816245ef37126fdf006c61ee18c4470e5b9d7a0a1fb",
+    "optimizer_seconds": 5.958438559900969
+  },
+  "0050_0052_0051": {
+    "rgb_sha256": "423c8969883aef3fcae2fb3b23ab082863a6ba5ec77230f333dc25fc8c6d3812",
+    "optimizer_seconds": 6.095806956058368
+  },
+  "0060_0062_0061": {
+    "rgb_sha256": "753d8652e2c0053e923501b507920e7780e53220f2db1ba4313210cff7fee73e",
+    "optimizer_seconds": 5.818179371999577
+  },
+  "0070_0072_0071": {
+    "rgb_sha256": "2630c13ff77435f5ce730578e05b9ccd717f34cccd42581a5b819fd259bea581",
+    "optimizer_seconds": 6.361591343069449
+  }
+}

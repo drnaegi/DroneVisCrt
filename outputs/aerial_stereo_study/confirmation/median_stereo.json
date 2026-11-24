@@ -1,0 +1,80 @@
+{
+  "6384_6385_6383": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "96582d1bc932702f7d8b3d428358f031abbed8d79648b1ec15e6df1705201d90"
+  },
+  "6384_6385_6386": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "d364cde0e94ebb83791c3b62a845d8fc933a9f065f835b0fd303b9f796c2d27c"
+  },
+  "6549_6548_6547": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "f1f2f6d7fa37c0e9f89aae5b767a39faec6d6d8c1a8d091a5d6803ec0a660eb3"
+  },
+  "6549_6548_6550": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "05d375db58341de6e417a892e19f9bad5e277187481a93bec9c6ee000d306d5e"
+  },
+  "8956_8957_8955": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "129a9b588ffc70c59151a08e1456fed628ffb262ced75b36d7a0cd3d2bd04ea3"
+  },
+  "8956_8957_8958": {
+    "fits": [
+      {
+        "model": "median_stereo",
+        "errors": {}
+      },
+      {
+        "model": "median_stereo",
+        "errors": {}
+      }
+    ],
+    "rgb_sha256": "1d381d95e0cc6c0ae4b9f456f88c6aed5314a6655639f985d24c9167fcc835ed"
+  }
+}

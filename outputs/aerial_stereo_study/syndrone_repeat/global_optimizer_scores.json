@@ -1,0 +1,167 @@
+{
+  "rows": [
+    {
+      "case": "Town02_00749_20_Town02_00749_80_Town02_00749_50",
+      "source": "datasets/stereo_survey/syndrone_height_repeat/Town02/Town02_00749_20.jpg",
+      "target": "Town02_00749_50.jpg",
+      "target_sha256": "df66bb46f4ec35cd65038bc352c4e62ade72155f871aa6f46c185c7efd2aa813",
+      "method": "pointmap_global_optimizer",
+      "psnr": 16.97282824472123,
+      "ssim": 0.5568378688315198,
+      "lpips": 0.3585972487926483,
+      "observed_psnr": 17.357904771123916,
+      "complement_psnr": 12.49551772401637,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town02_01749_20_Town02_01749_80_Town02_01749_50",
+      "source": "datasets/stereo_survey/syndrone_height_repeat/Town02/Town02_01749_20.jpg",
+      "target": "Town02_01749_50.jpg",
+      "target_sha256": "8c92556e102ce2a1b2227f2026b1a04d5b9767a078a5c16e635c44cdd89a6ade",
+      "method": "pointmap_global_optimizer",
+      "psnr": 15.420563435895538,
+      "ssim": 0.5066952520611877,
+      "lpips": 0.3660956025123596,
+      "observed_psnr": 15.778895651792455,
+      "complement_psnr": 11.133501165433534,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town02_02749_20_Town02_02749_80_Town02_02749_50",
+      "source": "datasets/stereo_survey/syndrone_height_repeat/Town02/Town02_02749_20.jpg",
+      "target": "Town02_02749_50.jpg",
+      "target_sha256": "53489f81dc118d2aad41307e750e597a07bfebc3dd156c7720ceeadf327bf485",
+      "method": "pointmap_global_optimizer",
+      "psnr": 14.255717977209116,
+      "ssim": 0.3505369352854979,
+      "lpips": 0.40524300932884216,
+      "observed_psnr": 14.672953665037667,
+      "complement_psnr": 9.561594282183453,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town05_00749_20_Town05_00749_80_Town05_00749_50",
+      "source": "datasets/stereo_survey/syndrone_height_repeat/Town05/Town05_00749_20.jpg",
+      "target": "Town05_00749_50.jpg",
+      "target_sha256": "7f3020a46309dc66b8ce303daced6de02860d1eb644cfb2fa069e3d8e7b6515f",
+      "method": "pointmap_global_optimizer",
+      "psnr": 14.424336994476658,
+      "ssim": 0.44107339073822377,
+      "lpips": 0.35973095893859863,
+      "observed_psnr": 14.649600076458498,
+      "complement_psnr": 11.25521710726208,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town05_01749_20_Town05_01749_80_Town05_01749_50",
+      "source": "datasets/stereo_survey/syndrone_height_repeat/Town05/Town05_01749_20.jpg",
+      "target": "Town05_01749_50.jpg",
+      "target_sha256": "c88787a2a0d8875ec4c8f01942b1e8dd96d009d5db6ff78f5298438241ea1cb9",
+      "method": "pointmap_global_optimizer",
+      "psnr": 15.237572035239106,
+      "ssim": 0.41864085339338314,
+      "lpips": 0.4049760401248932,
+      "observed_psnr": 15.358641710352627,
+      "complement_psnr": 13.238872730284239,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town05_02749_20_Town05_02749_80_Town05_02749_50",
+      "source": "datasets/stereo_survey/syndrone_height_repeat/Town05/Town05_02749_20.jpg",
+      "target": "Town05_02749_50.jpg",
+      "target_sha256": "f94ec186f5e4ff57e789bf6f0b306f13c41a768d9b4d8bfc7524e9c29b250eb4",
+      "method": "pointmap_global_optimizer",
+      "psnr": 16.80805054129083,
+      "ssim": 0.4792378536310438,
+      "lpips": 0.2671560049057007,
+      "observed_psnr": 17.423460994740566,
+      "complement_psnr": 11.00042772997046,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town06_00749_20_Town06_00749_80_Town06_00749_50",
+      "source": "datasets/stereo_survey/syndrone_height_repeat/Town06/Town06_00749_20.jpg",
+      "target": "Town06_00749_50.jpg",
+      "target_sha256": "af5fc7bac2ac529ae109bdacd256556ccd7ce5f2da846e51cccb75b485739909",
+      "method": "pointmap_global_optimizer",
+      "psnr": 16.908183294926737,
+      "ssim": 0.3948262296940537,
+      "lpips": 0.35243186354637146,
+      "observed_psnr": 17.00873462841151,
+      "complement_psnr": 15.186484437033378,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town06_01749_20_Town06_01749_80_Town06_01749_50",
+      "source": "datasets/stereo_survey/syndrone_height_repeat/Town06/Town06_01749_20.jpg",
+      "target": "Town06_01749_50.jpg",
+      "target_sha256": "e3a47547a3fcc79bbbb2b5e01c8be63263a3ba21c6d8bcb9bf988fbab4e1cd36",
+      "method": "pointmap_global_optimizer",
+      "psnr": 20.386426749199785,
+      "ssim": 0.6250918835389273,
+      "lpips": 0.2674501836299896,
+      "observed_psnr": 20.98562050095062,
+      "complement_psnr": 14.658227211051916,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town06_02749_20_Town06_02749_80_Town06_02749_50",
+      "source": "datasets/stereo_survey/syndrone_height_repeat/Town06/Town06_02749_20.jpg",
+      "target": "Town06_02749_50.jpg",
+      "target_sha256": "3f6bcead9b146293af7406bd409b2a0d60aa769bf3b3da49f3847f6c6ba556a7",
+      "method": "pointmap_global_optimizer",
+      "psnr": 17.607638250553798,
+      "ssim": 0.5181366836814507,
+      "lpips": 0.2999563217163086,
+      "observed_psnr": 18.106060102584223,
+      "complement_psnr": 12.416122822238451,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town10HD_00749_20_Town10HD_00749_80_Town10HD_00749_50",
+      "source": "datasets/stereo_survey/syndrone_height_repeat/Town10HD/Town10HD_00749_20.jpg",
+      "target": "Town10HD_00749_50.jpg",
+      "target_sha256": "77ffdfd9fdf8320aba6aeede8791e66e994b3da0bbe9175cb2c2c8dd67166441",
+      "method": "pointmap_global_optimizer",
+      "psnr": 14.247867485315503,
+      "ssim": 0.4062362853281289,
+      "lpips": 0.3332452178001404,
+      "observed_psnr": 14.201866342426142,
+      "complement_psnr": 15.362475669093332,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town10HD_01749_20_Town10HD_01749_80_Town10HD_01749_50",
+      "source": "datasets/stereo_survey/syndrone_height_repeat/Town10HD/Town10HD_01749_20.jpg",
+      "target": "Town10HD_01749_50.jpg",
+      "target_sha256": "f57b8d2d3a4648baf049350f62f78ea43baf8f68d9dfebb1c62be58febb55c90",
+      "method": "pointmap_global_optimizer",
+      "psnr": 16.6912813724638,
+      "ssim": 0.40924127684748196,
+      "lpips": 0.41593801975250244,
+      "observed_psnr": 16.84445146211372,
+      "complement_psnr": 14.294137807346177,
+      "plane_support": 0.9550713433159722
+    },
+    {
+      "case": "Town10HD_02749_20_Town10HD_02749_80_Town10HD_02749_50",
+      "source": "datasets/stereo_survey/syndrone_height_repeat/Town10HD/Town10HD_02749_20.jpg",
+      "target": "Town10HD_02749_50.jpg",
+      "target_sha256": "cdfe78f6051a2f7aae76ea181f61321bfac35eb5706121fbce9e51f7529b8edf",
+      "method": "pointmap_global_optimizer",
+      "psnr": 17.880332747452247,
+      "ssim": 0.43862127138999746,
+      "lpips": 0.33269983530044556,
+      "observed_psnr": 17.953466914350212,
+      "complement_psnr": 16.561022431349667,
+      "plane_support": 0.9550713433159722
+    }
+  ],
+  "mean": {
+    "pointmap_global_optimizer": {
+      "lpips": 0.34696002552906674,
+      "psnr": 16.403399927395366,
+      "ssim": 0.46209798203507463
+    }
+  }
+}

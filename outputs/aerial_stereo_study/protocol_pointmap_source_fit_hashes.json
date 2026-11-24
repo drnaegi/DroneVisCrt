@@ -1,0 +1,9 @@
+{
+  "outputs/aerial_stereo_study/protocol_pointmap_source_fit.md": "dfdc11378cf955d5c585657c74135bb2a674ecd29563b026c500d028fafd069d",
+  "tools/benchmark_survey_pointmap_fit.py": "022c651a454a53f7ad7a0f52e05213ec22963ea489be92187d58d6b59565e9d6",
+  "relation_nvs/survey_pointmap_fit.py": "47b359e38f407725984e4f3048b7699953c3af2c45445ae74c5cbd2bf0210065",
+  "relation_nvs/stereo_transport.py": "460811d7fcd319dd64d63e66ee5775811c31b00466e5d87ad6d3941ce0a3c0aa",
+  "relation_nvs/survey_pointmap.py": "f9181fa5b1959965b1670e6aa736e91711e8dc8a6b6f30da52a7f8785f4d30d3",
+  "tools/prepare_mill19_rubble.py": "22b0997713f10f486b695ad0ab5806cfb65ebd3ddab99ee135ee302b130aa304",
+  "tools/acquire_syndrone_height_transfer.py": "e3da675c9b3f3ca9e275773768ff58091edd8c3b0a6740408c33247da6a1938c"
+}

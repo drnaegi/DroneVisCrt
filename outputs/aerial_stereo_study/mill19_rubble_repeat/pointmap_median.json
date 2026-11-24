@@ -1,0 +1,66 @@
+{
+  "000005_000002_000004": {
+    "alignment": [],
+    "rgb_sha256": "d8550a944024edab83b6a8f67f5041715a1f0fecc26df3421bf1b25c8ec23a92"
+  },
+  "000109_000107_000108": {
+    "alignment": [],
+    "rgb_sha256": "2b1056ed8782d6e1449dc88e1e7ae4b4248bbbd6bfc9f09cc7ed6c94193c266f"
+  },
+  "000235_000237_000236": {
+    "alignment": [],
+    "rgb_sha256": "4c35cc149723dc84ee5d00dacabc92847dbeef003f268355323cb577439e1cd0"
+  },
+  "000339_000341_000340": {
+    "alignment": [],
+    "rgb_sha256": "901f3816e9d05e4934db40139b15e578b6526e968b0c1ef9de230d12c4bf4886"
+  },
+  "000451_000453_000452": {
+    "alignment": [],
+    "rgb_sha256": "3d017375d164eee20d2844dde546b63a8dea6a41b7ff983053c2768d8c298747"
+  },
+  "000555_000557_000556": {
+    "alignment": [],
+    "rgb_sha256": "dc6082489bbab1e903f5f4935a5b0b1f00fc7d572e6cf5c1b495cfbf5f296dbd"
+  },
+  "000669_000667_000668": {
+    "alignment": [],
+    "rgb_sha256": "d2bd5de9c831a0bae82c9ffd4ea0892ab23cc5d72d76b28f885f404ed4a1f1c7"
+  },
+  "000771_000773_000772": {
+    "alignment": [],
+    "rgb_sha256": "a322b3d0d87aa38bbc710bcbbf5b07c87962a58811179641cec478a737ac54db"
+  },
+  "000885_000883_000884": {
+    "alignment": [],
+    "rgb_sha256": "b2945ee2b3a36ac797ecaeba4ecd7febdf1dcb709cd56aa92619432ea6f9e0b6"
+  },
+  "000995_000997_000996": {
+    "alignment": [],
+    "rgb_sha256": "da52d4b0fb57b2cf32f4ae084ff2b9d9fe4bd5cd41ffb36d9523e2ce4beef387"
+  },
+  "001109_001107_001108": {
+    "alignment": [],
+    "rgb_sha256": "92a4570561dc45f3c538cc06d50885ea2ddfc4bbedf6e33bfcd7b5381d3b8d13"
+  },
+  "001219_001221_001220": {
+    "alignment": [],
+    "rgb_sha256": "b113e911937069659b73fd9cbb4cb0f3915f0ffd8bc92681a94ce6769ec40c4f"
+  },
+  "001341_001339_001340": {
+    "alignment": [],
+    "rgb_sha256": "578b9eeee5c6aaaecc132ea69cbe269db2812be3367dd9cde1fafc2976f09d94"
+  },
+  "001451_001453_001452": {
+    "alignment": [],
+    "rgb_sha256": "49375c76678d45a3995a65a57d8e73cea102b53333a4bec6d21a1064ea625ed7"
+  },
+  "001563_001565_001564": {
+    "alignment": [],
+    "rgb_sha256": "0c8c6fc0ffe14107a6e83b5a64865f909c6f82b507fb91f6f7e462244b527ec0"
+  },
+  "001675_001677_001676": {
+    "alignment": [],
+    "rgb_sha256": "0dec2bf082be2ef10fc4c7c3d924e87e173ad11240dbd37a2f66696d3299f49f"
+  }
+}

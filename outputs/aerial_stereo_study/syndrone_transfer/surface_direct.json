@@ -1,0 +1,38 @@
+{
+  "Town02_00499_20_Town02_00499_80_Town02_00499_50": {
+    "rgb_sha256": "eda95588abca1b6c13c3bd7782899e88d283e25ed961b50dface1f7aaa4abc46"
+  },
+  "Town02_01499_20_Town02_01499_80_Town02_01499_50": {
+    "rgb_sha256": "14c76d28724fe454d410ac368039d5e42f3cf0664fe4ddc57b90b4eaaa1bef78"
+  },
+  "Town02_02499_20_Town02_02499_80_Town02_02499_50": {
+    "rgb_sha256": "ea30ac8f4644322e3e0f3d051a24e045335275bb3effd140b53dc25c7a695931"
+  },
+  "Town05_00499_20_Town05_00499_80_Town05_00499_50": {
+    "rgb_sha256": "d90880c67b281c7c05f80b41b48d64ebfc29103daffa7ae25ab0ec697fe778ec"
+  },
+  "Town05_01499_20_Town05_01499_80_Town05_01499_50": {
+    "rgb_sha256": "298bcacdd7a9d25b67e45ec52f1b2262904d7deaa36cf513d0d33ab947015efd"
+  },
+  "Town05_02499_20_Town05_02499_80_Town05_02499_50": {
+    "rgb_sha256": "6040067ff36be2aa6685a418cdec979140ddfd633ee928a5a4e7002da3021dc1"
+  },
+  "Town06_00499_20_Town06_00499_80_Town06_00499_50": {
+    "rgb_sha256": "65c31ea7948b854fd62b2e5d9085d8212fa7626d727a70fdad3d074a64eb6e68"
+  },
+  "Town06_01499_20_Town06_01499_80_Town06_01499_50": {
+    "rgb_sha256": "d1d21bde2d814c7d6a762832dcb5de98bf70a44d9cbc709e567151e464c870fc"
+  },
+  "Town06_02499_20_Town06_02499_80_Town06_02499_50": {
+    "rgb_sha256": "971d5b932ac186b3939d358f6eb96d2c16f001c604beca3f2a9bfea9d54a338e"
+  },
+  "Town10HD_00499_20_Town10HD_00499_80_Town10HD_00499_50": {
+    "rgb_sha256": "200d45130ef14ac4aff31052fe7a8e8ae52f33cfe2be40e010c2fccf30fb8fad"
+  },
+  "Town10HD_01499_20_Town10HD_01499_80_Town10HD_01499_50": {
+    "rgb_sha256": "bbd4aa7bd1756ab322b3020f3768aee3fd6a112d83efe0cb9c1d0e9a7f2c2209"
+  },
+  "Town10HD_02499_20_Town10HD_02499_80_Town10HD_02499_50": {
+    "rgb_sha256": "d5906347e06483cc1a81e4b2f22d9aad2de9f30a0497acb9e0eb84428ce961eb"
+  }
+}

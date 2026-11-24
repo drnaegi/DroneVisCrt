@@ -1,0 +1,98 @@
+{
+  "0000_0002_0001": {
+    "rgb_sha256": "453da0e82da8376853200b4bb95bbc261617c8ce53fc58a475efbf0690386b52",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.014027361867425847
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.009712414529613814
+      }
+    ],
+    "changed_fraction": 0.0030415852864583335
+  },
+  "0005_0007_0006": {
+    "rgb_sha256": "b2712caae074f85e6dab32e17d25f3c22d5c207b3070af0ac1fc663607d12920",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.45958685582313624
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.426709342950535
+      }
+    ],
+    "changed_fraction": 0.020060221354166668
+  },
+  "0010_0012_0011": {
+    "rgb_sha256": "7fa03193ab18c10944f5737dcc315652c629ef0386cc65578ff8da981480e7ac",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.20850770472797742
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.22184556392811447
+      }
+    ],
+    "changed_fraction": 0.020818074544270832
+  },
+  "0015_0017_0016": {
+    "rgb_sha256": "3a003bcb8023ec56cf68f33d6c7272ad44a69ad34022e6256a33f7131e64bd12",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      }
+    ],
+    "changed_fraction": 0.0308074951171875
+  },
+  "0020_0022_0021": {
+    "rgb_sha256": "b53c57c6dea67ed3ad1cf604f06c3ff65bb66c92a5ecef4a4a4c9aa5af88b2e9",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 1.3862943611198906
+      }
+    ],
+    "changed_fraction": 0.023686726888020832
+  },
+  "0025_0027_0026": {
+    "rgb_sha256": "c34f16d437b7c213e6b20f96d742174e043685aadba20b0bc8ffd50296b6ad65",
+    "fits": [
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.04824068307404904
+      },
+      {
+        "model": "precision",
+        "errors": {},
+        "prior_log_depth_sigma": 0.041834892087673416
+      }
+    ],
+    "changed_fraction": 0.015513102213541666
+  }
+}

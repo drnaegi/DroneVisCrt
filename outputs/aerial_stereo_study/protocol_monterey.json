@@ -1,0 +1,36 @@
+{
+  "created_utc": "2026-11-23T13:43:54.183039+00:00",
+  "primary": "depth_prior",
+  "baselines": [
+    "plane",
+    "flow_plane",
+    "stereo",
+    "transport",
+    "mvsplat_acid_256",
+    "mvsplat_acid_native",
+    "mvsplat_acid_native_plane_bg",
+    "median_stereo",
+    "median_plane",
+    "altitude"
+  ],
+  "secondary": [
+    "rectified",
+    "dual_match"
+  ],
+  "primary_metrics": [
+    "full_frame_psnr",
+    "full_frame_ssim",
+    "full_frame_lpips_alex"
+  ],
+  "weighting": "All eligible targets in one flight, equal target weights. No pooled flight-level CI.",
+  "eligibility": "Chronological centers starting at index 2, radius 2, stride 18, height >= 5 m, pitch <= -68 deg in all three files.",
+  "inputs": "Exactly two context RGBs and three poses, source-only camera calibration. Target RGB opened at evaluation only (metadata read during acquisition).",
+  "files": {
+    "relation_nvs/stereo_transport.py": "d44dda44cd0d58ca7d1ecdaf4903e5c9d8ceb554e37cb6e6f0af18be00204220",
+    "relation_nvs/survey_flow.py": "94f075b127587a126e026f740d0ce559eb80471c802b0e5687c20dd2680559e4",
+    "tools/benchmark_survey_depth_prior.py": "4fb861b7048f7caece8de3d6715d8a41f57e3b5cd0837f6bf9d1fadb4914c6b0",
+    "tools/benchmark_survey_mvsplat.py": "561fbb54150de705ffa59cccada89f97b180b42ac2bd64d783bd305d38d3f091",
+    "tools/benchmark_stereo_transport.py": "4245c4ec2edd70d348e27a2e6b8e1544e581062f1ef14a4e41cbfc9d4350d8b1",
+    "tools/acquire_stereo_survey.py": "cf669b2369118a8b40ebe438a9a44f369e0b02dd84a2816c70c706a798f58237"
+  }
+}

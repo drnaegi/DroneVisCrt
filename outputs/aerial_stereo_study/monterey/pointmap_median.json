@@ -1,0 +1,62 @@
+{
+  "0000_0004_0002": {
+    "alignment": [],
+    "rgb_sha256": "0a802828ff844ef7ae1b9da9137521ea1bf0dce1c63f99bf4814befefd8ce690"
+  },
+  "0018_0022_0020": {
+    "alignment": [],
+    "rgb_sha256": "97a871d9e2a1c0636f5f13d669efd8fb0522e55614c2424416f07aed6b22ae7d"
+  },
+  "0036_0040_0038": {
+    "alignment": [],
+    "rgb_sha256": "0601764db1c51ae1157d9a3fdb78427bdcbb1dd407d4a2c00cfff057b492cc48"
+  },
+  "0054_0058_0056": {
+    "alignment": [],
+    "rgb_sha256": "4980f1e7ceb3eeae1d9cd3740586979c55a0248b3e23a12ab495fef2fb64e0d7"
+  },
+  "0072_0076_0074": {
+    "alignment": [],
+    "rgb_sha256": "9c339fbf5b888078a1c51c4033ef291585c9e2a14cb63b7a3c4e62ff4602fd72"
+  },
+  "0090_0094_0092": {
+    "alignment": [],
+    "rgb_sha256": "c94d16bbf941f12387f6befdc5cd3f871fe40b4a01c7454b81c7f7f57a141c80"
+  },
+  "0108_0112_0110": {
+    "alignment": [],
+    "rgb_sha256": "aeeb334ad006e35062e40c94d7107ba967befddbede5877f79d8916890f33b12"
+  },
+  "0126_0130_0128": {
+    "alignment": [],
+    "rgb_sha256": "da7f5604bb5b5e6289ce8cd0db9f163d4691bd0f7e41eea7a3da8da4e1d1bacf"
+  },
+  "0144_0148_0146": {
+    "alignment": [],
+    "rgb_sha256": "b9ce71301ace78d0b70657bd70b5f17746221a9f25c569bf4de9b2d4bf0de136"
+  },
+  "0162_0166_0164": {
+    "alignment": [],
+    "rgb_sha256": "88af774ac11b83380ccec3e02b2f36c246f4afa5815409c0fe02e34863c9595f"
+  },
+  "0180_0184_0182": {
+    "alignment": [],
+    "rgb_sha256": "62d7d64ab399cbd1a406f15503089a065866c764e9ddd725b1f6f1d2088069cb"
+  },
+  "0198_0202_0200": {
+    "alignment": [],
+    "rgb_sha256": "417e1d726d12b84ec727690ddf26a3f0b0eca3d62d0bfd86cd4e4a5f2d8cba4d"
+  },
+  "0216_0220_0218": {
+    "alignment": [],
+    "rgb_sha256": "dd8a4804ec6be16cb2c34e3e309440641394f6ba07b0f48a606a822dccb160c9"
+  },
+  "0234_0238_0236": {
+    "alignment": [],
+    "rgb_sha256": "a7ec907ddf031662d0186990996ee01d1e59171ccb710eb225cdbeeb029a4df7"
+  },
+  "0252_0256_0254": {
+    "alignment": [],
+    "rgb_sha256": "3a196b15e49698bb46557fbed29471340abc6ac56ebb0e8442674c0ff565786d"
+  }
+}
